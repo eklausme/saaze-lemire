@@ -1,0 +1,24 @@
+---
+date: "2018-06-29 12:00:00"
+title: "Science and Technology links (June 29th, 2018)"
+---
+
+
+
+1. [Hogarth imagines that artificial intelligence (AI) could progress much faster than we might anticipate due to what he calls &ldquo;AI nationalism&rdquo;](https://www.ianhogarth.com/blog/2018/6/13/ai-nationalism):<br/>
+
+> I believe that the current government spending on AI is tiny compared to the investment we will see as they come to realise what is at stake. What if rather than spending ~£500 million of public money on AI over a number of years the UK spent something closer to its annual defence budget of £45 billion?
+
+1. This year alone, the game Pokemon Go made 1.1 billion dollars in revenues. That is a lot of money, but another game called [Fortnite made even more: 1.2 billion dollars](https://www.recode.net/2018/6/26/17502072/fortnite-revenue-game-growth-318-million). On the whole [the videogame industry is much larger than the movie industry](http://www.kfvs12.com/story/31140647/who-rules-the-entertainment-industry). The Grand Theft Auto V made six billion dollars, more than any movie ever made.
+1. Today, in Canada, around 15% of all college-level course enrolments are online. A report finds that not only do students enjoy studying at any place, but [they also crave continuous enrolment and accelerated programs](https://www.tonybates.ca/2018/06/26/what-do-online-college-students-want-and-like/). Online education is less about reaching far away students, as there are campus colleges nearly everywhere, and more about reinventing time and increasing student productivity.
+1. [Old female mice treated with a specific class of antibodies live 9% longer](https://www.nature.com/articles/s41467-018-04805-5) according to an article in Nature. It is interesting for a few reasons. One of them is that the sizeable life extension happens with mice that are already old. It is obviously much easier to make mice live longer if you intervene when they are still young. Another reason it is interesting is that it only works with females. Sex differences with respect to longevity is a fascinating topic. Though most animals have some sex differences with respect to longevity, [human beings are the only known species where one gender (female) has a clear cut longevity advantage](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4932837/). The difference is huge: in the U.S. life expectancy is 77 years for males and 82 years for females. In Canada, life expectancy is 80 and 84. So we are talking about a difference of between 4 and 6 years. I don&rsquo;t think we know why there is such a difference and any explanation would need to take into account the fact that it is a feature unique to human beings. It is not uncommon however for life-extending therapies to be gender specific.
+1. Naked mole rats are among the rare mammals that &ldquo;do not age&rdquo; (meaning that their rate of death does not increase with age). They are also largely immune to cancer. [A recent article shows that they have more efficient gene repair abilities than normal mice](http://www.aging-us.com/article/101482/text).
+1. The Fermi paradox is the idea that intelligent life elsewhere in the universe is likely, yet we don&rsquo;t see any trace of it. Sandberg et al. argues that Fermi was wrong: [intelligent life elsewhere in the universe is not likely](https://arxiv.org/pdf/1806.02404.pdf). We are probably alone. 
+1. It is believed that age-related arthritis is caused by cell senescence. [UNITY, a company funded in part by Jeff Bezos (Amazon), is starting clinical trials to wipe out senescent cells](http://ir.unitybiotechnology.com/news-releases/news-release-details/unity-biotechnology-inc-announces-first-patient-treated-ubx0101). Currently, there is little that can be done to reverse arthritis. You can go for joint replacement, but it is invasive and only works for major joints.
+1. Hanley, Bains and Church argue that [we should not attempt to prevent medical self-experimentation](https://www.liebertpub.com/doi/abs/10.1089/rej.2018.2059):<br/>
+
+> We conclude that self-experimenters should not have attempts made to terminate them, bar them from use of facilities, nor be barred from using themselves or their tissues except in exceptional circumstances. Organizational uncertainty over the ethical and regulatory status of self-experimentation, and resulting fear of consequences is unjustified and may be blocking a route to human experiments that practicing scientists widely consider appropriate, and which historical precedent had shown is valuable.
+
+1. In an article published by Nature, [Wang et al. find support for the theory that aging is caused by a &ldquo;quasi-program&rdquo; as opposed to the accumulation of damage](https://www.nature.com/articles/s41514-018-0025-3).
+
+

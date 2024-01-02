@@ -1,0 +1,25 @@
+#!/bin/bash
+# Deploy Daniel Lemire's blog, assuming static build is in /tmp/build
+# Elmar Klausmeier, 16-Dec-2023
+
+SAAZEROOT=/home/klm/php/saaze-lemire
+DOCROOT=/srv/http/lemire
+
+errorExit() {
+	echo $1
+	exit 1
+}
+
+[ -d $DOCROOT ] && rm -rf $DOCROOT
+[ -d /tmp/build ] || errorExit "No build directory in /tmp"
+
+cd /tmp/build
+pagefind -s . --exclude-selectors aside --exclude-selectors footer
+
+cd /tmp
+mv /tmp/build $DOCROOT
+
+cd $DOCROOT
+ln -s $SAAZEROOT/public/jscss
+
+

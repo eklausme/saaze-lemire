@@ -1,0 +1,24 @@
+#!/bin/bash
+# Fetch all blog posts from lemire.me via curl:
+# - Each author page fetches 20 blog posts, except possibly the last one
+# - Wait a little to not overflow the webserver with requests
+#
+# Elmar Klausmeier, 12-Dec-2023
+# Elmar Klausmeier, 31-Dec-2023
+
+curl https://lemire.me/blog/author/lemire/ -o /tmp/lemire/b1.html
+for i in `seq 2 112`; do
+	curl https://lemire.me/blog/author/lemire/page/$i/ -o /tmp/lemire/b$i.html
+	sleep 2
+done
+
+curl https://lemire.me/en/ -o /tmp/lemire/home-page.html
+
+for i in a-short-history-of-technology about-me book-recommendations cognitive-biases interviews-and-talks	\
+	my-bets my-favorite-articles favorite-quotes my-sayings predictions privacy-policy	\
+	recommended-video-games terms-of-use rules-to-write-a-good-research-paper;
+do
+	curl https://lemire.me/blog/$i/ -o /tmp/lemire/$i.html
+	sleep 2
+done
+

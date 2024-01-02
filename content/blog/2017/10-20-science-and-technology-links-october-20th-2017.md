@@ -1,0 +1,51 @@
+---
+date: "2017-10-20 12:00:00"
+title: "Science and Technology links (October 20th, 2017)"
+---
+
+
+
+John Carmack is a famous game designer. In a recent interview, he invited programmers to [shy away from trying to build more realistic games in virtual reality](http://nwn.blogs.com/nwn/2017/10/carmack-oculus-moores-law-3d-vr-ulta-realism.html), because he expects that hardware capabilities will not keep up. 
+
+[Fraction of Americans who are obese: 36.5%](https://www.cdc.gov/obesity/data/adult.html). And it keeps on rising.
+
+Brian Wansink is a famous Cornell professor who works on nutrition and gets [cited thousands of times](https://scholar.google.ca/citations?user=5yV3t8oAAAAJ&#038;hl=fr&#038;oi=ao) per year in academic journals. Obviously, his fellow researchers think very highly of him. The American government is using his research to set policy. Is that warranted? He recently published a paper that might be used to justify interventions on kids, there is just one little problem&hellip; [in his own words](https://www.buzzfeed.com/stephaniemlee/who-really-ate-the-apples-though):
+
+> We made a mistake in the age group we described in the JAMA article. We mistakenly reported children ranging from 8 to 11 years old; however, the children were actually 3 to 5 years old
+
+
+Doing good research, as any scientist will tell you, requires lots of attention to details, even small details. We all make mistakes, but we also all have to be careful. Getting confused by such a large margin regarding the age of the participants does not seem like a small mistake, however. It is the second time that Wansink makes this same mistake, it also happened in 2012. There are currently 50 misconduct allegations against Wansink, three of his papers have been retracted. A total of 150 statistical mistakes were found in just one of his papers. [I covered the Wansink case earlier this year, predicting that Cornell would not fire him](/lemire/blog/2017/03/31/science-and-technology-links-march-30-2017/). His laboratory is still running. [You can read extensive reports on the incredible amount of fraud involved](https://www.buzzfeed.com/stephaniemlee/who-really-ate-the-apples-though). [Wansink&rsquo;s Wikipedia page is rather dismissive of the problems](https://en.m.wikipedia.org/wiki/Brian_Wansink). If you think I am being hard, [go read Gelman&rsquo;s take on the issue](http://andrewgelman.com/2017/04/06/dear-cornell-university-public-relations-office/).
+
+Amy Cuddy was a professor at Harvard University who became famous for her &ldquo;power poses&rdquo; theory. [She has been cited thousands and thousands of times in research articles](https://scholar.google.ca/citations?user=1kdjewoAAAAJ&#038;hl=fr&#038;oi=ao). Sadly, her work could not be reproduced. Once under scrutiny, her work came apart: not only could it not be reproduced, but it also seems that the initial evidence, even when set in the best light, was flimsy. Her statistical analysis makes little sense. And she defended it. The New York Times has a piece of her that [represents her as a victim](https://mobile.nytimes.com/2017/10/18/magazine/when-the-revolution-came-for-amy-cuddy.html). The narrative is that while it was once ok to publish work without any expectation that others could reproduce it or with strong statistical analysis, the rules changed suddenly, and she was a victim of this change. I have to disagree with this narrative. It has never been &ldquo;ok&rdquo; in science for others to fail to reproduce your work. Feynman wrote back in the 1970s:
+
+> We&rsquo;ve learned from experience that the truth will come out. Other experimenters will repeat your experiment and find out whether you were wrong or right. (&hellip;) And, although you may gain some temporary fame and excitement, you will not gain a good reputation as a scientist if you haven&rsquo;t tried to be very careful in this kind of work. And it&rsquo;s this type of integrity, this kind of care not to fool yourself, that is missing to a large extent (&hellip;)
+
+
+ Though I would agree that anything resembling an ad hominem attack is outside the realm of science, gaining fame by taking down the results of someone else is entirely fair game. It is a good thing that we reward people who take a chance and try to be critical of the established theories. In fact, that is what science is all about. It is not a secondary pursuit that some ill-intentioned people choose to pursue. It is the very nature of science to take what you are told and to re-examine it. The comparison between Wansink and Cuddy raises questions, however. Why is Wansink allowed to go on with massive funding while Amy Cuddy had to drop her Ivy League professorship? Wansink is an all-out fraud whereas Cuddy appears to have simply fooled herself. In my view, Cuddy could go on, saying &ldquo;we screwed up&rdquo;. Wansink should be banned from science. He has damned himself.
+
+While researching the Cuddy article, I ended up on Hacker News, and then on a [blog post](https://github.com/frankmcsherry/blog/blob/master/posts/2017-09-23.md) by Frank McSherry. It is a courageous blog post where McSherry takes apart some of the best papers from database research (including the best paper from SIGMOD 2017) and shows that you cannot trust their results, that they present their (often overengineered) approaches in a good light when a simple baseline would show that their results are not very good. Though McSherry chose to go after VLDB and SIGMOD (some of the best venues for database research), you should not conclude that things get better at lesser venues. Maybe it is a coÃ¯ncidence but in the last week, I reviewed four submissions to journals, all of them proposing new, faster algorithms. Three of them did not even offer a benchmark. Because, apparently, it is good enough to argue that your algorithm is faster, and actually running it is just a waste of time&hellip; while the fourth one did include a benchmark, but by working backward from their results, one has to conclude that it takes 1,000 CPU cycles to add two numbers together. 
+
+[There has apparently been a very large decline in the number of flying insects](http://journals.plos.org/plosone/article?id=10.1371/journal.pone.0185809).
+
+[&ldquo;Across several metrics, organic agriculture actually proves to be more harmful to the world&rsquo;s environment than conventional agriculture.&rdquo;](https://ourworldindata.org/is-organic-agriculture-better-for-the-environment)
+
+[Oddly, it appears that using small needles on your scalp can help you grow more hair](https://www.ncbi.nlm.nih.gov/m/pubmed/29028377/). Microneedling is apparently a thing to help diminish wrinkles, and it seems that it works on your scalp too to grow more hair. I am somewhat skeptical.
+
+[Bloomberg has a nice article on Fanuc, the leading producer of industrial robots](https://www.bloomberg.com/news/features/2017-10-18/this-company-s-robots-are-making-everything-and-reshaping-the-world). They are crazily secretive but also massively successful. Indirectly, they make a lot of what we all buy, through the robots that they sell to China or Tesla.
+
+Not satisfied to have shown that they could beat the best human beings at Go, the [Deep Mind engineers now report that they can do so with software that teaches itself the game without any help](http://www.telegraph.co.uk/science/2017/10/18/alphago-zero-google-deepmind-supercomputer-learns-3000-years/). It plays against itself. This is a big deal because it opens the door for general solutions. Down this path is a machine that could learn to play just about any game, as long as it can play against itself. 
+
+Dyslexia is a common condition where people experience difficulty reading. [It appears that it may be caused by a defect in the eyes, as opposed to a problem in the brain](https://www.theguardian.com/society/2017/oct/18/dyslexia-scientists-claim-cause-of-condition-may-lie-in-the-eyes). This reminds us that we don&rsquo;t know what causes dyslexia.
+
+[Young blood appears to rejuvenate old kidneys](https://academic.oup.com/biomedgerontology/article-abstract/doi/10.1093/gerona/glx183/4524050/A-young-blood-environment-decreases-aging-of), in mice. This suggests that it would make sense for young people to receive organs donated by old people. It might also suggest that your blood keeps track of how old you are. Certainly, there is something in our blood that can tell our age, but if we were to change our blood, could be become more youthful? We just do not know, but we will, hopefully, find out within a decade or so.
+
+It appears that there are [serious methodological errors](http://marginalrevolution.com/marginalrevolution/2017/10/pikettys-data-reliable.html) in Piketty&rsquo;s famous book &ldquo;Capital in the Twenty-First Century&rdquo;. It seems, in fact, that the data is pretty much useless. So maybe the book is best read as a very long opinion piece that tells us that economic inequality is rising fast.
+
+Our neurons are covered and protected by a myelin layer, basically a layer of fat. When it erodes, we are in trouble. [It appears that a common allergy drug could repair our myelin in some cases](http://www.thelancet.com/journals/lancet/article/PIIS0140-6736(17)32346-2/fulltext?elsca1=tlxpr).
+
+Cancer cells are characterized by the fact that they produce energy using fermentation, which turns sugar into energy somewhat inefficiently. [It now seems that an abundance of sugar promotes fermentation and thus, maybe, cancer.](https://www.nature.com/articles/s41467-017-01019-z)
+
+The CEO of the largest software hosting site (GitHub) thinks that [programmers may be replaced by robots in the foreseeable future](http://www.businessinsider.com/github-ceo-wanstrath-says-automation-will-replace-software-coding-2017-10). I presume that he thinks his company will supervise the software that replaces programmers?
+
+Caloric restriction extends lifespan in most species. [It appears that ketone bodies would mimic this effect](https://www.ncbi.nlm.nih.gov/m/pubmed/28371201/). Ketone bodies are normally produced in our bodies when we go a long time without eating sugar. It seems that ingesting ketone bodies from external sources might be an alternative to adopting a sugar-free diet.
+

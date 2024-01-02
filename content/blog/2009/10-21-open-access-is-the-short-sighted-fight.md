@@ -1,0 +1,18 @@
+---
+date: "2009-10-21 12:00:00"
+title: "Open Access is the short-sighted fight"
+---
+
+
+
+My colleague Stevan Harnad [thinks it is silly to boycott](http://openaccess.eprints.org/index.php?/archives/641-guid.html) for-profit journals. My ex-colleague Stephen Downes admits to being a boycotter, but he [claims not to be silly](https://halfanhour.blogspot.com/2009/10/on-open-access.html).
+
+Both of them are silly.
+
+- <img decoding="async" style="float:right; margin:2px" src="https://t1.gstatic.com/images?q=tbn:k4gVULeceLJI9M:http://farm1.static.flickr.com/136/322509433_45d6114bf3.jpg" alt />Stephen Downes has worked outside the realm of prestigious academic journals (so he says). He claims that his career suffered in the process. Yet, he became a Senior Research Officer at the National Research Council of Canada, despite lacking a Ph.D. He is world famous and a sought-after speaker. By many measures, including citations rate and publication output, he would rank in the first percentiles among academic researchers. __Stephen reminds me of a millionaire start-up owner who feels like a loser compared to real businessmen who wear business suits.__ (It is interesting to imagine Steven Downes in a business suit.)
+- <img decoding="async" style="float:right; margin:2px" src="https://t1.gstatic.com/images?q=tbn:slTpy8s8aZT4NM:http://upload.wikimedia.org/wikipedia/en/archive/6/6f/20050717013458!Stevan_Harnad.jpg" alt />Stevan Harnad is pointing out that transforming the publication business by creating new publication venues is too slow. Much faster, he thinks, to keep the current system, but have researchers post preprints of their work. That is much like telling [Woody Allen](https://en.wikipedia.org/wiki/Woody_Allen) to go work in Hollywood, while posting previews of his movies for free on the net. After all, reinventing Hollywood would take too long! But let us consider where we come from&hellip; We inherited a system from an era where it was unthinkable to print a journal with thousands of pages. The scarcity meant that publishing many papers was hard. Thus, the best researchers were the ones that published many papers. With electronic publication, we maintain the scarcity because it has become the basis of our prestige system. The step forward is embrace a culture of abundance. We must adopt Open Scholarship and drastically new models such as [author-centric science](/lemire/blog/2009/09/02/author-centric/). Stevan is missing the point of radically new initiatives such as [PLoS](https://en.wikipedia.org/wiki/Public_Library_of_Science) by objecting that its journals are not sufficiently prestigious. That is like objecting that blogging lacks prestige because anyone can write a blog. __While making papers available for free (Stevan&rsquo;s goal) is laudable, it will fall short of opening the scientific culture. __If scientists dismiss Open Access, it is because the academic culture rewards publication above all else, including readership. To go forward, we must stop rewarding researchers for merely &ldquo;publishing&rdquo;. After all, nobody rewards me for writing this blog post. My reward comes when people appreciate my blog. My incentive is to be interesting, not to publish. Science publishing needs to move to the same model. PLoS already applies this model with great success: they are working toward opening the culture, not merely giving free access to the content.
+
+
+<span style="border-collapse: collapse; font-family: arial,sans-serif; font-size: 13px; white-space: pre-wrap;"><br/>
+__Note:__ I am lucky enough to have had the pleasure of working with both Downes and Harnad. Because I like to live dangerously, I dare calling them silly, but do not follow my lead lightly.</span>
+

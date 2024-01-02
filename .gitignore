@@ -1,0 +1,9 @@
+/build
+/raw
+/public/hashover
+/cache/*
+!/cache/.gitkeep
+/vendor
+composer.lock
+composer.dev*
+.env

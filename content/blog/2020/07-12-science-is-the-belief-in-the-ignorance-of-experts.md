@@ -1,0 +1,53 @@
+---
+date: "2020-07-12 12:00:00"
+title: "Science is the belief in the ignorance of experts"
+---
+
+
+
+<em>Science is the belief in the ignorance of experts</em> said Richard Feynman. Feynman had a Nobel prize in physics. He was a remarquable educator: his lecture notes are still popular. He foresaw nanotechnology and quantum computing. He is credited with identifying the cause of the Space Shuttle Challenger disaster. [There is a beautiful talk by his daughter](https://youtu.be/GnSvy3nH7l0) and [there are many interviews with his sister who became a physicist herself](https://www.youtube.com/playlist?list=PLVV0r6CmEsFwoLHwaKDx9oOReqjwdUa9S). I read Feynman as a young adult and it has shaped my worldview ever since.
+
+Let me put the Feynman&rsquo;s quote in context:
+
+> Science alone of all the subjects contains within itself the lesson of the danger of belief in the infallibility of the greatest teachers in the preceding generation (&hellip;) When someone says, “Science teaches such and such,” he is using the word incorrectly. Science doesn’t teach anything; experience teaches it. If they say to you, “Science has shown such and such,” you might ask, “How does science show it? How did the scientists find out? How? What? Where?” It should not be “science has shown” but “this experiment, this effect, has shown.” And you have as much right as anyone else, upon hearing about the experiments–but be patient and listen to all the evidence–to judge whether a sensible conclusion has been arrived at. (&hellip;) The experts who are leading you may be wrong. (&hellip;) I think we live in an unscientific age in which almost all the buffeting of communications and television-words, books, and so on-are unscientific. As a result, there is a considerable amount of intellectual tyranny in the name of science.
+
+
+Many people, including people with a PhD and a career in research, miss Feynman&rsquo;s point. Let me decompose it.
+
+1. How do we know anything? The most common, age-old, approach is to acquire knowledge from a figure of authority or an expert. Your teacher, your mother, your boss. But these experts are routinely wrong, often in unexpected ways:
+
+- Back in 1955, experts and textbooks told you that human beings have 24 pairs of chromosomes, even though there were always 23 pairs. Admittedly, it can be hard to count chromosomes, but importantly, the consensus settled on the wrong value and it took 30 years for a challenge to arise.
+- Before the 1960s, [plate tectonics](https://en.wikipedia.org/wiki/Plate_tectonics) was often ridiculed. Fewer than 20% of geologists accepted the idea of continental drift in the early 1960 and [Pellegrini (2019)](https://link.springer.com/article/10.1007/s10838-018-9439-7) tells us that hardly any critic of the idea changed their mind (adopted continental drift). We collectively changed our mind because younger geologists adopted the continental drift theory.
+- In 1998, [the Nobel Memorial Prize in Economic Sciences recipient Paul Krugman predicted that the Internet would have a small effec](https://www.snopes.com/fact-check/paul-krugman-internets-effect-economy/)t (“The growth of the Internet will slow drastically (&hellip;) By 2005, it will become clear that the Internet’s impact on the economy has been no greater than the fax machine’s.”)
+- [Heinrich Hertz claimed that radio waves were of no use whatsoever](https://www.pcmag.com/news/six-things-you-didnt-know-about-heinrich-hertz).
+- [Orville Wright who literally invented the aeroplane said in 1908 that](http://www.smithsonianeducation.org/educators/lesson_plans/wright/flights_future.html) “No airship will ever fly from New York to Paris. That seems to me to be impossible. What limits the flight is the motor. No known motor can run at the requisite speed for four days without stopping, and you can’t be sure of finding the proper winds for soaring. ” In July 6, 1919, a British airship crossed the Atlantic. Lindbergh crossed the Atlantic in an aeroplane less than 20 years later after Orville&rsquo;s statement.
+- Scientists held on for years on the concept that space was filled with a substance called the ether even as there was no evidence for it. This belief was held up long after Einstein had proposed the far superior relativity theory. Albert Einstein’s relativity was repeatedly mocked and dismissed. Leading members of academia emphatically opposed his special relativity theory. In 1931, a book was published titled <i>Hundert Autoren gegen Einstein </i>(<i>Hundred Authors against Einstein</i>, Israel et al. 1931) featuring a many arguments seeking to invalidate Einstein work, despite the existence of multiple experimental validation in favour of Einstein’s theory. Without any experimental evidence, the ether would continue to be a popular concept well into the 1930s.
+
+1. Since the beginning of time, we have also given this process of knowledge-from-expertise physical forms. In modern day civilization, we have the peer-reviewed article, the professor at their university, the government scientist in a laboratory coat. In many ways, these people play the same social role as the tribe elder or the priest. The peer-reviewed article is like a sacred text.
+1. This pre-existing knowledge and its transmission is often called &ldquo;science&rdquo;. In such a context, anything can be a science: political science, social science, religious science, and so forth. But whether the knowledge is true or false, it may have little to do with science. It may even be that these institutions that pretend to be about science are unscientific. The fundamental defining characteristic of science, the one that Feynman explicitly identifies, is that we do not decide whether something is true or false based on authority but rather based on experience. If someone tells you that there are 24 pairs of chromosomes, you have a duty to ask &ldquo;how do they know?&rdquo;, &ldquo;how would I find out?&rdquo;.
+1. For science&hellip; It does not matter whether you are young, old. You can be rich or poor. You can be schooled or not. But you must listen, learn and be patient. In effect, you need to be a constructive skeptic. And you must question your own ideas with even more effort than you question other ideas.<br/>
+Paul Graham puts it well:
+
+> To be a successful scientist it&rsquo;s not enough just to be right. You have to be right when everyone else is wrong. Conventional-minded people can&rsquo;t do that.
+
+
+
+Interestingly, once you have appreciated science&rsquo;s true nature as defined by Feynman, you see that it is generally applicable and not limited to Physics. In fact, Feynman clearly believed that the idea of science was applicable to education, for example.
+
+Unfortunately, Feynman was correct. We live in an unscientific civilization. Science survives in niches.
+
+Here are a few unscientific behaviours that are frustratingly common:
+
+1. Teach science as a large set of facts and techniques. I claim that hardly any science at all gets taught in high school. You tell kids that matter is made of atoms which are made of small nucleus surrounded by electrons, at different energy levels. That was taught to one of my sons in high school. Then I asked &ldquo;how do the scientists know this?&rdquo; Blank stare. Science is not learning about the charge of the electron by reading a book. If that is all it were, it would be no different than pre-scientific knowledge. No. Science begins when you ask yourself how we can verify what is in the book. How should you teach science? You should essentially teach people to read or listen with constructive skepticism. If you are going to teach science, you must give it in a historical context: you must stress how our current knowledge is the accumulation of course corrections. You must stress how it is a work in progress.
+1. Receive science as a set of facts. We are sometimes given advice and told that it comes from &ldquo;the science&rdquo;, as if it settled anything. That is often no different that being told that the knowledge comes from &ldquo;the high priest himself&rdquo;. It is certainly a power play, but it is not science. When someone tells you that science is saying XYZ, you should always ask &ldquo;How do people know that XYZ is true?&rdquo; And as an answer, you cannot just be repeating their arguments: you must think for yourself. If you never come up with unexpected questions, you are not a scientist.
+1. &ldquo;I defer to the experts&rdquo; (said with pride). The definining saying of science should be that [nobody knows anything](https://claremontreviewofbooks.com/nobody-knows-anything/). Deferring to the expert is the defining characteristic of pre-scientific epistemology: doubting the expert is the way of science. Observe that there is a difference between listening to the experts (something Feynman advocated) and deferring to the experts. If your doctor tells you to take some pills, do listen! If you don&rsquo;t understand, do be patient. Don&rsquo;t throw out the expert advice. But don&rsquo;t be ruled by it either!
+
+
+Science may sound irrational when you spell it out as a doctrine of doubt. If you follow the path of science, you are going to be playing with ideas that are either objectively wrong, or socially wrong, at a much higher rate than if you just followed the experts. But, for scientists, genuine scientists, the goal is not to be right as often as possible. There is no contradiction between &ldquo;being a good scientist&rdquo; and &ldquo;being wrong&rdquo;. The goal is often to find what Peter Thiel might call &ldquo;secret truths&rdquo;. Everybody knew, at the beginning of the XXth century that it would take decades or centuries before one could fly in an airplane. You could make such a statement with full confidence, even after the Wright brothers had made their first demonstration. And many people of authority were doing just that. To uncover secret truths, you have to train yourself to ask more questions, to carry more doubts.
+
+[Rovelli wrote](https://www.amazon.ca/Helgoland-Making-Sense-Quantum-Revolution/dp/0593328884/) &ldquo;Not to fear rethinking the world is the power of science&rdquo;. Given that science is fundamentally subversive, how could it emerge and survive? I believe that scientific thinking is part of a broader ideology that gives its bearers an evolutionary edge. Simply put, societies that make room for science have an edge. They build and deploy better technology. They adapt more quickly to change.
+
+&nbsp;
+
+<iframe src="https://www.youtube.com/embed/0KmimDq4cSU" width="560" height="315" frameborder="0" allowfullscreen="allowfullscreen"></iframe>
+

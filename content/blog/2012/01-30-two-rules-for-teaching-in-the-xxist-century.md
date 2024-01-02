@@ -1,0 +1,61 @@
+---
+date: "2012-01-30 12:00:00"
+title: "Two rules for teaching in the XXIst century"
+---
+
+
+
+Education in the XX<sup>th</sup> century has been primarily industrial: organize the <del datetime="2012-01-27T13:58:46+00:00">workers</del>students in groups under the supervision of a <del datetime="2012-01-27T13:58:46+00:00">manager</del>teacher.
+
+We all have been in such systems for so long that we take it for granted. How else is anyone to learn? Maybe some can learn differently, but most can&rsquo;t because they are unmotivated and lazy, they lack the critical skills to differentiate right from wrong on their own and they can&rsquo;t assess their own level of expertise. At least, that is what I&rsquo;m told, but I think it is unfair.
+
+To me, this is like saying that we have to keep long-time prisoners in jail because they do not know how to organize themselves when given their freedom.
+
+Indeed, if students who went through years of schooling cannot learn on their own, if they cannot assess their own progress, and if they generally cannot organize themselves without supervision, schools bear part of the blame. We enroll students in supervised and regimented systems where they are constantly told what to do, constantly tested by others and where they have to follow rigid rules as to what they should learn. It is no surprise that many students cannot work on their own when they leave school. 
+
+There are a few broken individuals who will never become adults. They have to be kept in check all the time because they could not survive on their own. But if they constituted the essential part of the human race, we would have gone extinct a long time ago. Our ancestors had to be incredibly resilient because human beings spread throughout the globe like no other animal species.
+
+To put it bluntly, most people lack autonomy precisely because we have carefully beaten it out of them. I have two young kids and they are crazy. One of them is building a castle out of paper in his room. The project is huge and complicated and he has worked on it for days, on his own, without anyone telling him what to do. He made mistakes (which he explained to me) and he had to fix them. How often do schools let students embark on self-directed projects? Almost never. 
+
+My sons are not exceptional. Like other kids their age, they behave in unconventional ways, trying crazy things on their own, having crazy thoughts on their own. Eventually, with enough schooling, they will settle down and do as they are told in a more reliable manner. They will become very good at following directions.
+
+How good will they be at emulating someone like Steve Jobs, who repeatedly broke all rules? I fear for them that their sense of initiative and wonder will be killed by the time they finish their schooling. (Thankfully, I am a crazy dad with crazy ideas, so maybe I will mitigate the damage.)
+
+Hence, as a teacher, I reject the industrial model as much as I can. I believe that, in an ideal world, we would not need any teaching at all. There is hardly anything you can&rsquo;t learn through an apprenticeship. For example, if you just helped out Linus Torvalds for a couple of years, you could become an expert programmer. In fact, I suspect you would fare much better than if you just took programming classes.
+
+The problem with apprenticeship is that it scales poorly. How much patience will Linus Torvalds have for kids who hardly know anything about computers? How many could he coach? Would he want to have kids over at his house while he is coding?
+
+We still use the apprenticeship model in graduate school. But to accommodate most students, I still haven&rsquo;t thought of a better model than setting up classes. But should the classes be organized like factories with the teacher acting as a middle manager while students act as factory employees, executing tasks one after the other while we assess and time them? I think not. My teaching philosophy is simple: challenge the student, set him in motion, and provide a model. I try to be as far from the industrial model as I can, while remaining within the accepted boundaries of my job. I have two rules when it comes to teaching:
+
+- __Focus on open-ended assignments and exams__. Many professors are frustrated that students come in only for the grades. Probably because they focus on nice lectures and then prepare hastily some assignments. Turn this problem on its head! Focus on the assignments. If your students are not very autonomous &mdash; and they rarely are &mdash; give several long and challenging assignments (at least 4 or 5 a term). Do make sure however that they know where to get the information they need. Provide solved problems to help the weaker students.
+
+However, keep the assignments open ended. We all like to grade multiple choice questions, but they are a pedagogical atrocity. In life, there is rarely one best answer: assignments should reflect that. In some of my classes I use &ldquo;programming challenges&rdquo;: I make up some difficult problem and ask the students to find the best possible solution. Often times, there is no single idea solution, but multiple possibilities, all with different trade-offs. Quite often the students ask me to be more precise: I refuse. I tell my students to justify their answer. Over the years, I have been repeatedly impressed by the ingenuity of my students. Many of them are obviously smarter than I am.
+
+What about lecture and lecture notes? They are secondary. In most fields, the content, the information, is already out there. It has been organized several times over by very smart people. Books have been written on most topics. There is a growing set of great talks available on YouTube, Google Video and elsewhere. Your students do not need you to rehash the same content they can find elsewhere, sometimes in better form. Stop lecturing already! Just link to what is out there and encourage your students to find more using a search engine. Only produce content when you really cannot find the equivalent elsewhere. Please link to material beyond the grasp of most of your students: they need to know the limit of their knowledge.
+
+The famous software engineering guru Fred Brooks agrees with me:
+
+> 
+The primary job of the teacher is to make learning happen; that is a design task. Most of us learned most of what we know by what we did, not by what we heard or read. A corollary is that the careful designing of exercises, assignments, projects, even quizzes, makes more difference than the construction of lectures. 
+
+
+For my years as a student, I hardly remember the lectures. They were overwhelmingly boring. And I soon learned that even if a teacher was remarkably able and he could give me the impression that I understood everything&hellip; this impression was quickly falsified when I tried to work the material on my own.
+- __Be an authentic role model__. Knowing that someone ordinary, like your professor, has become a master of the course material means that you, the very-smart-student, can do the same. That&rsquo;s the power of emulation.
+
+When [Sebastian Thrun](https://en.wikipedia.org/wiki/Sebastian_Thrun) gave his open AI class at Stanford, tens of thousands of students enrolled. Sure enough, the Stanford badge played a role in the popularity of the course, but ultimately, it is Thrun himself, as a role model, that matters. He has now [left Stanford](http://blogs.reuters.com/felix-salmon/2012/01/23/udacity-and-the-future-of-online-universities/) to create his own independent organization ([Udacity](http://www.udacity.com/)). Thrun must be confident about his success since he left his tenured position at Stanford, reportedly because he cannot stand the regular (industrial-style) teaching required at Stanford. One upcoming course is &ldquo;programming a robotic car&rdquo;. I have no idea how good the course will be, but it will be motivating for students to attend the class of the world&rsquo;s top expert in the field of robotic car. 
+
+The status of the teacher as an expert has always been important. However, the ability of people like Thrun to reach thousands of people every year through his teaching means that there is less of a market for teachers who aren&rsquo;t impressive AI researchers.
+
+
+Unfortunately, as long as I teach within a university, there are a few things I am stuck with:
+
+- Deadlines: Some students are able to go through the material of a class in 4 weeks. Others would need 16 months. Alas, universities have settled on a fixed number of weeks that everyone must follow. If you complete the course faster, you&rsquo;ll still have to wait till the end of the term to get credit. If you need more time, you will have to make special arrangements. Of course, schools follow the factory model: we can&rsquo;t have workers come in and finish whenever they want. But outside an industrial setting, I think that deadlines are counterproductive. If I take a class in computing theory and end up proving that P is equal to NP, but I end up my paper a few weeks after the end of the course, I will still fail. Meanwhile, the good student who followed the rules but showed a total lack of initiative and original thinking will go home with a great grade. What do we reward and what do we punish? 
+- Grades: Grades are a very serious matter in schools. [Denis Rancourt](https://activistteacher.blogspot.com/), a top-notch tenured physicist at the University of Ottawa, [was fired after refusing to grade his students](/lemire/blog/archives/2009/01/13/must-a-professor-grade-his-students/). (He would give A+s to everyone.) Grades are effectively the quality control mechanism of schools, where students are the product. Somehow, we have totally integrated the idea that we could sum up an individual by a handful of letters. It sure makes managing people convenient! It all fits nicely in a spreadsheet. Of course, students have adapted by cheating. Schools have reacted by making cheating harder. But I cheated all the way through my undergraduate studies getting almost perfect score in all classes. How? I discovered a little trick: at the University of Toronto, all past year exams were available at the library. If you took time to study them, you soon found out that, at least in the hard sciences, a given professor would always use the same set of 10 to 20 questions, year after year. So all you had to do was to go to the library, study the questions, prepare them, and voilÃ ! An easy A. But it is all rather pointless. In theory, grades are used by employers to select the best students, but serious employers don&rsquo;t do this. We use grades to select the best candidates for graduate school, but I doubt there is a good correlation between grades as an undergraduate and research ability. I know two top-notch researchers who have admitted getting poor grades as undergraduates. For years, I have served on a government committee that awards post-doctoral fellowships: I am amazed at how poor the undergraduate grades are at predicting how well someone might do during his Ph.D. Conversely, I have seen many graduate students who had nearly perfect scores throughout their undergraduate studies who are totally unable to show even just a bit of initiative. They do well as long as you always give them precise directions. 
+
+
+__Credit__: Thanks to [Michiel van de Panne](http://www.cs.ubc.ca/~van/) for the reference to Brooks&rsquo; quote.
+
+__Further reading__: [Making universities obsolete](https://matt-welsh.blogspot.com/2012/01/making-universities-obsolete.html) by Matt Welsh, an interesting fellow who [left his tenured position at Harvard](/lemire/blog/2010/11/22/why-you-may-not-like-your-job-even-though-everyone-envies-you/) to go work in industry.
+
+__Note__: Many people are better and more sophisticated teachers than I am. And the industrial model does work remarkably well in some settings. Yet I think that they the skills it fails to favor are increasingly important. We have to stop training people for factory jobs that are never coming back.
+

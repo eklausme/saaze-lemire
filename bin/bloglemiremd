@@ -1,0 +1,199 @@
+#!/bin/perl -W
+# Convert HTML from Daniel Lemire's blog to Markdown
+# Source: HTML files from https://lemire.me/blog/lemire
+# Taget: /tmp/lemire/<year>/<title>.md
+# After some checking target /tmp/lemire is later moved to ~/php/saaze-lemire/content/blog
+#
+# Elmar Klausmeier, 12-Dec-2023
+# Elmar Klausmeier, 16-Dec-2023: table beautifier
+# Elmar Klausmeier, 01-Jan-2024: handle non-date related blog posts at top directory level
+
+
+use strict;
+
+use Getopt::Std;
+my %opts = ('d' => 0,'t' => 0);
+getopts('dt',\%opts);
+my $debug = ($opts{'d'} != 0);
+my $topBlog = ($opts{'t'} != 0);
+
+my $targetDir = "/tmp/lemire";
+my ($ignore,$title,$year,$month,$day,$url,$fn,$inPre,$lang,$inUl,$inOl,$inTable,$nrTd,$inTableHead) = (1,"No title",-1,-1,-1,"No URL","",0,"C",0,0,0,0,0);
+
+mkdir $targetDir if (! -d $targetDir);
+
+while (<>) {
+	if ($topBlog && /<h1 class="entry-title">([^<]+)<\/h1>/
+	|| !$topBlog && /<h2 class="entry-title"><a href="/) {
+		if ($topBlog) {
+			($ignore,$title) = (0,$1);
+		} else {
+			($ignore,$title,$year,$month,$day,$url) = (0,"No title",-1,-1,-1,"No URL");
+			$title = $1 if (/"bookmark">(.+)<\/a><\/h2>/);
+			($year,$month,$day,$url) = ($1,$2,$3,$4) if (/https:\/\/lemire.me\/blog\/(\d\d\d\d)\/(\d\d)\/(\d\d)\/([^\/]+)\//);
+		}
+		$title =~ s/&#8216;/`/g;
+		$title =~ s/&#8217;/´/g;
+		$title =~ s/&#8211;/&ndash;/g;
+		$title =~ s/&#038;/&amp;/g;
+		# Heuristics for determining programming language in code fragments
+		$lang = "C";	# default, works most of the time
+		$lang = "Python" if ($title =~ /python/i);
+		$lang = "Go" if ($title =~ /Go/);
+		$lang = "JavaScript" if ($title =~ /javascript/i);
+		if ($topBlog) {
+			my $ri = rindex($ARGV,"/");
+			$fn = $targetDir . "/" . substr($ARGV,($ri >= 0) ? $ri : 0,-5) . ".md";
+			mkdir "$targetDir" if (! -d "$targetDir");
+			open(F,"> $fn") || die("Cannot open $fn for writing");
+			# top blog posts do not have dates, index is false
+			printf F "---\ntitle: \"%s\"\nindex: false\n---\n\n", $title;
+		} else {
+			$fn = "$targetDir/$year/$month-$day-$url.md";
+			#printf("title=|%s|, year=%d, fn=|%s|\n",$title,$year,$fn);
+			mkdir "$targetDir/$year" if (! -d "$targetDir/$year");
+			open(F,"> $fn") || die("Cannot open $fn for writing");
+			printf F "---\ndate: \"%04d-%02d-%02d 12:00:00\"\ntitle: \"%s\"\n---\n\n", $year,$month,$day,$title;
+		}
+		next;
+	}
+	#next if (/<div class="entry-content">/);
+	next if (/^<\/li>/);	# would otherwise just add a distorting newline
+	next if ($ignore);
+
+	s/^<blockquote><p>/\n> /;
+	s/<\/p><\/blockquote>$/\n/;
+	s/^<blockquote>\s*/\n> /;
+	s/<\/blockquote>$/\n/;
+	s/^<p>/\n/;
+	s/<\/p>$//;
+
+	s/&#8230;/&hellip;/g;
+	s/&#8216;/&lsquo;/g;
+	s/&#8217;/&rsquo;/g;
+	# s/&#8217;/´/g;	# not really the same as rsquo
+	s/&#8220;/&ldquo;/g;
+	s/&#8221;/&rdquo;/g;
+
+	s/Â//g;	# I guess this special character is in the blog posts by accident
+
+	# Used in all mixed ways, e.g., <tt><em>6</em>lemire<em>2</em>me</tt>
+	#s/<tt><em>/*`/g;
+	#s/<\/em><\/tt><em>/`*/g;
+	#s/<tt>/`/g;
+	#s/<\/tt>/`/g;
+	#s/<em>/_/g;
+	#s/<\/em>/_/g;
+	s/ <em>(\w+?)<\/em> / _$1_ /g;
+	s/ <tt>(\w+?)<\/tt> / `$1` /g;
+	s/\xc2\xa0/ /g;	# special "space" found in terms-of-use
+	s/([\.\?\;\:])\s+<\/strong>/$1__ /g;	# special case for punctuation before ending <strong>
+	s/<strong id="[^"]+">/__/g;	# special case for "book-recommendations"
+	s/<(|\/)strong>/__/g;
+
+	# Convert <a href=XX>uvw</a> to [uvw](XX)
+	s/<a href="([^"]+)">([^<]+?)<\/a>/\[$2\]\($1\)/g;
+	# Special case for my blog: .../blog is already used, so put Lemire's post under .../lemire/blog
+	s/\(https:\/\/lemire\.me\/blog\//(\/lemire\/blog\//g;
+
+	s/<(|\/)div>//g;	# drop opening and closing div's
+	s/<div id="([^"]+)">//;
+	s/<div id="([^"]+)" style="([^"]+)">//;
+	s/<div style="([^"]+)">//;
+	s/<div class="([^"]+)">//;
+	s/<div class="content text-message-content" tabindex="0" aria-hidden="true">//;	# special case
+	s/<div class data-block="([^"]+)" data-editor="([^"]+)" data-offset-key="([^"]+)">//;
+	s/<div class="([^"]+)" data-offset-key="([^"]+)">//;
+	s/<div class="([^"]+)" title="([^"]+)">//;
+
+	# $lang = "Assembler" if (/assembly instr/);
+	if (/^<pre style=/ || /^<pre>/) {
+		$inPre = 1;
+		#if (/>int<|size_t|std::/) { $lang = "C"; }
+		#elsif (/import/) { $lang = "Python"; }
+		#else { $lang = "Go"; }
+		s/^<pre style="([^"]+)">/```${lang}\n/;
+		s/<pre>/```${lang}\n/;
+	}
+	if (/<\/pre>$/) {
+		$inPre = 0;
+		s/<\/pre>/```\n/;
+	}
+	if ($inPre) {
+		s/<span style="([^"]+)">//g;
+		s/<\/span>//g;
+		s/&lt;/</g;
+		s/&gt;/>/g;
+		s/&amp;/&/g;
+	}
+
+	if ($topBlog && /<\/article>/
+	|| !$topBlog && /<footer class="entry-footer">/) {
+		close(F) || die("Cannot close $fn");
+		$ignore = 1;
+		next;
+	}
+
+	if (/<ul>/) {
+		$inUl = 1;
+		s/<ul>//;
+	}
+	if (/<\/ul>/) {
+		$inUl = 0;
+		s/<\/ul>//;
+	}
+	if (/<ol>/) {
+		$inOl = 1;
+		s/<ol>//;
+	}
+	if (/<\/ol>/) {
+		$inOl = 0;
+		s/<\/ol>//;
+	}
+	if ($inUl) {
+		s/<li>\s*/- /;
+	} elsif ($inOl) {
+		s/<li>\s*/1. /;
+	}
+	s/<\/li>//;
+
+	# Table beautifier: convert HTML table syntax to Markdown tables
+	if (/^<table/) {
+		($inTable,$nrTd,$inTableHead) = (1,0,1);
+		$_ = "\n";
+	}
+	if (/<\/table>/) {
+		($inTable,$nrTd,$inTableHead) = (0,0,0);
+		$_ = "\n";
+	}
+	if ($inTable) {
+		++$nrTd if (/<t(h|d)>/);
+		if (/<\/tr>/) {
+			if ($inTableHead) {
+				$inTableHead = 0;
+				$_ = "\n";
+				for (my $i=0; $i<$nrTd; ++$i) {
+					$_ .= '-'x25 . '|';
+				}
+				$_ .= "\n";
+			}
+			$nrTd = 0;	# reset <td> counter
+		}
+		s/<t(r|h|d)>\s*//;
+		next if (/<tr style=/);
+		s/<\/t(h|d)>\s*/ \|/;
+		s/<\/tr>//;
+		# Make Markdown tables look fully aligned
+		if (substr($_,-2) eq ' |' && length($_) > 0 && length($_) <= 25) {
+			my $t = substr($_,0,-2);	# drop ' |'
+			$t = '&nbsp;' if ($nrTd == 1 && $t =~ /^\s*$/);	# special case for entire empty 1st column
+			$_ = $t . (' 'x(25-length($t))) . '|';
+		}
+	}
+	next if (/<tbody>/);
+	next if (/<\/(tr|tbody)>/);
+
+	print F $_;
+}
+
+

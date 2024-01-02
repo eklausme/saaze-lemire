@@ -1,0 +1,34 @@
+---
+date: "2019-11-26 12:00:00"
+title: "Better computational complexity does not imply better speed"
+---
+
+
+
+A recent [magazine article](https://www.quantamagazine.org/mathematicians-discover-the-perfect-way-to-multiply-20190411/) presents a theoretical result: Harvey and van der Hoeven have shown that you can multiply two <em>n</em>-bit integers using O(<em>n</em> log <em>n</em>) complexity. Roughly speaking, this means that as _n_ grows large, there is a mathematical model of how long the resulting algorithm might run that grows like _n_ log _n_ in the worst case. That is, it does not get much worse as _n_ gets larger, mathematically speaking. It is likely that this result will go into the textbook as an important contribution to theoretical computer science.
+
+So far so good. But then the magazine articles then state that the authors have presented a faster way to compute multiplications. That is incorrect. At this point in time, they have not make this demonstration or even this claim, to my knowledge. Possibly they have an implementation somewhere and might be able to answer my questions, but I don&rsquo;t expect so.
+
+So what is the problem with claiming that they have a faster and more efficient way to do multiplications?
+
+- Computational complexities like O(<em>n</em> log <em>n</em>) are not a speed or even a time in the real world.
+- They are not even a model of the running time or speed. They are a mathematical asymptotic model for _n_ large. How large must _n_ be for a favorable model to theoretically beat a less favorable model mathematically? Possibly as large as the number of atoms in the universe. Or maybe even larger than that. I am not joking: ‪as far as I can tell, [the Harvey and Van Der Hoeven would require more digits per integer than there are atoms in the universe to have a chance at being practical](https://en.wikipedia.org/wiki/Galactic_algorithm). Please pause to consider: if you are a scientist, you need to make predictions that apply to our universe otherwise you are doing mathematics. Mathematics is a fine activity, but it is not to be confused with science or engineering. I can hear people clamouring that, in the end, big _n_ always win out. Let me quote a [famous theoretical computer scientist](http://blog.geomblog.org/2012/05/in-long-run.html) on this topic:<br/>
+
+> Asymptotics will eventually win out, as long as <i>everything else stays fixed</i>. But that&rsquo;s the precise problem. Everything else doesn&rsquo;t stay fixed.
+
+- But it gets worse: these are not scientific models. A scientific model would predict the running time of the algorithm given some implementation, within some error margin. However, these models do nothing of the sort. They are purely mathematical. They are not falsifiable. As long as they are mathematically correct, then they are always true. To be fair, some researchers like Knuth came up with models that closely mimic reasonable computers, but that&rsquo;s not what people pursuing computational complexity bounds do, typically.
+- Importantly, this means that these asymptotic models make no prediction about the running time of actual code. If I ask Harvey and van der Hoeven how long (in seconds) their algorithm take to compute the multiplication between 1024-byte integers on my macbook, they cannot tell me for their paper alone. Thus they don&rsquo;t know that it is actually faster than the big-integer library I am using (gmplib).
+- Maybe you would argue that, eventually, their algorithm would beat whatever gmplib has implemented, given large enough integers. But that&rsquo;s not a scientific (i.e., falsifiable) statement. I could implement their algorithm and apply it to 100000-byte integers and get that their approach is no faster. You could then argue that I need to go even larger. If I do and fail again, you might argue that I need to go even larger. That is not how science or engineering should work. If you have a scientific model, it should make predictions that can be correct or false about the real world. And maybe you end up telling me that if I use 2<sup>1024</sup> bits per integer, then surely the implementation of the new algorithm is faster: but it is again an unscientific statement because there is no such thing as 2<sup>1024</sup>-bit integers and there will never be in this universe.
+- Possibly Harvey and van der Hoeven have more precise bounds than just a big-O result. But even if they make falsifiable predictions about actual use cases, it does not follow that they are correct. They are working from a mathematical model. It is an idealized version of a computer. Without checking, you cannot tell whether your model is correct. You have to test it out. And, importantly, if you make flawed predictions, then your model is incorrect from a scientific point of view. And what are you modelling exactly? If you are assuming that a computer that manages petabytes of memory works the same as a computer that has gigabytes of memory, something is fishy.
+
+
+I am not just nitpicking. This is of critical importance. Medical researchers cure Alzheimer&rsquo;s or cancer in marvelous ways almost weekly using &ldquo;animal models&rdquo; or in vitro (in the laboratory). These breakthroughs almost never translate in the real world. It is ridiculously hard to go from models to applications.
+
+If you do theoretical work and arrive at a model that suggests that you have a better, faster algorithm, then you are not nearly done. The map is not the territory. If you are good, then your model should match closely reality. But, no matter how smart you are, and no matter how clever your mathematical work is, you can only claim to be solving a problem faster after you have built it into a computer and recorded the elapsed time.
+
+I am not diminishing Harvey and van der Hoeven accomplishments. If my understanding is correct, their names will be in textbooks for a very, very long time. It is well deserved based on the mathematical construction.
+
+But we are not able to multiply integers faster thanks to their paper. This paper of theirs is not an engineering contribution. To be fair, it may lead to one such contribution. Working with models is often a useful way to do better engineering. However, you have to keep in mind that the model is not reality and that reality the only thing that matters at the end. If you lose track of this important fact, then you are falling back into prescientific thinking.
+
+What if you disagree with my post? What if you think that Harvey and van der Hoeven&rsquo;s contribution is indeed a step forward engineering-wise? Then you have a clear path forward: provide an implementation, benchmark it against well established software (e.g., gmplib) and show the benefits. No amount of white board arguments can make this requirement go away: show me the code.
+

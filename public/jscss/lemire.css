@@ -1,0 +1,165 @@
+/* CSS for Daniel Lemire's blog, based on WordPress Twenty-Eleven
+   Elmar Klausmeier, 16-Dec-2023: Initial revision
+   18-Dec-2023: Coloring, tables, 1st grid approach
+   31-Dec-2023: 4 media breaks
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif:wght@400;700&display=swap');
+
+:root { --bg-color:AliceBlue /*#ebf5fb*/;
+	--klmwidth:120rem;
+	--klmBlue:#0693e3	 /*vivid-cyan-blue according WordPress, looks similar to DodgerBlue;*/
+}
+body {
+	background-color: var(--bg-color);
+	font-family: 'Noto Serif', serif;
+	/* font-size: 2rem; font-weight: 100; */
+	margin: auto;
+	max-width: var(--klmwidth);
+}
+
+article, aside, footer { background-color:white; padding-top:1rem; padding-left:4rem; padding-right:4rem; padding-bottom:2rem }
+
+a { color:inherit }
+a:hover { background-color:sandybrown }
+strong { font-weight:900 }
+
+
+img[alt=Photo] { width:var(--klmwidth) }
+
+img { border-radius:8px }
+blockquote { font-style:italic; padding-left:1rem; border-left:3px solid Gray; margin-left:-1rem }
+
+table {
+	color: #333; /* Lighten up font color */
+	font-family: Helvetica, Arial, sans-serif; /* Nicer font */
+	width: 95%; 
+	border-collapse: 
+	collapse; border-spacing: 0; 
+}
+td, th { border: 1px solid #CCC; height: 30px; } /* Make cells a bit taller */
+th {	background: #F3F3F3; /* Light grey background */
+	font-weight: bold;
+}
+td {	background: #FAFAFA; /* Lighter grey background */
+	text-align: center; /* Center our text */
+}
+
+h1 { font-size:2.5rem; }
+h2, header { font-size:2.3rem; }
+h3 { font-size:2.0rem; }
+h4 { font-size:1.8rem; }
+p, blockquote, ul, ol, .authorBio { line-height:1.7; font-size:1.2rem }
+li { margin-left:-2.5rem; margin-bottom:0.6rem }
+pre { color:#e2e8f0; background-color:#2d3748; border-radius:0.4rem; overflow-x:auto; padding:1.4rem }
+pre code { color:#e2e8f0; line-height:1.8; font-size:1.1rem; font-weight:400; }
+code[class*="language-"], pre[class*="language-"] { line-height:1.5; font-size:1.15rem }
+
+
+.grid-container {	/* Holy Grail Layout */
+	display: grid;
+	grid-template-areas:
+		'header'
+		'main'
+		'aside'
+		'footer';
+	gap: 0.1rem;
+	/*background-color: lightgray;*/
+	padding: 0.8rem 0rem 0.8rem 0rem;
+}
+
+.grid-container > div {
+	/*background-color: lightblue;*/
+	text-align: left;
+	font-size: 1.5rem;
+}
+.authorBio { font-family: Helvetica, Arial, sans-serif; line-height:1; color:PaleTurquoise; display:initial }
+header { grid-area:header; background-color:#0693e3; color:white;
+	font-family: Helvetica, Arial, sans-serif;
+	padding-top:1rem; padding-left:4rem; padding-right:4rem; padding-bottom:2rem
+}
+main { grid-area:main }
+aside { grid-area:aside }
+article { grid-area:article }
+footer { grid-area:footer }
+
+@media screen and (min-width:78rem) {
+	.grid-container {
+		display: grid;
+		width: 100%;
+		justify-content: center;
+		grid-template-columns: 25rem 51rem;
+		grid-template-areas:
+			'header main'
+			'header aside'
+			'header footer';
+		gap: 4rem;
+		padding: 0.8rem;
+	}
+}
+
+@media screen and (min-width:60rem) and (max-width:77.9999rem) {
+	.grid-container {
+		display: grid;
+		width: 100%;
+		justify-content: center;
+		grid-template-columns:1fr 2fr;
+		grid-template-areas:
+			'header main'
+			'header aside'
+			'header footer';
+		gap: 2rem;
+	}
+}
+
+@media screen and (max-width:39rem) {
+	.authorBio { display:none }
+}
+
+.dimmedColor { color:Gray }
+footer { font-family:sans-serif; color:Gray }
+
+pre, code { font-family:Menlo,Consolas,monaco,monospace }
+code { color:inherit; font-weight:700; font-size:inherit }
+pre > code { font-weight:400 }
+
+
+/*nav { border-radius:8px }*/
+/* Copied from W.S.Toh: https://code-boxx.com/simple-responsive-pure-css-hamburger-menu */
+#hamnav { background: var(--klmBlue) }
+
+#hamitems { display:flex; flex-direction:column }
+
+#hamitems a {
+	/*flex-grow: 2;*/
+	/*text-decoration: none;*/
+	padding: 12px;
+	margin-left: -1rem;
+	text-align: left;
+	font-size:1.3rem;
+}
+
+/*#hamitems a:hover { background: Sandybrown; }*/
+
+#hamnav label, #hamburger { display:none; }
+
+@media screen and (max-width: 59.9999rem) {
+	#hamitems a {
+		box-sizing: border-box;
+		display: block;
+		border-top: 1px solid #333;
+	}
+	#hamnav label {
+		display: inline-block;
+		color: white;
+		/*background: var(--klmBlue);*/
+		font-style: normal;
+		font-size: 1.2em;
+		padding: 10px;
+	}
+	#hamitems { display: none; }
+	#hamnav input:checked ~ #hamitems { display:block }
+}
+
+
+
