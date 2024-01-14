@@ -40,7 +40,7 @@ shr     rax, 32
 ```
 
 
-The table contains the numbers ceil(log10(2<sup>j</sup>)) * 2<sup>32</sup> + 2<sup>32</sup> &#8211; 10<sup>ceil(log10(2<sup>j</sup>))</sup> for j from 2 to 30, and then just ceil(log10(2<sup>j</sup>)) for j = 31 and j = 32. The first value is 2<sup>32</sup> .
+The table contains the numbers ceil(log10(2<sup>j</sup>)) * 2<sup>32</sup> + 2<sup>32</sup> &#8211; 10<sup>ceil(log10(2<sup>j</sup>))</sup> for j from 2 to 30, and then just ceil(log10(2<sup>j</sup>)) for j = 31 and j = 32. The first value is 2<sup>32</sup> .
 
 [My implementation of Kendall&rsquo;s solution is available](https://github.com/lemire/Code-used-on-Daniel-Lemire-s-blog/tree/master/2021/06/03).
 

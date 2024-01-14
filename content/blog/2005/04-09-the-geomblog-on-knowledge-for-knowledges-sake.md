@@ -7,8 +7,7 @@ title: "The Geomblog: On knowledge for knowledge´s sake"
 
 [Suresh is complaining against the current for-profit trend in research:](http://blog.geomblog.org/2005/04/on-knowledge-for-knowledges-sake.html)
 
-> 
-The desire for knowledge for its own sake seems almost quaint in these days of interdisciplinary research, justifying one&rsquo;s bottom line, monetizing one&rsquo;s research, and so on and so forth.
+>The desire for knowledge for its own sake seems almost quaint in these days of interdisciplinary research, justifying one&rsquo;s bottom line, monetizing one&rsquo;s research, and so on and so forth.
 
 
 I read him in the following way: he is afraid that governments will stop giving money for pure research and keep their most generous funding for industrial-oriented research.

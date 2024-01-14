@@ -58,7 +58,7 @@ Of course, your results will vary depending on your exact processor and exact co
 
 __Note__: I have about half a million integers, so if you double my numbers, you will get a rough estimate of the number of nanoseconds per 64-bit integer generated.
 
-__Update 1__: W. Dijkstra correctly pointed out that wyhash could not, possibly, be several times faster than splitmix in a fair competition. I initially reported bad results with splitmix, but after disabling autovectorization (-fno-tree-vectorize), the results are closer. He also points out that results are vastly different on other ARM processors like Falkor and ThunderX2.
+__Update 1__: W. Dijkstra correctly pointed out that wyhash could not, possibly, be several times faster than splitmix in a fair competition. I initially reported bad results with splitmix, but after disabling autovectorization (-fno-tree-vectorize), the results are closer. He also points out that results are vastly different on other ARM processors like Falkor and ThunderX2.
 
 __Update 2__: One reading of this blog post is that I am pretending to compare Intel vs. ARM and to qualify one as being better than the other one. That was never my intention. My main message is that the underlying hardware matters a great deal when trying to determine which code is fastest.
 

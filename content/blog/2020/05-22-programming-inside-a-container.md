@@ -39,7 +39,7 @@ This works much better, but there are glitches if you are issuing directly your 
 1. The files that you create or modify from within the Docker image will appear on the host disk, often with strange file permissions. For example, maybe all of the files are owned by the root user. I had a research assistant that had a good workaround: he ran Linux as root all the time. I do not recommend such a strategy.
 
 
-These glitches come from the strange way in which Docker deals with permissions and security. Contrary to what you may have read, it is not a simple matter of setting user and group identifiers: it may be sufficient on some systems but not on systems supporting Security-Enhanced Linux which require additional care.
+These glitches come from the strange way in which Docker deals with permissions and security. Contrary to what you may have read, it is not a simple matter of setting user and group identifiers: it may be sufficient on some systems but not on systems supporting Security-Enhanced Linux which require additional care.
 
 And finally, you need to remember lots of complicated commands. If you are anything like me, you would rather not to have to think about Docker. You want to focus all of your attention on the code.
 

@@ -12,7 +12,7 @@ title: "Science and Technology links (December 4th 2021)"
 
 It feels like we are witnessing a revolution in processors. Not only are corporations like Apple and Amazon making their own chips&hellip; they appear to match Intel in raw power.
 1. [Despite generous Danish social policies, family influence on important child outcomes in Denmark is about as strong as it is in the United States](https://www.sciencedirect.com/science/article/pii/S0927537121000348).
-1. [Clearing senescent (old) cells appears to also clear out diabetes](https://today.uconn.edu/2021/11/uconn-researchers-deleting-dysfunctional-cells-alleviates-diabetes/) (in mice).
+1. [Clearing senescent (old) cells appears to also clear out diabetes](https://today.uconn.edu/2021/11/uconn-researchers-deleting-dysfunctional-cells-alleviates-diabetes/) (in mice).
 1. [South Korea is building a self-sustaining floating city](https://nypost.com/2021/11/29/south-korea-hopes-to-build-sustainable-floating-city-by-2025/).
 1. [A supplement based on alpha-ketoglutarate appears to have strong rejuvenation effects](https://www.aging-us.com/article/203736/text) (in human beings).
 1. Metformin is a commonly used drug which is believed to have some anti-aging properties. However some research suggested that metformin could blunt the beneficial effects of exercise. [A recent clinical trial indicates that these fears are unwarranted](https://cdnsciencepub.com/doi/10.1139/apnm-2021-0194).

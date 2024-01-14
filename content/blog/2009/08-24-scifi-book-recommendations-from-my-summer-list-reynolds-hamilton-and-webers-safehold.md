@@ -5,9 +5,9 @@ title: "Scifi book recommendations from my summer list: Reynolds, Hamilton and W
 
 
 
-Currently, I am finishing off [House of Suns](https://www.amazon.com/House-Suns-GollanczF-Alastair-Reynolds/dp/0575082372) by Alastair Reynolds. I am fascinated by Reynolds&rsquo; universe. Let me quote the beginning of the book:
+Currently, I am finishing off [House of Suns](https://www.amazon.com/House-Suns-GollanczF-Alastair-Reynolds/dp/0575082372) by Alastair Reynolds. I am fascinated by Reynolds&rsquo; universe. Let me quote the beginning of the book:
 
-> I was born in a house with a million rooms, built on a small, airless world on the edge of an empire of light and commerce that the adults called the Golden Hour, for a reason that I did yet grasp. I was a girl then, a single individual called Abigail Gentian.
+> I was born in a house with a million rooms, built on a small, airless world on the edge of an empire of light and commerce that the adults called the Golden Hour, for a reason that I did yet grasp. I was a girl then, a single individual called Abigail Gentian.
 
 
 Abigail is not making any figure of speech. Why she lives in a house with a million rooms, why her empire was called the Golden Hour, why she points out that she once was a single individual, and a girl, each one of these questions has an intriguing answer.

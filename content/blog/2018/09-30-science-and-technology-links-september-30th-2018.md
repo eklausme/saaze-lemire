@@ -11,8 +11,7 @@ At a glance, the produce looks comparable to the [HTC Vive Focus](https://www.th
 
 I think that these standalone headsets are interesting and could make virtual reality mainstream&hellip; something that tethered headset could never hope to do.
 
-These small headsets cannot hope to present rich and photorealistic environments. But my experience with virtual reality so far is that simpler is often better. 
-1. [A single dose of a drug called Trodusquemine completely reverses arthrosclerosis](https://www.abdn.ac.uk/news/11280/) (the buildup of fat in our arteries)&hellip; in mice.
+These small headsets cannot hope to present rich and photorealistic environments. But my experience with virtual reality so far is that simpler is often better.1. [A single dose of a drug called Trodusquemine completely reverses arthrosclerosis](https://www.abdn.ac.uk/news/11280/) (the buildup of fat in our arteries)&hellip; in mice.
 1. [Questionable research practices are common in ecology and evolution research](https://www.the-scientist.com/features/replication-failures-highlight-biases-in-ecology-and-evolution-science-64475): 64 percent of researchers admitted to at least one instance of selective reporting. The fact that these researchers almost never share their data does not help.
 1. [You can treat inflammated appendixes with antibiotics instead of using surgery](https://jamanetwork.com/journals/jama/article-abstract/2703354).
 

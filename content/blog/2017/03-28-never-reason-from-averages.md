@@ -18,16 +18,13 @@ Sadly, for programmers looking to improve their financial outlook, this informat
 
 There is nothing wrong with learning Clojure, Go and TypeScript, of course&hellip; but will it improve your odds of earning the big bucks?
 
-Suppose you have to choose one programming language. You can go for JavaScript or Go. Of course, you can actually learn both in a couple of week-ends, but humor me. You want an income of at least $110,000. 
-
-There are 100 opened Go jobs and half of them pay that much. So you get to apply to 50 jobs. Great! 
-
+Suppose you have to choose one programming language. You can go for JavaScript or Go. Of course, you can actually learn both in a couple of week-ends, but humor me. You want an income of at least $110,000.
+There are 100 opened Go jobs and half of them pay that much. So you get to apply to 50 jobs. Great!
 There may be 10,000 opened JavaScript jobs&hellip; but a much smaller percentage offering at least $110,000, say 10%&hellip; yet, this leaves you with 1000 jobs. Much better than with Go.
 
 And, of course, the abundance of jobs at a salary below what you value yourself is a bonus. If your current JavaScript job does not pan out, you can find another one quickly. With a niche language? Not so much. You may actually end up unemployed.
 
-These are made up numbers, but my point is that the average salary is only likely meaningful if you are comparing sets having a similar size. 
-
+These are made up numbers, but my point is that the average salary is only likely meaningful if you are comparing sets having a similar size.
 In practice, I strongly suspect that you maximize your odds at earning large salaries by focusing on &ldquo;standard&rdquo; programming languages.
 
 I submit to you that it is no accident if the StackOverflow list of top-paying programming languages is made of obscure languages. They are comparing the average of a niche against the average of a large population.

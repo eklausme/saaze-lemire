@@ -7,7 +7,7 @@ title: "How to ask for a scholarship"
 
 I have had some experience reviewing scholarship requests from graduate students. Here are a few pointers:
 
-- For God&rsquo;s sake! Know why you are going to graduate school! Boring reasons include: learning more about your favorite field, wanting to become a professor one day, finding your topic fascinating (why is it fascinating?), and so on. Yes! __You are expected to figure out an original and interesting story as to why you are trying to get a Ph.D.! __Yes, it is hard! That&rsquo;s the point!
+- For God&rsquo;s sake! Know why you are going to graduate school! Boring reasons include: learning more about your favorite field, wanting to become a professor one day, finding your topic fascinating (why is it fascinating?), and so on. Yes! __You are expected to figure out an original and interesting story as to why you are trying to get a Ph.D.!__ Yes, it is hard! That&rsquo;s the point!
 - Avoid telling us about how good your school, supervisor or department is. Assume we know.
 - Waste no time telling us why you got bad grades or why you have no research experience. We know you are young. We know bad grades can happen.
 - Have some accepted research papers. Short of that, claim to have submitted research papers. Short of that, post some research reports on your web site. No need to dump a large list, but have <em>something</em>. Everyone can submit a research paper to a journal or a conference! Show that you are trying!

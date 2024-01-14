@@ -22,11 +22,11 @@ bool is_ascii_branchy(const std::string_view v) {
 
 It is important to consider at the logic of this code. What you are telling the compiler is to access all characters in sequence, check whether it is an ASCII character, and bail out if not. Thus if the string contains no ASCII character, only the first character should be read.
 
-It might be high performance code if you are expecting the strings to mostly start with non-ASCII characters. But if you are expecting the string to be almost always ASCII, then this code is not going to be optimal.
+It might be high performance code if you are expecting the strings to mostly start with non-ASCII characters. But if you are expecting the string to be almost always ASCII, then this code is not going to be optimal.
 
 You might complain that the compiler should be able to optimize it for you, and it will, but only within the constraints of the code you provided. Compilers are typically not in the business of redesigning your algorithms.
 
-If you are expecting ASCII inputs, then you should just run through the string  using as few steps as possible. The following code relies on the fact that our processors can process 64-bit blocks using single instructions:
+If you are expecting ASCII inputs, then you should just run through the string  using as few steps as possible. The following code relies on the fact that our processors can process 64-bit blocks using single instructions:
 ```C
 bool is_ascii_branchless(const std::string_view v) {
   uint64_t running = 0;

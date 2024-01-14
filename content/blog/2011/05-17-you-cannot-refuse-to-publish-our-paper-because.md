@@ -7,9 +7,9 @@ title: "You cannot refuse to publish our paper because&#8230;"
 
 I feel strongly that the conventional peer review process needs to evolve to a publish-then-filter model. That is, I do not believe that a few select individuals should decide what is worth publishing.
 
-But  to openly face others, and their criticism, requires a little bit of intelligence and backbone. These are necessary for healthy science. These qualities are even more important in a publish-then-filter model: you are exposing your unfiltered work to the world.
+But  to openly face others, and their criticism, requires a little bit of intelligence and backbone. These are necessary for healthy science. These qualities are even more important in a publish-then-filter model: you are exposing your unfiltered work to the world.
 
-For their own good,  I would like to exclude from science those who cannot pass an elementary test of maturity. For example: can you tell what is wrong with the following submission letter? (Hint: if you cannot, forget science, it is not for you.)
+For their own good,  I would like to exclude from science those who cannot pass an elementary test of maturity. For example: can you tell what is wrong with the following submission letter? (Hint: if you cannot, forget science, it is not for you.)
 <hr/>
 
 Dear Editor,

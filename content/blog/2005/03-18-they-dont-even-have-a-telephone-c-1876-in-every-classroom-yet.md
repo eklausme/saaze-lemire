@@ -7,8 +7,7 @@ title: "They don´t even have a telephone (c. 1876) in every classroom yet"
 
 Harold has a beautiful post on the fact that technology and new media don&rsquo;t fit in the classroom:
 
-> 
-All of the action is outside the classroom &#8211; blogs, wikis, IM, podcasting &#8211; you name it. Soon, the only place to get away from media will be inside the classroom. Hey, they don&rsquo;t even have a telephone (c. 1876) in every classroom yet.
+>All of the action is outside the classroom &#8211; blogs, wikis, IM, podcasting &#8211; you name it. Soon, the only place to get away from media will be inside the classroom. Hey, they don&rsquo;t even have a telephone (c. 1876) in every classroom yet.
 
 
 

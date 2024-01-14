@@ -5,8 +5,7 @@ title: "A decade of using text-mining for citation function classification"
 
 
 
-Academic work is typically filled with references to previous work. Unfortunately, most of these references have, at best, a tangential relevance. Thus you cannot trust that a paper that cites another actually &ldquo;builds on it&rdquo;. A more likely scenario is that the authors of the latest paper did not even read the older paper, and they are citing the previous work for various unscientific reasons. 
-
+Academic work is typically filled with references to previous work. Unfortunately, most of these references have, at best, a tangential relevance. Thus you cannot trust that a paper that cites another actually &ldquo;builds on it&rdquo;. A more likely scenario is that the authors of the latest paper did not even read the older paper, and they are citing the previous work for various unscientific reasons.
 Some time ago, I helped co-author a paper that aims to identify the &ldquo;influential&rdquo; references (Zhu et al., [Measuring academic influence: Not all citations are equal](https://arxiv.org/abs/1501.06587)). When we worked on this paper, there wasn&rsquo;t really much work at all on the subject of identifying automatically influential citations and, indeed, I think that the expression &ldquo;influence&rdquo; used with this technical meaning originated from our work.
 
 Pride and Knoth published a superb paper on the matter: [Incidental or influential? &#8211; A decade of using text-mining for citation function classification](http://oro.open.ac.uk/51751/1/Pride_Knoth_A_decade_of_using_text_mining_for_citation_function_classification.pdf).

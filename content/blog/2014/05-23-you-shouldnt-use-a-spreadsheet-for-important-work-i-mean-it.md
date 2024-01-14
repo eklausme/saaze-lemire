@@ -20,7 +20,7 @@ What is remarkable regarding Piketty&rsquo;s work, is that he backed his work wi
 > What we therefore seem to have (&hellip;) is less a synthesis of other data sets, or even an update of their numbers using newer data, than a sloppy muddying of the water around them (&hellip;) then the projection of artificial trend lines upon them under the guise of â€œsmoothingâ€ and recalibration. (&hellip;) [the] product was put into print by a major academic press despite serious issues with the rigor of its analysis. ([Magness](http://philmagness.com/?p=809))
 
 
-I am not surprised. Last year, I reviewed the [Reinhart-Rogoff case](/lemire/blog/2013/04/23/share-your-software-early-the-reinhart-rogoff-case/). Two famous economists had concluded that high debt led to slow economic growth based on an extensive statistical analysis of historical data. Unfortunately, they also used a [spreadsheet](/lemire/blog/archives/2013/04/24/you-probably-shouldnt-use-a-spreadsheet-for-important-work/).
+I am not surprised. Last year, I reviewed the [Reinhart-Rogoff case](/lemire/blog/2013/04/23/share-your-software-early-the-reinhart-rogoff-case/). Two famous economists had concluded that high debt led to slow economic growth based on an extensive statistical analysis of historical data. Unfortunately, they also used a [spreadsheet](/lemire/blog/2013/04/24/you-probably-shouldnt-use-a-spreadsheet-for-important-work/).
 
 Simply put, spreadsheets are good for quick and dirty work, but they are not designed for serious and reliable work.
 

@@ -5,7 +5,7 @@ title: "Computing the inverse of odd integers"
 
 
 
-Given <tt>x</tt>, its (multiplicative) inverse is another value `y` such that <tt>x<tt>*</tt>y = y<tt>*</tt>x = 1</tt>. We all know that the multiplicative inverse of `x` is <tt>1/x</tt> and it exists as long as `x` is non-zero. That&rsquo;s for real numbers, or at least, rational numbers.
+Given <tt>x</tt>, its (multiplicative) inverse is another value `y` such that <tt>x<tt>*</tt>y = y<tt>*</tt>x = 1</tt>. We all know that the multiplicative inverse of `x` is <tt>1/x</tt> and it exists as long as `x` is non-zero. That&rsquo;s for real numbers, or at least, rational numbers.
 
 But the idea of a multiplicative inverse is more general.
 
@@ -21,17 +21,17 @@ Thankfully, you can solve for the inverse efficiently using very little code.
 
 One approach is based on &ldquo;Newton&rsquo;s method&rdquo;. That is, we start with a guess and from the guess, we get a better one, and so forth, until we naturally converge to the right value. So we need some formula <tt>f(y)</tt>, so that we can repeatedly call <tt>y = f(y)</tt> until `y` converges.
 
-A useful recurrence formula is <tt>f(y) = y (2 - y <tt>* </tt>x) modulo 2<sup>64</sup></tt>. You can verify that if <tt> y </tt> is the 64-bit inverse of <tt>x</tt>, then this will output <tt>y</tt>. So the formula passes a basic sanity test. But would calling <tt>y = f(y)</tt> repeatedly converge to the inverse?
+A useful recurrence formula is <tt>f(y) = y (2 - y <tt>* </tt>x) modulo 2<sup>64</sup></tt>. You can verify that if <tt> y </tt> is the 64-bit inverse of <tt>x</tt>, then this will output <tt>y</tt>. So the formula passes a basic sanity test. But would calling <tt>y = f(y)</tt> repeatedly converge to the inverse?
 
-Suppose that <tt> y </tt> is not quite the inverse, suppose that <tt> x*y = 1 + z * 2<sup>N</sup></tt> for some `z` and some `N` that is smaller than 64. So `y` is the inverse &ldquo;for the first `N` bits&rdquo; (where &ldquo;first&rdquo; means &ldquo;least significant&rdquo;). That is, <tt> x <tt>* </tt>y modulo 2<sup>N</sup> = 1</tt>.
+Suppose that <tt> y </tt> is not quite the inverse, suppose that <tt> x*y = 1 + z * 2<sup>N</sup></tt> for some `z` and some `N` that is smaller than 64. So `y` is the inverse &ldquo;for the first `N` bits&rdquo; (where &ldquo;first&rdquo; means &ldquo;least significant&rdquo;). That is, <tt> x <tt>* </tt>y modulo 2<sup>N</sup> = 1</tt>.
 
-It is easy to find such a `y` for `N` greater than zero. Indeed, let <tt>y = 1</tt>, then <tt> x <tt>* </tt>y = 1 + z <tt>* </tt>2<sup>1</sup></tt>.
+It is easy to find such a `y` for `N` greater than zero. Indeed, let <tt>y = 1</tt>, then <tt> x <tt>* </tt>y = 1 + z <tt>* </tt>2<sup>1</sup></tt>.
 
-Ok, so substituting <tt> x<tt>*</tt>y = 1 + z <tt>* </tt>2<sup>N</sup></tt> in <tt>y<tt>*</tt>(2 - y <tt>* </tt>x ) modulo 2<sup>64</sup></tt>, we get <tt>y <tt>* </tt>(2 - ( 1 + z<tt>*</tt>2<sup>N</sup>) ) modulo 2<sup>64 </sup></tt>or <tt>y <tt>* </tt>( 1 - z <tt>* </tt>2<sup>N</sup> ) modulo 2<sup>64</sup></tt>. So I set <tt> y' = f(y) = y<tt>*</tt>(1 - z<tt>*</tt>2<sup>N</sup> ) modulo 2<sup>64</sup></tt>. What is <tt>x <tt>* </tt>y'</tt>? It is <tt> ( 1 + z <tt>* </tt>2<sup>N</sup> ) (1 - z <tt>* </tt>2<sup>N</sup> ) modulo 2<sup>64 </sup></tt>or <tt> ( 1 - z<sup>2</sup> * 2<sup>2 N</sup> ) modulo 2<sup>64</sup></tt>.
+Ok, so substituting <tt> x<tt>*</tt>y = 1 + z <tt>* </tt>2<sup>N</sup></tt> in <tt>y<tt>*</tt>(2 - y <tt>* </tt>x ) modulo 2<sup>64</sup></tt>, we get <tt>y <tt>* </tt>(2 - ( 1 + z<tt>*</tt>2<sup>N</sup>) ) modulo 2<sup>64 </sup></tt>or <tt>y <tt>* </tt>( 1 - z <tt>* </tt>2<sup>N</sup> ) modulo 2<sup>64</sup></tt>. So I set <tt> y' = f(y) = y<tt>*</tt>(1 - z<tt>*</tt>2<sup>N</sup> ) modulo 2<sup>64</sup></tt>. What is <tt>x <tt>* </tt>y'</tt>? It is <tt> ( 1 + z <tt>* </tt>2<sup>N</sup> ) (1 - z <tt>* </tt>2<sup>N</sup> ) modulo 2<sup>64 </sup></tt>or <tt> ( 1 - z<sup>2</sup> * 2<sup>2 N</sup> ) modulo 2<sup>64</sup></tt>.
 
 That is, if `y` was the inverse &ldquo;for the first `N` bits&rdquo;, then <tt>y' = f(y)</tt> is the inverse &ldquo;for the first <tt>2 N</tt> bits&rdquo;. In some sense, I double my precision each time I call the recurrence formula. This is great! This means that I will quickly converge to the inverse.
 
-Can we do better, as an initial guess, than <tt>y = 1</tt>? Yes. We can start with a very interesting observation: if we use 3-bit words, instead of 32-bit or 64-bit words, then every number is its own inverse. E.g., you can check that <tt>3*3 modulo 8 = 1</tt>. Marc Reynolds points that you can get 4 bits of accuracy by starting out with <tt>x * x + x - 1</tt>. Brian Kessler points out that you can do even better: <tt>( 3 * x ) XOR 2</tt> provides 5 bits of accuracy.
+Can we do better, as an initial guess, than <tt>y = 1</tt>? Yes. We can start with a very interesting observation: if we use 3-bit words, instead of 32-bit or 64-bit words, then every number is its own inverse. E.g., you can check that <tt>3*3 modulo 8 = 1</tt>. Marc Reynolds points that you can get 4 bits of accuracy by starting out with <tt>x * x + x - 1</tt>. Brian Kessler points out that you can do even better: <tt>( 3 * x ) XOR 2</tt> provides 5 bits of accuracy.
 
 So a good initial guess is <tt>y = <tt>( 3 * x ) XOR 2</tt></tt>, and that already buys us 5 bits. The first call to the recurrence formula gives me 10 bits, then 20 bits for the second call, then 40 bits, then 80 bits. So, we need to call our recurrence formula 2 times for 16-bit values, 3 times for 32-bit values and 4 times for 64-bit values. I could actually go to 128-bit values by calling the recurrence formula 5 times.
 
@@ -59,7 +59,7 @@ Each call to the recurrence formula should consume about 5 CPU cycles so that th
 
 Because of the way we construct the inverse, if you somehow knew the 32-bit inverse, you could call the recurrence formula just once to get the 64-bit inverse.
 
-How did we arrive at this formula (<tt> y ( 2 - y <tt>* </tt>x ) </tt>)? <a href="https://en.wikipedia.org/wiki/Multiplicative_inverse">It is actually a straight-forward application of Newton&rsquo;s method as one would apply it to finding the zero of <tt>g(y) = 1/y - x</tt></a>. So there is no magic involved.
+How did we arrive at this formula (<tt> y ( 2 - y <tt>* </tt>x ) </tt>)? <a href="https://en.wikipedia.org/wiki/Multiplicative_inverse">It is actually a straight-forward application of Newton&rsquo;s method as one would apply it to finding the zero of <tt>g(y) = 1/y - x</tt></a>. So there is no magic involved.
 
 My code seems to assume that I am working with unsigned integers, but the same algorithm works with signed integers, and in binary form, it will provide the same results.
 

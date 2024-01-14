@@ -7,8 +7,7 @@ title: "Pruning spaces faster on ARM processors with Vector Table Lookups"
 
 Last week, [I asked how fast one could remove spaces from a string using ARM processors](/lemire/blog/2017/07/03/pruning-spaces-from-strings-quickly-on-arm-processors/). On a particular benchmark, I got 2.4 cycles per byte using regular (scalar) code and as little as 1.8 cycles per byte using ARM NEON instructions. These are &ldquo;vectorized instructions&rdquo; that you find in virtually all ARM processors. Vectorized instructions operate over wide registers (spanning at least 16 bytes), often executing the same operation (such as addition or multiplication) over several values at once. However, my trick using ARM NEON instructions relied on the fact that my input stream would contain few spaces. So it was not a very positive blog post for ARM processors.
 
-But then I got feedback from several experts such as [Martins Mozeiko](https://github.com/mmozeiko), [Cyril Lashkevich](https://speakerdeck.com/notorca) and [Derek Ledbetter](https://stackoverflow.com/users/25653/derek-ledbetter). This feedback made me realize that I had grossly underestimated the power of ARM NEON instructions. One reason for my mistake is that I had been looking at older ARM NEON instructions instead of the current AArch64 instructions, which are much more powerful. 
-
+But then I got feedback from several experts such as [Martins Mozeiko](https://github.com/mmozeiko), [Cyril Lashkevich](https://speakerdeck.com/notorca) and [Derek Ledbetter](https://stackoverflow.com/users/25653/derek-ledbetter). This feedback made me realize that I had grossly underestimated the power of ARM NEON instructions. One reason for my mistake is that I had been looking at older ARM NEON instructions instead of the current AArch64 instructions, which are much more powerful.
 To recap, on an x64 processor, you can remove spaces from strings very quickly using vectorized instructions in the following manner:
 
 - Compare 16 bytes of input characters with white space characters to determine where (if anywhere) there are white space characters.
@@ -19,8 +18,7 @@ To recap, on an x64 processor, you can remove spaces from strings very quickly u
 
 I thought that the same could not be done with ARM NEON, but I was wrong. If you have access to recent AMD processors (supporting AArch64), then you can closely mimic the x64 processors and get good performance.
 
-Let us review the various components. 
-
+Let us review the various components.
 To start, we can quickly compare 16 byte values with the byte value 33 to quickly identify common white space characters such as the space, the line ending, the carriage return and so forth.
 ```C
 uint8x16_t is_nonwhite(uint8x16_t data) {

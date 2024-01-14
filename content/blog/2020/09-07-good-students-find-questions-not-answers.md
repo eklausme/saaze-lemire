@@ -5,7 +5,7 @@ title: "Good students find questions, not answers"
 
 
 
-It is often believed that learning is a simple matter of collecting answers and replies.  I suspect that &ldquo;learn mechanistically how to answer the questions&rdquo; is a great way for weak students to pass courses, and for smart students to ace courses. However, I believe that if you really want to learn the material, you have to learn to ask good questions and stop focusing on answers.
+It is often believed that learning is a simple matter of collecting answers and replies.  I suspect that &ldquo;learn mechanistically how to answer the questions&rdquo; is a great way for weak students to pass courses, and for smart students to ace courses. However, I believe that if you really want to learn the material, you have to learn to ask good questions and stop focusing on answers.
 
 If you ask experienced professors, they will probably admit that some students who do very well on tests (A+ all the way) make uninspiring graduate students, while less stellar undergraduate students can end up being superb graduate students.
 

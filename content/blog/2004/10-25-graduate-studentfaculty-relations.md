@@ -7,8 +7,7 @@ title: "Graduate student/faculty relations"
 
 [Sharleen](https://accounts.google.com/ServiceLogin?service=blogger&amp;hl=en&amp;passive=1209600&amp;continue=https://www.blogger.com/blogin.g?blogspotURL%3Dhttp://sharleenmondal.blogspot.com/2004/10/more-on-gradjunior-faculty-relations.html%26zx%3Djolrw7wqrjwt&amp;ltmpl=private) talks about how evil junior faculty can be in their approach with grad students:
 
-> 
-(&hellip;) in academia, (&hellip;), there are limited options, and a poor grad student may have to work with the asshole who has naive, unethical, or objectionable approaches to working with grad students. Now, we could simply say, the ones who survive are the ones who deserve to get jobs/get the PhD. We could point out that the market is much tougher. But if we respond this way, we&rsquo;re not critiquing the culture of academia (a culture which, if I may point out, is largely responsible for the other problems that we all bitch about); we&rsquo;re justifying it.
+>(&hellip;) in academia, (&hellip;), there are limited options, and a poor grad student may have to work with the asshole who has naive, unethical, or objectionable approaches to working with grad students. Now, we could simply say, the ones who survive are the ones who deserve to get jobs/get the PhD. We could point out that the market is much tougher. But if we respond this way, we&rsquo;re not critiquing the culture of academia (a culture which, if I may point out, is largely responsible for the other problems that we all bitch about); we&rsquo;re justifying it.
 
 
 
@@ -26,5 +25,4 @@ That&rsquo;s how the real world works. Evil employers will have trouble finding 
 
 The day when the employees stop leaving, because they are scared or tired, the market stops working and the trouble starts.
 
-Generally speaking, academia doesn&rsquo;t have so much a culture problem as it has a market problem: too many potential candidates for some positions leading to a general degradation of the working conditions for everyone involved. 
-
+Generally speaking, academia doesn&rsquo;t have so much a culture problem as it has a market problem: too many potential candidates for some positions leading to a general degradation of the working conditions for everyone involved.

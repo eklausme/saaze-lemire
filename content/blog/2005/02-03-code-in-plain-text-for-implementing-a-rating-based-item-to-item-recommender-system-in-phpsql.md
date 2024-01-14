@@ -5,8 +5,7 @@ title: "Code in plain text for &#8220;Implementing a Rating-Based Item-to-Item R
 
 
 
-After several requests, I made the code available in plain text for the technical report Implementing a Rating-Based Item-to-Item Recommender System in PHP/SQL. 
-
+After several requests, I made the code available in plain text for the technical report Implementing a Rating-Based Item-to-Item Recommender System in PHP/SQL.
 As an added bonus, Matt Gersting ported the code succesfully in Cold Fusion. I don&rsquo;t know whether he will make it available or allow me to make it available, but he confirms the code works.
 
 So, if you are a PHP programmer, you have no reason not to jump into collaborative filtering/recommender systems!!!

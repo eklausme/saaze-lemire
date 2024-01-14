@@ -30,8 +30,7 @@ answer.words = new Uint32Array(answer.count);
 ```
 
 
-&hellip; the speed goes from 1.1 million times per second to 1.5 million times per second. This means that I have no chance to win against Java. Roughly speaking, JavaScript seems to allocate arrays about an order of magnitude slower than it should. That&rsquo;s not all bad news. With further tests, I have convinced myself that if we can just reuse arrays, and avoid creating them, then we can reduce the gap between JavaScript and Java: Java is only twice as fast when working in-place (without creating new bitsets). I expected such a factor of two because JavaScript works with 32-bit integers whereas Java works with 64-bit integers. 
-
+&hellip; the speed goes from 1.1 million times per second to 1.5 million times per second. This means that I have no chance to win against Java. Roughly speaking, JavaScript seems to allocate arrays about an order of magnitude slower than it should. That&rsquo;s not all bad news. With further tests, I have convinced myself that if we can just reuse arrays, and avoid creating them, then we can reduce the gap between JavaScript and Java: Java is only twice as fast when working in-place (without creating new bitsets). I expected such a factor of two because JavaScript works with 32-bit integers whereas Java works with 64-bit integers.
 What my experiments have suggested so far is that JavaScript&rsquo;s single-threaded performance is quite close to Java&rsquo;s. If Google&rsquo;s V8 could gain support for 64-bit integers and faster array creation/copy, it would be smooth sailing.
 
 __Update__: I ended up concluding that typed arrays (Uint32Array) should not be used. I switched to standard arrays for better all around performance.

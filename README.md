@@ -4,7 +4,7 @@
 </p>
 
 
-# Example theme for Simplified Saaze
+# Example theme for Simplified Saaze: Lemire
 
 Here is another theme called [Lemire](https://eklausmeier.goip.de/lemire) for [_Simplified Saaze_](https://eklausmeier.goip.de/blog/2021/10-31-simplified-saaze).
 The example content is from [Daniel Lemire](http://lemire.me).
@@ -16,6 +16,8 @@ Some key features:
 4. Uses the [HashOver](https://eklausmeier.goip.de/blog/2022/01-04-hashover-comment-system-with-hiawatha) commenting system.
 
 ![](https://eklausmeier.goip.de/img/LemireTheme1.webp)
+
+See [Example Theme for Simplified Saaze: Lemire](https://eklausmeier.goip.de/blog/2024/01-02-example-theme-for-simplified-saaze-lemire) for installation, conversion, and usage.
 
 
 # Simplified Saaze

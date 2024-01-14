@@ -5,8 +5,8 @@ title: "Science and Technology links (July 23 2023)"
 
 
 
-1. People increasingly consume <em>ultra processed foods</em>. They include<br/>
-energy drinks, mass-produced packaged breads, margarines, cereal, energy bars, fruit yogurts, fruit drinks, vegan meat and cheese, infant formulas, pizza, chicken nuggets, and so forth. [Ultra processed foods are correlated with poorer health](https://www.sciencedirect.com/science/article/pii/S0002916522105241).
+1. People increasingly consume <em>ultra processed foods</em>. They include<br/>
+energy drinks, mass-produced packaged breads, margarines, cereal, energy bars, fruit yogurts, fruit drinks, vegan meat and cheese, infant formulas, pizza, chicken nuggets, and so forth. [Ultra processed foods are correlated with poorer health](https://www.sciencedirect.com/science/article/pii/S0002916522105241).
 1. [Homo sapiens was not the first human species to venture out of Africa, it was the last](https://razib.substack.com/p/our-explosive-past-on-cataclysms).
 1. [Researchers claim to be able to reprogram the cells in our eyes to repair retinal degenerence](https://www.pnas.org/doi/10.1073/pnas.2122168120).
 1. Older people are often prescribed statins to keep their risk of cardiovascular disease low. However, [statins reduce short-term cognitive performance](https://academic.oup.com/biomedgerontology/advance-article/doi/10.1093/gerona/glad163/7222585).

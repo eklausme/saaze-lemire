@@ -13,7 +13,7 @@ title: "Science and Technology links (September 16 2022)"
 - [Diluting the blood plasma of older human beings rejuvenate them](https://link.springer.com/article/10.1007/s11357-022-00645-w).
 - [Saturated fat, as found in meat and dairy products, is not associated with bad cardiovascular health](https://academic.oup.com/eurjpc/advance-article-abstract/doi/10.1093/eurjpc/zwac194/6691821). In other words, eating butter does not harm your heart.
 - [An electric car has reportedly about half the carbon footprint as that of a conventional car](https://www.iea.org/data-and-statistics/charts/comparative-life-cycle-greenhouse-gas-emissions-of-a-mid-size-bev-and-ice-vehicle).
-- [India has overtaken the United Kingdom by GDP](https://www.imf.org/external/datamapper/NGDPD@WEO/IND/GBR). The five largest economies are the United States, China, Japan, Germany and India. They are followed by the United Kingdom (6th), France (7th), Canada (8th), Italy (9th) and Brazil (10th). The second richest person in the world is Gautam Adani from India, the richest person being Elon Musk.
+- [India has overtaken the United Kingdom by GDP](https://www.imf.org/external/datamapper/NGDPD@WEO/IND/GBR). The five largest economies are the United States, China, Japan, Germany and India. They are followed by the United Kingdom (6th), France (7th), Canada (8th), Italy (9th) and Brazil (10th). The second richest person in the world is Gautam Adani from India, the richest person being Elon Musk.
 
 
 

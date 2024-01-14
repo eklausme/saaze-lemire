@@ -5,7 +5,7 @@ title: "Checking for the absence of a string, naive AVX-512 edition"
 
 
 
-Suppose you would like to check that a string is not present in a large document. In C, you might do the following using the standard function <tt>strstr</tt>:
+Suppose you would like to check that a string is not present in a large document. In C, you might do the following using the standard function <tt>strstr</tt>:
 ```C
 bool is_present = strstr(mydocument, needle);
 ```
@@ -59,5 +59,5 @@ number of characters in the string |AVX-512 (naive)          |strstr            
 
 Unsuprisingly, my naive AVX-512 approach scales poorly in this benchmark with the string length. However, it is somewhat pessimistic, I would expect better results with a more realistic use case.
 
-It should be possible to do much better with some more sophistication. However, for short strings, we are already twice as fast as `strstr` which is encouraging.
+It should be possible to do much better with some more sophistication. However, for short strings, we are already twice as fast as `strstr` which is encouraging.
 

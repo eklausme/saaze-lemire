@@ -5,8 +5,7 @@ title: "Is C++ worth it?"
 
 
 
-We routinely attribute the long battery life and power of our tablets and tiny laptops to better hardware. However, in many cases, this better hardware runs software that is an order of magnitude faster than older software. For example, our web browsers feel faster because JavaScript interpreters are 10 to 20 times faster than the original ones. 
-
+We routinely attribute the long battery life and power of our tablets and tiny laptops to better hardware. However, in many cases, this better hardware runs software that is an order of magnitude faster than older software. For example, our web browsers feel faster because JavaScript interpreters are 10 to 20 times faster than the original ones.
 But surely, not all software developers write tighter code than they used to? Certainly not. However, software developers have much better tools. For example, compilers have gotten much better and they are continuing to improve. Thus, all programmers produce faster software everything else being equal.
 
 But we are also moving away from low-level programming and, yet, our software is still getting faster. I believe that a major understated trend in the last decade or so has been the increase in performance of the higher level languages.
@@ -32,12 +31,10 @@ GCC 4.7 (with -funroll-loops) |2000                     |
 clang 3.1                |1923                     |
 
 
-Notice how Java beats GCC in these tests? 
-
+Notice how Java beats GCC in these tests?
 As usual, [my source code is freely available](https://github.com/lemire/Code-used-on-Daniel-Lemire-s-blog/tree/master/2012/07/23). Of course, from a sample of 3 compilers on a single problem, I only provide an anecdote, but there are extensive and well established benchmarks supporting my points:
 
-- Higher level languages such as Java and JavaScript can be surprising fast. Java is typically no more than twice as slow as C++. JavaScript is often no more than 4 times as slow. 
-- Really clever and hard working C/C++ programmers can beat higher-level languages by a wide margin given enough time. However, their code will typically become less portable and harder to maintain.
+- Higher level languages such as Java and JavaScript can be surprising fast. Java is typically no more than twice as slow as C++. JavaScript is often no more than 4 times as slow.- Really clever and hard working C/C++ programmers can beat higher-level languages by a wide margin given enough time. However, their code will typically become less portable and harder to maintain.
 
 
 __Conclusion__: If your sole reason for using C++ is speed, and you lack the budget for intensive optimization, you might be misguided.

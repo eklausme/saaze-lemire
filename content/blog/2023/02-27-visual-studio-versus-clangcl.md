@@ -7,9 +7,9 @@ title: "Regular Visual Studio versus ClangCL"
 
 If you are programming in C++ using Microsoft tools, you can use the traditional Visual Studio compiler. Or you can use LLVM as a front-end (ClangCL).
 
-Let us compare their performance characteristics with a fast string transcoding library ([simdutf](https://github.com/simdutf/simdutf)). I use an up-to-date Visual Studio (2022) with the latest ClangCL component (based on LLVM 15). For building the library, we use the latest version of CMake. I will abstain from parallelizing the build: I use default settings. Hardware-wise, I use a [Microsoft Surface Laptop Studio](https://en.wikipedia.org/wiki/Surface_Laptop_Studio): it has a [Tiger Lake Intel processor](https://ark.intel.com/content/www/us/en/ark/products/196655/intel-core-i711370h-processor-12m-cache-up-to-4-80-ghz-with-ipu.html) (i7-11370 @ 3.3 GHz).
+Let us compare their performance characteristics with a fast string transcoding library ([simdutf](https://github.com/simdutf/simdutf)). I use an up-to-date Visual Studio (2022) with the latest ClangCL component (based on LLVM 15). For building the library, we use the latest version of CMake. I will abstain from parallelizing the build: I use default settings. Hardware-wise, I use a [Microsoft Surface Laptop Studio](https://en.wikipedia.org/wiki/Surface_Laptop_Studio): it has a [Tiger Lake Intel processor](https://ark.intel.com/content/www/us/en/ark/products/196655/intel-core-i711370h-processor-12m-cache-up-to-4-80-ghz-with-ipu.html) (i7-11370 @ 3.3 GHz).
 
-After grabbing the  simdutf library from GitHub, I prepare the build directory for standard Visual Studio:
+After grabbing the  simdutf library from GitHub, I prepare the build directory for standard Visual Studio:
 ```C
 &gt; cmake -B buildvc```
 
@@ -30,7 +30,7 @@ For each build directory, I can build in Debug mode (<tt>--config Debug</tt>) or
 ```
 
 
-The project builds an extensive test suite by default. I often rely on my Apple macbook, and I build a lot of software using Amazon (AWS) nodes. I use an AWS c6i.large node (Intel Icelake running at 3,5 GHz, 2 vCPU).
+The project builds an extensive test suite by default. I often rely on my Apple macbook, and I build a lot of software using Amazon (AWS) nodes. I use an AWS c6i.large node (Intel Icelake running at 3,5 GHz, 2 vCPU).
 
 The simdutf library and its testing suite build in a reasonable time as illustrated by the following table (Release builds). For comparison purposes, I also build the library using &lsquo;WSL&rsquo; on the Microsoft laptop (Windows Subsystem for Linux).
 

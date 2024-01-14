@@ -26,7 +26,7 @@ uint64_t slow_bit_shuffle(uint64_t w, uint8_t indexes[64]) {
   for (size_t i = 0; i < 64; i++) {
     bool bit_set = w & (uint64_t(1) << indexes[i]);
     out |= (uint64_t(bit_set) << i);
-  }
+  }
   return out;
 }
 ```

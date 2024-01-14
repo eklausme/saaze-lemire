@@ -21,10 +21,8 @@ This &ldquo;truncated xorshift32*&rdquo; function returns 32-bit &ldquo;random&r
 
 Gerstmann asks whether the generator is &ldquo;predictable&rdquo; and writes &ldquo;Unknown?&rdquo; as an answer. What is the missing answer? The answer is that it is predictable.
 
-What does predictable means? 
-
-Suppose that I tell you that the first random number generated is 1 and the second is 2&hellip; can you infer what the state is? If you try to setup the probably mathematically, you may find that the problem is quite vexing. 
-
+What does predictable means?
+Suppose that I tell you that the first random number generated is 1 and the second is 2&hellip; can you infer what the state is? If you try to setup the probably mathematically, you may find that the problem is quite vexing.
 But, in fact, it is easy. I wrote a small program that gives you the answer in 4 seconds, using brute force. And once you know what the state is, you can predict all following random integers.
 
 How does it work? Simply put, from the first 32-bit output of the function (1 in my case), you know the equivalent of 32 bits of the state. Thus you only have a bit over 4 billion possibilities. That&rsquo;s too much for a human being, but remember that your processor does billions of instructions per second&hellip; so 4 billion possibilities is not very many.

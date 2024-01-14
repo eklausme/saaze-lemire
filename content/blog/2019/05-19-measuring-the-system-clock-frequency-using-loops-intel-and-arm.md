@@ -5,7 +5,7 @@ title: "Measuring the system clock frequency using loops (Intel and ARM)"
 
 
 
-In my previous post, [Bitset decoding on Apple’s A12](/lemire/blog/2019/05/15/bitset-decoding-on-apples-a12/), I showed that Apple&rsquo;s latest ARM-based processor can decode set bits out of a stream of words using 3 cycles per set bit. This compares favourably to Intel processors since I never could get one of them to do better than 3.5 cycles per set bit on the same benchmark. It is also more than twice as efficient as [an ARM-based server](https://github.com/lemire/Code-used-on-Daniel-Lemire-s-blog/blob/master/2019/05/03/RESULTS_AARCH64_AMPERE.md) on a per cycle basis.
+In my previous post, [Bitset decoding on Apple’s A12](/lemire/blog/2019/05/15/bitset-decoding-on-apples-a12/), I showed that Apple&rsquo;s latest ARM-based processor can decode set bits out of a stream of words using 3 cycles per set bit. This compares favourably to Intel processors since I never could get one of them to do better than 3.5 cycles per set bit on the same benchmark. It is also more than twice as efficient as [an ARM-based server](https://github.com/lemire/Code-used-on-Daniel-Lemire-s-blog/blob/master/2019/05/03/RESULTS_AARCH64_AMPERE.md) on a per cycle basis.
 
 In my initial blog post on the Apple A12, I complained that I was merely speculating regarding the clock speed. That is, I read on Wikipedia that the A12 could run at 2.5GHz and I assumed that this was the actual speed.
 
@@ -33,7 +33,7 @@ bne label ; goes to label if counter is not zero
 ```
 
 
-In my initial version, I had unrolled these loops. The intuition was that I could bring the overhead of the cost down to zero. However, the code just looked ugly. Yet Travis Downs and Steve Canon insisted that the unrolled loop was the way to do. So I do it two ways: as an unrolled loop, and as a tight loop.
+In my initial version, I had unrolled these loops. The intuition was that I could bring the overhead of the cost down to zero. However, the code just looked ugly. Yet Travis Downs and Steve Canon insisted that the unrolled loop was the way to do. So I do it two ways: as an unrolled loop, and as a tight loop.
 
 [My code is available](https://github.com/lemire/Code-used-on-Daniel-Lemire-s-blog/tree/master/2019/05/18). I also provide a script which can run the executable several times. Keep in mind that the frequency of your cores can change, and it takes some time before an unsolicited processor gets back to its highest frequency.
 

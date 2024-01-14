@@ -56,7 +56,7 @@ To describe my own research, I prefer to use the term &ldquo;data engineering&rd
 (Source: P.D. Mangan)
 1. [Human beings transformed the planet in deeper ways that is often assumed](https://www.theatlantic.com/amp/article/558323/):<br/>
 
-> Our assumption that modern ecosystems are normal is flawed, says Theodor.  They&rsquo;re not necessarily functioning in the way that they did even 11,000 years ago.
+> Our assumption that modern ecosystems are normal is flawed, says Theodor.  They&rsquo;re not necessarily functioning in the way that they did even 11,000 years ago.
 
 1. Machine-learning and artificial intelligence are popular today, and people tend to want to use them everywhere. [Top researchers in these fields are paid millions of dollars](https://www.nytimes.com/2018/04/19/technology/artificial-intelligence-salaries-openai.html).It is possible that current machine-learning techniques are being overrated. [Makridakis et al. found that](http://journals.plos.org/plosone/article?id=10.1371/journal.pone.0194889), on prediction tasks, the accuracy of machine-learning models (&ldquo;artificial intelligence&rdquo;) is below that of simple old-school statistical models. The motivation of their work is interesting:<br/>
 

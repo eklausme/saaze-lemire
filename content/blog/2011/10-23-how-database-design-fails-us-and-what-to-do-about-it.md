@@ -17,7 +17,7 @@ The problem of database design is difficult, and it encompasses issues that may 
 Why does it fail us? Because we make the following assumptions:
 
 
-- Users are faceless objects for whom the systems are designed.  It&rsquo;s â€œeverything for the people, but without the peopleâ€. (IT people, like communists, love central planning.)
+- Users are faceless objects for whom the systems are designed.  It&rsquo;s â€œeverything for the people, but without the peopleâ€. (IT people, like communists, love central planning.)
 - The information system is strongly consistent. (There is no such thing in practice.)
 - Our semantics is absolute. There is a single valid point of view. (Maybe if you live in a cave&hellip;)
 - Our models are static. Changes are uncommon. (Nonsense. The world is changing at a break-neck pace.)
@@ -35,5 +35,5 @@ Instead, data design methodologies should encourage us to design for
 What do you think?
 
 
-__Further reading__: I wrote a long-form paper on this topic with Antonio Badia: A Call to Arms: Revisiting Database Design, SIGMOD Record 40 (3), 2011. ACM makes the [PDF](http://www.sigmod.org/publications/sigmod-record/1109/pdfs/10.openforum.badia.pdf) freely available. We back all our observations with  references.
+__Further reading__: I wrote a long-form paper on this topic with Antonio Badia: A Call to Arms: Revisiting Database Design, SIGMOD Record 40 (3), 2011. ACM makes the [PDF](http://www.sigmod.org/publications/sigmod-record/1109/pdfs/10.openforum.badia.pdf) freely available. We back all our observations with  references.
 

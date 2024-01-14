@@ -9,8 +9,7 @@ title: "Programming with lego bricks and code completion"
 
 Yes. It is a joke.
 
-Nevertheless, some of his remarks are interesting. 
-
+Nevertheless, some of his remarks are interesting.
 > Erlang lacks OO programming support, where the main focus is code reuse. Without OO you can&rsquo;t build software like Lego bricks, mixing and matching and swapping out the parts freely.
 
 

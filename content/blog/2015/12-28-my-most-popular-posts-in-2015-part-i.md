@@ -13,12 +13,10 @@ In particular, we need to better exploit our CPUs if we are to keep accelerating
 
 Some might point out that using fancy CPU instructions in hardly practical in all instances. But I have also been able to show that we could [massively accelerate common data structures in JavaScript](/lemire/blog/2015/10/05/javascript-and-fast-data-structures-some-initial-experiments/) with a little bit of engineering.
 
-__Economics__ 
-
+__Economics__
 In [Secular stagnation: we are trimming down](/lemire/blog/2015/10/09/secular-stagnation-we-are-trimming-down/), I have argued that progress in a post-industrial society cannot be measured by counting &ldquo;physical goods&rdquo;. In a post-industrial society, we get richer by increasing our knowledge, not by acquiring &ldquo;more stuff&rdquo;. This makes measuring wealth difficult. Economists, meanwhile, keep on insisting that they can compare our standards of living across time without difficulty. Many people insist that if young people tend to own smartphones and not cars, that&rsquo;s because they can&rsquo;t afford cars and must be content with smartphones. My vision of the future is one where most people own far fewer physical goods. I hope to spend time in 2016 better expressing this vision.
 
-__Innovation __
-
+__Innovation__
 Though programmers make up a small minority of the workforce (less than 1 in 20 employees at most places), their culture is having a deep impact on corporate cultures. I have argued that the [&ldquo;hacker culture&rdquo; is winning](/lemire/blog/2015/09/14/the-hacker-culture-is-winning/). We get shorter cycles, more frequent updates, more flexibility.
 
 In [Theory lags practice](/lemire/blog/2015/01/07/theory-lags-practice/), I have argued that we have to be willing to act before we have things figured out. We learned to read and write before we had formal grammars. Watt invented the engine before we had thermodynamics. The Wright brothers made an airplane without working the science out.

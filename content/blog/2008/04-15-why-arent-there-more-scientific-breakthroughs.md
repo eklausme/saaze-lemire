@@ -11,10 +11,8 @@ Science should be about fostering competing ideas. You should wish that many peo
 
 Paul Graham tells us [Why There Aren&rsquo;t More Googles](http://www.paulgraham.com/googles.html). Let me revisit his essay with my concern for the lack of scientific breakthroughs:
 
-> And yet it&rsquo;s the bold ideas that generate the biggest returns. Any really good new idea will seem bad to most people; otherwise someone would already be doing it. And yet most program committees are driven by consensus. The biggest factor determining how a program committee will feel about your research idea is how other researchers feel about it. I doubt they realize it, but this algorithm guarantees they&rsquo;ll miss all the very best ideas. The more people who have to like a new idea, the more outliers you lose. 
-
+> And yet it&rsquo;s the bold ideas that generate the biggest returns. Any really good new idea will seem bad to most people; otherwise someone would already be doing it. And yet most program committees are driven by consensus. The biggest factor determining how a program committee will feel about your research idea is how other researchers feel about it. I doubt they realize it, but this algorithm guarantees they&rsquo;ll miss all the very best ideas. The more people who have to like a new idea, the more outliers you lose.
 
 I challenge program committees: the __list of accepted paper should be diverse__. If you see strong clusters of similar ideas, and most prestigious conferences have them, then you have failed to foster the next scientific breakthrough.
 
-You may object: surely, if an idea is any good, it will survive rejection by a program committee or two? Of course it will, but if you did not encourage crazy research, it may come much later. 
-
+You may object: surely, if an idea is any good, it will survive rejection by a program committee or two? Of course it will, but if you did not encourage crazy research, it may come much later.

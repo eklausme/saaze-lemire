@@ -33,16 +33,14 @@ In fact, the effect is so strong that removing the stereotype threat can be enou
 
 If you run an experiment and you invite older people over, even the slightest hint that you are attempting to measure a decline in their cognitive functions could ensure that you will indeed measure a strong decline.
 
-But the effect should be present outside a college laboratory as well. Old people convinced that they have rotten brains should not be expected to be sharp&hellip; &ldquo;The aging process is, in part, a social construct.&rdquo; ([Levy, 2009](http://www.ncbi.nlm.nih.gov/pmc/articles/PMC2927354/)). It is not just a vague theory, the effect that I describe has been put to the test repeatedly: 
-
+But the effect should be present outside a college laboratory as well. Old people convinced that they have rotten brains should not be expected to be sharp&hellip; &ldquo;The aging process is, in part, a social construct.&rdquo; ([Levy, 2009](http://www.ncbi.nlm.nih.gov/pmc/articles/PMC2927354/)). It is not just a vague theory, the effect that I describe has been put to the test repeatedly:
 > Those with more negative age stereotypes demonstrated significantly worse memory performance over 38 years than those with less negative age stereotypes, after adjusting for relevant covariates. (Levy et al., 2011)
 
 
 
 Ramscar and Baayen stress that we are probably confounding many factors and unnecessarily stressing seniors about their cognitive functions:
 
-> What we do know is the changes in performance seen on tests (&hellip;) are not evidence of cognitive or physiological decline in ageing brains. Instead, they are evidence of continued learning and increased knowledge. This point is critical when it comes to older people&rsquo;s beliefs about their cognitive abilities. People who believe their abilities can improve with work have been shown to learn far better than those who believe abilities are fixed. It is sobering to think of the damage that the pervasive myth of cognitive decline must be inflicting. ([Ramscar and Baayen, 2014](https://www.newscientist.com/article/mg22129610.200-why-our-brains-work-better-with-age)) 
-
+> What we do know is the changes in performance seen on tests (&hellip;) are not evidence of cognitive or physiological decline in ageing brains. Instead, they are evidence of continued learning and increased knowledge. This point is critical when it comes to older people&rsquo;s beliefs about their cognitive abilities. People who believe their abilities can improve with work have been shown to learn far better than those who believe abilities are fixed. It is sobering to think of the damage that the pervasive myth of cognitive decline must be inflicting. ([Ramscar and Baayen, 2014](https://www.newscientist.com/article/mg22129610.200-why-our-brains-work-better-with-age))
 
 I think that this suggests that, to remain as smart as possible as long as possible&hellip; you should remain genuinely active professionally for as long as possible. Moving to more prestigious but less demanding jobs is maybe unwise&hellip; You probably also want to moderate your beliefs about age-related cognitive decline. Entertaining the idea that you are getting dumber might just be a self-fulfilling prophecy.
 

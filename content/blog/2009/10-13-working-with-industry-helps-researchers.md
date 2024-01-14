@@ -10,7 +10,7 @@ Is it a good idea for an academic researcher to work with industry R&amp;D proje
 > We find that university-industry relations exercise a positive effect on university scientific productivity only when (&hellip;) these activities do not exceed 15% of the researcher&rsquo;s total budget. ([Source](http://link.springer.com/article/10.1007%2Fs11192-007-1877-7))
 
 
-Thus, spending no more than a few days a month working with partners in industry is good for you. My own policy is that I will serve on advisory boards, but I will not lead a development team.
+Thus, spending no more than a few days a month working with partners in industry is good for you. My own policy is that I will serve on advisory boards, but I will not lead a development team.
 
 Some specific types of collaborations I have done as an academic researcher:
 

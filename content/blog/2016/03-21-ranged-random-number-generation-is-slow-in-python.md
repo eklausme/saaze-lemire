@@ -43,8 +43,7 @@ The lesson is that <tt>random.randint</tt> should probably not be used in perfor
 
 [My source code is available](https://github.com/lemire/fastrand) (Python and C).
 
-__Update__: Marcel Ball reports in the comments that this performance problem does not affect PyPy, only the regular Python. David Andersen points out that using the numpy library via <tt>python -m timeit -s 'import numpy' 'numpy.random.randint(0, 1000)'</tt> is much faster though my own tests do not quite agree. 
-
+__Update__: Marcel Ball reports in the comments that this performance problem does not affect PyPy, only the regular Python. David Andersen points out that using the numpy library via <tt>python -m timeit -s 'import numpy' 'numpy.random.randint(0, 1000)'</tt> is much faster though my own tests do not quite agree.
 __Further reading__: Daniel Lemire, [Fast Random Integer Generation in an Interval](https://arxiv.org/abs/1805.10941), ACM Transactions on Modeling and Computer Simulation (to appear)
 
 __Credit__: This blog post benefited from an exchange with Nathan Kurz.

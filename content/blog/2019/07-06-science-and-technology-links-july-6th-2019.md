@@ -13,7 +13,7 @@ title: "Science and Technology links (July 6th, 2019)"
 
 [The authors make available a short summary of their paper](http://cep.lse.ac.uk/pubs/download/cp503.pdf).
 1. Japanese have significant lower risks of cardiovascular diseases. [Yet the difference is not explained with normal risk factors such as cholesterol (which is higher in Japan) or blood pressure (higher in Japan)](https://www.ahajournals.org/doi/abs/10.1161/circ.134.suppl_1.17437).
-1. [A protein called eNAMPT has a rejuvenating effect on mice when injected in the blood](https://www.sciencedirect.com/science/article/abs/pii/S1550413119302554). Older mice and humans have lower levels of this protein compared to the young.
+1. [A protein called eNAMPT has a rejuvenating effect on mice when injected in the blood](https://www.sciencedirect.com/science/article/abs/pii/S1550413119302554). Older mice and humans have lower levels of this protein compared to the young.
 1. [Music training does not improve academic outcomes](https://docs.wixstatic.com/ugd/81f204_ea55e916ce7f47b29a18f59aac50bb08.pdf).
 1. [We can grow functional hair out of stem cells](https://www.sbpdiscovery.org/press/functional-hair-follicles-grown-from-stem-cells).
 1. [Even a little bit of exercise](https://elifesciences.org/articles/45920) appears to be enough to promote learning and make the brain healthier. (Source: Nature, tested in mice)

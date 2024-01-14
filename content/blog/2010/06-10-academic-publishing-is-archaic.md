@@ -14,7 +14,7 @@ But information overload is nothing new. In [Reading Strategies for Coping With 
 - copy and paste (with actual scissors) to save time in note-taking.
 
 
-What I find fascinating is the historical perspective: while still useful, the alphabetical index is hardly exciting anymore. It has been supplanted by full text search (in e-books). There are still reference books (such as dictionaries), but they are being replaced with online tools. Information overload continues to generate many inventions: the search engine (such as Google), the recommender system (as on Amazon.com), and the social networks (such as Twitter). Literally, these tools expand our minds. We become smarter.
+What I find fascinating is the historical perspective: while still useful, the alphabetical index is hardly exciting anymore. It has been supplanted by full text search (in e-books). There are still reference books (such as dictionaries), but they are being replaced with online tools. Information overload continues to generate many inventions: the search engine (such as Google), the recommender system (as on Amazon.com), and the social networks (such as Twitter). Literally, these tools expand our minds. We become smarter.
 
 Yet every time I finish writing a research article, I am amazed at how old fashioned the format is.
 

@@ -5,8 +5,7 @@ title: "Why science will triumph only when we teach it properly"
 
 
 
-Wired has an article on [Why Science Will Triumph Only When Theory Becomes Law](http://www.wired.com/2007/10/st-thompson-2/). The gist of the article is that religious extremists leverage the fact that scientists are cautious about their statements to convince the public that the scientists only have a vague idea of the truth. Hence, say the religious extremists, all truths are equally valid, including the pseudoscientific theories. 
-
+Wired has an article on [Why Science Will Triumph Only When Theory Becomes Law](http://www.wired.com/2007/10/st-thompson-2/). The gist of the article is that religious extremists leverage the fact that scientists are cautious about their statements to convince the public that the scientists only have a vague idea of the truth. Hence, say the religious extremists, all truths are equally valid, including the pseudoscientific theories.
 It seems now that several Americans feel that scientists should be less cautious in their statements as a way to neutralize religious extremists.
 
 Sorry. No.

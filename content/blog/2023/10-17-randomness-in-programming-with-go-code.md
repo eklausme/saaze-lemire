@@ -252,7 +252,7 @@ func main() {
 
 There are many ways to generate random integers, but a particularly simple approach is to rely on hashing. For example, we could start from an integer (e.g., 10) and return the random integer <code>murmur64(10)</code> and then increment the integer (e.g, to 11) and next return the integer <code>murmur64(10)</code>.
 
-[Steele et al. (2014)](https://doi.org/10.1145/2714064.2660195) propose a similar strategy which they call SplitMix: it is part of the Java standard library. It works much like what we just described but instead of incrementing the counter by one, they increment it by a large odd integer. They also use a slightly different version of the <code>murmur64</code> version. The following function prints 10 different random values, following the SplitMix formula:
+[Steele et al. (2014)](https://doi.org/10.1145/2714064.2660195) propose a similar strategy which they call SplitMix: it is part of the Java standard library. It works much like what we just described but instead of incrementing the counter by one, they increment it by a large odd integer. They also use a slightly different version of the <code>murmur64</code> version. The following function prints 10 different random values, following the SplitMix formula:
 ```Go
 <code>package main
 

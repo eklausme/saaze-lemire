@@ -24,7 +24,6 @@ XSLT is nice enough because it is a powerful, yet friendly, declarative language
 
 The DOM API is also everywhere thanks, in part, to JavaScript and Java. Being available everywhere, and being usable, are really nice properties. The DOM API is also implemented in a consistent way. Yes, the DOM API is bad. It is verbose, it is hard to use. But then, so is C++ and we will still have C++ in 10 years.
 
-I think that in 10 years, we will still have XSLT and we will still have the DOM API. Much of the rest will have gone away except for the truly good ideas because __it is hard to get an idea widely supported.__ Supporting many alternatives is expensive. 
-
+I think that in 10 years, we will still have XSLT and we will still have the DOM API. Much of the rest will have gone away except for the truly good ideas because __it is hard to get an idea widely supported.__ Supporting many alternatives is expensive.
 My own advice is: don&rsquo;t learn any XML technology unless you need it or unless it makes its way on your machine on its own. XSLT and the DOM API squarely fit this nice. XQuery, XML Schema, RDF and XLink don&rsquo;t.
 

@@ -28,7 +28,7 @@ The 128-bit product is not natively supported in C/C++ but can be achieved with 
 
 The code I ended up with is somewhat ugly, but it works:
 ```C
-      __product = (unsigned __int128)(__urng() - __urngmin) * __uerange;
+      __product = (unsigned __int128)(__urng() - __urngmin) * __uerange;
       uint64_t __lsb = uint64_t(__product);
       if(__lsb < __uerange)
       {

@@ -30,8 +30,7 @@ Mathematically, both pieces of code are equivalent. However, the unrolled versio
 
 Unrolled loops are not always faster. They generate larger binaries. They require more instruction decoding. They use more memory and instruction cache. Many processors have optimizations specific to small tight loops: manual loop unrolling generating dozens of instructions within the loop tend to defeat these optimizations.
 
-But why would unrolled loops be faster in the first place? One reason for their increased performance is that they lead to fewer instructions being executed. 
-
+But why would unrolled loops be faster in the first place? One reason for their increased performance is that they lead to fewer instructions being executed.
 Let us estimate the number of instructions that we need to be executed with each iteration of the simple (rolled) loop. We need to load two values into registers. We need to execute a multiplication. And then we need to add the product to the sum. That is a total of four instructions. Unless you are cheating (e.g., by using SIMD instructions), you cannot do better than four instructions.
 
 How many instruction do we measure per iteration of the loop? Using a state-of-the-art compiler (GNU GCC 8), I get 7 instructions. Where do these 3 extra instructions come from? We have a loop counter which needs to be incremented. Then this loop counter must be compared with the end-of-loop condition, and finally there is a branch instruction. These three instructions are &ldquo;inexpensive&rdquo;. There is probably some instruction fusion happening and other clever optimizations. Nevertheless, these instructions are not free.

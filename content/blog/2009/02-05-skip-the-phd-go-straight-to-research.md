@@ -11,8 +11,7 @@ I got good grades and a Ph.D. from one of the best universities in Canada, so wh
 
 Nevertheless, here it is.
 
-You do not need a Ph.D. to be a researcher. In fact, the requirement to have a Ph.D. is relatively recent. Go visit research labs in most governments and companies, and you will find smart people without a Ph.D. doing research. (I have famous people in mind, but I am afraid to point them out, for fear that they will take it the wrong way.) 
-
+You do not need a Ph.D. to be a researcher. In fact, the requirement to have a Ph.D. is relatively recent. Go visit research labs in most governments and companies, and you will find smart people without a Ph.D. doing research. (I have famous people in mind, but I am afraid to point them out, for fear that they will take it the wrong way.)
 Here is a recipe that should turn you into a researcher, no matter who you are:
 
 - Read research papers.

@@ -11,8 +11,7 @@ On modern superscalar processors, we expect in-memory sorting to limited by how 
 
 We know that sorting &ldquo;already sorted data&rdquo; can be done in an easy-to-predict manner (just do nothing). So it should be fast. But how much faster is it that sorting randomly shuffled data?
 
-I decided to [run an experiment](https://github.com/lemire/Code-used-on-Daniel-Lemire-s-blog/tree/master/2016/09/28). 
-
+I decided to [run an experiment](https://github.com/lemire/Code-used-on-Daniel-Lemire-s-blog/tree/master/2016/09/28).
 I use arrays containing one million distinct 32-bit integers, and I report the time in CPU cycles per value on a Haswell processor. I wrote my code in C++.
 
 function                 |sorted data              |shuffled data            |sorted in reverse        |

@@ -35,8 +35,7 @@ For years, I have been advocating what I call [Star Trek economics](/lemire/blog
 
 Today, we have solid evidence that this has come to an end. The same way the lords and their peasants could not go on in light of the industrial revolution, we also cannot go on &ldquo;holding on jobs&rdquo; the way we used to.
 
-We need to rethink our economy. Some people have been proposing the adoption of basic income: everyone gets a paycheck from the government. When trying to promote this idea, I have gotten a tremendous amount of resistance. People are generally fine with some notion of &ldquo;welfare&rdquo; (if you can&rsquo;t work and you have children to feed, we will help you). But thinking out of the box is painful. 
-
+We need to rethink our economy. Some people have been proposing the adoption of basic income: everyone gets a paycheck from the government. When trying to promote this idea, I have gotten a tremendous amount of resistance. People are generally fine with some notion of &ldquo;welfare&rdquo; (if you can&rsquo;t work and you have children to feed, we will help you). But thinking out of the box is painful.
 Why can&rsquo;t we go on listing page numbers for research articles, and training for good old jobs where we shall be ever more productive? You can go on. Forever if you want to&hellip; but you will increasingly look like an automaton that runs over the same algorithm, again and again, without any critical thought.
 
 Truth is, it takes a lot of hard work to keep track of the reasons why we do things. And everyone is lazy, smart people especially.

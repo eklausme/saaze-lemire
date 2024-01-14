@@ -7,7 +7,7 @@ title: "Can you safely parse a double when you need a float?"
 
 In C as well as many other programming languages, we have 32-bit and 64-bit floating-point numbers. They are often referred to as `float` and <tt>double</tt>. Most of systems today follow the IEEE 754 standard which means that you can get consistent results across programming languages and operating systems. Hence, it does not matter very much if you implement your software in C++ under Linux whereas someone else implements it in C# under Windows: if you both have recent systems, you can expect identical numerical outcomes when doing basic arithmetic and square-root operations.
 
-When you are reading these numbers from a string, there are distinct functions. In C, you have <tt>strtof</tt> and <tt>strtod</tt>. One parses a string to a `float` and the other function parses it to a <tt>double</tt>.
+When you are reading these numbers from a string, there are distinct functions. In C, you have <tt>strtof</tt> and <tt>strtod</tt>. One parses a string to a `float` and the other function parses it to a <tt>double</tt>.
 
 At a glance, it seems redundant. Why not just parse your string to a `double` value and cast it back to a <tt>float</tt>, if needed?
 

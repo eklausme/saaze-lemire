@@ -29,5 +29,5 @@ See also my posts [Writing and Maintaining Software are not Engineering Activiti
 
 __Source__: Parand.
 
-(In other news, [Michael reports on Paperspine](https://expert-opinion.blogspot.com/2007/12/netflix-for-books.html), a service where you can get books delivered to your home Ã  la Netflix. I wonder whether they will invest as much as Netflix does on recommender systems? )
+(In other news, [Michael reports on Paperspine](https://expert-opinion.blogspot.com/2007/12/netflix-for-books.html), a service where you can get books delivered to your home Ã  la Netflix. I wonder whether they will invest as much as Netflix does on recommender systems? )
 

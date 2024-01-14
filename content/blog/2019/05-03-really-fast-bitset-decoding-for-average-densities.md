@@ -19,8 +19,7 @@ Thus, the following loop should suffice and it is quite efficient&hellip;
 ```
 
 
-How efficient is it exactly? 
-
+How efficient is it exactly?
 To answer this question, we first need to better define the problem. If the words you are receiving have few 1-bits (say less than one 1-bit per 64-bit words), then you have the sparse regime, and it becomes important to detect quickly zero inputs, for example. If half of your bits are set, you have the dense regime and it is best handled using using vectorization and lookup tables.
 
 But what do you do when your input data is neither really sparse (that is, you almost never have zero inputs) nor really dense (that is, most of your bits are set to zero)? In such cases, the fact that the instructions in your loop are efficient does not help you as much as you&rsquo;d like because you have another problem: almost every word will result in at least one mispredicted branch. That is, your processor has a hard time predicting when the loop will stop. This prevent your processor from doing a good job retiring instructions.
@@ -59,8 +58,7 @@ We use this decoding approach in [simdjson](https://github.com/lemire/simdjson).
 
 How close are we to the optimal scenario? We are using one instruction per 1-bit to count the number of trailing zeros, one instruction to zero the least significant 1-bit, one instruction to advance a pointer where we write, one store instruction. Let us say about 5 instructions. We are getting 9.8 instructions. So we probably cannot reduce the instruction count by most than a factor of two without using a different algorithmic approach.
 
-Still, I expect that further gains are possible, maybe you can go faster by a factor of two or so. 
-
+Still, I expect that further gains are possible, maybe you can go faster by a factor of two or so.
 __Futher reading__: [Parsing Gigabytes of JSON per Second](https://arxiv.org/abs/1902.08318) and [Bits to indexes in BMI2 and AVX-512](https://branchfree.org/2018/05/22/bits-to-indexes-in-bmi2-and-avx-512/).
 
 __Credit__: Joint work with Geoff Langdale. [He has a blog](https://branchfree.org).

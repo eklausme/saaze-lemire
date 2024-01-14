@@ -9,7 +9,7 @@ Twitter user opdroid1234 remarked that [they are getting more performance out of
 
 <a href="https://lemire.me/blog/wp-content/uploads/2023/03/Capture-decran-le-2023-03-01-a-17.48.42.png"><img loading="lazy" decoding="async" class="alignnone size-medium wp-image-20258" src="https://lemire.me/blog/wp-content/uploads/2023/03/Capture-decran-le-2023-03-01-a-17.48.42.png" alt width="600" height="206" srcset="https://lemire.me/blog/wp-content/uploads/2023/03/Capture-decran-le-2023-03-01-a-17.48.42.png 1166w, https://lemire.me/blog/wp-content/uploads/2023/03/Capture-decran-le-2023-03-01-a-17.48.42-300x103.png 300w, https://lemire.me/blog/wp-content/uploads/2023/03/Capture-decran-le-2023-03-01-a-17.48.42-1024x351.png 1024w, https://lemire.me/blog/wp-content/uploads/2023/03/Capture-decran-le-2023-03-01-a-17.48.42-768x263.png 768w" sizes="(max-width: 600px) 100vw, 600px" /></a>
 
-I found previously that the [Graviton 3 processors had less bandwidth than comparable Intel systems](/lemire/blog/2022/06/07/memory-level-parallelism-intel-ice-lake-versus-amazon-graviton-3/). However, I have not done much in terms of raw compute power.
+I found previously that the [Graviton 3 processors had less bandwidth than comparable Intel systems](/lemire/blog/2022/06/07/memory-level-parallelism-intel-ice-lake-versus-amazon-graviton-3/). However, I have not done much in terms of raw compute power.
 
 The Intel processors have the crazily good AVX-512 instructions: ARM processors have nothing close except for dedicated accelerators. But what about more boring computing?
 
@@ -41,7 +41,7 @@ Intel Ice Lake           |364 ns/url               |
 Graviton 3               |320 ns/url               |
 
 
-The Graviton 3 processor is about 15% faster. It is not the 20% to 30% that opdroid1234 reports, but the Graviton 3 nodes are also slightly cheaper.
+The Graviton 3 processor is about 15% faster. It is not the 20% to 30% that opdroid1234 reports, but the Graviton 3 nodes are also slightly cheaper.
 
 Please note that (1) I am presenting just one data point, I encourage you to run your own benchmarks (2) I am sure that opdroid1234 is being entirely truthful (3) I love all processors (Intel, ARM) equally (4) I am not claiming that ARM is better than Intel or AMD.
 

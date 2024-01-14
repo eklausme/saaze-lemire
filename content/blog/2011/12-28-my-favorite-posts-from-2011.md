@@ -8,8 +8,7 @@ title: "My favorite posts from 2011"
 January:
 
 - [Innovating without permission](/lemire/blog/2011/01/17/innovating-without-permission/)
-- [Not even eventually consistent](/lemire/blog/2011/01/31/not-even-eventually-consistent/) 
-
+- [Not even eventually consistent](/lemire/blog/2011/01/31/not-even-eventually-consistent/)
 
 February:
 
@@ -26,7 +25,7 @@ March:
 
 April:
 
-- [How information technology is really built](/lemire/blog/archives/2011/04/04/how-information-technology-is-really-built/)
+- [How information technology is really built](/lemire/blog/2011/04/04/how-information-technology-is-really-built/)
 
 
 May:

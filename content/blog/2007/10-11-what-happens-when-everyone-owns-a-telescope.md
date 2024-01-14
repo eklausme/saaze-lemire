@@ -7,8 +7,7 @@ title: "What happens when everyone owns a telescope"
 
 I reminded a member of our staff of the following quote yesterday:
 
-> Computer science is no more about computers than astronomy is about telescopes. (Dijkstra) 
-
+> Computer science is no more about computers than astronomy is about telescopes. (Dijkstra)
 
 But what happens to astronomy when everyone owns a telescope?
 

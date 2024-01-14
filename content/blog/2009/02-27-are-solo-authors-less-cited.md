@@ -17,8 +17,7 @@ From this, he makes the following conclusion:
 
 I leave it as an exercise to figure out why the logic is wrong.
 
-But the implication is that __solo authors are less interesting__. Instead, I believe that solo authors probably work on different problems. (Hint: This could be the subject of a study of its own!) 
-
+But the implication is that __solo authors are less interesting__. Instead, I believe that solo authors probably work on different problems. (Hint: This could be the subject of a study of its own!)
 Why?
 
 Because of something I call <em>problem inertia</em>. For collaboration to occur, several people must come together and agree to a joint project. Sometimes money is required to pay the assistants or the students. All of these factor means that <em>small problems</em> or <em>risky problems</em> will be ignored in favor of __safe bets__. To put it bluntly, Microsoft will not sell PHP plugins! Hence, statistically, teams must be deliberate and careful. Also, fewer problems can be visited: even if the selected problem is a bad one, changing the topic in mid-course might be too expensive.

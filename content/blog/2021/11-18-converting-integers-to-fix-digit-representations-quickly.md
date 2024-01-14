@@ -66,7 +66,7 @@ Instead we could try to do it in a tree-like manner to reduce data dependency du
 ```C
 void to_string_tree(uint64_t x, char *out) {
   uint64_t top = x / 100000000;
-  uint64_t bottom = x % 100000000;      
+  uint64_t bottom = x % 100000000;      
   uint64_t toptop = top / 10000;
   uint64_t topbottom = top % 10000;
   uint64_t bottomtop = bottom / 10000;
@@ -152,7 +152,7 @@ void to_string_tree_table(uint64_t x, char *out) {
 You can extend this trick if you are willing to include a 40kB table in your code:
 ```C
 void to_string_tree_bigtable(uint64_t x, char *out) {
-  #include "bigtable.h"
+  #include "bigtable.h"
 
   uint64_t top = x / 100000000;
   uint64_t bottom = x % 100000000;

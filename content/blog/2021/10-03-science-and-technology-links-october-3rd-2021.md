@@ -11,6 +11,6 @@ title: "Science and Technology links (October 3rd 2021)"
 1. [It is unlikely that there is an upper bound to human longevity under 130 years](https://royalsocietypublishing.org/doi/10.1098/rsos.202097). Though men have a drastically reduced longevity compared to women, it appears that once you reach 108 years, there may not be any gender difference.
 1. [Recent progress having to do with protein folding can be largely attributed to better hardware and more data, and not really to a better understanding of protein folding](https://www.science.org/content/blog-post/another-way-do-protein-structure-prediction). The same could be said for natural language processing. (Speculative)
 1. [The children of the survivors of Chernobyl do not have excess mutations](https://www.science.org/content/article/no-excess-mutations-children-chernobyl-survivors-new-study-finds). It is consistent with a worldview that radiations are less harmful to our biology than commonly assumed.
-1. [Researchers have built flexible glass that is much stronger](https://interestingengineering.com/researchers-have-developed-a-new-kind-of-unbreakable-glass) and flexible. It does not shatter easily.
+1. [Researchers have built flexible glass that is much stronger](https://interestingengineering.com/researchers-have-developed-a-new-kind-of-unbreakable-glass) and flexible. It does not shatter easily.
 
 

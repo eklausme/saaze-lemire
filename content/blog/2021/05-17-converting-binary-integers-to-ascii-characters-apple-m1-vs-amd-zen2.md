@@ -28,7 +28,7 @@ This algorithm writes the digits in reverse. So actual C/C++ code will write a p
 ```
 
 
-You can bound the size of the string (10 characters for 32-bit integers, 20 characters for 64-bit integers). If you have signed integers, you can detect the sign initially and make the integer value non-negative, write out the digits and finish with the sign character if needed. If you know that your strings are long, you can do better by writing out the characters two at a time using lookup tables.
+You can bound the size of the string (10 characters for 32-bit integers, 20 characters for 64-bit integers). If you have signed integers, you can detect the sign initially and make the integer value non-negative, write out the digits and finish with the sign character if needed. If you know that your strings are long, you can do better by writing out the characters two at a time using lookup tables.
 
 How fast is this function ? It is going to take dozens of instructions and CPU cycles. But where is the bottleneck?
 
@@ -36,7 +36,7 @@ If you look at the main loop, and pay only attention to the critical data depend
 
 The division instruction is relatively slow, but most compilers [will convert it into a multiplication and a shift](https://arxiv.org/abs/2012.12369). It implies that the whole loop has a latency of about 5 cycles if you count three cycles for the multiplication and one cycle for the shift, with one cycle for the loop overhead. Of course, the function must also compute the remainder and write out the result, but their cost is maybe less important. It is not that these operations are themselves free: computing the remainder is more expensive than computing the quotient. However, we may get them almost for free because they are on a critical data dependency path.
 
-How correct is this analysis? How likely is it that you are just bounded by the division by 10? The wider your processor, the more instructions it can retire per cycle, the more true you&rsquo;d expect this analysis to be. Our commodity processors are already quite wide. Conventional Intel/AMD processors can retire about 4 instructions per cycle. The Apple M1 processor can retire up to 8 instructions per cycle.
+How correct is this analysis? How likely is it that you are just bounded by the division by 10? The wider your processor, the more instructions it can retire per cycle, the more true you&rsquo;d expect this analysis to be. Our commodity processors are already quite wide. Conventional Intel/AMD processors can retire about 4 instructions per cycle. The Apple M1 processor can retire up to 8 instructions per cycle.
 
 To test it out, let us add a function which only writes out the most significant digit.
 ```C
@@ -53,7 +53,7 @@ Here is the number of nanoseconds required per integer on average according to [
 
 function                 |Apple M1 clang 12        |AMD Zen2 gcc 10          |
 -------------------------|-------------------------|-------------------------|
-fake itoa                |11.6 ns/int              |10.9 ns/int             |
+fake itoa                |11.6 ns/int              |10.9 ns/int              |
 real itoa                |12.1 ns/int              |12.0 ns/int              |
 
 

@@ -9,10 +9,8 @@ Some days ago, I [stated on this blog](/lemire/blog/2004/09/30/how-technology-wi
 
 Still, I claim not to be a brain-damaged moron despite these apparent short-comings. You see, I do not memorize __on purpose__ because I think that my time is better used by solving problems and learning new tricks.
 
-From [Downes&rsquo;](http://www.downes.ca), I got the following bit of wisdom telling I&rsquo;m not alone in thinking that memorizing facts is not key to learning&hellip; 
-
-> 
-My own research &#8211; reserach that can be extended through the many resources on this site &#8211; has already convinced me that neural structures are, as they say, plastic. For me what this means is that learning based on the fostering of habits is more important than learning based on transmission of facts, that, indeed, the facts aren&rsquo;t that important at all, not nearly as important modelling effective practice, paying attention to environment, immersive, experiential based education.
+From [Downes&rsquo;](http://www.downes.ca), I got the following bit of wisdom telling I&rsquo;m not alone in thinking that memorizing facts is not key to learning&hellip;
+>My own research &#8211; reserach that can be extended through the many resources on this site &#8211; has already convinced me that neural structures are, as they say, plastic. For me what this means is that learning based on the fostering of habits is more important than learning based on transmission of facts, that, indeed, the facts aren&rsquo;t that important at all, not nearly as important modelling effective practice, paying attention to environment, immersive, experiential based education.
 
 
 

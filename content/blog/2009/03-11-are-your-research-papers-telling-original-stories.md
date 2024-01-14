@@ -15,9 +15,9 @@ Yet, in Computer Science, research papers are expected to tell the following sto
 - we show that solution _Z_ is better than solution <em>Y</em>.
 
 
-It makes the job of the reviewer easy: (1) the contribution is clear (2) we can quickly quantify the value of the contribution. The more competitive the conference or journal, the more often we see this <em>Z</em>-is-better-than-<em>Y</em> story.
+It makes the job of the reviewer easy: (1) the contribution is clear (2) we can quickly quantify the value of the contribution. The more competitive the conference or journal, the more often we see this <em>Z</em>-is-better-than-<em>Y</em> story.
 
-I submit to you that these research papers are the equivalent to the movies Hollywood  producers like so much:
+I submit to you that these research papers are the equivalent to the movies Hollywood  producers like so much:
 
 - Bad guy creates a problem;
 - good guy comes in, beats the bad guy, fixes the problem;

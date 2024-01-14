@@ -30,7 +30,7 @@ It requires a 512-byte table but that is not concerning.
 
 Could we do better?
 
-Milosz Krajewski wrote some good-looking [C# code using vector instructions](https://github.com/MiloszKrajewski/K4os.Text.BaseX). I wrote something that should be the equivalent using x64 C++. We have both routines for 128-bit and 256-bit vectors. My code is for demonstration purposes but it is essentially correct.
+Milosz Krajewski wrote some good-looking [C# code using vector instructions](https://github.com/MiloszKrajewski/K4os.Text.BaseX). I wrote something that should be the equivalent using x64 C++. We have both routines for 128-bit and 256-bit vectors. My code is for demonstration purposes but it is essentially correct.
 
 The core idea is not complicated. You must grab a vector of bytes. Then you must somehow expand it out: each nibble must go into a byte. And then the magic is this: we use the fast vectorized lookup (e.g., the pshufb instruction) to look up each nibble into a 16-byte table containing the letters &lsquo;0&rsquo;, &lsquo;1&rsquo;&hellip;&rsquo;a&rsquo;, &hellip;&rsquo;f&rsquo;.
 
@@ -73,5 +73,5 @@ We are not quite twice as fast, but close enough. I do not find these speeds ver
 
 Milosz gets much poorer results in C#: the 256-bit code is barely faster than the 128-bit code, but he does some relatively complicated computation in the 256-bit code instead of just calling the 256-bit shuffle instruction (<tt>vpshufb</tt>). (I suspect that he will soon fix this issue if he can.)
 
-Our code would work on ARM as well after minor changes. For AVX-512 or SVE, we may need different approaches. We could add both encoding and decoding.
+Our code would work on ARM as well after minor changes. For AVX-512 or SVE, we may need different approaches. We could add both encoding and decoding.
 

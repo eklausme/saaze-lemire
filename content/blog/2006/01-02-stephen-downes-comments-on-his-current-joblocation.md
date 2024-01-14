@@ -9,7 +9,6 @@ Stephen Downes was a coworker of mine. While I left, he is still a senior resear
 
 [Now, he has done it again.](http://www.downes.ca/cgi-bin/page.cgi?post=33120) Let me quote him:
 
-> 
-Where I work now, and where I live now, isn&rsquo;t working for me. I want to work in a place that sees me as something other than a means of transfering wealth from people and government to corporate shareholders, and to live in a community that has culture and diversity, new ideas and new ways of looking at the world. (&hellip;) And maybe there isn&rsquo;t a magic rainbow-land where every day of my life will feel meaningful and engaged and complete. And maybe I shouldn&rsquo;t be typing this, and maybe you shouldn&rsquo;t be reading it. But forget all that. This year isn&rsquo;t last year, and I will be charting new directions to points unknown. Maybe I&rsquo;ll founder, maybe not. But it&rsquo;s now, I think, or never &#8211; and I couldn&rsquo;t live with never.
+>Where I work now, and where I live now, isn&rsquo;t working for me. I want to work in a place that sees me as something other than a means of transfering wealth from people and government to corporate shareholders, and to live in a community that has culture and diversity, new ideas and new ways of looking at the world. (&hellip;) And maybe there isn&rsquo;t a magic rainbow-land where every day of my life will feel meaningful and engaged and complete. And maybe I shouldn&rsquo;t be typing this, and maybe you shouldn&rsquo;t be reading it. But forget all that. This year isn&rsquo;t last year, and I will be charting new directions to points unknown. Maybe I&rsquo;ll founder, maybe not. But it&rsquo;s now, I think, or never &#8211; and I couldn&rsquo;t live with never.
 
 

@@ -56,7 +56,7 @@ You can port this function to Java as follows if you assume that the number is n
 
 I wrote this blog post to answer a question [by Chris Seaton on Twitter](https://twitter.com/ChrisGSeaton/status/1398312274830495748). After writing it up, I found that the always-brilliant Travis Downs had proposed a similar solution with a table lookup. I believe he requires a larger table. [Robert Clausecker once posted a solution that might be close to what Travis has in mind](https://www.reddit.com/r/C_Programming/comments/k0bgr7/fastest_find_integer_buffer_length/gdh9wrl/).
 
-Furthermore, [if the number of digits is predictable, then you can write code with branches and get better results in some cases](https://quick-bench.com/q/eGtecNEbJdMBivUcFzgenej8SvM). However, you should be concerned with the fact that a single branch miss can cost you 15 cycles and  tens of instructions.
+Furthermore, [if the number of digits is predictable, then you can write code with branches and get better results in some cases](https://quick-bench.com/q/eGtecNEbJdMBivUcFzgenej8SvM). However, you should be concerned with the fact that a single branch miss can cost you 15 cycles and  tens of instructions.
 
 __Update__: There is a followup to this blog post&hellip; [Computing the number of digits of an integer even faster](/lemire/blog/2021/06/03/computing-the-number-of-digits-of-an-integer-even-faster/)
 

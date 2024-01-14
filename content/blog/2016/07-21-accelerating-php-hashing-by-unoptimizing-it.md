@@ -9,7 +9,7 @@ Hashing is a software trick that can map strings to fixed-length integers, such 
 
 Languages like Java and PHP have the ability to store strings with their corresponding hash values. Still, the hash value must be computed at least once.
 
-How much of a burden can this be? Suppose that we use 10 cycles per byte to hash a string. For a long 100-kilobyte string, that would be about a million CPU cycles. If your CPU runs at 2 GHz, you have 2 billion cycles per second. Hence, hashing your string should take no more than half a millisecond. Put another way, you can hash 2000 such strings per second.
+How much of a burden can this be? Suppose that we use 10 cycles per byte to hash a string. For a long 100-kilobyte string, that would be about a million CPU cycles. If your CPU runs at 2 GHz, you have 2 billion cycles per second. Hence, hashing your string should take no more than half a millisecond. Put another way, you can hash 2000 such strings per second.
 
 Simon Hardy-Francis pointed out to me that this can still represent a performance bottleneck if your PHP application needs to repeatedly load large new strings.
 

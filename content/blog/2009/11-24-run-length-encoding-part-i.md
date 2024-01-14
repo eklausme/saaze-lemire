@@ -9,7 +9,7 @@ title: "Run-length encoding (part I)"
 
 Run-length encoding (RLE) is probably the most important and fundamental string compression technique. Countless multimedia formats and protocols use one form or RLE compression or another.
 
-RLE is also deceptively simple. It represents repeated values as a counter and a character. Thus, the string AAABBBBBZWWK becomes 3A-5B-1Z-2W-1K.
+RLE is also deceptively simple. It represents repeated values as a counter and a character. Thus, the string AAABBBBBZWWK becomes 3A-5B-1Z-2W-1K.
 
 If that is all there was to RLE, then the [wikipedia page on run-length encoding](https://en.wikipedia.org/wiki/Run-length_encoding) would be just fine. Yet, I think it needs help.
 

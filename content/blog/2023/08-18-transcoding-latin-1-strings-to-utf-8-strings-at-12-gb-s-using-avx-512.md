@@ -60,7 +60,7 @@ __m512i output = _mm512_maskz_compress_epi8(compmask, output16);
 ```
 
 
-Our AVX-512 registers can load and process 64 bytes at a time, but this approach  consumes only 32 bytes (instead of 64 bytes). An anonymous reader has contributed a better approach:
+Our AVX-512 registers can load and process 64 bytes at a time, but this approach  consumes only 32 bytes (instead of 64 bytes). An anonymous reader has contributed a better approach:
 
 - Load 64 bytes into a register.
 - Identify all the non-ASCII bytes (they have the most significant bit set to 1).

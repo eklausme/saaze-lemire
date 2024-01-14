@@ -19,8 +19,7 @@ How is that possible if every intellectual is a conservative?
 
 Not everybody, not every culture, is betting against progress. For every theoretician that insists on keeping his model, there is an engineer or an entrepreneur whose mind is set on constructing reality.
 
-To construct a new reality, you cannot rely on a comforting theoretical framework, as these tend to be fundamentally conservative. So you have to accept that you will be tinkering. 
-
+To construct a new reality, you cannot rely on a comforting theoretical framework, as these tend to be fundamentally conservative. So you have to accept that you will be tinkering.
 Long before we had Maxwell&rsquo;s laws, we had tinkerers designing applications for electricity. Long before we had thermodynamics, we had useful engines.
 
 How many people place their bet on progress? This depends very much on your culture. You can very easily make it untenable to be a tinkerer if you ensure that progress cannot happen. Somehow the Western civilization embraced tinkerers, at least in part.

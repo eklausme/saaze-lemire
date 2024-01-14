@@ -5,12 +5,10 @@ title: "Will tablets kill PCs?"
 
 
 
-I have always been a fan of the personal computer. I worked all summer once to buy myself a [cloned PC XT](https://en.wikipedia.org/wiki/PC_XT). I probably would not be a computer science researcher without the personal computer. It has shaped my life. 
-
+I have always been a fan of the personal computer. I worked all summer once to buy myself a [cloned PC XT](https://en.wikipedia.org/wiki/PC_XT). I probably would not be a computer science researcher without the personal computer. It has shaped my life.
 We may not remember, but the PC was a somewhat surprising disruption. You could explain the success of some early PCs (e.g., from Commodore) as game machines. But if this is all you had to go on, the success of the IBM PC was puzzling. It was not a very good machine to play games: it had minimal video and sound capabilities. It worked as a word processor, but it was awkward. And yet it soon became __your__ PC, just like you had your car and your phone. It brought freedom. You got software on it to print birthday cards. You wrote your first novel on it. You could run your own business with a PC.
 
-People have been predicting the death of the PC for decades now. For example, several corporations predicted that thin clients would replace the PC in business. That is, businesses would go back to having a few large well-maintained servers and people would use cheap, interchangeable, devices called [thin clients](https://en.wikipedia.org/wiki/Thin_client) to connect to these servers. The thin clients would require no software-related maintenance. 
-
+People have been predicting the death of the PC for decades now. For example, several corporations predicted that thin clients would replace the PC in business. That is, businesses would go back to having a few large well-maintained servers and people would use cheap, interchangeable, devices called [thin clients](https://en.wikipedia.org/wiki/Thin_client) to connect to these servers. The thin clients would require no software-related maintenance.
 Unfortunately, the PCs kept getting cheaper. So the savings from using thin clients instead of PCs were not worth it. And, unlike a thin client, the PC could keep working when the servers were down. Moreover, the CEO has a PC at home: he does not want to switch to a thin client at the office.
 
 More recently, traditional PCs were almost disrupted by [netbooks](https://en.wikipedia.org/wiki/Netbook). Though cheaper and smaller, they were still PCs. And they failed to gain enough traction to displace the PCs.
@@ -21,8 +19,7 @@ So this made the tablet, as envisioned by the scifi authors for decades, a possi
 
 So, I think that this time around, tablets will kill PCs. To be precise, I make the following prediction:
 
-> 
-In some quarter of 2015, the unit sales of tablets will be at least twice the unit sales of traditional PCs, in the USA.
+>In some quarter of 2015, the unit sales of tablets will be at least twice the unit sales of traditional PCs, in the USA.
 
 
 [Greg Linden](http://glinden.blogspot.ca/) calls this prediction incautious because experts predict that, at best, the tablet sales will match PC sales by 2015. Indeed, for my prediction to come true, it is not enough for the tablet market to grow, people must stop renewing their PCs and come to rely on their tablets. If my prediction comes true, the PC industry will have begun a slow march toward irrelevance.
@@ -40,8 +37,7 @@ As others have remarked, not everything is great about the tablet. You can write
 
 I admit, the desktop computer is a good match for our office jobs: a desk with a desktop PC on it. It goes together. I don&rsquo;t know how companies and governments can reduce their stock of PCs. But they sure can spend less money renewing their PCs. They will need to if they keep buying more tablets.
 
-I admit that I am not quite sure how students will get by without a PC, but they won&rsquo;t be using their PCs to watch videos or read in 2015. PCs will start to look like this old typewriter you have in the basement. 
-
+I admit that I am not quite sure how students will get by without a PC, but they won&rsquo;t be using their PCs to watch videos or read in 2015. PCs will start to look like this old typewriter you have in the basement.
 I also think that tablets are a much better match for retirees. PCs as sold by Dell are currently a mess. They are confusing and hard to maintain. Cheap tablets are a much better match.
 
 __Conclusion__: I don&rsquo;t know whether tablets will kill PCs. But if they do, this will be a big deal and I want to be able to say &ldquo;I told you so&rdquo;.

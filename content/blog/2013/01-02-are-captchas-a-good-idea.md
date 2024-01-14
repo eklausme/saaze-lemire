@@ -7,8 +7,7 @@ title: "Are CAPTCHAs a good idea?"
 
 A [CAPTCHA](https://en.wikipedia.org/wiki/CAPTCHA) is a small test used to distinguish human users from robots. They are popular as an anti-spam tool.
 
-Until a few months ago, I had an annoying CAPTCHA on this blog. I have since removed it and I will not go back. 
-
+Until a few months ago, I had an annoying CAPTCHA on this blog. I have since removed it and I will not go back.
 What happened?
 
 1. The long-term problem with CAPTCHAs is that computers are getting so good at passing the Turing tests that we must stretch the cognitive abilities of human beings to distinguish machines from human beings. Thus, we end up requiring users to make greater and greater effort. It is simply unsustainable. It is a race that can only end up as a victory for the spammers.
@@ -20,5 +19,4 @@ So the default on this blog is that comments go to a moderation queue and I have
 
 __Credit__: Thanks for [John Regehr](http://www.cs.utah.edu/~regehr/) for inspiring this post.
 
-__Update__: [Sathappan Muthu](http://about.me/sathappan) pointed out to me a very cool CAPTCHA service: [http://areyouahuman.com/](http://areyouahuman.com/). 
-
+__Update__: [Sathappan Muthu](http://about.me/sathappan) pointed out to me a very cool CAPTCHA service: [http://areyouahuman.com/](http://areyouahuman.com/).

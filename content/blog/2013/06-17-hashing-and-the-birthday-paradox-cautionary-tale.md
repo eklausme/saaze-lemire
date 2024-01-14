@@ -21,7 +21,7 @@ In practice, you will be lucky if you get [strong universality](http://arxiv.org
 
 I decided to test this out experimentally. I wrote a small Java benchmark. I picked some collection of strings: I grow the size of the set as a parameter. My collision probability estimation routine is crude, but it should give us some idea:
 
-Number of elements       | Strongly universal     | Perfectly random       |
+Number of elements       |Strongly universal       |Perfectly random         |
 -------------------------|-------------------------|-------------------------|
 100                      |0%                       |0%                       |
 1000                     |100%                     |0%                       |

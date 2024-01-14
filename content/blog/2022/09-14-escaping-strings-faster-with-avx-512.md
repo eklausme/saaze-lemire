@@ -66,5 +66,5 @@ regular code             |0.6 ns/character         |
 AVX-512 code             |0.1 ns/character         |
 
 
-It looks quite encouraging ! [My source code is available](https://github.com/lemire/Code-used-on-Daniel-Lemire-s-blog/tree/master/2022/09/14). I require a recent x64 processor with AVX-512 VBMI2 support.
+It looks quite encouraging ! [My source code is available](https://github.com/lemire/Code-used-on-Daniel-Lemire-s-blog/tree/master/2022/09/14). I require a recent x64 processor with AVX-512 VBMI2 support.
 

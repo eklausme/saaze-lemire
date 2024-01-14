@@ -17,8 +17,7 @@ Topics over Time: A Non-Markov Continuous-Time Model of Topical Trends<br/>
 Xuerui Wang, Andrew McCallum
 
 Algorithms for time series knowledge mining<br/>
-Fabian Morchen 
-
+Fabian Morchen
 Semi-Supervised Time Series Classification<br/>
 Li Wei, Eamonn Keogh
 

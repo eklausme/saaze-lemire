@@ -5,8 +5,7 @@ title: "The hubris of teachers"
 
 
 
-Today, kids left and right carry the label of some learning disability. Instead of telling kids that they are dumb or lazy, we narrow it down to some problem. It is clearly progress on the face of it. However, when I see that, in some schools, over 10% of all kids have received some kind of disability label by the time they graduate&hellip; I worry. 
-
+Today, kids left and right carry the label of some learning disability. Instead of telling kids that they are dumb or lazy, we narrow it down to some problem. It is clearly progress on the face of it. However, when I see that, in some schools, over 10% of all kids have received some kind of disability label by the time they graduate&hellip; I worry.
 There might be some hubris at work. Do the experts know as much as they claim to know?
 
 A favorite pet peeve of mine is the importance we put on grades as predictors of success. I have spent a great deal of time reviewing graduate students for scholarships in national competitions. I had a nearly perfect GPA myself. I was expecting the undergraduate GPA of students to be strongly correlated with the success at the doctoral level. What I found time and time again was that the correlation was weaker than I expected. Students who do very well as undergraduates often fail to shine as graduate students, and students who disappoint as undergraduates can sometimes do remarkably well as PhD students.

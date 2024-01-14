@@ -37,9 +37,9 @@ define('DISABLE_WP_CRON', true);```
 
 I setup a separate cron job to call wp-cron.php every hour.
 
-I now use Cloudflare with the following settings: &ldquo;Caching Level: Ignore query string, Respect Existing Headers and Cache: Everything. I pay for Argo, whatever that is, in the hope that it might improve things. With these settings, I would expect Cloudflare to cache pretty much everything. It apparently does not. My blog gets hammered. Cloudfare reports 45,000 uncached requests for the day, and most of them are in the last couple of hours. (Update: I managed to get cloudflare to cache everything by going to page rules, and setting cache everything, and waiting a few hours. I had to make sure my rules were applied correctly.)
+I now use Cloudflare with the following settings: &ldquo;Caching Level: Ignore query string, Respect Existing Headers and Cache: Everything. I pay for Argo, whatever that is, in the hope that it might improve things. With these settings, I would expect Cloudflare to cache pretty much everything. It apparently does not. My blog gets hammered. Cloudfare reports 45,000 uncached requests for the day, and most of them are in the last couple of hours. (Update: I managed to get cloudflare to cache everything by going to page rules, and setting cache everything, and waiting a few hours. I had to make sure my rules were applied correctly.)
 
-I have asked my host provider (csoft.net) to give me more memory, but they seem unwilling to do it transparently. Though csoft.net is neither cheap nor particularly modern, they have been professional. I have purchased a service with SiteGround, as I am considering moving there because it seems more popular than csoft. I am not super excited about tuning my PHP/Wordpress setup, however. I fear that it is wrong-headed optimization.
+I have asked my host provider (csoft.net) to give me more memory, but they seem unwilling to do it transparently. Though csoft.net is neither cheap nor particularly modern, they have been professional. I have purchased a service with SiteGround, as I am considering moving there because it seems more popular than csoft. I am not super excited about tuning my PHP/Wordpress setup, however. I fear that it is wrong-headed optimization.
 
 What am I missing? How can I be in so much trouble in 2019 with such a relatively modest task?
 

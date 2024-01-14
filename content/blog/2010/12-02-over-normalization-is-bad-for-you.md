@@ -5,7 +5,7 @@ title: "Over-normalization is bad for you"
 
 
 
-I took a real beating with my [previous post](/lemire/blog/archives/2010/11/29/why-do-we-need-database-joins/) where I argued against excessive normalization on the grounds that it increases complexity and inflexibility, and thus makes the application design more difficult. Whenever people get angry enough to post comments on a post of mine, I conclude that I am onto something. So, let&rsquo;s go at it again.
+I took a real beating with my [previous post](/lemire/blog/2010/11/29/why-do-we-need-database-joins/) where I argued against excessive normalization on the grounds that it increases complexity and inflexibility, and thus makes the application design more difficult. Whenever people get angry enough to post comments on a post of mine, I conclude that I am onto something. So, let&rsquo;s go at it again.
 
 On the physical side, developers use [normalization](https://en.wikipedia.org/wiki/Database_normalization) to avoid storing redundant data. While this might be adequate with modern data database systems, I do not think this is well founded, in principle. Consider this Java code:
 

@@ -5,8 +5,7 @@ title: "Punk money: how you can print your own currency&#8230; legally"
 
 
 
-We all want and need money. However, for many services, paying actual dollars is inefficient. The transaction costs are too high. 
-
+We all want and need money. However, for many services, paying actual dollars is inefficient. The transaction costs are too high.
 So we need a system whereas perfect strangers can make deals at a very small transaction cost. For this purpose, people use [punk money](https://mobile.twitter.com/i/guest#!/search/realtime/%23punkmoney):
 
 - You publicly promise a favor in exchange for a service, you may stipulate the terms.
@@ -21,7 +20,7 @@ Punk money should also be able to solve more systemic problems. For example, it 
 As an alternative, I published the following open contract in the spirit of punk money:
 
 > 
-1.  Write a research paper in my general area of expertise.
+1. Write a research paper in my general area of expertise.
 1. Send me the paper.
 1. I will read it in a reasonable delay (not 3 freaking months), or tell you that I&rsquo;m too busy. (If your paper is really bad, I might also ignore you, politely.)
 1. I will give you feedback.
@@ -34,12 +33,10 @@ In exchange, you have to mention me in the acknowledgements.
 
 So far one researcher took me up on this offer and I reviewed his paper (privately) within a few weeks. If many researchers adopted a similar open contract, we could create a workable lightweight alternative for scientific publishing. It will not replace journals or conferences, but it is also nearly free compared to the current system.
 
-The famous mathematician [Doron Zeilberger](http://www.math.rutgers.edu/~zeilberg/pj.html) has used this punk approach to validate some of his research papers. Indeed, he has a set of papers that only appear on his web site. He validates some of them by asking other mathematicians to review his work. The net result is that you can probably trust these papers, after all some established mathematicians were willing to vouch for the work. Journals cannot offer anything better. In exchange, he acknowledges the other researchers. The transaction happens without an intermediary. 
-
+The famous mathematician [Doron Zeilberger](http://www.math.rutgers.edu/~zeilberg/pj.html) has used this punk approach to validate some of his research papers. Indeed, he has a set of papers that only appear on his web site. He validates some of them by asking other mathematicians to review his work. The net result is that you can probably trust these papers, after all some established mathematicians were willing to vouch for the work. Journals cannot offer anything better. In exchange, he acknowledges the other researchers. The transaction happens without an intermediary.
 Of course, you could apply the same type of contracts to any type of publication. Perhaps you are willing to review books or novels, and promote them in exchange for some favor. Perhaps you are willing to provide code reviews for open source projects. And so on.
 
-The concept is entirely general. Maybe there is an annoying bug in your favorite open source web browser, and while you cannot fix it yourself, you would be willing to put a bounty. What could it be? Maybe you are willing to have a pizza delivered to the house of the programmer who provides the fix. Or maybe you will post a poem in honor of whoever fixed the problem. 
-
+The concept is entirely general. Maybe there is an annoying bug in your favorite open source web browser, and while you cannot fix it yourself, you would be willing to put a bounty. What could it be? Maybe you are willing to have a pizza delivered to the house of the programmer who provides the fix. Or maybe you will post a poem in honor of whoever fixed the problem.
 Punk money has three major characteristics:
 
 - There is no real intermediary other than the Web. Or rather, the intermediary is light and easily replaceable.

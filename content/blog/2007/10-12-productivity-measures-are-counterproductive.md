@@ -21,8 +21,7 @@ In turn, I conjecture that we have the following measurable effects:
 - Research papers, while becoming easier to read and cite, fail to provide us with enough data to correctly appreciate the results and their applications. In particular, research papers are increasingly dismissed by practitioners who need not only a nice story, but also the full story, including the dirty secrets.
 
 
-Whatever rules we set, they have consequences. I am particularly worried about the fact that we are making science uninteresting by redefining it from &ldquo;scientific discovery&rdquo; to &ldquo;achieving a high H-index&rdquo;. 
-
+Whatever rules we set, they have consequences. I am particularly worried about the fact that we are making science uninteresting by redefining it from &ldquo;scientific discovery&rdquo; to &ldquo;achieving a high H-index&rdquo;.
 Maybe we have to go back and ask fundamental questions. Why do we do science? What do we really expect from scientists? What should we really reward
 
 See also my posts [Are we destroying research by evaluating it?](http://www.daniel-lemire.com/blog/archives/2007/04/16/are-we-destroying-research-by-evaluating-it/), [On the upcoming collapse of peer review](/lemire/blog/2007/08/06/on-the-upcoming-collapse-of-peer-review/), and [Assessing a researcherâ€¦ in 2007](/lemire/blog/2007/10/05/assessing-a-researcher-in-2007/).

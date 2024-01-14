@@ -9,10 +9,8 @@ Some people will love this. I prepared a mockup exam for my INF 6450 students. S
 
 According to &ldquo;highly reputable&rdquo; (well&hellip;) people, this is a __Mickey Mouse course__. But do not take their word for it, [go see yourself](https://lemire.me/inf6450/) (with Firefox 2.0 or better). Indeed, there is no Software Engineering. No real Computer Science (as in, algorithms, data structures, and so on). Well, I do offer a real Computer Science course, but I still think that teaching XML is <em>way cool</em> and fully justified. It is a programming and IT course. Programming is fun. Getting by with crazy declarative languages like XSLT is hilarious. Figuring out how to do aggregations in XSLT is really a nasty problem (with several elegant and simple solutions). Figuring out how to intersect sets in XSLT, given that all you have is a union operator, is really fun too. And you never have a student ask you why he needs to learn this. Students see immediately why this is required to be a top-notch Web developer.
 
-I still do not cover very well XQuery or XSLT 2.0. I&rsquo;m starting to cover CSS 3.0, but barely. MathML is poorly supported so I do not go far in it. 
-
-XQuery seemed nice, but I&rsquo;m still waiting for the real cool applications. So far, XQuery is still, to me, a poor man&rsquo;s XSLT. 
-
+I still do not cover very well XQuery or XSLT 2.0. I&rsquo;m starting to cover CSS 3.0, but barely. MathML is poorly supported so I do not go far in it.
+XQuery seemed nice, but I&rsquo;m still waiting for the real cool applications. So far, XQuery is still, to me, a poor man&rsquo;s XSLT.
 XSLT 2.0 looks good, but support for it is still rare and I still do not have a good use case. Certainly, XSLT 2.0 cleaned up a few things, but I was carefully not to introduce my students to the nasty parts of XSLT 1.0 which is good since they go away now. Regular expressions in XSLT 2.0 is a nice feature but it almost seems like this requires not special introduction: if you know both regular expressions and XSLT, then there is nothing special happening. Being able to generate several documents might be nice, but I still do not see the use case and it seems a trivial addition anyhow.
 
 XLink? Badly supported, not exciting. Still useful in, say, SVG, but trivially so.

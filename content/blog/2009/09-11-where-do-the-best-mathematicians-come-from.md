@@ -5,7 +5,7 @@ title: "Where do the best mathematicians come from?"
 
 
 
-Americans think that the best scientists come from their best universities. To learn more, consider where the influential mathematicians from:
+Americans think that the best scientists come from their best universities. To learn more, consider where the influential mathematicians from:
 
 got their degree in the USA |33%                      |
 -------------------------|-------------------------|

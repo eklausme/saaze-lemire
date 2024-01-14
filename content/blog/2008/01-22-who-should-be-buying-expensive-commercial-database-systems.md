@@ -7,8 +7,7 @@ title: "Who should be buying expensive commercial database systems?"
 
 [According to Curt Monash](http://www.dbms2.com/2008/01/22/mid-range-database-management/), few people should be buying high-end Database management systems:
 
-> 
-There are relatively few applications that wouldn&rsquo;t run perfectly well on [PostgreSQL](https://en.wikipedia.org/wiki/PostgreSQL) or [EnterpriseDB](https://en.wikipedia.org/wiki/EnterpriseDB) today. (&hellip;)
+>There are relatively few applications that wouldn&rsquo;t run perfectly well on [PostgreSQL](https://en.wikipedia.org/wiki/PostgreSQL) or [EnterpriseDB](https://en.wikipedia.org/wiki/EnterpriseDB) today. (&hellip;)
 
 What&rsquo;s more, these mid-range database management systems can have significant advantages over their high-end brethren. The biggest is often price, for licenses and maintenance alike. Beyond that, they can be much easier to administer then their more complex counterparts. (&hellip;)
 

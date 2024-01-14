@@ -14,5 +14,4 @@ In my opinion, there is no question that the weak review process most conference
 
 A few years ago, I tried to publish an errata to one of my paper. It took some doing since the editors had never received such a request. Quite clearly, our tolerance for unaccurate or wrong results is quite high.
 
-Is it a problem? If you are an engineer trying to implement a new system, and you are naÃ¯ve enough to trust a few scientific papers, then you can get in big trouble. It usually isn&rsquo;t much of a problem because the average engineer doesn&rsquo;t read cutting edge scientific papers. It seems obvious that the problem can get more serious if medical doctors read cutting edge articles&hellip; do they? 
-
+Is it a problem? If you are an engineer trying to implement a new system, and you are naÃ¯ve enough to trust a few scientific papers, then you can get in big trouble. It usually isn&rsquo;t much of a problem because the average engineer doesn&rsquo;t read cutting edge scientific papers. It seems obvious that the problem can get more serious if medical doctors read cutting edge articles&hellip; do they?

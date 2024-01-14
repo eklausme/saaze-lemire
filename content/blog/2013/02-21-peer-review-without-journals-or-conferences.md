@@ -12,8 +12,7 @@ With some success, I have even used my blog as a peer review device: e.g., we re
 I am not really interested in making journals and conferences go away, but I am interested in going beyond them. I fear that they are often limiting us:
 
 - In fields such as computer science, limiting the review to journals and conferences effectively cuts most non-academics out. They are also limiting the review to a narrow band of experts. If you are trying to solve problems that matter, this might be entirely wrong.
-- Traditional peer review is anonymous. In principle, this makes it fair and transparent. In practice, it can be needlessly alienating. For example, I would much rather have an open exchange with some authors that I criticize rather than just send an anonymous note. We might both benefit from the exchange. One pattern I have noticed is that some of my (well meaning) comments get ignored. Even when they require little work and can only benefit the authors. We have put walls in the peer review process, and there are good reasons for these walls, but we could do without them if we reinvented the process. 
-
+- Traditional peer review is anonymous. In principle, this makes it fair and transparent. In practice, it can be needlessly alienating. For example, I would much rather have an open exchange with some authors that I criticize rather than just send an anonymous note. We might both benefit from the exchange. One pattern I have noticed is that some of my (well meaning) comments get ignored. Even when they require little work and can only benefit the authors. We have put walls in the peer review process, and there are good reasons for these walls, but we could do without them if we reinvented the process.
 
 Hence, I have launched an open invitation to the world: send me your drafts, and if I find them interesting, I will review them and then tell the world about them (through social networks) if you revise them to my satisfaction.
 
@@ -23,10 +22,8 @@ Anyhow, so far, only one courageous fellow agreed with my terms: NathanaÃ«l Sc
 
 So where does that leave us?
 
-- If you are a researcher, and you would be willing to review manuscripts openly the way I did, please let the world know! 
-- If you think your work could interest me and you want to try a different type of peer review, please send me your paper!
-- If one of [my papers interests you](http://arxiv.org/a/lemire_d_1) and you want to write a review and share it with me, please do! I also have [software that needs reviewing](https://github.com/lemire). 
-
+- If you are a researcher, and you would be willing to review manuscripts openly the way I did, please let the world know!- If you think your work could interest me and you want to try a different type of peer review, please send me your paper!
+- If one of [my papers interests you](http://arxiv.org/a/lemire_d_1) and you want to write a review and share it with me, please do! I also have [software that needs reviewing](https://github.com/lemire).
 
 I stress that you do not need to be affiliated with a college or have _researcher_ as your title for this model to work. Anyone can write or review a research paper. (Admittedly, few people can write good papers or produce deep reviews but that is another story.)
 

@@ -15,8 +15,7 @@ We are routinely told these days that bees are going extinct. The [Time told us 
 
 Is this what the facts are telling us?
 
-When I go to the supermarket, the prices of honey and almonds are not excessive. Grade A honey sells at an ounce. Maybe it is higher than it used to, but if so, I have not noticed. 
-
+When I go to the supermarket, the prices of honey and almonds are not excessive. Grade A honey sells at an ounce. Maybe it is higher than it used to, but if so, I have not noticed.
 The number of managed honey bees in the US has decreased, but is this necessarily caused by threatening diseases? Could it be that people in the US left apiculture to poorer countries? It seems that while there are fewer bees in the US, there are more in Canada: maybe trade and economics can explain population fluctuations. Is there really a honey bee shortage? We do know that the mortality rate of honey bees is increasing, and maybe renting out honey bees is more expensive than it used to be. Maybe keeping honey bees is more expensive. Maybe people are increasing the production of crops that require honey bees. None of these theories are tragic.
 
 When interpreting any figure, one must take into account that it is normal to lose bees during the winter. Apparently, the industry standard is a [loss of 15 percent](http://www.theglobeandmail.com/technology/science/no-honey-more-problems-a-catastrophic-year-for-bee-colonies/article13542705/). The recent winters have been harsher than that on many beekeepers, though not all of them. Still, when beekeepers lose bees, they can make more. Alarmist reporters often omit these facts.
@@ -34,8 +33,7 @@ and
 
 What do researchers have to say about colony numbers and the effect on prices?
 
-> 
-Our results suggest that there has been no discernible impacts of CCD on either colony numbers or honey production. Nor has there been an impact on the prices of packaged bees and queens. We find it plausible that CCD has caused a portion of recent increases in almond pollination fees (but has not caused increases in the pollination fees for other crops). We estimate the induced impacts on U.S. consumers to be small. We estimate the impacts on beekeeper costs to be modest, and possibly less than their increased revenue due to CCD-induced increases in pollination fees. ([Rucker et al., 2012](http://ses.wsu.edu/))
+>Our results suggest that there has been no discernible impacts of CCD on either colony numbers or honey production. Nor has there been an impact on the prices of packaged bees and queens. We find it plausible that CCD has caused a portion of recent increases in almond pollination fees (but has not caused increases in the pollination fees for other crops). We estimate the induced impacts on U.S. consumers to be small. We estimate the impacts on beekeeper costs to be modest, and possibly less than their increased revenue due to CCD-induced increases in pollination fees. ([Rucker et al., 2012](http://ses.wsu.edu/))
 
 
 

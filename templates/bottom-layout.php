@@ -23,7 +23,9 @@ const darkLightIcon = document.querySelector("#darkLightIcon");
 
 <?php if (!isset($pagination)) { ?>
 	<script src="/lemire/jscss/prism.js"></script>
+<?php if ($includeHashOver) { ?>
 	<script type="text/javascript" src="/hashover/comments.php"></script>
+<?php } ?>
 <?php } ?>
 
 

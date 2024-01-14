@@ -7,9 +7,7 @@ title: "Primed for Numbers"
 
 This article in the Chronicle takes on the debate as to whether women are genetically predisposed to do poorly in mathematics. I like this quote:
 
-> 
-The researchers found that, in general, mathematically gifted females had broader abilities than did mathematically talented males. 
-
+>The researchers found that, in general, mathematically gifted females had broader abilities than did mathematically talented males.
 
 If you ask me, this rings true. Math girls do exist: they just happen to also be good at other things than math.
 

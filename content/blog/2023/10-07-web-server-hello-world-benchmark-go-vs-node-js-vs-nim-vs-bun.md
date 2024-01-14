@@ -9,7 +9,7 @@ The Web is a convenient interface to your software. Many times, if you have an e
 
 There are many popular frameworks for writing little web applications. Go and JavaScript (Node.js) are among the most popular choices. Reportedly, Netflix runs on Node.js; [Uber moved from Node.js to Go for better performance](https://yalantis.com/blog/golang-vs-nodejs-comparison/). There are also less popular options such as [Nim](https://nim-lang.org).
 
-An [in-depth review of their performance characteristics](https://www.techempower.com/benchmarks/) would be challenging.  But I just write a little toy web application, will I see the difference? A minimalist application gives you a reference since more complex applications are likely to run slower.
+An [in-depth review of their performance characteristics](https://www.techempower.com/benchmarks/) would be challenging.  But I just write a little toy web application, will I see the difference? A minimalist application gives you a reference since more complex applications are likely to run slower.
 
 Let us try it out. I want the equivalent of &lsquo;hello world&rsquo; for web servers. I also do not want to do any fiddling: let us keep things simple.
 

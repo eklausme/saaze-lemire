@@ -7,7 +7,7 @@ title: "Ridiculously fast unicode (UTF-8) validation"
 
 One of the most common &ldquo;data type&rdquo; in programming is the text string. When programmers think of a string, they imagine that they are dealing with a list or an array of characters. It is often a &ldquo;good enough&rdquo; approximation, but reality is more complex.
 
-The characters must be encoded into bits in some way. Most strings on the Internet, including this blog post, are encoded using a standard called UTF-8. The UTF-8 format represents &ldquo;characters&rdquo; using 1, 2, 3 or 4 bytes. It is a generalization of the ASCII standard which uses just one byte per character. That is, an ASCII string is also an UTF-8 string.
+The characters must be encoded into bits in some way. Most strings on the Internet, including this blog post, are encoded using a standard called UTF-8. The UTF-8 format represents &ldquo;characters&rdquo; using 1, 2, 3 or 4 bytes. It is a generalization of the ASCII standard which uses just one byte per character. That is, an ASCII string is also an UTF-8 string.
 
 It is slightly more complicated because, technically, what UTF-8 describes are code points, and a visible character, like emojis, can be made of several code points&hellip; but it is a pedantic distinction for most programmers.
 

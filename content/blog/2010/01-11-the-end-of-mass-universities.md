@@ -9,7 +9,7 @@ In the late sixties and seventies, we wanted universities to become more accessi
 
 The stated goal was to make __degrees__ more accessible. We succeeded.
 
-Yet, we are now facing an intriguing paradox due to this success. Technology, by making access easier than ever to access educational content, is also shaking the very foundation of the University. As an example of this transformation,  [Michael Nielsen](http://michaelnielsen.org/blog/michael-a-nielsen/) was pointing out this morning that you can watch 120 hours of lectures on Physics by [Lenny Susskind](https://en.wikipedia.org/wiki/Leonard_Susskind), for free on YouTube. __You are in deep trouble if what you are selling in 2009 are mass-produced lectures.__ The market price just went through the floor.
+Yet, we are now facing an intriguing paradox due to this success. Technology, by making access easier than ever to access educational content, is also shaking the very foundation of the University. As an example of this transformation,  [Michael Nielsen](http://michaelnielsen.org/blog/michael-a-nielsen/) was pointing out this morning that you can watch 120 hours of lectures on Physics by [Lenny Susskind](https://en.wikipedia.org/wiki/Leonard_Susskind), for free on YouTube. __You are in deep trouble if what you are selling in 2009 are mass-produced lectures.__ The market price just went through the floor.
 
 Lance Fortnow [pointed us](https://mobile.twitter.com/fortnow/status/7636722660) to a [short essay](http://edge.org/q2010/q10_2.html#rees) by [Martin Rees](http://www.ast.cam.ac.uk/~mjr/) about technology and universities. Rees&rsquo; point is that technology creates a more level playing field as far as location is concerned. A hundred years ago, airplanes made it possible for Indian Mathematicians to travel to Cambridge where they could be taken seriously. In some sense, airplanes made Indian Mathematicians more globally competitive, though only marginally so. The Webâ€”with repositories such as [arXiv](http://arxiv.org/)â€”pushes this idea further, an order of magnitude further. After all, [Gregori Perelman](https://en.wikipedia.org/wiki/Grigori_Perelman) won a million dollar and the equivalent of a Nobel prize by posting a few papers on arXiv.
 
@@ -20,5 +20,5 @@ Thankfully, bona fide Universities have some form of monopoly on University degr
 > Traditional universities will survive insofar as they offer mentoring and personal contact to their students. But it&rsquo;s less clear that there will be a future for the &lsquo;mass university&rsquo; where the students are offered little more than a passive role in lectures (generally of mediocre quality) with minimal feedback.
 
 
-One thing is clear to me: __The value of a lecture in front of 80 studentsâ€”or the equivalent as a webcasted showâ€”is exactly zero. __(From an educational point of view.)
+One thing is clear to me: __The value of a lecture in front of 80 studentsâ€”or the equivalent as a webcasted showâ€”is exactly zero.__ (From an educational point of view.)
 

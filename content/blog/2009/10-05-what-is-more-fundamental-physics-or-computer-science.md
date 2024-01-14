@@ -12,7 +12,7 @@ The answer is obvious (to me): Without algorithms there would be no Physics! Phy
 <img decoding="async" style="float: right; margin: 2px; width: 100px;" src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3d/Maquina.png/800px-Maquina.png" alt />Does Computer Science make fundamental (and possibly falsifiable) predictions about the universe? Of course, it does! Take the [strong Church-Turing thesis](https://en.wikipedia.org/wiki/Church%E2%80%93Turing_thesis): the assumption that the universe is a [Turing machine](https://en.wikipedia.org/wiki/Turing_machine). It has deep implications:
 
 1. There is no problem solvable by a human brain that cannot be solved by a machine. In particular, creativity and intuition are computable. Philosophically, we have no soul (not anymore than a PC).
-1. We all live within a discrete computer simulation. [Physics is digital](https://en.wikipedia.org/wiki/Digital_physics). Continuous functions (such as <em>f</em>(<em>x</em>)=sin(<em>x</em>)) are approximations to the discrete functions governing nature, and not the reverse. We all live in [the Matrix](https://en.wikipedia.org/wiki/Matrix_movie).
+1. We all live within a discrete computer simulation. [Physics is digital](https://en.wikipedia.org/wiki/Digital_physics). Continuous functions (such as <em>f</em>(<em>x</em>)=sin(<em>x</em>)) are approximations to the discrete functions governing nature, and not the reverse. We all live in [the Matrix](https://en.wikipedia.org/wiki/Matrix_movie).
 
 
 The predictions are falsifiable:

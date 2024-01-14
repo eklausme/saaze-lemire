@@ -20,8 +20,7 @@ There are some beautiful quotes in this article, check this one out:
 
 This one is also beautiful:
 
-> &ldquo;The best phrase I&rsquo;ve heard for us is the intellectual lumpenproletariat,&rdquo; he says, using the Marxist term for the ground-down members of the underclass who lack the class consciousness for revolt. &ldquo;If something happened to empower those people, there would be an incredible efflorescence of culture in this country, because there&rsquo;s more of them now than there ever has been. But they are too busy scuttling around getting shitty jobs.&rdquo; 
-
+> &ldquo;The best phrase I&rsquo;ve heard for us is the intellectual lumpenproletariat,&rdquo; he says, using the Marxist term for the ground-down members of the underclass who lack the class consciousness for revolt. &ldquo;If something happened to empower those people, there would be an incredible efflorescence of culture in this country, because there&rsquo;s more of them now than there ever has been. But they are too busy scuttling around getting shitty jobs.&rdquo;
 
 [Household opera](http://householdopera.typepad.com/household_opera/2004/05/required_readin.html) had this to say about the article:
 

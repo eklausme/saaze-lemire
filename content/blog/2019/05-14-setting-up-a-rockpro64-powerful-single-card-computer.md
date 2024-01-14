@@ -5,20 +5,20 @@ title: "Setting up a ROCKPro64 (powerful single-card computer)"
 
 
 
-A few months ago, I ordered [ROCKPro64](https://store.pine64.org/?product=rockpro64-4gb-single-board-computer). If you are familiar with the Raspberry Pi, then it is a bit of the same&hellip; an inexpensive computer that comes in the form of a single card. The ROCKPro64 differs from the Raspberry Pi in that it is much closer in power to a normal PC. You make a decent laptop out of it. It has enough memory to do useful work and a decent 6-core processor  (dual ARM Cortex A72 and quad ARM Cortex A53). I bought the following components:
+A few months ago, I ordered [ROCKPro64](https://store.pine64.org/?product=rockpro64-4gb-single-board-computer). If you are familiar with the Raspberry Pi, then it is a bit of the same&hellip; an inexpensive computer that comes in the form of a single card. The ROCKPro64 differs from the Raspberry Pi in that it is much closer in power to a normal PC. You make a decent laptop out of it. It has enough memory to do useful work and a decent 6-core processor  (dual ARM Cortex A72 and quad ARM Cortex A53). I bought the following components:
 
 <a href="https://lemire.me/blog/wp-content/uploads/2019/05/IMG_0278.jpeg"><img decoding="async" class="alignnone size-medium wp-image-17472" src="https://lemire.me/blog/wp-content/uploads/2019/05/IMG_0278-300x225.jpeg" alt width="45%" style="float: right;margin:2em;" srcset="https://lemire.me/blog/wp-content/uploads/2019/05/IMG_0278-300x225.jpeg 300w, https://lemire.me/blog/wp-content/uploads/2019/05/IMG_0278-768x576.jpeg 768w, https://lemire.me/blog/wp-content/uploads/2019/05/IMG_0278-1024x768.jpeg 1024w" sizes="(max-width: 300px) 100vw, 300px" /></a>
 
 - <span class="il">ROCKPro64</span> 4GB Single Board Computer ($80)
-- <span class="il">ROCKPro64 aluminium casing ($15) </span>
+- <span class="il">ROCKPro64 aluminium casing ($15) </span>
 - 64GB eMMC module ($35)
 - USB adapter for the eMMC Module ($5)
 - <span class="il">ROCKPro64 power supply ($13)</span>
 
 
-I also had an ethernet cable at home. I connected the ethernet cable to my iMac, which is connected to the Internet via Wifi, and I configured macOS to enable Internet sharing via the (previously unused) ethernet port. You can probably connect the <span class="il">ROCKPro64 to the Internet by wifi, but I always prefer the reliability of ethernet cables. So I connected the ROCKPro64 to the Internet via this ethernet  cable. I did not plug anything else into it.</span>
+I also had an ethernet cable at home. I connected the ethernet cable to my iMac, which is connected to the Internet via Wifi, and I configured macOS to enable Internet sharing via the (previously unused) ethernet port. You can probably connect the <span class="il">ROCKPro64 to the Internet by wifi, but I always prefer the reliability of ethernet cables. So I connected the ROCKPro64 to the Internet via this ethernet  cable. I did not plug anything else into it.</span>
 
-I wanted to install Linux on the ROCKPro64. At first, I went to Ubuntu, grabbed a release there, but it was a bad idea. It does not work. I finally figured out that you have to download Linux releases tailored to the hardware. So I got the [latest version of Debian for the ROCKPro64](https://github.com/ayufan-rock64/linux-build/releases) for GitHub. I prefer Ubuntu, but debian is good too. Maybe importantly, I used a release that was specific to the ROCKPro64 (with rockpro64 in the name).
+I wanted to install Linux on the ROCKPro64. At first, I went to Ubuntu, grabbed a release there, but it was a bad idea. It does not work. I finally figured out that you have to download Linux releases tailored to the hardware. So I got the [latest version of Debian for the ROCKPro64](https://github.com/ayufan-rock64/linux-build/releases) for GitHub. I prefer Ubuntu, but debian is good too. Maybe importantly, I used a release that was specific to the ROCKPro64 (with rockpro64 in the name).
 
 You then need to get the operating system on the eMMC module. The eMMC module is a bit like an SD card, but you can&rsquo;t plug it into you computer. However, you can plug it in the USB adapter you just bought. I did so.
 

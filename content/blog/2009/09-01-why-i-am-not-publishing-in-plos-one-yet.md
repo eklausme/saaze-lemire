@@ -18,11 +18,11 @@ title: "Why I am not publishing in PLoS One, yet"
 
 Unfortunately, for a Computer Scientist, it is not yet attractive:
 
-- The [Computer Science section](http://www.plosone.org/article/browse.action?catName=Computer+Science&amp;field=) is filled with biology and medicine papers making use of Information Technology. In other words, the PLoS One taxonomy  confuses Information Technology and Computer Science! Thankfully, I could find [one article in Natural Language Processing](http://journals.plos.org/plosone/article?id=10.1371/journal.pone.0005372) which might be the first and only Computer Science paper published in PLoS One. So there is hope.
+- The [Computer Science section](http://www.plosone.org/article/browse.action?catName=Computer+Science&amp;field=) is filled with biology and medicine papers making use of Information Technology. In other words, the PLoS One taxonomy  confuses Information Technology and Computer Science! Thankfully, I could find [one article in Natural Language Processing](http://journals.plos.org/plosone/article?id=10.1371/journal.pone.0005372) which might be the first and only Computer Science paper published in PLoS One. So there is hope.
 - As a related point, PLoS One is not indexed at the usual places as a Computer Science journal ([DBLP](http://www.informatik.uni-trier.de/~ley/db/), [ACM DL](http://dl.acm.org/dl.cfm), and so on). Of course, no Computer Science indexing is possible until PLoS One correctly classifies the Computer Science articles.
 
 
-If they could fix these problems, I would gladly submit some of my work to them. PLoS One could become a useful journal in Computer Science over time. What about prestige? PLoS One uses [article-level metrics](http://blogs.plos.org/everyone/2009/05/27/article-level-metrics-at-plos/). Instead of trying to be a prestigious journal, PLoS One helps you measure the impact of your own papers.
+If they could fix these problems, I would gladly submit some of my work to them. PLoS One could become a useful journal in Computer Science over time. What about prestige? PLoS One uses [article-level metrics](http://blogs.plos.org/everyone/2009/05/27/article-level-metrics-at-plos/). Instead of trying to be a prestigious journal, PLoS One helps you measure the impact of your own papers.
 
 
 __Update__: PLoS Computational Biology is now indexed by DBLP.

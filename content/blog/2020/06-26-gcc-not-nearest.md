@@ -31,7 +31,7 @@ It important to be a bit more precise. The 64-bit floating-point standard repres
 ```
 
 
-We have to pick the mantissa 4519653187245114 or the mantissa 4519653187245115. There is no way to represent exactly anything that falls in-between using 64-bit floating-point numbers. So where does 0.50178230318 fall exactly? We have approximately&hellip;
+We have to pick the mantissa 4519653187245114 or the mantissa 4519653187245115. There is no way to represent exactly anything that falls in-between using 64-bit floating-point numbers. So where does 0.50178230318 fall exactly? We have approximately&hellip;
 ```C
 0.50178230318 = 4519653187245114.50011795456 * 2 ** -53
 ```
@@ -90,7 +90,7 @@ You might think that it is a bug that should be reported, right?
 
 There are dozens if not hundreds of similar reports to the GNU GCC team. [They are being flagged as invalid](https://gcc.gnu.org/bugzilla/show_bug.cgi?id=35488).
 
-Let me recap: the GNU GCC compiler may round the result of a division between two floating-point numbers to a value that __is not the nearest__. And it is not considered a bug.
+Let me recap: the GNU GCC compiler may round the result of a division between two floating-point numbers to a value that __is not the nearest__. And it is not considered a bug.
 
 The explanation is that the compiler first rounds to nearest using 80 bits and then rounds again (this is called double rounding). This is what fancy numerical folks call <a href="https://en.cppreference.com/w/cpp/types/climits/FLT_EVAL_METHOD"><tt>FLT_EVAL_METHOD = 2</tt></a>.
 

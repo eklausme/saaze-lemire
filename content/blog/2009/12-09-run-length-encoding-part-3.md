@@ -13,7 +13,7 @@ __Reordering sequences__
 
 Text, images, and sound are stored on disk as strings. Intuitively, we may think that strings cannot be reordered without losing information. But this intuition is wrong!
 
-You can reorder strings without losing any information, as long as the reordering is [invertible](https://en.wikipedia.org/wiki/Inverse_function). The [Burrowsâ€“Wheeler](https://en.wikipedia.org/wiki/Burrows%E2%80%93Wheeler_transform) transformâ€”invented in 1994â€”is an invertible transform which tends to generate streams of repeated characters. It is used by the open source [bzip2 software](http://bzip.org/). This invertible reordering trick works so well that bzip2 is &ldquo;within 10% to 15% of the best available techniques, whilst being around twice as fast at compression and six times faster at decompression.&rdquo;
+You can reorder strings without losing any information, as long as the reordering is [invertible](https://en.wikipedia.org/wiki/Inverse_function). The [Burrowsâ€“Wheeler](https://en.wikipedia.org/wiki/Burrows%E2%80%93Wheeler_transform) transformâ€”invented in 1994â€”is an invertible transform which tends to generate streams of repeated characters. It is used by the open source [bzip2 software](http://bzip.org/). This invertible reordering trick works so well that bzip2 is &ldquo;within 10% to 15% of the best available techniques, whilst being around twice as fast at compression and six times faster at decompression.&rdquo;
 
 __Ordering sets__
 
@@ -41,8 +41,7 @@ Patricia                 |Becket                   |
 Patricia                 |Tucker                   |
 
 
-__Further reading__: 
-
+__Further reading__:
 Daniel Lemire and Owen Kaser, [ Reordering Columns for Smaller Indexes](http://arxiv.org/abs/0909.1346), Information Sciences 181 (12), 2011.
 
 Daniel Lemire, Owen Kaser, Eduardo Gutarra, [Reordering Rows for Better Compression: Beyond the Lexicographic Order](http://arxiv.org/abs/1207.2189), ACM Transactions on Database Systems 37 (3), 2012.

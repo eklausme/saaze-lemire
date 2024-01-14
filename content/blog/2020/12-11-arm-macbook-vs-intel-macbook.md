@@ -5,7 +5,7 @@ title: "ARM MacBook vs Intel MacBook"
 
 
 
-Up to yesterday, my laptop was a large 15-inch MacBook Pro. It contains an [Intel Kaby Lake processor](https://ark.intel.com/content/www/us/en/ark/products/97185/intel-core-i7-7700hq-processor-6m-cache-up-to-3-80-ghz.html) (3.8 GHz). I just got a brand-new 13-inch 2020 MacBook Pro with Apple&rsquo;s M1 ARM chip (3.2 GHz).
+Up to yesterday, my laptop was a large 15-inch MacBook Pro. It contains an [Intel Kaby Lake processor](https://ark.intel.com/content/www/us/en/ark/products/97185/intel-core-i7-7700hq-processor-6m-cache-up-to-3-80-ghz.html) (3.8 GHz). I just got a brand-new 13-inch 2020 MacBook Pro with Apple&rsquo;s M1 ARM chip (3.2 GHz).
 
 How do they compare? I like precise data points.
 
@@ -24,7 +24,7 @@ abseil                   |460 MB/s                 |580 MB/s                 |25
 
 [My benchmarking software is available on GitHub](https://github.com/lemire/simple_fastfloat_benchmark). To reproduce, install Apple&rsquo;s Xcode (with command line tools), [CMake](https://cmake.org/download/) (install for command-line use) and type <tt>cmake -B build &amp;&amp; cmake --build build &amp;&amp; ./build/benchmarks/benchmark</tt>. It uses the the default Release mode in CMake (flags <tt>-O3 -DNDEBUG</tt>).
 
-I do not yet understand why the [fast_float](https://github.com/fastfloat/fast_float) library is so much faster on the Apple M1. It contains no ARM-specific optimization.
+I do not yet understand why the [fast_float](https://github.com/fastfloat/fast_float) library is so much faster on the Apple M1. It contains no ARM-specific optimization.
 
 __Note__: I dislike benchmarking on laptops. In this case, the tests are short and I do not expect the processors to be thermally constrained.
 

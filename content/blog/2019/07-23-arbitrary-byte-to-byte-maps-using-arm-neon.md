@@ -34,8 +34,7 @@ uint8x16_t simd_transform16(uint8x16x4_t * table, uint8x16_t input) {
 ```
 
 
-In terms of loads and stores, assuming that you enough registers, you only have one load and one store per block of 16 bytes. 
-
+In terms of loads and stores, assuming that you enough registers, you only have one load and one store per block of 16 bytes.
 A more practical scenario might be to assume that all my byte values fit in [0,128), as is the case with a stream of ASCII characters&hellip;
 ```C
 uint8x16_t simd_transform16_ascii(uint8x16x4_t * table, 

@@ -55,7 +55,5 @@ This paragraph is just great:
 
 Here&rsquo;s Paul&rsquo;s conclusion:
 
-> 
-If I had to condense the power of the marginal into one sentence it would be: just try hacking something together. 
-
+>If I had to condense the power of the marginal into one sentence it would be: just try hacking something together.
 

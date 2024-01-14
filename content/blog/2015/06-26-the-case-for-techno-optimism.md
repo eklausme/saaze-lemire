@@ -5,8 +5,7 @@ title: "The case for techno-optimism"
 
 
 
-I define techno-optimism as the belief that technology makes us healthier, richer and smarter at an accelerated rate. 
-
+I define techno-optimism as the belief that technology makes us healthier, richer and smarter at an accelerated rate.
 Anyone working in information technology cannot help but to be a bit techno-optimist. My wife&rsquo;s latest Samsung phone is a technological marvel that can replace dozens of expensive devices from ten years ago (phone, camera, pda, &hellip;). Google&rsquo;s voice recognition software has finally become good enough. Here is what I did just now:
 
 &#8211; Ok Google
@@ -19,8 +18,7 @@ My 9-year-old son comes by (his English is even more approximate) and he says &l
 
 A common objection to techno-optimism is that it only works in information technology. For example, there seems to be a widespread belief that medicine or education is standing still.
 
-It is true that if you go in your doctor&rsquo;s office, it might feel like traveling back in time to the 1970s. But let us keep in mind that, in the future, most things will still look the same. Except for my wicked flat TV, my living room would not surprise someone from the 1950s. A wall is a wall: we just made it much cheaper and faster to build walls. A desk is a desk: they have just become much cheaper. Paper is still very useful: we have just learned how to cost-efficiently replenish our forests. 
-
+It is true that if you go in your doctor&rsquo;s office, it might feel like traveling back in time to the 1970s. But let us keep in mind that, in the future, most things will still look the same. Except for my wicked flat TV, my living room would not surprise someone from the 1950s. A wall is a wall: we just made it much cheaper and faster to build walls. A desk is a desk: they have just become much cheaper. Paper is still very useful: we have just learned how to cost-efficiently replenish our forests.
 Moreover, it will always be true that the future won&rsquo;t be uniformly distributed. Even today, one out of eight people never use the Internet. This cannot be helped. There will always be backward places and people.
 
 But really, medical progress is fast and furious:

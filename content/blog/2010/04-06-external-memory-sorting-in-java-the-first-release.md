@@ -7,7 +7,7 @@ title: "External-Memory Sorting in Java : the First Release"
 
 In my previous post, you were invited to help with a reference implementation of [external sorting](https://en.wikipedia.org/wiki/External_sorting) in Java. Several people tested and improved the code. I like the result.
 
-- I posted the code on [Google code](https://code.google.com/p/externalsortinginjava/). All contributors are  owners of the project. The source code is under subversion.
+- I posted the code on [Google code](https://code.google.com/p/externalsortinginjava/). All contributors are  owners of the project. The source code is under subversion.
 - I have added a link to it from the [wikipedia page](https://en.wikipedia.org/wiki/External_sorting#External_links).
 
 

@@ -9,8 +9,7 @@ One of the most interesting talk we had at SWIG&rsquo;04 was &ldquo;Design Issue
 
 It lacks sufficient documentation for me to grok it quickly, but from what I understand, Aaron tried to create a useful and innovative RDF application. Here&rsquo;s what he says about his widgets:
 
-> 
-The New York Times includes a large amount of topical metadata with each article it publishes. These are widgets that, having harvested the data, try to do something interesting with it.
+>The New York Times includes a large amount of topical metadata with each article it publishes. These are widgets that, having harvested the data, try to do something interesting with it.
 
 
 

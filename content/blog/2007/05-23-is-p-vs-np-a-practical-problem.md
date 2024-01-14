@@ -7,8 +7,7 @@ title: "Is P vs. NP a practical problem?"
 
 Here&rsquo;s a recent quote from ACM TechNews:
 
-> The ACM&rsquo;s Special Interest Group on Algorithms and Computing Theory honored Rudich and Razborov for their contributions to addressing the P vs. NP problem, which involves the computational complexity behind the security of ATM cards, computer passwords, and electronic commerce. 
-
+> The ACM&rsquo;s Special Interest Group on Algorithms and Computing Theory honored Rudich and Razborov for their contributions to addressing the P vs. NP problem, which involves the computational complexity behind the security of ATM cards, computer passwords, and electronic commerce.
 
 The implication here is that the P vs. NP problem is important for computer security. This seems like saying that General Relativity is important to establish a mining operation on the Moon.
 

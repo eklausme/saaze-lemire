@@ -5,9 +5,9 @@ title: "Apple´s M1 processor and the full 128-bit integer product"
 
 
 
-If I multiply two 64-bit integers (having values in [0, 2<sup>64</sup>)), the product requires 128 bits. Intel and AMD processors (x64) can compute the full (128-bit) product of two 64-bit integers using a single instruction (<tt>mul</tt>). ARM processors, such as those found in your mobile phone, require two instructions to achieve the same result: `mul` computes the least significant 64 bits while `mulh` computes the most significant 64 bits.
+If I multiply two 64-bit integers (having values in [0, 2<sup>64</sup>)), the product requires 128 bits. Intel and AMD processors (x64) can compute the full (128-bit) product of two 64-bit integers using a single instruction (<tt>mul</tt>). ARM processors, such as those found in your mobile phone, require two instructions to achieve the same result: `mul` computes the least significant 64 bits while `mulh` computes the most significant 64 bits.
 
-I believe that it has often meant that computing the full 128-bit product was more expensive, everything else being equal, on ARM processors than on x64 (Intel) processors. However, the instruction set does not have to determine the performance. For example, ARM processors can recognize that I am calling both instructions (<tt>mul</tt>  and <tt>mulh</tt>) and process them more efficiently. Or they may simply have very inexpensive multipliers.
+I believe that it has often meant that computing the full 128-bit product was more expensive, everything else being equal, on ARM processors than on x64 (Intel) processors. However, the instruction set does not have to determine the performance. For example, ARM processors can recognize that I am calling both instructions (<tt>mul</tt>  and <tt>mulh</tt>) and process them more efficiently. Or they may simply have very inexpensive multipliers.
 
 To explore the problem, let us pick two pseudo-random number generators, splitmix and wyhash:
 ```C

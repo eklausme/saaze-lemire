@@ -20,8 +20,7 @@ number of heavy cores    |average measured frequency |
 4                        |2.491 GHz                |
 
 
-I could figure out the per-core frequency, but I do not have good tool handy to do the work right now, and I don&rsquo;t want to add more code to my short experiment. 
-
+I could figure out the per-core frequency, but I do not have good tool handy to do the work right now, and I don&rsquo;t want to add more code to my short experiment.
 Let us do some math instead.
 
 My benchmark is not perfect. For example, the heavy threads might finish earlier than the regular threads. Still, let us assume that the heavy cores run at a frequency of 2.491 GHz while the other cores run at a frequency of 3.178 GHz, and let us compute the expected average frequency.

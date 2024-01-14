@@ -5,8 +5,7 @@ title: "Querying the library of congress using Search/Retrieve via URL"
 
 
 
-SRU (Search/Retrieve via URL) is an interesting [REST](https://en.wikipedia.org/wiki/REST) Web Service protocol. 
-
+SRU (Search/Retrieve via URL) is an interesting [REST](https://en.wikipedia.org/wiki/REST) Web Service protocol.
 Enough technobabble. Let&rsquo;s run an example.
 
  Suppose you want to retrieve the data that the library of congress has on a book called &ldquo;First Impressions of the New World&rdquo; by &ldquo;Trotter Isabella Strange&rdquo;, you issue the following query (follow the hyperlink for the XML result):

@@ -10,5 +10,4 @@ I missed the beginning of [Sean McGrath&rsquo;s Jython Webapp Tutorial](https://
 > This tutorial is aimed at Java Webapp developers interesting in investigating the benefits that dynamic typing in general and the jython programming language in particular, can bring to web application development.
 
 
-If you have to use Java and have to deploy a Web application, I think Jython could be a great asset. 
-
+If you have to use Java and have to deploy a Web application, I think Jython could be a great asset.

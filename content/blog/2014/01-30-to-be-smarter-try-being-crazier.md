@@ -19,24 +19,20 @@ Given these benefits, you would think that everyone would go wild and keep on ex
 
 In fact, most of us try to &ldquo;fit in&rdquo; as the benefits of fitting in are often perceived to out-weight the theoretical benefits that come with originality.
 
-There is no denying that originality gets you in trouble. For example, I am an experienced gardener, but my garden often looks like hell because it is of giant experiment with many failures. Though my father would have me install a sprinkler system, I have purposefully rejected the idea, to try a build a garden that works without artificial watering&hellip; just to see how far I can push the idea. 
-
+There is no denying that originality gets you in trouble. For example, I am an experienced gardener, but my garden often looks like hell because it is of giant experiment with many failures. Though my father would have me install a sprinkler system, I have purposefully rejected the idea, to try a build a garden that works without artificial watering&hellip; just to see how far I can push the idea.
 As a result of my experiments, I might know a few weird things that most gardeners do not know. However, I do not have much recognition as a good gardener and my experiments have been costly at times.
 
 I have been around many college professors and they all tend to look the same. Moderately clean shirts with short hair. (In my case, very short hair.) Ladies professors are just as bland looking as their male colleagues.
 
 The inability of professors to try different looks is also reflected in their work. I started out by saying that originality is a job requirement for researchers. When we review grant proposals, we do get annoyed when people propose to do work that has been done repeatedly in the past, or that looks like what everyone else is doing. But while lack of originality might trigger boredom, true originality is likely to trigger instant rejection.
 
-A colleague of mine recently made a major discovery. He toyed with the idea of basing his upcoming research program around this discovery, but after checking with wise colleagues, he is proposing a continuation of what he did for the last 20 years. If he were to propose a radical shift of his research agenda toward something that nobody is doing, he would likely get sunk. He can, of course, pursue his radical ideas on the side, and once they mature, he will be able to come in the open. 
-
+A colleague of mine recently made a major discovery. He toyed with the idea of basing his upcoming research program around this discovery, but after checking with wise colleagues, he is proposing a continuation of what he did for the last 20 years. If he were to propose a radical shift of his research agenda toward something that nobody is doing, he would likely get sunk. He can, of course, pursue his radical ideas on the side, and once they mature, he will be able to come in the open.
 Let us contrast this with Google&rsquo;s secret lab, [Google X](https://en.wikipedia.org/wiki/Google_X). Hand-picked engineers pursue truly original ideas. Such pursuits, at least as far as I know, are absurdly rare.
 
-I think I would be richer and have a higher status if I had played it safer throughout my life. Conformance definitively wins out most of the time. Until it does not. We always hear about exciting research coming out of the most prestigious laboratories. However, on the whole, researchers are a boring lot. (I spent part of the last few weeks reviewing grant proposals.) They stick with what they know, they propose ideas that are mostly risk-free. Though I have read dozens of grant proposals in the last few years, I have not seen a successful grant leave anything to chance. 
-
+I think I would be richer and have a higher status if I had played it safer throughout my life. Conformance definitively wins out most of the time. Until it does not. We always hear about exciting research coming out of the most prestigious laboratories. However, on the whole, researchers are a boring lot. (I spent part of the last few weeks reviewing grant proposals.) They stick with what they know, they propose ideas that are mostly risk-free. Though I have read dozens of grant proposals in the last few years, I have not seen a successful grant leave anything to chance.
 Let us consider open source software projects. It is generally plagued with endless repetition. How many web frameworks do we have? It is always amazing to me to see that so many programmers use their free time to build risk-free software, effectively cloning what thousands have done before.
 
-The problem is that failure is how you learn. The bigger your failures, the most important are your learning opportunities. 
-
+The problem is that failure is how you learn. The bigger your failures, the most important are your learning opportunities.
 Though I think you can succeed socially, I don&rsquo;t think you can remain truly smart while avoiding failures. And you cannot be super smart by avoiding massive failures.
 
 At the very least, screwing up makes for interesting stories.

@@ -7,7 +7,7 @@ title: "Benchmarking is hard: processors learn to predict branches"
 
 A lot of software is an intricate of branches (<tt>if</tt>&#8211;<tt>then</tt> clauses). For performance reasons, modern processors predict the results of these branches.
 
-[In my previous post](/lemire/blog/2019/10/15/mispredicted-branches-can-multiply-your-running-times/), I showed how the bulk of your running time could be due to mispredicted branches. My benchmark consisted in writing 64 million random integers to an array. When I tried to only write odd random integers, the performance became much worse, due to the mispredictions.
+[In my previous post](/lemire/blog/2019/10/15/mispredicted-branches-can-multiply-your-running-times/), I showed how the bulk of your running time could be due to mispredicted branches. My benchmark consisted in writing 64 million random integers to an array. When I tried to only write odd random integers, the performance became much worse, due to the mispredictions.
 ```C
 while (howmany != 0) {
     val = random();

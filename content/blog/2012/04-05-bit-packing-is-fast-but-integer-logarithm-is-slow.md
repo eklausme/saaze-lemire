@@ -5,7 +5,7 @@ title: "Bit packing is fast, but integer logarithm is slow"
 
 
 
-In [How fast is bit packing?](/lemire/blog/archives/2012/03/06/how-fast-is-bit-packing/), we saw how to store non-negative integers smaller than 2<sup><em>N</em></sup> using _N_ bits per integer by a technique called bit packing. A careful C++ bit packing implementation is fast: e.g., over 1 billion integers per second.
+In [How fast is bit packing?](/lemire/blog/2012/03/06/how-fast-is-bit-packing/), we saw how to store non-negative integers smaller than 2<sup><em>N</em></sup> using _N_ bits per integer by a technique called bit packing. A careful C++ bit packing implementation is fast: e.g., over 1 billion integers per second.
 
 However, before you pack the integers, you might need to scan them to determine the number of bits needed (<em>N</em>). Unfortunately, it is a relatively expensive process.
 
@@ -22,8 +22,7 @@ With proper loop unrolling, this is nearly as fast as bit packing.
 
 __Update__: Preston Bannister correctly points out that you can do much better. Simply compute the logical or between all integers and then compute the integer logarithm of the result. It is much, much faster.
 
-To experiment with this problem, I wrote a [small program](https://github.com/lemire/Code-used-on-Daniel-Lemire-s-blog/tree/master/2012/04/05/bit-packing-is-fast-but-integer-logarithm-is-slow) which finds the maximum integer logarithm of a large array of random integers. It then packs the integers using this logarithm. 
-
+To experiment with this problem, I wrote a [small program](https://github.com/lemire/Code-used-on-Daniel-Lemire-s-blog/tree/master/2012/04/05/bit-packing-is-fast-but-integer-logarithm-is-slow) which finds the maximum integer logarithm of a large array of random integers. It then packs the integers using this logarithm.
 - I find that I can pack between 1 billion and 2 billions integers per second.
 - I compute the maximum integer logarithm at a rate of 3 billion integers per second.
 

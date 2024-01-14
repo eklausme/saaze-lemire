@@ -82,7 +82,7 @@ stream                   |1000 ns/string           |0.12 GB/s                |
 find                     |33 ns/string             |3.49 GB/s                |
 
 
-At least in this case, I find that the stream version is four times slower than  naive string processing, and it is 30 times slower than the optimized &lsquo;find&rsquo; approach.
+At least in this case, I find that the stream version is four times slower than  naive string processing, and it is 30 times slower than the optimized &lsquo;find&rsquo; approach.
 
 Your results will vary depending on your system, but I generally consider the use of streams in C++ as a hint that there might be poor performance.
 

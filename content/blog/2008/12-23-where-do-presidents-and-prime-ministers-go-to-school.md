@@ -9,7 +9,7 @@ In his most recent essay, [After the credentials](http://www.paulgraham.com/cred
 
 Paul writes good essays, but they are thin on research. How much is your alma matter a predictor of your success? The research is available. For example, in Regression and Matching Estimates of the Effects of Elite College Attendance on Career Outcomes, Brand and Halaby write:
 
-> Our results suggest that in terms of college quality, there is not only no direct effect on mid- and late-career attainment, but no significant effect at all.  This study questions the consequential belief that an elite college education necessarily translates into privileged socioeconomic status throughout the life course.
+> Our results suggest that in terms of college quality, there is not only no direct effect on mid- and late-career attainment, but no significant effect at all.  This study questions the consequential belief that an elite college education necessarily translates into privileged socioeconomic status throughout the life course.
 
 
 To sum it up: __If you are a privileged kid, you will do well even if you go to a local college__.
@@ -42,7 +42,7 @@ What about Canadian prime ministers?
 - Stephen Harper earned his degree from the the <a title="University of Calgary" href="https://en.wikipedia.org/wiki/University_of_Calgary">University of Calgary</a>.
 
 
-Based on this evidence alone, if I were to coach a kid for a political career, I would ignore where he gets his degree. This makes sense. You  become president or prime minister several years after earning your degree. By the time you have the experience required for the job, any college premium is gone.
+Based on this evidence alone, if I were to coach a kid for a political career, I would ignore where he gets his degree. This makes sense. You  become president or prime minister several years after earning your degree. By the time you have the experience required for the job, any college premium is gone.
 
 See also my post [The 2 myths getting students into ivy-league schools](/lemire/blog/2008/03/13/the-2-myths-that-gets-students-into-heavy-league-schools/).
 

@@ -7,8 +7,7 @@ title: "Turing award recipient tears apart artificial intelligence"
 
 Nice article by Peter Naur, Turing award recipient, in the last Communications of the ACM (January 2007). He takes on the hypothesis that the human mind is nothing by a Turing machine, and tears it apart:
 
-> (&hellip;) human thinking basically is a matter of the plasticity of the elements of the nervous system, while computersâ€”Turing machinesâ€”have no plastic elements. 
-
+> (&hellip;) human thinking basically is a matter of the plasticity of the elements of the nervous system, while computersâ€”Turing machinesâ€”have no plastic elements.
 
 Naturally, this is not the first time someone objects to this hypothesis which motivates the field of Artificial Intelligence (most famously [Roger Penrose](https://en.wikipedia.org/wiki/Roger_Penrose) also objected with a completely different line of argument).
 
@@ -21,8 +20,7 @@ He takes a shot at Natural Language Processing:
 
 The guy is interesting and has clearly a sizeable ego:
 
-> 
-I have tried to have these articles published in journals, so far without any success. The present presentation, when published in the Communications of the ACM, will in fact be the first presentation of the Synapse-State Theory of mental life to appear in a journal. So I am clearly at the beginning of that twenty year period that it usually takes to have a scientific breakthrough accepted.
+>I have tried to have these articles published in journals, so far without any success. The present presentation, when published in the Communications of the ACM, will in fact be the first presentation of the Synapse-State Theory of mental life to appear in a journal. So I am clearly at the beginning of that twenty year period that it usually takes to have a scientific breakthrough accepted.
 
 
 He is clearly a trouble-maker and I&rsquo;m sure that Communications of the ACM debated whether to publish his article. But it is hard to deny publication right to a Turing Award recipient. Maybe some will regret he was awarded the prize in the first place.

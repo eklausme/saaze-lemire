@@ -14,7 +14,7 @@ Whenever one considers innovative endeavors and their productivity, one must con
 
 My view is that we tend to underestimate &ldquo;intellectual latency&rdquo;. There is a delay between the time you approach a new idea and the time you have fully considered it.
 
-Thus our brains are not unlike computers. Your processor might be able to run at 4 GHz and be able to retire 4 instructions per cycle&hellip; but very rarely are you able to reach such a throughput while working on a single task. The productive intellectuals that I know tend to work on a few ideas at once. Maybe they are writing a book while building a piece of software and writing an essay.
+Thus our brains are not unlike computers. Your processor might be able to run at 4 GHz and be able to retire 4 instructions per cycle&hellip; but very rarely are you able to reach such a throughput while working on a single task. The productive intellectuals that I know tend to work on a few ideas at once. Maybe they are writing a book while building a piece of software and writing an essay.
 
 So you should not focus on one unique task in the hope of finishing it faster. You may complete it slightly faster if you omit everything else but the sum total of your productivity might be much lower.
 

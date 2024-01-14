@@ -17,7 +17,7 @@ There are other common examples. If you are accessing the content of an array, m
 
 What happens if the branch is hard to predict?
 
-What happens inside the processor is that all of the instruction that were executed but that follow the mispredicted branch must be cancelled and the computation must start anew. You should expect a penalty of more than 10 cycles for each mispredicted branch. It can multiply the running times.
+What happens inside the processor is that all of the instruction that were executed but that follow the mispredicted branch must be cancelled and the computation must start anew. You should expect a penalty of more than 10 cycles for each mispredicted branch. It can multiply the running times.
 
 Let us look at some simple code where we write out random integers to an output array:
 ```C

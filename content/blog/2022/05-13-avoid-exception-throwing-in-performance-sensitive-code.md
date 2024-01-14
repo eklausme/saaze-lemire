@@ -51,7 +51,7 @@ Unfortunately, I often see solutions abusing exceptions:
 ```
 
 
-The latter is obviously ugly and hard-to-maintain code. But what is more, it can be highly inefficient. To illustrate, [I wrote a small benchmark over random arrays containing a few thousand elements](https://github.com/lemire/Code-used-on-Daniel-Lemire-s-blog/tree/master/2022/05/13). I use the LLVM clang 12 compiler on a skylake processor. The normal code is 10000 times faster in my tests!
+The latter is obviously ugly and hard-to-maintain code. But what is more, it can be highly inefficient. To illustrate, [I wrote a small benchmark over random arrays containing a few thousand elements](https://github.com/lemire/Code-used-on-Daniel-Lemire-s-blog/tree/master/2022/05/13). I use the LLVM clang 12 compiler on a skylake processor. The normal code is 10000 times faster in my tests!
 
 normal code              |0.05 ns/value            |
 -------------------------|-------------------------|

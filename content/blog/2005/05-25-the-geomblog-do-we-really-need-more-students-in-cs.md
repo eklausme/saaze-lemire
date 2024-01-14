@@ -7,13 +7,11 @@ title: "The Geomblog: Do we really need more students in CS ?"
 
 Suresh jumps into the [Do we really need more students in CS ?](http://blog.geomblog.org/2005/05/do-we-really-need-more-students-in-cs.html) debate. He concludes:
 
-> 
-On the one hand, you can make a degree program produce graduates that are more employable, but you veer dangerously close to the &lsquo;vocational training&rsquo; edge of the cliff, or you make a degree program more grounded in rigorous training, (essentially what we have now), and continue to lose students to other programs because the CS degree they could get is not &lsquo;marketable&rsquo;.
+>On the one hand, you can make a degree program produce graduates that are more employable, but you veer dangerously close to the &lsquo;vocational training&rsquo; edge of the cliff, or you make a degree program more grounded in rigorous training, (essentially what we have now), and continue to lose students to other programs because the CS degree they could get is not &lsquo;marketable&rsquo;.
 
 
 
-Actually, Suresh, I think that this already happened: the CS programs might not become more marketable, but new programs are created. 
-
+Actually, Suresh, I think that this already happened: the CS programs might not become more marketable, but new programs are created.
 Solution 1: Offer engineering degrees
 
 The engineering side of computer science has been growing stronger. At least in Canada, there is now a large number of software engineering degrees. Even tiny schools now offer both the CS and software engineering degree. [UQÃ€M](http://www.uqam.ca) has a dual degree (CS and software engineering).

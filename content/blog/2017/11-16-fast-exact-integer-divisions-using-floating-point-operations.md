@@ -5,8 +5,7 @@ title: "Fast exact integer divisions using floating-point operations"
 
 
 
-On current processors, integer division is slow. If you need to compute many quotients or remainders, you can be in trouble. You potentially need divisions when programming a [circular buffer](https://en.wikipedia.org/wiki/Circular_buffer), a hash table, generating random numbers, shuffling data randomly, sampling from a set, and so forth. 
-
+On current processors, integer division is slow. If you need to compute many quotients or remainders, you can be in trouble. You potentially need divisions when programming a [circular buffer](https://en.wikipedia.org/wiki/Circular_buffer), a hash table, generating random numbers, shuffling data randomly, sampling from a set, and so forth.
 There are many tricks to avoid performance penalties:
 
 - You can avoid dividing by an arbitrary integer and, instead, divide by a known power of two.
@@ -32,8 +31,7 @@ uint32_t divide(uint32_t a, uint32_t b) {
 ```
 
 
-Sadly, if you try to divide by zero, you will not get a runtime error, but rather some nonsensical result. Still, if you can be trusted to not divide by zero, this provides a fast and exact integer division routine. 
-
+Sadly, if you try to divide by zero, you will not get a runtime error, but rather some nonsensical result. Still, if you can be trusted to not divide by zero, this provides a fast and exact integer division routine.
 How much faster is it? [I wrote a small program to measure the throughput](https://github.com/lemire/Code-used-on-Daniel-Lemire-s-blog/tree/master/2017/11/16):
 
 64-bit integer division  |25 cycles                |
@@ -49,7 +47,6 @@ I am not entirely sure why compilers fail to exploit this trick. Of course, they
 
 Regarding signed integers, they work much the same, but you need extra care. For example, most processors rely on two&rsquo;s complement notation which implies that you have one negative number that cannot be represented as a positive number. Thus implementing &ldquo;x / (-1)&rdquo; can cause some headaches. You probably do not want to divide signed integers anyhow.
 
-I plan to come back to the scenario where you have lots of 64-bit integer divisions with a dynamic divisor. 
-
+I plan to come back to the scenario where you have lots of 64-bit integer divisions with a dynamic divisor.
 This result is for current Intel x64 processors, [what happens on ARM processors is quite different](/lemire/blog/2017/11/17/fast-exact-integer-divisions-using-floating-point-operations-arm-edition/).
 

@@ -5,7 +5,7 @@ title: "Interfaces are not free in Go"
 
 
 
-We are all familiar with the concept even if we are not aware of it: when you learn about arithmetic in school, you use the same mathematical symbols whether you are dealing with integers, fractions or real numbers. In software programming, this concept is called <em>polymorphism</em>. To be precise, in software programming, polymorphism means that can access objects of different types through the same interface.
+We are all familiar with the concept even if we are not aware of it: when you learn about arithmetic in school, you use the same mathematical symbols whether you are dealing with integers, fractions or real numbers. In software programming, this concept is called <em>polymorphism</em>. To be precise, in software programming, polymorphism means that can access objects of different types through the same interface.
 
 The Go programming language has &ldquo;polymorphism&rdquo; through the notion of &lsquo;interface&rsquo;. It is somewhat similar to interfaces in Java, if you are a Java programmer.
 

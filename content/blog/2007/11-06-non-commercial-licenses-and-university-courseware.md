@@ -5,8 +5,7 @@ title: "Non-commercial licenses and university courseware"
 
 
 
-Lately I have been toying with the marginal use of content licensed for non-commercial purposes in my courses. Such content includes [flickr images](https://www.flickr.com/), [YouTube videos](https://www.youtube.com/), and so on. The Open University interprets non-commercial to include the use of content as part of a course for which you charge an admission fee. 
-
+Lately I have been toying with the marginal use of content licensed for non-commercial purposes in my courses. Such content includes [flickr images](https://www.flickr.com/), [YouTube videos](https://www.youtube.com/), and so on. The Open University interprets non-commercial to include the use of content as part of a course for which you charge an admission fee.
 My own interpretation would be more restrictive. I consider my use of such resources to be non-commercial because:
 
 - my courseware is freely available, and even indexed by Google: while students pay to enter the corresponding course, they clearly do not pay to access the Web site;
@@ -22,8 +21,7 @@ My own interpretation would be more restrictive. I consider my use of such resou
 
 [Wikipedia has its own spin](https://en.wikipedia.org/wiki/Non-commercial):
 
-> 
-A non-commercial enterprise is work that values other considerations above and beyond that of making a profit. It differs from a non-profit enterprise in that seeking a profit is a part of their business, just not the main part.
+>A non-commercial enterprise is work that values other considerations above and beyond that of making a profit. It differs from a non-profit enterprise in that seeking a profit is a part of their business, just not the main part.
 
 
 (If I read Wikipedia&rsquo;s definition right, a non-profit enterprise is automatically a non-commercial enterprise.)

@@ -8,7 +8,7 @@ title: "Science and Technology links (May 15th 2021)"
 1. [There were rainforests near the south pole 90 million years ago.](https://www.nature.com/articles/s41586-020-2148-5)
 1. [Though commercial exchanges are typically win-win for both the buyer and the seller, people tend to view the buyer as more likely to be taken advantage of](http://wrap.warwick.ac.uk/151065/).
 1. [People with low self-esteem are more likely to blame the political system for their personal problems](https://journals.sagepub.com/doi/abs/10.1177/1532673X211013463).
-1. [Moscona find compelling evidence that the introduction of patents for plants in 1985 was followed by increased innovation](http://economics.mit.edu/files/18687).  This suggests that government interventions in agriculture can help increase productivity and entice further research and development.
+1. [Moscona find compelling evidence that the introduction of patents for plants in 1985 was followed by increased innovation](http://economics.mit.edu/files/18687).  This suggests that government interventions in agriculture can help increase productivity and entice further research and development.
 1. [Ahmed et al. find that employers favour female candidates](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0245513). Men are especially well advised to stay away from female-dominated fields:<br/>
 
 > Male applicants were about half as likely as female applicants to receive a positive employer response in female-dominated occupations.

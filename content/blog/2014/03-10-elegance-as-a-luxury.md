@@ -15,12 +15,9 @@ It is useful to think of your brain as a CPU. Modern CPUs are very powerful by h
 
 I was never quite able to unlearn my bad habits as a mathematician when working on paper. Part of it is the medium. Though I make extensive use of pen and paper in my daily life, it is mostly for quick collection of simple facts. I never learned to use pen and paper to go deep in my ideas. Instead, at an early age, I learned programming. And it is through a computer that I learned to organize my thoughts.
 
-I am not quite alone in my messiness. [Van Emden had a post this week-end](http://vanemden.wordpress.com/2014/03/08/boltzmanns-brood/) where he reports that the famous physicist, [Boltzmann](https://en.wikipedia.org/wiki/Ludwig_Boltzmann), was unapologetically messy as a mathematician. He felt that elegance was a luxury. 
-
-But once you see your brain as a CPU, then a more practical question arises. How do you organize the problems to maximize the efficiency of your brain&hellip; 
-
-I think I am smarter than when I was 22. I can solve more difficult problems more reliably. I am a better software programmer. I am a better mathematician. 
-
+I am not quite alone in my messiness. [Van Emden had a post this week-end](http://vanemden.wordpress.com/2014/03/08/boltzmanns-brood/) where he reports that the famous physicist, [Boltzmann](https://en.wikipedia.org/wiki/Ludwig_Boltzmann), was unapologetically messy as a mathematician. He felt that elegance was a luxury.
+But once you see your brain as a CPU, then a more practical question arises. How do you organize the problems to maximize the efficiency of your brain&hellip;
+I think I am smarter than when I was 22. I can solve more difficult problems more reliably. I am a better software programmer. I am a better mathematician.
 - I go slowly. Instead of rushing at the end, I try to make sure I really understand the problem. I try to see its natural components. I divide up the problems in small, manageable parts (that fit in my short-term memory).
 
 This is where my students most often go wrong. They are trying to go too fast. To try to teach them to go more slowly, I often simply ask them questions about the problem.

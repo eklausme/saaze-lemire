@@ -17,5 +17,4 @@ I can do all these things because I use tools.
 
 And I submit to you that __the only way a machine can surpass human beings is by not being a tool anymore__. A tool, no matter how great, cannot surpass the one who holds it. A drill does not make holes faster than a human being, a car does not move faster than a human being, and so on. They only surpass an unassisted (naked) human being.
 
-So, when does a machine stop being a tool for human beings? Presumably when human beings no longer control it. 
-
+So, when does a machine stop being a tool for human beings? Presumably when human beings no longer control it.

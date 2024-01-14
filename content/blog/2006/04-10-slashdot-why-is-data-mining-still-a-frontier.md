@@ -7,8 +7,7 @@ title: "Slashdot: Why Is Data Mining Still A Frontier?"
 
 [Slashdot asks &ldquo;Why Is Data Mining Still A Frontier?&rdquo;](http://developers.slashdot.org/article.pl?sid=06/04/10/1919216) The article itself is not very exciting, but the comments are great. Here are some I like:
 
-> I would suggest that, in practice, the real difficulty is that the problems that need to really be solved for data mining to be as effective as some people seem to wish it was are, when you actually get down to it, issues of pure mathematics. Research in pure mathematics (and pure CS which is awfully similar really) is just hard. Pretending that this is a new and growing field is actually somewhat of a lie. 
-
+> I would suggest that, in practice, the real difficulty is that the problems that need to really be solved for data mining to be as effective as some people seem to wish it was are, when you actually get down to it, issues of pure mathematics. Research in pure mathematics (and pure CS which is awfully similar really) is just hard. Pretending that this is a new and growing field is actually somewhat of a lie.
 
 > Available datasets are not themselves in anything like normal relational form, and so have potential internal inconsistencies. And that gets in the way before you even have the chance to try to form intelligent inferences based on relations between data sets, which of course are terribly inconsistent.
 

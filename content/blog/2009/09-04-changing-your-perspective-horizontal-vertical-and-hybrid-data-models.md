@@ -28,7 +28,7 @@ We can rotate these models to create vertical layouts:
 - While research papers are published in conferences and journals, I argue that we should turn this around and [organize research papers by author](/lemire/blog/2009/09/02/author-centric/) through author-specific feeds.
 - Some AI researchers are suggesting that relations might be primary whereas attributes would be secondary.
 
-Many of the best solutions are hybrids. For example, text search sometimes require full-text indexes such as [suffix arrays](https://en.wikipedia.org/wiki/Suffix_array) and Oracle [recently announced a row/column hybrid](http://www.dbms2.com/2009/09/03/oracle-11g-exadata-hybrid-columnar-compression/).
+Many of the best solutions are hybrids. For example, text search sometimes require full-text indexes such as [suffix arrays](https://en.wikipedia.org/wiki/Suffix_array) and Oracle [recently announced a row/column hybrid](http://www.dbms2.com/2009/09/03/oracle-11g-exadata-hybrid-columnar-compression/).
 
 > __Take away message____:__ If you are stuck, try to rotate your data model. If neither the vertical nor the horizontal model is a good fit, create an hybrid.
 

@@ -101,7 +101,7 @@ table                    |8.8 ns                   |
 AVX-512                  |2.5 ns                   |
 
 
-I use GCC 9 and an Intel [Tiger Lake](https://en.wikipedia.org/wiki/Tiger_Lake) processor  (3.30GHz). [My benchmarking code is available](https://github.com/lemire/Code-used-on-Daniel-Lemire-s-blog/tree/master/2022/03/24).
+I use GCC 9 and an Intel [Tiger Lake](https://en.wikipedia.org/wiki/Tiger_Lake) processor  (3.30GHz). [My benchmarking code is available](https://github.com/lemire/Code-used-on-Daniel-Lemire-s-blog/tree/master/2022/03/24).
 
 A downside of this nifty approach is that it is (obviously) non-portable. There are still few Intel processors supporting these nifty extensions, and it is currently limited to Intel: no AMD or ARM processor can do the same right now. However, the gain might be sufficient that it is worth the effort deploying it in some instances.
 

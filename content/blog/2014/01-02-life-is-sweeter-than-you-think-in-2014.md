@@ -7,7 +7,7 @@ title: "Life is sweeter than you think in 2014&#8230;"
 
 Jokingly, [Rao](http://www.ribbonfarm.com/about/) pointed out that Americans are starting 2014 with an optimistic outlook:
 
-> (&hellip;) it&rsquo;s tough, but let&rsquo;s just write off polar bears and groundwater pollution from fracking already and move on.
+> (&hellip;) it&rsquo;s tough, but let&rsquo;s just write off polar bears and groundwater pollution from fracking already and move on.
 
 
 But life is even sweeter than Rao thinks. Indeed, polar bears are not going extinct contrary to what [the press and government research](https://www.theguardian.com/environment/2013/dec/04/charles-monnett-polar-bears-global-warming-settlement) told us for the last few years:

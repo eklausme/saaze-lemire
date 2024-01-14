@@ -20,8 +20,7 @@ Do &ldquo;dmesg&rdquo;&lsquo; you should see two lines like those:
 
 <code>usbcore: registered new driver snd-usb-audio<br/>
 </code><br/>
-If you don&rsquo;t see the second line, you have a problem. In my case, I didn&rsquo;t have the usbaudio driver so I only got the first line. I had to go compile usbaudio. To do so, I did &ldquo;uname -a&rdquo;, it gave me &ldquo;Linux romeo 2.6.10-gentoo-r6&rdquo;. I went under /usr/srclinux-2.6.10-gentoo-r6 and typed 
-
+If you don&rsquo;t see the second line, you have a problem. In my case, I didn&rsquo;t have the usbaudio driver so I only got the first line. I had to go compile usbaudio. To do so, I did &ldquo;uname -a&rdquo;, it gave me &ldquo;Linux romeo 2.6.10-gentoo-r6&rdquo;. I went under /usr/srclinux-2.6.10-gentoo-r6 and typed
 <code>genkernel --no-clean --menuconfig all<br/>
 </code>
 
@@ -31,7 +30,7 @@ All I had to do after this was to launch mhwaveedit and choose &ldquo;hw:1,0&rdq
 
 To enable the microphone under KDE, you have to launch kmix and choose the appropriate device, if you don&rsquo;t see the device, quit kmix (through the file menu) and restart it. This being said, I don&rsquo;t see why you need the microphone under KDE. However, make sure you turn the gain all the way to the maximum for optimal sound quality.
 
-VoilÃ ! Isn&rsquo;t Linux friendly?
+VoilÃ ! Isn&rsquo;t Linux friendly?
 
 For recording tips, see this page by Bob Cunningham.
 

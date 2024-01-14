@@ -9,7 +9,7 @@ On many systems, memory is accessed in fixed blocks called &ldquo;cache lines&rd
 
 In turn, data in software is often organized in data structures having a fixed size (in bytes). We often organize these data structures in arrays. In general, a data structure may reside on more than one cache line. For example, if I put a 5-byte data structure at byte address 127, then it will occupy the last byte of one cache line, and four bytes in the next cache line.
 
-When loading a data structure from memory, a naive model of the cost is the number of cache lines that are accessed. If your data structure spans 32 bytes or 64 bytes, and you have aligned the first element of an array, then you only ever need to access one cache line every time you load a data structure.
+When loading a data structure from memory, a naive model of the cost is the number of cache lines that are accessed. If your data structure spans 32 bytes or 64 bytes, and you have aligned the first element of an array, then you only ever need to access one cache line every time you load a data structure.
 
 What if my data structures has 5 bytes? Suppose that I packed them in an array, using only 5 bytes per instance. What if I pick one at random&hellip; how many cache lines do I touch? Expectedly, the answer is barely more than 1 cache line on average.
 
@@ -19,7 +19,7 @@ Suppose that my data structure spans z bytes. Let g be the greatest common divis
 
 I created the following table for all data structures no larger than a cache line. The worst-case scenario is a data structure spanning 63 bytes: you then almost always touch two cache lines.
 
-I find it interesting that you have the same expected number of cache line accesses for data structures of size 17, 20, 24. It does not follow that computational cost a data structure spanning 24 bytes is the same as the cost of a data structure spanning 17 bytes. Everything else being identical, a smaller data structure should fare better, as it can fit more easily in CPU cache.
+I find it interesting that you have the same expected number of cache line accesses for data structures of size 17, 20, 24. It does not follow that computational cost a data structure spanning 24 bytes is the same as the cost of a data structure spanning 17 bytes. Everything else being identical, a smaller data structure should fare better, as it can fit more easily in CPU cache.
 
 size of data structure (z) |expected cache line access |
 -------------------------|-------------------------|

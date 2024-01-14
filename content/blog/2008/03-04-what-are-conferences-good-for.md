@@ -26,11 +26,9 @@ I also think it is deeply wrong to think that you can assess a researcher withou
 
 In short, I do not believe you should try to belong to the community defined by top conferences. It is akin to trying to fit in with the cool kids in high school. I am sorry, but I was and will remain a misfit for this reason alone:
 
-> 
-The reasonable man adapts himself to the world; the unreasonable one persists in trying to adapt the world to himself. Therefore all progress depends on the unreasonable man. (George Bernard Shaw)
+>The reasonable man adapts himself to the world; the unreasonable one persists in trying to adapt the world to himself. Therefore all progress depends on the unreasonable man. (George Bernard Shaw)
 
 
-Finally, some journals have a terrible review process, but I think that PÄƒtraÅŸcu is just misguided to think that &ldquo;journal acceptance is determined by one dude (the editor), who&rsquo;s not even anonymous, based on some inconclusive statement from another dude.&rdquo; 
-
+Finally, some journals have a terrible review process, but I think that PÄƒtraÅŸcu is just misguided to think that &ldquo;journal acceptance is determined by one dude (the editor), who&rsquo;s not even anonymous, based on some inconclusive statement from another dude.&rdquo;
 __Note__. I have a cool tenured job. Maybe graduate students should follow PÄƒtraÅŸcu&rsquo;s advice. Myself, I do not plan to apply for another academic job in the near future.
 

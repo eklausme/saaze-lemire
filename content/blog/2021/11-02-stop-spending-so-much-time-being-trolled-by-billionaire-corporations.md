@@ -9,11 +9,11 @@ As a kid, my parents would open the television set, and we would get to watch wh
 
 So I got to watch hours and hours of incredibly boring TV shows because there was nothing good on. I was very interested in computers and science, but there was almost nothing relevant in the major news sources. When personal computers became popular, I quickly learned more about them than any journalist had.
 
-In the early days of the Internet, people wrote on posting boards. Some started blogs. To this day, I get much of my online news by an [RSS aggregator](https://en.wikipedia.org/wiki/RSS) which collects information from various blogs and news sites. An RSS aggregator simply picks up all of the news items from various sites, and it lays it out sequentially. You do not like a news source? You unsubscribe. Mailing lists work similarly: you get emails whenever someone has new content.
+In the early days of the Internet, people wrote on posting boards. Some started blogs. To this day, I get much of my online news by an [RSS aggregator](https://en.wikipedia.org/wiki/RSS) which collects information from various blogs and news sites. An RSS aggregator simply picks up all of the news items from various sites, and it lays it out sequentially. You do not like a news source? You unsubscribe. Mailing lists work similarly: you get emails whenever someone has new content.
 
-This model has been described as &ldquo;pull&rdquo; oriented. You pick your sources. You sidestep the experts. For someone like myself, it was incredibly liberating. As the pull model grew, many people feared that old-school journalism would die. It also challenged conventional education.
+This model has been described as &ldquo;pull&rdquo; oriented. You pick your sources. You sidestep the experts. For someone like myself, it was incredibly liberating. As the pull model grew, many people feared that old-school journalism would die. It also challenged conventional education.
 
-Within this emerging framework, Silicon Valley invented Twitter, Facebook and other networks. At first they worked much like posting boards and blogs. You launched Twitter and you got the tweets of the people you followed. You did not like someone&rsquo;s tweets? You just unfollowed them. Google even co-opted the RSS reader by creating a fantastic tool called Google Reader, which put you in control.
+Within this emerging framework, Silicon Valley invented Twitter, Facebook and other networks. At first they worked much like posting boards and blogs. You launched Twitter and you got the tweets of the people you followed. You did not like someone&rsquo;s tweets? You just unfollowed them. Google even co-opted the RSS reader by creating a fantastic tool called Google Reader, which put you in control.
 
 However, mostly, the industry moved in a different direction. They took control of what you see and read. Brilliant engineers are hard at work making sure that you remain glued to your screen. So they find content that you may like and push it to you. Google closed Google Reader, decimating the RSS reader community. Whereas you could count on the Google search engine delivering the documents containing the keywords you are search, you are increasingly facing a curated list of links.
 
@@ -40,12 +40,12 @@ Thankfully some tools are still leaving you in control:
 1. Telegram is pretty decent as a secured news aggregator. My blog has a [telegram channel](https://t.me/dlemire). Nobody needs to know what you are reading.
 1. Twitter has a hidden feature (twitter list) which lets you subscribe to specific individuals and only see content from these individuals.
 1. [DuckDuckGo](https://duckduckgo.com/) is a fantastic search engine which mostly gives me what I am looking for instead of what it thinks I should find.
-1. Do not underestimate books. Contrary to what you may have heard, you can still order paper books. The great thing about a paper book is that nobody needs to know what you are reading and when. If you like books and programming, you can grab [Performance Analysis and Tuning on Modern CPUs](https://www.amazon.com/Performance-Analysis-Tuning-Modern-CPUs/dp/B08R6MTM7K/) for example. I have many recommendations on the sidebar of my blog.
+1. Do not underestimate books. Contrary to what you may have heard, you can still order paper books. The great thing about a paper book is that nobody needs to know what you are reading and when. If you like books and programming, you can grab [Performance Analysis and Tuning on Modern CPUs](https://www.amazon.com/Performance-Analysis-Tuning-Modern-CPUs/dp/B08R6MTM7K/) for example. I have many recommendations on the sidebar of my blog.
 1. There are fantastic podcasts out there. Spotify has some great stuff, but you can find many others on other platforms. If you like programming, you might want to check [corecursive](https://corecursive.com/frontiers-of-performance-with-daniel-lemire/). [Joe Rogan is also fantastic](https://podtail.com/podcast/the-joe-rogan-experience/). There are many others.
 
 
 
-Being in control takes work. It also requires you to sometimes pay real money. But do you really want to have your attention is sold and manipulated?
+Being in control takes work. It also requires you to sometimes pay real money. But do you really want to have your attention is sold and manipulated?
 
 I am not advocating that anyone leaves Twitter, Facebook or tiktok, but we should all diversify our information sources. Be conscious that Twitter, Facebook, Google and others are in the business of manipulating your attention for their interest and the interests of their clients.
 

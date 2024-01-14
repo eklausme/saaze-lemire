@@ -10,17 +10,12 @@ With respect to artificial intelligence, some people are squarely in the &ldquo;
 > While we have learned a great deal about how to build individual AI systems that do seemingly intelligent things, our systems have always remained brittleâ€”their performance boundaries are rigidly set by their internal assumptions and defining algorithms, they cannot generalize, and they frequently give nonsensical answers outside of their specific focus areas.
 
 
-So Allen does not believe that we will see human-level artificial intelligence in this century. But he nevertheless generously created a foundation aiming to develop such human-level intelligence, the Allen Institute for Artificial Intelligence Science. 
-
+So Allen does not believe that we will see human-level artificial intelligence in this century. But he nevertheless generously created a foundation aiming to develop such human-level intelligence, the Allen Institute for Artificial Intelligence Science.
 The Institute is lead by Oren Etzioni who obviously shares some of Allen&rsquo;s &ldquo;pessimistic&rdquo; views. Etzioni has made it clear that he feels that the recent breakthroughs of Google&rsquo;s DeepMind (i.e., beating the best human beings at Go) should not be exaggerated. Etzioni took for example the fact that their research paper [search engine](https://www.semanticscholar.org/) (Semantic Scholar) [can differentiate between the significant citations and the less significant ones](/lemire/blog/2015/11/05/identifying-influential-citations-it-works-live-today/). The way DeepMind&rsquo;s engine works is that it looks at many, many examples and learn from these examples because they are clearly and objectively classified (we know who wins and who loses a given game of Go). But there is no win/lose label on the content of research papers. In other words, human beings become intelligent in an unsupervised manner, often working from few examples and few objective labels.
 
 To try to assess how far off we are from human-level intelligence, the Allen Institute launched a game where people had to design an artificial intelligence capable of passing 8th-grade science tests. They gave generous prizes to the best three teams. The questions touch various scientific domains:
 
-- How many chromosomes does the human body cell contain? 
-- How could city administrators encourage energy conservation? 
-- What do earthquakes tell scientists about the history of the planet? 
-- Describe a relationship between the distance from Earth and a characteristic of a star. 
-
+- How many chromosomes does the human body cell contain?- How could city administrators encourage energy conservation?- What do earthquakes tell scientists about the history of the planet?- Describe a relationship between the distance from Earth and a characteristic of a star.
 
 So how far are we from human-level intelligence? [The Institute published the results in a short paper](http://arxiv.org/pdf/1604.04315v1.pdf).
 
@@ -36,8 +31,7 @@ It is also unclear whether 59% represent the best an AI could do right now. We o
 
 What is interesting however is that, for the most part, the teams threw lots of data in a search engine and used information retrieval techniques combined with basic machine learning algorithms to solve the problem. If you are keeping track, this is reminiscent of how DeepMind managed to beat the best human player at Go: use good indexes over lots of data coupled with unsurprising machine learning algorithms. Researchers from the Allen Institute appear to think that this outlines our current limitations:
 
-> In the end, each of the winning models found the most benefit in information retrieval based methods. This is indicative of the state of AI technology in this area of research; we can&rsquo;t ace an 8th grade science exam because we do not currently have AI systems capable of going beyond the surface text to a deeper understanding of the meaning underlying each question, and then successfully using reasoning to find the appropriate answer. 
-
+> In the end, each of the winning models found the most benefit in information retrieval based methods. This is indicative of the state of AI technology in this area of research; we can&rsquo;t ace an 8th grade science exam because we do not currently have AI systems capable of going beyond the surface text to a deeper understanding of the meaning underlying each question, and then successfully using reasoning to find the appropriate answer.
 
 (The researchers from the Allen Institute invite us to go play with their own artificial intelligence called [Aristo](http://aristo-demo.allenai.org/). So they do have a system capable of writing 8th grade tests. Where are the scores?)
 

@@ -9,8 +9,7 @@ We all know the regular multiplication that we learn in school. To multiply a nu
 
 <tt>a * 3 = a + (a<<1)</tt>
 
-where <tt>a<<1</tt> means "shift the bit values by one to the left, filling in with a zero". That's a multiplication by two. So a multiplication can be described as a succession of shifts and additions. 
-
+where <tt>a<<1</tt> means "shift the bit values by one to the left, filling in with a zero". That's a multiplication by two. So a multiplication can be described as a succession of shifts and additions.
 But there is another type of multiplication that you are only ever going to learn if you study advanced algebra or cryptography: carry-less multiplication (also called "polynomial multiplication). When multiplying by powers of two, it works the same as regular multiplication. However, when you multiply numbers that are not powers of two, you combine the results with a bitwise exclusive OR (XOR). Programmers like to write "XOR" as "^", so multiplying by 3 in carry-less mode becomes:
 
 <tt>a "*" 3 = a ^ (a<<1)</tt>
@@ -19,18 +18,14 @@ where I put the multiplication symbol (*) used by programmers in quotes ("*") to
 
 Why should you care about carry-less multiplications? It is actually handier than you might expect.
 
-When you multiply two numbers by 3, you would assume that 
-
+When you multiply two numbers by 3, you would assume that
 <tt>a * 3 == b * 3</tt>
 
-is only true if `a` has the same value as <tt>b</tt>. And this works because in an actual computer using 64-bit or 32-bit arithmetic because 3 is coprime with any power of two (meaning that their greatest common factor is 1). 
-
-The cool thing about this is that there is an inverse for each odd integer. For example, we have that 
-
+is only true if `a` has the same value as <tt>b</tt>. And this works because in an actual computer using 64-bit or 32-bit arithmetic because 3 is coprime with any power of two (meaning that their greatest common factor is 1).
+The cool thing about this is that there is an inverse for each odd integer. For example, we have that
 <tt>0xAAAAAAAB * 3 == 1.</tt>
 
-Sadly, troubles start if you multiply two numbers by an even number. In a computer, it is entirely possible to have 
-
+Sadly, troubles start if you multiply two numbers by an even number. In a computer, it is entirely possible to have
 <tt>a * 4 == b * 4</tt>
 
 without `a` being equal to <tt>b</tt>. And, of course, the number 4 has no inverse.
@@ -51,8 +46,7 @@ So problem solved, right? Well... You carry this messy prime number everywhere. 
 
 What if there were prime numbers that are powers of two? There is no such thing... when using regular arithmetic... But there are "prime numbers" (called "irreducible polynomials" by mathematicians) that act a bit like they are powers of two when using carry-less multiplications.
 
-With carry-less multiplications, it is possible to define a modulo operation such that 
-
+With carry-less multiplications, it is possible to define a modulo operation such that
 <tt>modulo(a "*" c) == modulo(b "*" c)</tt>
 
 implies <tt>a == b</tt>. And it works with all 32-bit or 64-bit integers.
@@ -65,8 +59,7 @@ However, something happened in the last few years. All major CPU vendors have in
 
 Cryptographers are happy: their fancy 128-bit hash functions are now much faster. But could this idea have applications outside cryptography?
 
-To test the idea out, we created a non-cryptographic 64-bit hash function (CLHash). For good measure, we made it XOR universal: a strong property that ensures your algorithms will behave probabilistically speaking. Most of our functions is a series of carry-less multiplications and bitwise XOR. 
-
+To test the idea out, we created a non-cryptographic 64-bit hash function (CLHash). For good measure, we made it XOR universal: a strong property that ensures your algorithms will behave probabilistically speaking. Most of our functions is a series of carry-less multiplications and bitwise XOR.
 It is fast. How fast is it? Let us look at the next table...
 
 CPU cycles per input byte:

@@ -9,7 +9,7 @@ Most C++ programmers rely on &ldquo;STL&rdquo; for their data structures. The mo
 
 The STL data structures are a minimalist design. You have relatively few methods. All of them allow you to compute the size of the data structure, that is, how many elements it contains, via the <tt>size()</tt> method. In recent C++ (C++11), the <tt>size()</tt> method [must have constant-time complexity for all containers](http://www.open-std.org/jtc1/sc22/wg21/docs/papers/2014/n4296.pdf). To put it in clearer terms, the people implementing the containers can never scan the content to find out the number of elements.
 
-These containers also have another method called <tt>empty()</tt> which simply returns true of the container is&hellip; well&hellip; empty. Obviously, an equivalent strategy would be to compare the size with zero:  <tt>mystruct.size() == 0</tt>.
+These containers also have another method called <tt>empty()</tt> which simply returns true of the container is&hellip; well&hellip; empty. Obviously, an equivalent strategy would be to compare the size with zero:  <tt>mystruct.size() == 0</tt>.
 
 Determining whether a data structure is empty is conceptually easier than determining its size. Thus, at least in theory, calling <tt>empty()</tt> could be faster.
 
@@ -70,9 +70,9 @@ bool is_not_empty(const node* p) {
 
 Sadly, [GCC is now unable to optimize away the call](https://godbolt.org/z/MaEsPK8Eh). Maybe compilers are not yet all-powerful beings?
 
-The lesson is that it is probably wise to get in the habit of calling directly <tt>empty()</tt> if you care about performance. Though it may not help much with modern STL data structures, in other code it could be different.
+The lesson is that it is probably wise to get in the habit of calling directly <tt>empty()</tt> if you care about performance. Though it may not help much with modern STL data structures, in other code it could be different.
 
-Of course, another argument is that the call to <tt>empty()</tt>  is shorter and cleaner.
+Of course, another argument is that the call to <tt>empty()</tt>  is shorter and cleaner.
 
 __Credit__: This blog post was motivated by a tweet by Richard Startin.
 

@@ -27,7 +27,7 @@ My best advice to people who wanted to become good programmers was to go and wor
 
 Of course, it is still possible for a junior programmer to work with an experience master despite the pandemic. However, my impression is that it has become harder. I can only base it on my limited view of the world, but I am much less interested in taking in new graduate students and research assistants today.
 
-I had a &ldquo;lab&rdquo;: a room filled with graduate students and a few research assistant. These people would come work, I would come in at random times during the day, we would chat, we would look at code on the giant white board. Sometimes, on Fridays, we would play games. There are even rumours that beer was available at times. The room is still there. I am no longer showing up. The white board is probably blank (I don&rsquo;t know). I use Zoom, extensively, but I cannot believe that it is the same effect. The camaraderie is gone.
+I had a &ldquo;lab&rdquo;: a room filled with graduate students and a few research assistant. These people would come work, I would come in at random times during the day, we would chat, we would look at code on the giant white board. Sometimes, on Fridays, we would play games. There are even rumours that beer was available at times. The room is still there. I am no longer showing up. The white board is probably blank (I don&rsquo;t know). I use Zoom, extensively, but I cannot believe that it is the same effect. The camaraderie is gone.
 
 My experience might be unique, but if it is at all representative of what is happening, I bet that many junior folks are getting much less personal training and coaching that they otherwise would. If that is correct&hellip;
 

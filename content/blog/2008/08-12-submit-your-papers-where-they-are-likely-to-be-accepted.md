@@ -18,11 +18,9 @@ Sending a paper to a venue where you&hellip;
 - must force yourself to be more fashionable
 
 
-is just wrong. We should never do it. 
-
+is just wrong. We should never do it.
 We should work hard. Do our very best to write excellent and honest papers, then ship them and have them published (after some revision). This should be the normal process. Period. Nothing more, nothing less.
 
-We need __less boxing, more science.__ 
-
+We need __less boxing, more science.__
 __Note__: I have had good luck getting my papers published this year, so I do not write this post out of spite.
 

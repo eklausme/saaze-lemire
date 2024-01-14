@@ -7,8 +7,7 @@ title: "Robert Paterson´s Weblog: Going Home &ndash; Our Reformation"
 
 From [Downes&rsquo;](http://www.downes.ca), I got to [Going Home](http://smartpei.typepad.com/robert_patersons_weblog/2005/02/going_home_our_.html), an incredible blog post, read this extract:
 
-> 
-I believe that Blogging, and its wider family of Social Software tools, will not only affect education but will shake our entire society to the core. I believe that our descendants will look back at its arrival the same way that we now look back at the advent of the printing press.
+>I believe that Blogging, and its wider family of Social Software tools, will not only affect education but will shake our entire society to the core. I believe that our descendants will look back at its arrival the same way that we now look back at the advent of the printing press.
 
 
 And see how you can relate it to this other extract:

@@ -9,8 +9,7 @@ A year or two ago, talking against XML Schema meant talking about what W3C toute
 
 Now the cat is out of the bag, __XML Schema is a complete failure.__ Among other testimonies, I found the following quote on [Cafe con Leche XML:](http://cafeconleche.org/)
 
-> 
-I wrote an XML Schema for SVG Full 1.1, and another for SVG Tiny 1.1. Doing so taught me a number of things:
+>I wrote an XML Schema for SVG Full 1.1, and another for SVG Tiny 1.1. Doing so taught me a number of things:
 
 - 85% of XML Schema is thoroughly useless and without value;
 - the few useful features are weak and without honour;

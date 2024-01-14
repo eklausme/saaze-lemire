@@ -7,12 +7,10 @@ title: "Who plays nice? Who plays rough?"
 
 I have a confession to make. I am one of these people who can&rsquo;t watch a TV show like [Game of thrones](https://en.wikipedia.org/wiki/Game_of_Thrones) because there is too much evil. In fact, I generally cringe when reading novels or watching movies where there is too much lying or backstabbing. I simply cannot stand it.
 
-In academia, there are versions of <em>Game of thrones</em> unfolding at times. I similarly despise them. 
-
+In academia, there are versions of <em>Game of thrones</em> unfolding at times. I similarly despise them.
 I would have been very unhappy as an employee of the NSA.
 
-I don&rsquo;t know how common this is&hellip; but I have hard time watching a movie like Harry Potter. It doesn&rsquo;t mean that I am all soft and cuddly. In fact, maybe the opposite is true: I have very little tolerance for people who backstab or denigrate others. I will go out of my way to avoid them. 
-
+I don&rsquo;t know how common this is&hellip; but I have hard time watching a movie like Harry Potter. It doesn&rsquo;t mean that I am all soft and cuddly. In fact, maybe the opposite is true: I have very little tolerance for people who backstab or denigrate others. I will go out of my way to avoid them.
 So how would I fare in a &ldquo;ruthless business&rdquo;?
 
 Maybe better than I thought:

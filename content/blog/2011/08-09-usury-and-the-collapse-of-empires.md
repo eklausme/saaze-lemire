@@ -23,5 +23,5 @@ Economists who expect people to be rational won&rsquo;t believe in usury. Surely
 
 __Conclusion:__ This is meant to be a lighthearted commentary. I am an amateur economist. But can anyone convince me that credit card companies produce wealth by charging exorbitant interests to people who use the money to buy beer and chips? When more and more of our economy is based on such usury, is it not a sign of decline? Won&rsquo;t the American peasants become serfs at this rate?
 
-__Note: __45 million of Americans are dependent on government food stamps. According to [Business Insider](http://www.businessinsider.com/chart-of-the-day-credit-card-debt-vs-median-household-income-2009-5 ), credit card debt is growing much faster than the median household income. Despite massive defaults on mortgages between 2007 and 2010, consumer debt has remained stable.
+__Note:__ 45 million of Americans are dependent on government food stamps. According to [Business Insider](http://www.businessinsider.com/chart-of-the-day-credit-card-debt-vs-median-household-income-2009-5 ), credit card debt is growing much faster than the median household income. Despite massive defaults on mortgages between 2007 and 2010, consumer debt has remained stable.
 

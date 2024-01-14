@@ -5,14 +5,12 @@ title: "Should you follow the experts?"
 
 
 
-It is silly to say that ignorance is strength. However, the contrary statement is not <em>follow the experts</em>. 
-
+It is silly to say that ignorance is strength. However, the contrary statement is not <em>follow the experts</em>.
 The right knowledge is strength. The tricky part is that determining what you should know is just as hard as learning it. So, while the expert might be sitting on the shoulders of giants, these giants might be looking in the wrong direction or maybe they have been sinking in quicksand. The only thing that experts have going for themselves is that they tend to be consistent: if they make mistakes, they are the expected mistakes.
 
 Examples:
 
-- The financial crisis of 2008 was __not__ on the radar of the mainstream economists. However, original thinkers like [Nouriel Roubini](https://en.wikipedia.org/wiki/Nouriel_Roubini) and [Nassim Nicholas Taleb](https://en.wikipedia.org/wiki/Nassim_Nicholas_Taleb) did predict it with accurate arguments. They are still being dismissed by mainstream economists as <em>lucky</em>. Indeed, mainstream economists often argue that the events that matter, such as the big crashes and the significant surges, are fundamentally unpredictable. How convenient! 
-- The Web was invented by a [physicist](https://en.wikipedia.org/wiki/Tim_berners-lee), not by a librarian. Many librarians resisted the Web.
+- The financial crisis of 2008 was __not__ on the radar of the mainstream economists. However, original thinkers like [Nouriel Roubini](https://en.wikipedia.org/wiki/Nouriel_Roubini) and [Nassim Nicholas Taleb](https://en.wikipedia.org/wiki/Nassim_Nicholas_Taleb) did predict it with accurate arguments. They are still being dismissed by mainstream economists as <em>lucky</em>. Indeed, mainstream economists often argue that the events that matter, such as the big crashes and the significant surges, are fundamentally unpredictable. How convenient!- The Web was invented by a [physicist](https://en.wikipedia.org/wiki/Tim_berners-lee), not by a librarian. Many librarians resisted the Web.
 - Wikipedia was not invented by a publishing house editing an encyclopedia. In fact, most publishers such as EncyclopÃ¦dia Britannica ridiculed wikipedia. Instead, it was founded by [someone](https://en.wikipedia.org/wiki/Jimmy_Wales) who failed to complete his Ph.D. in finance and went to work for a trading company instead.
 - YouTube was not invented by a media company or a TV station. It was invented by hackers who had worked together at Paypal, where they were trying to disrupt the banking industry.
 - Blogs and Twitter were not invented by journalists. Blogging was invented by a [hacker](https://en.wikipedia.org/wiki/Jorn_Barger). In fact, journalists ridiculed blogs initially.

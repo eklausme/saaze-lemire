@@ -17,8 +17,7 @@ BTW if you don&rsquo;t know Scott Flinn, you should. He is probably the best tec
 
 Here&rsquo;s some advice from Scott:
 
-> 
-If you just want core JavaScript stuff, then you use [Rhino](https://developer.mozilla.org/en-US/docs/Mozilla/Projects/Rhino/Download_Rhino) or<br/>
+>If you just want core JavaScript stuff, then you use [Rhino](https://developer.mozilla.org/en-US/docs/Mozilla/Projects/Rhino/Download_Rhino) or<br/>
 SpiderMonkey (the Mozilla implementations in Java and C++ respectively).<br/>
 I swear by Rhino. You just drop js.jar into your extensions directory<br/>
 and add this simple script to your path:

@@ -7,8 +7,7 @@ title: "The Medici Effect"
 
 Harold talks about the The Medici Effect:
 
-> 
-Johansson tells you to look for reversals which may give you insights into new ways of doing things. He uses a restaurant as an example, saying that the assumption is that restaurants have menus, but the reversal would be a restaurant without a menu. This would be one where, &ldquo;The chef informs each customer what he bought that day &hellip; the diner selects the desired food items and the chef creates a dish from them, specifically for each customer.&rdquo;
+>Johansson tells you to look for reversals which may give you insights into new ways of doing things. He uses a restaurant as an example, saying that the assumption is that restaurants have menus, but the reversal would be a restaurant without a menu. This would be one where, &ldquo;The chef informs each customer what he bought that day &hellip; the diner selects the desired food items and the chef creates a dish from them, specifically for each customer.&rdquo;
 
 
 

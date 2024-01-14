@@ -35,7 +35,7 @@ How many instances of the string class are constructed when call the function g(
 
 1. At the start of the function we construct one instance of A.
 1. We then copy-construct this instance when passing it to std::optional&lt;A&gt;.
-1. Passing std::optional&lt;A&gt; to the function f involves another copy.
+1. Passing std::optional&lt;A&gt; to the function f involves another copy.
 1. In the value_or construction, we have a default construction of A (which is wasteful work in this instance).
 1. Finally, we copy construct an instance of A when the call to value_or terminates.
 

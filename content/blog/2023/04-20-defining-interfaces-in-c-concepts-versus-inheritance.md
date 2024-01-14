@@ -70,7 +70,7 @@ struct iterable_array : iter_base {
 ```
 
 
-So far so good. But what is the difference between these two expressions given that `a` is an instance of <tt>iterable_array</tt>?
+So far so good. But what is the difference between these two expressions given that `a` is an instance of <tt>iterable_array</tt>?
 
 - <tt>count(a)</tt>,
 - <tt>count_inheritance(a)</tt>.

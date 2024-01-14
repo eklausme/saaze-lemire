@@ -13,9 +13,7 @@ It would be more honest to say that industry researchers have to try to deliver 
 
 What about Computer Science? The article is quite pessimistic about academic research:
 
-> 
-In Bush&rsquo;s time the science that went into computing was itself closer to basic research. By contrast, many of the big scientific questions in computing have been answeredâ€”at least well enough for companies to find that innovation emerges from new ways of arranging today&rsquo;s technologies rather than inventing new ones. 
-
+>In Bush&rsquo;s time the science that went into computing was itself closer to basic research. By contrast, many of the big scientific questions in computing have been answeredâ€”at least well enough for companies to find that innovation emerges from new ways of arranging today&rsquo;s technologies rather than inventing new ones.
 
 Fine. But we have to be careful about what this means. It only means that given our industrial needs and abilities, building a new generation of tools is not worth it. We prefer to build iPods out of existing parts. It is simply too expensive at this point, given what the potential gains might be, to build drastically new concepts about computing. But it could all change suddenly.
 

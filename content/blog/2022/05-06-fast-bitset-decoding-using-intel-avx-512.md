@@ -7,7 +7,7 @@ title: "Fast bitset decoding using Intel AVX-512"
 
 In software, we often use &lsquo;bitsets&rsquo;: you work with arrays of bits to represent sets of small integers. It is a concise and fast data structure. Sometimes you want to go from the bitset (e.g., <tt>0b110011</tt>) to the integers (e.g., 0, 1, 5, 6 in this instance). We consider with &lsquo;average&rsquo; density (e.g., more than a handful of bits set per 64-bit word).
 
-You could check the value of each bit, but a better option is to use the fact that processors have fast instructions to compute the number of &ldquo;trailing zeros&rdquo;. Given 0b10001100100, this instruction would give you 2. This gives you the first index. Then you need to unset this least significant bit using code such as <tt>word &amp; (word - 1)</tt>.
+You could check the value of each bit, but a better option is to use the fact that processors have fast instructions to compute the number of &ldquo;trailing zeros&rdquo;. Given 0b10001100100, this instruction would give you 2. This gives you the first index. Then you need to unset this least significant bit using code such as <tt>word &amp; (word - 1)</tt>.
 ```C
   while (word != 0) {
     result[i] = trailingzeroes(word);

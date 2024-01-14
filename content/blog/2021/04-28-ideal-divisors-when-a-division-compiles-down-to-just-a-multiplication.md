@@ -56,7 +56,7 @@ You get similar results with ARM. It looks like ARM works hard to build the cons
 
 What about remainders?
 
-What a good compiler will do  is to first compute the quotient, and then do a multiplication and a subtraction to derive the remainder. It is the general strategy. Thus, maybe surprisingly, it is more expensive to compute a remainder than a quotient in many cases!
+What a good compiler will do  is to first compute the quotient, and then do a multiplication and a subtraction to derive the remainder. It is the general strategy. Thus, maybe surprisingly, it is more expensive to compute a remainder than a quotient in many cases!
 
 You can do a bit better in some cases. There is a trick from our [Faster Remainder by Direct Computation](https://arxiv.org/abs/1902.01961) paper that compilers do not know about. You can compute the remainder directly, using exactly two multiplications (and a few move instructions):
 

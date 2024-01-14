@@ -15,7 +15,7 @@ However, the staff that built our course revision system decided to make it so t
 
 When I first encountered this new tool, I immediately started to work around it. And because I am department chair, I brought my colleagues along for the ride. So we &lsquo;pretend&rsquo; to get approval, submitting fake documents. The good thing in a bureaucracy is that most people are too bored to check up on the fine prints.
 
-Surprisingly, it appears that no other department has been routing around the damage that is this new tool. I should point out that I am not doing anything illegal or against the rules. I am a good soldier. I just route around the software system. But it makes people uneasy.
+Surprisingly, it appears that no other department has been routing around the damage that is this new tool. I should point out that I am not doing anything illegal or against the rules. I am a good soldier. I just route around the software system. But it makes people uneasy.
 
 And there lies the scary point. People are easily manipulated by computing.
 
@@ -23,7 +23,7 @@ People seem to think that if the software requires some document, then surely th
 
 In some sense, software does the policing. It enforces the rules. But like the actual police, software can go far beyond the law&hellip; and most people won&rsquo;t notice.
 
-An actual policeman can be intimidating. However, it is a human being. If they ask something that does not make sense, you are likely to question them. You are also maybe more likely to think that a policeman could be mistaken. Software is like a deaf policeman. And people want software to be correct.
+An actual policeman can be intimidating. However, it is a human being. If they ask something that does not make sense, you are likely to question them. You are also maybe more likely to think that a policeman could be mistaken. Software is like a deaf policeman. And people want software to be correct.
 
 Suppose you ran a university and you wanted all professors to include a section on religion in all their courses. You could not easily achieve such a result by the means of law. Changing the university regulations to add such a requirement would be difficult at a secular institution. However, if you simply make it that all professors must fill out a section on religion when registering a course, then professors would probably do it without question.
 

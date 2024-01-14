@@ -5,8 +5,7 @@ title: "How fast is tabulation-based hashing? The downsides of Zobrist&#8230;"
 
 
 
-In practice, hashing is the process of taking an input, such as a string, and turning it into an integer value. It is a fundamental tool in programming, as most software relies on hashing in one way or another. We often expect hashing to appear &ldquo;random&rdquo; so that any two strings are unlikely to have the same hash value. 
-
+In practice, hashing is the process of taking an input, such as a string, and turning it into an integer value. It is a fundamental tool in programming, as most software relies on hashing in one way or another. We often expect hashing to appear &ldquo;random&rdquo; so that any two strings are unlikely to have the same hash value.
 One of the earliest and simplest forms of hashing is [Zobrist hashing](https://en.wikipedia.org/wiki/Zobrist_hashing). Suppose you want to hash strings of up to 16 characters. For each possible 16 character positions, you generate a table made of 256 randomly chosen words. To hash a given string, you pick the first character, look up the corresponding chosen word in the first table, then you pick the second character and look up the word in the second table&hellip; and you XOR the retrieved words. In C, you get something like this:
 ```C
 for (size_t i = 0; i < length ; i++ )

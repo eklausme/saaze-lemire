@@ -7,9 +7,9 @@ title: "Benchmarking theorem provers for programming tasks: yices vs. z3"
 
 One neat family of tools that most programmers should know about are &ldquo;theorem provers&rdquo;. If you went to college in computer science, you may have been exposed to them&hellip; but you may not think of using them when programming.
 
-Though I am sure that they can be used to prove theorems, I have never used them for such a purpose. They are useful for quickly checking some assumptions and finding useful constants. Let me give a simple example.
+Though I am sure that they can be used to prove theorems, I have never used them for such a purpose. They are useful for quickly checking some assumptions and finding useful constants. Let me give a simple example.
 
-We have that unsigned odd integers in software have multiplicative inverses. That is,  if you are given the number 3, you can find another number such that when you multiply it with 3, you get 1. There are efficient algorithms to find such multiplicative inverses, but a theorem prover can do it without any fuss or domain knowledge. You can write the following Python program:
+We have that unsigned odd integers in software have multiplicative inverses. That is,  if you are given the number 3, you can find another number such that when you multiply it with 3, you get 1. There are efficient algorithms to find such multiplicative inverses, but a theorem prover can do it without any fuss or domain knowledge. You can write the following Python program:
 ```C
 s = Solver()
 a = BitVec('a', 64)
@@ -23,7 +23,7 @@ It will return 12297829382473034411. As 64-bit unsigned integers, if you multipl
 
 For some related tasks, I have been using the popular z3 theorem prover and it has served me well. But it can be slow at times. So I asked Geoff Langdale for advice and he recommended yices, another theorem prover that might be faster for the kind of work that programmers do, e.g., using fixed-bit integer values.
 
-Though I trust Geoff, I wanted to derive some measures. So I built the following benchmark. For all integers between 0 and 1000, I try to find a multiplicative inverse. It will not always work (even numbers do not have inverse), but the theorem prover is left to figure that out.
+Though I trust Geoff, I wanted to derive some measures. So I built the following benchmark. For all integers between 0 and 1000, I try to find a multiplicative inverse. It will not always work (even numbers do not have inverse), but the theorem prover is left to figure that out.
 
 What are the results?
 

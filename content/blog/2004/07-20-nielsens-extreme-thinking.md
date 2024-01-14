@@ -9,8 +9,7 @@ Blogging is a fascinating past-time. Who would have thought? I just read bits an
 
 Here&rsquo;s a fascinating quote:
 
-> 
-The key to keeping this independence of solitude is to develop a long-term vision so compelling and well-internalized, that it can override behaviours for which the short-term rewards are significant, but which may be damaging in the long run.
+>The key to keeping this independence of solitude is to develop a long-term vision so compelling and well-internalized, that it can override behaviours for which the short-term rewards are significant, but which may be damaging in the long run.
 
 
 

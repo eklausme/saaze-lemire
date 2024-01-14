@@ -30,7 +30,7 @@ const char * skip_leading_spaces(const char * start, const char * end) {
 
 For each character, you have to check that you are still within the string, and you have to check whether it is a space. You end up doing two comparisons! The C++ programming languages has a strong bias in favour of such constructions. The popular functional programming idioms are often built on top of similar code.
 
-Of course, you could get smarter. For example, you could branch on the string size to try to avoid one of the check at each character.  But if the string length is hard to predict, you may end up with small benefits and complicated code.
+Of course, you could get smarter. For example, you could branch on the string size to try to avoid one of the check at each character.  But if the string length is hard to predict, you may end up with small benefits and complicated code.
 
 What if you know that the string is either null-terminated, or that it contains at least one non-space character that can serve as a de facto sentinel ? Then you can use simpler code where you only have to load a new character and check that it is a space:
 ```C

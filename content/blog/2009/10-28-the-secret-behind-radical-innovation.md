@@ -9,7 +9,7 @@ Our global knowledge grows in slow, incremental steps. Darwin and Einstein mostl
 
 Thus, radical implementations come from the black sheep, the misfits, the outliers.
 
-- The librarians did not invent the Web. A physicist turned IT consultant did. In fact, the librarians resisted the Web initially, and it took nearly a decade or so before some of them allowed the Web in their libraries.  To this day, librarians are still catching up. Moreover, the web was popularized by a start-up, Netscape, whereas large companies (with deep pockets) such as Microsoft ignored it.
+- The librarians did not invent the Web. A physicist turned IT consultant did. In fact, the librarians resisted the Web initially, and it took nearly a decade or so before some of them allowed the Web in their libraries.  To this day, librarians are still catching up. Moreover, the web was popularized by a start-up, Netscape, whereas large companies (with deep pockets) such as Microsoft ignored it.
 - Amazon.com was not invented by a bookstore company. In fact, the first Web sites created by bookstores were nothing more than a reproduction of their paper ads online. It took a radically different player, one which did not have anything invested in the old book publishing model to invent Amazon.com.
 - While we know little about Gutenberg, he was not a scribe who grew a better way to copy books. Try as they may, the scribes could not invent the printing press.
 - Journalists did not come up with blogs. In fact, many of them resisted blogs for a very long time. Now? Now their newspapers are closing down and they are struggling for new solutions.

@@ -34,7 +34,6 @@ $ python3 tmp.py
 ```
 
 
-To my knowledge, Java still relies on deterministic hashing by default. However, the specification requires you to expect random hashing: the return value of hashCode() can change from one program execution to another. 
-
+To my knowledge, Java still relies on deterministic hashing by default. However, the specification requires you to expect random hashing: the return value of hashCode() can change from one program execution to another.
 How many Ruby, Python and Perl programmers realize that they are relying on random hashing?
 

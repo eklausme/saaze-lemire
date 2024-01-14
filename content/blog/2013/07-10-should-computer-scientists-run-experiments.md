@@ -14,7 +14,7 @@ But, at some point, Ullman linked to my blog post [A criticism of computer scien
 > In this article, the author argues that one should never use a model that is not real running time on a real computer. For example, this author would not accept the O(n log n) lower bound on sorting, because it is based on counting comparisons rather than machine instructions executed.
 
 
-I don&rsquo;t think that my blog post says anything of the sort. I disagree with this statement even though Ullman is under the impression that it is what I believe. I think that our knowledge that sorting (in general) requires at least n log n comparisons is critical and fundamental. If you were to learn one thing from computer science, it would probably not be a bad choice. But it is also practically incorrect: you can use [Pigeonhole sort](https://en.wikipedia.org/wiki/Pigeonhole_sort) or [Radix sort](/lemire/blog/2021/04/09/how-fast-can-you-sort-arrays-of-integers-in-java/) to achieve sorting in linear time (so better than O(n log n)). And you are probably relying daily on software that sort data faster.
+I don&rsquo;t think that my blog post says anything of the sort. I disagree with this statement even though Ullman is under the impression that it is what I believe. I think that our knowledge that sorting (in general) requires at least n log n comparisons is critical and fundamental. If you were to learn one thing from computer science, it would probably not be a bad choice. But it is also practically incorrect: you can use [Pigeonhole sort](https://en.wikipedia.org/wiki/Pigeonhole_sort) or [Radix sort](/lemire/blog/2021/04/09/how-fast-can-you-sort-arrays-of-integers-in-java/) to achieve sorting in linear time (so better than O(n log n)). And you are probably relying daily on software that sort data faster.
 
 Models are always simplifications. However, if your model is _right_ by definition&hellip; that is, if no comparison with real world could lead you to conclude that your model is wrong, then it is not a scientific model. It might be a tremendously useful mathematical construction&hellip; but it is not science.
 
@@ -27,8 +27,7 @@ Of course, [Quicksort](https://en.wikipedia.org/wiki/Quicksort) is an O(n<sup>2<
 
 It is a scientific fact that the sorting algorithm used in Java, [Timsort](https://en.wikipedia.org/wiki/Timsort), is often preferable to the classical algorithms like merge sort or quick sort. We can run extensive experiments to check that fact. There is also a theoretical analysis that explains why Timsort can often be better. That&rsquo;s a scientific approach.
 
-Working with models without experiments is akin to mathematics. If you model is right, you ought to be able to demonstrate it with experiments. 
-
+Working with models without experiments is akin to mathematics. If you model is right, you ought to be able to demonstrate it with experiments.
 Not everything needs to be science. For example, [Codd](https://en.wikipedia.org/wiki/Edgar_F._Codd)&lsquo;s work on relational algebra (the foundation for SQL) has been impactful. I am really happy we have SQL and everything that was built on it. But notice that it was built by people who didn&rsquo;t merely come up with models&hellip; they implemented their ideas and had them face the real world.
 
 The problem is that if we don&rsquo;t require people to test out their ideas in the real world, we are going to get thousands of rambling researchers for every Codd. Sometimes, that is the impression that academic research in computer science gives.

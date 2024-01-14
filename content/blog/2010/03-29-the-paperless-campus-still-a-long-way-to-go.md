@@ -5,7 +5,7 @@ title: "The paperless campus: still a long way to go"
 
 
 
-Today I spent money from a research grant. Here is the process:
+Today I spent money from a research grant. Here is the process:
 
 1. I grab the form in Excel format.
 1. I fill it out.

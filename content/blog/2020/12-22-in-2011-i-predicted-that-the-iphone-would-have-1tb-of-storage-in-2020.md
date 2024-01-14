@@ -28,7 +28,7 @@ Unfortunately, Google Plus is no more so you cannot see the plot showing my proj
 2020                     |iPhone 12 Pro            |512 GB                   |
 
 
-How did my prediction fare ? I got it wrong, of course, but I think it was remarkably prescient. It seems obvious that Apple could have gone with 1 TB but chose not to. [The Samsun Galaxy S10+ comes with 1 TB of storage](https://www.samsung.com/us/mobile/galaxy-s10/).
+How did my prediction fare ? I got it wrong, of course, but I think it was remarkably prescient. It seems obvious that Apple could have gone with 1 TB but chose not to. [The Samsun Galaxy S10+ comes with 1 TB of storage](https://www.samsung.com/us/mobile/galaxy-s10/).
 
 [Some analysts predict that the iPhone 13 might have 1 TB of storage](https://www.tomsguide.com/news/iphone-13-will-reportedly-boast-up-to-1tb-of-storage).
 

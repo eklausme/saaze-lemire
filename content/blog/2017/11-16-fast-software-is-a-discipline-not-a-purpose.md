@@ -13,8 +13,7 @@ I could probably work in a dirty office without ill effect, but I just choose no
 
 So when I see inefficient code, I cringe. I am being told that it does not matter. Who cares? We have plenty of CPU cycles. I think you should care, it is a matter of discipline.
 
-Yes, only about 1% of all code being written really matters. Most people write code that may as well be thrown out. 
-
+Yes, only about 1% of all code being written really matters. Most people write code that may as well be thrown out.
 But then, I dress cleanly every single day even if I stay at home. And you should too.
 
 I do not care which programming language you use. It could be C, it could be JavaScript. If your code is ten times slower than it should, I think it shows that you do not care, not really. And it bothers me. It should bother you because it tells us something about your work. It is telling us that you do not care, not really.

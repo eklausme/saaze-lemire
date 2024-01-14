@@ -5,10 +5,8 @@ title: "Slashdot | Google´s Ph.D. Advantage"
 
 
 
-Interesting post on slashdot on [Google&rsquo;s Ph.D. Advantage](http://tech.slashdot.org/story/04/06/07/1030205/googles-phd-advantage). It would appear that: 
-
-> 
-Google&rsquo;s willingness to let every employee spend 20% of his or her time on an independent project is a compelling motivator and that they estimate that Google has as many Ph.D.&rsquo;s working for it as Microsoft, which is 30 times larger.
+Interesting post on slashdot on [Google&rsquo;s Ph.D. Advantage](http://tech.slashdot.org/story/04/06/07/1030205/googles-phd-advantage). It would appear that:
+>Google&rsquo;s willingness to let every employee spend 20% of his or her time on an independent project is a compelling motivator and that they estimate that Google has as many Ph.D.&rsquo;s working for it as Microsoft, which is 30 times larger.
 
 
 

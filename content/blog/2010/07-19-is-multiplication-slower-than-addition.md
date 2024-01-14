@@ -45,7 +45,7 @@ fewer multiplications    |0.25                     |0.39                     |
 just additions           |0.16                     |0.23                     |
 
 
-Times are in seconds. The source code is available [without pointer arithmetics](http://pastebin.com/cdMMLMZm). The same test with pointer arithmetics gives faster results, but the same conclusion. I tried a [similar experiment](http://pastebin.com/YxfVcvue) in Java. It confirms my result.
+Times are in seconds. The source code is available [without pointer arithmetics](http://pastebin.com/cdMMLMZm). The same test with pointer arithmetics gives faster results, but the same conclusion. I tried a [similar experiment](http://pastebin.com/YxfVcvue) in Java. It confirms my result.
 
 __Code:__ Source code posted on my blog is available from a [github repository](https://github.com/lemire/Code-used-on-Daniel-Lemire-s-blog).
 

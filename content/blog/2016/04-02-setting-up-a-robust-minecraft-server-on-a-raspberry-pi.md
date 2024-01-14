@@ -49,7 +49,7 @@ Some people like to see a video of the setup:<br/>
 - <tt>cp myfile1 myfile2</tt>: creates a new file called _myfile2_ which has the same content as <em>myfile1</em>.
 - <tt>mv myfile1 myfile2</tt>: moves or renames the file _myfile1_ to <em>myfile1</em>.
 
-<li>Install a few extra packages by typing this command line <tt>sudo apt-get install netatalk screen avahi-daemon default-jdk</tt>, followed by the enter key. Though the command may span more than one line in your browser, enter it as a single line. __Do not skip this important step. Please do not get into an argument as to whether you need all three packages: just install them, life is short.__
+<li>Install a few extra packages by typing this command line <tt>sudo apt-get install netatalk screen avahi-daemon default-jdk</tt>, followed by the enter key. Though the command may span more than one line in your browser, enter it as a single line. __Do not skip this important step. Please do not get into an argument as to whether you need all three packages: just install them, life is short.__
 <li>Type <tt>java --version</tt>. It should return a message telling you which Java version you have. It should be 8 or better. The latest versions of Minecraft require Java 16, but we can still build older versions with Java 8.
 <li>Make sure you have plenty of free disk space: type <tt>df</tt>. This will print a table with several columns. One column should be <tt>'Use%'</tt> and another should be <tt>'Mounted on'</tt>. Pay attention to the lines where <tt>'Mounted on'</tt> is <tt>'/'</tt> or <tt>'/home'</tt>. There should be plenty of disk space: it is indicated by a low percentage value under <tt>'Use%'</tt>. A percentage of use above 50% might be cause for concern. Should you ever encounter errors later, type `df` to check that you have plenty of disk space.
 <li>Try typing <tt>screen -list</tt>. If it complains that there is no `screen` command, go back to the previous step and install it. Otherwise, you should get a message of the type <tt>No Sockets found</tt>: that&rsquo;s good!
@@ -89,7 +89,7 @@ wget https://hub.spigotmc.org/jenkins/job/BuildTools/lastSuccessfulBuild/artifac
 <tt>java -Xmx1024M -jar BuildTools.jar  --rev 1.16.5</tt>```
 
 
-(one line followed by the return key). You can change the version number (1.16.5) to use a more recent release but be mindful that recent versions of Minecraft require more recent Java versions (e.g., JDK 16). If it complains about not finding the java command, try typing <tt>sudo apt install default-jdk</tt> (one line followed by the return key) before typing again <tt>java -Xmx1024M -jar BuildTools.jar</tt>. Once the java program starts, its will take forever. Go drink coffee. After a long time, it will create a file called  <tt>spigot-1.16.5.jar</tt> as well as many other files. If it fails with mysterious errors, make sure that you had enough disk space. Type
+(one line followed by the return key). You can change the version number (1.16.5) to use a more recent release but be mindful that recent versions of Minecraft require more recent Java versions (e.g., JDK 16). If it complains about not finding the java command, try typing <tt>sudo apt install default-jdk</tt> (one line followed by the return key) before typing again <tt>java -Xmx1024M -jar BuildTools.jar</tt>. Once the java program starts, its will take forever. Go drink coffee. After a long time, it will create a file called  <tt>spigot-1.16.5.jar</tt> as well as many other files. If it fails with mysterious errors, make sure that you had enough disk space. Type
 ```C
 <tt>ls spigot*.jar</tt>```
 
@@ -163,7 +163,7 @@ If the command <tt>screen -r minecraft</tt> because there is no session called &
 <li>You are done, congratulations!
 
 
-And voilà ! The result is a &ldquo;robust&rdquo; and low-cost Minecraft server. You should be able to access it from a Java-based Minecraft desktop client using either <tt>raspberrypi.local</tt> or the IP address of the server.
+And voilà ! The result is a &ldquo;robust&rdquo; and low-cost Minecraft server. You should be able to access it from a Java-based Minecraft desktop client using either <tt>raspberrypi.local</tt> or the IP address of the server.
 
 If you ever need to stop the server, just log in with ssh, use <tt>screen -r minecraft</tt> to get to the server prompt and type <tt>stop</tt>. (If it complains that there is no minecraft screen, then you probably did not not run the minecraft.sh script first.) At the bash prompt, type <tt>sudo shutdown -h now</tt>. Wait a few seconds, then unplug the Raspberry Pi.
 

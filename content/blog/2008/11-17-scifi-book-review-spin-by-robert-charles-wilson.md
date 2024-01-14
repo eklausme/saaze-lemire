@@ -19,7 +19,6 @@ The novel is very good. The author writes with good scientific rigour. The writi
 
 __Cons__
 
-The author tried to limit the scope of the story to few characters, but not all of them are good characters. The writing style reminds me a bit of Card&rsquo;s Ender&rsquo;s game series. There is the extra smart kid who grows up to be the is the only one able to see through what is happening. I found this particular element of the novel irritating. A major catastrophe hits the Earth and only one man seems to be able to put it all together? I am a bit disappointed by how the author dealt with anything outside the Earth, including the Martians. He could have done so much more! 
-
+The author tried to limit the scope of the story to few characters, but not all of them are good characters. The writing style reminds me a bit of Card&rsquo;s Ender&rsquo;s game series. There is the extra smart kid who grows up to be the is the only one able to see through what is happening. I found this particular element of the novel irritating. A major catastrophe hits the Earth and only one man seems to be able to put it all together? I am a bit disappointed by how the author dealt with anything outside the Earth, including the Martians. He could have done so much more!
 Sequels are upcoming.
 

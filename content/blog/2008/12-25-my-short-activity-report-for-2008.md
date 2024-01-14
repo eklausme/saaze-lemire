@@ -27,7 +27,7 @@ Naturally, there was more to 2008, but you get the idea.
 What are my plans for 2009?
 
 - I will keep experimenting with different types of blogging. My goal is to get better at __connecting my main research activities and my blogging__.
-- I will continue to work on bitmap indexes. I will also branch out from bitmap indexes to columnar databases in general. Expect a few research papers.  Expect my <em>[Lemur Bitmap Index C++ Library](https://github.com/lemire/ewahboolarray)</em>, to grow beyond bitmap indexes.
+- I will continue to work on bitmap indexes. I will also branch out from bitmap indexes to columnar databases in general. Expect a few research papers.  Expect my <em>[Lemur Bitmap Index C++ Library](https://github.com/lemire/ewahboolarray)</em>, to grow beyond bitmap indexes.
 - I will pursue my interest in collaborative data analysis.
 - I will publish an online course on Data Warehousing.
 

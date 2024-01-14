@@ -15,8 +15,7 @@ __First myth: Copyright causes no great harm__
 
 In Mein Kampf, Hitler called for the destruction of France. Mein Kampf was translated in France. Hitler sued based on his copyright and had all copies seized. He later published a version specifically for France, censored. The censorship is likely to have contributed to his military success. Hitler took France by surprise, losing only 50,000 men in the fight, despite France having spent more than Germany on defence funding in previous years.
 
-__Second myth: Copyright is meant primarily to protect authors. __
-
+__Second myth: Copyright is meant primarily to protect authors.__
 - State-enforced copyright came about with the [Statute of Anne](https://en.wikipedia.org/wiki/Statute_of_Anne) in 1710. It was the result lobby of a group English publishers who sought to regain their monopoly on publishing. Handing out the initial copyright to the authors was a political gesture: the goal has always been to get authors to hand over the copyright to the publisher, effectively giving the publisher a monopoly.
 - In most countries, copyright holds for 70 years after the death of the author. Such a long-term copyright cannot possibly be meant to protect authors.
 
@@ -71,5 +70,5 @@ I should add that whenever you follow a link to Amazon.com from my site, and pur
 
 __My position__: I see no justification for copyright. I am effectively a writer: I write lecture notes, research articles and blog posts. I get paid without relying on copyright. Instead, I have patrons: funding agencies, students, and blog readers. But if we insist on having copyright, it should at least be limited to a short term (say 5 years or less).
 
-__Further reading__: [Defining Property](http://www.paulgraham.com/property.html) by Paul Graham and [What We Know, What We Don&rsquo;t Know, and What Policy-makers Would Like Us to Know About the Economics of Copyright](http://papers.ssrn.com/sol3/papers.cfm?abstract_id=2024588) by Ruth Towse. Related: [Controversial AI art piece from 2022 lacks human authorship required for copyright registration](https://arstechnica.com/information-technology/2023/09/us-rejects-ai-copyright-for-famous-state-fair-winning-midjourney-art/). You may also enjoy my blog post [Do we need patents?](/lemire/blog/archives/2012/01/06/do-we-need-patents/)
+__Further reading__: [Defining Property](http://www.paulgraham.com/property.html) by Paul Graham and [What We Know, What We Don&rsquo;t Know, and What Policy-makers Would Like Us to Know About the Economics of Copyright](http://papers.ssrn.com/sol3/papers.cfm?abstract_id=2024588) by Ruth Towse. Related: [Controversial AI art piece from 2022 lacks human authorship required for copyright registration](https://arstechnica.com/information-technology/2023/09/us-rejects-ai-copyright-for-famous-state-fair-winning-midjourney-art/). You may also enjoy my blog post [Do we need patents?](/lemire/blog/2012/01/06/do-we-need-patents/)
 

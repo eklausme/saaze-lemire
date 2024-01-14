@@ -38,10 +38,10 @@ table {
 	collapse; border-spacing: 0; 
 }
 td, th { border: 1px solid #CCC; height: 30px; } /* Make cells a bit taller */
-th {	background: #F3F3F3; /* Light grey background */
+th {	background: #F3F3F3; /* Light gray background */
 	font-weight: bold;
 }
-td {	background: #FAFAFA; /* Lighter grey background */
+td {	background: #FAFAFA; /* Lighter gray background */
 	text-align: center; /* Center our text */
 }
 
@@ -54,6 +54,24 @@ li { margin-left:-2.5rem; margin-bottom:0.6rem }
 pre { color:#e2e8f0; background-color:#2d3748; border-radius:0.4rem; overflow-x:auto; padding:1.4rem }
 pre code { color:#e2e8f0; line-height:1.8; font-size:1.1rem; font-weight:400; }
 code[class*="language-"], pre[class*="language-"] { line-height:1.5; font-size:1.15rem }
+
+.dimmedColor, .comment-metadata { color:Gray }
+footer { font-family:sans-serif; color:Gray }
+
+pre, code { font-family:Menlo,Consolas,monaco,monospace }
+code { color:inherit; font-weight:700; font-size:inherit }
+pre > code { font-weight:400 }
+
+.authorBio { font-family: Helvetica, Arial, sans-serif; line-height:1; color:PaleTurquoise; display:initial }
+header { background-color:#0693e3; color:white;
+	font-family: Helvetica, Arial, sans-serif;
+	padding-top:1rem; padding-left:4rem; padding-right:4rem; padding-bottom:2rem
+}
+
+.depth-1, .depth-2, .depth-3, .depth-4, .depth-5, .depth-6, .depth-7, .depth-8, .depth-9 { margin-left:0 }
+.thread-even { background-color:#fef9e7 }
+.thread-odd { background-color:#fdedec }
+
 
 
 .grid-container {	/* Holy Grail Layout */
@@ -73,11 +91,7 @@ code[class*="language-"], pre[class*="language-"] { line-height:1.5; font-size:1
 	text-align: left;
 	font-size: 1.5rem;
 }
-.authorBio { font-family: Helvetica, Arial, sans-serif; line-height:1; color:PaleTurquoise; display:initial }
-header { grid-area:header; background-color:#0693e3; color:white;
-	font-family: Helvetica, Arial, sans-serif;
-	padding-top:1rem; padding-left:4rem; padding-right:4rem; padding-bottom:2rem
-}
+header { grid-area:header }
 main { grid-area:main }
 aside { grid-area:aside }
 article { grid-area:article }
@@ -112,16 +126,7 @@ footer { grid-area:footer }
 	}
 }
 
-@media screen and (max-width:39rem) {
-	.authorBio { display:none }
-}
-
-.dimmedColor { color:Gray }
-footer { font-family:sans-serif; color:Gray }
-
-pre, code { font-family:Menlo,Consolas,monaco,monospace }
-code { color:inherit; font-weight:700; font-size:inherit }
-pre > code { font-weight:400 }
+@media screen and (max-width:39rem) { .authorBio { display:none } }
 
 
 /*nav { border-radius:8px }*/

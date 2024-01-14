@@ -14,5 +14,4 @@ Unlike Harold, I suspect this will not help telework since the reasons why peopl
 
 We have to look at this new phenomenon in relationship with the aging population.
 
-As consumers, we may come to choose to expect goods and services to come to us. The large mall everybody drives to, might be replaced by smaller local stores people can walk to. Night classes might be replaced by online classes. 
-
+As consumers, we may come to choose to expect goods and services to come to us. The large mall everybody drives to, might be replaced by smaller local stores people can walk to. Night classes might be replaced by online classes.

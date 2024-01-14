@@ -56,8 +56,7 @@ public func sum17(_ g1 : Trivial1, _ g7 : Trivial7)
 ```
 
 
-This compiles down to 
-```C
+This compiles down to```C
 
   mov eax, 800
 ```

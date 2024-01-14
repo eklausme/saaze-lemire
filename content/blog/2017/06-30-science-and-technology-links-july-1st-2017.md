@@ -16,7 +16,7 @@ Though mammals like us can heal injuries, there is often scarring. Scarring shou
 
 It seems that fasting (going without food) could be a key to [regenerating your immune system](https://news.usc.edu/63669/fasting-triggers-stem-cell-regeneration-of-damaged-old-immune-system/):
 
-> The study has major implications for healthier aging, in which immune system decline contributes to increased susceptibility to disease as people age. By outlining how prolonged fasting cycles  periods of no food for two to four days at a time over the course of six months  kill older and damaged immune cells and generate new ones, the research also has implications for chemotherapy tolerance and for those with a wide range of immune system deficiencies, including autoimmunity disorders.
+> The study has major implications for healthier aging, in which immune system decline contributes to increased susceptibility to disease as people age. By outlining how prolonged fasting cycles  periods of no food for two to four days at a time over the course of six months  kill older and damaged immune cells and generate new ones, the research also has implications for chemotherapy tolerance and for those with a wide range of immune system deficiencies, including autoimmunity disorders.
 
 
 [Chimpanzees are not that much stronger than we are](https://phys.org/news/2017-06-chimpanzee-super-strength-human-muscle.html):
@@ -38,7 +38,7 @@ A few weeks ago, [there was an article in Nature](https://www.nature.com/article
 
 Jim Vaupel from the Max Planck Institute writes:
 
-> The evidence points towards no looming limit. At present the balance of the evidence suggests that if there is a limit it is above 120, perhaps much above  and perhaps there is not a limit at all.
+> The evidence points towards no looming limit. At present the balance of the evidence suggests that if there is a limit it is above 120, perhaps much above  and perhaps there is not a limit at all.
 
 
 Maarten Rozing from the University of Copenhagen writes about a biological clock limiting our lifespan:

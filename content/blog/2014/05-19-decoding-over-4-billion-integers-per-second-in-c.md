@@ -5,7 +5,7 @@ title: "Decoding over 4 billion integers per second in C"
 
 
 
-Programmers routinely work with lists of integers. [We recently showed](/lemire/blog/archives/2012/09/12/fast-integer-compression-decoding-billions-of-integers-per-second/) how to compress such lists of integers close to their entropy, while being able to [decompress billions of integers per second](http://onlinelibrary.wiley.com/doi/10.1002/spe.2203/abstract).
+Programmers routinely work with lists of integers. [We recently showed](/lemire/blog/2012/09/12/fast-integer-compression-decoding-billions-of-integers-per-second/) how to compress such lists of integers close to their entropy, while being able to [decompress billions of integers per second](http://onlinelibrary.wiley.com/doi/10.1002/spe.2203/abstract).
 
 To ensure anyone could do it, we published the [FastPFOR C++ library](https://github.com/lemire/FastPFOR). We also published the [JavaFastPFOR Java library](https://github.com/lemire/JavaFastPFOR) and there is even a corresponding [Go library](https://github.com/dataence/encoding).
 

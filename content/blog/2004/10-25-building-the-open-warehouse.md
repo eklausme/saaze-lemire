@@ -7,8 +7,7 @@ title: "Building the Open Warehouse"
 
 Here&rsquo;s a link to slides from a talk by Roger Magoulas, (O&rsquo;Reilly Media, Inc.) about building the open warehouse. The talk was presented at [O&rsquo;Reilly Open Source Convention 2004](http://conferences.oreillynet.com/cs/os2004/view/e_sess/5493).
 
-> 
-Commodity hardware, faster disks, and open source software now make building a data warehouse more of a resource and design issue than a cost issue for many organizations. Now a robust analysis infrastructure can be built on an open source platform with no performance or functional compromises.
+>Commodity hardware, faster disks, and open source software now make building a data warehouse more of a resource and design issue than a cost issue for many organizations. Now a robust analysis infrastructure can be built on an open source platform with no performance or functional compromises.
 
 This talk will cover a proven analysis architecture, the open source tool options for each architecture component, the basics of dimensional modeling, and a few tricks of the trade.
 

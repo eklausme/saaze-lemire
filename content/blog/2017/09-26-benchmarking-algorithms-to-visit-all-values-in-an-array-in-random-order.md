@@ -25,8 +25,7 @@ where we initialize `value` to a random number in <tt>[0,n)</tt>, and we set `pr
 
 Though the ternary operator looks like a branch, recent compilers are likely to compile this code, when targeting recent processors, as a conditional move. Though conditional moves used to be slow and generally a bad idea, they are now quite cheap. Very few CPU cycles are needed.
 
-Many readers insisted that I was silly to design a method that fits values in <tt>[0,n)</tt>. All one needs to do is to find the largest power of two larger or equal to `n` (let us call it <tt>2<sup>L</sup></tt>), and then visit all of these values, skipping over up to <tt>n/2</tt> values in the process. 
-
+Many readers insisted that I was silly to design a method that fits values in <tt>[0,n)</tt>. All one needs to do is to find the largest power of two larger or equal to `n` (let us call it <tt>2<sup>L</sup></tt>), and then visit all of these values, skipping over up to <tt>n/2</tt> values in the process.
 We have many nice algorithms to visit all values in an interval <tt>[0,n)</tt> exactly once. One approach is to use a [linear congruential generator](https://en.wikipedia.org/wiki/Linear_congruential_generator). (The term linear congruential generator or LCG, is a fancy way to say that you have recursive linear function involving a modulo reduction. There is a bit of non-trivial mathematics from the 1960s involved. Many widely used random number generators rely on an LCG.).
 
 In the end, the code then looks something like this&hellip;
@@ -38,8 +37,7 @@ while (lcg >= size) {
 ```
 
 
-That is, we move to the next value within <tt>[0,2<sup>L</sup>)</tt>, and must keep hoping to another value, as long as we are outside of <tt>[0,n)</tt>. In the worst case, we may need to hop <tt>n/2</tt> times, so you cannot guarantee that this code has a constant-time complexity. 
-
+That is, we move to the next value within <tt>[0,2<sup>L</sup>)</tt>, and must keep hoping to another value, as long as we are outside of <tt>[0,n)</tt>. In the worst case, we may need to hop <tt>n/2</tt> times, so you cannot guarantee that this code has a constant-time complexity.
 More critically, this creates mispredicted branches. Mispredicted branches can cost tens of CPU cycles!
 
 So while it looks like the clever and natural approach, padding your sizes to the nearest power of two has potential downsides.

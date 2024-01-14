@@ -5,7 +5,7 @@ title: "A fast alternative to the modulo reduction"
 
 
 
-Suppose you want to pick an integer at random in a set of <em>N</em> elements. Your computer has functions to generate random 32-bit integers, how do you transform such numbers into indexes no larger than <em>N</em>? Suppose you have a hash table with a capacity <em>N</em>. Again, you need to transform your hash values (typically 32-bit or 64-bit integers) down to an index no larger than <em>N</em>. Programmers often get around this problem by making sure that _N_ is a power of two, but that is not always ideal.
+Suppose you want to pick an integer at random in a set of <em>N</em> elements. Your computer has functions to generate random 32-bit integers, how do you transform such numbers into indexes no larger than <em>N</em>? Suppose you have a hash table with a capacity <em>N</em>. Again, you need to transform your hash values (typically 32-bit or 64-bit integers) down to an index no larger than <em>N</em>. Programmers often get around this problem by making sure that _N_ is a power of two, but that is not always ideal.
 
 We want a map that as fair as possible for an arbitrary integer <em>N</em>. That is, ideally, we would want that there are exactly 2<sup>32</sup>/<em>N</em> values mapped to each value in the range {0, 1 ,&hellip;, _N_ &#8211; 1} when starting from all 2<sup>32</sup> 32-bit integers.
 

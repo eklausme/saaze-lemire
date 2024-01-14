@@ -11,7 +11,7 @@ char *buf = new char[s];
 ```
 
 
-According to a textbook interpretation, we just allocated <tt>s</tt> bytes<sup>[1](#footnote1).</sup>
+According to a textbook interpretation, we just allocated <tt>s</tt> bytes<sup>[1](#footnote1).</sup>
 
 If you benchmark this line of code, you might find that it almost entirely free on a per-byte basis for large values of <tt>s</tt>. But that is because we are cheating: the call to the new operation &ldquo;virtually&rdquo; allocates the memory, but you may not yet have actual memory that you can use. As you access the memory buffer, the system may then decide to allocate the memory pages (often in blocks of 4096 bytes). Thus the cost of memory allocation can be hidden. The great thing with a virtual allocation is that if you never access the memory, you may never pay a price for it.
 

@@ -20,8 +20,7 @@ Once you adopt this (admittedly simplistic) point of view, a few things about ou
 - It does not matter much how many products a company is selling, what matters is whether it can out-innovate its competitors. Corporations may produce more than they ever did in volume alone, but they have never been so short-lived. I don&rsquo;t worry about how many people Google is serving, I worry about whether they&rsquo;ll keep innovating fast enough to stay in business. In fact, I worry about whether corporations can even survive in the post-industrial age, as they tend to be geared toward the accumulation of capital, not fast innovation.
 
 
-This view of the world defines how I view others and my own job: 
-
+This view of the world defines how I view others and my own job:
 - We used to spend a great deal of time teaching using a standardized format. What I wish I could ask to young people today is: Can you learn something like Calculus very cheaply and very quickly if you need to? What would you do if you needed to learn calculus, do you know?
 - So, you are are unemployed or underemployed? You aren&rsquo;t very rich? I don&rsquo;t care about any of this. However, have you ever created something new and interesting? There is a counterpart to this: if you are rich and hold a prestigious position, but you are just sitting on top of an industrial machine, then I don&rsquo;t care about you. You are not interesting.
 

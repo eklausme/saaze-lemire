@@ -7,7 +7,7 @@ title: "Encoding binary in ASCII very fast"
 
 In software, we typically work with binary values. That is, we have arbitrary streams of bytes. To encode these arbitrary stream of bytes in standard formats like email, HTML, XML, JSON, we often need to convert them to a standard format like base64. [You can encode and decode base64 very quickly](https://arxiv.org/abs/1910.05109).
 
-But what if you do not care for standards and just want to go fast and have simple code? Maybe all you care about is that the string is ASCII. That is, it must be a stream of bytes with the most significant bit of each byte set to zero. In such a case, you want to convert any 7-byte value  into an 8-byte value, and back.
+But what if you do not care for standards and just want to go fast and have simple code? Maybe all you care about is that the string is ASCII. That is, it must be a stream of bytes with the most significant bit of each byte set to zero. In such a case, you want to convert any 7-byte value  into an 8-byte value, and back.
 
 I can do it in about five instructions (not counting stores and moves) both ways in standard C: five instructions to encode, and five instructions to decode. It is less than one instruction per byte. I could not convince myself that my solution is optimal.
 ```C

@@ -5,7 +5,7 @@ title: "Faster bitset decoding using Intel AVX-512"
 
 
 
-I refer to &ldquo;bitset decoding&rdquo; as the action of finding the positions of the 1s in a stream of bits. For example, given the integer value 0b11011 (or 27 in decimal),  I want to find 0,1,3,4.
+I refer to &ldquo;bitset decoding&rdquo; as the action of finding the positions of the 1s in a stream of bits. For example, given the integer value 0b11011 (or 27 in decimal),  I want to find 0,1,3,4.
 
 In my previous post, <em><a href="https://lemire.me/blog/2022/05/06/fast-bitset-decoding-using-intel-avx-512/" rel="bookmark">Fast bitset decoding using Intel AVX-512</a></em>, I explained how you can use Intel&rsquo;s new instructions, from the AVX-512 family, to decode bitsets faster. The AVX-512 instructions, as the name implies, often can process 512-bit (or 64-byte) registers.
 

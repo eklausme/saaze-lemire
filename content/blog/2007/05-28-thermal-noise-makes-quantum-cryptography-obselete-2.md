@@ -15,8 +15,7 @@ Bruce Schneier [describes it](https://www.schneier.com/crypto-gram/archives/2005
 
 And he concludes:
 
-> 
-Basically, if Kish&rsquo;s scheme is secure, it&rsquo;s superior to quantum communications in every respect: price, maintenance, speed, vibration, thermal resistance and so on.
+>Basically, if Kish&rsquo;s scheme is secure, it&rsquo;s superior to quantum communications in every respect: price, maintenance, speed, vibration, thermal resistance and so on.
 
 
 Is this true? Is Quantum Cryptography obselete?

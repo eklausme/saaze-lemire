@@ -9,7 +9,7 @@ I have an old an dusty 3Com HomeConnect webcam. Until a few minutes ago, I thoug
 
 <code>lsusb</code>
 
-and voilÃ :
+and voilÃ :
 
 <code>Bus 001 Device 019: ID 04c1:009d U.S. Robotics (3Com) HomeConnect WebCam [vicam]</code>
 

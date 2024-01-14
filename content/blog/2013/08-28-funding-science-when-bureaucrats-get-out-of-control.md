@@ -15,12 +15,10 @@ Unfortunately, when government bureaucrats do abuse their power, there is very l
 
 In Canada, if we want to get a grant from the federal government, we now have fill out what they call the &ldquo;Common CV&rdquo;. This is an online tool to report on your academic accomplishments. Unfortunately, it is a monster requiring between 2 days to 2 weeks of work depending on how senior you are. You read this right: just filling out your c.v. can take out 2 weeks out of your year if you are a leading scientist. Considering that thousands of researchers have to do it, the cost (in research time) is just astronomical. This is equivalent to a massive cut in research funding for Canada.
 
-A [petition has been setup](https://www.change.org/p/nserc-stop-the-use-of-the-common-cv) and the comments from Canadian researchers are coming in. I reproduce some of them below. 
-
+A [petition has been setup](https://www.change.org/p/nserc-stop-the-use-of-the-common-cv) and the comments from Canadian researchers are coming in. I reproduce some of them below.
 It illustrates the limitations and danger of the centralization of science funding. When all the power is in the hands of the few&hellip; you eventually get abuse.
 
-My point is not that the government bureaucrats are evil: the overwhelming majority are nice folks with good intentions. However, the system itself, and the incentives it provides, are not geared toward producing good science. 
-
+My point is not that the government bureaucrats are evil: the overwhelming majority are nice folks with good intentions. However, the system itself, and the incentives it provides, are not geared toward producing good science.
 __Comments from Canadian scientists on the new system<br/>
 __
 

@@ -17,8 +17,7 @@ His general conclusion seems to be that there is fairly little to gain for a fam
 
 He makes the following &ldquo;prediction&rdquo;:
 
-> 
-The peer-review process may also be subject to unravelling: as more top economists withdraw from the process, the signal that publication<br/>
+>The peer-review process may also be subject to unravelling: as more top economists withdraw from the process, the signal that publication<br/>
 in a given journal provides is devalued and this may lead to further withdrawals.
 
 

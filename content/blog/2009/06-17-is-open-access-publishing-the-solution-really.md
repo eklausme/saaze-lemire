@@ -15,7 +15,7 @@ Similarly, for professors and many graduate students, the costs of academic publ
 
 Open access to research papers is the responsible thing to do. How do we change the system? Do we boycott restricted journals? No. There is nothing wrong with restricted journals. We should not force them to close, we should evolve so that they become irrelevant. For now, they serve their purpose. There is no adequate drop-in replacement.
 
-Disruption is the solution. Younger folks may not remember this, but in the nineties, Microsoft had a tight grasp of the software market. Right now, Microsoft&rsquo;s _monopoly_ is irrelevant as far as I am concerned. Anyone can buy a PC, install Linux on it and access everything that matters. Of course, the real story is not that Linux has beaten Microsoft Windows. Instead, it is the operating system that has lost relevance.
+Disruption is the solution. Younger folks may not remember this, but in the nineties, Microsoft had a tight grasp of the software market. Right now, Microsoft&rsquo;s _monopoly_ is irrelevant as far as I am concerned. Anyone can buy a PC, install Linux on it and access everything that matters. Of course, the real story is not that Linux has beaten Microsoft Windows. Instead, it is the operating system that has lost relevance.
 
 How do we generate disruption? By providing alternatives. It is important to realize that these alternatives do not have to be better. Instead, they have to be __more convenient__ and __simpler__. Unfortunately, I do not believe that Open Access journals are disruptive. They are challengers, certainly, but due to economics, they may fail to subvert the current system.
 
@@ -23,7 +23,7 @@ Several years ago, I decided to publish all my preprints to [arxiv](http://arxiv
 
 To me, the single most important recent event in academic publishing has been the publication by Perelman of his solution to the Poincaré conjecture on [arxiv](http://aps.arxiv.org/find/grp_math/1/au:+Perelman_Grisha/0/1/0/all/0/1). This is truly a historical event.
 
-Self-publishing is both simpler and more convenient than traditional publishing. __It is disruptive. <span style="font-weight: normal;">As is often the case with disruptive solutions, it lacks some important features. For example, reputation, peer-review, quality control, review, validation, authentication are difficult with self-publishing. But that is to be expected. The solution is not to try to emulate these features one by one. Indeed, we may find that many of these important missing features are not relevant.</span>__
+Self-publishing is both simpler and more convenient than traditional publishing. __It is disruptive. <span style="font-weight: normal;">As is often the case with disruptive solutions, it lacks some important features. For example, reputation, peer-review, quality control, review, validation, authentication are difficult with self-publishing. But that is to be expected. The solution is not to try to emulate these features one by one. Indeed, we may find that many of these important missing features are not relevant.</span>__
 
 __Further reading__: [Peer Review is Vanity Publishing](http://www.academicevolution.com/2009/02/peer-review-is-vanity-publishing.html)
 

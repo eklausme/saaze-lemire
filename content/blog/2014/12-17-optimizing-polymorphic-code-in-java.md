@@ -18,8 +18,7 @@ public interface Array {
 ```
 
 
-Why would you want to do that? Maybe because your data can be in a database, on a network, on disk or in some other data structure. You want to write your code once, and not have to worry about how the array is implemented. 
-
+Why would you want to do that? Maybe because your data can be in a database, on a network, on disk or in some other data structure. You want to write your code once, and not have to worry about how the array is implemented.
  It is not difficult to produce a class that is effectively equivalent to a standard Java array, except that it implements this interface:
 ```C
 
@@ -83,8 +82,7 @@ public int compute() {
 ```
 
 
-Of course, I also introduce a maintenance problem as the same algorithm needs to be implemented more than once&hellip; but when performance matters, this is an acceptable alternative. 
-
+Of course, I also introduce a maintenance problem as the same algorithm needs to be implemented more than once&hellip; but when performance matters, this is an acceptable alternative.
 As usual, my benchmarking code is [available online](https://github.com/lemire/Code-used-on-Daniel-Lemire-s-blog/tree/master/2014/12/17).
 
 To summarize:

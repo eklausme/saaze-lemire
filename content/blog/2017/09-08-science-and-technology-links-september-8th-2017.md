@@ -9,8 +9,7 @@ I always naively assumed that the discovery that the speed of light is finite wa
 
 [Scientists rejuvenated the brain of old mice using a single protein (ARC)](http://www.pnas.org/content/114/34/9182.abstract).
 
-[We can use software to write fake reviews that can pass as being useful](https://www.schneier.com/blog/archives/2017/09/new_techniques_.html). This can be used to potentially spam review sites. 
-
+[We can use software to write fake reviews that can pass as being useful](https://www.schneier.com/blog/archives/2017/09/new_techniques_.html). This can be used to potentially spam review sites.
 Nature reports that [injecting the brains of monkeys with stem cells](http://www.nature.com/nature/journal/v548/n7669/full/nature23664.html) seems to help combat Parkinson&rsquo;s disease. By the way, [we can transform skin cells directly into neurons](http://www.cell.com/cell-stem-cell/fulltext/S1934-5909(17)30320-X).
 
 Magic Leap is a company that claims to be working on very advanced augmented reality glasses. They have received more money than God. Their technology is supposedly beyond anything others are working on. [We now have access to one of their patents](https://uploadvr.com/magic-leap-patent-virtual-reality-glasses/). This might be the first sign of the future. Or not.

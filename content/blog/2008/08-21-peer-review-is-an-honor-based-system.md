@@ -14,7 +14,7 @@ It would take too long to expose all of the flaws of peer review, here are some:
 
 However, for all its faults, peer review remains essential in science. I want other researchers to read and criticize my work. I enjoy it very much when people try to find flaws in my work. I think that my work is serious enough that when people point out flaws, I am usually aware of them at some level and I can respond easily (and enjoy the process).
 
-The type of peer review I do not enjoy is the country-club approach: 1) does the paper agrees with the goals and views of the reviewers 2) is the paper written by someone we can respect? Fortunately, you can navigate the system and stay away (mostly) from country-club peer review.
+The type of peer review I do not enjoy is the country-club approach: 1) does the paper agrees with the goals and views of the reviewers 2) is the paper written by someone we can respect? Fortunately, you can navigate the system and stay away (mostly) from country-club peer review.
 
 But why do I still like peer review despite its obvious flaws? Because I see it as an honor-based system. In such a system, you have to accept that there will be cheaters. A lot of them. And there will lots of mistakes. All we have to do is be open about it. That is, you cannot say &ldquo;but my work was peer reviewed so you cannot question it!&rdquo; or &ldquo;I am very good, look at these prestigious publications!&rdquo;. __The peer review is there to help the authors. It is not, however, an insurance against fraud or mistakes.__ I like peer review because it helps me become better, but I do not use the system to determine how good someone else is.
 

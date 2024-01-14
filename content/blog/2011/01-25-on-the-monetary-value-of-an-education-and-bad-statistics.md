@@ -22,9 +22,9 @@ Nevertheless, __the historical value of education as an investment has been grea
 
 __But one critical error remains:__ Can you predict the future based on the past, by naively assuming that the past will be like the future? My bank still claims in its brochures that I can expect yearly returns of 8% on my investments. They have nice plots showing how much investing a little bit right now is enough to become a millionaire in 30 years. And indeed, the annual return on investment from [1950 to today is around 7%](http://www.simplestockinvesting.com/SP500-historical-real-total-returns.htm). So anyone who invested massively in the 1950s is probably wealthy right now. But the return on investment in the first decade on the twenty-first century has been __negative__. Some people have made a fortune with their investments lately, but most people have lost money! Is it safe to predict that, eventually, the 1950s will come back? Nobody knows.
 
-Maybe the job market is different? Maybe the market for young college graduates is relatively static and easy to predict? No. The number of university graduates has doubled in the West since 1990, and tripled in Asia. We are undergoing a massive transformation. Brown et al. (2008) warn us that the fast expanding supply of highly trained graduates, both locally and worldwide, will soon push the wages down:
+Maybe the job market is different? Maybe the market for young college graduates is relatively static and easy to predict? No. The number of university graduates has doubled in the West since 1990, and tripled in Asia. We are undergoing a massive transformation. Brown et al. (2008) warn us that the fast expanding supply of highly trained graduates, both locally and worldwide, will soon push the wages down:
 
-> Investment in high skills will not create the high skilled, high waged economy of the future.
+> Investment in high skills will not create the high skilled, high waged economy of the future.
 
 
 The equation &ldquo;higher education&rdquo; = &ldquo;high wages&rdquo; may fail. Effectively, this has already happened with Ph.D.s in many fields (see Don&rsquo;t become a scientist by Katz). The promise of good jobs to those who study hard may be broken:

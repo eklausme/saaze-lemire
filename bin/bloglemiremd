@@ -4,6 +4,10 @@
 # Taget: /tmp/lemire/<year>/<title>.md
 # After some checking target /tmp/lemire is later moved to ~/php/saaze-lemire/content/blog
 #
+# Usage:
+#    bloglemiremd b?.html b??.html b???.html
+#    bloglemiremd -t pr* *-*.html
+#
 # Elmar Klausmeier, 12-Dec-2023
 # Elmar Klausmeier, 16-Dec-2023: table beautifier
 # Elmar Klausmeier, 01-Jan-2024: handle non-date related blog posts at top directory level
@@ -88,12 +92,15 @@ while (<>) {
 	s/ <tt>(\w+?)<\/tt> / `$1` /g;
 	s/\xc2\xa0/ /g;	# special "space" found in terms-of-use
 	s/([\.\?\;\:])\s+<\/strong>/$1__ /g;	# special case for punctuation before ending <strong>
+	s/<li><strong>\s+/<li>__/;	# special case for my-predictions-for-it-in-year-2006
+	s/\s+<\/strong>/__ /g;	# special case for space before ending <strong>
 	s/<strong id="[^"]+">/__/g;	# special case for "book-recommendations"
 	s/<(|\/)strong>/__/g;
 
 	# Convert <a href=XX>uvw</a> to [uvw](XX)
 	s/<a href="([^"]+)">([^<]+?)<\/a>/\[$2\]\($1\)/g;
 	# Special case for my blog: .../blog is already used, so put Lemire's post under .../lemire/blog
+	s/\(https:\/\/lemire\.me\/blog\/archives\//(\/lemire\/blog\//g;
 	s/\(https:\/\/lemire\.me\/blog\//(\/lemire\/blog\//g;
 
 	s/<(|\/)div>//g;	# drop opening and closing div's
@@ -193,6 +200,7 @@ while (<>) {
 	next if (/<tbody>/);
 	next if (/<\/(tr|tbody)>/);
 
+	s/ +\n$//;	# rtrim space
 	print F $_;
 }
 

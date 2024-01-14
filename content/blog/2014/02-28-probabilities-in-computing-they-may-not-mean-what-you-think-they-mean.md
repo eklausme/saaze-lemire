@@ -31,17 +31,13 @@ It is only on the long run, after picking many hash functions, that the manager 
 
 There is another probabilistic interpretation that is entirely different. Maybe one can fairly expect the filing times to be random. For example, maybe the customers have little control on when the complaint is actually filed. Then the time stamps themselves can be assumed to be random. In such a case, there may not be any need to change the hash functions.
 
-But how do we know that our hash function is good enough that it does not require changing? 
-
-Suppose that the manager picks a new hash function every day. He hired a theoretical computer scientist as a consultant, and the computer scientist proved that the way the hash functions are picked is &ldquo;universal&rdquo;. 
-
+But how do we know that our hash function is good enough that it does not require changing?
+Suppose that the manager picks a new hash function every day. He hired a theoretical computer scientist as a consultant, and the computer scientist proved that the way the hash functions are picked is &ldquo;universal&rdquo;.
 Further, the manager feels confident that the time stamp are random, and has this proof of universality. So he picks one hash function and sticks with it, figuring that he is now pretty safe.
 
-Ah! The manager just made a critical mistake. It is entirely possible that the manager just picked a very bad hash function (say one that allocates all files to one clerk). 
-
+Ah! The manager just made a critical mistake. It is entirely possible that the manager just picked a very bad hash function (say one that allocates all files to one clerk).
 If he wants to stick with one hash function, and work on the assumption that the time stamps are random, he needs to go back to the theoretician with this specific model. In such a case, the theoretician might check whether the chosen hash function is <em>regular</em>, an entirely different property from universality.
 
-Probability is a hard concept to deal with. You absolutely need to keep track of where the randomness comes from. It makes no sense to just say that a given piece of software is likely to run fast or securely. You have to make your probabilistic model explicit. 
-
+Probability is a hard concept to deal with. You absolutely need to keep track of where the randomness comes from. It makes no sense to just say that a given piece of software is likely to run fast or securely. You have to make your probabilistic model explicit.
 __Further reading__: [Use random hashing if you care about security?](/lemire/blog/2012/01/17/use-random-hashing-if-you-care-about-security/)
 

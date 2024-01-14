@@ -21,7 +21,7 @@ unsafe static bool is_made_of_sixteen_digits(byte* chars) {
   Vector128<sbyte> raw = Sse41.LoadDquVector128((sbyte*)chars);
   var a = Sse2.CompareGreaterThan(raw, ascii0);
   var b = Sse2.CompareLessThan(raw, after_ascii9);
-  var c = Sse2.Subtract(a, b); // this is not optimal   
+  var c = Sse2.Subtract(a, b); // this is not optimal   
   return (Sse41.TestZ(c,c));
 }
 ```
@@ -51,40 +51,40 @@ So far so good, right?
 Let us look at the assembly output to see how it gets compiled. Do not worry, I do not expect you to read this gibberish. Just look at the lines that start with an arrow (&ldquo;-&gt;&rdquo;).
 ```C
 <Program>$.<<Main>$>g__ParseNumberString|0_1(Byte*, Byte*)
-    L0000: push ebp
-    L0001: mov ebp, esp
-    L0003: vzeroupper
-    L0006: lea eax, [ecx+0x10]
-    L0009: cmp eax, edx
-    L000b: ja short L0071
-    -> L000d: vmovupd xmm0, [<Program>$.<<Main>$>g__ParseNumberString|0_1(Byte*, Byte*)]
-    -> L0015: vmovupd xmm1, [<Program>$.<<Main>$>g__ParseNumberString|0_1(Byte*, Byte*)]
-    L001d: vlddqu xmm2, [ecx]
-    L0021: vpcmpgtb xmm0, xmm2, xmm0
-    L0025: vpcmpgtb xmm1, xmm1, xmm2
-    L0029: vpsubb xmm0, xmm0, xmm1
-    L002d: vptest xmm0, xmm0
-    L0032: jne short L0071
-    L0034: lea eax, [ecx+0x20]
-    L0037: cmp eax, edx
-    L0039: ja short L006a
-    -> L003b: vmovupd xmm0, [<Program>$.<<Main>$>g__ParseNumberString|0_1(Byte*, Byte*)]
-    -> L0043: vmovupd xmm1, [<Program>$.<<Main>$>g__ParseNumberString|0_1(Byte*, Byte*)]
-    L004b: vlddqu xmm2, [ecx+0x10]
-    L0050: vpcmpgtb xmm0, xmm2, xmm0
-    L0054: vpcmpgtb xmm1, xmm1, xmm2
-    L0058: vpsubb xmm0, xmm0, xmm1
-    L005c: vptest xmm0, xmm0
-    L0061: jne short L006a
-    L0063: mov eax, 2
-    L0068: pop ebp
-    L0069: ret
-    L006a: mov eax, 1
-    L006f: pop ebp
-    L0070: ret
-    L0071: xor eax, eax
-    L0073: pop ebp
-    L0074: ret
+    L0000: push ebp
+    L0001: mov ebp, esp
+    L0003: vzeroupper
+    L0006: lea eax, [ecx+0x10]
+    L0009: cmp eax, edx
+    L000b: ja short L0071
+    -> L000d: vmovupd xmm0, [<Program>$.<<Main>$>g__ParseNumberString|0_1(Byte*, Byte*)]
+    -> L0015: vmovupd xmm1, [<Program>$.<<Main>$>g__ParseNumberString|0_1(Byte*, Byte*)]
+    L001d: vlddqu xmm2, [ecx]
+    L0021: vpcmpgtb xmm0, xmm2, xmm0
+    L0025: vpcmpgtb xmm1, xmm1, xmm2
+    L0029: vpsubb xmm0, xmm0, xmm1
+    L002d: vptest xmm0, xmm0
+    L0032: jne short L0071
+    L0034: lea eax, [ecx+0x20]
+    L0037: cmp eax, edx
+    L0039: ja short L006a
+    -> L003b: vmovupd xmm0, [<Program>$.<<Main>$>g__ParseNumberString|0_1(Byte*, Byte*)]
+    -> L0043: vmovupd xmm1, [<Program>$.<<Main>$>g__ParseNumberString|0_1(Byte*, Byte*)]
+    L004b: vlddqu xmm2, [ecx+0x10]
+    L0050: vpcmpgtb xmm0, xmm2, xmm0
+    L0054: vpcmpgtb xmm1, xmm1, xmm2
+    L0058: vpsubb xmm0, xmm0, xmm1
+    L005c: vptest xmm0, xmm0
+    L0061: jne short L006a
+    L0063: mov eax, 2
+    L0068: pop ebp
+    L0069: ret
+    L006a: mov eax, 1
+    L006f: pop ebp
+    L0070: ret
+    L0071: xor eax, eax
+    L0073: pop ebp
+    L0074: ret
 ```
 
 
@@ -120,38 +120,38 @@ unsafe static int ParseNumberStringInline(byte* p, byte* pend) {
 This new code is harder to read and maybe harder to maintain. However, let us look at the compiled output:
 ```C
 <Program>$.<<Main>$>g__ParseNumberStringInline|0_2(Byte*, Byte*)
-    L0000: push ebp
-    L0001: mov ebp, esp
-    L0003: vzeroupper
-    L0006: lea eax, [ecx+0x10]
-    L0009: cmp eax, edx
-    L000b: ja short L0061
-    L000d: vmovupd xmm0, [<Program>$.<<Main>$>g__ParseNumberStringInline|0_2(Byte*, Byte*)]
-    L0015: vmovupd xmm1, [<Program>$.<<Main>$>g__ParseNumberStringInline|0_2(Byte*, Byte*)]
-    L001d: vlddqu xmm2, [ecx]
-    L0021: vpcmpgtb xmm3, xmm2, xmm0
-    L0025: vpcmpgtb xmm2, xmm1, xmm2
-    L0029: vpsubb xmm4, xmm3, xmm2
-    L002d: lea eax, [ecx+0x20]
-    L0030: cmp eax, edx
-    L0032: ja short L005a
-    L0034: vptest xmm4, xmm4
-    L0039: jne short L005a
-    L003b: vlddqu xmm2, [ecx+0x10]
-    L0040: vpcmpgtb xmm3, xmm2, xmm0
-    L0044: vpcmpgtb xmm2, xmm1, xmm2
-    L0048: vpsubb xmm4, xmm3, xmm2
-    L004c: vptest xmm4, xmm4
-    L0051: jne short L005a
-    L0053: mov eax, 2
-    L0058: pop ebp
-    L0059: ret
-    L005a: mov eax, 1
-    L005f: pop ebp
-    L0060: ret
-    L0061: xor eax, eax
-    L0063: pop ebp
-    L0064: ret
+    L0000: push ebp
+    L0001: mov ebp, esp
+    L0003: vzeroupper
+    L0006: lea eax, [ecx+0x10]
+    L0009: cmp eax, edx
+    L000b: ja short L0061
+    L000d: vmovupd xmm0, [<Program>$.<<Main>$>g__ParseNumberStringInline|0_2(Byte*, Byte*)]
+    L0015: vmovupd xmm1, [<Program>$.<<Main>$>g__ParseNumberStringInline|0_2(Byte*, Byte*)]
+    L001d: vlddqu xmm2, [ecx]
+    L0021: vpcmpgtb xmm3, xmm2, xmm0
+    L0025: vpcmpgtb xmm2, xmm1, xmm2
+    L0029: vpsubb xmm4, xmm3, xmm2
+    L002d: lea eax, [ecx+0x20]
+    L0030: cmp eax, edx
+    L0032: ja short L005a
+    L0034: vptest xmm4, xmm4
+    L0039: jne short L005a
+    L003b: vlddqu xmm2, [ecx+0x10]
+    L0040: vpcmpgtb xmm3, xmm2, xmm0
+    L0044: vpcmpgtb xmm2, xmm1, xmm2
+    L0048: vpsubb xmm4, xmm3, xmm2
+    L004c: vptest xmm4, xmm4
+    L0051: jne short L005a
+    L0053: mov eax, 2
+    L0058: pop ebp
+    L0059: ret
+    L005a: mov eax, 1
+    L005f: pop ebp
+    L0060: ret
+    L0061: xor eax, eax
+    L0063: pop ebp
+    L0064: ret
 ```
 
 

@@ -7,8 +7,7 @@ title: "Your Brain and Learning &ndash; Five Tips"
 
 Through [Downes&rsquo;](http://www.downes.ca), I got to this paper about Your Brain and Learning .
 
-> 
-The new scientific understanding of our most vital organ can help us improve everything about our learning &#8212; from choosing our best times and places to learn, to setting grander goals for how much we can grow.
+>The new scientific understanding of our most vital organ can help us improve everything about our learning &#8212; from choosing our best times and places to learn, to setting grander goals for how much we can grow.
 
 
 Some key advice: you have multiple intelligences and your brain is an organ. Having multiple intelligences means that while you may have difficulties with one type of task in a given field, it doesn&rsquo;t mean you cannot be a star performer. Everyone has various strengths and weaknesses and you have to learn yours. The fact that your brain is an organ means you should not expect to do your best work when you are tired or drunk. Though I have had the feeling of doing great work while being very tired.

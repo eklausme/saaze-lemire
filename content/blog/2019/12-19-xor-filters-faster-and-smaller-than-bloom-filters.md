@@ -17,7 +17,7 @@ Though this hash table approach might be practical, you could end up using 4 byt
 
 While the Bloom filter is a textbook algorithm, it has some significant downsides. A major one is that it needs many data accesses and many hash values to check that an object is part of the set. In short, it is not optimally fast.
 
-Can you do better? Yes. Among other alternatives, [Fan et al. introduced Cuckoo filters which use less space and are faster than Bloom filters](https://en.wikipedia.org/wiki/Cuckoo_filter). While implementing a Bloom filter is a relatively simple exercise, Cuckoo filters require a bit more engineering.
+Can you do better? Yes. Among other alternatives, [Fan et al. introduced Cuckoo filters which use less space and are faster than Bloom filters](https://en.wikipedia.org/wiki/Cuckoo_filter). While implementing a Bloom filter is a relatively simple exercise, Cuckoo filters require a bit more engineering.
 
 Could we do even better while limiting the code to something you can hold in your head?
 
@@ -44,5 +44,5 @@ The construction of the xor filter requires several bytes of temporary memory pe
 
 If you do not have stringent requirements regarding memory usage, other techniques might be preferable like blocked Bloom filters which have unbeatable speed (at the expense of higher memory usage). The xor filters are really at their best when you want high speed and tight memory usage.
 
-__Credit__: This is joint work with Thomas Mueller Graf. Xor filters are basically an efficient implementation and specialization of a theoretical construction, the Bloomier filter.
+__Credit__: This is joint work with Thomas Mueller Graf. Xor filters are basically an efficient implementation and specialization of a theoretical construction, the Bloomier filter.
 

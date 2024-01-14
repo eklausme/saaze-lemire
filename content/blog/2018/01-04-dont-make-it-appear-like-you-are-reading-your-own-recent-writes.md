@@ -61,8 +61,7 @@ So the speed is constant with respect to N (within an error margin of 1%).
 
 There are four doubles in each 256-bit registers, so I use about 2 cycles to process a pair of 256-bit registers. That sounds about right. I need to load two registers, do a multiplication, an addition, and a store. It is not possible to do two loads and a store in one cycle, so 2 cycles seem close to the best one can do.
 
-I could flush the arrays from cache, and things get a bit slower (over four times slower), but the speed is still constant with respect to N. 
-
+I could flush the arrays from cache, and things get a bit slower (over four times slower), but the speed is still constant with respect to N.
 Whatever hardware issue you think you have encountered, you ought to be able to reproduce it with other (simpler) programming languages. Anything hardware related should be reproducible with several programming languages. Why reason about performance from Java alone, unless it is a Java-specific issue? If you cannot reproduce it with another programming language, how can you be sure that you have the right model?
 
 Still, Richard&rsquo;s result is real. If I use arrays of size just under a multiple of 4kB, and I offset them just so that they are not 32-byte aligned (the size of a vector register), I get a 50% performance penalty.

@@ -5,11 +5,8 @@ title: "Writing and Maintaining Software are not Engineering Activities"
 
 
 
-Raghavendra Rao Loka, an experienced software developper working for [Synopsys](http://www.synopsys.com/home.aspx), wrote a column for IEEE Computer (February 2007, pages 110-112), [Software Development: What Is the Problem](http://www.computer.org/csdl/mags/co/2007/02/04085641-abs.html)? He has written what I claimed [earlier](/lemire/blog/2007/02/04/why-building-software-is-hard/) is known to anyone who has done real software development for a living, that is&hellip; 
-
-> 
-Many developers view software development (&hellip;) as a science or engineering activity(&hellip;) Writing software is neither: I view it as a craft or art, similar to the work required of teachers and writers. (&hellip;) So it&rsquo;s not clear why we call software development <em>software engineering</em>. (&hellip;) 
-
+Raghavendra Rao Loka, an experienced software developper working for [Synopsys](http://www.synopsys.com/home.aspx), wrote a column for IEEE Computer (February 2007, pages 110-112), [Software Development: What Is the Problem](http://www.computer.org/csdl/mags/co/2007/02/04085641-abs.html)? He has written what I claimed [earlier](/lemire/blog/2007/02/04/why-building-software-is-hard/) is known to anyone who has done real software development for a living, that is&hellip;
+>Many developers view software development (&hellip;) as a science or engineering activity(&hellip;) Writing software is neither: I view it as a craft or art, similar to the work required of teachers and writers. (&hellip;) So it&rsquo;s not clear why we call software development <em>software engineering</em>. (&hellip;)
 
 Compare this with what [I wrote](/lemire/blog/2007/02/04/why-building-software-is-hard/) earlier&hellip;
 

@@ -16,7 +16,7 @@ In C++, we might implement dynamic lists using the vector template. The int-valu
 
 The naive answer is 1000010 bytes or slightly less than 1 MB, but if you think a bit about it, you quickly realize that 1000010 bytes might be a lower bound. Indeed, the vector might allocate more memory and there is unavoidably some overhead for the vector instance.
 
-Thankfully, it is easy to measure it. [I wrote a little C++ program](https://github.com/lemire/Code-used-on-Daniel-Lemire-s-blog/tree/master/2022/11/10) to measure actual memory usage in terms of allocated pages attributed to the program. We find that we use far more memory (2x or 4x more) than a naive analysis might suggest.
+Thankfully, it is easy to measure it. [I wrote a little C++ program](https://github.com/lemire/Code-used-on-Daniel-Lemire-s-blog/tree/master/2022/11/10) to measure actual memory usage in terms of allocated pages attributed to the program. We find that we use far more memory (2x or 4x more) than a naive analysis might suggest.
 
 &nbsp;                   |start of the program     |after the first vector   |at the end               |
 -------------------------|-------------------------|-------------------------|-------------------------|

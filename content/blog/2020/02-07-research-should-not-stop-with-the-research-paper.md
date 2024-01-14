@@ -11,7 +11,7 @@ Back when I worked at NRC, a friend of mine, Martin Brooks gave a controversial 
 
 Martin complained that researchers mostly &ldquo;threw research over the wall&rdquo; expecting that other people (maybe industry) would pick up the research from the other side of the wall. While it certainly can happen that others will read your paper and apply it, you should not count on it. Nobody has to read and understand your work.
 
-When I was a bit younger, a senior professor pointed out that some idea we were discussed had been described and tested by his team in some prestigious venue decades ago <em>but that nobody ever did anything with it.</em> Without thinking, I replied:   <em>it was your job to do something with it, don&rsquo;t blame others</em>. The room fell silent and there was a long pause.
+When I was a bit younger, a senior professor pointed out that some idea we were discussed had been described and tested by his team in some prestigious venue decades ago <em>but that nobody ever did anything with it.</em> Without thinking, I replied:   <em>it was your job to do something with it, don&rsquo;t blame others</em>. The room fell silent and there was a long pause.
 
 I am not saying that if you find a way to cure cancer in mice, it is your job to get the therapy cleared for use with human beings and to open a hospital where the therapy is delivered. A single individual can only do so much.
 

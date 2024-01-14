@@ -14,7 +14,7 @@ If you seek approval above all else, you are unlikely to innovate outside the ri
 - If you can prove [Poincaré conjecture](https://en.wikipedia.org/wiki/Poincar%C3%A9_conjecture), you don&rsquo;t wait for a journal to approve your work, you just [post it on arxiv](http://aps.arxiv.org/find/grp_math/1/au:+Perelman_Grisha/0/1/0/all/0/1).
 
 
-Changing a system from the inside is inefficient and failure-prone. Stop wasting your time and make the old system irrelevant. Do not seek approval. Go out and test your ideas yourself. Listen respectfully to others, but make up your own mind. Work within a large company, scientific community or University if you must, but never fall under the illusion that you can change it by playing fair. Cheating is the fundamental mechanism by which change happens. Cheaters are innovators.
+Changing a system from the inside is inefficient and failure-prone. Stop wasting your time and make the old system irrelevant. Do not seek approval. Go out and test your ideas yourself. Listen respectfully to others, but make up your own mind. Work within a large company, scientific community or University if you must, but never fall under the illusion that you can change it by playing fair. Cheating is the fundamental mechanism by which change happens. Cheaters are innovators.
 
 How are you planning to cheat today?
 

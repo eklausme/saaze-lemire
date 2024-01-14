@@ -25,7 +25,7 @@ zstd (default)           |48 KB                    |
 
 To test the decompression performance, I uncompress repeatedly the same file. Because it is a relatively small file, we should expect disk accesses to be buffered and fast.
 
-Without any tweaking, I get twice the performance with `zstd` compared to the standard command-line `gzip` (which may differ from what your web server uses) while also having better compression. It is win-win. Modern compression algorithms like `zstd` can be really fast. For a fairer comparison, I have also included [Eric Biggers&rsquo; libdeflate utility](https://github.com/ebiggers/libdeflate). It comes out ahead of zstd which stresses once more the importance of using good software!
+Without any tweaking, I get twice the performance with `zstd` compared to the standard command-line `gzip` (which may differ from what your web server uses) while also having better compression. It is win-win. Modern compression algorithms like `zstd` can be really fast. For a fairer comparison, I have also included [Eric Biggers&rsquo; libdeflate utility](https://github.com/ebiggers/libdeflate). It comes out ahead of zstd which stresses once more the importance of using good software!
 
 gzip                     |175 MB/s                 |
 -------------------------|-------------------------|
@@ -48,7 +48,7 @@ Thus my numbers are somewhat pessimistic. In practice, you are even more bounded
 
 The lesson is that there can be large differences in decompression speed and that these differences matter. You ought to benchmark.
 
-What about parsing the uncompressed JSON? [We have demonstrated that you can often parse JSON at 3 GB/s or better](https://github.com/simdjson/simdjson). I expect that, in practice,  you can make JSON parsing almost free compared to compression, disk and network delays.
+What about parsing the uncompressed JSON? [We have demonstrated that you can often parse JSON at 3 GB/s or better](https://github.com/simdjson/simdjson). I expect that, in practice,  you can make JSON parsing almost free compared to compression, disk and network delays.
 
 __Update__: This blog post was updated to include[ Eric Biggers&rsquo; libdeflate utility](https://github.com/ebiggers/libdeflate).
 

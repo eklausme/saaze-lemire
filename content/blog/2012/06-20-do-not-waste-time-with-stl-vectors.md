@@ -59,7 +59,7 @@ It is likely to be slightly faster.
 
 So what is the result? On my Intel Core i7 desktop, I get the following numbers of CPU cycles per integer processed:
 
-method                   | ns per integer         |
+method                   |ns per integer           |
 -------------------------|-------------------------|
 C++ new                  |0.37                     |
 STL vector               |0.37                     |

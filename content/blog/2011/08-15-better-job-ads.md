@@ -27,7 +27,7 @@ Here are the requirements for a typical engineering job at Facebook:
 It is entirely possible that both Facebook and Google have far more restrictive requirements than they advertize. But I am only worried about the job ads for now. What do you notice?
 
 1. There is no &ldquo;5 years of experience required&rdquo;. You know what? Linux Torvalds was 21 when he created Linux. Mark Zuckerberg was about the same age when he created Facebook. Time spent sitting in front of a computer is a really poor measure of tech. expertise.
-1. There is no long list of buzz words to match. Notice how  Google states &ldquo;C++, Java or Python&rdquo; and not &ldquo;C++, Java and Python&rdquo;. Why is that? Because it would be stupid to reject people who have not mastered C++, Python __and__ Java.
+1. There is no long list of buzz words to match. Notice how  Google states &ldquo;C++, Java or Python&rdquo; and not &ldquo;C++, Java and Python&rdquo;. Why is that? Because it would be stupid to reject people who have not mastered C++, Python __and__ Java.
 1. Though Facebook and Google are at the leading edge, they rarely include specifics in their requirements. You want an expert in JBoss and Hadoop. Really? Talented people pick up the specifics on the fly.
 
 

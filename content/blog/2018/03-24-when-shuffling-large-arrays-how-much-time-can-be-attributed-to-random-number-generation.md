@@ -52,7 +52,6 @@ I am not advocating that you precompute your ranged random numbers in this manne
 
 For good measure, [I also implemented a similar benchmark in C++](https://github.com/lemire/Code-used-on-Daniel-Lemire-s-blog/blob/master/2018/03/23/rngshuf.cpp) based on code from Arseny Kapoulkine. Arseny&rsquo;s code uses O&rsquo;Neill&rsquo;s PCG instead of Java&rsquo;s LCG, but that is a small difference. On the same machines, I get similar numbers: 1.6 s for the full shuffle and 0.8 s for the precomputed shuffle. So the issue is not specific to Java or to the random number generator it provides.
 
-Java&rsquo;s thread-local random number generation is a simple linear congruential generator. It is very fast. [And I have done a fair amount of work comparing different random number generators](https://github.com/lemire/testingRNG). So you cannot make the problem go away by using a &ldquo;faster&rdquo; random number generators. 
-
+Java&rsquo;s thread-local random number generation is a simple linear congruential generator. It is very fast. [And I have done a fair amount of work comparing different random number generators](https://github.com/lemire/testingRNG). So you cannot make the problem go away by using a &ldquo;faster&rdquo; random number generators.
 __Further reading__: You can make shuffle functions faster, [I have a whole blog post on this](/lemire/blog/2016/06/30/fast-random-shuffling/), but it does not involve replacing the random number generator.
 

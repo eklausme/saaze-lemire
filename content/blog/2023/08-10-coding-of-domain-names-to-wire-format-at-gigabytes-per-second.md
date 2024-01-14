@@ -104,7 +104,7 @@ _mm_setr_epi8(-128, -127, -126, -125, -124, -123, -122, -121, -120, -119,
 ```
 
 
-I call this strategy  &ldquo;Prefix-Minimum&rdquo;. It is essentially data independent. It does not matter where the dots are, the code is always the same. Processors like that a lot!
+I call this strategy  &ldquo;Prefix-Minimum&rdquo;. It is essentially data independent. It does not matter where the dots are, the code is always the same. Processors like that a lot!
 
 Prefix-Minimum will be fast, especially if you use wide registers (e.g., 32 bytes with AVX2 instructions). However, it does not offer a direct path to validating the inputs: are the counters in the proper range? Do you have overly long labels?
 

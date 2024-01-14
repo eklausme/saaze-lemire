@@ -13,7 +13,7 @@ I often come across the following type of arguments in research papers:
 
 I hope you can see what is wrong with these statements?
 
-I call it the __fallacy of absolute numbers:__ you express a measure or a gain in absolute value, and then conclude to optimality or near optimality because the number appears small (or large).
+I call it the __fallacy of absolute numbers:__ you express a measure or a gain in absolute value, and then conclude to optimality or near optimality because the number appears small (or large).
 
 __Remember:__ Saving 3 bits of storage out of 6 bits is a 2:1 compression ratio. Sorting in 5 ms instead of 10 ms doubles the speed.
 

@@ -37,7 +37,7 @@ At a glance, the Zen 4 processor is slightly less efficient on a per-cycle basis
 
 The big difference that the AMD Zen 4 runs at a much higher frequency. [If I rely on wikipedia](https://en.wikipedia.org/wiki/Ice_Lake_(microprocessor)), I do not think that there is an Ice Lake processor that can match the 5.4 GHz. However, [some Rocket Lake processors come close](https://en.wikipedia.org/wiki/Rocket_Lake).
 
-In our benchmarks, we track the CPU frequency and we get the same measured frequency when running an AVX-512 as when running conventional code (iconv).  Thus AVX-512 can be really advantageous.
+In our benchmarks, we track the CPU frequency and we get the same measured frequency when running an AVX-512 as when running conventional code (iconv).  Thus AVX-512 can be really advantageous.
 
 These results suggest that AMD Zen 4 is matching Intel Ice Lake in AVX-512 performance. Given that the Zen 4 microarchitecture is the first AMD attempt at supporting AVX-512 commercially, it is a remarkable feat.
 

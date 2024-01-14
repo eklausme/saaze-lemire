@@ -5,8 +5,7 @@ title: "Slashdot | String Theory a Disaster for Physics?"
 
 
 
-According to Slashdot, [Mathematician Peter Woit of Columbia University calls String Theory &lsquo;a disaster for physics.&rsquo; ](http://slashdot.org/story/06/06/23/2226257/string-theory-a-disaster-for-physics) Reading the article, you learn that &ldquo;<i>Virtually every young mathematically inclined particle theorist must sign on to the string agenda to get an academic job.</i>&rdquo; I think this is probably more common than we care to admit. Academia tends to reinforce its own bias. 
-
+According to Slashdot, [Mathematician Peter Woit of Columbia University calls String Theory &lsquo;a disaster for physics.&rsquo; ](http://slashdot.org/story/06/06/23/2226257/string-theory-a-disaster-for-physics) Reading the article, you learn that &ldquo;<i>Virtually every young mathematically inclined particle theorist must sign on to the string agenda to get an academic job.</i>&rdquo; I think this is probably more common than we care to admit. Academia tends to reinforce its own bias.
 - Big shot professor X comes up with an idea.
 - He gets 20 Ph.D. students to work on it. A few good results come up, but mostly, the idea remains a promise.
 - Other soon follow the new trend, or at least, they send some of their Ph.D. students to the front, just in case.

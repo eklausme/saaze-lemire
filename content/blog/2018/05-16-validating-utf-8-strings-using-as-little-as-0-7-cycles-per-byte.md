@@ -44,7 +44,7 @@ The exact results will depend on your machine and its configuration. [But you ca
 
 __Credit__: Kendall Willets made a key contribution by showing that you could &ldquo;roll&rdquo; counters using saturated subtractions.
 
-__Update__: This work ended up making a research paper under the title [Validating UTF-8 In Less Than One Instruction Per Byte](https://arxiv.org/abs/2010.03090), Software: Practice &amp; Experience (to appear).
+__Update__: This work ended up making a research paper under the title [Validating UTF-8 In Less Than One Instruction Per Byte](https://arxiv.org/abs/2010.03090), Software: Practice &amp; Experience (to appear).
 
 __Update__: For a production-ready UTF-8 validation function, please see the [simdjson library](https://github.com/simdjson/simdjson).
 

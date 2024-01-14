@@ -18,8 +18,7 @@ And he had this revelation because, time and time again, when recruiting kids fo
 
 How he explains it is great too:
 
-> 
-Because how much you learn in college depends a lot more on you than the college. A determined party animal can get through the best school without learning anything. And someone with a real thirst for knowledge will be able to find a few smart people to learn from at a school that isn&rsquo;t prestigious at all. At most colleges you can find at least a handful of other smart students, and most people have only a handful of close friends in college anyway. The odds of finding smart professors are even better. The curve for faculty is a lot flatter than for students, especially in math and the hard sciences; you have to go pretty far down the list of colleges before you stop finding smart professors in the math department.
+>Because how much you learn in college depends a lot more on you than the college. A determined party animal can get through the best school without learning anything. And someone with a real thirst for knowledge will be able to find a few smart people to learn from at a school that isn&rsquo;t prestigious at all. At most colleges you can find at least a handful of other smart students, and most people have only a handful of close friends in college anyway. The odds of finding smart professors are even better. The curve for faculty is a lot flatter than for students, especially in math and the hard sciences; you have to go pretty far down the list of colleges before you stop finding smart professors in the math department.
 
 
 (Also see my post [Big schools are no longer giving researchers an edge?](/lemire/blog/2006/08/09/big-schools-are-not-longer-giving-researchers-an-edge/))

@@ -13,8 +13,7 @@ Thanks to Yuhong Yan and [Peter Turney](http://www.apperceptual.com/), I have mo
 - [Conference Statistics (percentage of accepted papers)](http://www.cs.ucsb.edu/%7Ealmeroth/conf/stats/).
 
 
-Do we buy this? Sure. Why not. 
-
+Do we buy this? Sure. Why not.
 However, there are also trends. Some hot conferences today might be forgotten conferences tomorrow and vice versa. The results here are presented as somewhat static rankings. That part of the equation, I don&rsquo;t buy.
 
 Should you aim for the most prestigious conferences? Should aim for the hot research topics? I think a bit of balance is probably the best strategy.

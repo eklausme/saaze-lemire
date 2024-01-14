@@ -20,8 +20,7 @@ The fast function that avoids divisions as much as possible can be expressed usi
 uint64_t nearlydivisionless (uint64_t s)  {
     uint64_t x = random64 ();
    // compute ( x * s ) >> 64
-    uint64_t h = __umul64hi (x, s); 
-    uint64_t l = x * s;
+    uint64_t h = __umul64hi (x, s);    uint64_t l = x * s;
     if (l < s) {
         uint64_t t = -s % s;
         while (l < t) {
@@ -43,4 +42,4 @@ Java-like                |2.9 ms                   |
 Our approach             |1.4 ms                   |
 
 
-[I make Juffra&rsquo;s code available](https://github.com/lemire/Code-used-on-Daniel-Lemire-s-blog/blob/master/2018/12/21/randtest.cu).</p> 
+[I make Juffra&rsquo;s code available](https://github.com/lemire/Code-used-on-Daniel-Lemire-s-blog/blob/master/2018/12/21/randtest.cu).</p>

@@ -20,7 +20,7 @@ On my Apple M1 MacBook, using a realistic data file (canada), we get that fast_f
 
 What about other programming languages?
 
-A simplified version of the approach is now part of [the Go standard library](https://github.com/golang/go/blob/master/src/strconv/eisel_lemire.go), thanks to Nigel Tao and other great engineers. It accelerated Go processing while helping to provide exact parsing. Nigel Tao has a nice post entitled [The Eisel-Lemire ParseNumberF64 Algorithm](https://nigeltao.github.io/blog/2020/eisel-lemire.html).
+A simplified version of the approach is now part of [the Go standard library](https://github.com/golang/go/blob/master/src/strconv/eisel_lemire.go), thanks to Nigel Tao and other great engineers. It accelerated Go processing while helping to provide exact parsing. Nigel Tao has a nice post entitled [The Eisel-Lemire ParseNumberF64 Algorithm](https://nigeltao.github.io/blog/2020/eisel-lemire.html).
 
 What about Rust? There is a [Rust port](https://github.com/aldanor/fast-float-rust/). Unsurprisingly, the Rust version is a match for the C++ version, speed-wise. Here are the results using the same file and the same processor (Apple M1):
 
@@ -37,7 +37,7 @@ fast-float               |1200 MB/s                |
 
 A C# port is in progress and preliminary results suggest we can beat the standard library by a healthy margin. I am hoping to get a Swift and Java port going this year (help and initiative are invited).
 
-__Video__. Last year, I gave a talk at Go Systems Conf SF 2020 entitled Floating-point Number Parsing w/Perfect Accuracy at GB/sec. [It is on YouTube](https://www.youtube.com/watch?v=AVXgvlMeIm4).
+__Video__. Last year, I gave a talk at Go Systems Conf SF 2020 entitled Floating-point Number Parsing w/Perfect Accuracy at GB/sec. [It is on YouTube](https://www.youtube.com/watch?v=AVXgvlMeIm4).
 
 __Further reading__. See my earlier posts&hellip; [Fast float parsing in practice (March 2020 blog post)](/lemire/blog/2020/03/10/fast-float-parsing-in-practice/) and [Multiplying backward for profit (April 2020 blog post)](/lemire/blog/2020/04/05/multiplying-backward-for-profit/).
 

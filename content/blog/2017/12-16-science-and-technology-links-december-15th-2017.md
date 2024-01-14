@@ -11,11 +11,9 @@ title: "Science and Technology links (December 15th, 2017)"
 > Sexual reproduction, had it been invented rather than evolved would never have passed any regulatory body&rsquo;s standards (John Harris)
 
 1. [Apple has released the iMac Pro](https://en.m.wikipedia.org/wiki/IMac_Pro). It is massively expensive (from 5k$ to well over 10k$). It comes with a mysterious co-processor named T2 which is rumored to be a powerful ARM processor derived from an iPhone processor. It can encrypt your data without performance penalty.
-1. Playing video games can make older people smarter? You might think so after reading the article [Playing Super Mario 64 increases hippocampal grey matter in older adults](http://journals.plos.org/plosone/article?id=10.1371/journal.pone.0187779). 
-1. At a high level, technologists like to point out that technology improves at an exponential rate. A possible mechanism is that the more sophisticated you are, the faster you can improve technology. The exponential curve is a robust result: just look at [per capita GPD](https://ourworldindata.org/economic-growth) or [the total number of pictures taken per year](https://petapixel.com/2011/09/16/film-photography-peaked-in-2000-with-85-billion-photos-taken-then-plummeted/).
+1. Playing video games can make older people smarter? You might think so after reading the article [Playing Super Mario 64 increases hippocampal grey matter in older adults](http://journals.plos.org/plosone/article?id=10.1371/journal.pone.0187779).1. At a high level, technologists like to point out that technology improves at an exponential rate. A possible mechanism is that the more sophisticated you are, the faster you can improve technology. The exponential curve is a robust result: just look at [per capita GPD](https://ourworldindata.org/economic-growth) or [the total number of pictures taken per year](https://petapixel.com/2011/09/16/film-photography-peaked-in-2000-with-85-billion-photos-taken-then-plummeted/).
 
-Many people like to point out that technology does not, strictly speaking, improve at an exponential rate. In practice, we experience plateaus when looking at any given technology. 
-
+Many people like to point out that technology does not, strictly speaking, improve at an exponential rate. In practice, we experience plateaus when looking at any given technology.
 Rob Miles tweeted a powerful counterpoint:
 
 > This concern about an &lsquo;explosion&rsquo; is absurd. Yes, the process looks exponential, but it&rsquo;s bounded &#8211; every real world exponential is really just the start of a sigmoid, it will have to plateaux. There&rsquo;s only a finite amount of plutonium in the device (&hellip;) Explosives already exist, so nukes aren&rsquo;t very concerning

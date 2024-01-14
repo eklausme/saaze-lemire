@@ -5,7 +5,7 @@ title: "How fast can a BufferedReader read lines in Java?"
 
 
 
-[In an earlier post](/lemire/blog/2019/06/18/how-fast-is-getline-in-c/), I asked how fast the `getline` function in C++ could run through the lines in a text file. The answer was about 2 GB/s, certainly over 1 GB/s. That is slower than some of the best disk drives and network connections. If you take into account that software rarely only need to &ldquo;just&rdquo; access the lines, it is easy to build a system where text-file processing is processor-bound, as opposed to disk or network bound.
+[In an earlier post](/lemire/blog/2019/06/18/how-fast-is-getline-in-c/), I asked how fast the `getline` function in C++ could run through the lines in a text file. The answer was about 2 GB/s, certainly over 1 GB/s. That is slower than some of the best disk drives and network connections. If you take into account that software rarely only need to &ldquo;just&rdquo; access the lines, it is easy to build a system where text-file processing is processor-bound, as opposed to disk or network bound.
 
 What about Java? In Java, the standard way to access lines in a text file is to use a <tt>BufferedReader</tt>. To avoid system calls, I create a large string containing many lines of text, and then I call a very simple processing function that merely records the length of the strings&hellip;
 ```C

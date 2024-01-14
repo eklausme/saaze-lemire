@@ -5,11 +5,11 @@ title: "Peer-reviewed papers are getting increasingly boring"
 
 
 
-The number of researchers and peer-review publications is growing exponentially.  It has been estimated that the number of researchers in the world doubles every 16 years and the number of research outputs is increasing even faster.
+The number of researchers and peer-review publications is growing exponentially.  It has been estimated that the number of researchers in the world doubles every 16 years and the number of research outputs is increasing even faster.
 
 If you accept that published research papers are an accurate measure of our scientific output, then we should be quite happy. However, [Cowen and Southwood take an opposing point of view](https://docs.google.com/document/d/1cEBsj18Y4NnVx5Qdu43cKEHMaVBODTTyfHBa8GIRSec/edit) and represent this growth as a growing cost without associated gains.
 
-> (&hellip;) scientific inputs are being produced at a high and increasing rate, (&hellip;) It is a mistake, however, to infer that increases in these inputs are necessarily good news for progress in science (&hellip;) higher inputs are not valuable p​er se​, but instead they are a measure of cost, namely how much is being invested in scientific activity. The higher the inputs, or the steeper the advance in investment, presumably we might expect to see progress in science be all the more impressive. If not, then perhaps we should be worried all the more.
+> (&hellip;) scientific inputs are being produced at a high and increasing rate, (&hellip;) It is a mistake, however, to infer that increases in these inputs are necessarily good news for progress in science (&hellip;) higher inputs are not valuable p​er se​, but instead they are a measure of cost, namely how much is being invested in scientific activity. The higher the inputs, or the steeper the advance in investment, presumably we might expect to see progress in science be all the more impressive. If not, then perhaps we should be worried all the more.
 
 
 So are these research papers that we are producing in greater numbers&hellip; the kind of research papers that represent real progress? [Bhattacharya and Packalen](https://www.nber.org/system/files/working_papers/w26752/w26752.pdf) conclude that though we produce more papers, science itself is stagnating because of the worse incentives which focuses the research on low-risk/no-reward ventures as opposed to genuine progress:
@@ -35,7 +35,7 @@ Importantly, it does not mean that we should discourage people from publishing a
 
 We need to challenge the conventional peer-reviewed research paper, by which I refer to a publication was reviewed by 2 to 5 peers before getting published. It is a relatively recent innovation that may not always be for the best. [People like Einstein did not go through this process, at least not in their early years](https://physicstoday.scitation.org/doi/full/10.1063/1.2117822). Research used to be more more like &ldquo;blogging&rdquo;. You would write up your ideas and share them. People could read them and criticize them. This communication process can be done with different means: [some researchers broadcast their research meetings online](https://numenta.com/blog/2019/05/14/numenta-live-streaming-research-meetings-on-twitch/).
 
-The peer-reviewed research papers allow you to &ldquo;measure&rdquo; productivity. How many papers in top-tier venues did research X produce? And that is why it grew so strong.
+The peer-reviewed research papers allow you to &ldquo;measure&rdquo; productivity. How many papers in top-tier venues did research X produce? And that is why it grew so strong.
 
 There is nothing wrong with people seeking recognition. Incentives are good. But we should reward people for the content of their research, not for the shallow metadata we can derive from their resume. If you have not read and used someone&rsquo;s work, you have no business telling us whether they are good or bad.
 
@@ -49,10 +49,10 @@ We could try to emulate the movie critic model in science. I could start reviewi
 
 What about citations? Well, citations of often granted by your nearest peers. If they are doing work that resembles yours, they have no incentive to take it down.
 
-In conclusion, I do find it credible that science might be facing a sort of systemic stagnation brought forth by a set of poorly aligned incentives. The peer-reviewed paper accepted at a good venue as the ultimate metric seems to be at the core of the problem. Further, the whole web of assessment in modern science often seems broken. It seems that, on an individual basis, researchers ought to adopt the following principles:
+In conclusion, I do find it credible that science might be facing a sort of systemic stagnation brought forth by a set of poorly aligned incentives. The peer-reviewed paper accepted at a good venue as the ultimate metric seems to be at the core of the problem. Further, the whole web of assessment in modern science often seems broken. It seems that, on an individual basis, researchers ought to adopt the following principles:
 
 1. Seek objective feedback regarding the quality of your own work using &ldquo;customers&rdquo;: people who would tell you frankly if your work was not good. Do not mislead citations or &ldquo;peer review&rdquo; for such an assessment.
-1.  When assessing another research, try your best to behave as a customer who has some distance from the research. Do not count inputs and outputs as a quality metric. Nobody would describe Stephen King as a great writer because he published many books. If you are telling me that Mr Smith is a great researcher, then you should be able to tell me about the research and why it is important.
+1. When assessing another research, try your best to behave as a customer who has some distance from the research. Do not count inputs and outputs as a quality metric. Nobody would describe Stephen King as a great writer because he published many books. If you are telling me that Mr Smith is a great researcher, then you should be able to tell me about the research and why it is important.
 
 
 __Further reading__:

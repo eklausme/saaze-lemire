@@ -13,10 +13,8 @@ It is not remarkable that he felt a lot of pressure at work. It is not remarkabl
 
 [Other academics](http://plashingvole.blogspot.ca/2014/12/grimms-tale.html) (starting maybe with [Richard Hall](http://www.richard-hall.org/2014/03/05/on-academic-labour-and-performance-anxiety/)) described academia as an &lsquo;anxiety machine&rsquo;:
 
-> Throw together a crowd of smart, driven individuals who&rsquo;ve been rewarded throughout their entire lives for being ranked well, for being top of the class, and through a mixture of threat and reward you can coerce self-harming behaviour out of them to the extent that you can run a knowledge economy on the fumes of their freely given labour. 
-
-(&hellip;) 
-
+> Throw together a crowd of smart, driven individuals who&rsquo;ve been rewarded throughout their entire lives for being ranked well, for being top of the class, and through a mixture of threat and reward you can coerce self-harming behaviour out of them to the extent that you can run a knowledge economy on the fumes of their freely given labour.
+(&hellip;)
 I know plenty of professors and star researchers who eat, sleep and breathe research, and can&rsquo;t understand why their junior colleagues (try to) insist on playing with their children on a Sunday afternoon or going home at 6. &lsquo;You can&rsquo;t do a PhD and have a social life&rsquo;, my predecessor told me.
 
 
@@ -30,7 +28,6 @@ Did you just silently agree with my last sentence? It is entirely bogus. There i
 
 Stressing out academics, students, engineers or any modern-day worker&hellip; makes them less effective. If we had any sense, we would minimize competition to optimize our performance.
 
-The problem is not that Grimm was fired despite his stellar performance, the problem is that he was schooled to believe that his worth was lowered to zero because others gave him a failing grade&hellip; 
-
+The problem is not that Grimm was fired despite his stellar performance, the problem is that he was schooled to believe that his worth was lowered to zero because others gave him a failing grade&hellip;
 __Source__: Thanks to [P. Beaudoin](https://plus.google.com/+PhilippeBeaudoin/posts/e9uyyiZPer2) for the pointer.
 

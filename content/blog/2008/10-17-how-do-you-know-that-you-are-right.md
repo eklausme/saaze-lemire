@@ -11,7 +11,7 @@ Let me ask you, how do you know how well you are doing? Doing well can mean seve
 
 - What you state is factually correct.
 - Many people know or appreciate your work.
-- The performance of your tool  or system is competitive with respect to some measure.
+- The performance of your tool  or system is competitive with respect to some measure.
 - You are getting a lot done.
 - You are making a lot of money.
 - &hellip;

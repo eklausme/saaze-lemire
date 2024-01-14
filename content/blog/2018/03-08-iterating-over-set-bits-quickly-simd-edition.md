@@ -81,8 +81,7 @@ density                  |trailing-zero            |SIMD                     |
 0.9                      |~3 cycles per int        |~0.4 cycles per int      |
 
 
-For dense bitstreams, my timings are accurate, but they grow more and more inaccurate for sparser bitstreams. Nevertheless, the pattern is clear: if you have dense bitstreams, the SIMD code is about twice as fast. The gains are higher when the bitmaps are very dense. However, the gains disappear when the bit stream is sparse&hellip; 
-
+For dense bitstreams, my timings are accurate, but they grow more and more inaccurate for sparser bitstreams. Nevertheless, the pattern is clear: if you have dense bitstreams, the SIMD code is about twice as fast. The gains are higher when the bitmaps are very dense. However, the gains disappear when the bit stream is sparse&hellip;
 I should point out that these timings are not directly comparable with those [from my earlier blog post](/lemire/blog/2018/02/21/iterating-over-set-bits-quickly/) because I write the indexes to an array instead of calling a function for each index. Thus I am currently solving a slightly easier problem.
 
 [My code is available](https://github.com/lemire/Code-used-on-Daniel-Lemire-s-blog/blob/master/2018/03/07/).

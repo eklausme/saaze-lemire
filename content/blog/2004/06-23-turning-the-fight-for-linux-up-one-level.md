@@ -7,8 +7,7 @@ title: "Turning the fight for Linux up one level"
 
 The Open Source Initiative just published its Halloween XI. The Halloween documents started from an internal memo issued by Microsoft in 1998. This was the very first time Microsoft noticed the Linux threat. Back then, they were relatively calm about it but made the following statement:
 
-> 
-Loosely applied to the vernacular of the software industry, a product/process is long-term credible if FUD tactics can not be used to combat it. OSS [open source software] is Long-Term Credible.
+>Loosely applied to the vernacular of the software industry, a product/process is long-term credible if FUD tactics can not be used to combat it. OSS [open source software] is Long-Term Credible.
 
 
 

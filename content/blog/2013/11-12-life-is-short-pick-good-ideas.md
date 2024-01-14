@@ -21,9 +21,7 @@ If you want to innovate, you are effectively walking in the unknown. Whether you
 
 How can you get better at picking ideas?
 
-- Make it cheaper to test many ideas quickly. 
-- Remain socially connected. 
-
+- Make it cheaper to test many ideas quickly.- Remain socially connected.
 
 I think that you need at least a little bit of these two ingredients to do well.
 

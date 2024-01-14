@@ -24,13 +24,11 @@ I had been assuming that the US consumption of electricity was on the rise. I ha
 
 So you think you should take your antibiotics even after you feel fine? No. Exposing your body to antibiotics longer than needed is counterproductive, as it helps develop antibiotic resistance. [Doctor Brad Spellberg is the chief medical officer for the Los Angeles County, and we writes](http://www.slate.com/articles/health_and_science/medical_examiner/2017/08/stop_taking_antibiotics_once_you_feel_better.html):
 
-> There are some chronic infections, such as tuberculosis, where you do indeed have to take long courses of antibiotics, not to prevent resistance but rather to cure the infection. But for most acute bacterial infections, short courses of antibiotics result in equivalent cure rates and with less chance of causing the emergence of antibiotic resistance among the bacteria in and on your body. 
-
+> There are some chronic infections, such as tuberculosis, where you do indeed have to take long courses of antibiotics, not to prevent resistance but rather to cure the infection. But for most acute bacterial infections, short courses of antibiotics result in equivalent cure rates and with less chance of causing the emergence of antibiotic resistance among the bacteria in and on your body.
 
 [Llewelyn et al. (2017) write](http://www.bmj.com/content/358/bmj.j3418):
 
-> However, the idea that stopping antibiotic treatment early encourages antibiotic resistance is not supported by evidence, while taking antibiotics for longer than necessary increases the risk of resistance. 
-
+> However, the idea that stopping antibiotic treatment early encourages antibiotic resistance is not supported by evidence, while taking antibiotics for longer than necessary increases the risk of resistance.
 
 (Source: HackerNews).
 

@@ -7,7 +7,7 @@ title: "Looking at assembly code with gdb"
 
 Most of us write code using higher level languages (Go, C++), but if you want to understand the code that matters to your processor, you need to look at the &lsquo;assembly&rsquo; version of your code. Assembly is a just a series of instructions.
 
-At first, assembly code looks daunting, and I discourage you from writing sizeable programs in assembly. However, with little training, you can learn to count instructions and spot branches. It can help you gain a deeper insight into how your program works. Let me illustrate what you can learn by look at assembly. Let us consider the following C++ code:
+At first, assembly code looks daunting, and I discourage you from writing sizeable programs in assembly. However, with little training, you can learn to count instructions and spot branches. It can help you gain a deeper insight into how your program works. Let me illustrate what you can learn by look at assembly. Let us consider the following C++ code:
 ```C
 long f(int x) {
     long array[] = {1,2,3,4,5,6,7,8,999,10};
@@ -80,7 +80,7 @@ However, if you modify even slightly the constants, then this compression typica
 
 To assess the performance of a code routine, my first line of attack is always to count instructions. Keeping everything the same, if you can rewrite your code so that it generates fewer instructions, it should be faster. I also like to spot conditional jumps because that is often where your code can suffer, if the branch is hard to predict.
 
-It is easy to convert a whole set of functions to assembly, but it becomes unpractical as your projects become larger. Under Linux, the standard &lsquo;debugger&rsquo; (<tt>gdb</tt>) is a great tool to look selectively at the assembly code produced by the compile. Let us consider my previous blog post, [Filtering numbers quickly with SVE on Amazon Graviton 3 processors](/lemire/blog/2022/06/23/filtering-numbers-quickly-with-sve-on-amazon-graviton-3-processors/). In that blog post, I present several functions which I have implemented in a [short C++ file](https://github.com/lemire/Code-used-on-Daniel-Lemire-s-blog/blob/master/2022/06/23/filter.cpp). To examine the result, I simply load the compiled binary into <tt>gdb</tt>:
+It is easy to convert a whole set of functions to assembly, but it becomes unpractical as your projects become larger. Under Linux, the standard &lsquo;debugger&rsquo; (<tt>gdb</tt>) is a great tool to look selectively at the assembly code produced by the compile. Let us consider my previous blog post, [Filtering numbers quickly with SVE on Amazon Graviton 3 processors](/lemire/blog/2022/06/23/filtering-numbers-quickly-with-sve-on-amazon-graviton-3-processors/). In that blog post, I present several functions which I have implemented in a [short C++ file](https://github.com/lemire/Code-used-on-Daniel-Lemire-s-blog/blob/master/2022/06/23/filter.cpp). To examine the result, I simply load the compiled binary into <tt>gdb</tt>:
 ```C
 $ gdb ./filter
 ```
@@ -173,7 +173,7 @@ Non-debugging symbols:
 ```
 
 
-You see that the <tt>info functions</tt> gives me both the function name as well as the function address. I am interested in <tt>simdutf::arm64::implementation::validate_utf8</tt>. At that point, it becomes easier to just refer to the function by its address:
+You see that the <tt>info functions</tt> gives me both the function name as well as the function address. I am interested in <tt>simdutf::arm64::implementation::validate_utf8</tt>. At that point, it becomes easier to just refer to the function by its address:
 ```C
 (gdb) disas 0x000000000001b540
 Dump of assembler code for function simdutf::arm64::implementation::validate_utf8(char const*, unsigned long) const:

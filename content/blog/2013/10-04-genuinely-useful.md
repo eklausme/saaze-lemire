@@ -23,8 +23,7 @@ Here is my current list:
 - (new:) Version control.
 
 
-Naturally, you can argue that I am missing many important things. Maybe you feel that functional and object-oriented programming are essential. Maybe you think that I should include complexity analysis, JavaScript, XML or garbage collection. One can have endless debates&hellip; but I am trying to narrow it down to an uncontroversial list. That is, I want key ideas that are universally recognized as useful. 
-
+Naturally, you can argue that I am missing many important things. Maybe you feel that functional and object-oriented programming are essential. Maybe you think that I should include complexity analysis, JavaScript, XML or garbage collection. One can have endless debates&hellip; but I am trying to narrow it down to an uncontroversial list. That is, I want key ideas that are universally recognized as useful.
 Let me put it this way: if you were to meet a master of software programming, what are you absolutely sure he will recommend to a kid who wants to become a programmer?
 
 Am I missing anything important?

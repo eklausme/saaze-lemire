@@ -21,5 +21,5 @@ __References__:
 - [Lemur Bitmap Index C++ Library](https://github.com/lemire/ewahboolarray) (open source software library)
 
 
-__Further reading__: See my posts [Compressed bitmaps in Java](/lemire/blog/2009/02/03/just-published-java-compressed-bitmap-class/), [To improve your indexes: sort your tables!](/lemire/blog/2008/11/11/to-improve-your-indexes-sort-your-tables/), and [The mythical bitmap index](/lemire/blog/2008/08/20/the-mythical-bitmap-index/).
+__Further reading__: See my posts [Compressed bitmaps in Java](/lemire/blog/2009/02/03/just-published-java-compressed-bitmap-class/), [To improve your indexes: sort your tables!](/lemire/blog/2008/11/11/to-improve-your-indexes-sort-your-tables/), and [The mythical bitmap index](/lemire/blog/2008/08/20/the-mythical-bitmap-index/).
 

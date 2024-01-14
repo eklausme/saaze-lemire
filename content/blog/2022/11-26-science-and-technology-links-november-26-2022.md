@@ -10,7 +10,7 @@ title: "Science and Technology links (November 26 2022)"
 1. When doing exercises to get stronger, [it is the extension of the muscles that matters, not the contraction](https://link.springer.com/article/10.1007/s00421-022-05035-w).
 1. [Climate change might results in us having more rainbows](https://www.sciencedirect.com/science/article/pii/S095937802200142X).
 1. [Social scientists are no better at predicting societal change than the rest of us](https://psyarxiv.com/wdxsb).
-1. In female rats, [scientists find that a gene therapy may protect against reproductive aging](https://www.aging-us.com/article/204360/text).
+1. In female rats, [scientists find that a gene therapy may protect against reproductive aging](https://www.aging-us.com/article/204360/text).
 1. [High-speed wireless internet significantly increased teen girls’ severe mental health diagnoses – by 90%](https://www.elaineguo.com/research).
 1. [We can reset the age of a single cell](https://journals.biologists.com/dev/article/149/22/dev200755/281768/Age-reprogramming-cell-rejuvenation-by-partial).
 1. [Content warnings reduce aesthetic appreciation of visual art](https://psyarxiv.com/6h5k8).

@@ -13,6 +13,6 @@ title: "Science and Technology links (Novembre 28th 2021)"
 1. [A single injection to enable paralyzed mice to walk again](https://news.northwestern.edu/stories/2021/11/dancing-molecules-successfully-repair-severe-spinal-cord-injuries/).
 1. [The Artic has been warming for much longer than we thought](https://www.science.org/doi/10.1126/sciadv.abj2946#).
 1. [Dog fed only once daily are healthier](https://www.biorxiv.org/content/10.1101/2021.11.08.467616v1).
-1. [India fertility rate is now below replacement rate](http://rchiips.org/nfhs/index.shtml).
+1. [India fertility rate is now below replacement rate](http://rchiips.org/nfhs/index.shtml).
 
 

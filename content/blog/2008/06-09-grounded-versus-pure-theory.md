@@ -11,10 +11,8 @@ My [previous blog post](/lemire/blog/2008/06/05/why-pure-theory-is-wasteful/) ge
 - Pure theory is useful: consider the n log n lower bound on sorting.
 
 
-My replies: 
-
-- Our brains are bandwidth-driven machines, not standalone computers. You will only thrive given sufficient feedback. And peer review is a low-bandwidth high-latency feedback system. 
-- Pure theory is low-bandwidth Science: few results depend on it, whether it is useful or powerful is entirely a matter of opinion. It is pure because it is not tainted by external feedback.
+My replies:
+- Our brains are bandwidth-driven machines, not standalone computers. You will only thrive given sufficient feedback. And peer review is a low-bandwidth high-latency feedback system.- Pure theory is low-bandwidth Science: few results depend on it, whether it is useful or powerful is entirely a matter of opinion. It is pure because it is not tainted by external feedback.
 - Theoretical results are the reason why we do Science.
 - Pure theorists are likely to describe themselves as engineers.
 - I have done and will do pure theory work. It is a very tempting trap.

@@ -7,8 +7,7 @@ title: "Science and Technology links (November 18th 2018)"
 
 1. It seems that reducing your carbohydrate (sugar) intake might be [a good way to lose weight](https://www.bmj.com/content/363/bmj.k4583):<br/>
 
-> 
-lowering dietary carbohydrate increased energy expenditure during weight loss maintenance. This metabolic effect may improve the success of obesity treatment, especially among those with high insulin secretion.
+>lowering dietary carbohydrate increased energy expenditure during weight loss maintenance. This metabolic effect may improve the success of obesity treatment, especially among those with high insulin secretion.
 
 
 
@@ -16,8 +15,7 @@ I should warn that this study refers to &ldquo;lowering sugar&rdquo; not getting
 1. [85% of the more than $100bn a year spent on medical research globally is wasted avoidably](https://www.bmj.com/content/363/bmj.k4645)
 1. [Collison and Nielsen write](https://www.theatlantic.com/science/archive/2018/11/diminishing-returns-science/575665/):<br/>
 
-> 
-science has slowed enormously per dollar or hour spent. That evidence demands a large-scale institutional response. It should be a major subject in public policy, and at grant agencies and universities
+>science has slowed enormously per dollar or hour spent. That evidence demands a large-scale institutional response. It should be a major subject in public policy, and at grant agencies and universities
 
 
 

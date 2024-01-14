@@ -5,9 +5,9 @@ title: "Indexing XML"
 
 
 
-It is often important to index [XPath](https://en.wikipedia.org/wiki/XPath) queries. Not only is XPath useful on its own, but it is also the basis for the [FLWOR](https://en.wikipedia.org/wiki/FLWOR) expressions in [XQuery](https://en.wikipedia.org/wiki/XQuery).
+It is often important to index [XPath](https://en.wikipedia.org/wiki/XPath) queries. Not only is XPath useful on its own, but it is also the basis for the [FLWOR](https://en.wikipedia.org/wiki/FLWOR) expressions in [XQuery](https://en.wikipedia.org/wiki/XQuery).
 
-A typical XPath expression will select only a small fraction of any XML document (such as the value of a particular attribute). Thus, a sensible strategy is to represent the XML documents as tables. There are several possible maps from XML documents to tables. One of the most common is ORDPATH.
+A typical XPath expression will select only a small fraction of any XML document (such as the value of a particular attribute). Thus, a sensible strategy is to represent the XML documents as tables. There are several possible maps from XML documents to tables. One of the most common is ORDPATH.
 
 In the ORDPATH model, the root node receives the identifier 1, the first node contained in the root node receives the identifier 1.1, the second one receives the identifier 1.2, and so on. Given the ORDPATH identifiers, we can easily determine whether two nodes are neighbors, or whether they have a child-parent relationship.
 

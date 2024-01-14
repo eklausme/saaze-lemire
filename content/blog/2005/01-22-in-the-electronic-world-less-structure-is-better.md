@@ -11,8 +11,7 @@ What worked? Please look at what worked! Email and the Web. These are the things
 
 I don&rsquo;t want an electronic management system to tell me how to work. In fact, just stay away from monolithic tools: give me some simplistic tools (like a hammer) and let me work!
 
-> 
-The general theme is that less management is better, and that individual learners could write all of their posts, assignments and papers from their own site, and these could be directed to each class as web feeds. The classes would aggregate the feeds from all the studens and instructors. The beauty of this kind of system is that each student keeps all of his/her content, and it does not get locked away in an inaccessible archive of a centrally controlled LMS.
+>The general theme is that less management is better, and that individual learners could write all of their posts, assignments and papers from their own site, and these could be directed to each class as web feeds. The classes would aggregate the feeds from all the studens and instructors. The beauty of this kind of system is that each student keeps all of his/her content, and it does not get locked away in an inaccessible archive of a centrally controlled LMS.
 
 
 

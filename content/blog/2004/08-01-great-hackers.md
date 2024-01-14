@@ -15,8 +15,7 @@ Here are some juicy quotes&hellip;
 > Great hackers also generally insist on using open source software. Not just because it&rsquo;s better, but because it gives them more control.
 
 
-> They [great hackers] work in cosy, neighborhoody places with people around and somewhere to walk when they need to mull something over, instead of in glass boxes set in acres of parking lots. 
-
+> They [great hackers] work in cosy, neighborhoody places with people around and somewhere to walk when they need to mull something over, instead of in glass boxes set in acres of parking lots.
 
 > There&rsquo;s no way around it: you can&rsquo;t manage a process intended to produce beautiful things without knowing what beautiful is.
 

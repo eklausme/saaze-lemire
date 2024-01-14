@@ -7,8 +7,7 @@ title: "Working upwind"
 
 Paul Graham has [another beautiful essay](http://paulgraham.com/hs.html) where he gives lifelong advice:
 
-> 
-Instead of working back from a goal, work forward from promising situations. This is what most successful people actually do anyway.
+>Instead of working back from a goal, work forward from promising situations. This is what most successful people actually do anyway.
 
 In the graduation-speech approach, you decide where you want to be in twenty years, and then ask: what should I do now to get there? I propose instead that you don&rsquo;t commit to anything in the future, but just look at the options available now, and choose those that will give you the most promising range of options afterward.
 

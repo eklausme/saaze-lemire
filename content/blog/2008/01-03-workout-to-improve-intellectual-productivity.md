@@ -5,8 +5,7 @@ title: "Workout to improve&#8230; intellectual productivity?"
 
 
 
-As a student, I would jog regularly. It helped me cope with stress. 
-
+As a student, I would jog regularly. It helped me cope with stress.
 I gave up jogging, but I still often start my day by a long walk. It seems to be correlated with higher intellectual productivity. I see two possible explanations:
 
 - Physical workout has a mood relaxing effect.

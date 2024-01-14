@@ -24,7 +24,7 @@ It processes the data one byte at a time. There are two cases: ASCII bytes (one 
 
 Can we do better?
 
-We can use Single instruction, multiple data (SIMD) and specifically the advanced  SIMD instructions available on recent AMD Zen 4 and Intel Ice Lake processors: AVX-512 with VBMI2.
+We can use Single instruction, multiple data (SIMD) and specifically the advanced  SIMD instructions available on recent AMD Zen 4 and Intel Ice Lake processors: AVX-512 with VBMI2.
 
 We can then process the data 64 bytes at a time. Using AVX-512, we lead 64 bytes. We identify the location of the ASCII bytes, the leading and the continuation bytes. These are identified using masks. We then modify the leading bytes, keeping one bit (just the least significant one) and shift it up by six positions. We then do two compression: one where we omit the continuation bytes, and one where we omit the newly transformed leading bytes. We then simply using a byte-wise logical OR, and we are done. Using Intel intrinsics, the code might look as follows:
 ```C
@@ -83,7 +83,7 @@ AVX-512                  |0.3                      |0.75                     |
 Faster AVX-512           |0.2                      |0.43                     |
 
 
-On a 3.2 GHz processor, the AVX-512 routine reaches 12 GB/s. It is about 6 times faster than the conventional routine, and it uses 7 times fewer instructions. The faster AVX-512 routine 10 times faster than the conventional routine while using 11 times fewer instructions. It reaches 18 GB/s. It is likely faster than the RAM bandwidth which  [I estimate to be at least 15 GB/s](https://www.cs.virginia.edu/stream/ref.html), but the CPU cache bandwidth is several times higher. Keep in mind that [there are disks with a 14 GB/s bandwidth](https://www.tomshardware.com/news/phison-demos-ps5026-e26-max14um-gen5-ssd-with-a-14-gbs-read-speed).
+On a 3.2 GHz processor, the AVX-512 routine reaches 12 GB/s. It is about 6 times faster than the conventional routine, and it uses 7 times fewer instructions. The faster AVX-512 routine 10 times faster than the conventional routine while using 11 times fewer instructions. It reaches 18 GB/s. It is likely faster than the RAM bandwidth which  [I estimate to be at least 15 GB/s](https://www.cs.virginia.edu/stream/ref.html), but the CPU cache bandwidth is several times higher. Keep in mind that [there are disks with a 14 GB/s bandwidth](https://www.tomshardware.com/news/phison-demos-ps5026-e26-max14um-gen5-ssd-with-a-14-gbs-read-speed).
 
 This problem illustrates that AVX-512 can really do well on non-trivial string transformations without excessive cleverness.
 

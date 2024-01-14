@@ -29,7 +29,7 @@ And the path forward seems clear. In fact, we are already there. We carry on our
 
 We still have lots of accumulating computational power, but it is located in the cloud. And the cloud is not one super powerful processor&hellip; instead, the cloud is made of millions of shared processors, none of which is impressive on its own.
 
-Ceglowls  then falls into a conservative stance: &ldquo;The Internet of 2060 is going to look recognizably the same as the Internet today. Unless we screw it up.&rdquo; To be fair, he makes a living by selling a bookmark service for people who will not trust Google or Microsoft with their information. His whole business model depends on people remaining conservative. He believes that life has gotten worse for most people in the last 30 years. He writes that &ldquo;we&rsquo;re running into physical and economic barriers that aren&rsquo;t worth crossing&rdquo;.
+Ceglowls  then falls into a conservative stance: &ldquo;The Internet of 2060 is going to look recognizably the same as the Internet today. Unless we screw it up.&rdquo; To be fair, he makes a living by selling a bookmark service for people who will not trust Google or Microsoft with their information. His whole business model depends on people remaining conservative. He believes that life has gotten worse for most people in the last 30 years. He writes that &ldquo;we&rsquo;re running into physical and economic barriers that aren&rsquo;t worth crossing&rdquo;.
 
 Ceglowski would keep the technology as it is&hellip; &ldquo;Why do we need to obsess on artificial intelligence, when we&rsquo;re wasting so much natural intelligence?&rdquo;
 

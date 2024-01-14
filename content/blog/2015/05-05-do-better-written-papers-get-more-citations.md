@@ -17,12 +17,10 @@ You would think that the referees would recommend well written manuscripts&helli
 
 Except that pompous language exists for a reason: it is meant to impress the reader.
 
-If you take a result and show that, ultimately, you can make it trivial&hellip; the referee might say &ldquo;it is nice, but the problem was clearly not very hard&rdquo;&hellip; 
-
+If you take a result and show that, ultimately, you can make it trivial&hellip; the referee might say &ldquo;it is nice, but the problem was clearly not very hard&rdquo;&hellip;
 So, at least in Computer Science, research papers often end up filled with complicated details. Very few of them are distilled to the essential parts.
 
-Authors respond to incentives: it is more important to impress the referee than to write well. 
-- The second most important step for researchers is to get cited. You would think that well written work would get more citations&hellip; And there must be an effect: if people cannot quickly decipher what your work is about, they are less likely to cite you.
+Authors respond to incentives: it is more important to impress the referee than to write well.- The second most important step for researchers is to get cited. You would think that well written work would get more citations&hellip; And there must be an effect: if people cannot quickly decipher what your work is about, they are less likely to cite you.
 
 However, people generally do not read the work they cite. They may scan the abstract, the conclusion&hellip; but rarely all of it.
 
@@ -42,8 +40,7 @@ Weinberger et al. explain their result as follows&hellip;
 > Despite the fact that anybody in their right mind would prefer to read short, simple, and well-written prose with few abstruse terms, when building an argument and writing a paper, the limiting step is the ability to find the right article. For this, scientists rely heavily on search techniques, especially search engines, where longer and more specific abstracts are favored. Longer, more detailed, prolix prose is simply more available for search. This likely explains our results, and suggests the new landscape of linguistic fitness in 21st century science.
 
 
-Search engines encourage us to write poorly? Do search engines favour results with long sentences and superlative words? I think not. In any case, to make this demonstration, the authors should repeat their survey with older papers, prior to the emergence of powerful academic search engines. 
-
+Search engines encourage us to write poorly? Do search engines favour results with long sentences and superlative words? I think not. In any case, to make this demonstration, the authors should repeat their survey with older papers, prior to the emergence of powerful academic search engines.
 A much more likely phenomenon, in my opinion, is that when looking to quickly cite a reference, one seeks impressive-sounding papers.
 
 I used a similar trick in high school. I wanted to stand apart and impress my teachers, so I would intentionally use a very rich vocabulary. I think it worked.

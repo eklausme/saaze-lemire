@@ -13,8 +13,7 @@ Why?
 
 Because I might use such a specialized piece of software a few times a year. How many people FTP files all day in 2007? If you have to do so, you probably have deeper problems.
 
-I have stopped buying software, with a few small exceptions, a long time ago. Essentially, the only software I am willing to pay for, is software I use every (work) day. Or games. But I don&rsquo;t really buy games these days, something to do with having a family and a research career. 
-
+I have stopped buying software, with a few small exceptions, a long time ago. Essentially, the only software I am willing to pay for, is software I use every (work) day. Or games. But I don&rsquo;t really buy games these days, something to do with having a family and a research career.
 There must be also no free alternative that can compare. But with the flurry of nice Web 2.0 applications and free software applications, this is increasingly a small niche. There must also be no vendor lock-in: I dislike growing a dependency toward a vendor.
 
 Meanwhile, publishing software as open source and making money off it is not getting any easier.

@@ -11,7 +11,7 @@ In your code, you might allocate a 32-byte array. How much memory does the array
 
 In general, the operating system and the processor do not care when your program reads and writes anywhere within the pages allocated to it. These pages are the &lsquo;segment&rsquo; that the process owns. When you do access a forbidden page, one that was not allocated to your process, then you normally get a [segmentation fault](https://en.wikipedia.org/wiki/Segmentation_fault). Most of the time, it means that your program crashes.
 
-Interestingly,  if I allocate a small array and then I read beyond its bounds, the program will often not immediately crash and may even remain correct. Thus you can allocate an array with room for two integers, read three integers from it, and your program might &lsquo;work&rsquo;. The following function is wrong but it might very well work fine for years&hellip; (and then it will mysterious crash)
+Interestingly,  if I allocate a small array and then I read beyond its bounds, the program will often not immediately crash and may even remain correct. Thus you can allocate an array with room for two integers, read three integers from it, and your program might &lsquo;work&rsquo;. The following function is wrong but it might very well work fine for years&hellip; (and then it will mysterious crash)
 ```C
 int f() {
     int* data = new int[2];
@@ -28,7 +28,7 @@ int f() {
 
 But why would you ever want to read beyond the bounds of the allocated memory? For performance and/or convenience.
 
-Modern processors have vector instructions designed to work on &lsquo;large registers&rsquo;. For example, recent Intel processors have 512-bit registers. Such a register can store 16 standard floating-point values. The following code will compute the dot product between two vectors very quickly&hellip; (read the comments in the code to follow through)
+Modern processors have vector instructions designed to work on &lsquo;large registers&rsquo;. For example, recent Intel processors have 512-bit registers. Such a register can store 16 standard floating-point values. The following code will compute the dot product between two vectors very quickly&hellip; (read the comments in the code to follow through)
 ```C
 float dot512fma(float *x1, float *x2, size_t length) {
   // create a vector of 16 32-bit floats (zeroed)
@@ -135,7 +135,7 @@ float dotsve(float *x1, float *x2, int64_t length) {
 ```
 
 
-It is the same algorithm. One difference is that SVE has its own intrinsic functions to general masks. Furthermore, while AVX-512 allow you to pick different register sizes, SVE hides away the register sizes, so that your binary code should run irrespective of the register size. SVE has also &lsquo;non-faulting&rsquo; loads and other options.
+It is the same algorithm. One difference is that SVE has its own intrinsic functions to general masks. Furthermore, while AVX-512 allow you to pick different register sizes, SVE hides away the register sizes, so that your binary code should run irrespective of the register size. SVE has also &lsquo;non-faulting&rsquo; loads and other options.
 
 [My code is available](https://github.com/lemire/Code-used-on-Daniel-Lemire-s-blog/tree/master/2022/11/08): both the AVX-512 code and the ARM/SVE2 code (in a separate directory). You may need access to AWS (Amazon) to run the ARM/SVE2 code.
 

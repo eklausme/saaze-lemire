@@ -21,8 +21,7 @@ If the work remains limited to a few academics, it is never going to take off. W
 
 In my lab, we decided to spend a few months building prototypes of what is possible in VR. We are publishing as demos two interesting cases:
 
-- Rail of time is a demo where you can control the time dimension with your feet (by walking). Walk forward and the time goes forward. Walk backward and the time goes backward. ([YouTube](https://www.youtube.com/watch?v=nDiyrQpmDa0)) 
-- Museum is a demo where you can visit a museum where the statues represent countries at a given time. The various attributes of the statues represent the various dimensions of the data. ([YouTube](https://www.youtube.com/watch?v=_jzoOV9hCDA))
+- Rail of time is a demo where you can control the time dimension with your feet (by walking). Walk forward and the time goes forward. Walk backward and the time goes backward. ([YouTube](https://www.youtube.com/watch?v=nDiyrQpmDa0))- Museum is a demo where you can visit a museum where the statues represent countries at a given time. The various attributes of the statues represent the various dimensions of the data. ([YouTube](https://www.youtube.com/watch?v=_jzoOV9hCDA))
 
 
 If you have VR headset, you can try our demos in our site: [GapminderVR.org](http://gapmindervr.org). The name of the site is meant to pay homage to Gapminder and to the work of Hans Rosling. All our code is public and you can &ldquo;steal&rdquo; it. Or get in touch and we will help you. We hope to inspire future work. If you are interested in helping out, get in touch. If you can do better, please let us know about your work.

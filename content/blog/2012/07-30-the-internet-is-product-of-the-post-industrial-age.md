@@ -12,13 +12,10 @@ A couple of weeks ago, the president of the USA said:
 >  Government research created the Internet so that all the companies could make money off the Internet.
 
 
-Crovitz [replied in the Wall Street Journal](http://www.wsj.com/articles/SB10000872396390444464304577539063008406518): 
+Crovitz [replied in the Wall Street Journal](http://www.wsj.com/articles/SB10000872396390444464304577539063008406518):
+>  It was at the Xerox PARC labs in Silicon Valley in the 1970s that the Ethernet was developed to link different computer networks.
 
->  It was at the Xerox PARC labs in Silicon Valley in the 1970s that the Ethernet was developed to link different computer networks. 
-
-
-Manjoo [replied in Slate](http://www.slate.com/articles/technology/technology/2012/07/who_invented_the_internet_the_outrageous_conservative_claim_that_every_tech_innovation_came_from_private_enterprise_.html): 
-
+Manjoo [replied in Slate](http://www.slate.com/articles/technology/technology/2012/07/who_invented_the_internet_the_outrageous_conservative_claim_that_every_tech_innovation_came_from_private_enterprise_.html):
 > Researchers working directly for the government and at university labs funded by the government were some of the first people on the planet to think up a worldwide network, (&hellip;)
 
 

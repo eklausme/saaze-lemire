@@ -7,7 +7,7 @@ title: "New release of the simdjson library: version 1.0"
 
 The most popular data format on the web is arguably JSON. It is a simple and convenient format. Most web services allow to send and receive data in JSON.
 
-Unfortunately, parsing JSON can be time and energy consuming. Back in 2019, we [released the simdjson library](https://simdjson.org). It broke speed records and it is still one of the most efficient and fast JSON parsing library. It makes few compromises. It provides exact float parsing, exact unicode validation and so forth.
+Unfortunately, parsing JSON can be time and energy consuming. Back in 2019, we [released the simdjson library](https://simdjson.org). It broke speed records and it is still one of the most efficient and fast JSON parsing library. It makes few compromises. It provides exact float parsing, exact unicode validation and so forth.
 
 An [independent benchmark](https://github.com/kostya/benchmarks) compares it with other fast C++ libraries and demonstrates that it can use far less energy.
 

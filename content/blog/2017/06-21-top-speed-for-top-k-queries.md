@@ -187,5 +187,4 @@ QuickSelect-naiveDavidEppstein x 7,320 ops/sec ±0.25% (98 runs sampled)
 
 So we improve the performance once more!
 
-__Update 2__: You can combine a binary heap and QuickSelect using [introselect](https://en.wikipedia.org/wiki/Introselect). 
-
+__Update 2__: You can combine a binary heap and QuickSelect using [introselect](https://en.wikipedia.org/wiki/Introselect).

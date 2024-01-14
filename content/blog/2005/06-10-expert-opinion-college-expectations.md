@@ -7,12 +7,10 @@ title: "Expert Opinion: College expectations"
 
 [Expert Opinion](https://expert-opinion.blogspot.com/2005/06/college-expectations.html) has a thoughtful analysis of modern day university students:
 
-> 
-They pay money, they want the tools and certification to get jobs, and they resent being subjected to &ldquo;irrelevant crap&rdquo;. I don&rsquo;t know how to respond to this. Certainly, I feel that this is not the best mode of operation for a university. I&rsquo;ve stated before that I don&rsquo;t view students as ordinary customers of universities, both because universities have other customers (employers, governments, society as a whole) and because the &ldquo;product&rdquo; that we deliver is rather unique in that its true value is likely not to be seen by students or families until many years after graduation. So, are we failing in our jobs by not getting students to the point where they understand the idea of education as more than training? Should we change our core values? Or should we develop a bifurcated higher education system, either within existing universities or by ceding part of higher education to the universities of phoenixes?
+>They pay money, they want the tools and certification to get jobs, and they resent being subjected to &ldquo;irrelevant crap&rdquo;. I don&rsquo;t know how to respond to this. Certainly, I feel that this is not the best mode of operation for a university. I&rsquo;ve stated before that I don&rsquo;t view students as ordinary customers of universities, both because universities have other customers (employers, governments, society as a whole) and because the &ldquo;product&rdquo; that we deliver is rather unique in that its true value is likely not to be seen by students or families until many years after graduation. So, are we failing in our jobs by not getting students to the point where they understand the idea of education as more than training? Should we change our core values? Or should we develop a bifurcated higher education system, either within existing universities or by ceding part of higher education to the universities of phoenixes?
 
 
-What are you going to cede to the University of Phoenix or the Trump University? What exactly? 
-
+What are you going to cede to the University of Phoenix or the Trump University? What exactly?
 To realize the dream of a university without job training, it seems to me you have to take away from universities medical schools (that&rsquo;s training), engineering schools (training again), architecture schools, nursing schools, business schools, communication schools, library science schools, software engineering schools, IT courses, environment sciences, forestry, meteorology&hellip;
 
 Ok, then you are left with Physics, Mathematics, Chemistry, History, Philosophy. Even Computer Science, once you&rsquo;ve taken out all the IT and software engineering will only remain as a shadow of its current self.

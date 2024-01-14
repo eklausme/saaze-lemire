@@ -11,12 +11,9 @@ Simply put, a very good software engineer can generate a lot of value. One engin
 
 At least where I live, almost all high school students have access to some computer science education in high school. And that is generally a good thing, in the same way, it is a good idea to learn how to cook or learn about the history of your civilization. A few courses here and there is enough for most, however.
 
-The Mayor of Chicago wants to [Computer Science for all students](https://www.youtube.com/watch?v=DJsUb8Qrcy0), starting in first grade. He clearly imagines a future where programmers are everywhere. However, is the software industry a good bet for most kids? 
-
-I do not think so. Being a highly productive programmer is hard work. You need to constantly retrain yourself. You have to maintain the highest levels of professionalism. It is not for everyone. 
-
-Many of the great programmers I know worked long hours before they were good. They spent their weekends reading technical documentation. They spent days discussing the finer point of memory allocation and alignment on posting boards. 
-
+The Mayor of Chicago wants to [Computer Science for all students](https://www.youtube.com/watch?v=DJsUb8Qrcy0), starting in first grade. He clearly imagines a future where programmers are everywhere. However, is the software industry a good bet for most kids?
+I do not think so. Being a highly productive programmer is hard work. You need to constantly retrain yourself. You have to maintain the highest levels of professionalism. It is not for everyone.
+Many of the great programmers I know worked long hours before they were good. They spent their weekends reading technical documentation. They spent days discussing the finer point of memory allocation and alignment on posting boards.
 Moreover, we have evidence that unless you are one of the best programmers in your class, your job prospects in the software industry are probably mediocre:
 
 > In computer and information science and in engineering, U.S. colleges graduate 50 percent more students than are hired into those fields each year; of the computer science graduates not entering the IT workforce, 32 percent say it is because IT jobs are unavailable, and 53 percent say they found better job opportunities outside of IT occupations. These responses suggest that the supply of graduates is substantially larger than the demand for them in industry. ([EPI Report, 2013](http://www.epi.org/publication/bp359-guestworkers-high-skill-labor-market-analysis/))

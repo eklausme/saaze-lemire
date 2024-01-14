@@ -9,7 +9,7 @@ I usually stick with academic or research issues, but today, I wanted to have so
 
 While W3C describes [Cascading Style Sheets (CSS)](http://www.w3.org/Style/CSS/) as a <em>mechanism for adding style (e.g. fonts, colors, spacing) to Web documents</em>, it is also a bona fide programming language. In fact, it is one of the most widespread [declarative languages](https://en.wikipedia.org/wiki/Declarative_programming).
 
-But how powerful is CSS? It is not [Turing complete](https://en.wikipedia.org/wiki/Turing_completeness), so there is no hope of programming full applications.  However, CSS may be surprisingly powerful. (Update: [It turns out that HTML+CSS is Turing complete](/lemire/blog/2011/03/08/breaking-news-htmlcss-is-turing-complete/)!)
+But how powerful is CSS? It is not [Turing complete](https://en.wikipedia.org/wiki/Turing_completeness), so there is no hope of programming full applications.  However, CSS may be surprisingly powerful. (Update: [It turns out that HTML+CSS is Turing complete](/lemire/blog/2011/03/08/breaking-news-htmlcss-is-turing-complete/)!)
 
 Suppose you are given a plain HTML table and you want to add counters and colors to it. Starting with this table:
 

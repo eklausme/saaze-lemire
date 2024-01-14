@@ -7,8 +7,7 @@ title: "Optimizing polynomial hash functions (Java vs. Swift)"
 
 In software, hash functions are ubiquitous. They map arbitrary pieces of data (strings, arrays, &hellip;) to fixed-length integers. They are the key ingredient of hash tables which are how we most commonly implement maps between keys and values (e.g., between someone&rsquo;s name and someone&rsquo;s phone number).
 
-A couple of years ago, I pointed out that you could almost [double the speed of the default hash functions in Java](/lemire/blog/2015/10/22/faster-hashing-without-effort/) with a tiny bit of effort. I find it remarkable that you can double the performance of standard ubiquitous functions so easily. 
-
+A couple of years ago, I pointed out that you could almost [double the speed of the default hash functions in Java](/lemire/blog/2015/10/22/faster-hashing-without-effort/) with a tiny bit of effort. I find it remarkable that you can double the performance of standard ubiquitous functions so easily.
 [Richard Startin showed that this remains true today with Java 9](http://richardstartin.uk/still-true-in-java-9-handwritten-hash-codes-are-faster/). I used String hashing as an example, Richard makes the same demonstration using the <tt>Arrays.hashCode</tt> function, but the idea is the same.
 
 You might object that, maybe, the performance of hash functions is irrelevant. That might be true for your application, but it gives you a hint as to how much you can speed up your software by tweaking your code.
@@ -33,8 +32,7 @@ func simpleHash(_ array : [Int]) -> Int {
 
 There are ampersands everywhere because Swift crashes on overflows. So if you have a 64-bit system and you write <tt>(1&lt;&lt;63)*2</tt>, then your program halts. This is viewed as being safer. You need to prefix your operators with the ampersand to keep the code running.
 
-We can &ldquo;unroll&rdquo; the loop, that is process the data in blocks of four&nbsp;values. You can expect larger blocks to provide faster performance, albeit with diminishing returns. 
-
+We can &ldquo;unroll&rdquo; the loop, that is process the data in blocks of four&nbsp;values. You can expect larger blocks to provide faster performance, albeit with diminishing returns.
 Of course, if you are working with tiny arrays, this optimization is useless, but in such cases, you probably do not care too much about the performance of the hash function.
 
 The code looks a bit more complicated, but what we have done is not sophisticated:

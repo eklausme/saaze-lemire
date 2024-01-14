@@ -31,7 +31,7 @@ Maybe only JavaScript is broken? Let us try in Python&hellip;
 </span><span style="color: #008000;">651370000000.000__1__</span>```
 
 
-Always keep in mind that floating-point numbers are different from real numbers&hellip; [for example, half of all floating-point numbers are in the interval [-1,1]](/lemire/blog/2017/02/28/how-many-floating-point-numbers-are-in-the-interval-01/).
+Always keep in mind that floating-point numbers are different from real numbers&hellip; [for example, half of all floating-point numbers are in the interval [-1,1]](/lemire/blog/2017/02/28/how-many-floating-point-numbers-are-in-the-interval-01/).
 
-__Further reading__: [What every computer scientist should know about floating-point arithmetic](https://dl.acm.org/citation.cfm?id=103163) and [Faster Remainder by Direct Computation: Applications to Compilers and Software Libraries](https://arxiv.org/abs/1902.01961)
+__Further reading__: [What every computer scientist should know about floating-point arithmetic](https://dl.acm.org/citation.cfm?id=103163) and [Faster Remainder by Direct Computation: Applications to Compilers and Software Libraries](https://arxiv.org/abs/1902.01961)
 

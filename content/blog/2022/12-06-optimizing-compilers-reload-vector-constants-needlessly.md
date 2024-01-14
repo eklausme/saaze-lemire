@@ -38,7 +38,7 @@ void process_avx2(const uint32_t *in1, const uint32_t *in2, size_t len) {
 ```
 
 
-My expectation, until recently, was that optimizing compilers would  keep the constant in a register, and never load it twice. Why would they?
+My expectation, until recently, was that optimizing compilers would  keep the constant in a register, and never load it twice. Why would they?
 
 Yet you can check that [GCC loads the constant twice](https://godbolt.org/z/G3z1qPG8M). You will recognize the assembly sequence:
 ```C
@@ -47,9 +47,9 @@ vpbroadcastd ymm1, eax  // broadcast 10001 to all elements
 ```
 
 
-In  this instance, other compilers (like LLVM) do better. However, in other instances, both LLVM and GCC happily [load constants more than once](https://godbolt.org/z/Gs3che1ds). Only the Intel compiler (ICC) seems to be able to avoid this issue with some consistency.
+In  this instance, other compilers (like LLVM) do better. However, in other instances, both LLVM and GCC happily [load constants more than once](https://godbolt.org/z/Gs3che1ds). Only the Intel compiler (ICC) seems to be able to avoid this issue with some consistency.
 
-The processor has more than enough vector registers, so it is not a register allocation issue. Of course, there are instances where it is  best to avoid creating the constant, but you can check that even when the compiler ought to know that the constant is always needed, it may still create it twice. AVX-512 has introduced new mask types and they suffer from this effect as well.
+The processor has more than enough vector registers, so it is not a register allocation issue. Of course, there are instances where it is  best to avoid creating the constant, but you can check that even when the compiler ought to know that the constant is always needed, it may still create it twice. AVX-512 has introduced new mask types and they suffer from this effect as well.
 
 Does it matter? In most cases, this effect should have little performance impact. It is almost surely only a few instructions of overhead per function.
 

@@ -39,7 +39,7 @@ Bun 1.0 (bun-specific server) |44,000                   |50,000                 
 
 It seems fair to compare the pure Node.js configuration (19,000) with the pure Bun configuration (27,000) when using the ws module. At least in my tests, I am getting that Node.js clients are faster when using a Node.js server. I am not sure why that is. Bun is 40% faster than Node.js in this one test. Once you switch to the bun-specific JavaScript code, then bun is twice as fast.
 
-In a [simple http benchmark](/lemire/blog/2023/10/07/web-server-hello-world-benchmark-go-vs-node-js-vs-nim-vs-bun/), I got that Node.js could support about 45,000 http queries per second while bun while nearly twice as capable. However, to get these high numbers, we would have multiple requests in flight at all times. So while I am not making a direct comparison, it seems likely that WebSocket is more efficient than repeatedly polling the servers from both clients.
+In a [simple http benchmark](/lemire/blog/2023/10/07/web-server-hello-world-benchmark-go-vs-node-js-vs-nim-vs-bun/), I got that Node.js could support about 45,000 http queries per second while bun while nearly twice as capable. However, to get these high numbers, we would have multiple requests in flight at all times. So while I am not making a direct comparison, it seems likely that WebSocket is more efficient than repeatedly polling the servers from both clients.
 
 Importantly, [all of my source code is available](https://github.com/lemire/jswebsocket_bench). The benchmark should be fully reproducible.
 

@@ -5,7 +5,7 @@ title: "Peak credentialism"
 
 
 
-How much is a degree from a prestigious university worth? The answer is a bit difficult to answer because there are many cofounding factors: people from the <em>connected class</em>  (folks that &lsquo;know people&rsquo;) tend to attend the most prestigious universities, and they also tend to do well professionally. It is likely that highly connected people do well no matter what.
+How much is a degree from a prestigious university worth? The answer is a bit difficult to answer because there are many cofounding factors: people from the <em>connected class</em>  (folks that &lsquo;know people&rsquo;) tend to attend the most prestigious universities, and they also tend to do well professionally. It is likely that highly connected people do well no matter what.
 
 Sorting it out is difficult, but we should remember that the objective of an employer is often to hire the most qualified person. The credentials are only an approximation. In jobs where it is easy to identify the highly productive individuals, you would expect that credentials would have less value.
 

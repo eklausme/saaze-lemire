@@ -25,7 +25,7 @@ Happily, I find that some software really does save labor:
 - Cell phones are work-inducing, obviously. However, I conjecture that tablet-based computing is time-saving. People write shorter comments and emails. They tend to start fewer documents. Users of an iPad will spend more time reading than writing. Isn&rsquo;t it about time that we take some time off to read instead of producing more than others can consume?
 
 
-What is the underlying thread? Time-saving software tends to be produced by [less civilized people](http://www.ribbonfarm.com/2011/03/10/the-return-of-the-barbarian/).  Software written by large corporations will probably be work-inducing.
+What is the underlying thread? Time-saving software tends to be produced by [less civilized people](http://www.ribbonfarm.com/2011/03/10/the-return-of-the-barbarian/).  Software written by large corporations will probably be work-inducing.
 
 __Further reading__: [Of Lisp Macros and Washing Machines](http://www.loper-os.org/?p=401) (via [Hosh Hsiao](https://www.quora.com/Ho-Sheng-Hsiao)) and [Conway&rsquo;s law](https://en.wikipedia.org/wiki/Conways_Law) (via [John D. Cook](http://www.johndcook.com/))
 

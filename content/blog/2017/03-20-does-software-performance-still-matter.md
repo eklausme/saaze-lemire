@@ -37,7 +37,7 @@ The bulk of the software that gets written is not performance sensitive or worth
 So a tiny fraction of all code will ever matter for performance, and only a small fraction of it brings business value.
 
 But what matters, if you are an employee, is how much value your optimized code brings to the business, not what fraction of the code you touch.
-- __We can quantify the value of software performance and it is quite high. __If I go on Apple&rsquo;s website and I shop for a new MacBook Pro. The basic one is worth $1,800. If I want a processor with a 10% faster clock speed, it is going to cost me $2,100, or 15% more. An extra 10% in the clock speed does not make the machine nearly 10% faster. Let us say that it is maybe 5% faster. So to get a computer that runs 5% faster (if that) some people are willing to pay 15% more. I could do the same analysis with smartphones.
+- __We can quantify the value of software performance and it is quite high.__ If I go on Apple&rsquo;s website and I shop for a new MacBook Pro. The basic one is worth $1,800. If I want a processor with a 10% faster clock speed, it is going to cost me $2,100, or 15% more. An extra 10% in the clock speed does not make the machine nearly 10% faster. Let us say that it is maybe 5% faster. So to get a computer that runs 5% faster (if that) some people are willing to pay 15% more. I could do the same analysis with smartphones.
 
 If constant factors related to performance did not matter, then a computer running at twice the speed would be worth the same. In practice, a computer running at twice the speed is worth multiple times the money.
 
@@ -45,7 +45,7 @@ With cloud computing, companies are now often billed for the resources (memory, 
 
 We could also look at web browsers. For a long time, Microsoft had the lead with Internet Explorer. In many key markets, Google Chrome now dominates. There are many reasons for people to prefer Google Chrome, but speed is a key component. To test out my theory, I searched Google for guides to help me choose between Chrome and Internet Explorer, and the first recommendation I found was this:
 
-> Chrome is best for speed  arguably, a web browser&rsquo;s most crucial feature is its ability to quickly load up web pages. We put both Chrome and Internet Explorer 11 through a series of benchmark tests using Sunspider, Octave and HTML 5 test. In every event, Google&rsquo;s Chrome was the clear winner.
+> Chrome is best for speed  arguably, a web browser&rsquo;s most crucial feature is its ability to quickly load up web pages. We put both Chrome and Internet Explorer 11 through a series of benchmark tests using Sunspider, Octave and HTML 5 test. In every event, Google&rsquo;s Chrome was the clear winner.
 
 
 So yes, performance is worth a lot to some users.

@@ -25,7 +25,7 @@ title: "Top 25 Canadian Universities by Research Funding (2009)"
 1. Université de Sherbrooke
 1. Simon Fraser University
 1. Carleton University
-1. Université du Québec Ã  Montréal (where I pretend to work)
+1. Université du Québec Ã  Montréal (where I pretend to work)
 1. Memorial University of Newfoundland
 1. York University
 1. Institut national de la recherche scientifique

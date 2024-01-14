@@ -16,5 +16,5 @@ The three most important considerations when choosing a research journals are (i
 
 And the activity researchers complained to most about? Peer reviewing manuscripts.
 
-In any case, if you want to build a good journal and attract great papers, make sure you have fast and competent peer review. (Duh!) Meanwhile, having a good printer or a good editorial board are much less important.
+In any case, if you want to build a good journal and attract great papers, make sure you have fast and competent peer review. (Duh!) Meanwhile, having a good printer or a good editorial board are much less important.
 

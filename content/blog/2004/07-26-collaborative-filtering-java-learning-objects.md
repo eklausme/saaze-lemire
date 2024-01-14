@@ -9,8 +9,7 @@ Through [Downes&rsquo;](http://www.downes.ca), I found an [interesting paper on 
 
 It makes the point quite well that we must differentiate heterogeneous settings from sane laboratory conditions:
 
-> 
-Searching for LOs within heterogeneous repositories as well as within collaborative repositories is far more complicated problem. In searching for such LOs we must first decide on appropriate metadata schema, but which one!
+>Searching for LOs within heterogeneous repositories as well as within collaborative repositories is far more complicated problem. In searching for such LOs we must first decide on appropriate metadata schema, but which one!
 
 
 

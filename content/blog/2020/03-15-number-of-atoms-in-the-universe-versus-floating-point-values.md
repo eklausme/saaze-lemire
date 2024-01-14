@@ -5,7 +5,7 @@ title: "Number of atoms in the universe versus floating-point values"
 
 
 
-<a href="https://en.wikipedia.org/wiki/Observable_universe#Matter_content_–_number_of_atoms">It is estimated that there are about 10<sup>80</sup> atoms in the universe.</a> The estimate for the [total number of electrons is similar](https://en.wikipedia.org/wiki/Eddington_number).
+<a href="https://en.wikipedia.org/wiki/Observable_universe#Matter_content_–_number_of_atoms">It is estimated that there are about 10<sup>80</sup> atoms in the universe.</a> The estimate for the [total number of electrons is similar](https://en.wikipedia.org/wiki/Eddington_number).
 
 It is a huge number and it far exceeds the maximal value of a single-precision floating-point type in our current computers (which is about 10<sup>38</sup>).
 

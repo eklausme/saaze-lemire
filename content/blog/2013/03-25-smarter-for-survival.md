@@ -17,8 +17,7 @@ A common mistake is to think that &ldquo;intelligence&rdquo; is made of the piec
 
 In some sense, true mathematics is about constructing mental tools so we can be smarter. So mathematicians have been busy making humanity smarter for centuries.
 
-Many college students, if transported back a century or two in the past, would be phenomenal geniuses. Some might object to that statement. After all, the brains of these teenager is nothing extraordinary. But they are! Our brains are wired in ways that are vastly different. To learn is to rewire your brain. How would you differentiate a genius from someone who has visited the future long enough to steal the best ideas and train in their understanding? You simply couldn&rsquo;t! As Alan Kay put it: [A change of perspective is worth 80 IQ points](http://michaelnielsen.org/blog/867/). 
-
+Many college students, if transported back a century or two in the past, would be phenomenal geniuses. Some might object to that statement. After all, the brains of these teenager is nothing extraordinary. But they are! Our brains are wired in ways that are vastly different. To learn is to rewire your brain. How would you differentiate a genius from someone who has visited the future long enough to steal the best ideas and train in their understanding? You simply couldn&rsquo;t! As Alan Kay put it: [A change of perspective is worth 80 IQ points](http://michaelnielsen.org/blog/867/).
 Of course, we are going to hack directly into our brains in the near future. I am still waiting for a chip that will give me access to the web at the speed of the thought. But this will not be a radical departure from what we have been doing for thousands of years: getting smarter faster and faster.
 
 __2. We absolutely need to get smarter at an accelerating pace.__

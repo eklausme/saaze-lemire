@@ -5,7 +5,7 @@ title: "More of Vinge´s predictions for 2025&#8230;"
 
 
 
-In my [previous post](/lemire/blog/archives/2015/09/04/revisiting-vernor-vinges-predictions-for-2025/), I reviewed some of the predictions made in the famous science-fiction book [Rainbows end](https://www.amazon.com/Rainbows-End-Vernor-Vinge-ebook/dp/B004M8SR2O/). The book was written in 2006 by Vernor Vinge and set in 2025.
+In my [previous post](/lemire/blog/2015/09/04/revisiting-vernor-vinges-predictions-for-2025/), I reviewed some of the predictions made in the famous science-fiction book [Rainbows end](https://www.amazon.com/Rainbows-End-Vernor-Vinge-ebook/dp/B004M8SR2O/). The book was written in 2006 by Vernor Vinge and set in 2025.
 
 The book alludes to a massive book digitalization effort under way. When the book was written, Google had initiated its book digitalization effort. It is impossible to know exactly how far Google is along in its project, but they reported having digitalized about a quarter of all books ever published in 2013. Google plans to have digitalized most books ever published by 2020. This makes Vernor Vinge into a pessimist: it seems absolutely certain that by 2025, most books will be available electronically. Sadly, most books won&rsquo;t be available for free, but that has more to do with copyright law than technology.
 

@@ -12,9 +12,8 @@ Malicious authors know how to get past peer review without effort:
 - Pick your problems and experiments so as to make the problem as elegant as possible. Do not bother yourself with nasty (but important) details: they will merely get in the way of getting your paper accepted.
 
 
- 
 
-Peer review is meant to help you generate better results. __Listen to the reviewers__.  Peers are (potentially nasty and ill-tempered) advisors. Convince yourself that your work is good, even under some scrutiny.
+Peer review is meant to help you generate better results. __Listen to the reviewers__.  Peers are (potentially nasty and ill-tempered) advisors. Convince yourself that your work is good, even under some scrutiny.
 
-Remember: your research program is more than the sum of your papers. Many useless researchers wrote many more papers (and got larger grants) than Shannon or  Feynman. __Don&rsquo;t write papers whose only virtue is that they may eventually get past peer review. __It is a depressing goal.
+Remember: your research program is more than the sum of your papers. Many useless researchers wrote many more papers (and got larger grants) than Shannon or  Feynman. __Don&rsquo;t write papers whose only virtue is that they may eventually get past peer review.__ It is a depressing goal.
 

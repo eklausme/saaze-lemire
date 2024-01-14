@@ -27,6 +27,5 @@ Writing stories about the near future is always a bit daring because you are sur
 - We can grow entire human bodies (clones) in vats.
 - Convenience stores are still manned by human clerks.
 - In 2017, we have giant digital screens on the roadsides displaying ads. They are still around in 2029 but look brighter to my eyes.
-- In the movie, Professor X (Charles Francis Xavier) is suffering from some form of dementia, probably Alzheimer&rsquo;s. In 2017, Alzheimer&rsquo;s is basically incurable and untreatable. It looks like there is no cure in 2029. However, the main character (Wolverine) gets some medication that appears to help manage symptoms. 
-
+- In the movie, Professor X (Charles Francis Xavier) is suffering from some form of dementia, probably Alzheimer&rsquo;s. In 2017, Alzheimer&rsquo;s is basically incurable and untreatable. It looks like there is no cure in 2029. However, the main character (Wolverine) gets some medication that appears to help manage symptoms.
 

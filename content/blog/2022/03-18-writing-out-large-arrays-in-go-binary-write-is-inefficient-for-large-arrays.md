@@ -15,7 +15,7 @@ var buf *bytes.Buffer = new(bytes.Buffer)
 err := binary.Write(buf, binary.LittleEndian, data)</code>```
 
 
-Until recently, I assumed that the <tt>binary.Write</tt> function did not allocate memory. Unfortunately, it does. The function converts the input array to a new, temporary byte arrays.
+Until recently, I assumed that the <tt>binary.Write</tt> function did not allocate memory. Unfortunately, it does. The function converts the input array to a new, temporary byte arrays.
 
 Instead, you can create a small buffer just big enough to hold you 8-byte integer and write that small buffer repeatedly:
 ```Go
@@ -48,5 +48,5 @@ buffered one-by-one      |4 kB                     |1.2 s                    |
 
 (Timings will vary depending on your hardware and testing procedure. I used Go 1.16.)
 
-The buffered one-by-one approach is not beneficial with respect to speed in this instance, but it would be more helpful in other cases. In my benchmark, the simple one-by-one approach is fastest and uses least memory. For small inputs, <tt>binary.Write</tt> would be faster. The ideal function might have a fast path for small arrays, and a more careful handling of the larger inputs.
+The buffered one-by-one approach is not beneficial with respect to speed in this instance, but it would be more helpful in other cases. In my benchmark, the simple one-by-one approach is fastest and uses least memory. For small inputs, <tt>binary.Write</tt> would be faster. The ideal function might have a fast path for small arrays, and a more careful handling of the larger inputs.
 

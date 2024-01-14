@@ -7,8 +7,7 @@ title: "Compressing document-oriented databases by rewriting your documents"
 
 The space utilization of relational databases can be estimated quickly. If you create a table made of three columns, each containing an integer, you can expect the database to use roughly 12 bytes per row, plus some overhead. Unless your database is tiny, how you name your columns is irrelevant to the space utilization.
 
-Document-oriented databases such as [MongoDB](https://www.mongodb.org/) are not so simple. There is room for optimization. Using short names for attributes is better. 
-
+Document-oriented databases such as [MongoDB](https://www.mongodb.org/) are not so simple. There is room for optimization. Using short names for attributes is better.
 For example, in going from [JSON](http://www.json.org/) tuples of the form
 
 <code>{date_achat:'1999-06-30',article:'Echasses',<br/>

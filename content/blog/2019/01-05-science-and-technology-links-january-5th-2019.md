@@ -15,13 +15,11 @@ title: "Science and Technology links (January 5th, 2019)"
 
 1. Inflammation is a crude but effective part of our immune system that serves as a first line of defense. It is necessary but tends to get out of hand as we age. Arai et al. found that [your level of inflammation was a potential predictor of how likely you were to reach extreme old age](https://www.ebiomedicine.com/article/S2352-3964(15)30081-5/abstract):<br/>
 
-> 
-Inflammation is the prime candidate amongst potential determinants of mortality, capability and cognition up to extreme old age
+>Inflammation is the prime candidate amongst potential determinants of mortality, capability and cognition up to extreme old age
 
 1. [An article published by Nature argues for rejuvenation strategies](https://www.nature.com/articles/s41556-018-0206-0):<br/>
 
-> 
-Ageing is associated with the functional decline of all tissues and a striking increase in many diseases. Although ageing has long been considered a one-way street, strategies to delay and potentially even reverse the ageing process have recently been developed. Here, we review four emerging rejuvenation strategiesâ€”systemic factors, metabolic manipulations, senescent cell ablation and cellular reprogrammingâ€”and discuss their mechanisms of action, cellular targets, potential trade-offs and application to human ageing.
+>Ageing is associated with the functional decline of all tissues and a striking increase in many diseases. Although ageing has long been considered a one-way street, strategies to delay and potentially even reverse the ageing process have recently been developed. Here, we review four emerging rejuvenation strategiesâ€”systemic factors, metabolic manipulations, senescent cell ablation and cellular reprogrammingâ€”and discuss their mechanisms of action, cellular targets, potential trade-offs and application to human ageing.
 
 1. [Childhood leukaemia is a feature of developed societies and has to do with the fact that children are insufficiently exposed to bacteria and infections](https://www.theguardian.com/science/2018/dec/30/children-leukaemia-mel-greaves-microbes-protection-against-disease).
 1. [China has landed a rover on the far side of the Moon](https://amp.cnn.com/cnn/2019/01/02/health/china-lunar-rover-far-moon-landing-intl/index.html).

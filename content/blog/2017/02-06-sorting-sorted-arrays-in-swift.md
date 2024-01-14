@@ -13,8 +13,7 @@ The new Swift language has made an interesting choice for a sorting function. Th
 
 That&rsquo;s a somewhat odd choice. The state-of-the-art is to pick the median of the first, last and middle element as pivot (median-of-3). Indeed, the GNU ISO C++ standard library uses a median-of-3 pivot (as per the <tt>stl_algo.h</tt> header).
 
-The performance of the sorting algorithm is reliant on the pivot splitting the array in two. That is, the pivot should be close to the median of the array. 
-
+The performance of the sorting algorithm is reliant on the pivot splitting the array in two. That is, the pivot should be close to the median of the array.
 But what if your array is already sorted? Then the first value of the array is the worst possible pivot!
 
 We can test it out&hellip; calling the `sort` function on an array twice in Swift&hellip; the second call is almost assuredly going to take longer&hellip;
@@ -24,8 +23,7 @@ array.sort() // really slow
 ```
 
 
-Of course, that&rsquo;s silly&hellip; why would you sort an array that&rsquo;s already sorted? Well. 
-
+Of course, that&rsquo;s silly&hellip; why would you sort an array that&rsquo;s already sorted? Well.
 - In some instances, developers do not want to take any chances. They get an array from some other part of the code, they expect the array to be sorted, but they can&rsquo;t be entirely sure. To be safe, they will sort it again.
 - Or maybe the array was sorted but the code had to change a value or two in the array. In these instances, the developer might think that resorting the array ought to be sufficiently cheap.
 

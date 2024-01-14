@@ -49,7 +49,7 @@ The BitSet has tremendous performance advantages: low memory usage, fancy algori
 
 Typically, you do not just construct such an array, you also use it. But let us say that I just want to construct it as fast as possible, how do these techniques differ? I am going to use 64K array with OpenJDK 8 on an Apple M1 processor.
 
-[My source code is available](https://github.com/lemire/Code-used-on-Daniel-Lemire-s-blog/tree/master/2021/05/05). In my benchmark, the content of the arrays is  known at compile time which is an optimistic case (the compiler could just precompute the results!). My results are as follow:
+[My source code is available](https://github.com/lemire/Code-used-on-Daniel-Lemire-s-blog/tree/master/2021/05/05). In my benchmark, the content of the arrays is  known at compile time which is an optimistic case (the compiler could just precompute the results!). My results are as follow:
 
 boolean                  |23 us                    |
 -------------------------|-------------------------|

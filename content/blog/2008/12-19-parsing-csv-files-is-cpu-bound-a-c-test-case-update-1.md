@@ -15,8 +15,7 @@ A reader criticized my implementation as follows:
 
 - I use the [C++ getline function](http://www.cplusplus.com/reference/string/string/getline/) to read the lines. The reader commented that &ldquo;getline does one heap allocation and copy for every line.&rdquo; I doubt that getline generates heap allocation each time it is called: I reuse the same string object for every call.
 - For each field value, I did two heap allocations and two copies. I now reuse the same string objects for fields, thus limiting the number of heap allocations.
-- The reader commented that I should use a <em>custom allocator</em> to avoid heap allocations. Currently, if the CSV file has _x_ fields, I use <em>x</em>+1 string objects (a tiny number) and small constant number of heap allocations. 
-
+- The reader commented that I should use a <em>custom allocator</em> to avoid heap allocations. Currently, if the CSV file has _x_ fields, I use <em>x</em>+1 string objects (a tiny number) and small constant number of heap allocations.
 
 Despite these changes, I still get that parsing CSV files is strongly CPU bound:
 

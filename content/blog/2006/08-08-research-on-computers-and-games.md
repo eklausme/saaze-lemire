@@ -14,8 +14,7 @@ I decided to have a look at what journals and conferences there are in Computer 
 - The International Journal of Intelligent Games &#038; Simulation looks to be a dead journal (please correct me if I&rsquo;m wrong!).
 
 
-Overall, judging from the dedicated conferences and workshops, it does not sound like video games is a very good topic in Computer Science. Not something to really specialize in. Of course, I&rsquo;m sure e-Learning, Machine Learning, Graphics, HCI, and TCS researchers do a lot of great research on video games, but few of them would describe themselves as &ldquo;video game researchers&rdquo;. 
-
+Overall, judging from the dedicated conferences and workshops, it does not sound like video games is a very good topic in Computer Science. Not something to really specialize in. Of course, I&rsquo;m sure e-Learning, Machine Learning, Graphics, HCI, and TCS researchers do a lot of great research on video games, but few of them would describe themselves as &ldquo;video game researchers&rdquo;.
 The key point is that the practionners are way ahead of academia on this one.
 
 One paper I really liked while doing this research: Smart Moves: Intelligent Pathfinding.

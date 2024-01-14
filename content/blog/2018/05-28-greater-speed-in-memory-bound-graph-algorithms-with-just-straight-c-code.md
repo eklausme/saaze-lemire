@@ -5,8 +5,7 @@ title: "Greater speed in memory-bound graph algorithms with just straight C code
 
 
 
-Graph algorithms are often memory bound. When you visit a node, there is no reason to believe that its neighbours are located nearby in memory. 
-
+Graph algorithms are often memory bound. When you visit a node, there is no reason to believe that its neighbours are located nearby in memory.
 [In an earlier post](/lemire/blog/2018/05/24/graph-algorithms-and-software-prefetching/), I showed how we could accelerate memory-bound graph algorithms by using software prefetches. We were able to trim a third of the running time just by adding a line of code. But I do not like nor recommend software prefetching.
 
 In my test case, I am trying to find the distance between two nodes by doing a breadth-first search. I use a random graph containing 10 million nodes and where each node has degree 16 (meaning that each node has 16 neighbours). I start from one node, visit all its neighbours, then visit the neighbours of the neighbours, until I arrive at my destination. The pseudocode is as follows:

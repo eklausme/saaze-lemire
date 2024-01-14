@@ -22,12 +22,10 @@ There are many more truck drivers than there ever were journalists. It is almost
 
 Yet, even if, eventually, all tractor-trailer drivers are computers, it does not follow that we will experience [techno-unemployment](https://en.wikipedia.org/wiki/Technological_unemployment) in the sense that those in the profession will see their careers destroyed. We need a sudden fall in the number of jobs.
 
-Calum Chace wrote an excellent book &ldquo;[The Economic Singularity: Artificial intelligence and the death of capitalism](https://www.amazon.com/Economic-Singularity-Artificial-intelligence-capitalism/dp/099321164X/)&ldquo;. As the title of his book suggests, Calum predicts some major disruption. 
-
+Calum Chace wrote an excellent book &ldquo;[The Economic Singularity: Artificial intelligence and the death of capitalism](https://www.amazon.com/Economic-Singularity-Artificial-intelligence-capitalism/dp/099321164X/)&ldquo;. As the title of his book suggests, Calum predicts some major disruption.
 In particular, Calum predicted the following in an email to me:
 
-> By 2030, there will be fewer than 250,000 tractor-trailing drivers in the US, according to official government statistics. 
-
+> By 2030, there will be fewer than 250,000 tractor-trailing drivers in the US, according to official government statistics.
 
 The year 2030 is 13 years away&hellip; To fall down to 250,000 drivers from 1.7 million in 13 years, we would need to experience a 13% decline every year until then&hellip; It is the equivalent of the disappearance of 85% of all jobs&hellip; something much more severe than what journalism underwent. Something much, much more severe than what the automotive industry underwent.
 
@@ -41,8 +39,7 @@ I think that there are a few good reasons for why that is.
 
 So even if we can build and sell perfectly safe self-driving tractor-trailer trucks today&hellip; one should not underestimate the difficulties that we might have to deploy this technology. In fact, I can imagine a scenario where 2030 come and pass, we still do not see self-driving tractor-trailer trucks on the roads as a matter of course.
 
-Did you know that New Jersey and Oregon, two otherwise reasonable American states, ban self-service gas stations? Yet self-service gas stations were aggressively introduced back in the 1970s. How long do you think it will be before all American states allow self-driving tractor-trailer trucks? 
-
+Did you know that New Jersey and Oregon, two otherwise reasonable American states, ban self-service gas stations? Yet self-service gas stations were aggressively introduced back in the 1970s. How long do you think it will be before all American states allow self-driving tractor-trailer trucks?
 As far as I can tell, subways worldwide could easily be automated. It is simply not that hard to automate a subway train. Yet, according to Wikipedia, [there are only two automated train networks in Canada](https://en.wikipedia.org/wiki/List_of_automated_urban_metro_subway_systems#North_America).
 - Even when good automation technology does get deployed&hellip; if the industry grows sufficiently fast, it leaves ample room for professionals to earn a good living. For example, there are more human bank tellers employed in the US right now than there ever were. Part of it is due to regulations, but it would be impossible without a massive expansion of the banking industry.
 
@@ -55,5 +52,4 @@ My thesis is that techno-unemployment should be the last of our worries. Soon en
 
 On the one hand, this should please people who fear overpopulation, as it means decreasing population (people over the age of 65 tends to have few children). On the other hand, this means few young new employees. We will need all the robots we can get.
 
-We need self-driving trucks because we are going to run out of people to drive them. 
-
+We need self-driving trucks because we are going to run out of people to drive them.

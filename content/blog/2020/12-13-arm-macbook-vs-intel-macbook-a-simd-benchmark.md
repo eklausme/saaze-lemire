@@ -13,7 +13,7 @@ I am excited because I think it will drive other laptop to rethink their designs
 
 (This blog post has been updated after a corrected a methodological mistake. I was running the Apple M1 processor under x64 emulation.)
 
-Yet I did not think that the new Apple processor is better than Intel processors in all things. One obvious caveat is that I am comparing the Apple M1 (a 2020 processor) with an older Intel processor (released in 2017). But I thought that even the older Intel processors can have an edge over the Apple M1 in some tasks and I wanted to make this clear. I did not think it was controversial. Yet I was criticized for making the following remark:
+Yet I did not think that the new Apple processor is better than Intel processors in all things. One obvious caveat is that I am comparing the Apple M1 (a 2020 processor) with an older Intel processor (released in 2017). But I thought that even the older Intel processors can have an edge over the Apple M1 in some tasks and I wanted to make this clear. I did not think it was controversial. Yet I was criticized for making the following remark:
 
 > In some respect, the Apple M1 chip is far inferior to my older Intel processor. The Intel processor has nifty 256-bit SIMD instructions. The Apple chip has nothing of the sort as part of its main CPU. So I could easily come up with examples that make the M1 look bad.
 

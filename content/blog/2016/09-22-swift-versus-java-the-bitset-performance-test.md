@@ -7,12 +7,10 @@ title: "Swift versus Java : the bitset performance test"
 
 I claimed online that the performance of Apple&rsquo;s Swift was not yet on par with Java. People asked me to back my claim with numbers.
 
-I decided to construct one test based on bitsets. A bitset is a fast data structure to implement sets of integers. 
-
+I decided to construct one test based on bitsets. A bitset is a fast data structure to implement sets of integers.
 Java comes with its own bitset class called <tt>java.util.BitSet</tt>. [I wrote three tests for it](https://github.com/lemire/microbenchmarks/blob/master/src/main/java/me/lemire/microbenchmarks/bitset/Bitset.java): the time it takes to add a million integers in sequence to a bitset, the time it takes to count how many integers are present in the bitset, and the time it takes to iterate through the integers.
 
-Here are the results in Java : 
-```C
+Here are the results in Java :```C
 git clone https://github.com/lemire/microbenchmarks.git
 cd microbenchmarks
 mvn clean install

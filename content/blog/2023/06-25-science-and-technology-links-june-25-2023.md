@@ -18,6 +18,6 @@ title: "Science and Technology links (June 25 2023)"
 1. [Oral contraceptives may increase the risk of depression](https://www.cambridge.org/core/journals/epidemiology-and-psychiatric-sciences/article/populationbased-cohort-study-of-oral-contraceptive-use-and-risk-of-depression/B3C611DD318D7DC536B4BD439343A5BD) (HR=1.7).
 1. [Trees are growing at higher and higher altitudes](https://www.bbc.com/news/uk-scotland-highlands-islands-65903065).
 1. [Female conservative candidates are usually more attractive](https://www.nature.com/articles/s41598-023-31796-1). Conservative candidates are more likely to express happiness.
-1. [80 % of participants rated their intelligence as above average](https://www.sciencedirect.com/science/article/abs/pii/S0191886923002076).
+1. [80 % of participants rated their intelligence as above average](https://www.sciencedirect.com/science/article/abs/pii/S0191886923002076).
 
 

@@ -11,9 +11,9 @@ In [The Web is killing database systems](/lemire/blog/2011/08/15/the-web-is-kill
 
 Recently, [Laval University](http://www2.ulaval.ca/accueil.html) launched a new web site where students can register for courses. The cost: over $20 million. To most web developers, this is a ridiculous amount of money. It is enough to pay for a small army for a year. How many of these $20 million went for user testing or for an usability study? Probably none.
 
-Frustrated by the poor usability, a  21-year-old part-time student wrote a new front-end for the site called  Pilule.  The young author supports the site directly from his [Twitter account](https://mobile.twitter.com/i/guest#!/a_clement).
+Frustrated by the poor usability, a  21-year-old part-time student wrote a new front-end for the site called  Pilule.  The young author supports the site directly from his [Twitter account](https://mobile.twitter.com/i/guest#!/a_clement).
 
-Can you guess what the Laval University IT department did? Remember they are data and fear centric. They began by blocking the site on campus. Alas they also realized that most students access the Internet outside of the campus. At this point,  they made a mistake: they reached out to all students, telling them not to use Pilule, citing security concerns. The user revolt became undeniable and the University eventually had to allow Pilule back.
+Can you guess what the Laval University IT department did? Remember they are data and fear centric. They began by blocking the site on campus. Alas they also realized that most students access the Internet outside of the campus. At this point,  they made a mistake: they reached out to all students, telling them not to use Pilule, citing security concerns. The user revolt became undeniable and the University eventually had to allow Pilule back.
 
 It is a fascinating story because it shows that our software is getting so good that mere users can take over the IT departments, even in its most sophisticated functions. One might object that Pilule does not have to manage the back-end. But cloud computing enables anyone to build a scalable distributed database in mere minutes.
 

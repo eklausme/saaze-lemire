@@ -9,8 +9,7 @@ Jython 2.2a1 is out! (see also [here](http://www.tbray.org/ongoing/When/200x/200
 
 However, if version numbers are any indication, Jython is still behind [Python](https://www.python.org/) which is at 2.4.1, but the be fair, the release notes say that they are at 2.3 and beyond:
 
-> 
-Welcome to Jython 2.2a1<br/>
+>Welcome to Jython 2.2a1<br/>
 =======================
 
 This release includes many major changes since the last full release:

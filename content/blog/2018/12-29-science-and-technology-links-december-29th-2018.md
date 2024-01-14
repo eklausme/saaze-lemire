@@ -15,8 +15,7 @@ This is important work. I am surprised at how few people know about hormesis. Ma
 1. [Human beings do not originate from a single region in Africa](https://www.cell.com/trends/ecology-evolution/fulltext/S0169-5347(18)30117-4): the story of our origin is complicated, involving a mix of different populations and cultures.
 1. [McGuff and Litte (2009)](https://www.amazon.com/Body-Science-Research-Program-Results-ebook/dp/B001NLL38S) write:
 
-> 
-there is no additional physiological advantage afforded to one&rsquo;s body, including endurance or cardio benefits, by training that lasts more than six to nine minutes a week.
+>there is no additional physiological advantage afforded to one&rsquo;s body, including endurance or cardio benefits, by training that lasts more than six to nine minutes a week.
 
 1. The videogame Fortnite [lead to 3 billion dollars in profit](https://techcrunch.com/2018/12/27/epic-fortnite-3-billion-profit/) for its creators. [It has 200 million players](https://www.theverge.com/2018/12/21/18152012/fortnite-was-2018s-most-important-social-network).
 1. In older mammals, the skin loses fat. [Zhang et al. restored the ability of skin in older mice to store fat](https://www.cell.com/immunity/fulltext/S1074-7613(18)30484-9), thus making the skin more resistant to some infections.

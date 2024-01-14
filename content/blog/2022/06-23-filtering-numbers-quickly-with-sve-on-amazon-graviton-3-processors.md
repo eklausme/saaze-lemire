@@ -39,7 +39,7 @@ However, the compiler will probably generate a branch and if your input has a ra
 
 Though it looks less efficient (because every input value in written out), such a branchless version is often practically faster.
 
-I ported this last implementation to SVE using ARM intrinsic functions. At each step, we load a vector of integers (<tt>svld1_s32</tt>), we compare them with zero (<tt>svcmpge_n_s32</tt>), we remove the negative values (<tt>svcompact_s32</tt>) and we store the result (<tt>svst1_s32</tt>). During most iterations, we have a full vector of integers&hellip; Yet, during the last iteration, some values will be missing but we simply ignore them with the `while_mask` variable which indicates which integer values are &lsquo;active&rsquo;.  The entire code sequence is done entirely using SVE instructions: there is no need to process separately the end of the sequence, as would be needed with conventional SIMD instruction sets.
+I ported this last implementation to SVE using ARM intrinsic functions. At each step, we load a vector of integers (<tt>svld1_s32</tt>), we compare them with zero (<tt>svcmpge_n_s32</tt>), we remove the negative values (<tt>svcompact_s32</tt>) and we store the result (<tt>svst1_s32</tt>). During most iterations, we have a full vector of integers&hellip; Yet, during the last iteration, some values will be missing but we simply ignore them with the `while_mask` variable which indicates which integer values are &lsquo;active&rsquo;.  The entire code sequence is done entirely using SVE instructions: there is no need to process separately the end of the sequence, as would be needed with conventional SIMD instruction sets.
 ```C
 #include <arm_sve.h>
 void remove_negatives(const int32_t *input, int64_t count, int32_t *output) {

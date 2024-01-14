@@ -20,9 +20,9 @@ bool are_we_ok() {
 ```
 
 
-Unfortunately, this function is not free. It might be a function call to a non-trivial instruction such as <code class="notranslate">stmxcsr</code> on x64 processors. It is fine to call it from time to time, but if you have tiny functions that only cost a few hundred instructions, it may be too expensive.
+Unfortunately, this function is not free. It might be a function call to a non-trivial instruction such as <code class="notranslate">stmxcsr</code> on x64 processors. It is fine to call it from time to time, but if you have tiny functions that only cost a few hundred instructions, it may be too expensive.
 
-The C functions strtod()/strtof()  available on Linux contain the following switch/case code:
+The C functions strtod()/strtof()  available on Linux contain the following switch/case code:
 ```C
 	bc.rounding = 1;
 	switch(fegetround()) {

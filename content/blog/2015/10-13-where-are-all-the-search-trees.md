@@ -7,8 +7,7 @@ title: "Where are all the search trees?"
 
 After arrays and linked lists, one of the first data structures computer-science students learn is the search tree. It usually starts with the [binary search tree](https://en.wikipedia.org/wiki/Binary_search_tree), and then students move on to [B-trees](https://en.wikipedia.org/wiki/B-tree) for greater scalability.
 
-Search trees are a common mechanism used to implement key-value maps (like a dictionary). Almost all databases have some form of B-tree underneath. In C++, up until recently, default map objects were search trees. In Java, you have the TreeMap class. 
-
+Search trees are a common mechanism used to implement key-value maps (like a dictionary). Almost all databases have some form of B-tree underneath. In C++, up until recently, default map objects were search trees. In Java, you have the TreeMap class.
 In contrast to the search tree, we have the hash map or hash table. Hash maps have faster single look-ups, but because the keys are not ordered physically, traversing the keys in sorted order can be much slower. And it might require fully sorting the keys as part of the iteration process, if you want to go through the keys in order.
 
 In any case, if technical interviews and computer-science classes make a big deal of search trees, you&rsquo;d think they were ubiquitous. And yet, they are not. Hash maps are what is ubiquitous.

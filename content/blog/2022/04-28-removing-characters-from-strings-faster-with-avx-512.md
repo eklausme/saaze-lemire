@@ -14,7 +14,7 @@ In software, it is a common problem to want to remove specific characters from a
 1. Move the unwanted bytes using the shuffle mask.
 
 
-Such an approach is fast but it requires possibly large tables.  Indeed, if you load 16 bytes, you need a table with 65536 shuffle masks. Storing such large tables is not very practical.
+Such an approach is fast but it requires possibly large tables.  Indeed, if you load 16 bytes, you need a table with 65536 shuffle masks. Storing such large tables is not very practical.
 
 Recent Intel processors have handy new instructions that do exactly what we want: they prune out unwanted bytes (<tt>vpcompressb</tt>). It requires a recent processor with [AVX-512 VBMI2](https://en.wikipedia.org/wiki/AVX-512) such as Ice Lake, Rocket Lake, Alder Lake, or Tiger Lake processors. Intel makes it difficult to figure out which features is available on which processor, so you need to do some research to find out if your favorite Intel processors supports the desired instructions. AMD processors do not support VBMI2.
 

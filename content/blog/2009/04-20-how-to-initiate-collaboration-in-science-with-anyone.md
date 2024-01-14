@@ -19,7 +19,6 @@ You have to structure your email properly, it must be short, and it must be rese
 
 My emails get answered at a rate of 70% to 80% when I use this strategy. It does not matter how important or busy the person is. It works because I show interest in the person&rsquo;s work.
 
- 
 
 __Update__. Jo Vermeulen points me to a classic reference on this topic: [Networking on the Network](http://xrds.acm.org/).
 

@@ -25,15 +25,13 @@ This being said, as the amount of interesting emails I receive keep on increasin
 
 Yes, we have fantastic spam filters. And these help a lot. And my email client (GMail) tries its best to identify the most relevant emails and put them in a priority inbox.
 
-However, it is quite clear that we are going to need even more help. 
-
+However, it is quite clear that we are going to need even more help.
 CEOs and important folks have human assistants to sort through their mail and answer common queries. Yet I am not an important person, I am just a regular Joe. Still, I too need assistants. The answer seems obvious: we need clever AIs that can process the bulk of our email.
 
 How could this work? Let me run through some examples&hellip;
 
 - A lot of my students email the same queries. Very often, they are asking for more time to complete their assignments. I tend to grant these requests. A software assistant could recognize this pattern and help me process these emails with less effort.
-- When I work with a student or a collaborator on a research project, we send a lot emails back and forth. I find that we routinely &ldquo;forget&rdquo; about past discussions and turn in circles. Moreover, it is hard to track ongoing tasks. Who is doing what and when? If I want to cleanly archive discussion, I need to do it manually. I get no help in organizing the discussions from my email client. If I want to be reminded of a deadline, or of the need to follow-up on what a student is doing, I need to set reminders myself. Overall, email discussions are much more effort than they could be. 
-
+- When I work with a student or a collaborator on a research project, we send a lot emails back and forth. I find that we routinely &ldquo;forget&rdquo; about past discussions and turn in circles. Moreover, it is hard to track ongoing tasks. Who is doing what and when? If I want to cleanly archive discussion, I need to do it manually. I get no help in organizing the discussions from my email client. If I want to be reminded of a deadline, or of the need to follow-up on what a student is doing, I need to set reminders myself. Overall, email discussions are much more effort than they could be.
 
 It seems clear that there is a huge need for more email-related AI. These problems are absurdly difficult given the current state of our knowledge, but I am depressed at how little effort seems to be put on these important practical problems.
 

@@ -79,8 +79,7 @@ int _avx_unique_store(__m256i ov, __m256i nv, __m256i *o) {
 ```
 
 
-I realize that the vectorized code looks like gibberish but my goal is to assess the benefits over vectorization. 
-
+I realize that the vectorized code looks like gibberish but my goal is to assess the benefits over vectorization.
 With vectorization, we are fully one order of magnitude faster than STL&rsquo;s <tt>std::unique</tt> function.
 
 As usual, [my code is freely available on GitHub](https://github.com/lemire/Code-used-on-Daniel-Lemire-s-blog/tree/master/2017/04/10).

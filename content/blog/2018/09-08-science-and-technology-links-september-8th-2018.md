@@ -20,8 +20,7 @@ It does not mean, of course, that there is no impact from these mandates. But th
 
 1. We tend to think of evolution as a process that is limited to our genes. Yet if you have trouble losing weight, it might have to do with how active your mother and grand-mothers were while pregnant&hellip; [Pregnant mice without access to exercise wheels produce offspring that have themselves have larger, fatter offspring](http://www.perishablepundit.com/docs/Archer_2015_The_Mother_of_All_Problems_Read-Only.pdf):<br/>
 
-> Without having to struggle for energy and nutrients, the fat cells in the fetus increase in both size and number, increasing the birth weight of the infant “ a factor strongly related to adult obesity and type II diabetes. This is passed on down the line, with future generations becoming fatter and increasingly inactive and unhealthy. 
-
+> Without having to struggle for energy and nutrients, the fat cells in the fetus increase in both size and number, increasing the birth weight of the infant “ a factor strongly related to adult obesity and type II diabetes. This is passed on down the line, with future generations becoming fatter and increasingly inactive and unhealthy.
 
 (This is interesting but speculative.)
 1. Exercise-induced birth of new neurons in the brain (neurogenesis) might improve memory, and we could mimick this effect with drugs. [It works in mice](http://science.sciencemag.org/content/361/6406/eaan8821.full), according to an article in Science.

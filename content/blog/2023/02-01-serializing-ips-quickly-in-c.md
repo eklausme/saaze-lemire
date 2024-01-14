@@ -28,7 +28,7 @@ char *point = output.data();
 char *point_end = output.data() + output.size();
 point = std::to_chars(point, point_end, uint8_t(address >> 24)).ptr;
 for (int i = 2; i >= 0; i--) {
- *point++ = '.';
+ *point++ = '.';
  point = std::to_chars(point, point_end, uint8_t(address >> (i * 8))).ptr;
 }
 output.resize(point - output.data());
@@ -93,5 +93,5 @@ In my benchmark, I include a version by Marcin Zukowski that uses even more memo
 
 As always, your results will vary depending on your system and your compiler. However, I recommend against creating small strings and aggregating them together in performance critical code.
 
-__Credit__: Peter Dimov and Marcin Zukowski have contributed fast versions (see benchmarks). The version with a large table is derived from their work. Ivan-Assen Ivanov contributed ideas on Twitter.
+__Credit__: Peter Dimov and Marcin Zukowski have contributed fast versions (see benchmarks). The version with a large table is derived from their work. Ivan-Assen Ivanov contributed ideas on Twitter.
 

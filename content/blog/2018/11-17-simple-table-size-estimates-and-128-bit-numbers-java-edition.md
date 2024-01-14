@@ -30,8 +30,7 @@ So let us put in the numbers&hellip; my column cardinalities are 16,16,15,5,2,94
 
 Zero.
 
-At least, that&rsquo;s what the Java function returns. 
-
+At least, that&rsquo;s what the Java function returns.
 Why is that? The first problem is that 1 &#8211; 1/p is 1 when p is that large. And even if you could compute 1 &#8211; 1/p accurately enough, taking it to the power of 48842 is a problem.
 
 So what do you do?

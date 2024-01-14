@@ -20,7 +20,7 @@ Surely, that&rsquo;s not how science works. Surely, correct theories win out qui
 
 But that&rsquo;s not what science is. In Feynman&rsquo;s words:
 
-> Our freedom to doubt was born out of a struggle against authority in the early days of science. It was a very deep and strong struggle: permit us to question  to doubt to not be sure. I think that it is important that we do not forget this struggle and thus perhaps lose what we have gained.
+> Our freedom to doubt was born out of a struggle against authority in the early days of science. It was a very deep and strong struggle: permit us to question  to doubt to not be sure. I think that it is important that we do not forget this struggle and thus perhaps lose what we have gained.
 
 
 That is, science is about doubting everything, especially the experts.

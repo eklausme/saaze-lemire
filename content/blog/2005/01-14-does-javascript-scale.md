@@ -7,8 +7,7 @@ title: "Does JavaScript scale?"
 
 This post talks about how hard it is to debug JavaScript.
 
-> 
-In general, pushing the UI to Javascript makes it hard to develop and debug. There are limited tools, the language is too lenient (no objects, weak typing), and testing involves cycling through webpages over and over again.
+>In general, pushing the UI to Javascript makes it hard to develop and debug. There are limited tools, the language is too lenient (no objects, weak typing), and testing involves cycling through webpages over and over again.
 
 
 

@@ -5,8 +5,7 @@ title: "What´s the PageRank of your university and what´s yours and are they r
 
 
 
-PageRank is this well known Google measure of how _influential_ a web page is. 
-
+PageRank is this well known Google measure of how _influential_ a web page is.
 Name of the school
 &nbsp;                   |PageRank
                          |
@@ -60,7 +59,7 @@ University of New Brunswick (I am an adjunct prof. there)
 Laurentian University
 &nbsp;                   |7
                          |
-Université du Québec Ã  Montréal (my employer!)
+Université du Québec Ã  Montréal (my employer!)
 &nbsp;                   |7
                          |
 Acadia University (I was an assistant prof. there once)
@@ -72,13 +71,13 @@ Université de Moncton
 Université du Québec (main site)
 &nbsp;                   |7
                          |
-Université du Québec Ã  Chicoutimi
+Université du Québec Ã  Chicoutimi
 &nbsp;                   |7
                          |
 Université du Québec en Outaouais
 &nbsp;                   |7
                          |
-Université du Québec Ã  Trois-RiviÃ¨res
+Université du Québec Ã  Trois-RiviÃ¨res
 &nbsp;                   |7
                          |
 
@@ -145,6 +144,5 @@ Robert Godin (old page)
 Conclusions so far:
 
 1. Larger English-speaking schools get a higher PageRank. In Canada, the largest school, the University of Toronto had the top school (equal to Stanford). Somewhat smaller but very reputable schools like McGill don&rsquo;t stand out.
-1. There seems to be no obvious correlation between the PageRank of a researcher and its university&rsquo;s. This is somewhat surprising. Researchers at Laval University scored really badly for example, despite a solid PageRank for their university. 
-
+1. There seems to be no obvious correlation between the PageRank of a researcher and its university&rsquo;s. This is somewhat surprising. Researchers at Laval University scored really badly for example, despite a solid PageRank for their university.
 

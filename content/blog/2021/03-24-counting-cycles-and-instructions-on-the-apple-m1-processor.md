@@ -5,21 +5,21 @@ title: "Counting cycles and instructions on the Apple M1 processor"
 
 
 
-When benchmarking software, we often start by measuring the time elapsed. If you are benchmarking data bandwidth or latency, it is the right measure. However, if you are benchmarking computational tasks where you avoid  disk and network accesses and where you only access a few pages of memory, then the time elapsed is often not ideal because it can vary too much from run to run and it provides too little information.
+When benchmarking software, we often start by measuring the time elapsed. If you are benchmarking data bandwidth or latency, it is the right measure. However, if you are benchmarking computational tasks where you avoid  disk and network accesses and where you only access a few pages of memory, then the time elapsed is often not ideal because it can vary too much from run to run and it provides too little information.
 
-Most processors will adjust their frequency in response to power and thermal constraints. Thus you should generally avoid using a laptop. Yet even if you can get stable measures, it is hard to reason about your code from a time measurement. Processors operate in cycles, retiring instructions. They have branches, and sometimes they mispredict these branches. These are the measures you want!
+Most processors will adjust their frequency in response to power and thermal constraints. Thus you should generally avoid using a laptop. Yet even if you can get stable measures, it is hard to reason about your code from a time measurement. Processors operate in cycles, retiring instructions. They have branches, and sometimes they mispredict these branches. These are the measures you want!
 
-You can, of course, translate the time in CPU cycles if you know the CPU frequency. But it might be harder than it sounds because even without physical constraints, processors can vary their frequency during a test. You can [measure the CPU frequency using predictable loops](/lemire/blog/2019/05/19/measuring-the-system-clock-frequency-using-loops-intel-and-arm/). It is a little bit awkward.
+You can, of course, translate the time in CPU cycles if you know the CPU frequency. But it might be harder than it sounds because even without physical constraints, processors can vary their frequency during a test. You can [measure the CPU frequency using predictable loops](/lemire/blog/2019/05/19/measuring-the-system-clock-frequency-using-loops-intel-and-arm/). It is a little bit awkward.
 
 Most people then go to a graphical tool like Intel VTune or Apple Instruments. These are powerful tools that can provide fancy graphical displays, run samples, record precise instruction counts and so forth. They also tend to work across a wide range of programming languages.
 
 These graphical tools use the fact that processor vendors include &ldquo;performance counters&rdquo; in their silicon. You can tell precisely how many instructions were executed between two points in time.
 
-Sadly, these tools can be difficult to tailor to your needs and to automate. Thankfully, the Linux kernel exposes performance counters, on most processors. Thus if you write code for Linux, you can rather easily query the performance counters for yourself. Thus you can put markers in your code and find out how many instructions or cycles were spent between these markers. We often refer to such code as being &ldquo;instrumented&rdquo;. It requires you to modify your code and it will not work in all programming languages, but it is precise and flexible. It even works under Docker if you are into containers. You may need privileged  access to use the counters. Surely you can also access the performance counters from your own program under Windows, but I never found any documentation nor any example.
+Sadly, these tools can be difficult to tailor to your needs and to automate. Thankfully, the Linux kernel exposes performance counters, on most processors. Thus if you write code for Linux, you can rather easily query the performance counters for yourself. Thus you can put markers in your code and find out how many instructions or cycles were spent between these markers. We often refer to such code as being &ldquo;instrumented&rdquo;. It requires you to modify your code and it will not work in all programming languages, but it is precise and flexible. It even works under Docker if you are into containers. You may need privileged  access to use the counters. Surely you can also access the performance counters from your own program under Windows, but I never found any documentation nor any example.
 
 My main laptop these days is a new Apple macbook with an M1 processor. This ARM processor is remarkable. In many ways, it is more advanced that comparable Intel processors. Sadly, until recently, I did not know how to instrument my code for the Apple M1.
 
-Recently, one of the readers of my blog (Duc Tri Nguyen) showed me how, inspired by code from Dougall Johnson. [Dougall has been doing interesting research on Apple&rsquo;s processors](https://github.com/dougallj/applecpu). As far as I can tell, it is entirely undocumented and could blow up your computer. Thankfully, to access the performance counters, you need administrative access (<tt>wheel</tt> group). In practice, it means that you could start your instrumented program in a shell using <code>sudo</code> so that your program has, itself, administrative privileges.
+Recently, one of the readers of my blog (Duc Tri Nguyen) showed me how, inspired by code from Dougall Johnson. [Dougall has been doing interesting research on Apple&rsquo;s processors](https://github.com/dougallj/applecpu). As far as I can tell, it is entirely undocumented and could blow up your computer. Thankfully, to access the performance counters, you need administrative access (<tt>wheel</tt> group). In practice, it means that you could start your instrumented program in a shell using <code>sudo</code> so that your program has, itself, administrative privileges.
 
 To illustrate the approach, [I have posted a full C++ project](https://github.com/lemire/Code-used-on-Daniel-Lemire-s-blog/tree/master/2021/03/24) which builds an instrumented benchmark. You need administrative access and an Apple M1 system. I assume you have installed the complete developer kit with command-line utilities provided by Apple.
 
@@ -41,7 +41,7 @@ I recommend measuring both minimal counters as well as the average counters. Whe
 ```
 
 
-Afterward, it is simply a matter of printing the results. [I decided to benchmark floating-point number parsers](/lemire/blog/2021/01/29/number-parsing-at-a-gigabyte-per-second/) in C++. I get the following output:
+Afterward, it is simply a matter of printing the results. [I decided to benchmark floating-point number parsers](/lemire/blog/2021/01/29/number-parsing-at-a-gigabyte-per-second/) in C++. I get the following output:
 ```C
 # parsing random numbers
 model: generate random numbers uniformly in the interval [0.000000,1.000000]
@@ -65,7 +65,7 @@ oat
 ```
 
 
-As you can see, I get the average  number of instructions, branches and mispredicted branches for every floating-point number. I also get the number of instructions retired per cycle. It appears that on this benchmark, the Apple M1 processor gets close to 8 instructions retired per cycle when parsing numbers with the [fast_float library](https://github.com/fastfloat/fast_float). That is a score far higher than anything possible on an Intel processor.
+As you can see, I get the average  number of instructions, branches and mispredicted branches for every floating-point number. I also get the number of instructions retired per cycle. It appears that on this benchmark, the Apple M1 processor gets close to 8 instructions retired per cycle when parsing numbers with the [fast_float library](https://github.com/fastfloat/fast_float). That is a score far higher than anything possible on an Intel processor.
 
 You should note how precise the results are: the minimum and the average number of cycles are almost identical. It is quite uncommon in my experience to get such consistent numbers on a laptop. But these Apple M1 systems seem to show remarkably little variation. It suggests that there is little in the way of thermal constraints. I usually avoid benchmarking on laptops, but I make an exception with these laptops.
 

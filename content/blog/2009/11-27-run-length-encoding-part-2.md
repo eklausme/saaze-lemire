@@ -13,13 +13,13 @@ __Storing counters using a fixed number of bits__
 
 Most programming languages represent integers using a fixed number of bits in __[binary format](https://en.wikipedia.org/wiki/Binary_numeral_system)__. For example, Java represents integers (<tt>int</tt>) using 32 bits. However, in my example (3A-5B-1Z-2W-1K) storing the counters using 32 bits and the characters using 8 bits means that I use 25 bytes which is more than twice the length of the original string (AAABBBBBZWWK).
 
-Thus, we have a simple optimization problem: determine the best number of bits.  In practice, it might be better to store the data in a byte-aligned way. That is, you should be using 8, 16, 32 or 64 bits. Indeed, reading numbers represented using an arbitrary number of bits may involve a CPU processing overhead.
+Thus, we have a simple optimization problem: determine the best number of bits.  In practice, it might be better to store the data in a byte-aligned way. That is, you should be using 8, 16, 32 or 64 bits. Indeed, reading numbers represented using an arbitrary number of bits may involve a CPU processing overhead.
 
 If you use too few bits, some long runs will have to count as several small runs. If you use too many bits, you are wasting storage. Unfortunately, determining on a case-by-case basis the best number of bits requires multiple scans of the data. It also implies added software complexity.
 
 __But you don&rsquo;t have to use the binary format!__
 
-You can still use  a fixed number of bits for your counters, but with <em>quantized codes</em> instead of the binary format. For example, using 3 bits, you could only allow the counter values 1,2,16, 24, 32,128,256,1024. In this example, the sequence of bits 000 is interpreted as the value 1, the sequence of bits 001 as the value 2, the sequence 010 as 16, and so on. Determining the best codes implies that you must scan the data, compute the histogram of the counters, and then apply some optimization algorithm (such as dynamic programming). The decoding speed might be slight slower as you need to look-up the codes from a table.
+You can still use  a fixed number of bits for your counters, but with <em>quantized codes</em> instead of the binary format. For example, using 3 bits, you could only allow the counter values 1,2,16, 24, 32,128,256,1024. In this example, the sequence of bits 000 is interpreted as the value 1, the sequence of bits 001 as the value 2, the sequence 010 as 16, and so on. Determining the best codes implies that you must scan the data, compute the histogram of the counters, and then apply some optimization algorithm (such as dynamic programming). The decoding speed might be slight slower as you need to look-up the codes from a table.
 
 __Using variable-length counters for optimal compression__
 
@@ -33,5 +33,5 @@ Unfortunately, the current breed of microprocessors are not kind to variable-len
 
 Continue with [part 3](/lemire/blog/2009/12/09/run-length-encoding-part-3/).
 
-__References and further reading: __Holloway et al., [How to Barter Bits for Chronons](http://pages.cs.wisc.edu/~ahollowa/sigmod357-holloway.pdf), 2007. See also the slides of my recent talk [Compressing column-oriented indexes](http://www.slideshare.net/lemire/compressing-columnoriented-indexes).
+__References and further reading:__ Holloway et al., [How to Barter Bits for Chronons](http://pages.cs.wisc.edu/~ahollowa/sigmod357-holloway.pdf), 2007. See also the slides of my recent talk [Compressing column-oriented indexes](http://www.slideshare.net/lemire/compressing-columnoriented-indexes).
 

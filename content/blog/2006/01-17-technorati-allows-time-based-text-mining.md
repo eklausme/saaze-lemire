@@ -9,7 +9,6 @@ title: "Technorati allows time-based text mining"
 
 I think BlogPulse has been offering this sort of things for some time. I&rsquo;m confused by the relationship between these various services. However, these services could benefit from OLAPish concepts (shameless plug):
 
-> 
-Steven Keith, Owen Kaser, Daniel Lemire, [Analyzing Large Collections of Electronic Text Using OLAP](http://www.daniel-lemire.com/fr/abstracts/APICS2005.html), APICS 2005, Wolfville, Canada, October 2005.
+>Steven Keith, Owen Kaser, Daniel Lemire, [Analyzing Large Collections of Electronic Text Using OLAP](http://www.daniel-lemire.com/fr/abstracts/APICS2005.html), APICS 2005, Wolfville, Canada, October 2005.
 
 

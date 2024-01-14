@@ -37,8 +37,7 @@ Open Journal of Databases  |                         |                         |
 Open Journal of Information Systems  |                         |                         |
 
 
-Elsevier and Springer allow authors of papers in some regular journals to make them available under an open access format in exchange for a one-time fee. Their journals are typically well indexed so they may offer good alternatives. 
-
+Elsevier and Springer allow authors of papers in some regular journals to make them available under an open access format in exchange for a one-time fee. Their journals are typically well indexed so they may offer good alternatives.
 __2. Many open access Computer Science journals require complete copyright transfer<br/>
 __
 

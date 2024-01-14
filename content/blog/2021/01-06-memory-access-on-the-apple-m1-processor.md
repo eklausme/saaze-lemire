@@ -34,7 +34,7 @@ We compare against a 3-wise version of this function:
 ```
 
 
-Our naive memory-access cost model predicts that the second function should be 50% more expensive. However many other models (such as a simple instruction count) would also predict a 50% overhead.
+Our naive memory-access cost model predicts that the second function should be 50% more expensive. However many other models (such as a simple instruction count) would also predict a 50% overhead.
 
 To give our naive memory-access model a run for its money, let us throw in a 2-wise version that also accesses nearby values (with one-byte offset):
 ```C

@@ -52,5 +52,4 @@ from_chars (C++17)       |140 MB/s                 |
 
 You do get a nice 20% performance boost, at no cost whatsoever. Brilliant.
 
-__Further reading__: [Comparing strtod with from_chars (GCC 12)](/lemire/blog/2022/07/27/comparing-strtod-with-from_chars-gcc-12/) 
-
+__Further reading__: [Comparing strtod with from_chars (GCC 12)](/lemire/blog/2022/07/27/comparing-strtod-with-from_chars-gcc-12/)

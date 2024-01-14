@@ -32,7 +32,7 @@ void remove_negatives_scalar(const int32_t *input,
 
 &nbsp;
 
-[Replacing this code with new code that relies on special SVE functions made it go much faster (2.5 times faster)](/lemire/blog/2022/06/23/filtering-numbers-quickly-with-sve-on-amazon-graviton-3-processors/). At the time, I suggested that my code was probably not nearly optimal. It processed 32 bytes per loop iteration, using 9 instructions. A sizeable fraction of these 9 instructions have to do with managing the loop, and few do the actual number crunching.  A reader, Samuel Lee, proposed to effectively unroll my loop. He predicted much better performance (at least when the array is large enough) due to lower loop overhead. I include his proposed code below.
+[Replacing this code with new code that relies on special SVE functions made it go much faster (2.5 times faster)](/lemire/blog/2022/06/23/filtering-numbers-quickly-with-sve-on-amazon-graviton-3-processors/). At the time, I suggested that my code was probably not nearly optimal. It processed 32 bytes per loop iteration, using 9 instructions. A sizeable fraction of these 9 instructions have to do with managing the loop, and few do the actual number crunching.  A reader, Samuel Lee, proposed to effectively unroll my loop. He predicted much better performance (at least when the array is large enough) due to lower loop overhead. I include his proposed code below.
 
 Using a graviton 3 processor and GCC 11 on my benchmark, I get the following results:
 

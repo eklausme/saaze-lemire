@@ -15,7 +15,7 @@ First I consider Fitzgerald&rsquo;s bitset package:
 ```Go
 $ go test -run=XXX -bench Count >old.txt
 $ git checkout go19
-$ go get golang.org/x/tools/cmd/benchcmp
+$ go get golang.org/x/tools/cmd/benchcmp
 $ go test -run=XXX -bench Count >new.txt
 $ benchcmp old.txt new.txt
 benchmark                  old ns/op     new ns/op     delta

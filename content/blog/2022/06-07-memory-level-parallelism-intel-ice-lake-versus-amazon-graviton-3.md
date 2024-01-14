@@ -11,7 +11,7 @@ Today, the story is much nicer. The powerful processor cores can all sustain man
 
 To measure the performance of the processor, we use a pointer-chasing scheme where you ask a C program to load a memory address which contains the next memory address and so forth. If a processor could only sustain a single memory request, such a test would use all available ressources. We then modify this test so that we have have two interleaved pointer-chasing scheme, and then three and then four, and so forth. We call each new interleaved pointer-chasing component a &lsquo;lane&rsquo;.
 
-As you add more lanes, you should see better performance, up to a maximum. The faster the performance goes up as you add lane, the more memory-level parallelism your processor core has. The best Amazon (AWS) servers come with either Intel Ice Lake or Amazon&rsquo;s very own Graviton 3. I benchmark both of them, using a core of each type. The Intel processor has the upper hand in absolute terms. We achieve a 12 GB/s maximal bandwidth compared to 9 GB/s for the Graviton 3. The one-lane latency is 120 ns for the Graviton 3 server versus 90 ns for the Intel processor. The Graviton 3 appears to sustain about 19 simultaneous loads per core against about 25 for the Intel processor.
+As you add more lanes, you should see better performance, up to a maximum. The faster the performance goes up as you add lane, the more memory-level parallelism your processor core has. The best Amazon (AWS) servers come with either Intel Ice Lake or Amazon&rsquo;s very own Graviton 3. I benchmark both of them, using a core of each type. The Intel processor has the upper hand in absolute terms. We achieve a 12 GB/s maximal bandwidth compared to 9 GB/s for the Graviton 3. The one-lane latency is 120 ns for the Graviton 3 server versus 90 ns for the Intel processor. The Graviton 3 appears to sustain about 19 simultaneous loads per core against about 25 for the Intel processor.
 
 Thus Intel wins, but the Graviton 3 has nice memory-level parallelism&hellip; much better than the older Intel chips (e.g., Skylake) and much better than the early attempts at ARM-based servers.
 
@@ -23,7 +23,7 @@ Prices for Graviton 3 are 2.32&nbsp;$US/hour (64 vCPU) compared to 2.448&nbsp;$U
 
 When I write these posts, comparing one product to another, there is always hate mail afterward. So let me be blunt. I love all chips equally.
 
-If you want to know which system is best for your application: run benchmarks. [Comprehensive benchmarks found that Amazon&rsquo;s ARM hardware could be advantageous for storage-intensive tasks](https://redpanda.com/blog/aws-graviton-2-arm-vs-x86-comparison/).
+If you want to know which system is best for your application: run benchmarks. [Comprehensive benchmarks found that Amazon&rsquo;s ARM hardware could be advantageous for storage-intensive tasks](https://redpanda.com/blog/aws-graviton-2-arm-vs-x86-comparison/).
 
 __Further reading__: I enjoyed [Graviton 3: First Impressions](https://chipsandcheese.com/2022/05/29/graviton-3-first-impressions/).
 

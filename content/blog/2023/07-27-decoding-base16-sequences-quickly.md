@@ -20,7 +20,7 @@ dst += 1;
 
 Can we go faster? In [Parsing hex numbers with validation](http://0x80.pl/notesen/2022-01-17-validating-hex-parse.html), Langdale and Muła considered the question. They use [SIMD](https://en.wikipedia.org/wiki/Single_instruction,_multiple_data) instructions. They get good results, but let us revisit the question.
 
-I am considering the problem of parsing sequences of 56 characters (representing 28 bytes). I want to compare the best approach described by Langdale and Muła with a straight adaptation of our [base32 decoder](/lemire/blog/2023/07/20/fast-decoding-of-base32-strings/). Generally speaking, the main difference between our approach and the Langdale-Muła is in the validation. The Langdale-Muła approach does straight-forward arithmetic and comparisons, whereas we favour vectorized classification (e.g., we use vectorized table lookups).
+I am considering the problem of parsing sequences of 56 characters (representing 28 bytes). I want to compare the best approach described by Langdale and Muła with a straight adaptation of our [base32 decoder](/lemire/blog/2023/07/20/fast-decoding-of-base32-strings/). Generally speaking, the main difference between our approach and the Langdale-Muła is in the validation. The Langdale-Muła approach does straight-forward arithmetic and comparisons, whereas we favour vectorized classification (e.g., we use vectorized table lookups).
 
 Our main routine to decode 16 characters goes as follows:
 
@@ -28,7 +28,7 @@ Our main routine to decode 16 characters goes as follows:
 1. Subtract 1 from all character values.
 1. Using a 4-bit shift and a mask, select the most significant 4 bits of each byte value.
 1. Do a vectorized table lookup using the most significant 4 bits, and add the result to the value. This inexpensive computation can detect any non-hexadecimal character: any such character would map to a byte value with the most significant bit set. We later branch out based on a movemask which detects these bytes.
-1. We do a similar computation, a vectorized table lookup using the most significant 4 bits, and add the result to the value, to map the character to a 4-bit value (between 0 and 16).
+1. We do a similar computation, a vectorized table lookup using the most significant 4 bits, and add the result to the value, to map the character to a 4-bit value (between 0 and 16).
 1. We use a multiply-add and a pack instruction to pack the 4-bit values, going from 16 bytes to 8 bytes.
 1. We write the 8 bytes to the output.
 
@@ -41,10 +41,10 @@ Using Intel instructions, the hot loop looks as follows:
   _mm_and_si128(_mm_srli_epi32(vm1, 4), _mm_set1_epi8(0x0F));
  __m128i check = _mm_add_epi8(_mm_shuffle_epi8(delta_check, hash_key), vm1);
   v = _mm_add_epi8(vm1, _mm_shuffle_epi8(delta_rebase, hash_key));
-  unsigned int m = (unsigned)_mm_movemask_epi8(check);
-  if (m) {
-   // error
-  }
+  unsigned int m = (unsigned)_mm_movemask_epi8(check);
+  if (m) {
+   // error
+  }
 __m128i t3 = _mm_maddubs_epi16(v, _mm_set1_epi16(0x0110));
 __m128i t5 = _mm_packus_epi16(t3, t3);
 _mm_storeu_si128((__m128i *)dst, t5);

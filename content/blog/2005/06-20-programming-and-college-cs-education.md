@@ -23,8 +23,7 @@ In short, teaching only one language is fine, as long as you do it because picki
 
 
 
-Part of the answer is what you value and what society values. 
-
+Part of the answer is what you value and what society values.
 University professors, generally, don&rsquo;t know how to write industrial-strength software. They don&rsquo;t know because they never had to do it and were never involved in real projects. So, they cannot teach it. Period. <em>Note to self: I just made a lot ennemies.</em>
 
 They have the same problem in the humanities or in business. Several managers can&rsquo;t write 10 lines of English or French without filling it up with childish sentences. We don&rsquo;t know about it because these people never really write anything beyond a note. Why should it matter? All they need to do is sign paperwork and attend meetings.

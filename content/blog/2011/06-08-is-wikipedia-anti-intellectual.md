@@ -5,7 +5,7 @@ title: "Is Wikipedia anti-intellectual?"
 
 
 
-[Sanger](http://larrysanger.org/) recently posted a [provocative piece](http://larrysanger.org/2011/06/is-there-a-new-geek-anti-intellectualism/) where he argues that geeks suffer from anti-intellectualism. His stance is that democratic sites such as  Wikipedia (which he co-founded) are founded on anti-intellectualism. He sums up this <em>techno anti-intellectualism</em> using five beliefs:
+[Sanger](http://larrysanger.org/) recently posted a [provocative piece](http://larrysanger.org/2011/06/is-there-a-new-geek-anti-intellectualism/) where he argues that geeks suffer from anti-intellectualism. His stance is that democratic sites such as  Wikipedia (which he co-founded) are founded on anti-intellectualism. He sums up this <em>techno anti-intellectualism</em> using five beliefs:
 
 1. Experts do not deserve any special role in declaring what is known.
 1. Books are an outmoded medium because they involve a single person speaking from authority.

@@ -9,7 +9,7 @@ Even if you have extensive training in Mathematics, the [average Mathematics pap
 
 Software programming is a form of communication, usually between human beings and machines. While different in style, programming is a subset of the language of Mathematics. If you dig into the [average source code](https://github.com/explore), it is undistinguishable from ramblings, even if you are an expert developer.
 
-Yet, we denigrate programming. Many will even deny that it is a Mathematical language. But Mathematics and Programming are not so different:
+Yet, we denigrate programming. Many will even deny that it is a Mathematical language. But Mathematics and Programming are not so different:
 
 Mathematics              |Programming              |
 -------------------------|-------------------------|
@@ -23,7 +23,7 @@ Some Mathematicians are widely recognized as being extremely smart. |Some famous
 Why is programming getting so little respect?
 
 - The intense commercialization of programming has commoditized it. As [Paul Graham might say](https://www.amazon.com/Hackers-Painters-ebook/dp/B0026OR2NQ/ref=sr_1_1?ie=UTF8&amp;s=digital-text&amp;qid=1268061219&amp;sr=8-1) : painters where initially &ldquo;portrait takers&rdquo;. It is only when painting lost its commercial function that it became recognized as a noble art. However, just like painters always used their free time to create great art, the best programmers are open sourcing beautiful code all the time.
-- The study  of programming itself remains rather informal. You can get degrees in Computer Science, Computing Engineering or Software Engineering, but there is no degree in Programming. Programming is taught in universities, but generally only in the first few courses of a degree. Yet, there are degrees in Communication, Fine Art, Architecture, Music or Dance. While a degree in Computer Science or Software Engineer can make you a better programmer, the fact remains that your professors are not expert practitioners.
+- The study  of programming itself remains rather informal. You can get degrees in Computer Science, Computing Engineering or Software Engineering, but there is no degree in Programming. Programming is taught in universities, but generally only in the first few courses of a degree. Yet, there are degrees in Communication, Fine Art, Architecture, Music or Dance. While a degree in Computer Science or Software Engineer can make you a better programmer, the fact remains that your professors are not expert practitioners.
 
 
 How can we fix this? I have this secret dream of setting up the equivalent of &ldquo;Creative Writing&rdquo; program, but for programmers. Call it &ldquo;Creative Programming&rdquo;. Basically, students would come together to write great code. Yes, such code might be useful commercially, but that would be a secondary consideration. The pursuit of greatness would be the only goal that matters. It would treat programming as a bona fide language. It would attract the best programmers as guest lecturers. Would this ever work out? I do not know.

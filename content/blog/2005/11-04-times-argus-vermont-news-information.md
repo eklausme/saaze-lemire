@@ -17,8 +17,7 @@ In 1994, students whose families earned more than $100,000 per year represented 
 
 In comparison, in Quebec, you can attend any program in any university (including anglo universities like McGill) for less than CAN$3000 a year. That&rsquo;s right, including medical school, MBA programs, the works! CAN$3000 is about US$2000 discounting the Bush effect on American currency. It is interesting to note that this article is from Vermont&hellip; Vermont is basically our neighbour.
 
-Of course, Quebec salaries, including professors&rsquo; salaries, are much lower. 
-
+Of course, Quebec salaries, including professors&rsquo; salaries, are much lower.
 I&rsquo;ve got to wonder what the long terms effect of this improper wealth distribution will have on the USA. The truth is that a country needs to draw on the smarts of its entire population to go forward and be competitive. Whether we like it or not, there are many very brigth kids in the 80% poorest kids. I&rsquo;m sure Bill Gates has smart kids, but mines could, maybe, compete and win! If given a chance!
 
 (Source: [Downes.ca](http://www.downes.ca/cgi-bin/page.cgi?post=32393).)

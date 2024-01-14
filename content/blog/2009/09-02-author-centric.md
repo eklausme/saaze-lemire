@@ -15,8 +15,7 @@ The idea is not new nor original. Back in 2005, I [urged researchers to setup RS
 
 __Please__: if you want me to read you, make it easy to receive notice whenever you publish a new research paper. If enough researchers do it, we might improve the quality science significantly. __Why wouldn&rsquo;t you want people to follow your work?__
 
-__Further reading: __ [Scholarly Communications must be Syndicated](http://www.academicevolution.com/2009/08/scholarly-communications-must-transform-4.html) by Gideon Burton
+__Further reading:__  [Scholarly Communications must be Syndicated](http://www.academicevolution.com/2009/08/scholarly-communications-must-transform-4.html) by Gideon Burton
 
-__Eating my own dog food: __ You can subscribe to my research papers <a href="https://feedburner.google.com/fb/a/mailverify?uri=DanielLemiresArticlesOnA
-rxiv">by email</a> or [through a reader](http://feeds.feedburner.com/DanielLemiresArticlesOnArxiv). 
-
+__Eating my own dog food:__  You can subscribe to my research papers <a href="https://feedburner.google.com/fb/a/mailverify?uri=DanielLemiresArticlesOnA
+rxiv">by email</a> or [through a reader](http://feeds.feedburner.com/DanielLemiresArticlesOnArxiv).

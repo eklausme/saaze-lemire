@@ -1,0 +1,18 @@
+#!/bin/perl -W
+# Download all posts from lemire.me
+# Extract URLs out of b*.html, then curl each URL
+# Elmar Klausmeier, 09-Jan-2024
+
+use strict;
+
+my ($year,$month,$day,$url) = (0,0,0,"");
+
+while (<>) {
+	if (/<h2 class="entry-title"><a href="https:\/\/lemire.me\/blog\/(\d{4})\/(\d\d)\/(\d\d)\/([^"]+)\/"/) {
+		($year,$month,$day,$url) = ($1,$2,$3,$4);
+		`curl https://lemire.me/blog/$year/$month/$day/$url/ -o $year-$month-$day-$url.html`;
+		sleep 7;
+	}
+}
+
+

@@ -25,7 +25,7 @@ There is already a [C# port by Egor Bogatov](https://github.com/EgorBo/SimdJsonS
 
 The C++ library has been available for less than a week, so it is still early days. Nevertheless, clever programmers have published prototypical bindings in [Python](https://github.com/TkTech/pysimdjson) and [Javascript (node)](https://github.com/luizperes/simdjson_nodejs). In both instances, we are able to beat the standard parsers in some reasonable tasks. A significant fraction of the running is spent converting raw results from C++ into either Python or JavaScript objects. But even with this obstacle, the Python wrapper can be several times faster than the standard Python JSON parser.
 
-It is always going to require significant engineering to get great performance when you need to interface tightly with a high-level language like Python or JavaScript&hellip;  When you really need the performance, the trick is to push the computation down within the guts of the C/C++ code.
+It is always going to require significant engineering to get great performance when you need to interface tightly with a high-level language like Python or JavaScript&hellip;  When you really need the performance, the trick is to push the computation down within the guts of the C/C++ code.
 
 Where next? I do not know. We have many exciting ideas. Porting this design to ARM processors is among them.
 

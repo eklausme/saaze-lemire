@@ -7,8 +7,7 @@ title: "Warren Buffet Says the Rich Do Not Pay Enough Taxes"
 
 Warren Buffet, who used to be the second richest man in the world, ran an [experiment](http://www.nytimes.com/2006/11/26/business/yourmoney/26every.html?ei=5090&#038;en=0cf877b05b918674&#038;ex=1322197200&#038;adxnnl=1&#038;partner=rssuserland&#038;emc=rss&#038;adxnnlx=1165334671-mNCvv9hFeEqujtW8E1Wk8Q) in his office. He asked his staff to check which fraction of their income they paid in taxes. Surprisingly, he pays a much lesser fraction in taxes than his staff does. This is a great quote:
 
-> 
-â€œThere&rsquo;s class warfare, all right,â€ Mr. Buffett said, â€œbut it&rsquo;s my class, the rich class, that&rsquo;s making war, and we&rsquo;re winning.â€
+>â€œThere&rsquo;s class warfare, all right,â€ Mr. Buffett said, â€œbut it&rsquo;s my class, the rich class, that&rsquo;s making war, and we&rsquo;re winning.â€
 
 
 How can this be, when the majority of the people are much poorer than Warren and thus, ought to tax Warren a lot. No, Warren says he does not even do tax planning: he pays whatever he is being asked to pay.

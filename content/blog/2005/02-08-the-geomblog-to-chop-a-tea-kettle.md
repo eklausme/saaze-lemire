@@ -7,8 +7,7 @@ title: "The Geomblog: &quot;To chop a tea kettle&quot;"
 
 [Geomblog](https://geomblog.blogspot.com/2005/02/to-chop-tea-kettle.html) gives a [rather pessimistic view of scientific conferences](https://geomblog.blogspot.com/2005/02/to-chop-tea-kettle.html):
 
-> 
-And so the implicit content of many a conference paper is not, as one might think, &ldquo;Here is my research.&rdquo; Rather, it is: &ldquo;Here am I, qualified and capable, performing this role, which all of us here share, and none of us want to question too closely. So let&rsquo;s get it over with, then go out for a drink afterwards.
+>And so the implicit content of many a conference paper is not, as one might think, &ldquo;Here is my research.&rdquo; Rather, it is: &ldquo;Here am I, qualified and capable, performing this role, which all of us here share, and none of us want to question too closely. So let&rsquo;s get it over with, then go out for a drink afterwards.
 
 
 The main issue here is that attending conferences is simply not so useful anymore because communication appear to be one-way: you go to the conference to give your talk, but you have come not to expect feedback because feedback is rarely given. Well, at least, the question period after most talks is pretty shallow and you rarely see interesting discussions arise.

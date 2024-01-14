@@ -15,38 +15,31 @@ My own school, up to a few months ago, had the following &ldquo;online enrollmen
 
 So, evidently, we are openly refusing to move in the future&hellip; And I think it draws on public opinion. If most people thought it ridiculous that a stethoscope is the state-of-the-art in 2016, most doctors would quickly upgrade, forced to do so by social pressure.
 
-The reason doctors still have nineteenth-century stethoscopes is the same reason we keep lecturing&hellip; even if we know that a lecture is a highly inefficient pedagogical approach (barely better than nothing). 
-
+The reason doctors still have nineteenth-century stethoscopes is the same reason we keep lecturing&hellip; even if we know that a lecture is a highly inefficient pedagogical approach (barely better than nothing).
 It is what people want, it is what people expect. Many people fear what is different, new&hellip; even if they won&rsquo;t admit their fear. Or rather, they prefer to paint their fear as &ldquo;caution&rdquo;. (Because having doctors use anything but nineteenth-century stethoscopes would be incautious!)
 
-Recently, we have made progress regarding gene editing. It is, of course, a potential cure for tragic genetic diseases. It is a potent tool against cancer&hellip; we can take immune cells, tweak them and reinject them&hellip; to fight off currently incurable cancers. It could also be part of a cure for the diseases of aging&hellip; tweak some of your cells and instead of being a weak 75-year-old who walks with a cane and can barely carry grocery bags&hellip; you can be a 75-year-old who is as strong as a 30-year-old and just as unlikely to fall&hellip; 
-
+Recently, we have made progress regarding gene editing. It is, of course, a potential cure for tragic genetic diseases. It is a potent tool against cancer&hellip; we can take immune cells, tweak them and reinject them&hellip; to fight off currently incurable cancers. It could also be part of a cure for the diseases of aging&hellip; tweak some of your cells and instead of being a weak 75-year-old who walks with a cane and can barely carry grocery bags&hellip; you can be a 75-year-old who is as strong as a 30-year-old and just as unlikely to fall&hellip;
 Yet [68% of Americans and worried about gene editing](http://www.kurzweilai.net/americans-worried-about-gene-editing-brain-chip-implants-and-synthetic-blood). They are not excited, they are worried.
 
 So what is going on?
 
 There is widespread ignorance about science and technology. For example, [we have people with computer chips in their head right now](https://www.youtube.com/watch?v=0n12yPOUumg) to alleviate Parkinson&rsquo;s symptoms. Many of us have elderly family members with cochlear implants, but most people don&rsquo;t understand that these are computers hooked up to people&rsquo;s brain&hellip; Sex change is a common thing nowadays, some surgery and hormone therapy does the trick. You do not need a vagina or even a penis to procreate&hellip; we have had in vitro fertilization since the 1970s&hellip; it is quite common today. People don&rsquo;t understand the evolution of agriculture, they know little about pesticides&hellip; They don&rsquo;t bother learning about the issues, they just want reassuring labels.
 
-But ignorance only explains so much of the fear&hellip; 
-
-There is also a very strong Luddite agenda backed by what I call &ldquo;nature worship&rdquo;. 
-
+But ignorance only explains so much of the fear&hellip;
+There is also a very strong Luddite agenda backed by what I call &ldquo;nature worship&rdquo;.
 There is a vast collection of religious nuts and nature worshipers who believe that human beings should not meddle in the order of things. That they have no right to do so&hellip; And if they do, bad things will happen.
 
 It is surprising how many echoes of nature worship we find in the media. For example, in the latest Start Trek movie, one of the character finds some biological technology that allows him stop aging and to make himself stronger. Well, he is a vampire. So we are to believe that centuries from now, human beings will cross the chasm between stars in starships&hellip; but we will be biologically identical to what we are now. We won&rsquo;t be stronger. We won&rsquo;t have better endurance. We will still age and need glasses. We won&rsquo;t run faster or punch harder. Soldiers on the battlefield will be like us but with &ldquo;phasers&rdquo; instead of guns. And if someone tries to enhance himself&hellip; well&hellip; he must be some kind of evil vampire, right?
 
-Here is the truth: Nature is only plentiful after we harness it. Almost everything we eat today was heavily modified by human beings&hellip; from the meat to every single vegetable you can think of. It is &ldquo;unnatural&rdquo; to drink cow milk. It is &ldquo;unnatural&rdquo; to have vast fields of genetically modified wheat that we turn into bread. (Hint: none of you has eaten the original wheat unmodified by human intervention.) It is natural to die of infection before the age of 5. If you want to know &ldquo;what nature intended&rdquo;, then maybe it is a raving bunch of starving and infected human beings&hellip; 
-
-Human technologies are only &ldquo;unnatural&rdquo; if you choose to define it this way. In truth, human beings emerged out of natural selection. From the very beginnings, human beings rose above other species. We cook our food (that&rsquo;s &ldquo;unnatural&rdquo;!) which allows us to gain a lot of calories from food we could barely subsist from in the past&hellip; 
-
+Here is the truth: Nature is only plentiful after we harness it. Almost everything we eat today was heavily modified by human beings&hellip; from the meat to every single vegetable you can think of. It is &ldquo;unnatural&rdquo; to drink cow milk. It is &ldquo;unnatural&rdquo; to have vast fields of genetically modified wheat that we turn into bread. (Hint: none of you has eaten the original wheat unmodified by human intervention.) It is natural to die of infection before the age of 5. If you want to know &ldquo;what nature intended&rdquo;, then maybe it is a raving bunch of starving and infected human beings&hellip;
+Human technologies are only &ldquo;unnatural&rdquo; if you choose to define it this way. In truth, human beings emerged out of natural selection. From the very beginnings, human beings rose above other species. We cook our food (that&rsquo;s &ldquo;unnatural&rdquo;!) which allows us to gain a lot of calories from food we could barely subsist from in the past&hellip;
 Still. It was a close one. Nature is brutal. We are the only surviving human species. All others were wiped out. We were nearly wiped out&hellip; we are all descendants of a few thousand survivors.
 
 You can be quite certain that we only survived because we made the best out of our brain and technology.
 
 I think that what is natural for human beings is to develop ever better technology to improve the condition of mankind. And, yes, this involves creating artificial blood, putting chips in people&rsquo;s brain to keep them from shaking, editing their genes so that they don&rsquo;t have to live in a bubble&hellip; finding ways to regrow limbs and reverse aging.
 
-This is the very nature of human beings&hellip; spiders create silk&hellip; we create technology&hellip; When human beings decide to forgo technology, they are like birds who decide to forgo flight&hellip; 
-
+This is the very nature of human beings&hellip; spiders create silk&hellip; we create technology&hellip; When human beings decide to forgo technology, they are like birds who decide to forgo flight&hellip;
 By forgoing technology, we forgo our very existance. Without technology we would not survive. It is part of us just like silk is part of the spider.
 
 Even knowledgeable people who are not nature worshipers often oppose technology by default. These people adopt the precautionary principle. In effect, they say that new technologies expose us to untold danger&hellip; and that we should stick with the tested and true.
@@ -57,16 +50,14 @@ So the precautionary principle would have led to the death of millions of us. No
 
 In the near future, there will be 10 billion people on Earth, if we develop the technology to feed them&hellip; or untold numbers will starve. Deciding that the current technology is good enough may very well comdemn millions to death and starvation&hellip; Is it prudent?
 
-Today, hundred of thousands of people a day die of age-related diseases. Finding a cure for these diseases would be as important, if not more, than the green revolution. It involves tinkering with our fundamental metabolism. It might require gene editing, stem-cell technologies, having computer chips embedded in our bodies&hellip; 
-
+Today, hundred of thousands of people a day die of age-related diseases. Finding a cure for these diseases would be as important, if not more, than the green revolution. It involves tinkering with our fundamental metabolism. It might require gene editing, stem-cell technologies, having computer chips embedded in our bodies&hellip;
 Each time we push forward, some people feel that we are getting &ldquo;less natural&rdquo;. They think that, surely, there is a limit&hellip; Of course, there are limits, but holding back technology has a tremendous cost. If you say &ldquo;oh&hellip; let us pass on gene editing&hellip; it sounds dangerous&hellip;&rdquo;, then you are condemning millions to die and suffer.
 
 But what about this limit that we will reach, where the Earth would disintegrate, maybe because there are too many people on it&hellip;?
 
 It helps to have knowledge. There are more forests today in Europe than there were centuries ago. In fact, as farming becomes more efficient, we are able to relinquish more land to the wild. By artificially maintaining our productivity low (as with &ldquo;organic agriculture&rdquo;), we are stuck having to use all of the available land.
 
-If not for immigration from poorer countries, most of the advanced countries (Europe, North America, Japan) would have falling population. If you are worried at all about overpopulation, then you need not to look at where technology is plentiful, but where it is lacking: in rural Africa&hellip; 
-
+If not for immigration from poorer countries, most of the advanced countries (Europe, North America, Japan) would have falling population. If you are worried at all about overpopulation, then you need not to look at where technology is plentiful, but where it is lacking: in rural Africa&hellip;
 If we could, somehow, double the life expectancy of human beings, in time the population of the advanced countries would resume their decline&hellip; because it is fecundity and not longevity that drives population.
 
 But should you even be worried about overpopulation? That&rsquo;s doubtful. Some of the richest places on Earth are also the most densely populated. People are not better off, healthier or smarter in the middle of nowhere.

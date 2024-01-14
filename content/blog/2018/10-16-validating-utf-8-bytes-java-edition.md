@@ -57,9 +57,7 @@ Guava&rsquo;s if/then/else |2.6 cycles per byte      |
 
 [My code is available](https://github.com/lemire/Code-used-on-Daniel-Lemire-s-blog/tree/master/2018/10/16).
 
-The most obvious limitation in my benchmark is that Guava&rsquo;s if/then/else approach is sensitive to branch mispredictions while my benchmark might not be rich enough to trigger difficult-to-predict branches. 
-
-__Credit__: The finite-state-machine code was improved by Travis Downs, shaving 1.5 cycles per byte. 
-
+The most obvious limitation in my benchmark is that Guava&rsquo;s if/then/else approach is sensitive to branch mispredictions while my benchmark might not be rich enough to trigger difficult-to-predict branches.
+__Credit__: The finite-state-machine code was improved by Travis Downs, shaving 1.5 cycles per byte.
 __Update__: Travis Downs has shown that, indeed, Guava&rsquo;s approach is much worse than my benchmark implies. The reason it does so well is that the processor learns to predict all branches perfectly well. If you increase the size of the string, or if you use many more strings, then its performance becomes worse. Meanwhile, the finite-state machine can be accelerated by processing the strings in two halves, effectively doubling the processing speed. Yet the Guava might still be the right choice in practice because when you expect the input to be mostly just ASCII characters, it will do well.
 

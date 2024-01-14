@@ -17,8 +17,7 @@ So, the invisible adjunct is someone who just gave up. She&rsquo;s not alone.
 
 Some people are smarter and they leave early, like wolfangel&hellip; but many don&rsquo;t.
 
-I particularly like a [recent post by Erin](http://www.erinoconnor.org/archives/000935.html). 
-
+I particularly like a [recent post by Erin](http://www.erinoconnor.org/archives/000935.html).
 Here&rsquo;s a comment which rings very true:
 
 > My experience with a Ph.D program was that the myopic focus on only academic skills was very damaging to the students in my program. Academic who have devoted their whole life to study of a particular subject in an educational setting have little understanding of the learning that takes place on the job or as part of living life.
@@ -33,8 +32,7 @@ I think that all students should read and seriously consider such statements bef
 
 There is more:
 
-> 
-your odds of getting the PhD are smaller than you think, your odds of getting a job are slighter still, and your odds of getting tenure at a place yet smaller, and then all of this happening at a place you would otherwise choose to live? Infinitesimal.
+>your odds of getting the PhD are smaller than you think, your odds of getting a job are slighter still, and your odds of getting tenure at a place yet smaller, and then all of this happening at a place you would otherwise choose to live? Infinitesimal.
 
 
 

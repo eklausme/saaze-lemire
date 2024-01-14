@@ -9,8 +9,7 @@ I found a couple of papers making a claim that is likely to be controversial: a 
 
 I&rsquo;ll just cite the juicy parts and let you decide.
 
-> The disappearance of positive university fixed effects suggests that, as far as research productivity is concerned, elite universities are indeed losing their competitive edge. Because of the reduced importance of personal interactions, one traditional advantage of elite universities &#8211; to act as a focal point attracting the smartest faculty &#8211; is at risk. 
-
+> The disappearance of positive university fixed effects suggests that, as far as research productivity is concerned, elite universities are indeed losing their competitive edge. Because of the reduced importance of personal interactions, one traditional advantage of elite universities &#8211; to act as a focal point attracting the smartest faculty &#8211; is at risk.
 
 __Reference__: E. Han Kim, Adair Morse, Luigi Zingales, [Are Elite Universities Losing Their Competitive Edge?](http://www.dbresearch.com/PROD/DBR_INTERNET_DE-PROD//PROD0000000000200480.pdf), NBER Working Paper No. W12245, May 2006.
 

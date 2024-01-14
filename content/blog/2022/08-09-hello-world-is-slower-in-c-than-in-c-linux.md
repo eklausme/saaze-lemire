@@ -57,7 +57,7 @@ It seems that loading the C++ library dynamically is adding a significant cost o
 
 1. The C compiler might not call the `printf` function, and might call the simpler `puts` function instead: we can fool the compiler into calling `printf` with the syntax <tt>printf("hello %s\n", "world")</tt>: it makes no measurable difference in our tests.
 1. If we compile the C function using a C++ compiler, the problem disappears, as you would hope, and we match the speed of the C program.
-1. Replacing  <tt>"hello world" &lt;&lt; std::endl;</tt> with <tt>"hello world\n";</tt> does not seem to affect the performance in these experiments. The C++ program remains much slower.
+1. Replacing  <tt>"hello world" &lt;&lt; std::endl;</tt> with <tt>"hello world\n";</tt> does not seem to affect the performance in these experiments. The C++ program remains much slower.
 1. Adding <tt>std::ios_base::sync_with_stdio(false);</tt> before using <tt>std::cout</tt> also appears to make no difference. The C++ program remains much slower.
 
 

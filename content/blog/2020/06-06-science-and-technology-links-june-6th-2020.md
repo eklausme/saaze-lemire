@@ -5,7 +5,7 @@ title: "Science and Technology links (June 6th 2020)"
 
 
 
-1. A small number of people are responsible for a disproportionate number of inventions and innovations. Why are these people different? Using neuroimaging techniques, [scientists find that superior individuals may not have distinct processes per se, but rather they use common processes differently, in a more economical fashion](https://www.sciencedirect.com/science/article/pii/S1053811920304973):<br/>
+1. A small number of people are responsible for a disproportionate number of inventions and innovations. Why are these people different? Using neuroimaging techniques, [scientists find that superior individuals may not have distinct processes per se, but rather they use common processes differently, in a more economical fashion](https://www.sciencedirect.com/science/article/pii/S1053811920304973):<br/>
 
 > (&hellip;) extraordinary creative ability is not the outcome of a unique set of neurocognitive processes; rather, it is associated with the same neural mechanisms that support ordinary creativity, but to a different degree (&hellip;). Indeed, our findings would support the argument that similar creative outcomes (&hellip;) come about with a less extensive recruitment of brain networks shown to contribute to creative thought (&hellip;), which we speculate may allow eminent creators to pursue concurrently, for example, multiple lines of creative thought.
 

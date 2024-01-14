@@ -5,13 +5,13 @@ title: "So, you know what´s important?"
 
 
 
-Most researchers are convinced that their current work is <em>important</em>. Otherwise, they wouldn&rsquo;t do it. Yet, few of them work on obviously important things like curing cancer or solving world hunger. Rather, they do silly things like prove the [Poincaré conjecture](https://en.wikipedia.org/wiki/Poincar%C3%A9_conjecture). A century to figure out some theoretical nonsense? Please!
+Most researchers are convinced that their current work is <em>important</em>. Otherwise, they wouldn&rsquo;t do it. Yet, few of them work on obviously important things like curing cancer or solving world hunger. Rather, they do silly things like prove the [Poincaré conjecture](https://en.wikipedia.org/wiki/Poincar%C3%A9_conjecture). A century to figure out some theoretical nonsense? Please!
 
 So, why won&rsquo;t researchers work on the important problems of our era?
 
 The [conventional explanation](http://www.paulgraham.com/hamming.html) is that working directly on the major problems is like staring at the Sun. Instead, researchers must do routine work until an opening toward greatness opens up. So real researchers&hellip;
 
-- survey existing work,
+- survey existing work,
 - comment on special cases,
 - provide theoretical justifications for empirical observations,
 - validate new theory experimentally, and so on.
@@ -25,7 +25,7 @@ That is, researchers are not architects. They use greedy algorithms:
 - Wait! You are close to solve a major problem? Jump on it!
 
 
-Should scientists feel guilty that they can&rsquo;t prove the importance of each increment? I think not. I think scientists are inefficient, but there is no better way known to man. Indeed, consider how real innovation is typically unpredictable:
+Should scientists feel guilty that they can&rsquo;t prove the importance of each increment? I think not. I think scientists are inefficient, but there is no better way known to man. Indeed, consider how real innovation is typically unpredictable:
 
 - The greatest difference between my Honda Civic and the car I drove as a teenager is that I can lock and unlock all doors with a remote. This single function made all the difference in the world for me. I drive my wife nuts as I keep playing with the remote: lock, unlock, lock, unlock&hellip; And people thought we would have flying cars!
 - I am sure that Google offered better search results that [altavista](https://search.yahoo.com/?fr=altavista). Yet, the real reason I switched to Google and never looked back is that they did away with the big annoying ads. Understanding that you didn&rsquo;t need to annoy your users to make a profit was Google&rsquo;s greatest innovation. (Don&rsquo;t let them fool you into thinking PageRank had something to do with it.)

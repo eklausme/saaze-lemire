@@ -5,14 +5,12 @@ title: "Caching hash values for speed (Swift-language edition)"
 
 
 
-In my posts [Should you cache hash values even for trivial classes?](/lemire/blog/2018/03/29/should-you-cache-hash-values-even-for-trivial-classes/) and [When accessing hash tables, how much time is spent computing the hash functions?](/lemire/blog/2018/03/28/when-accessing-hash-tables-how-much-time-is-spent-computing-the-hash-functions/), I showed that caching hash values could accelerate operations over hash tables, sets and maps&hellip; even when the hash tables do not fit in CPU cache. 
-
+In my posts [Should you cache hash values even for trivial classes?](/lemire/blog/2018/03/29/should-you-cache-hash-values-even-for-trivial-classes/) and [When accessing hash tables, how much time is spent computing the hash functions?](/lemire/blog/2018/03/28/when-accessing-hash-tables-how-much-time-is-spent-computing-the-hash-functions/), I showed that caching hash values could accelerate operations over hash tables, sets and maps&hellip; even when the hash tables do not fit in CPU cache.
 To be clear, I do not mean to say that it is necessarily the computation of the hash values that is the bottleneck, however the whole computation, including the latency of the operations, slows you down more than you would think, even when dealing with out-of-cache data structures.
 
 In my earlier posts, I used the Java programming language. Java already relies on precomputed hash values in its standard library. Indeed, Java strings have precomputed hash values.
 
-It is always prudent to check observations using different programming languages. So I decided to reproduce a similar test using the Swift programming language. 
-
+It is always prudent to check observations using different programming languages. So I decided to reproduce a similar test using the Swift programming language.
 I create a trivial class containing three integer values just like I did in Java:
 ```C
 class Triple :  Hashable, Equatable {
@@ -70,5 +68,4 @@ But maybe it takes much longer creating BufferedTriple instances? In fact, no. I
 
 My point is not that you should always or often precompute hash values. There are obvious downsides to this memoization approach even if it did not stop the Java engineers from doing it for all strings. Consider this instead: if you think that when working with large, out-of-cache, data structures, computational speed is not important, your mental model of software performance is incomplete.
 
-__Further reading__: [For greater speed, try batching your out-of-cache data accesses](/lemire/blog/2018/04/12/for-greater-speed-try-batching-your-out-of-cache-data-accesses/) 
-
+__Further reading__: [For greater speed, try batching your out-of-cache data accesses](/lemire/blog/2018/04/12/for-greater-speed-try-batching-your-out-of-cache-data-accesses/)

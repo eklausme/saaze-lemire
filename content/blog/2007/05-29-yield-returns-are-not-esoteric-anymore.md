@@ -9,5 +9,4 @@ I did a little bit of research on the Web today, following a statement by my fri
 
 Turns out that yield returns are supported in C#, Visual Basic (VB.NET), Python and Ruby.
 
-So, yes, I&rsquo;d say that if you are programmer out there, you ought to know about yield returns. 
-
+So, yes, I&rsquo;d say that if you are programmer out there, you ought to know about yield returns.

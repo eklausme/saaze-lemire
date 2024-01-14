@@ -5,8 +5,7 @@ title: "Faster threshold queries with cache-sensitive scancount"
 
 
 
-Suppose that you are given 100 sorted arrays of integers. You can compute their union or their intersection. It is a common setup in data indexing: the integers might be unique identifiers. 
-
+Suppose that you are given 100 sorted arrays of integers. You can compute their union or their intersection. It is a common setup in data indexing: the integers might be unique identifiers.
 But there is more than just intersections and unions&hellip; What if you want all values that appear in more than three arrays?
 
 [A really good algorithm for this problem is called scancount](https://arxiv.org/abs/1402.4466). It is good because it is simple and usually quite fast.
@@ -31,8 +30,7 @@ This algorithm is almost entirely bounded by &ldquo;memory accesses&rdquo;. Memo
 
 Can you make scancount faster without sacrificing too much simplicity?
 
-So far we did not use the fact that our arrays can be sorted. Because they are sorted, then you can solve the problem in &ldquo;cache-sensitive&rdquo; or &ldquo;cache-aware&rdquo; chunks. 
-
+So far we did not use the fact that our arrays can be sorted. Because they are sorted, then you can solve the problem in &ldquo;cache-sensitive&rdquo; or &ldquo;cache-aware&rdquo; chunks.
 Build a small array of counters, spanning maybe only 256 kB. Process all arrays, as with the naive scancount, but suspend the processing of this array as soon as a value in the array exceeds 262144. This allows you to find all matching values in the interval [0, 262144). Next repeat the problem with the next interval ([262144,524288)), and so forth. In this manner, you will have far fewer expensive cache misses.
 
 [I implemented this solution in C++](https://github.com/lemire/Code-used-on-Daniel-Lemire-s-blog/tree/master/2019/08/16). Here are my results using random arrays, GNU GCC 8 and a Skylake processor. I report the number of CPU cycles per value in the arrays.

@@ -23,10 +23,8 @@ while (s.size() < N)
 
 Intuitively, this algorithm is hard to beat when you need to pick few integers from a large range. In this case, the probability that you will pick an already picked number is small. But, in fact, even if you need to pick one out of every two values from a range (say pick 10 integers in the interval [0, 20)), this algorithm is still reasonably efficient. Indeed, the probability that a given number is already picked is no larger than 50%. How many times (on average) do you need to generate new random numbers if you have a 50% probability of rejecting them? You can check that the answer 2. This means that as long as you don&rsquo;t need to pick more than half the values (N is no more than Max/2), you can expect to need to generate no more than Max random numbers.
 
-What if you need to pick more than Max/2 integers in [0,Max)? This can become a problem if you are not careful. Thankfully, there is a nice fix: picking N integers in [0,Max) for N large to Max is equivalent to picking Max-N integers in [0,Max) and then selecting the numbers you did not pick. Computing this complement can be done efficiently if you first sort the numbers you picked. This means that you can always assume that N is no larger than Max/2. 
-
-Still, it is reasonable to think that the performance of the hash-based algorithm degrade as N becomes closer to Max/2. 
-
+What if you need to pick more than Max/2 integers in [0,Max)? This can become a problem if you are not careful. Thankfully, there is a nice fix: picking N integers in [0,Max) for N large to Max is equivalent to picking Max-N integers in [0,Max) and then selecting the numbers you did not pick. Computing this complement can be done efficiently if you first sort the numbers you picked. This means that you can always assume that N is no larger than Max/2.
+Still, it is reasonable to think that the performance of the hash-based algorithm degrade as N becomes closer to Max/2.
 One possibly better alternative in this case&hellip; one that your typical Computer Science professor might propose&hellip; is [Reservoir Sampling](https://en.wikipedia.org/wiki/Reservoir_sampling). Though it sounds fancy, Reservoir Sampling is actually easily implemented:
 
 
@@ -45,8 +43,7 @@ One possibly better alternative in this case&hellip; one that your typical Compu
 
 
 
-It is not immediately obviously why this algorithm would work. However, it is correct. The nice thing about Reservoir Sampling is that we know exactly how many random numbers we need to generate: we need Max of them, no matter what. This means that Reservoir Sampling has a running time that depends on Max, but not a lot of N. 
-
+It is not immediately obviously why this algorithm would work. However, it is correct. The nice thing about Reservoir Sampling is that we know exactly how many random numbers we need to generate: we need Max of them, no matter what. This means that Reservoir Sampling has a running time that depends on Max, but not a lot of N.
 However, it turns out that an even better alternative might be to replace the hash table by a bitmap. A bitmap is just an array of bits. We need Max bits. If the value has already been picked, we set the bit to 1, otherwise the bit is set to 0. The algorithm is otherwise identical to the first hash-based algorithm:
 
 

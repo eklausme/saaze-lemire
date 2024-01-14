@@ -11,8 +11,7 @@ I do have pens, that I use to take notes on post-its. But that is about all. All
 
 On this note, my kids swear that most of their teachers can&rsquo;t touch type (type on a keyboard without looking at it) while they have been able to touch type before they could write in cursive.
 
-When I was a kid, I owned a typewriter, and later a computer (a TRS-80). Whenever I could, I would do my assignments on a typewriter or computer. The result was invariably nicer looking and more reusable. Typing used to be a skill limited to a few secretaries, but it is now ubiquitous in all walks of life. I never imagined that 30 years later, my kids would still have to write long texts using pencil and paper. 
-
+When I was a kid, I owned a typewriter, and later a computer (a TRS-80). Whenever I could, I would do my assignments on a typewriter or computer. The result was invariably nicer looking and more reusable. Typing used to be a skill limited to a few secretaries, but it is now ubiquitous in all walks of life. I never imagined that 30 years later, my kids would still have to write long texts using pencil and paper.
 I should qualify this statement: students with diagnosed learning disabilities, and that&rsquo;s a sizeable fraction of all students these days, can use a computer and a keyboard in class. My kids are envious. Why can&rsquo;t they use a computer? Why indeed!
 
 They are now learning to do algebra, by hand, as if you couldn&rsquo;t trivially solve algebraic equations on a computer. I am a computer scientist and I was trained as a mathematician, but I never solve quadratic equations on paper. The risk of mistake is too high. I rely on a computer. Literally, anyone can go to [WolframAlpha](https://www.wolframalpha.com), enter an equation, and get instantly the correct answer back. The challenge in modern-day mathematics is elsewhere. The dirty error-prone algebra is better done by computers. No engineer or accountant could remain employed and forbid the use of computers, the last engineers and accountants that worked without computers have long ago retired.
@@ -67,5 +66,4 @@ But that&rsquo;s a bit scary, isn&rsquo;t it? What if the kids start asking for 
 
 No, you don&rsquo;t need to teach all of them about trigonometry and the volume of a cone. Is that the best you have? It is not good enough. You are failing our kids.
 
-Enforcing the use of paper dictionaries in schools for pedagogical reasons in 2019 is as scientific as rejecting vaccination for fear of autism. 
-
+Enforcing the use of paper dictionaries in schools for pedagogical reasons in 2019 is as scientific as rejecting vaccination for fear of autism.

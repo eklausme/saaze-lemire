@@ -15,8 +15,7 @@ So, suppose you expect to have 1000 integers in the range from 0 to <em>N</em>. 
 
 I decided to implement a quick test to determine the answer. Instead of using the standard Java [BitSet](http://docs.oracle.com/javase/6/docs/api/java/util/BitSet.html), I decided to write my own bitset (henceforth [StaticBitSet](https://github.com/lemire/Code-used-on-Daniel-Lemire-s-blog/blob/master/2012/11/13/src/StaticBitSet.java)) that is faster in my tests. For the hashset, I compared both the standard HashSet and [TIntHashSet](http://trove4j.sourceforge.net/javadocs/gnu/trove/set/hash/TIntHashSet.html) and found that there was little difference in performance in my tests, so I report just the results with the standard HashSet (from the [OpenJDK 7](http://openjdk.java.net/projects/jdk7/)).
 
-The following table reports the speed in millions of elements per second for adding, removing and iterating through 1000 elements in the range from 0 to N. 
-
+The following table reports the speed in millions of elements per second for adding, removing and iterating through 1000 elements in the range from 0 to N.
 &nbsp;&nbsp;N&nbsp;&nbsp; |&nbsp;&nbsp;bitset&nbsp;&nbsp; |&nbsp;&nbsp;hashset&nbsp;&nbsp; |
 -------------------------|-------------------------|-------------------------|
 100,000                  |77                       |18                       |
@@ -28,7 +27,6 @@ These numbers are consistent with the theory. The speed of the hashset data stru
 
 The bitset data structure is more generally applicable than you might think.
 
-__Source__: My [Java source code](https://github.com/lemire/Code-used-on-Daniel-Lemire-s-blog/tree/master/2012/11/13) is available, as usual. 
-
-__Further reading__: In to [Sorting is fast and useful](/lemire/blog/archives/2010/05/20/sorting-is-fast-and-useful/), I showed that binary search over sorted array of integers could be a competitive way to test whether a value belongs to a set.
+__Source__: My [Java source code](https://github.com/lemire/Code-used-on-Daniel-Lemire-s-blog/tree/master/2012/11/13) is available, as usual.
+__Further reading__: In to [Sorting is fast and useful](/lemire/blog/2010/05/20/sorting-is-fast-and-useful/), I showed that binary search over sorted array of integers could be a competitive way to test whether a value belongs to a set.
 

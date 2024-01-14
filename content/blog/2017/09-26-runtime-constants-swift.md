@@ -9,8 +9,7 @@ title: "Runtime constants: Swift"
 
 Some readers asked about Swift, Apple&rsquo;s new language.
 
-Let us consider a fair comparison: 
-```C
+Let us consider a fair comparison:```C
 fileprivate var length = 10
 
 func sum(array : [Int]) -> Int {
@@ -55,8 +54,7 @@ print(sum(array:x))
 ```
 
 
-My array is too short. In C++, this would lead the `sum` function to read memory out of bound. If you compiled your code just right, you might get a warning, but the C++ language itself does not do anything to help you. 
-
+My array is too short. In C++, this would lead the `sum` function to read memory out of bound. If you compiled your code just right, you might get a warning, but the C++ language itself does not do anything to help you.
 In Swift, you get the following:
 ```C
 
@@ -80,8 +78,7 @@ $ ./mytest
 ```
 
 
-I got &ldquo;45&rdquo; but you could possibly get different values. 
-
+I got &ldquo;45&rdquo; but you could possibly get different values.
 That is, with normal optimization levels (typical of a release), you have bound checking and crashing programs. With the crazy optimization level (-Ounchecked), you get no safety.
 
 So the Swift compiler is a state-of-the-art optimizing compiler, at least as far as deducing runtime constants. That&rsquo;s not surprising, but it is nice to know.

@@ -14,7 +14,7 @@ Current practical database compression techniques stress speed over compression:
 - [LucidDB](http://www.luciddb.org/) similarly compresses its bitmap indexes with a [simple variation](http://www.luciddb.org/wiki/LucidDbDataStorageAndAccess#Compressed_Bitmaps) on run-length encoding.
 
 
-In a comment to my [previous blog post](/lemire/blog/2009/11/12/which-should-you-pick-a-bitmap-index-or-a-b-tree/#comments), [Rasmus Pagh](http://www.itu.dk/people/pagh/) asks more or less this question:
+In a comment to my [previous blog post](/lemire/blog/2009/11/12/which-should-you-pick-a-bitmap-index-or-a-b-tree/#comments), [Rasmus Pagh](http://www.itu.dk/people/pagh/) asks more or less this question:
 
 > Given that we have more and more CPU coresâ€”and generally more powerful CPUsâ€”shouldn&rsquo;t we compress the data more aggressively?
 

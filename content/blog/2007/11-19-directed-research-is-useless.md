@@ -12,8 +12,7 @@ There is [a nice article in Forbes](http://www.forbes.com/forbes/welcome/) which
 
 (Some years ago, I drafted a funding application where I carefully outlined what could go wrong. I was told that this was suicidal.)
 
-> It is high time to recognize that we humans are far better at doing than understanding, and better at tinkering than inventing. 
-
+> It is high time to recognize that we humans are far better at doing than understanding, and better at tinkering than inventing.
 
 This being said, I am not sure I agree with the [Black swan theory](https://en.wikipedia.org/wiki/Black_swan_theory). I need to think about it.
 

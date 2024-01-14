@@ -15,8 +15,7 @@ After seeking a good [GTD](https://en.wikipedia.org/wiki/GTD)-compliant to-do li
 
 Among the tools I have reviewed is Chandler which looks good but is still in alpha. Actiontastic is very nice, but is not GTD-compliant in my opinion and it is hard to tell what the license is. [What&rsquo;s next](http://whatsnextapp.com/) is really brilliant, but it is not GTD-compliant and comes with its own Web server which is a bit odd.
 
-Then you have [dcubed](http://www.dcubed.ca/) or [MonkeyGTD](http://monkeygtd.tiddlyspot.com/), TiddlyWiki-based solutions. It is very nice and there is no doubt some people will like it, but I never could get used to TiddlyWiki and I distrust it. 
-
+Then you have [dcubed](http://www.dcubed.ca/) or [MonkeyGTD](http://monkeygtd.tiddlyspot.com/), TiddlyWiki-based solutions. It is very nice and there is no doubt some people will like it, but I never could get used to TiddlyWiki and I distrust it.
 Really, the best application I found so far is [PHP-GTD](http://sourceforge.net/projects/phpgtd) but the developers are not hacking it fast enough and they seem to have a case of spaghetti code based on how slowly they come up with new versions.
 
 What I did is actually pretty sweet. I simply fill out an XML that looks like this:
@@ -41,7 +40,6 @@ What I need is brutally simple. I only need a server-side application that will 
 
 So, security issues aside, I think I only need a server-side application that&rsquo;s really very, very simple. Maybe ten lines of Perl or Python.
 
-I searched, but I can&rsquo;t find any discussion on the best possible way to do something so simple. Naturally, my goal here is to keep things so incredibly simple that can pick up my application and build their own variants. 
-
+I searched, but I can&rsquo;t find any discussion on the best possible way to do something so simple. Naturally, my goal here is to keep things so incredibly simple that can pick up my application and build their own variants.
 Anyone can help me?
 

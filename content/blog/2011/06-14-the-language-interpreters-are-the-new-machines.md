@@ -19,14 +19,14 @@ array.index(max(array))```
 &nbsp;                   |2.2 s                    |
 ```C
 def maxarg(arr):
-     counter = 0
-     arg = 0
-     m = arr[0]
-     for x in arr:
-          if x > m:
-               m = x
-               arg = counter
-          counter += 1
+     counter = 0
+     arg = 0
+     m = arr[0]
+     for x in arr:
+          if x > m:
+               m = x
+               arg = counter
+          counter += 1
     return arg```
 
 &nbsp;                   |4.2 s                    |
@@ -52,7 +52,7 @@ max(range(len(array)), key=array.__getitem__)```
 
 All of these solutions except for the first one go through the data only once. Yet the first solution is nearly twice as fast as any other alternative.
 
-Work blending high performance computing and  high level languages is likely to become increasingly important. Last week, I met with a [local start-up](http://datacratic.com/site/) that does [real-time Web ad](http://www.netpaths.net/blog/anatomy-of-a-real-time-google-ppc-auction/) auctions. Effectively, each time you visit a Web page, some of your data is sent to algorithms which must decide __very quickly__ what an ad to you is worth. Most of their real-time architecture is written in JavaScript and runs  under the [Google V8](https://code.google.com/p/v8/) engine. They assure me that JavaScript is not the bottleneck.
+Work blending high performance computing and  high level languages is likely to become increasingly important. Last week, I met with a [local start-up](http://datacratic.com/site/) that does [real-time Web ad](http://www.netpaths.net/blog/anatomy-of-a-real-time-google-ppc-auction/) auctions. Effectively, each time you visit a Web page, some of your data is sent to algorithms which must decide __very quickly__ what an ad to you is worth. Most of their real-time architecture is written in JavaScript and runs  under the [Google V8](https://code.google.com/p/v8/) engine. They assure me that JavaScript is not the bottleneck.
 
 It used to be that to write high performance software, you needed to know a lot about how the hardware worked. This era is coming to an end. The language interpreters are the new machines.
 

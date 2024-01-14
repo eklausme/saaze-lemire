@@ -5,7 +5,7 @@ title: "Catching sanitizer errors programmatically"
 
 
 
-The C and C++ languages offer little protection against programmer errors. Errors do not always show up where you expect. You can silently corrupt the content of your memory. It can make bugs difficult to track. To solve this problem, I am a big fan of programming in [C and C++ using sanitizers](/lemire/blog/2016/04/20/no-more-leaks-with-sanitize-flags-in-gcc-and-clang/). They slow your program, but the check that memory accesses are safe, for example.
+The C and C++ languages offer little protection against programmer errors. Errors do not always show up where you expect. You can silently corrupt the content of your memory. It can make bugs difficult to track. To solve this problem, I am a big fan of programming in [C and C++ using sanitizers](/lemire/blog/2016/04/20/no-more-leaks-with-sanitize-flags-in-gcc-and-clang/). They slow your program, but the check that memory accesses are safe, for example.
 
 Thus if you iterate over an array and access elements that are out of bounds, a memory sanitizer will immediately catch the error:
 ```C

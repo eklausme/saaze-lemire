@@ -5,10 +5,8 @@ title: "Pruning spaces from strings quickly on ARM processors"
 
 
 
-Suppose that I give you a relatively long string and you want to remove all spaces from it. In ASCII, we can define spaces as the space character (&lsquo;&nbsp;&lsquo;), and the line ending characters (&lsquo;\r&rsquo; and &lsquo;\n&rsquo;). I am mostly interested in algorithmic and performance issues, so we can simplify the problem by removing all byte values less or equal to 32. 
-
-[In a previous post where I asked how quickly we could prune spaces](/lemire/blog/2017/01/20/how-quickly-can-you-remove-spaces-from-a-string/), the best answer involved vectorization using 128-bit registers (SSSE3). It ends up being between 5 and 10 times faster than the naive approach. 
-
+Suppose that I give you a relatively long string and you want to remove all spaces from it. In ASCII, we can define spaces as the space character (&lsquo;&nbsp;&lsquo;), and the line ending characters (&lsquo;\r&rsquo; and &lsquo;\n&rsquo;). I am mostly interested in algorithmic and performance issues, so we can simplify the problem by removing all byte values less or equal to 32.
+[In a previous post where I asked how quickly we could prune spaces](/lemire/blog/2017/01/20/how-quickly-can-you-remove-spaces-from-a-string/), the best answer involved vectorization using 128-bit registers (SSSE3). It ends up being between 5 and 10 times faster than the naive approach.
 Conveniently enough, ARM processors all have 128-bit vector registers, just like x64 processors. So can we make ARM processors go as fast as x64 processors?
 
 Let us first consider a fast scalar implementation:

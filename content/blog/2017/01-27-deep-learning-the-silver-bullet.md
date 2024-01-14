@@ -11,8 +11,7 @@ In 2016, we saw a wide range of breakthroughs having to do with artificial intel
 
 We are in 2017, it is only January, and the breakthroughs in artificial intelligence keep on being announced. These days, we hear about how [the best human poker players are being defeated](https://www.technologyreview.com/s/603342/poker-is-the-latest-game-to-fold-against-artificial-intelligence/).
 
-In particular, a system from Carnegie Mellon University called [Libratus](https://en.wikipedia.org/wiki/Libratus) seems to have a lot of successes. 
-
+In particular, a system from Carnegie Mellon University called [Libratus](https://en.wikipedia.org/wiki/Libratus) seems to have a lot of successes.
 Details are scarce regarding Libratus. What caught my attention was the mention that it used &ldquo;counterfactual regret minimization&rdquo;, a conventional machine learning that is not a form of deep learning.
 
 Given all of the hype going to deep learning, I find it almost surprising&hellip; are there really still artificial intelligence researchers working on techniques other than deep learning? (I&rsquo;m being half serious.)

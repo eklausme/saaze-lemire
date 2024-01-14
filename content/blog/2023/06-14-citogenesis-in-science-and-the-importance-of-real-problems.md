@@ -29,11 +29,11 @@ Occasionally, someone might try both _X_ and <em>X</em>+, and they may report re
 
 This process is called [citogenesis](http://xkcd.com/978/). It is what happens when the truth is determined solely by the literature, not by independent experiments. Everyone assumes, implicitly, that <em>X</em>+ is better than <em>X</em>. The beauty of it is that you do not even need for anyone to have claimed so. You simply need to say that <em>X</em>+ is currently considered the best technique.
 
-Some claim that [science is self-correcting](/lemire/blog/2010/09/17/can-science-be-wrong-you-bet/). People will stop using <em>X</em>+ or someone will try to make a name for himself by proving that <em>X</em>+ is no better and maybe worse than <em>X</em>. But in a business of science driven by publications, it is not clear why it should happen. Publishing that <em>X</em>+ is no better than _X_ is an [unimpressive negative result](/lemire/blog/archives/2008/10/28/when-in-doubts-prefer-unimpressive-negative-results/) and those are rarely presented in prestigious venues.
+Some claim that [science is self-correcting](/lemire/blog/2010/09/17/can-science-be-wrong-you-bet/). People will stop using <em>X</em>+ or someone will try to make a name for himself by proving that <em>X</em>+ is no better and maybe worse than <em>X</em>. But in a business of science driven by publications, it is not clear why it should happen. Publishing that <em>X</em>+ is no better than _X_ is an [unimpressive negative result](/lemire/blog/2008/10/28/when-in-doubts-prefer-unimpressive-negative-results/) and those are rarely presented in prestigious venues.
 
 Of course, the next generation of scientist may have an incentive to displace old ideas. There is an intergenerational competition. If you are young and you want to make a name for yourself, displacing the ideas of the older people is a decent strategy. So it is credible that science may self-correct, one funeral at a time:
 
-> A new scientific truth does not triumph by convincing its opponents and making them see the light, but rather because its opponents eventually die (&hellip;) An important scientific innovation rarely makes its way by gradually winning over and converting its opponents (&hellip;) What does happen is that its opponents gradually die out, and that the growing generation is familiarized with the ideas from the beginning: another instance of the fact that the future lies with the youth.
+> A new scientific truth does not triumph by convincing its opponents and making them see the light, but rather because its opponents eventually die (&hellip;) An important scientific innovation rarely makes its way by gradually winning over and converting its opponents (&hellip;) What does happen is that its opponents gradually die out, and that the growing generation is familiarized with the ideas from the beginning: another instance of the fact that the future lies with the youth.
 — <cite>Max Planck, Scientific autobiography, 1950, p. 33, 97</cite>
 
 
@@ -49,12 +49,12 @@ But there is hope! If problem _P_ is a real problem, for example, a problem that
 
 We can actually see this effect. Talk to any Computer Scientist and he will tell you of clever algorithms that have never been adopted by the industry. Most often, there is an implication that industry is backward and that it should pay more attention to academic results. However, I suspect that in a lot of cases, the engineers have voted against <em>X</em>+ and in favor of _X_ after assessing them, fairly and directly. That is what you do when you are working on real problems and really need good results.
 
-It gets trickier in fields such a medicine because success may not ever be measured. Do you know if your doctor is more likely to cure you than another doctor? They may not even know themselves. So you need to work on problems where people measure the results, and where they have an incentive to  adopt ideas that work. In effect, you need real problems with people who have [skin in the game](https://en.wikipedia.org/wiki/Skin_in_the_game_(phrase)).
+It gets trickier in fields such a medicine because success may not ever be measured. Do you know if your doctor is more likely to cure you than another doctor? They may not even know themselves. So you need to work on problems where people measure the results, and where they have an incentive to  adopt ideas that work. In effect, you need real problems with people who have [skin in the game](https://en.wikipedia.org/wiki/Skin_in_the_game_(phrase)).
 
 <span data-offset-key="dmfui-0-0">We fall too often for the [reification fallacy](https://en.wikipedia.org/wiki/Reification_(fallacy))</span><span data-offset-key="dmfui-2-0">. </span>A science paper is a like a map. You can create a map of a whole new territory, even if you have never been there. The new territory might exist or it might not exist, or it could be quite different from what you have described. If you never visit the territory, if nobody visits the territory in question, then you may never find out about your mistake. In effect, we need actual explorers, not just map makers.
 
 
-<span data-offset-key="7onh3-0-0"> </span>
+<span data-offset-key="7onh3-0-0"> </span>
 
 
 <span data-offset-key="23ouj-0-0">And adding more map makers, and more maps, does not help. In some sense, it makes things harder. Who is going to compare all these maps? We need more explorers.</span>

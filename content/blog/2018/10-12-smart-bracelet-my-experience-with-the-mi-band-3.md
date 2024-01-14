@@ -30,8 +30,7 @@ Note that this is my personal taste. Several people have commented that my Mi Ba
 
 Secondly the positives:
 
-- The mobile app has been rock solid. It looks good. It seems less buggy than the Fitbit app which I often needed to restart. 
-- Notifications actually work! That is, if someone calls me or if I have a meeting, my bracelet will vibrate. In theory, Fitbit watches do that as well, but I never could get it to work reliably. It really improves my quality of life!
+- The mobile app has been rock solid. It looks good. It seems less buggy than the Fitbit app which I often needed to restart.- Notifications actually work! That is, if someone calls me or if I have a meeting, my bracelet will vibrate. In theory, Fitbit watches do that as well, but I never could get it to work reliably. It really improves my quality of life!
 - The bracelet works, it is responsive. I find it easy to use and configure.
 - Even though the bracelet continuously record my heart rate, the battery life is excellent.
 - Did I mention that it is only 35$? I have the Mi Band 3. If the Mi Band 4 comes out next year, I will be eager to purchase. I would gladly pay 35$ a year for a smart bracelet.

@@ -10,12 +10,9 @@ It has long been observed that progress depends on the outliers among us. Shaw&r
 > â€œThe reasonable man adapts himself to the world: the unreasonable one persists in trying to adapt the world to himself. Therefore all progress depends on the unreasonable man.â€
 
 
-I have never heard anyone argue against this observation. Progress depends on individuals who break free from the status quo. 
-
-But another undeniable observation has been that progress is accelerating. You can see this effect everywhere. Changes come faster and faster, and they are ever more drastic. I was taken aback this year when I read that smartphones were ubiquitous among Syrian refugees. Smartphones went from something for the rich kids in California to a necessity for the poorest among us in more or less 7 years. 
-
-Logically, if progress is accelerating, and progress depends on unreasonable people who act as outliers, then we must have more and more unreasonable people over time. 
-
+I have never heard anyone argue against this observation. Progress depends on individuals who break free from the status quo.
+But another undeniable observation has been that progress is accelerating. You can see this effect everywhere. Changes come faster and faster, and they are ever more drastic. I was taken aback this year when I read that smartphones were ubiquitous among Syrian refugees. Smartphones went from something for the rich kids in California to a necessity for the poorest among us in more or less 7 years.
+Logically, if progress is accelerating, and progress depends on unreasonable people who act as outliers, then we must have more and more unreasonable people over time.
 [Richard Florida](https://en.wikipedia.org/wiki/Richard_Florida) made a name for himself some years ago with his &ldquo;creative class&rdquo; theory. He hypothesized that economic progress was driven by what he called the &ldquo;creatives&rdquo;. There is some anecdotal evidence that the world is becoming more tolerant, and especially more so where it is also becoming richer. The number of people who [declare being outside an organized religion is growing](https://www.pewforum.org/2015/05/12/americas-changing-religious-landscape/). Homosexuality is increasingly accepted, at least in the West.
 
 I think that there is a virtuous circle at play. The richer we get, the more easily we can afford to tolerate unreasonable people, the more we can afford fantasy. In turn, fantasy makes genuine progress possible.

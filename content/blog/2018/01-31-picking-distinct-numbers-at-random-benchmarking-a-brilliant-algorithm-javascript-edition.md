@@ -94,7 +94,6 @@ m                        |n                        |naive                    |br
 
 So the brilliant algorithm does not fare better than the naive algorithm (in my tests), except when you need to select more than half of the values in the interval. However, in that case, you should probably optimize the problem by selecting the values you do not want to pick.
 
-My fast bitset-based algorithm is about an order of magnitude faster. [It relies on the FastBitSet.js library](https://github.com/lemire/FastBitSet.js). 
-
+My fast bitset-based algorithm is about an order of magnitude faster. [It relies on the FastBitSet.js library](https://github.com/lemire/FastBitSet.js).
 [My complete source code is available](https://github.com/lemire/Code-used-on-Daniel-Lemire-s-blog/tree/master/2018/01/31).
 

@@ -7,8 +7,7 @@ title: "Affordable TeraBytes"
 
 From [Slashdot](http://slashdot.org/), I learned that for $3k, one can buy a 1.6TB hard drive similar to normal PC hard drives:
 
-> 
-IO Data Device&rsquo;s new &lsquo;HDZ-UE1.6TS&rsquo; exemplifies the recent trend towards demand for higher storage capacities &#8212; it&rsquo;s an external hard drive setup offering a total capacity of 1.6TB. Not much larger than four 3.5&#8243; hard drives, the HDZ-UE1.6TS goes to show that any (rich) consumer can now easily have a boatload of storage space. (At current conversion rates, this would cost nearly $2,900.)
+>IO Data Device&rsquo;s new &lsquo;HDZ-UE1.6TS&rsquo; exemplifies the recent trend towards demand for higher storage capacities &#8212; it&rsquo;s an external hard drive setup offering a total capacity of 1.6TB. Not much larger than four 3.5&#8243; hard drives, the HDZ-UE1.6TS goes to show that any (rich) consumer can now easily have a boatload of storage space. (At current conversion rates, this would cost nearly $2,900.)
 
 
 

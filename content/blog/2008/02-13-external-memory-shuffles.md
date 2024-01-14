@@ -37,5 +37,5 @@ cat -n myfile.csv | sort --random-sort | cut -f 2-<br/>
 
 It may not generate a perfect shuffle, but it should be close.
 
-__Update__:  I have written a [follow-up blog post](/lemire/blog/2010/03/15/external-memory-shuffling-in-linear-time/).
+__Update__:  I have written a [follow-up blog post](/lemire/blog/2010/03/15/external-memory-shuffling-in-linear-time/).
 

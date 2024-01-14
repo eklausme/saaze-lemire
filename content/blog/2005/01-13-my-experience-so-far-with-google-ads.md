@@ -9,5 +9,4 @@ This is depressing. My blog gets millions of page loads per day (not really). So
 
 I never thought I would make any money, but I still expected a few clicks a week.
 
-To be fair, I think these ads are fairly useless. Right now, I see ads about blogging software. Maybe I write too much about blogging? 
-
+To be fair, I think these ads are fairly useless. Right now, I see ads about blogging software. Maybe I write too much about blogging?

@@ -9,8 +9,7 @@ title: "Science and Technology links (July 27th, 2018)"
 
 > [C elegans [a common worm] has less than 500 neural cells, but it has basic sensory system and muscle control! It can reproduce and mate](https://mobile.twitter.com/srchvrs/status/1022666119008661504).
 
-1. Almost everywhere in the world, people spend more time and money in schools. Sadly this does not obviously translate into smarter people. 
-
+1. Almost everywhere in the world, people spend more time and money in schools. Sadly this does not obviously translate into smarter people.
 > (&hellip;) [if we want to increase education, it&rsquo;s not enough to send kids to school. It&rsquo;s important that attending school also translates into acquiring specific skills](https://ourworldindata.org/edu-quality-key-facts).
 
 1. [Stronger men might be less fertile](https://www.sciencedirect.com/science/article/pii/S0003347218302021).

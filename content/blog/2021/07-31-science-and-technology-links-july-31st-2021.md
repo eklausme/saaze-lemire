@@ -25,8 +25,7 @@ title: "Science and Technology links (July 31st 2021)"
 
 1. [You can transmit data at over 300 terabits per second over the Internet](https://interestingengineering.com/japan-shattered-internet-speed-record-319-terabits).<br/>
 
-> 
-Not only have the researchers in Japan blown the 2020 record out of the proverbial water, but they&rsquo;ve done so with a novel engineering method capable of integrating into modern-day fiber optic infrastructure with minimal effort.
+>Not only have the researchers in Japan blown the 2020 record out of the proverbial water, but they&rsquo;ve done so with a novel engineering method capable of integrating into modern-day fiber optic infrastructure with minimal effort.
 
 
 It suggests that we are far away from upper limits in our everyday Internet use and that there are still fantastic practical breakthroughs to come. What could you do with a nearly infinite data bandwidth?

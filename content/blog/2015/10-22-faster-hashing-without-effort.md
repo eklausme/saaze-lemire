@@ -15,8 +15,7 @@ for (int i = 0; i < len; i++) {
 ```
 
 
-That function is very fast. Unfortunately, as it is written, it is not optimally fast for long arrays. The problem comes from the multiplication. To hash _n_ elements, we need to execute _n_ multiplications, and each multiplication relies on the result from the previous iteration. This introduces a data dependency. If your processor takes 3 cycles to complete the multiplication, then it might be idle half the time. (The compiler might use a shift followed by an addition to simulate the multiplication, but the idea is the same.) To compensate for the latency problem, you might unloop the function as follows: 
-```C
+That function is very fast. Unfortunately, as it is written, it is not optimally fast for long arrays. The problem comes from the multiplication. To hash _n_ elements, we need to execute _n_ multiplications, and each multiplication relies on the result from the previous iteration. This introduces a data dependency. If your processor takes 3 cycles to complete the multiplication, then it might be idle half the time. (The compiler might use a shift followed by an addition to simulate the multiplication, but the idea is the same.) To compensate for the latency problem, you might unloop the function as follows:```C
 for (; i + 3 < len; i += 4) {
    h = 31 * 31 * 31 * 31 * h 
        + 31 * 31 * 31 * val[i] 

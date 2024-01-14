@@ -9,8 +9,7 @@ I think the wave was started by [Seb](http://radio-weblogs.com/0110772/2004/11/0
 
 A reply comes from [Lance](http://blog.computationalcomplexity.org/2004/11/public-referee-reports.html) who says we should kill this idea quick. I think his counterargument is badly flawed. For example, he describes the review process as iterative:
 
-> 
-The referees read the paper and write a report on whether to recommend the paper for publication and give suggested changes. They send this report to the editor who relays this information to the authors without revealing the identities of the referees. The authors will comment on the referee reports and revise the paper. The paper often goes back to the referees and the process repeats until the editor is happy with the paper or decides the paper is not worthy of the journal.
+>The referees read the paper and write a report on whether to recommend the paper for publication and give suggested changes. They send this report to the editor who relays this information to the authors without revealing the identities of the referees. The authors will comment on the referee reports and revise the paper. The paper often goes back to the referees and the process repeats until the editor is happy with the paper or decides the paper is not worthy of the journal.
 
 
 
@@ -22,8 +21,7 @@ The back in forth you refer to is not present in 99% of conferences I know. You 
 
 Then he actually explains why he thinks public reviews are a bad idea:
 
-> 
-The process of refereeing requires considerable back and forth conversation between the three parties: the authors, the editor and the referees. Posting the original reports will give a misleading view of the process and will cause referees to act far too cautiously about pointing out problems in a paper.
+>The process of refereeing requires considerable back and forth conversation between the three parties: the authors, the editor and the referees. Posting the original reports will give a misleading view of the process and will cause referees to act far too cautiously about pointing out problems in a paper.
 
 
 

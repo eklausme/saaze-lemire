@@ -18,8 +18,8 @@ After I reported that by default (without forceful rules) Cloudflare did very li
 I traced back the problem to what is called an htaccess file on my server:
 ```C
 <IfModule mod_expires.c>
-<span class="Apple-converted-space">  ExpiresActive On
-<span class="Apple-converted-space">  ExpiresByType text/html A3
+<span class="Apple-converted-space">  ExpiresActive On
+<span class="Apple-converted-space">  ExpiresByType text/html A3
 &lt;/IfModule&gt;```
 
 

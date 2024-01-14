@@ -18,7 +18,7 @@ func main() {
 </code>```
 
 
-Running this program we get a binary string representing <code>1&lt;&lt;12</code>:
+Running this program we get a binary string representing <code>1&lt;&lt;12</code>:
 ```Go
 <code>0000000000000000000000000000000000000000000000000001000000000000
 </code>```

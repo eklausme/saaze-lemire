@@ -9,8 +9,7 @@ Some of my colleagues, including Michel Sénécal et Jean Robillard, have begun 
 
 From the SPIP web site:
 
-> 
-SPIP is a publishing system developed by the minirézo to manage the site uZine. We provide it to anyone as a free software under GPL license. Therefore, you can use it freely for your own site, be it personnal, co-operative, institutional or commercial.
+>SPIP is a publishing system developed by the minirézo to manage the site uZine. We provide it to anyone as a free software under GPL license. Therefore, you can use it freely for your own site, be it personnal, co-operative, institutional or commercial.
 
 
 I actually think I will give it a try the next time I develop an online course.

@@ -17,14 +17,12 @@ Finally, Anno Langen sent me a code sample in JavaScript, so I no longer any exc
 
 In this benchmark, we receive 1408 random integers and we must collect the smallest 128.
 
-The approach using a binary heap can run about 37,000 times a second, whereas QuickSelect runs 45,000 times per second, or about 20% faster. They are both about an order of magnitude faster than the naive sort/slice approach. 
-
+The approach using a binary heap can run about 37,000 times a second, whereas QuickSelect runs 45,000 times per second, or about 20% faster. They are both about an order of magnitude faster than the naive sort/slice approach.
 For all practical purposes, 20% faster is negligible in this case. I have actually hit a sweet spot where QuickSelect and the binary heap are comparable.
 
 What are other cases of interest?
 
-- If you only seek the top 5 elements out of an array, then the binary heap is likely to beat QuickSelect, irrespective of how many elements I have. The binary heap will fit in one or two cache lines, and the log _k_ factor will be small. 
-- If I keep _k_ at a sizeable 128, but I increase substantially the size of the array, then QuickSelect will start to win big.
+- If you only seek the top 5 elements out of an array, then the binary heap is likely to beat QuickSelect, irrespective of how many elements I have. The binary heap will fit in one or two cache lines, and the log _k_ factor will be small.- If I keep _k_ at a sizeable 128, but I increase substantially the size of the array, then QuickSelect will start to win big.
 - However, if I keep increasing the array size, the benefits of QuickSelect might start to fade. Indeed, QuickSelect will start to operate in RAM whereas the binary heap will remain in CPU cache. QuickSelect will become increasingly limited by potentially expensive cache misses.
 - QuickSelect still has the worst case quadratic-time scenario that could be triggered by really bad input data. The binary heap is more likely to provide consistent speed.
 

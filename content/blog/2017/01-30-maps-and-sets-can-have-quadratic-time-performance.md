@@ -21,8 +21,7 @@ How do we resolve this problem? There are two popular techniques. One of them is
 
 In Swift, they use linear probing. Linear probing is also simple to implement: if you try to store a value at an occupied slot, you just move to the next available slot. When you seek a value, you start from the index indicated by the hash value, and move forward until you either find your value or an empty slot.
 
-Suppose that you want to insert a new element, and you get a collision. With chaining, this means that you need to append a value to a container (typically an array). Before you do so, you need to check whether your value is already present in the container&hellip; This means that if you repeatedly insert to the same container, you will have quadratic-time complexity. That is, it gets very slow very fast. You have to be quite unlucky for this to happen. 
-
+Suppose that you want to insert a new element, and you get a collision. With chaining, this means that you need to append a value to a container (typically an array). Before you do so, you need to check whether your value is already present in the container&hellip; This means that if you repeatedly insert to the same container, you will have quadratic-time complexity. That is, it gets very slow very fast. You have to be quite unlucky for this to happen.
 Things get somewhat worse with linear probing. In linear probing, not only can you collide with values that have the same hash value, but you also tend to collide with other values to have nearby hash values! This means that the performance of linear probing can be quite a bit worse than the performance of chaining, in the worst case.
 
 In several languages, such as PHP and JavaScript, maps preserve the &ldquo;insertion order&rdquo; which means that when iterating through the values stored, you do so in the order in which they were inserted. So if you first inserted a key having to do with &ldquo;John&rdquo; and then one having to do with &ldquo;Mary&rdquo;, the map will remember and default in this order. However, Swift does not appear to keep track of the insertion order by default. This creates a performance trap.
@@ -65,8 +64,7 @@ Let us look at the number. Let us start with a small set made of a million eleme
 
 Ok. So reinserting the data from the big set to the small set takes 5 times longer. &ldquo;No big deal&rdquo;, you think, &ldquo;I have CPU cycles to spare.&rdquo;
 
-Let us grow the set a bit more, to 16 million elements: 
-
+Let us grow the set a bit more, to 16 million elements:
 - Build time: 180 ns/element
 - Reinsertion: 3400 ns/element
 

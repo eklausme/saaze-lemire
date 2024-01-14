@@ -20,8 +20,7 @@ You do not need to know what a logarithm is? Depends what you do for a living. I
 
 What about trigonometry? Most people working in a factory doing non trivial work need a basic understanding of trigonometry.
 
-I must admit that I have little use for the chemistry I learned, but then, I have little use for the geography either. Who needs to know where is [Val d&rsquo;Or](https://en.wikipedia.org/wiki/Val_d%27Or)? 
-
+I must admit that I have little use for the chemistry I learned, but then, I have little use for the geography either. Who needs to know where is [Val d&rsquo;Or](https://en.wikipedia.org/wiki/Val_d%27Or)?
 Where he is right however is that math and science are not as important as some lobbies make it out to be. I know a lot about how to solve nonlinear differential equations. Way more than I need considering I haven&rsquo;t seen a nonlinear differential equation in nearly 10 years.
 
 But to be fair, education takes a long time to adjust. My education was modeled after the space race. We were all to be rocket designers or astronauts (or maybe cosmonauts if you were a pessimist). So Physics, differential equations, algebra, and so on, were thought to be central. It turns out that it is a fringe subject. Few people work for the space industry.

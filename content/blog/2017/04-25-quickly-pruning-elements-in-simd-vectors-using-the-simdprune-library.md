@@ -5,12 +5,10 @@ title: "Quickly pruning elements in SIMD vectors using the simdprune library"
 
 
 
-Modern processors have powerful vector instructions. However, some algorithms are tricky to implement using vector instructions. 
-
+Modern processors have powerful vector instructions. However, some algorithms are tricky to implement using vector instructions.
 I often need to prune selected values from a vector. On x64 processors, we can achieve this result using table lookups and an efficient shuffle instruction. Building up the table each time gets tiring, however.
 
-Let us consider two of my recent blog posts [Removing duplicates from lists quickly](/lemire/blog/2017/04/10/removing-duplicates-from-lists-quickly/) and [How quickly can you remove spaces from a string?](/lemire/blog/2017/01/20/how-quickly-can-you-remove-spaces-from-a-string/) They follow the same pattern. We take a vector, identify the values that we want to remove, build a corresponding bit mask and then remove them. In one case, we want to remove repeated values, in another, we want to remove spaces. 
-
+Let us consider two of my recent blog posts [Removing duplicates from lists quickly](/lemire/blog/2017/04/10/removing-duplicates-from-lists-quickly/) and [How quickly can you remove spaces from a string?](/lemire/blog/2017/01/20/how-quickly-can-you-remove-spaces-from-a-string/) They follow the same pattern. We take a vector, identify the values that we want to remove, build a corresponding bit mask and then remove them. In one case, we want to remove repeated values, in another, we want to remove spaces.
 Building the bit mask is efficient and takes only a few instructions:
 
 - We can identify the values to remove using vectorized comparisons (e.g., using the intrinsics `_mm_cmpeq_epi8` or <tt>_mm256_cmpeq_epi32</tt>). This is typically very inexpensive.

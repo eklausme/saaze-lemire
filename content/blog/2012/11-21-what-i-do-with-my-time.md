@@ -24,8 +24,7 @@ We are Wednesday. Here is what kept me busy this week:
 - Because I chair a certificate program, I had to answer a few questions from students. This afternoon, I wrote a long email to help the program coordinators. We are going to build some kind of FAQ for students.
 - I was asked whether my graduate data warehouse course would be offered next term. I explained to the chair of the IT M.Sc. program that it would be offered but that students can&rsquo;t register right now.
 - Because there is much demand for this upcoming graduate data warehousing course, I prepared a long email with supporting documents to help move this along. I will be offering three graduate courses next term. And yes, I do all the grading myself. I am currently offering two though most of my teaching time is used up by the undergraduate database course that I am offering for the first time this term.
-- I spent a few hours this week arguing with a database student that, well, it is not ok if he is weak in mathematics. He needs to build up his expertise. 
-- Someone submitted a problem to me about transcoding UTF-8 to UTF-16. We exchanged a few emails and I proposed a data structure along with a reference paper. This may eventually become a blog post.
+- I spent a few hours this week arguing with a database student that, well, it is not ok if he is weak in mathematics. He needs to build up his expertise.- Someone submitted a problem to me about transcoding UTF-8 to UTF-16. We exchanged a few emails and I proposed a data structure along with a reference paper. This may eventually become a blog post.
 - I spent some time worrying that I am still without news about a paper I submitted 9 months ago to a journal.
 - I sometimes supervise Ph.D. students in the cognitive computer science program. The program is being reviewed right now. I spent my morning on Monday at a meeting with external experts.
 - Tomorrow, I have two administrative meetings occupying the full day.
@@ -47,8 +46,7 @@ Some things that I have not done:
 - I used to spent a lot of time following blogs. I do not have much time for this anymore.
 - I am also not attending strip clubs or doing threesomes. I do not have a mistress.
 - Unlike one of my friends, I do not run a farm.
-- I do not travel. 
-- I am not active in politics.
+- I do not travel.- I am not active in politics.
 - Other than swearing, I have no religious activity.
 - I do not have a side business. I do not consult.
 - I do not workout. (I compensate by drinking coffee.)
@@ -57,5 +55,4 @@ Some things that I have not done:
 - Though I shower every day, I do not spend any time at all trying to look nice. I pick my clothes randomly in the morning. I am sometimes astonished how business-like some of my colleagues look.
 
 
-__Conclusion__: I do not know what to conclude, but I am interested in how what I do differs from what other people do. 
-
+__Conclusion__: I do not know what to conclude, but I am interested in how what I do differs from what other people do.

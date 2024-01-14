@@ -19,16 +19,14 @@ In the last few years, troubles have arisen for those who benchmark the brain. I
 
 What is fascinating is that as we take down the brain from its pedestal, step by step, people remain eager to dismiss everything human-made as massively inferior:
 
-- &ldquo;Sure, my phone can translate this Danish writing on the wall for me, but it got the second sentence completely wrong. Where&rsquo;s your fantastic AI now?&rdquo; 
-- &ldquo;Sure, I can go to any computer and ask Google, in spoken English, where Moldova is, and it will tell me better than a human being could&hellip; But when I ask it when my favorite rock band was playing again, it cannot figure out what my favorite rock band was. Ah! It is a joke!&rdquo;
+- &ldquo;Sure, my phone can translate this Danish writing on the wall for me, but it got the second sentence completely wrong. Where&rsquo;s your fantastic AI now?&rdquo;- &ldquo;Sure, I can go to any computer and ask Google, in spoken English, where Moldova is, and it will tell me better than a human being could&hellip; But when I ask it when my favorite rock band was playing again, it cannot figure out what my favorite rock band was. Ah! It is a joke!&rdquo;
 
 
 A general objection regarding the brain is that there is so much we do not know. As far as I can tell, we do not know how the brain transforms sounds into words, and words into ideas. We know which regions of the brains are activated, but we do not fully understand how even individual neurons work.
 
 People assume that to surpass nature, we need to fully understand it and to further fully reproduce it. The Wright brothers would have been quite incapable of modeling bird flight, let alone reproduce it. And a Boeing looks like no bird I know&hellip; and that&rsquo;s a good thing&hellip; I would hate to travel on top of a giant mechanical bird.
 
-Any programmer will tell you that it can be orders of magnitude easier to reprogram something from scratch, rather than start from spaghetti code that was somehow made to work. We sometimes have a hard time matching nature, not because nature was so incredibly brilliant&hellip; but rather because, as an engineer, nature is a terrible hack: no documentation whatsoever, and an &ldquo;if it works, it is good enough&rdquo; attitude. 
-
+Any programmer will tell you that it can be orders of magnitude easier to reprogram something from scratch, rather than start from spaghetti code that was somehow made to work. We sometimes have a hard time matching nature, not because nature was so incredibly brilliant&hellip; but rather because, as an engineer, nature is a terrible hack: no documentation whatsoever, and an &ldquo;if it works, it is good enough&rdquo; attitude.
 This same objection, &ldquo;there is so much we do not know&rdquo;, is used everywhere by pessimists. Academics are especially prone to fall back on this objection, because they like to understand&hellip; But, of course, all the time, we develop algorithms and medical therapies that work, without understanding everything about the problem. That&rsquo;s the beautiful thing about the world we live in: we can act upon it in an efficient manner without understanding all of it.
 
 Our puny brains may never understand themselves, but that does make our brain wonderful and mysterious&hellip; it is more likely the case that our brains are a hack that works well enough, but that is far from the best way to achieve intelligence.

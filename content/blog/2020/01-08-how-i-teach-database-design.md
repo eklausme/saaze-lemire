@@ -23,5 +23,5 @@ Does that mean that anything goes and that you don&rsquo;t need to worry about d
 
 So how do I teach database design? I ask students to be critical about the textbook material, and I expose them as much as possible to real-world example where things are not perfectly neat. Begin by looking under the hood of your favorite open-source project.
 
-__Further reading__: [On Desirable Semantics of Functional Dependencies over Databases with Incomplete Information](https://arxiv.org/abs/1703.08198), Fundamenta Informaticae 158 (2018); [Functional dependencies with null markers](https://arxiv.org/abs/1404.4963), Computer Journal 58 (2015); [A Call to Arms: Revisiting Database Design](https://arxiv.org/abs/1105.6001), SIGMOD Record 40 (2011).
+__Further reading__: [On Desirable Semantics of Functional Dependencies over Databases with Incomplete Information](https://arxiv.org/abs/1703.08198), Fundamenta Informaticae 158 (2018); [Functional dependencies with null markers](https://arxiv.org/abs/1404.4963), Computer Journal 58 (2015); [A Call to Arms: Revisiting Database Design](https://arxiv.org/abs/1105.6001), SIGMOD Record 40 (2011).
 

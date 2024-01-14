@@ -87,7 +87,7 @@ bool fast_is_special(std::string_view input) {
 
 
 
-Though I did not do it, you can extend the comparison so that it is case-insensitive (simply AND the input with the bytes 0xdf instead of the bytes 0xff).
+Though I did not do it, you can extend the comparison so that it is case-insensitive (simply AND the input with the bytes 0xdf instead of the bytes 0xff).
 
 You can use a faster approach if you can assume that the input string has been padded with zeros:
 ```C
@@ -186,7 +186,7 @@ hashing (shiftxor_is_special) |0.4 ns/string            |
 
 Care is needed when optimizing such small functions: whether and how the function gets inlined can be critical to the good performance. The results will depend also on the data source and on the compiler.
 
-The hashing method (e.g., shiftxor_is_special) has the benefit of being essentially branch-free which makes its performance having little dependency on the distribution of the input. It is also fastest in these tests.
+The hashing method (e.g., shiftxor_is_special) has the benefit of being essentially branch-free which makes its performance having little dependency on the distribution of the input. It is also fastest in these tests.
 
 If you cannot safely pad your strings, I recommend the hashnocheat_is_special function. Having to deal with variable-length strings is significantly slower, but it is sometimes necessary.
 

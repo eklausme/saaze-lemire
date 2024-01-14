@@ -7,8 +7,7 @@ title: "Consciousness and free will are illusions: you are just a robot"
 
 As a computer scientist, it is natural for me to view the brain as a computer. And though computers have different abilities, they are also very much all equivalent at a fundamental level. You have machines that can read and execute instructions. Some machines can run faster, others can hold more instructions&hellip; but these are details. Your computer may use transistors, DNA methylation, an actual mechanical tape or neurons, but that&rsquo;s just a matter of implementation.
 
-Unlike digital computers, our brains evolved to support software functions that we do not fully understand yet. 
-
+Unlike digital computers, our brains evolved to support software functions that we do not fully understand yet.
 <em>I have kids. They are my kids. I look outside. There is snow. I can type at this computer. I know who &ldquo;I&rdquo; am.<br/>
 </em>
 

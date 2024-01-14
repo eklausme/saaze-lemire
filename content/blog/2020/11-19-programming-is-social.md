@@ -5,7 +5,7 @@ title: "Programming is social"
 
 
 
-Software programming looks at a glance like work done best done in isolation. Nothing could be further from the truth in my experience. Though you may be working on your little program alone, you should not dismiss the social component of the work.
+Software programming looks at a glance like work done best done in isolation. Nothing could be further from the truth in my experience. Though you may be working on your little program alone, you should not dismiss the social component of the work.
 
 I often say that &ldquo;programming is social&rdquo; to justify the fact that I know and practice multiple programming languages. I also use this saying to justify the popularity of programming languages like JavaScript, Go and even C and Java.
 

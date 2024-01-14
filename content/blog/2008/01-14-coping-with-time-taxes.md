@@ -10,8 +10,7 @@ Maybe you got monetarily richer over the last few years, but do you have more ti
 To avoid these time taxes, I know of some strategies:
 
 - Working at home and online is a highly effective way to avoid time taxes. I am always amazed how much faster I can buy an item on the Web. Lining up for a cashier is so XX<sup>th</sup> century! Working at home means you spend less time in hallways chatting randomly with colleagues and students.
-- You should avoid synchronous meetings including phone calls. Having to be at a certain place at a certain time introduces several small time taxes in your schedule. 
-- Focusing on a few essential and simple projects means you will spend less time filling up forms and doing other bureaucratic chores. There is no evidence that complex projects are better for your career. You know you are focusing when your life is simple.
+- You should avoid synchronous meetings including phone calls. Having to be at a certain place at a certain time introduces several small time taxes in your schedule.- Focusing on a few essential and simple projects means you will spend less time filling up forms and doing other bureaucratic chores. There is no evidence that complex projects are better for your career. You know you are focusing when your life is simple.
 - Your emails should be less than five sentences and you should write them during a time period of the day so that email remains asynchronous.
 - Learning to say __no__ is essential to keep your sanity &mdash; and your significant other. Without control, random service tasks or secondary research projects can eat up all of your free time.
 

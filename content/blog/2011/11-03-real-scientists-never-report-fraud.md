@@ -19,5 +19,5 @@ Some point out to me that this does not apply to fields such as Computer Science
 
 But what is critical is that traditional peer review does not protect against fraud. It is merely a check that the work appears superficially correct and interesting. A reviewer who would go out of his way to check whether a paper reports truthful results should not expect accolades. That is not how the game is played.
 
-__Further reading__: [How reliable is science?](/lemire/blog/archives/2010/09/06/how-reliable-is-science/)
+__Further reading__: [How reliable is science?](/lemire/blog/2010/09/06/how-reliable-is-science/)
 

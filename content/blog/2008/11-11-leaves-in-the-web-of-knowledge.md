@@ -14,5 +14,4 @@ It appears that I am not alone. Here is Zeilberger on why errors in 99.9% of mat
 
 I agree that getting a formula wrong is no big deal. As long as we have a diverse set of researchers working on different problems, important errors are not going to survive long. Fortunately.
 
-[Cheating and biases](http://www.daniel-lemire.com/blog/archives/2008/08/21/peer-review-is-an-honor-based-system/) is what we need to worry about. 
-
+[Cheating and biases](http://www.daniel-lemire.com/blog/archives/2008/08/21/peer-review-is-an-honor-based-system/) is what we need to worry about.

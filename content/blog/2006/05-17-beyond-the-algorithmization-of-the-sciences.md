@@ -7,8 +7,7 @@ title: "Beyond the algorithmization of the sciences"
 
 Thomas Easton promotes algorithms as a higher form of science in his paper Beyond the algorithmization of the sciences:
 
-> 
-Algorithms have thus made biology as useful a science as physics, chemistry, and computer science. But are algorithms enough to move biology closer to the throne? Are they math?<br/>
+>Algorithms have thus made biology as useful a science as physics, chemistry, and computer science. But are algorithms enough to move biology closer to the throne? Are they math?<br/>
 (&hellip;)<br/>
 Five decades ago, most mathematicians would have said no. Then in the 1970s, they discovered the value of computers for &ldquo;proving&rdquo; theorems (&hellip;)
 

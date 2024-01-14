@@ -15,7 +15,7 @@ where `compare` is a function which returns an integer less than, equal to, or g
 ```C
 int compare(const void *a, const void *b) {
   double x = *(double *)a;
-  double y = *(double *)b;
+  double y = *(double *)b;
   counter++;
   if (x < y) {
     return -1;

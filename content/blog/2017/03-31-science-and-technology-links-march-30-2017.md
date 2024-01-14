@@ -12,8 +12,7 @@ A famous and highly-funded researcher from Cornel, Brian Wansink, has published 
 
 This story is interesting. How can you tell that a published paper is junk? Here is a nice trick: suppose I tell you that I have three integers and their average is 4.131. You know that it is simply not possible. I could have 4.000, 4.333, 4.667, but I could never get 4.131. If you see 4.131, you know the person made up the average. It tells us more: not only did the researcher not bother to actual gather integer values, he did not even bother making them up&hellip; he just made up the averages. This bears a name: Granularity-Related Inconsistency of Means (GRIM). That a scientific paper should avoid GRIM is putting the bar on science quite low&hellip; Yet half of well regarding psychology papers have made up aggregated numbers:
 
-> 
-Using GRIM, they examined 260 psychology papers that appeared in well-regarded journals and found that, of the ones that provided enough necessary data to check, half contained at least one mathematical inconsistency. One in five had multiple inconsistencies.
+>Using GRIM, they examined 260 psychology papers that appeared in well-regarded journals and found that, of the ones that provided enough necessary data to check, half contained at least one mathematical inconsistency. One in five had multiple inconsistencies.
 
 
 So what about our famous and highly funded researcher, Wansink? Researchers found&hellip;
@@ -30,21 +29,18 @@ The bar in science is very low but especially low in psychology and related fiel
 
 Fasting is often considered healthy. [Scientists report that fasting for three consecutive days regenerate the entire immune system](http://www.telegraph.co.uk/science/2016/03/12/fasting-for-three-days-can-regenerate-entire-immune-system-study/). If true, this might help, for example, cancer patients who often have damaged immune systems. [It seems that fasting could cure Type 1 diabetes](http://www.cell.com/cell/abstract/S0092-8674(17)30130-7), the type that affects young and old people. This makes sense since type 1 diabetes is an autoimmune disease (the body attacks its own pancreas). The result is intriguing because many of us suffer from autoimmune diseases, like allergies. (Speaking for myself, I do not ever dare to fast as I am concerned about losing weight: I am quite small as it is.)
 
-Men who have prostate cancer often receive hormone therapy (androgen deprivation) to reduce their level of testosterone. But we know that men have more muscles than women&hellip; and that this is related to testosterone levels. [So can you still build large muscles, even if you have artificially low levels of testosterone?](https://www.ncbi.nlm.nih.gov/pubmed/28359098) It seems that you might, given the right protein supplementation: 
-
+Men who have prostate cancer often receive hormone therapy (androgen deprivation) to reduce their level of testosterone. But we know that men have more muscles than women&hellip; and that this is related to testosterone levels. [So can you still build large muscles, even if you have artificially low levels of testosterone?](https://www.ncbi.nlm.nih.gov/pubmed/28359098) It seems that you might, given the right protein supplementation:
 > Testosterone appears to play a role in maintaining muscle mass but is not necessary to initiate a robust response in muscle protein synthesis following resistance exercise when combined with protein ingestion (&hellip;)
 
 
-It is an intriguing result given that it is widely reported that women only ever &ldquo;bulk up&rdquo; when they take hormones. What this paper suggests to me is that women who take enough protein and who train a lot could build up large muscles, without hormonal tricks. 
-
+It is an intriguing result given that it is widely reported that women only ever &ldquo;bulk up&rdquo; when they take hormones. What this paper suggests to me is that women who take enough protein and who train a lot could build up large muscles, without hormonal tricks.
 A Quantum Computing start-up, Rigetti Computing, [received 64 million dollars in funding](http://www.prnewswire.com/news-releases/rigetti-computing-raises-64-million-in-series-a-and-b-funding-led-by-andreessen-horowitz-and-vy-capital-300430164.html). I am not entirely sure what quantum computing is good for, but some people must have practical plans.
 
 Doctors printed a titanium vertebra to repair a women&rsquo;s spine. [It seems that the woman will be able to walk again](http://www.hindustantimes.com/gurgaon/gurgaon-3d-printed-vertebrae-helps-woman-walk-again/story-KvGAiH6nv1DkUQxQdnxfWN.html).
 
 Moore&rsquo;s law is the idea that every two years or so, the number of transistors on processors doubles. There are many questions about whether Moore&rsquo;s law still holds. Certainly, it seems that Intel, the company, has given up of using Moore&rsquo;s law as part of its business plan. Part of the issue is that there are limits as to how small a transistor can be (clearly, you can&rsquo;t make transistors with less an atom.) [Klien offers a more optimistic take](http://lifeboat.com/blog/2016/12/proof-that-moores-law-is-accelerating-and-bringing-the-singularity-with-it) on our near-time future:
 
-- Though components cannot get infinitely smaller, many memory chips are going 3D. Even if the components cannot get smaller, by piling them up, we can build ever more powerful chips. 
-- Though Intel&rsquo;s chips are not getting much faster year after year, Nvidia has seen the performance of its chips multiplied year after year.
+- Though components cannot get infinitely smaller, many memory chips are going 3D. Even if the components cannot get smaller, by piling them up, we can build ever more powerful chips.- Though Intel&rsquo;s chips are not getting much faster year after year, Nvidia has seen the performance of its chips multiplied year after year.
 
 
 A [Japanese man received reprogrammed stem cells](http://www.nature.com/news/japanese-man-is-first-to-receive-reprogrammed-stem-cells-from-another-person-1.21730) to help restore some of his vision.
@@ -57,21 +53,18 @@ Last year, we got good and affordable virtual reality hardware: the HTC Vive, th
 
 Retinitis pigmentosa is a terrible disease that leads to blindness. [We are literally giving back (some) vision to affected individuals using bionic eyes](http://www.osa-opn.org/home/articles/volume_28/april_2017/features/vision_accomplished_the_bionic_eye/):
 
-> Another retinal implant, the Alpha IMS from the German company Retina Implant AG, became, in 2013, the second wireless retinal implant to receive the CE mark in Europe. The device is a tiny microchip measuring 3 mm<sup>2</sup> with 1,500 microphotodiode-amplifier pixels that replace photoreceptor function in the eye. 
-
+> Another retinal implant, the Alpha IMS from the German company Retina Implant AG, became, in 2013, the second wireless retinal implant to receive the CE mark in Europe. The device is a tiny microchip measuring 3 mm<sup>2</sup> with 1,500 microphotodiode-amplifier pixels that replace photoreceptor function in the eye.
 
 Of course, 1,500 pixels is not a whole lot, but let us bet that the pixel count will go up quickly at some point in the near future.
 
 [Larry Summers](https://en.wikipedia.org/wiki/Lawrence_Summers), a reputed economist, tell us that [technology is more important for jobs than international trade](https://www.washingtonpost.com/news/wonk/wp/2017/03/27/larry-summers-mnuchins-take-on-artificial-intelligence-is-not-defensible/):
 
-> 
-Artificial intelligence is behind autonomous vehicles that will affect millions of jobs driving and dealing with cars within the next 15 years, even on conservative projections. Artificial intelligence is transforming everything from retailing to banking to the provision of medical care. Almost every economist who has studied the question believes that technology has had a greater impact on the wage structure and on employment than international trade and certainly a far greater impact than whatever increment to trade is the result of much-debated trade agreements.
+>Artificial intelligence is behind autonomous vehicles that will affect millions of jobs driving and dealing with cars within the next 15 years, even on conservative projections. Artificial intelligence is transforming everything from retailing to banking to the provision of medical care. Almost every economist who has studied the question believes that technology has had a greater impact on the wage structure and on employment than international trade and certainly a far greater impact than whatever increment to trade is the result of much-debated trade agreements.
 
 
 Not all fat in our bodies is the same. A particularly interesting type of fat is called &ldquo;brown fat&rdquo;. This type of fat burns calories to warm you up. It seems that we can activate this fat, maybe as a way to fight obesity. [Scientists have found a safe way to activate brown fat (in mice)](https://medicalxpress.com/news/2017-03-brown-fat-green.html):
 
-> 
-The researchers began with a cohort of nine healthy human volunteers, taking blood samples first at normal room temperatures and then at temperatures cold enough to activate brown fat. Levels of 12,13-diHOME rose significantly among all the volunteers in the cold. &ldquo;After we identified this lipid in the human cohort, we used it to treat mice,&rdquo; says Lynes. &ldquo;We showed that it indeed can activate fuel uptake into brown fat, and improve brown fat performance.&rdquo;
+>The researchers began with a cohort of nine healthy human volunteers, taking blood samples first at normal room temperatures and then at temperatures cold enough to activate brown fat. Levels of 12,13-diHOME rose significantly among all the volunteers in the cold. &ldquo;After we identified this lipid in the human cohort, we used it to treat mice,&rdquo; says Lynes. &ldquo;We showed that it indeed can activate fuel uptake into brown fat, and improve brown fat performance.&rdquo;
 
 
 As a bonus, we could imagine saving on heating costs by turning our own fat as radiators.

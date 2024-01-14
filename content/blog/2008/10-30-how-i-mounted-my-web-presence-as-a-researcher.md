@@ -18,9 +18,9 @@ Around 2004, academic blogging emerge as a new trend. Researchers like [Stephen 
 <em>Do you have a sense of what parts of your web site are most commonly consulted? What would you recommend that other professors include on a web site? Anything you would avoid?<br/>
 </em>
 
-My blog is read by over 1000 people. Judging by the comments alone, well known professors and researchers read my blog. Of course, many of them have blogs as well including Peter Turney (NRC)  or David Eppstein (UCI).
+My blog is read by over 1000 people. Judging by the comments alone, well known professors and researchers read my blog. Of course, many of them have blogs as well including Peter Turney (NRC)  or David Eppstein (UCI).
 
-In fact, my blog is more than a  publication venue: it is an integral part of my networking activities as a researcher.
+In fact, my blog is more than a  publication venue: it is an integral part of my networking activities as a researcher.
 
 Most professors should not become bloggers. However, they should all be making sure that their papers, their data, their software, their courses and their talks are available online. There is mounting evidence that making your work easier to browse and download is beneficial to one&rsquo;s academic career.
 
@@ -32,11 +32,10 @@ I find however that many graduate students enjoy the fact that I make my papers 
 
 <em> Did you design your site yourself? What software do you use to maintain it? Any advice for other profs in terms of technical upkeep or updating frequency?</em>
 
-Like many science professors, I have initially designed my Web site using a text editor and raw HTML. I maintain my own blog engine ([wordpress](http://wordpress.org/)). 
-
+Like many science professors, I have initially designed my Web site using a text editor and raw HTML. I maintain my own blog engine ([wordpress](http://wordpress.org/)).
 Universities often do not have the resources to help professors maintain effective Web sites. Fortunately, many inexpensive solutions are available (<a href="https://wordpress.com/" target="_blank">wordpress.com</a>, <a href="https://blogger.com/" target="_blank">blogger.com</a>, and so on). In fact, most academic bloggers do not blog from within the university networks. People have even coined a term for this do-it-yourself strategy: [edupunk]( http://en.wikipedia.org/wiki/Edupunk).
 
-I spend  many hours every week publishing content online. Some may consider it wasteful. However, I believe university professors are in the communication business.
+I spend  many hours every week publishing content online. Some may consider it wasteful. However, I believe university professors are in the communication business.
 
 <em>Any other comments/advice on creating a web presence?</em>
 

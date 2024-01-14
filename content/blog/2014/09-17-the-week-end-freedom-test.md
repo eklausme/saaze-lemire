@@ -5,8 +5,7 @@ title: "The week-end freedom test"
 
 
 
-In an earlier post, I compared [life in academia with life in industry](/lemire/blog/2014/09/15/academia-or-industry/). One recurring argument to favour an academic job over an industry job is freedom. 
-
+In an earlier post, I compared [life in academia with life in industry](/lemire/blog/2014/09/15/academia-or-industry/). One recurring argument to favour an academic job over an industry job is freedom.
 Of course, the feeling of freedom is fundamentally subjective. And we have a strong incentive to feel free, and to present ourselves as free. Freedom is strongly linked with social status. Telling people that you are free to do whatever you want in your job is signalling your high status.
 
 So how can you tell how much freedom you have?
@@ -21,7 +20,5 @@ So how do professors do? In my experience, many of them fail the week-end freedo
 
 Of course, there is no arguing with subjective experience. You can fail the week-end test and claim that it is by choice. But what does it mean objectively?
 
-You pity the poor lawyer at a big law firm who has to prepare his files every Saturday instead of playing baseball with his son. But your case is different: you love your job and that is why you work 60 hours a week. Your decision is entirely yours and it has nothing to do with the professional pressure you are feeling. You genuinely enjoy preparing this new research grant on Sunday instead of teaching your kid to swim. Sure, all professors in your department work on week-ends, except this weirdo who will never get promoted (does he love his job?), but they all do it out of love. It is a love that is so powerful that it beats the alternatives (such as spending time with your kids, or with your sex partner). 
-
-__Appendix__: I pass the week-end test. Mostly. For the last few years, I have stopped checking emails on week-ends. But I fail the retirement and lottery tests. 
-
+You pity the poor lawyer at a big law firm who has to prepare his files every Saturday instead of playing baseball with his son. But your case is different: you love your job and that is why you work 60 hours a week. Your decision is entirely yours and it has nothing to do with the professional pressure you are feeling. You genuinely enjoy preparing this new research grant on Sunday instead of teaching your kid to swim. Sure, all professors in your department work on week-ends, except this weirdo who will never get promoted (does he love his job?), but they all do it out of love. It is a love that is so powerful that it beats the alternatives (such as spending time with your kids, or with your sex partner).
+__Appendix__: I pass the week-end test. Mostly. For the last few years, I have stopped checking emails on week-ends. But I fail the retirement and lottery tests.

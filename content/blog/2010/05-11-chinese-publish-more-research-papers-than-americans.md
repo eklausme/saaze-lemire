@@ -23,7 +23,7 @@ But how is the American system holding out against the competition? I looked at 
 1. United Kingdom (5,703 papers)
 
 
-It appears that whereas most countries have doubled or more their production of research papers, __the USA has stood still__. Because these numbers are for 2008, I conjecture that right now, in 2010, __Chinese researchers already publish more than their American counterparts__. Of course, American authors are more cited, but the gap between China and the USA is closing in this respect as well. Interestingly, __Americans also appear to be losing their edge compared to the  United Kingdom, France, Germany and Canada__.
+It appears that whereas most countries have doubled or more their production of research papers, __the USA has stood still__. Because these numbers are for 2008, I conjecture that right now, in 2010, __Chinese researchers already publish more than their American counterparts__. Of course, American authors are more cited, but the gap between China and the USA is closing in this respect as well. Interestingly, __Americans also appear to be losing their edge compared to the  United Kingdom, France, Germany and Canada__.
 
 While I do not have enough evidence to conclude, I conjecture that an all-or-nothing approach, so common in the USA, may not be so efficient after all. By leaving most University professors behind, you are wasting precious resources. And I fear that by emulating this model, Canada might be losing out too.
 

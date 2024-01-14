@@ -15,8 +15,7 @@ Now, I am looking for my next PDA. Here are the factors:
 - I only use it to set appointments, manage a small address list, and setup todos. I do not need to play videos or browse the web on the device, since I have a laptop for this purpose.
 - Losing my data is a big nono.
 - I do not want a cell phone. I am against cell phones because I do not want to be easily reachable. I am a researcher and professor, not a salesperson or manager.
-- A long battery life is a must. 
-- It must run PalmOS: I am not going to throw away or reenter all my data. I have been entering data for over 8 years in PalmOS devices!
+- A long battery life is a must.- It must run PalmOS: I am not going to throw away or reenter all my data. I have been entering data for over 8 years in PalmOS devices!
 
 
 It does look like a Palm Tungsten is the way to go. Palm seems to charge a bit over $200 for those which is amazingly cheap. It seems to have non volatile memory which is very nice: my m505 has volatile memory, I think, so, if I never let it run out of juice. What bugs me is that Palm Tungsten might be the only way to go. Are PalmOS users a dying breed?

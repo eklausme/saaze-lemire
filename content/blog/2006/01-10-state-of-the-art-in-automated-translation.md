@@ -16,7 +16,7 @@ I start with this sentence:
 
 [Systran](http://www.systranet.com/translate) gives me:
 
-> J&rsquo;ai donné Ã  John par morceau de mon esprit.
+> J&rsquo;ai donné Ã  John par morceau de mon esprit.
 
 
 and back:
@@ -26,7 +26,7 @@ and back:
 
 Whereas Reverso gives me
 
-> J&rsquo;ai donné Ã  John un morceau de mon avis(esprit).
+> J&rsquo;ai donné Ã  John un morceau de mon avis(esprit).
 
 
 and back,

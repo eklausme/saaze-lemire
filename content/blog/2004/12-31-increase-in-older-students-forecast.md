@@ -7,8 +7,7 @@ title: "Increase in older students forecast"
 
 Here&rsquo;s an article giving interesting figures:
 
-> 
-College Board figures show the number of students older than 25 has increased from 29.9 percent in fall 1999 to 31.1 percent in fall 2003. However, roughly 40 percent of regional and U.S. students are older than age 24, according to the board.
+>College Board figures show the number of students older than 25 has increased from 29.9 percent in fall 1999 to 31.1 percent in fall 2003. However, roughly 40 percent of regional and U.S. students are older than age 24, according to the board.
 
 
 

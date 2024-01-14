@@ -5,12 +5,10 @@ title: "Sci-Fi Writer, Math Professor and Communist, All in One!"
 
 
 
-As a M.Sc. student, the most influential professor to me, at the time, was [Chandler Davis](https://en.wikipedia.org/wiki/Chan_Davis). He taught a great Operator Theory class. Though I don&rsquo;t recall much of Operator Theory at all, I remember that his classes were great. He vaguely suggested Wavelets as an interesting new field. Sure enough, I went on to write a Ph.D. thesis on Wavelets and made a living out of Wavelet-Based software for the medical and geophysical industries. 
-
+As a M.Sc. student, the most influential professor to me, at the time, was [Chandler Davis](https://en.wikipedia.org/wiki/Chan_Davis). He taught a great Operator Theory class. Though I don&rsquo;t recall much of Operator Theory at all, I remember that his classes were great. He vaguely suggested Wavelets as an interesting new field. Sure enough, I went on to write a Ph.D. thesis on Wavelets and made a living out of Wavelet-Based software for the medical and geophysical industries.
 Now, there were many stories about Chandler Davis, but how to tell which ones were true? Well, his wikipedia page gives credibility to some of the stories:
 
-> 
-As for his writing career he began publishing in Astounding Science Fiction in 1946. From 1946 through 1962 he produced a spate of noteworthy science fiction stories mostly for Astounding.
+>As for his writing career he began publishing in Astounding Science Fiction in 1946. From 1946 through 1962 he produced a spate of noteworthy science fiction stories mostly for Astounding.
 
 
 

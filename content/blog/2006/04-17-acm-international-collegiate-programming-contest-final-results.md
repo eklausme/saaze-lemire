@@ -13,8 +13,7 @@ title: "ACM International Collegiate Programming Contest Final Results"
 1. University of Twente (The Netherlands)
 1. Shanghai Jiao Tong University (China)
 1. St. Petersburg State University (Russia)
-1. Warsaw University (Poland) 
-1. Massachusetts Institute of Technology (USA)
+1. Warsaw University (Poland)1. Massachusetts Institute of Technology (USA)
 1. Moscow State University (Russia)
 1. Ufa State Technical University of Aviation (Russia)
 

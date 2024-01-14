@@ -16,8 +16,7 @@ Let me state this as a &ldquo;law&rdquo;:
 > Given a large out-of-cache memory block, the time (latency) required to access 4, 8, 16 or 64 bytes of data from a cache line is the same.
 
 
-How well does this mental model works in the real world? 
-
+How well does this mental model works in the real world?
 Suppose that you build a large array of 32-bit integers. There are sixteen 32-bit integers per cache line. The array is large enough to exceed your cache by a wide margin. Then you repeatedly select a cache line at random and sum up a few 32-bit integers in the cache. Maybe you just pick one integer per cache line, maybe you pick four, maybe eight, maybe sixteen. Your code might look like the follow, where `percache` is the number of integer you access per cache line:
 ```C
 uint32_t counter = 0;
@@ -31,10 +30,8 @@ for(size_t i = 0; i < howmany; i++) {
 ```
 
 
-So, how sensitive is the running to the parameter <tt>percache</tt>? A simple theory is that if the array is large enough, it does not matter whether you access one, two, four or sixteen values per cache line. 
-
-Let us run an experiment to see. I generate an 8 GB array, it far exceeds my CPU cache. Then I vary the number of integers accessed per cache line, and I sum it all up. 
-
+So, how sensitive is the running to the parameter <tt>percache</tt>? A simple theory is that if the array is large enough, it does not matter whether you access one, two, four or sixteen values per cache line.
+Let us run an experiment to see. I generate an 8 GB array, it far exceeds my CPU cache. Then I vary the number of integers accessed per cache line, and I sum it all up.
 Integer per cache line   |Cycles per cache line    |
 -------------------------|-------------------------|
 1                        |38                       |

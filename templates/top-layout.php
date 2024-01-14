@@ -26,8 +26,8 @@
 		His research is focused on software performance and data engineering. He is a techno-optimist and a free-speech advocate.</p>
 		</div>
 		<div id=hamitems>
-			<a href="/lemire/en">My home page</a>
-			<a href="/lemire/en/#publications">My publications</a>
+			<a href="https://lemire.me/en">My home page</a>
+			<a href="https://lemire.me/en/#publications">My publications</a>
 			<a href="https://github.com/lemire">My software</a>
 			<hr style="color:white; width:100%">
 			<a href="https://t.me/dlemire">Follow me on Telegram</a>

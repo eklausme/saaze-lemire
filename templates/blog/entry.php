@@ -14,7 +14,12 @@
 	</main>
 
 	<br><br>
-	<aside><div id="hashover"></div>
+	<aside>
+<?php if ($includeHashOver) { ?>
+		<div id="hashover"></div>
+<?php } else { ?>
+	<a href="<?='/lemire'.$commentUrl?>">Comments</a>
+<?php } ?>
 	</aside>
 
 <?php require SAAZE_PATH . "/templates/bottom-layout.php"; ?>

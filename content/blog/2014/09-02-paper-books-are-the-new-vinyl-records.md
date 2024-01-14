@@ -17,14 +17,12 @@ Back in 2010, [I got rid of most of my paper books](/lemire/blog/2011/01/01/surp
 
 It may sound like an empty gesture, especially in 2014, but I still have colleagues commenting on the fact that my office is almost empty. Last week, one of my Ph.D. students came in my office for a chat carrying more paper books than I ever had in my current office.
 
-To say that I am still ahead of the curve is an understatement. In Quebec, most local publishers have shied away from ebooks. Though you can get the latest novels as ebooks, they are priced like paper books, making their purchase unreasonable. 
-
+To say that I am still ahead of the curve is an understatement. In Quebec, most local publishers have shied away from ebooks. Though you can get the latest novels as ebooks, they are priced like paper books, making their purchase unreasonable.
 Similarly, academia is still very much grounded in paper books. In many departments, you cannot get tenure without a (paper!) book by your name. A genuine book that lies flat in the bookstore for at least 3 months before being returned to the publisher. The fact that nobody would willingly buy your book is irrelevant. Paper has magic.
 
 Do not get me wrong: I love paper. If you have ever seen me in person, you probably know that I always carry a paper notebook. I have always carried paper with me ever since I was a teenager&mdash;except for a few years when I believed that PDAs (the ancestor of modern-day smart phones) could replace notebooks. I am sure paper will be obsolete in 10 or 20 years, but we are not there yet. My sons still use paper books. We bring them to the library every three weeks or so. At school, they only use paper books. At home, for their studies, I buy them paper books.
 
-I am a nerd. I like the feel of books. But I embrace ebooks because I cannot stand the thought of being limited by whatever I can carry physically with me, or by whatever space there is on the shelves. I also do not want to be limited by what gatekeepers believe I should be reading. 
-
+I am a nerd. I like the feel of books. But I embrace ebooks because I cannot stand the thought of being limited by whatever I can carry physically with me, or by whatever space there is on the shelves. I also do not want to be limited by what gatekeepers believe I should be reading.
 When you start doing something new, you can usually tell that others are joining in. I know others are embracing ebooks because I see people reading them on the bus every week. But it is harder to tell whether others have stopped doing something&hellip; like going to bookstores. Thankfully, [Stephen Downes&rsquo; recent account of his visit to a bookstore](http://halfanhour.blogspot.ca/2014/09/a-trip-to-bookstore.html) comforts me in my belief that the days of paper books are numbered:
 
 > It occurred to me that you would never come to the bookstore to learn anything. The stuff that&rsquo;s there is mostly superficial and survey literature.

@@ -5,8 +5,7 @@ title: "Organizations would not pass the Turing test"
 
 
 
-In Computer Science, we often informally judge intelligence by using the [Turing test](https://en.wikipedia.org/wiki/Turing_test). The Turing test is quite simple: if you can convince an observer that you are a human beings, then you are probably at least as smart as a human being. 
-
+In Computer Science, we often informally judge intelligence by using the [Turing test](https://en.wikipedia.org/wiki/Turing_test). The Turing test is quite simple: if you can convince an observer that you are a human beings, then you are probably at least as smart as a human being.
 Yet no organization could ever convince you that it is a real person. Corporations and governments make you sign forms. They are rude, impersonal. They typically react slowly. They only apologize after days of consultations with lawyers. No sane human being behaves this way.
 
 Have you ever tried to have a social exchange with a government or a corporation? No matter how nice they try to be (&ldquo;your call is important to us&rdquo;) they fail to convince. In fact, I would rather deal with software constructs than organizations. They are often much closer to passing the Turing test.

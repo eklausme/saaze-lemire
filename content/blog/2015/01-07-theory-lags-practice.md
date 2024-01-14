@@ -29,6 +29,5 @@ __Further reading__: [Problem solvers and theory builders](http://www.johndcook.
 
 __Update__: Yoshua Bengio (U. Montréal) [wrote on Facebook](https://www.facebook.com/yoshua.bengio/posts/835243206580621):
 
-> In my field of research (machine learning, and especially deep learning &#038; neural nets), [theory lags practice] is a truth I have experienced first-hand. 
-
+> In my field of research (machine learning, and especially deep learning &#038; neural nets), [theory lags practice] is a truth I have experienced first-hand.
 

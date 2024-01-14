@@ -18,7 +18,7 @@ Many programming languages (Go, C, etc.) allow you just &lsquo;cast&rsquo; the i
 
 That is, you can take a small negative value, interpret it as a large integer, and then &lsquo;recover&rsquo; back your small value.
 
-What if you want to have that small values remain small ? Then  a standard approach is to use zigzag encoding. The recipe is as follows:
+What if you want to have that small values remain small ? Then  a standard approach is to use zigzag encoding. The recipe is as follows:
 
 - Compute twice the absolute value of your integer.
 - Subtract 1 to the result when the original integer was negative.
@@ -75,25 +75,25 @@ In Python, you might implement the encoding and the decoding as follows:
 ```C
 def zigzag_encode(val) :
     if val < 0:
-        return - 2 * val  - 1
+        return - 2 * val  - 1
     return 2 * val
 
 def zigzag_decode(val) :
     if val & 1 == 1 :
-        return - val // 2
+        return - val // 2
     return val // 2
 ```
 
 
 
 
-The same code in C/C++ might work, but it could be more efficient to use optimized code which assumes that the underlying hardware represents signed integers with [two&rsquo;s complement encoding](https://en.wikipedia.org/wiki/Two%27s_complement) (which is a safe assumption in 2022 and a requirement in C++20) and that bytes span 8 bits (another safe assumption)&hellip;
+The same code in C/C++ might work, but it could be more efficient to use optimized code which assumes that the underlying hardware represents signed integers with [two&rsquo;s complement encoding](https://en.wikipedia.org/wiki/Two%27s_complement) (which is a safe assumption in 2022 and a requirement in C++20) and that bytes span 8 bits (another safe assumption)&hellip;
 ```C
-int fast_decode(unsigned int x) {
+int fast_decode(unsigned int x) {
     return (x >> 1) ^ (-(x&1));
 }
 
-unsigned int fast_encode(int x) {
+unsigned int fast_encode(int x) {
     return (2*x) ^ (x >>(sizeof(int) * 8 - 1));
 }
 ```

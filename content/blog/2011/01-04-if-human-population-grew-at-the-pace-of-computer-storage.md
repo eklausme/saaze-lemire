@@ -9,9 +9,9 @@ Between 1990 and 2010, the cost of one megabyte of disk storage went from $9 to 
 
 Between 1990 and 2010, the cost of one megabyte of RAM went from $110 to $0.01. __With a similar growth in population, there would be 55 trillion people on Earth.__ (Again, I am not taking inflation into account.)
 
-Many information systems have storage costs which are proportional to the number of individuals. I call them sapien-bound systems. They include most employee, customer and student databases. They also include blog engines and email systems. __Soon, all sapien-bound systems will fit in RAM cheaply.__
+Many information systems have storage costs which are proportional to the number of individuals. I call them sapien-bound systems. They include most employee, customer and student databases. They also include blog engines and email systems. __Soon, all sapien-bound systems will fit in RAM cheaply.__
 
-__Further reading__: <a href="http://www.dbms2.com/2010/12/30/examples-and-definition-of-machine-generated-data/">Examples and definition of <em>machine</em>&#8211;<em>generated</em> data</a> by Curt Monash. You may also want to check my older post [What is infinite storage?](/lemire/blog/2006/10/26/what-is-infinite-storage/)
+__Further reading__: <a href="http://www.dbms2.com/2010/12/30/examples-and-definition-of-machine-generated-data/">Examples and definition of <em>machine</em>&#8211;<em>generated</em> data</a> by Curt Monash. You may also want to check my older post [What is infinite storage?](/lemire/blog/2006/10/26/what-is-infinite-storage/)
 
 __Source__: [Cost of Hard Drive Storage Space](http://ns1758.ca/winch/winchest.html), [Memory Prices (1957-2010)](http://www.jcmit.com/memoryprice.htm), the [World population](https://en.wikipedia.org/wiki/World_population) article on wikipedia
 

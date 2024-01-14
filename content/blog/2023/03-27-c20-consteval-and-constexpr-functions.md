@@ -5,7 +5,7 @@ title: "C++20: consteval and constexpr functions"
 
 
 
-Optimizing compilers seek try to push as much of the computation as possible at compile time. In modern C++, you can declare a function as &lsquo;constexpr&rsquo;, meaning that you state explicitly that the function may be executed at compile time.
+Optimizing compilers seek try to push as much of the computation as possible at compile time. In modern C++, you can declare a function as &lsquo;constexpr&rsquo;, meaning that you state explicitly that the function may be executed at compile time.
 
 The _constexpr_ qualifier is not magical. There may not be any practical difference in practice between an _inline_ function and a _constexpr_ function, as in this example:
 ```C

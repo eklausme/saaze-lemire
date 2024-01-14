@@ -5,7 +5,7 @@ title: "Having fun with string literal suffixes in C++"
 
 
 
-The C++11 standard introduced user-defined string suffixes. It also added [regular  expressions](https://en.wikipedia.org/wiki/Regular_expression) to the C++ language as a standard feature. I wanted to have fun and see whether we could combine these features.
+The C++11 standard introduced user-defined string suffixes. It also added [regular  expressions](https://en.wikipedia.org/wiki/Regular_expression) to the C++ language as a standard feature. I wanted to have fun and see whether we could combine these features.
 
 Regular expressions are useful to check whether a given string matches a pattern. For example, the expression <tt>\d+</tt> checks that the string is made of one or more digits. Unfortunately, the backlash character needs to be escaped in C++, so the string <tt>\d+</tt> may need to be written as <tt>"\\d+"</tt> or you may use a raw string: a raw string literal starts with <tt>R"(</tt> and ends in <tt>)"</tt> so you can write <tt>R"(\d+)"</tt>. For complicated expressions, a raw string might be better.
 

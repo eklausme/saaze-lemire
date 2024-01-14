@@ -5,8 +5,7 @@ title: "Crash course in sane Web programming"
 
 
 
-What the current SOAP fad has done is to make us forget how to build and deploy applications on the Web according to the true [HTTP specification](http://tools.ietf.org/html/rfc2616). Even wikipedia is incredibly confused and confusing with respect to HTTP. It is ridiculously simple, but overly ignored and misrepresented. 
-
+What the current SOAP fad has done is to make us forget how to build and deploy applications on the Web according to the true [HTTP specification](http://tools.ietf.org/html/rfc2616). Even wikipedia is incredibly confused and confusing with respect to HTTP. It is ridiculously simple, but overly ignored and misrepresented.
 <td style="background:#ccc">
 GET
                          |<td style="background:#ddd">

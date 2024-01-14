@@ -8,12 +8,12 @@ title: "Not even eventually consistent"
 Many databases engines [ensure consistency](https://en.wikipedia.org/wiki/Database_consistency#Consistency): at any given time, the database state is logically consistent. For example, even if you receive purchase requests by the thousands, you will always have an accurate count of how many products you have sold, and how many remain in stock. Accountants are especially concerned with consistency: they have invented techniques such as the [double-entry](https://en.wikipedia.org/wiki/Double-entry) systems to favor consistency. Inconsistencies cause problems:
 
 - The user bought a product, a purchase record has been added, but the user account has not yet been charged. This could allow a user to buy more than he can afford.
-- All items in stock have been sold, but a customer is being told that a few items remain in stock. Thus, a vendor could make sales it cannot fulfill.
+- All items in stock have been sold, but a customer is being told that a few items remain in stock. Thus, a vendor could make sales it cannot fulfill.
 
 
 Yet, in practice, requiring consistency [means](https://en.wikipedia.org/wiki/CAP_theorem) that your system will become unavailable from time to time. Thus, many NoSQL databases have adopted an [eventual consistency](https://en.wikipedia.org/wiki/Eventual_consistency) approach. That is, while at any point in time the system might be logically inconsistent, it will eventually recover:
 
-- The user account will  be charged prior to the delivery of the product.
+- The user account will  be charged prior to the delivery of the product.
 - A customer who ordered a product that is no longer in stock will be told prior to finishing his order.
 
 

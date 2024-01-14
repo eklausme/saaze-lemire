@@ -15,5 +15,4 @@ Apparently, Greg wants &ldquo;to spend more time on health and with family.&rdqu
 
 I think that in the coming decade, dropping projects and reducing your work load to spend more time on your family will become a cool thing to do.
 
-Projects and companies have to come and go. We should not be slaves to our projects. 
-
+Projects and companies have to come and go. We should not be slaves to our projects.

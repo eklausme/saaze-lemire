@@ -24,7 +24,6 @@ About working 9-5&hellip;
 
 About meetings&hellip;
 
-> 
-The problem with the facetime model is not just that it&rsquo;s demoralizing, but that the people pretending to work interrupt the ones actually working. I&rsquo;m convinced the facetime model is the main reason large organizations have so many meetings. Per capita, large organizations accomplish very little. And yet all those people have to be on site at least eight hours a day. When so much time goes in one end and so little achievement comes out the other, something has to give. And meetings are the main mechanism for taking up the slack.
+>The problem with the facetime model is not just that it&rsquo;s demoralizing, but that the people pretending to work interrupt the ones actually working. I&rsquo;m convinced the facetime model is the main reason large organizations have so many meetings. Per capita, large organizations accomplish very little. And yet all those people have to be on site at least eight hours a day. When so much time goes in one end and so little achievement comes out the other, something has to give. And meetings are the main mechanism for taking up the slack.
 
 

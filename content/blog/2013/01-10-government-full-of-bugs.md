@@ -15,8 +15,7 @@ The very high toxicity of lead was known well before 1970s. The use of lead in p
 
 As early as 1920, we knew how to avoid lead with alcohol-gasoline blends. They were soon commercially available too.
 
-Yet, by 1939, almost all gas sold in the US was lead-based, [except](http://66.147.244.135/~enviror4/about/ethyl-leaded-gasoline/lead-history-timeline/) for [Sunoco](https://en.wikipedia.org/wiki/Sunoco). So how could lead-based gasoline take over? How could a toxic fuel win over safer alternatives? 
-
+Yet, by 1939, almost all gas sold in the US was lead-based, [except](http://66.147.244.135/~enviror4/about/ethyl-leaded-gasoline/lead-history-timeline/) for [Sunoco](https://en.wikipedia.org/wiki/Sunoco). So how could lead-based gasoline take over? How could a toxic fuel win over safer alternatives?
 The story is complicated, but we can identify two important factors in the US:
 
 - The US Federal Trade Commission declared lead-based gasoline safe and it [prevented](http://www.studebaker-info.org/Fuel/additives/ethylconflict.html) competitors from denouncing it. Effectively, the government prevented competitors from telling consumers that they could buy a safer product. It also made lawsuits against the proponents of lead-based gasoline improbable.
@@ -27,8 +26,7 @@ But Brin&rsquo;s story is still historically accurate: by 1972, the US governmen
 
 Wait? You really think that&rsquo;s how I am going to finish the tale?
 
-In 1970, General Motors had [asked](http://66.147.244.135/~enviror4/about/ethyl-leaded-gasoline/lead-history-timeline/) for the elimination of lead from gasoline to make its new catalytic converters workable. 
-
+In 1970, General Motors had [asked](http://66.147.244.135/~enviror4/about/ethyl-leaded-gasoline/lead-history-timeline/) for the elimination of lead from gasoline to make its new catalytic converters workable.
 So, what do you think got the government to eliminate lead from gasoline? David Brin and his forward-thinking clean-car race&hellip; or General Motors lobbying for its new technology?
 
 But surely, Daniel, you don&rsquo;t mean to tell us that politicians never stand up for what is right? Didn&rsquo;t we solve the ozone layer crisis with the [Montreal protocol](https://en.wikipedia.org/wiki/Montreal_Protocol)? Didn&rsquo;t the US government stand up to evil corporations like Dupont?
@@ -43,8 +41,7 @@ Any programmer will tell you what to do when testing is hard and failure is not 
 
 That&rsquo;s not at all what government do. And, unsurprisingly, they are full of bugs.
 
-__Further reading__: 
-
+__Further reading__:
 - Bill Kovarik, [Henry Ford, Charles Kettering and the Fuel of the Future](http://www.environmentalhistory.org/billkovarik/research/henry-ford-charles-kettering-and-the-fuel-of-the-future/), Automotive History Review, 1998.
 - [Timeline of alcohol fuel](https://en.wikipedia.org/wiki/Timeline_of_alcohol_fuel) on Wikipedia.
 - Michael S. Carolan, [Ethanol versus Gasoline: The Contestation and Closure of a Socio-technical System in the USA](http://sss.sagepub.com/content/39/3/421.short), Soc Stud Sci. 2009.

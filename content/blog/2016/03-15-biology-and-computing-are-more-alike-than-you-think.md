@@ -19,8 +19,7 @@ It is hard to compare the complexity of a living being with that of a computer, 
 
 You might think that the information contained in our genome is highly compressed data, but the evidence points in the other direction. Most of our DNA is seemingly unnecessary.
 
-Of course, we know a lot more about how an iPhone works than a human being. It has to be so. 
-
+Of course, we know a lot more about how an iPhone works than a human being. It has to be so.
 Nevertheless, the lines are blurring.
 
 Recently, a piece of software, AlphaGo, defeated the best human player in the game of Go. The software and the underlying systems were all designed by people&hellip; but the resulting machine plays a game of Go at a much higher level than any of the designers of AlphaGo could. This means that, in a very real sense, the designers of AlphaGo don&rsquo;t fully understand their creation. It escapes them. It will do things that they could not predict.

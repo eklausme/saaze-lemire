@@ -18,10 +18,8 @@ Then I moved on to [Delphi](https://photos.app.goo.gl/QnCWPHDcp4Drzev12) (a grap
 
 My point is that using an IDE is not &ldquo;modern&rdquo;. The present is very much like the past. What we program has changed, but, in many instances, how we program has not changed. I have the latest Visual Studio on my Dell laptop. The man I was 20 years ago would be perfectly at ease with it. Debugging, code completion, code execution&hellip; it is much like it was. In fact, Visual Studio was never very different from Turbo Pascal. And I find this deeply depressing. I think we should make much faster progress than we are.
 
-I submit to you that modern programming has little to do with the look of your desktop. Graphical user interfaces are only skin deep. Modern programming techniques are all about processes and actual tools, not the skin on top of them. I don&rsquo;t care whether you are using Eclipse or Emacs&hellip; this tells me nothing about how modern you are. 
-
-So what is &ldquo;modern&rdquo;? 
-
+I submit to you that modern programming has little to do with the look of your desktop. Graphical user interfaces are only skin deep. Modern programming techniques are all about processes and actual tools, not the skin on top of them. I don&rsquo;t care whether you are using Eclipse or Emacs&hellip; this tells me nothing about how modern you are.
+So what is &ldquo;modern&rdquo;?
 - Coding is social. Twenty years ago, it was sensible to require everyone in your organization to use the exact same IDE and to depend uniquely on your IDE to build, test, deploy code&hellip; But there are lots of smart people outside of your organization and they often do not use your IDE. And today you can reach them. This means that you must be wise regarding the tools and processes you adopt.
 
 If you mock people who program using the Atom text editor, Visual Studio or Emacs, you are not being social. You need to be as inclusive as possible, or pay the price.

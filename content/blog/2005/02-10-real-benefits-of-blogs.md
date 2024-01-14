@@ -7,8 +7,7 @@ title: "Real Benefits of Blogs"
 
 Harold has another great post, this time he lists some of the tangible benefits of blogging, for him&hellip;
 
-> 
-After an intensive year online, these are the tangible benefits to my business:
+>After an intensive year online, these are the tangible benefits to my business:
 
 - Using a feed reader (via RSS), saves a lot of time and bookmarking.
 - The information I get from bloggers is usually weeks ahead of the mainstream press. Call this competitive intelligence.

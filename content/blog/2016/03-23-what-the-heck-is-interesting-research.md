@@ -7,8 +7,7 @@ title: "What the heck is interesting research?"
 
 I have long advocated that the world would be better off if more people did research. But what the heck is research? In simple terms, I know of two types of interesting research&hellip;
 
-- The engineering path: Pick an unsolved problem that has some importance. Propose a viable solution. 
-
+- The engineering path: Pick an unsolved problem that has some importance. Propose a viable solution.
 For example, no computer has been able to beat a Go champion. Write such a program.
 - The scientific path: Try to explain something significant nobody has managed to explain.
 
@@ -23,8 +22,7 @@ People routinely object that I cannot discriminate against &ldquo;unimportant&rd
 
 Except that research is not an abstract endeavour meant to &ldquo;produce knowledge&rdquo;. Research is a social process. If the output of your work does not change how a few people think&hellip; it was probably in vain.
 
-Almost by definition, research is a wasteful activity bound to fail most of the time. Unsolved problems and unexplained facts remain for a reason. 
-
+Almost by definition, research is a wasteful activity bound to fail most of the time. Unsolved problems and unexplained facts remain for a reason.
 However if your work lacks ambition, you have lost the battle from day one.
 
 __Further reading__: [You and Your Research](http://www.cs.virginia.edu/~robins/YouAndYourResearch.html) by Richard Hamming; [That&rsquo;s interesting](http://www-personal.umich.edu/~samoore/teach/bit8852005/files/72362.pdf) by Murray Davis.

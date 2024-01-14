@@ -7,8 +7,7 @@ title: "NSERC &ndash; Policy on Intellectual Property"
 
 NSERC is the main funding body for research in science and engineering in Canada. It has an [interesting policy on IP](http://www.nserc-crsng.gc.ca/professors_e.asp?nav=profnav&amp;lbi=p11):
 
-> 
-NSERC expects that any IP resulting from research it funds wholly or in part will be owned by the university or the inventor, according to university policy. Access to IP should be accorded to other sponsors in recognition of, and in proportion to, the sponsor&rsquo;s contribution to the collaboration.
+>NSERC expects that any IP resulting from research it funds wholly or in part will be owned by the university or the inventor, according to university policy. Access to IP should be accorded to other sponsors in recognition of, and in proportion to, the sponsor&rsquo;s contribution to the collaboration.
 
 
 Alas, I must say that I violated this rule, against my will, in the past, but I will try harder to stick by it from now on.

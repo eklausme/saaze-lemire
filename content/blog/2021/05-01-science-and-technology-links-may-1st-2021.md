@@ -19,7 +19,6 @@ title: "Science and Technology links (May 1st 2021)"
 1. When seeking venture capital, [female and Asians entrepreneurs may have slightly more luck with investors](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3301982).
 1. As your cells divide, it is believed that small mutations are introduced. [Recent research suggests that even cells that never divide may mutate](https://www.nature.com/articles/s41586-021-03477-4).
 1. Adult mammals heal from injuries by forming scars. [A new drug may prevent scars](https://science.sciencemag.org/content/372/6540/eaba2374). It works in mice.
-1. Worms live longer when they have less food. [It appears that smelling food is enough to make this effect go away](https://www.nature.com/articles/s43587-021-00039-1). (Source: Nature) 
-1. [Reducing your blood pressure is always a good thing](https://www.thelancet.com/journals/lancet/article/PIIS0140-6736(21)00590-0/fulltext).
+1. Worms live longer when they have less food. [It appears that smelling food is enough to make this effect go away](https://www.nature.com/articles/s43587-021-00039-1). (Source: Nature)1. [Reducing your blood pressure is always a good thing](https://www.thelancet.com/journals/lancet/article/PIIS0140-6736(21)00590-0/fulltext).
 
 

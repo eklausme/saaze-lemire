@@ -11,7 +11,7 @@ I gave a talk on Go last year and I was asked for a criticism of Go. I do not mi
 
 However, as charming as Go might be, I find that its compiler is not on par with what I expect from other programming languages. It could be excused when Go was young and immature. But I think that the Go folks now need to tackle these issues.
 
-My first beef with the compiler is that it is shy about inlining. Inlining is the process by which you bring  a function into another function, bypassing the need for a function call. Even when the function call is inexpensive, inlining often brings many benefits.
+My first beef with the compiler is that it is shy about inlining. Inlining is the process by which you bring  a function into another function, bypassing the need for a function call. Even when the function call is inexpensive, inlining often brings many benefits.
 
 Go improved its inlining strategies over time, but I would still describe it as &ldquo;overly shy&rdquo;.
 
@@ -85,13 +85,13 @@ Some people will object that such checks are inexpensive. I think that this view
 - As is apparent in the assembly code I provide, you might be doubling or at least increasing by 50% the number of instructions required. A comparison and a jump is cheap, but so is popcnt (some processors can retire two popcnt per cycle!). Increasing the number of instructions makes code slower.
 - It is true that the branch/jump is likely to be correctly predicted by the processor. This makes the guarding code much cheaper than a branch that could sometimes be mispredicted. [But that does not mean that you are not getting hurt:](https://www.infoq.com/articles/making-code-faster-taming-branches/)<br/>
 
-> Even when it is impossible to remove all branches, reducing the number of branches &ldquo;almost always taken&rdquo; or &ldquo;almost never taken&rdquo; may help the processor better predict the remaining branches.  (&hellip;) A possible simplified explanation for this phenomenon is that processors use the history of recent branches to predict future branches. Uninformative branches may reduce the ability of the processors to make good predictions.
+> Even when it is impossible to remove all branches, reducing the number of branches &ldquo;almost always taken&rdquo; or &ldquo;almost never taken&rdquo; may help the processor better predict the remaining branches.  (&hellip;) A possible simplified explanation for this phenomenon is that processors use the history of recent branches to predict future branches. Uninformative branches may reduce the ability of the processors to make good predictions.
 
 
 
-Go&rsquo;s saving grace is that it makes it easy to integrate assembly code into your code base. So you can write your performance-critical in C, compile it, and use the result in your Go project. That is how we do it in [roaring](https://github.com/RoaringBitmap/roaring), for example. People have ported [the really fast Stream VByte encoding](https://github.com/bmkessler/streamvbyte) and t[he very fast simdjson parser](https://github.com/minio/simdjson-go) in Go, again by using assembly. It works.
+Go&rsquo;s saving grace is that it makes it easy to integrate assembly code into your code base. So you can write your performance-critical in C, compile it, and use the result in your Go project. That is how we do it in [roaring](https://github.com/RoaringBitmap/roaring), for example. People have ported [the really fast Stream VByte encoding](https://github.com/bmkessler/streamvbyte) and t[he very fast simdjson parser](https://github.com/minio/simdjson-go) in Go, again by using assembly. It works.
 
 However, it leaves the bulk of the Go software running at a fraction of the performance it could reach with a great optimizing compiler.
 
-__Appendix__: Compiling Go with gccgo solves these particular problems. However, reportedly, [the overall performance of gccgo is worse](https://meltware.com/2019/01/16/gccgo-benchmarks-2019.html).
+__Appendix__: Compiling Go with gccgo solves these particular problems. However, reportedly, [the overall performance of gccgo is worse](https://meltware.com/2019/01/16/gccgo-benchmarks-2019.html).
 

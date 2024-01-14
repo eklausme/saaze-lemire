@@ -5,7 +5,7 @@ title: "Round a direction vector to an 8-way compass"
 
 
 
-Modern game controllers can point in a wide range of directions. Game designers sometimes want to [convert the joystick direction to get 8-directional movement](https://forum.unity.com/threads/does-anyone-know-how-to-get-8-directional-movement-with-a-joystick.767129/). A typical solution offered is to compute the angle, round it up and then compute back the direction vector.
+Modern game controllers can point in a wide range of directions. Game designers sometimes want to [convert the joystick direction to get 8-directional movement](https://forum.unity.com/threads/does-anyone-know-how-to-get-8-directional-movement-with-a-joystick.767129/). A typical solution offered is to compute the angle, round it up and then compute back the direction vector.
 ```C
   double angle = atan2(y, x);
   angle = (int(round(4 * angle / PI + 8)) % 8) * PI / 4;

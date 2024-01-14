@@ -5,7 +5,7 @@ title: "The disagreeable scientist conjecture"
 
 
 
-If you are a nerd, the Internet is a candy store&hellip; if only you stay away from mainstream sites. Some of the best scientists have blogs, YouTube channels, they post their papers online. When they review a paper, they speak frankly, openly. Is the work good or irrelevant? You can agree or disagree, but their points are clear and well stated.
+If you are a nerd, the Internet is a candy store&hellip; if only you stay away from mainstream sites. Some of the best scientists have blogs, YouTube channels, they post their papers online. When they review a paper, they speak frankly, openly. Is the work good or irrelevant? You can agree or disagree, but their points are clear and well stated.
 
 You may expect that researchers always work in this manner. That they always speak their mind. Nothing could be further from the truth in my experience. We have a classical power structure with a few people deciding on the Overton window. Here are the subjects, we can discuss, here are the relevant topics. We have added layers and layers of filters to protect us against disruption. That is, there is free discussion&hellip; as long as you follow the beaten path. Here are some of the things that you must never discuss:
 
@@ -18,7 +18,7 @@ You may expect that researchers always work in this manner. That they always spe
 
 I find that the most interesting researchers break both of these barriers from time to time. In other words, they are not very reasonable.
 
-My conjecture is that it is not an accident. To be precise, my conjecture is that the best scientists are disagreeable people. It is a technical statement. I am saying that they have the courage to offend as an intellectual.
+My conjecture is that it is not an accident. To be precise, my conjecture is that the best scientists are disagreeable people. It is a technical statement. I am saying that they have the courage to offend as an intellectual.
 
 The business of research is bureaucratic. In a bureaucracy, the day to day goes much smoother if you are agreeable. But being disagreeable at times might help career-wise: you can demand to be respected, demand to be credited. That is certainly valuable to get ahead and be promoted.
 

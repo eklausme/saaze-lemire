@@ -19,8 +19,7 @@ Here is where we disagree:
 
 I honestly do not see the Semantic Web being about to take off. As Bob DuCharme pointed out, people are doing &ldquo;ontologies for the sake of ontologies&rdquo;. This will get old very quickly. If 8 years and millions of dollars was not enough to produce a single remotely useful application, what will it take?
 
-Are semantic web researchers becoming semantic web implementers? I do not see this happening. The papers are every bit as theoretical and as disconnected from real-world problems as they ever were. 
-
+Are semantic web researchers becoming semantic web implementers? I do not see this happening. The papers are every bit as theoretical and as disconnected from real-world problems as they ever were.
 Here are some common myths:
 
 - Google is getting worse every day. Only the Semantic Web can save us. (False: Google is not getting worse, it is constantly improving and at an alarming rate at that.)

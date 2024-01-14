@@ -23,7 +23,7 @@ displayRSS("http://www.domain.com/rssfeed");<br/>
 
 You can [download the rss.js script](http://pastebin.com/MtJ5Fr9d).
 
-VoilÃ ! No need for any server-side processing of the RSS feeds. You can magically display RSS feeds everywhere. Of course, this will only work with recent browsers.
+VoilÃ ! No need for any server-side processing of the RSS feeds. You can magically display RSS feeds everywhere. Of course, this will only work with recent browsers.
 
 Why is this useful? I found that the typical PHP-based solutions to parse RSS feeds were a pain to setup.
 

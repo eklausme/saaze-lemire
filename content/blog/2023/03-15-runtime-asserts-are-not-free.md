@@ -39,7 +39,7 @@ loop with assert         |0.9 ns/word              |
 
 So adding the assert multiply the running time by a factor of three in this instance. Your results will vary but you should not be surprised if the version with asserts is significantly slower.
 
-So asserts are not free. To make matters more complicated, some projects refuse to rely on library that terminates on errors. So having asserts in your library may disqualify it for some uses.
+So asserts are not free. To make matters more complicated, some projects refuse to rely on library that terminates on errors. So having asserts in your library may disqualify it for some uses.
 
 You will find calls to asserts in my code. I do not argue that you should never use them. But spreading asserts in performance critical code might be unwise.
 

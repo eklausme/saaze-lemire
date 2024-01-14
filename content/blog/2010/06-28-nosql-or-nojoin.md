@@ -16,7 +16,7 @@ In effect, Stonebraker says that all of the benefits of the NoSQL systems have n
 
 However, in practice, SQL is based on joins and related low-level issues like foreign keys. SQL entices people to [normalize their data](https://en.wikipedia.org/wiki/Database_normalization). Normalization fragments databases into smaller tables which is great for data integrity and beneficial for some [transactional systems](https://en.wikipedia.org/wiki/Database_transaction#Transactional_databases). However, joins are expensive. Moreover, joins require strong consistency and fixed schemas.
 
-In turn, avoiding join operations makes it possible to maintain flexible or informal schemas, and to [scale horizontally](https://en.wikipedia.org/wiki/Scalability#Scale_horizontally_.28scale_out.29). Thus, the NoSQL solutions should really be called NoJoin because they are mostly defined by avoidance of the [join operation](https://en.wikipedia.org/wiki/Join_(SQL)).
+In turn, avoiding join operations makes it possible to maintain flexible or informal schemas, and to [scale horizontally](https://en.wikipedia.org/wiki/Scalability#Scale_horizontally_.28scale_out.29). Thus, the NoSQL solutions should really be called NoJoin because they are mostly defined by avoidance of the [join operation](https://en.wikipedia.org/wiki/Join_(SQL)).
 
 How do we compute joins? There are two main techniques :
 
@@ -24,7 +24,7 @@ How do we compute joins? There are two main techniques :
 - For in-memory tables, [hash joins](https://en.wikipedia.org/wiki/Hash_join) are preferable because they run in linear time <em>O</em>(<em>n</em>). However, the characteristics of modern hardware are increasing detrimental to the hash join alternative (see C. Kim, et al. [Sort vs. Hash revisited](http://www.vldb.org/pvldb/2/vldb09-257.pdf). 2009).
 
 
-(It is also possible to use [bitmap indexes](https://en.wikipedia.org/wiki/Bitmap_index) to precompute joins.) In any case, short of precomputing the joins, joining large tables is expensive and requires source tables to be consistent.
+(It is also possible to use [bitmap indexes](https://en.wikipedia.org/wiki/Bitmap_index) to precompute joins.) In any case, short of precomputing the joins, joining large tables is expensive and requires source tables to be consistent.
 
 __Conclusion:__ SQL is a fine language, but it has some biases that may trap developers. What works well in a business transaction system, may fail you in other instances.
 

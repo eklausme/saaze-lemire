@@ -5,8 +5,7 @@ title: "Seth Roberts and research"
 
 
 
-[Seth Roberts](http://blog.sethroberts.net/) was one of my favourite bloggers. He recently passed away. 
-
+[Seth Roberts](http://blog.sethroberts.net/) was one of my favourite bloggers. He recently passed away.
 Seth was an original fellow. He completed his PhD and went on to secure a job at a leading university&hellip; only to effectively reject the academic model. He retired early.
 
 I have exchanged a few emails with Seth over the years and was even featured on his blog once. I think I am not too far off if I describe Seth&rsquo;s principles for good research as follows&hellip;

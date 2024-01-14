@@ -37,7 +37,7 @@ ASCII check (SIMD + 256-bit) |0.051 cycles per byte    |
 
 [My code is available](https://github.com/lemire/fastvalidate-utf-8).
 
-__Update__: This work ended up making a research paper under the title [Validating UTF-8 In Less Than One Instruction Per Byte](https://arxiv.org/abs/2010.03090), Software: Practice &amp; Experience (to appear).
+__Update__: This work ended up making a research paper under the title [Validating UTF-8 In Less Than One Instruction Per Byte](https://arxiv.org/abs/2010.03090), Software: Practice &amp; Experience (to appear).
 
 __Update__: For a production-ready UTF-8 validation function, please see the [simdjson library](https://github.com/simdjson/simdjson).
 

@@ -1,0 +1,56 @@
+#!/bin/perl -W
+# Convert WordPress comments in HTML to a mixture of Markdown+HTML
+# Elmar Klausmeier, 08-Jan-2024
+
+use strict;
+
+my $targetDir = "/tmp/lemire";
+my ($htmlTitle,$canYear,$canMonth,$canDay,$canTitle,$canonical,$ignore,$title,$fn,$metadata) = ("",0,0,0,"","",1,"","",0);
+
+mkdir $targetDir if (! -d $targetDir);
+
+while (<>) {
+	last if (/<div id="respond" class="comment-respond">/);
+	$htmlTitle = $1 if (/<title>([^<]+)<\/title>/);
+	if (/<link rel=\"canonical\" href=\"https:\/\/lemire.me\/blog\/(\d{4})\/(\d\d)\/(\d\d)\/([^\/]+)\/\"\s*\/>/) {
+		($canYear,$canMonth,$canDay,$canTitle) = ($1,$2,$3,$4);
+		$canonical = "/lemire/blog/$canYear/$canMonth-$canDay-$canTitle";
+	}
+
+	if (/<h2 class="comments-title">/) { $ignore = -1; next; }
+	elsif ($ignore == -1) {
+		($ignore,$title) = (0,$_);
+		$title =~ s/\s*$//;
+		$title =~ s/\s*<\/h2>//;	# clip tag
+		$htmlTitle =~ s/\s*&#8211; Daniel Lemire&#039;s blog//;
+		my $t = "$targetDir/$canYear";
+		$fn = "$t/$canMonth-$canDay-comment-$canTitle.md";
+		mkdir $t if (! -d $t);
+		open(F,"> $fn") || die("Cannot open $fn for writing");
+		printf F "---\ndate: \"%04d-%02d-%02d 12:00:00\"\ntitle: \"%s\"\nindex: false\n---\n\n[%s](%s)\n\n",
+			$canYear,$canMonth,$canDay,$htmlTitle,$title,$canonical;
+		next;
+	} elsif ($ignore) { next; }
+
+	next if (/<footer class="comment-meta">/ || /^<\/footer>/);
+	next if (/^<article / || /^<div class="reply">/);
+
+	if (/^<div class="comment-metadata">/) {
+		s/\s*$//;
+		$metadata = 1;
+	} elsif ($metadata && /^<a href="https:\/\/lemire\.me\/blog/) {
+		s/^<a href="https:\/\/lemire\.me\/blog[^>]+>//;
+		$metadata = 0;
+	}
+
+	s/&#8216;/&lsquo;/g;
+	s/&#8217;/&rsquo;/g;
+	# s/&#8217;/´/g;	# not really the same as rsquo
+	s/&#8220;/&ldquo;/g;
+	s/&#8221;/&rdquo;/g;
+
+	print F $_;
+}
+
+
+

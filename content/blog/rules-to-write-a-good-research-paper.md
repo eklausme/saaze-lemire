@@ -56,7 +56,7 @@ __6. Good pedagogy and style__
 - Always give the example first, and the result next.
 - Use as few parenthesis, footnotes and bold characters as you can.
 - Use a spell checker. Just do it.
-- Learn about [significant digits](/lemire/blog/archives/2012/04/20/computer-scientists-need-to-learn-about-significant-digits/).
+- Learn about [significant digits](/lemire/blog/2012/04/20/computer-scientists-need-to-learn-about-significant-digits/).
 - Use a tool such as [style-check.rb](http://www.cs.umd.edu/~nspring/software/style-check-readme.html) to spot verbose phrases and other common mistakes.
 - Learn about and use unbreakable spaces.
 - Do not use negations&hellip;
@@ -66,7 +66,7 @@ __6. Good pedagogy and style__
 - Employ uncomplicated terms.
 - Learn to use the [em-dash](https://en.wikipedia.org/wiki/Emdash#Em_dash)&mdash; it is a good friend.
 - Short sentences&mdash;”no more than 15 words”&mdash;are better.
-- Make your research papers [easy to skim](/lemire/blog/archives/2009/05/27/make-your-research-papers-easy-to-skim/) by using meaningful section headers, bullet points and simple figures.
+- Make your research papers [easy to skim](/lemire/blog/2009/05/27/make-your-research-papers-easy-to-skim/) by using meaningful section headers, bullet points and simple figures.
 
 
 __7. Words you can do without__
@@ -78,8 +78,7 @@ __7. Words you can do without__
 - Avoid the expression &ldquo;so called&rdquo;. It might not mean what you think it means.
 
 
-__8. Run through this check list before submission __
-
+__8. Run through this check list before submission__
 - Are section headers consistent with respect to case? (&ldquo;Our Methodology&rdquo; versus &ldquo;Our algorithm&rdquo;)
 - Do the figures look nice? Are the fonts in your figures large enough for easy browsing? Are the figures readable once printed out in black-and-white? Can we see any compression artifacts? Prefer [vector graphics](https://en.wikipedia.org/wiki/Vector_graphics) for your figures. Avoid screen shots unless absolutely necessary. Each figure and each table should fit in a single page, be numbered and referenced in the text.
 - If the page limit is _x_ pages, do you have an _x_ pages long paper? Some reviewers feel you should use all the pages you were granted.

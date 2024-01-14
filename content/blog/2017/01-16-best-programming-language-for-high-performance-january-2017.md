@@ -7,20 +7,17 @@ title: "Best programming language for high performance (January 2017)?"
 
 I keep hoping that the field of programming language will evolve. I am a bit tired to program in Java and C&hellip; I&rsquo;d like better languages.
 
-I am particularly interested in what I generally call &ldquo;high-performance programming&rdquo;. I want to pick languages where I can get the most out of my hardware. It is fine to program in JavaScript and Python, but there comes a time where you tackle large problems on hardware that is barely sufficient. 
-
+I am particularly interested in what I generally call &ldquo;high-performance programming&rdquo;. I want to pick languages where I can get the most out of my hardware. It is fine to program in JavaScript and Python, but there comes a time where you tackle large problems on hardware that is barely sufficient.
 - For my purposes, I am going to narrow it down to &ldquo;system programming languages&rdquo; which means Swift, Rust, Go, C++, C. These are languages that well-suited to build more than applications, but also servers, database engines and so forth. They all offer ahead-of-time compilation, which makes the performance easier to reason about.
 
 I think there will be no disagreement that C and C++ are system programming languages. Whether Go and Swift qualify is somewhat subjective. Would you write an operating system in Go? I would not. But Wikipedia seems to be happy to consider them all as [system programming languages](https://en.wikipedia.org/wiki/System_programming_language).
 - I am going to ignore assembly because I can&rsquo;t imagine using it all the time. It is simply not practical unless you are working on a tiny code base (maybe on embedded software).
 - I am going to ignore Rust, D and Nim as they have too few users. Programming is a social activity: if nobody can use your code, it does not matter that it runs fast. I think that they are very interesting languages but until many more people start coding in these languages, I am going to ignore them. Fortran is out for similar reasons: it still has important users, but they are specialized.
-- I am not including non-system languages such as JavaScript, PHP, Matlab, Ruby, R, Python because though they can be fast, they are simply not generally well suited for high performance. They are typically &ldquo;fast enough&rdquo; for specific purposes, but they also have hard limitations. For example, JavaScript and Python appear unable to support natively multithreaded execution. (Spawning new processes does not count.) 
-- Java and C# are interesting cases. They have been both described and used as &ldquo;system programming languages&rdquo;. I think that the evidence is overwhelming that Java can be used to build significant systems that perform very well. However, I think that running in a virtual machine (JVM, CLR) is a hard limitation: you can never be &ldquo;bare metal&rdquo;. I lump Scala with Java.
+- I am not including non-system languages such as JavaScript, PHP, Matlab, Ruby, R, Python because though they can be fast, they are simply not generally well suited for high performance. They are typically &ldquo;fast enough&rdquo; for specific purposes, but they also have hard limitations. For example, JavaScript and Python appear unable to support natively multithreaded execution. (Spawning new processes does not count.)- Java and C# are interesting cases. They have been both described and used as &ldquo;system programming languages&rdquo;. I think that the evidence is overwhelming that Java can be used to build significant systems that perform very well. However, I think that running in a virtual machine (JVM, CLR) is a hard limitation: you can never be &ldquo;bare metal&rdquo;. I lump Scala with Java.
 - There is a countless number of niche languages that I have not mentioned. Most of them will never pick up any amount of users.
 
 
-Let me run through a few desirable features for high-performance programming along with the current languages that fare well. 
-
+Let me run through a few desirable features for high-performance programming along with the current languages that fare well.
 - Operating systems are built in C or C++. Moreover, many important libraries have C interfaces. This means that being able to call C functions with minimal overhead is important in some instance. While Go allows you to call C functions, there is considerable overhead in terms of performance. All other programming languages can call C with minimal overhead.
 
 - Obvious winners: C, C++
@@ -45,8 +42,7 @@ Let me run through a few desirable features for high-performance programming alo
 
 <li>Our processors have fancy new instructions, like SIMD instructions (AVX2, Neon&hellip;). These should be readily available from the programming language. No programming language is easy to program with something like SIMD instructions, but C and C++ clearly come on top. In Go, you can write functions in assembly and call them from the language, but it comes with a discouraging performance overhead. Swift is barely better (there is a simd package, but it only works under macOS).
 
-- Winners: C, C++ 
-- Losers: Go, Swift
+- Winners: C, C++- Losers: Go, Swift
 
 <li>It has been decades and there is still no universal way to manage dependencies in C. There is also no standard build mechanism. Sure, your favorite IDE can make it easier to add a dependency and build your program, but having something built into the language makes life much easier. In Go and Swift, there is a standard, cross-platform way to build programs, run tests and add dependencies.
 

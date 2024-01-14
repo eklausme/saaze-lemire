@@ -5,8 +5,7 @@ title: "Why academia is so conservative: academic freedom"
 
 
 
-To anyone who worked in industry, academia feels like it is standing still. For example, many Computer Science programs still teach programming as it was done 10 years ago, if you are lucky. Most programs undergo only cosmetic changes over time. 
-
+To anyone who worked in industry, academia feels like it is standing still. For example, many Computer Science programs still teach programming as it was done 10 years ago, if you are lucky. Most programs undergo only cosmetic changes over time.
 I have the following explanation:
 
 1. Most people are out of touch. This is true everywhere. I remember when Java first came out. Years after Java had mostly caught up with C++ in speed, people still complained that it was slow. I still hear people say that Java is slow. Keeping up with the latest facts is hard. People prefer to rehash the same, again and again. The human brain prefers to avoid change.
@@ -16,5 +15,4 @@ I have the following explanation:
 
 (We could test my explanation by determining whether there is a correlation between the level of academic freedom and the level of conservatism.)
 
-I find it very interesting that increased individual freedom brings about more conservatism. 
-
+I find it very interesting that increased individual freedom brings about more conservatism.

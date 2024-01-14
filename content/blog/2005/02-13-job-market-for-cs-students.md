@@ -13,17 +13,14 @@ title: "Job Market for CS Students"
 
 Here is what she has to say based on the people she talked to:
 
-> I recently talked to some master CS graduates. (&hellip;) They both said programming jobs are no more and many new hires are master graduates. 
-
+> I recently talked to some master CS graduates. (&hellip;) They both said programming jobs are no more and many new hires are master graduates.
 
 Here are two quotes from the second article she cites:
 
-> 
-There are certain areas in the technology sector that are thriving. Demand is high for those who specialize in network and IT security.
+>There are certain areas in the technology sector that are thriving. Demand is high for those who specialize in network and IT security.
 
 
-> Technology services companies like IBM and BearingPoint are hiring in the United States, though they are increasingly looking for employees who can combine technology chops with business savvy. 
-
+> Technology services companies like IBM and BearingPoint are hiring in the United States, though they are increasingly looking for employees who can combine technology chops with business savvy.
 
 The message is quite clear, I believe. If you want to train yourself or students to produce software (programming or software engineering), you better be damn good because the job market is not there anymore. Will jobs come back? Automobile workers in North America are still waiting for the jobs sent to Mexico or elsewhere to come back. Now, programming or software engineering are not useless skills, far from it, but it might be a better strategy to aim for a business jobs where your programming or computer networking skills can be put to good use, for example. It seems that the job market is moving toward information technology (security, networking, using the right technology at the right time, understanding the implication of a given technology for business).
 

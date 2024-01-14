@@ -14,7 +14,6 @@ Are you happy, just being from school Omega? David Parry [urges us](http://acade
 > Think about this as rather than being a professor from Omega university who writes about Legal Institutions in Meerkat Communities, you can be a professor who writes about Meerkats and the Law and who is associated with Omega university.
 
 
-In short, researchers rely on their school and their publishers to broadcast their information. David is saying that it is suboptimal both for you and for the community. 
-
-Stop saying you are &ldquo;John from school X&rdquo;. Say that you are &ldquo;John who works on problem  Y&rdquo;. Don&rsquo;t rely on your employer to carry your message!
+In short, researchers rely on their school and their publishers to broadcast their information. David is saying that it is suboptimal both for you and for the community.
+Stop saying you are &ldquo;John from school X&rdquo;. Say that you are &ldquo;John who works on problem  Y&rdquo;. Don&rsquo;t rely on your employer to carry your message!
 

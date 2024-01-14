@@ -5,10 +5,8 @@ title: "How quickly can you remove spaces from a string?"
 
 
 
-Sometimes programmers want to prune out characters from a string of characters. For example, maybe you want to remove all line-ending characters from a piece of text. 
-
-Let me consider the problem where I want to remove all spaces (&lsquo; &lsquo;) and linefeed characters (&lsquo;\n&rsquo; and &lsquo;\r&rsquo;). 
-
+Sometimes programmers want to prune out characters from a string of characters. For example, maybe you want to remove all line-ending characters from a piece of text.
+Let me consider the problem where I want to remove all spaces (&lsquo; &lsquo;) and linefeed characters (&lsquo;\n&rsquo; and &lsquo;\r&rsquo;).
 How would you do it efficiently?
 ```C
 size_t despace(char * bytes, size_t howmany) {
@@ -81,8 +79,7 @@ size_t faster_despace( char* bytes, size_t howmany ) {
 
 This approach proposed by Robin Leffmann is very clever, and it is fast because it avoids penalties due to mispredicted branches.
 
-Can we do even better? Sure! Ever since the Pentium 4 (in 2001), we have had 128-bit (SIMD) instructions. 
-
+Can we do even better? Sure! Ever since the Pentium 4 (in 2001), we have had 128-bit (SIMD) instructions.
 Let us solve the same problem with these nifty 128-bit SSE instructions, using the (ugly?) intel intrinsics&hellip;
 ```C
 __m128i spaces = _mm_set1_epi8(' ');
@@ -117,10 +114,8 @@ using 64-bit words       |2.56 cycles/byte         |                         |wi
 <tt>memcpy</tt>          |0.08 cycles / byte       |
 
 
-So the vectorized code is nearly 14 times faster than the regular code. That&rsquo;s pretty good. 
-
-Yet pruning a few spaces is 5 times slower than copying the data with <tt>memcpy</tt>. So maybe we can go even faster. How fast could we be? 
-
+So the vectorized code is nearly 14 times faster than the regular code. That&rsquo;s pretty good.
+Yet pruning a few spaces is 5 times slower than copying the data with <tt>memcpy</tt>. So maybe we can go even faster. How fast could we be?
 One hint: Our Intel processors can actually process 256-bit registers (with AVX/AVX2 instructions), so it is possible we could go twice as fast. Sadly, 256-bit SIMD instructions on x64 processors work on two 128-bit independent lanes which make the algorithmic design more painful.
 
 Leffmann&rsquo;s approach is not as fast as SIMD instructions, but it is more general and portable&hellip; and it is still three times faster than the regular code!

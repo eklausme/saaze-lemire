@@ -13,12 +13,10 @@ I think that the Quebec students are misguided when it comes to research. So let
 
 How did we get started? The first universities were entirely funded by the students. In fact, they were often run by the students themselves. Yet, even back then, the professors published and communicated their research eagerly. Why?
 
-There would be great savings if we could just get rid of research. It is easy to find people willing to lecture for a fourth of the salary of a professor. 
-
+There would be great savings if we could just get rid of research. It is easy to find people willing to lecture for a fourth of the salary of a professor.
 But professors are not lecturers even though they sometimes lecture. Students seek to be close to people who are perceived as leaders in their respective area. They do so because recognition from such a leader is highly valued socially. And to recruit and retain leaders, you need to pay a decent salary.
 
-The principle is general. If you are a well-known porn star, it is likely that there are people who will pay just to get some coaching from you, precisely because you are known as a porn star. So, a computer science professor should try to be known as a computer scientist. Then students who want to become computer scientists will want to have access to this professor. 
-
+The principle is general. If you are a well-known porn star, it is likely that there are people who will pay just to get some coaching from you, precisely because you are known as a porn star. So, a computer science professor should try to be known as a computer scientist. Then students who want to become computer scientists will want to have access to this professor.
 Publishing is a very natural process if you want to build up your reputation. In fact, many people who write non-fiction books do so because it will attract indirect sources of income such as consulting and training. Professors are not different: they write books and research articles because it increases their social status. In turn, this social status can be <em>monetized</em>.
 
 Thus, if you want to know whether a professor is doing a decent job, you should ask whether people would be willing to pay to interact with him if we did not have universities. A good professor should be able to fund much of his research with consulting and training contracts, should he ever lose his academic position. Hence, his employer gets a fair deal even if it has to allow him to spend a great deal of time on self-directed research.
