@@ -45,7 +45,7 @@ The migration, theme, and installation is explained in [Example Theme for Simpli
 The migration of all the content, blog posts and comments, was done via two simple Perl scripts, less than 300 lines.
 
 Running the [static site generator](https://eklausmeier.goip.de/blog/2021/10-31-simplified-saaze) on a regular basis:
-Converting all 2,259 blog posts to static without comments takes 0.41 seconds, including all comments it takes 0.91 seconds for all the 3,935 entries (CPU is Ryzen 7 3500G).
+Converting all 2,259 blog posts to static without comments takes 0.41 seconds, including all comments it takes 0.91 seconds for all the 3,935 entries (CPU is Ryzen 7 5700G).
 This runtime is single threaded (one core). Using multithreading would further reduce this time.
 The static site generator _Simplified Saaze_ is known to be more than 10-times faster than Hugo, see [Performance Comparison Saaze vs. Hugo vs. Zola](https://eklausmeier.goip.de/blog/2021/11-13-performance-comparison-saaze-vs-hugo-vs-zola).
 
