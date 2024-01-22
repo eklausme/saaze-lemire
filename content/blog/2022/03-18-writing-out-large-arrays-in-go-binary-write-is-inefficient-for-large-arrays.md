@@ -12,7 +12,8 @@ var buf *bytes.Buffer = new(bytes.Buffer)
 
 ...
 
-err := binary.Write(buf, binary.LittleEndian, data)</code>```
+err := binary.Write(buf, binary.LittleEndian, data)
+```
 
 
 Until recently, I assumed that the <tt>binary.Write</tt> function did not allocate memory. Unfortunately, it does. The function converts the input array to a new, temporary byte arrays.
@@ -23,7 +24,8 @@ Instead, you can create a small buffer just big enough to hold you 8-byte intege
 for _, x := range data {
     binary.LittleEndian.PutUint64(item, x)
     buf.Write(item)
-}</code>```
+}
+```
 
 
 Sadly, this might have poor performance on disks or networks where each write/read has a high overhead. To avoid this problem, you can use Go&rsquo;s buffered writer and write the integers one by one. Internally, Go will allocate a small buffer.
@@ -34,7 +36,8 @@ for _, x := range data {
 	binary.LittleEndian.PutUint64(item, x)
 	writer.Write(item)
 }
-writer.Flush()</code>```
+writer.Flush()
+```
 
 
 I wrote a [small benchmark](https://github.com/lemire/Code-used-on-Daniel-Lemire-s-blog/tree/master/2022/03/18) that writes an array of 100M integers to memory.

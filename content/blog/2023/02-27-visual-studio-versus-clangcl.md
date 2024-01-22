@@ -11,17 +11,20 @@ Let us compare their performance characteristics with a fast string transcoding 
 
 After grabbing the  simdutf library from GitHub, I prepare the build directory for standard Visual Studio:
 ```C
-&gt; cmake -B buildvc```
+&gt; cmake -B buildvc
+```
 
 
 I do the same for ClangCL:
 ```C
-&gt; cmake -B buildclangcl -T ClangCL```
+&gt; cmake -B buildclangcl -T ClangCL
+```
 
 
 You may also build directly with LLVM:
 ```C
-&gt; cmake -B buildfastclang  -D CMAKE_LINKER="lld"   -D CMAKE_CXX_COMPILER=clang++  -D CMAKE_C_COMPILER=clang -D CMAKE_RC_COMPILER=llvm-rc```
+&gt; cmake -B buildfastclang  -D CMAKE_LINKER="lld"   -D CMAKE_CXX_COMPILER=clang++  -D CMAKE_C_COMPILER=clang -D CMAKE_RC_COMPILER=llvm-rc
+```
 
 
 For each build directory, I can build in Debug mode (<tt>--config Debug</tt>) or in Release mode (<tt>--config Release</tt>) with commands such as

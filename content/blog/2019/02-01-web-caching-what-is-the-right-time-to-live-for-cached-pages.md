@@ -20,7 +20,8 @@ I traced back the problem to what is called an htaccess file on my server:
 <IfModule mod_expires.c>
 <span class="Apple-converted-space">  ExpiresActive On
 <span class="Apple-converted-space">  ExpiresByType text/html A3
-&lt;/IfModule&gt;```
+&lt;/IfModule&gt;
+```
 
 
 The mysterious &ldquo;A3&rdquo; means &ldquo;expires after 3 seconds&rdquo;.

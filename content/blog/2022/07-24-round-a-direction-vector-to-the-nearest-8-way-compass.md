@@ -102,7 +102,8 @@ But as pointed out by Samuel Lee in the comments, you can do even better&hellip;
  outx = (posy >= 0.923879532511286) ? 0 : outx;
  outy = (posx >= 0.923879532511286) ? 0 : outy;
  outx = copysign(outx, x);
- outy = copysign(outy, y);```
+ outy = copysign(outy, y);
+```
 
 
 [I wrote a small benchmark that operates on random inputs](https://github.com/lemire/Code-used-on-Daniel-Lemire-s-blog/tree/master/2022/07/24). Your results will vary but on my mac laptop with LLVM 12, I get that the direct approach with copysign is 50 times faster than the approach with tan/sin/cos.

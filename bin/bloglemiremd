@@ -116,6 +116,7 @@ while (<>) {
 	# $lang = "Assembler" if (/assembly instr/);
 	if (/^<pre style=/ || /^<pre>/) {
 		$inPre = 1;
+		s/<pre><code>/<pre>/;	# ditch <code>
 		#if (/>int<|size_t|std::/) { $lang = "C"; }
 		#elsif (/import/) { $lang = "Python"; }
 		#else { $lang = "Go"; }
@@ -124,7 +125,10 @@ while (<>) {
 	}
 	if (/<\/pre>$/) {
 		$inPre = 0;
-		s/<\/pre>/```\n/;
+		s/<\/code><code>//;	# special case for 2023/10-17-randomness-in-programming-with-go-code
+		s/<\/code><\/pre>/<\/pre>/;	# ditch </code>
+		my $nl = (/[^\s]<\/pre>$/) ? "\n" : "";
+		s/<\/pre>/${nl}```\n/;
 	}
 	if ($inPre) {
 		s/<span style="([^"]+)">//g;

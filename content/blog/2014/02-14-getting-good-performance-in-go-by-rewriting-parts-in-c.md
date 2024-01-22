@@ -39,7 +39,8 @@ func popcount_2(x uint64) uint64 {
 
 In C, when using GCC-like compiler, we would simply call an intrinsic (<tt>__builtin_popcountl</tt>). Presumably, it is as fast or faster than anything we can come up with. Go makes it really easy to call a C function:
 ```Go
-C.__builtin_popcountl(C.ulong(word)))```
+C.__builtin_popcountl(C.ulong(word)))
+```
 
 
 Alternatively, we can write the entire function in C and call it from Go:

@@ -51,7 +51,8 @@ uint64_t matching_bytes_in_word(uint64_t x, uint64_t y) {
   const uint64_t t1 = (~xor_xy & 0x8080808080808080llu);
   uint64_t zeros = t0 & t1;
   return ((zeros >> 7) * 0x0101010101010101ULL) >> 56;
-}```
+}
+```
 
 
 With this routine, you can bring down the instruction count to about 2 per character, including all the overhead and the data loading. It is strictly better than what you could with character-by-character processing by a factor of two (for long strings).

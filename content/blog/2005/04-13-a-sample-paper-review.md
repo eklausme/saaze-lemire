@@ -28,23 +28,27 @@ This is an example of a clearly unacceptable review. The reviewer lacks any kind
 
 Let&rsquo;s look at what the review says piece by piece:
 ```C
-The paper is technically poor and also the results.```
+The paper is technically poor and also the results.
+```
 
 
 What does this mean? What is technically poor? Why are the results poor? If you know, tell us, if you don&rsquo;t know why it is poor, we don&rsquo;t want to hear about your opinion.
 ```C
-The paper is not clearly written.```
+The paper is not clearly written.
+```
 
 
 Give an example or two. If the paper is not clear, then you should be able to quote a few parts that are clearly obscur and explain why they are obscur.
 ```C
 The authors did not refer appropriately
-the past work.```
+the past work.
+```
 
 
 Like what? What are the missing references? Or do you mean the author didn&rsquo;t cite __your__ work?
 ```C
-No technical or engineering contribution.```
+No technical or engineering contribution.
+```
 
 
 Are you saying the paper had no abstract explaining the contribution of the paper? If so, say it, if not, explain why it is not a worthy contribution.

@@ -28,7 +28,8 @@ int main() { return go(); }
 
 I am calling this program <tt>hello</tt>. Let us compile the program with the line
 ```C
-cc -g -o hello hello.c -lSegFault```
+cc -g -o hello hello.c -lSegFault
+```
 
 
 I am linking against <tt>SegFault</tt>, but not otherwise modifying my code. Importantly, I do not need to modify anything else. I do not need to run my program within the scope of another program (e.g., within a debugger like gdb or ldb). As far as I know, `SegFault` has been available pretty much all the time with Linux, you do not need to install anything. In the future, it will be removed from the standard C library but, at least under Ubuntu, [it is being moved to the glibc-tools package](https://installati.one/install-glibc-tools-ubuntu-22-04/). You can also build [glibc-tools from its source code](https://github.com/zatrazz/glibc-tools).

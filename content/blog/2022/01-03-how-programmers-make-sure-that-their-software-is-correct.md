@@ -23,21 +23,21 @@ Many of the early programmers had advanced mathematical training. They hoped tha
 
 Let us consider an example of formal verification to illustrate our point. We can use the z3 library from Python ([De Moura and Bjørner, 2008](https://doi.org/10.1007/978-3-540-78800-3_24)). If you are not a Python user, don&rsquo;t worry: you don&rsquo;t have to be to follow the example. We can install the necessary library with the command <code>pip install z3-solver</code> or the equivalent. Suppose we want to be sure that the inequality <code>( 1 + y ) / 2 &lt; y</code> holds for all 32-bit integers. We can use the following script:
 ```C
-<code>import z3
+import z3
 y = z3.BitVec("y", 32)
 s = z3.Solver()
 s.add( ( 1 + y ) / 2 >= y )
 if(s.check() == z3.sat):
     model = s.model()
     print(model)
-</code>```
+```
 
 
 In this example we construct a 32-bit word (<em>BitVec</em>) to represent our example. By default, the z3 library interprets the values that can be represented by such a variable as ranging from -2147483648 to 2147483647 (from <span class="math">\(-2^{31}\)</span> to <span class="math">\(2^{31}-1\)</span> inclusive). We enter the inequality opposite to the one we wish to show (<code>( 1 + y ) / 2 &gt;= y</code>). If z3 does not find a counterexample, then we will know that the inequality <code>( 1 + y ) / 2 &lt; y</code> holds.
 
 When running the script, Python displays the integer value 2863038463 which indicates that z3 has found a counterexample. The z3 library always gives a positive integer and it is up to us to interpret it correctly. The number 2147483648 becomes -2147483648, the number 2147483649 becomes -2147483647 and so on. This representation is often called [the two&rsquo;s complement](https://en.wikipedia.org/wiki/Two%27s_complement). Thus, the number 2863038463 is in fact interpreted as a negative number. Its exact value is not important: what matters is that our inequality (<code>( 1 + y ) / 2 &lt; y</code>) is incorrect when the variable is negative. We can check this by giving the variable the value -1, we then get <code>0 &lt; -1</code>. When the variable takes the value 0, the inequality is also false (<code>0&lt;0</code>). We can also check that the inequality is false when the variable takes the value 1. So let us add as a condition that the variable is greater than 1 (<code>s.add( y &gt; 1 )</code>):
 ```C
-<code>import z3
+import z3
 y = z3.BitVec("y", 32)
 s = z3.Solver()
 s.add( ( 1 + y ) / 2 >= y )
@@ -46,14 +46,14 @@ s.add( y > 1 )
 if(s.check() == z3.sat):
     model = s.model()
     print(model)
-</code>```
+```
 
 
 Since the latter script does not display anything on the screen when it is executed, we can conclude that the inequality is satisfied as long as the variable of variable is greater than 1.
 
 Since we have shown that the inequality <code>( 1 + y ) / 2 &lt; y</code> is true, perhaps the inequality <code>( 1 + y ) &lt; 2 * y</code> is true too? Let&rsquo;s try it:
 ```C
-<code>import z3
+import z3
 y = z3.BitVec("y", 32)
 s = z3.Solver()
 s.add( ( 1 + y ) >= 2 * y )
@@ -62,12 +62,12 @@ s.add( y > 1 )
 if(s.check() == z3.sat):
     model = s.model()
     print(model)
-</code>```
+```
 
 
 This script will display 1412098654, half of 2824197308 which is interpreted by z3 as a negative value. To avoid this problem, let&rsquo;s add a new condition so that the double of the variable can still be interpreted as a positive value:
 ```C
-<code>
+
 import z3
 y = z3.BitVec("y", 32)
 s = z3.Solver()
@@ -78,7 +78,7 @@ s.add( y < 2147483647/2)
 if(s.check() == z3.sat):
 model = s.model()
 print(model)
-</code>```
+```
 
 
 This time the result is verified. As you can see, such a formal approach requires a lot of work, even in relatively simple cases. It may have been possible to be more optimistic in the early days of computer science, but by the 1970s, computer scientists like Dijkstra were expressing doubts:
@@ -110,7 +110,7 @@ Unfortunately, it is difficult to define exactly how good tests are. There are s
 
 Consider [this example](https://play.golang.org/p/nwMUq2o_WlX):
 ```C
-<code>package main
+package main
 
 import (
     "testing"
@@ -126,25 +126,25 @@ func TestAverage(t *testing.T) {
         t.Error(Average(2,4))
     }
 }
-</code>```
+```
 
 
 In the Go language, we can run tests with the command <code>go test</code>. We have an <code>Average</code> function with a corresponding test. In our example, the test will run successfully. The coverage is 100%.
 
 Unfortunately, the <code>Average</code> function may not be as correct as we would expect. If we pass the integers 40000 and 40000 as parameters, we would expect the average value of 40000 to be returned. But the integer 40000 added to the integer 40000 cannot be represented with a 16-bit integer (<code>uint16</code>): the result will be instead <code>(40000+4000)%65536=14464</code>. So the function will return 7232 which may be surprising. The following test will fail:
 ```C
-<code>
+
 func TestAverage(t *testing.T) {
 if Average(40000,40000) != 40000 {
 t.Error(Average(40000,40000))
 }
 }
-</code>```
+```
 
 
 When possible and fast, we can try to test the code more exhaustively, like [in this example](https://play.golang.org/p/nlq_J_-Tw8F) where we include several values:
 ```C
-<code>package main
+package main
 
 import (
     "testing"
@@ -175,12 +175,12 @@ func TestAverage(t *testing.T) {
     }
   } 
 }
-</code>```
+```
 
 
 In practice, it is rare that we can do exhaustive tests. We can instead use pseudo-random tests. For example, we can generate pseudo-random numbers and use them as parameters. In the case of random tests, it is important to keep them deterministic: each time the test runs, the same values are tested. This can be achieved by providing a fixed _seed_ to the random number generator as in [this example](https://play.golang.org/p/XGoxJoxfiEJ):
 ```C
-<code>package main
+package main
 
 import (
     "testing"   
@@ -213,7 +213,7 @@ func TestAverage(t *testing.T) {
     }
   } 
 }
-</code>```
+```
 
 
 Tests based on random exploration are part of a strategy often called _fuzzing_ ([Miller at al., 1990](https://doi.org/10.1145/96267.96279)).
@@ -241,7 +241,7 @@ Even if we want to write high-quality documentation, tests can also play an impo
 
 Programmers regularly fix flaws in their software. It often happens that the same problem occurs again. The same problem may come back for various reasons: sometimes the original problem has not been completely fixed. Sometimes another change elsewhere in the code causes the error to return. Sometimes the addition of a new feature or software optimization causes a bug to return, or a new bug to be added. When software acquires a new flaw, it is called a regression. To prevent such regressions, it is important to accompany every bug fix or new feature with a corresponding test. In this way, we can quickly become aware of regressions by running the tests. Ideally, the regression can be identified while the code is being modified, so we avoid regression. In order to convert a bug into a simple and effective test, it is useful to reduce it to its simplest form. For example, in our previous example with <code>Average(40000,40000)</code>, we can add the detected error in [additional test](https://play.golang.org/p/PH9y3ZqV2c9):
 ```C
-<code>package main
+package main
 
 import (
     "testing
@@ -264,7 +264,7 @@ func TestAverage(t *testing.T) {
      t.Error("error 2")
    }           
 }
-</code>```
+```
 
 <h4>Bug fixing</h4>
 

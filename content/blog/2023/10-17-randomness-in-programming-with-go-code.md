@@ -7,7 +7,7 @@ title: "Randomness in programming (with Go code)"
 
 Computer software is typically deterministic on paper: if you run twice the same program with the same inputs, you should get the same outputs. In practice, the complexity of modern computing makes it unlikely that you could ever run twice the same program and get exactly the same result, down to the exact same execution time. For example, modern operating systems randomize the memory addresses as a security precaution: a technique called <em>Address space layout randomization</em>. Thus if you run a program twice, you cannot be guaranteed that the memory is stored at the same memory addresses. In Go, you can print the address of a pointer with the <code>%p</code> directive. The following program will allocate a small array of integers, and print the corresponding address, using a pointer to the first value. If you run this program multiple times, you may get different addresses.
 ```Go
-<code>package main
+package main
 
 import (
     "fmt"
@@ -16,7 +16,8 @@ import (
 func main() {
   x := make([]int, 3)
     fmt.Printf("Hello %p", &x[0])
-}</code>```
+}
+```
 
 
 Thus, in some sense, software programs are already _randomized_ whether we like it or not. Randomization can make programming more challenging. For example, a bad program might behave correctly most of the time and only fail intermittently. Such unpredictable behavior is a challenge for a programmer.
@@ -37,7 +38,7 @@ An ideal hash function might take each possible input and assign it to a purely 
 
 A reasonable example to hash non-zero integer values is the murmur function. The murmur function consists of two multiplications and and three shift/xor operations. The following Go program will display random-looking 64-bit integers, using the murmur function:
 ```Go
-<code>package main
+package main
 
 import (
     "fmt"
@@ -58,14 +59,15 @@ func main() {
     for i := 0; i < 10; i++ {
         fmt.Println(i, murmur64(uint64(i)))
     }
-}</code>```
+}
+```
 
 
 It is a reasonably fast function. One downside of the <code>murmur64</code> function is that zero is mapped to zero, so some care is needed.
 
 In practice, your values might not be integers. If you want to hash a string, you might use a <em>recursive function</em>. You process the string character by character. At each character, you combine the character value with the hash value computed so far, generating a new hash value. Once the function is completed, you may then apply murmur to the result:
 ```Go
-<code>package main
+package main
 
 import (
     "fmt"
@@ -90,21 +92,23 @@ func hash(s string) (v uint64) {
 
 func main() {
     fmt.Print(hash("la vie"), hash("Daniel"))
-}</code>```
+}
+```
 
 
 There are better and faster hash functions, but the result from recursive hashing with a murmur finalizer is reasonable.
 
 Importantly, it is reasonably easy to generate two strings that hash to the same values, i.e., to create a collision. For example, you can verify that the strings <code>"Ace"</code>, <code>"BDe"</code>, <code>"AdF"</code>, <code>"BEF"</code> all have the same hash value:
 ```Go
-<code>fmt.Print(hash("Ace"), hash("BDe"), hash("AdF"), hash("BEF"))</code>```
+fmt.Print(hash("Ace"), hash("BDe"), hash("AdF"), hash("BEF"))
+```
 
 
 When hashing arbitrarily long strings, collisions are always possible. However, we can use more sophisticated (and more computationally expensive) hash functions to reduce the probability that we encounter a problem.
 
 An interesting characteristic of the provided <code>murmur64</code> function is that it is invertible. If you consider the steps, you have two multiplication by odd integers. A multiplication by an odd integer is always invertible: the multiplicative inverse of 0xff51afd7ed558ccd is 0x4f74430c22a54005 and the multiplicative inverse of 0xc4ceb9fe1a85ec53 is 0x9cb4b2f8129337db, as 64-bit unsigned integers. It may be slightly less obvious that <code>h ^= h &gt;&gt; 33</code> is invertible. But if <code>h</code> is a 64-bit integer, we have that <code>h</code> and <code>h ^ (h &gt;&gt; 33)</code> are identical in their most significant 33 bits, by inspection. Thus if we are given <code>z = h ^ (h &gt;&gt; 33)</code>, we have that <code>z &gt;&gt; (64-33) == h &gt;&gt; (64-33)</code>. That is, we have identified the most significant 33 bits of <code>h</code> from <code>h ^ (h &gt;&gt; 33)</code>. Extending this reasoning, we have that <code>g</code> is the inverse of <code>f</code> in the following code, in the sense that <code>g(f(i)) == i</code>.
 ```Go
-<code>func f(h uint64) uint64 {
+func f(h uint64) uint64 {
     return h ^ (h >> 33)
 }
 
@@ -112,15 +116,17 @@ func g(z uint64) uint64 {
     h := z & 0xffffffff80000000
     h = (h >> 33) ^ z
     return h
-}</code>```
+}
+```
 
 
 We often need hash values to fit within an interval starting at zero. E.g., you might want to get a hash value in <code>[0,max)</code>, you might use the following function:
 ```Go
-<code>func toIntervalBias(random uint64, max uint64) uint64 {
+func toIntervalBias(random uint64, max uint64) uint64 {
     hi,_ := bits.Mul64(random, max)
     return hi
-}</code>```
+}
+```
 
 
 This function outputs a value in <code>[0,max)</code> using a single multiplication. There are alternatives such as <code>random % max</code>, but an integer remainder operation may compile to a division instruction, and a division is typically more expensive than a multiplication. Whenever possible, you should avoid division instructions when performance is a factor.
@@ -129,7 +135,7 @@ Importantly, the <code>toIntervalBias</code> function introduces a slight bias: 
 
 Putting it all together, the following program will hash a string into a value in the interval <code>[0,10)</code>.
 ```Go
-<code>package main
+package main
 
 import (
     "fmt"
@@ -160,14 +166,16 @@ func toIntervalBias(random uint64, max uint64) uint64 {
 
 func main() {
     fmt.Print(toIntervalBias(hash("la vie"),10))
-}</code>```
+}
+```
 
 
 Though the <code>toIntervalBias</code> function is generally efficient, it is unnecessarily expensive when the range is a power of two. If <code>max</code> is a power of two (e.g., 32), then <code>random % max == random &amp; (max-1)</code>. A bitwise AND with the decremented maximum is faster than even just a multiplication, typically. Thus the following function is preferable.
 ```Go
-<code>func toIntervalPowerOfTwo(random uint64, max uint64) uint64 {
+func toIntervalPowerOfTwo(random uint64, max uint64) uint64 {
     return random & (max-1)
-}</code>```
+}
+```
 
 <h3 id="estimating-cardinality">Estimating cardinality</h3>
 
@@ -177,7 +185,7 @@ There are many techniques to estimate cardinalities using hashing: Probabilistic
 
 The space between distinct hash values should be about <span class="math inline">2<sup>64</sup>/(<em>N</em>+1)</span> where <span class="math inline"><em>N</em></span> is the number of distinct values. If we find the small hash value <span class="math inline"><em>m</em></span>, then we should have approximately <span class="math inline"><em>m</em> = 2<sup>64</sup>/(<em>N</em>+1)</span> or <span class="math inline"><em>N</em> = 2<sup>64</sup>/<em>m</em> − 1</span>. When <span class="math inline"><em>N</em></span> is much larger than 1 but much smaller than <span class="math inline">2<sup>64</sup></span>, this is approximatively <span class="math inline"><em>N</em> = (2<sup>64</sup>−1)/<em>m</em></span>. The following function applies this formula to estimate the cardinality:
 ```Go
-<code>// estimateCardinality estimates the number of distinct values
+// estimateCardinality estimates the number of distinct values
 func estimateCardinality(values []uint64) int {
     if len(values) < 2 {
         return len(values)
@@ -191,12 +199,13 @@ func estimateCardinality(values []uint64) int {
         }
     }
     return int(math.MaxUint64 / mi1)
-}</code>```
+}
+```
 
 
 We can apply this function in the following program. The approximation is rather crude, but it can be good enough in some practical cases.
 ```Go
-<code>package main
+package main
 
 import (
     "fmt"
@@ -246,7 +255,8 @@ func main() {
     fillArray(values, distinct)
     fmt.Println(estimateCardinality(values), distinct)
 
-}</code>```
+}
+```
 
 <h3 id="integers">Integers</h3>
 
@@ -254,7 +264,7 @@ There are many ways to generate random integers, but a particularly simple appro
 
 [Steele et al. (2014)](https://doi.org/10.1145/2714064.2660195) propose a similar strategy which they call SplitMix: it is part of the Java standard library. It works much like what we just described but instead of incrementing the counter by one, they increment it by a large odd integer. They also use a slightly different version of the <code>murmur64</code> version. The following function prints 10 different random values, following the SplitMix formula:
 ```Go
-<code>package main
+package main
 
 import "fmt"
 
@@ -274,7 +284,8 @@ func main() {
         r := splitmix64(&seed)
         fmt.Println(r)
     }
-}</code>```
+}
+```
 
 
 Each time the <code>splitmix64</code> function is called, the hidden <code>seed</code> variable is advanced by a constant (<code>0x9E3779B97F4A7C15</code>). If you start from the same seed, you always get the same random values.
@@ -283,16 +294,17 @@ The function then performs a series of bitwise operations on z. First, it perfor
 
 It produces integers using the full 64-bit range. If one needs a random integer in an interval (e.g., <code>[0,N)</code>), then more work is needed. If the size of the interval is a power of two (e.g., <code>[0,32)</code>), then we may simply use the same technique as for hashing:
 ```Go
-<code>// randomInPowerOfTwo -> [0,max)
+// randomInPowerOfTwo -> [0,max)
 func randomInPowerOfTwo(seed *uint64, max uint64) uint64 {
     r := splitmix64(seed)
     return r & (max-1)
-}</code>```
+}
+```
 
 
 However, when the bound is arbitrary (not a power of two) and we want to avoid biases, a slightly more complicated algorithm is needed. Indeed, if we assume that the 64-bit integers are truly random, then all values are equally likely. However, if we are not careful, we can introduce a bias when converting the 64-bit integers to values in <code>[0,N)</code>. It is not a concern when <code>N</code> is a power of two, but it becomes a concern when <code>N</code> is arbitrary. A fast routine was described by [Lemire (2019)](https://arxiv.org/abs/1805.10941) to solve this problem:
 ```Go
-<code>func toIntervalUnbiased(seed *uint64, max uint64) uint64 {
+func toIntervalUnbiased(seed *uint64, max uint64) uint64 {
     x := splitmix64(seed)
     hi, lo := bits.Mul64(x, max)
     if lo < max {
@@ -303,7 +315,8 @@ However, when the bound is arbitrary (not a power of two) and we want to avoid b
         }
     }
     return hi
-}</code>```
+}
+```
 
 
 The toIntervalUnbiased function takes two arguments: a pointer to a 64-bit unsigned integer seed and a 64-bit unsigned integer max. It returns a 64-bit unsigned integer. The function first calls the splitmix64 function with the seed pointer as an argument to generate a random 64-bit unsigned integer x. It then multiplies x with max using the bits.Mul64 function, which returns the product of two 64-bit unsigned integers as two 64-bit unsigned integers. The higher 64 bits of the product are stored in the variable hi, and the lower 64 bits are stored in the variable lo. If lo is less than max, the function enters a loop that generates new random numbers using splitmix64 and recalculates the product of x and max until lo is greater than or equal to -max % max. This is done to ensure that the distribution of random numbers is unbiased.
@@ -314,7 +327,7 @@ Testing that a random generator appears random is challenging. We can use many t
 
 The following program computes the relative standard deviation of a frequency histogram based on 100 million values. The relative standard deviation is far smaller than 1% (0.05655%) which suggests that the distribution is uniform.
 ```Go
-<code>package main
+package main
 
 import (
     "fmt"
@@ -367,7 +380,8 @@ func main() {
     }
     moyenne, ecart := meanAndStdDev(counter[:])
     fmt.Println("relative std ", ecart/moyenne*100, "%")
-}</code>```
+}
+```
 
 <h3 id="random-shuffle">Random shuffle</h3>
 
@@ -375,7 +389,7 @@ Sometimes, you are given an array that you want to randomly shuffle. An elegant 
 
 The following program shuffles randomly an array based on a seed. Changing the seed would change the order of the array. For large arrays, the number of possible permutations is likely to exceed the number of possible seeds: it implies that not all possible permutations are possible with such an algorithm using a simple fixed-length seed.
 ```Go
-<code>package main
+package main
 
 import (
     "fmt"
@@ -417,7 +431,8 @@ func main() {
     numbers := []int{1, 2, 3, 4, 5, 6, 7, 8, 9, 10}
     shuffle(&seed, numbers)
     fmt.Println(numbers)
-}</code>```
+}
+```
 
 <h3 id="floats">Floats</h3>
 
@@ -446,7 +461,7 @@ A common way to generate random integers in an interval <code>[0,N)</code> is to
 
 The following program generates random floating-point numbers:
 ```Go
-<code>package main
+package main
 
 import (
     "fmt"
@@ -481,12 +496,13 @@ func main() {
     seed := uint64(1231114)
     fmt.Println(toFloat32(&seed))
     fmt.Println(toFloat64(&seed))
-}</code>```
+}
+```
 
 
 An amusing application of floating-point is to estimate the value of pi. If we generate two floating-point numbers <span class="math inline"><em>x</em>, <em>y</em></span> in <span class="math inline">[0, 1), [0, 1)</span>, then out of an area of 1 (the unit square), then the area was <code>x*x+y*y &lt;= 1</code> should be pi/4. The following program prints an estimate of the value of pi.
 ```Go
-<code>package main
+package main
 
 import (
     "fmt"
@@ -522,7 +538,8 @@ func main() {
 
     }
     fmt.Println(4 * float64(circle)/float64(N))
-}</code>```
+}
+```
 
 
 Of course, practical algorithms might require other distributions such as the normal distribution. We can generate high quality normally distributed floating-point values at high speed using the The Ziggurat Method [Marsaglia &amp; Tsang, 2000](http://www.jstatsoft.org/v05/i08/paper). The implementation is not difficult, but it is technical. In particular, it requires a precomputed table. Typically, we generate normally distributed values with a mean of zero and a standard deviation of one: we often multiply the result by the square root of the desired standard deviation, and we add the desired mean.
@@ -532,7 +549,7 @@ Sometimes we are given a collection of possible values and each value has a corr
 
 The following program illustrates this algorithm:
 ```Go
-<code>package main
+package main
 
 import (
     "fmt"
@@ -589,7 +606,8 @@ func main() {
     probabilities := []float64{0.2, 0.4, 0.4}
 
     fmt.Println(rouletteWheelSelection(&seed, colors, probabilities))
-}</code>```
+}
+```
 
 
 If you have to pick a value out of a large set, a roulette-wheel selection approach can become inefficient. In such cases, we may use the [alias method](https://en.wikipedia.org/wiki/Alias_method).
@@ -599,7 +617,7 @@ We do not typically reimplement cryptographic functions. It is preferable to use
 
 Cryptographic hashing of strings is designed so that it is difficult to find two strings that collide (have the same hash value). Thus if you receive a message, and you were given its hash value ahead of time, and you check that the hash value and the message correspond, there are good chances that the message has not been corrupted. It is difficult (but not impossible) for an attacker to produce a message that matches the hash value you were given. To hash a string in Go cryptographically, you may use the following code:
 ```Go
-<code>package main
+package main
 
 import (
     "crypto/sha256"
@@ -610,12 +628,13 @@ func main() {
     message := "Hello, world!"
     hash := sha256.Sum256([]byte(message))
     fmt.Printf("Message: %s\nHash: %x\n", message, hash)
-}</code>```
+}
+```
 
 
 Similarly, you may want to generate random numbers in a cryptographical manner: in such cases, the produced random numbers are difficult to predict. Even if I were to give you the ten last numbers, it would be difficult to predict the next one. If you were to implement software for an online casino, you should probably use cryptographic random numbers.
 ```Go
-<code>package main
+package main
 
 import (
     "crypto/rand"
@@ -630,6 +649,7 @@ func main() {
     }
     n := nBig.Int64()
     fmt.Printf("Here is a random %T between 0 and 99: %d\n", n, n)
-}</code><code></code>```
+}
+```
 
 

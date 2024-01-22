@@ -15,7 +15,8 @@ There is [a related Stack Overflow question](https://stackoverflow.com/questions
 
 - Can we get slightly more clever? [Yes, aqrit and Kendall Willets came up with a fancier involving two multiplications](https://github.com/lemire/streamvbyte/issues/12#issuecomment-346697198):
 ```C
-((0x11011000 * ((x * 0x0401) & 0x00033033)) >> 28).```
+((0x11011000 * ((x * 0x0401) & 0x00033033)) >> 28).
+```
 
 
  The compiler might implement a product like <tt>x * 0x0401</tt> into a shift and an addition. Nevertheless, it is not obvious that two multiplications (even with optimizations) are faster than the naive approach but it is really a nice piece of programming. I expect that most readers will struggle to find out why this expression work, and that&rsquo;s not necessarily a good thing. (John Regher points out that this code has undefined behavior as I have written it. One needs to ensure that all computations are done using unsigned values.)

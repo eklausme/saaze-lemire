@@ -56,8 +56,8 @@ When considering unsigned arithmetic, it often helps to think that we keep only 
 
 We have that <code>0-1</code>, as an 8-bit number, is 255 or <code>0b11111111</code>. <code>0-2</code> is 254, <code>0-3</code> is 253 and so forth.￼ Consider the set of integers&hellip;
 ```C
-<code>-1024, -1023,..., -513, -512, -511, ..., -1, 0, 1, ..., 255, 256, 257,... 
-</code>```
+-1024, -1023,..., -513, -512, -511, ..., -1, 0, 1, ..., 255, 256, 257,... 
+```
 
 
 As 256-bit integers, they are mapped to<br/>
@@ -73,10 +73,10 @@ We say that two numbers are &lsquo;coprime&rsquo; if their largest common diviso
 
 When multiplying a non-zero integer by an odd integer using finite-bit arithmetic, we never get zero. Thus, for example, <code>3 * x</code> as an 8-bit integer is zero if and only if <code>x</code> is zero when using fixed-bit unsigned integers. It means that <code>3 * x</code> is equal to <code>3 * y</code> if and only if <code>x</code> and <code>y</code> are equal. Thus we have that the following Go code will print out all values from 0 to 255, without repetition:
 ```C
-<code>    for i:=uint8(1); i != 0; i++ {
+    for i:=uint8(1); i != 0; i++ {
         fmt.Println(3*i)       
     }
-</code>```
+```
 
 
 Multiplying integers by an odd integer permutes them.
@@ -93,7 +93,7 @@ Given an integer <code>x</code>, we say that <code>y</code> is its multiplicativ
 
 What should our initial guess for <code>y</code> be? If we use 3-bit words, then every number is its inverse. So starting with <code>y = x</code> would give us three bits of accuracy, but we can do better: <code>( 3 * x ) ^ 2</code> provides 5 bits of accuracy. The following Go program verifies the claim:
 ```C
-<code>package main
+package main
 
 import "fmt"
 
@@ -106,14 +106,14 @@ func main() {
     }
     fmt.Println("Done")
 }
-</code>```
+```
 
 
 Observe how we capture the 5 least significant bits using the expression <code>&amp;0b11111</code>: it is a bitwise logical AND operation.
 
 Starting from 5 bits, the first call to the recurrence formula gives 10 bits, then 20 bits for the second call, then 40 bits, then 80 bits. So, we need to call our recurrence formula 2 times for 16-bit values, 3 times for 32-bit values and 4 times for 64-bit values. The function <code>FindInverse64</code> computes the 64-bit multiplicative inverse of an odd integer:
 ```C
-<code>func f64(x, y uint64) uint64 {
+func f64(x, y uint64) uint64 {
     return y * (2 - y*x)
 }
 
@@ -125,7 +125,7 @@ func FindInverse64(x uint64) uint64 {
     y = f64(x, y)    // 80 bits
     return y
 }
-</code>```
+```
 
 
 We have that <code>FindInverse64(271) * 271 == 1</code>. Importantly, it fails if the provided integer is even.
@@ -161,10 +161,10 @@ Binary                   |unsigned                 |signed                   |
 
 In Go, you can &lsquo;cast&rsquo; unsigned integers to signed integers, and vice versa: Go leaves the binary values unchanged, but it simply reinterprets the value as unsigned and signed integers. If we execute the following code, we have that <code>x==z</code>:
 ```C
-<code>    x := uint16(52429)
+    x := uint16(52429)
     y := int16(x)
     z := uint16(y)
-</code>```
+```
 
 
 Conveniently, whether we compute the multiplication, the addition or the subtraction between two values, the result is the same (in binary) whether we interpret the bits as a signed or unsigned value. Thus we can use the same hardware circuits.
@@ -179,20 +179,20 @@ x := int8(1)<br/>
 </code><br/>
 However, right shift works differently for signed and unsigned integers. For unsigned integers, we shift in zeroes from the left; for signed integers, we either shift in zeroes (if the integer is positive or zero) or ones (if the integer and negatives). We illustrate this behaviour with an example:
 ```C
-<code>    x := int8(-1)
+    x := int8(-1)
     (x >> 1) == -1
     y := uint8(x)
     y == 255
     (y >> 1) == 127
-</code>```
+```
 
 
 When a signed integer is positive, then dividing by a power of two or shifting right has the same result (<code>10/4 == (10&gt;&gt;2)</code>). However, when the integer is negative, it is only true when the negative integer is divisible by the power of two. When the negative integer is not divisible by the power of two, then the shift is smaller by one than the division, as illustrated by the following code:
 ```C
-<code>    x := int8(-10)
+    x := int8(-10)
     (x / 4) == -2
     (x >> 2) == -3
-</code>```
+```
 
 <h3>Floating-point numbers</h3>
 

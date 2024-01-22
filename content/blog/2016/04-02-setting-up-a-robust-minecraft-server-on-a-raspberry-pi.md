@@ -86,12 +86,14 @@ wget https://hub.spigotmc.org/jenkins/job/BuildTools/lastSuccessfulBuild/artifac
 (Though the command may span several lines in your browser, it is a single line.)
 <li>Build the server by entering the following command line:
 ```C
-<tt>java -Xmx1024M -jar BuildTools.jar  --rev 1.16.5</tt>```
+<tt>java -Xmx1024M -jar BuildTools.jar  --rev 1.16.5</tt>
+```
 
 
 (one line followed by the return key). You can change the version number (1.16.5) to use a more recent release but be mindful that recent versions of Minecraft require more recent Java versions (e.g., JDK 16). If it complains about not finding the java command, try typing <tt>sudo apt install default-jdk</tt> (one line followed by the return key) before typing again <tt>java -Xmx1024M -jar BuildTools.jar</tt>. Once the java program starts, its will take forever. Go drink coffee. After a long time, it will create a file called  <tt>spigot-1.16.5.jar</tt> as well as many other files. If it fails with mysterious errors, make sure that you had enough disk space. Type
 ```C
-<tt>ls spigot*.jar</tt>```
+<tt>ls spigot*.jar</tt>
+```
 
 
 to find how the jar files is called, I will assume that you have <tt>spigot-1.16.5.jar</tt>. The exact name and version number will change over time as spigot gets updated periodically. Adapt the instructions below according to the actual name of the file.
@@ -99,23 +101,27 @@ to find how the jar files is called, I will assume that you have <tt>spigot-1.16
 If the build fails with some Java-related error, [please report the issue with spigot](https://www.spigotmc.org/).
 <li>Once this is done, start the server for the first time:
 ```C
-<tt>java -jar -Xms512M -Xmx1008M spigot-1.16.5.jar nogui</tt>```
+<tt>java -jar -Xms512M -Xmx1008M spigot-1.16.5.jar nogui</tt>
+```
 
 
 This will create a file called <tt>eula.txt</tt>. You need to edit it with the command
 ```C
-<tt>echo "eula=true" &gt; eula.txt</tt>```
+<tt>echo "eula=true" &gt; eula.txt</tt>
+```
 
 
 Make sure that the file contains the line <tt>eula=true</tt>, type
 ```C
-<tt>more eula.txt</tt>```
+<tt>more eula.txt</tt>
+```
 
 
 to be sure.
 <li>Start the server a second time:
 ```C
-<tt>java -jar -Xms512M -Xmx1008M spigot-1.16.5.jar nogui</tt>```
+<tt>java -jar -Xms512M -Xmx1008M spigot-1.16.5.jar nogui</tt>
+```
 
 
 It will take forever again. Go drink more coffee. Once the server return the command prompt, it should be operational. Have a Minecraft player connect to <tt>raspberrypi.local</tt>. Once you have verified that everything works, type <tt>stop</tt>. If your Raspberry Pi has a lot of memory (e.g., 4 GB or 8 GB) then you can change the -Xmx1008M to something like -Xmx2048M. The number (e.g., 2048M) should not exceed the available RAM. Giving the server more memory may improve the performance. If you have installed the 64-bit Raspberry Pi OS, you may even go safely to larger memory budgets (4096M or more).

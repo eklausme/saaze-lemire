@@ -33,7 +33,8 @@ This summary does not describe the many exciting possibilities opened up by the
 WWW project, such as efficient document caching. the reduction of redundant  
 out-of-date copies, and the use of knowledge daemons.  There is more  
 information in the online project documentation, including some background on  
-hypertext and many technical notes. (...)```
+hypertext and many technical notes. (...)
+```
 
 
 You can also check out [Linus&rsquo; first email presenting Linux](https://groups.google.com/forum/).

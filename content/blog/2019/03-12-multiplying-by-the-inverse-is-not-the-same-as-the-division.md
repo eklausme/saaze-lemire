@@ -18,7 +18,8 @@ To prove it, let me pull out my node (JavaScript) console&hellip;
 651370000000
 > invd = 1 / 3.1416
 > x * invd * 3.1416
-</span><span style="color: #008000;">651370000000.000__1__</span>```
+</span><span style="color: #008000;">651370000000.000__1__</span>
+```
 
 
 Maybe only JavaScript is broken? Let us try in Python&hellip;
@@ -28,7 +29,8 @@ Maybe only JavaScript is broken? Let us try in Python&hellip;
 651370000000.0
 >>> invd = 1 / 3.1416
 >>> x * invd * 3.1416
-</span><span style="color: #008000;">651370000000.000__1__</span>```
+</span><span style="color: #008000;">651370000000.000__1__</span>
+```
 
 
 Always keep in mind that floating-point numbers are different from real numbers&hellip; [for example, half of all floating-point numbers are in the interval [-1,1]](/lemire/blog/2017/02/28/how-many-floating-point-numbers-are-in-the-interval-01/).

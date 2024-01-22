@@ -7,12 +7,14 @@ title: "Escaping strings faster with AVX-512"
 
 When programming, we often have to &lsquo;escape&rsquo; strings. A standard way to do it is to insert the backslash character (\) before some characters such as the double quote. For example, the string
 ```C
-<tt>my title is "La vie"</tt>```
+<tt>my title is "La vie"</tt>
+```
 
 
 becomes
 ```C
-<tt>my title is \"La vie\"</tt>```
+<tt>my title is \"La vie\"</tt>
+```
 
 
 A simple routine in C++ to escape a string might look as follows:

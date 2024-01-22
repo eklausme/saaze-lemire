@@ -37,7 +37,8 @@ To reproduce the results, using [Docker](https://www.docker.com), you can do&hel
 git clone https://github.com/lemire/simdjson.git
 cd simdjson
 docker build -t simdjson . 
-docker run --privileged -t simdjson```
+docker run --privileged -t simdjson
+```
 
 
 __Credit__: [Geoff Langdale](https://branchfree.org) with contributions from Yibo Cai and [Io Daza Dillon](https://github.com/ioioioio).

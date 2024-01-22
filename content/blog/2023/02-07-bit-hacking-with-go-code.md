@@ -7,7 +7,7 @@ title: "Bit Hacking (with Go code)"
 
 At a fundamental level, a programmer needs to manipulate bits. Modern processors operate over data by loading in &lsquo;registers&rsquo; and not individual bits. Thus a programmer must know how to manipulate the bits within a register. Generally, we can do so while programming with 8-bit, 16-bit, 32-bit and 64-bit integers. For example, suppose that I want to set an individual bit to value 1. Let us pick the bit an index 12 in a 64-bit words. The word with just the bit at index 12 set is <code>1&lt;&lt;12</code> : the number 1 shifted to the left 12 times, or 4096. In Go, we format numbers using the <code>fmt.Printf</code> function: we use a string with formatting instructions followed by the values we want to print. We begin a formatting sequence with the letter <code>%</code> which has a special meaning (if one wants to print <code>%</code>, one most use the string <code>%%</code>). It can be followed by the letter <code>b</code> which stands for binary, the letter <code>d</code> (for decimal) or <code>x</code> (for hexadecimal). Sometimes we want to specify the minimal length (in characters) of the output, and we do so by a leading number: e.g, <code>fmt.Printf("%100d", 4096)</code> prints a 100-character string that ends with 4096 and begins with spaces. We can specify zero as a padding character rather than the space by adding it as a prefix (e.g., <code>"%0100d"</code>). In Go, we may print thus the individual bits in a word as in the following example:
 ```Go
-<code>package main
+package main
 
 import "fmt"
 
@@ -15,20 +15,20 @@ func main() {
     var x uint64 = 1 << 12
     fmt.Printf("%064b", x)
 }
-</code>```
+```
 
 
 Running this program we get a binary string representing <code>1&lt;&lt;12</code>:
 ```Go
-<code>0000000000000000000000000000000000000000000000000001000000000000
-</code>```
+0000000000000000000000000000000000000000000000000001000000000000
+```
 
 
 The general convention when printing numbers is that the most significant digits are printed first followed by the least significant digits: e.g., we write 1234 when we mean <code>1000 + 200 + 30 + 4</code>. Similarly, Go prints the most significant bits first, and so the number <code>1&lt;&lt;12</code> has <code>64-13=51</code> leading zeros followed by a <code>1</code> with 12 trailing zeros.
 
 We might find it interesting to revisit how Go represents negative integers. Let us take the 64-bit integer <code>-2</code>. Using two&rsquo;s complement notation, the number should be represented as the unsigned number <code>(1&lt;&lt;64)-2</code> which should be a word made entirely one ones, except for the second last bit. We can use the fact that a _cast_ operation in Go (e.g., <code>uint64(x)</code>) preserves the binary representation:
 ```Go
-<code>package main
+package main
 
 import "fmt"
 
@@ -36,18 +36,18 @@ func main() {
     var x int64 = -2
     fmt.Printf("%064b", uint64(x))
 }
-</code>```
+```
 
 
 This program will print <code>1111111111111111111111111111111111111111111111111111111111111110</code> as expected.
 
 Go has some relevant binary operators that we often use to manipulate bits:
 ```Go
-<code>&    bitwise AND
+&    bitwise AND
 |    bitwise OR
 ^    bitwise XOR
 &^   bitwise AND NOT
-</code>```
+```
 
 
 Furthermore, the symbol <code>^</code> is also used to flip all bits a word when used as an unary operation: <code>a ^ b</code> computes the bitwise XOR of <code>a</code> and <code>b</code> whereas <code>^a</code> flips all bits of <code>a</code>. We can verify that we have <code>a|b == (a^b) | (a&amp;b) == (a^b) + (a&amp;b)</code>.
@@ -79,32 +79,32 @@ We can set any bit we like in a word. But what about querying the bit sets ? We 
 
 By thinking about values in terms of their bit representation, we can write more efficient code or, equivalent, have a better appreciation for what optimized binary code might look like. Consider the problem of checking if two numbers have the same sign: we want to know whether they are both smaller than zero, or both greater than or equal to zero. A naive implementation might look as follows:
 ```Go
-<code>func SlowSameSign(x, y int64) bool {
+func SlowSameSign(x, y int64) bool {
 return ((x < 0) && (y < 0)) || ((x >= 0) && (y >= 0))
 }
-</code>```
+```
 
 
 However, let us think about what distinguishes negative integers from other integers: they have their last bit set. That is, their most significant bit as an unsigned value is one. If we take the exclusive or (xor) of two integers, then the result will have its last bit set to zero if their sign is the same. That is, the result is positive (or zero) if and only if the signs agree. We may therefore prefer the following function to determine if two integers have the same sign:
 ```Go
-<code>func SameSign(x, y int64) bool {
+func SameSign(x, y int64) bool {
     return (x ^ y) >= 0
 }
-</code>```
+```
 
 
 Suppose that we want to check whether <code>x</code> and <code>y</code> differ by at most 1. Maybe <code>x</code> is smaller than <code>y</code>, but it could be larger.
 
 Let us consider the problem of computing the average of two integers. We have the following correct function:
 ```Go
-<code>func Average(x, y uint16) uint16 {
+func Average(x, y uint16) uint16 {
     if y > x {
         return (y-x)/2 + x
     } else {
         return (x-y)/2 + y
     }
 }
-</code>```
+```
 
 
 With a better knowledge of the integer representation, we can do better.
@@ -113,16 +113,16 @@ We have another relevant identity <code>x == 2*(x&gt;&gt;1) + (x&amp;1)</code>. 
 
 We have that <code>x+y = (x^y) + 2*(x&amp;y)</code>. Hence we have that <code>(x+y)&gt;&gt;1 == ((x^y)&gt;&gt;1) + (x&amp;y)</code> (ignoring overflows in <code>x+y</code>). Hence, <code>((x^y)&gt;&gt;1) + (x&amp;y)</code> is the greatest integer no larger than <code>(x+y)/2</code>. We also have that <code>x+y = 2*(x|y) - (x^y)</code> or <code>x+y + (x^y)&amp;1= 2*(x|y) - (x^y) + (x^y)&amp;1</code> and so <code>(x+y+(x^y)&amp;1)&gt;&gt;1 == (x|y) - ((x^y)&gt;&gt;1)</code> (ignoring overflows in <code>x+y+(x^y)&amp;1</code>). It follows that <code>(x|y) - ((x^y)&gt;&gt;1)</code> is the smallest integer no smaller than <code>(x+y)/2</code>. The difference between <code>(x|y) - ((x^y)&gt;&gt;1)</code> and <code>((x^y)&gt;&gt;1) + (x&amp;y)</code> is <code>(x^y)&amp;1</code>. Hence, we have the following two fast functions:
 ```Go
-<code>func FastAverage1(x, y uint16) uint16 {
+func FastAverage1(x, y uint16) uint16 {
     return (x|y) - ((x^y)>>1)
 }
-</code>```
+```
 
 ```Go
-<code>func FastAverage2(x, y uint16) uint16 {
+func FastAverage2(x, y uint16) uint16 {
     return ((x^y)>>1) + (x&y)
 }
-</code>```
+```
 
 
 Though we use the type <code>uint16</code>, it works irrespective of the integer size (<code>uint8</code>, <code>uint16</code>, <code>uint32</code>, <code>uint64</code>) and it also applies to signed integers (<code>int8</code>, <code>int16</code>, <code>int32</code>, <code>int64</code>).
@@ -147,12 +147,12 @@ Given a word, we say that we _rotate_ the bits if we shift left or right the bit
 
 Suppose that you would like to know if two 64-bit words (<code>w1</code> and <code>w2</code>) have matching byte values, irrespective of the ordering. We know how to check that they have matching ordered byte values efficiently (e.g., <code>(((w1^w2 - b01)|(w1^w2)) &amp; b80) == 0</code>. To compare all bytes with all other bytes, we can repeat the same operation as many times as they are bytes in a word (eight times for 64-bit integers): each time, we rotate one of the words by 8 bits:
 ```Go
-<code>(((w1^w2 - b01)|(w1^w2)) & b80) == 0
+(((w1^w2 - b01)|(w1^w2)) & b80) == 0
 w1 = bits.RotateLeft64(w1,8)
 (((w1^w2 - b01)|(w1^w2)) & b80) == 0
 w1 = bits.RotateLeft64(w1,8)
 ...
-</code>```
+```
 
 
 We recall that words can be interpreted as little-endian or big-endian depending on whether the first bytes are the least significant or the most significant. Go allows you to reverse the order of the bytes in a 64-bit word with the function <code>bits.ReverseBytes64</code> from the <code>math/bits</code> package. There are similar functions for 16-bit and 32-bit words. We have that <code>bits.ReverseBytes16(0xcc00) == 0x00cc</code>. Reversing the bytes in a 16-bit word, and rotating by 8 bits, are equivalent operations.
@@ -169,10 +169,10 @@ and so forth.
 
 While the number of trailing zeros gives directly the logarithm of powers of two, we can use the number of leading zeros to compute the logarithm of any integer, rounded up to the nearest integer. For 32-bit integers, the following function provides the correct result:
 ```Go
-<code>func Log2Up(x uint32) int {
+func Log2Up(x uint32) int {
     return 31 - bits.LeadingZeros32(x|1)
 }
-</code>```
+```
 
 
 We can also compute other logarithms. Intuitively, this ought to be possible because if <code>log_b</code> is the logarithm in base <code>b</code>, then <code>log_b (x) = \log_2(x)/\log_2(b)</code>. In other words, all logarithms are within a constant factor (e.g., <code>1/log_2(b)</code>).
@@ -194,7 +194,7 @@ For example, we might be interested in the number of decimal digits necessary to
         42949672960, 42949672960}
     return uint32((uint64(x) + table[Log2Up(x)]) >> 32)
 }
-</code>```
+```
 
 
 Though the function is a bit mysterious, its computation mostly involves computing the number of trailing zeros, and using the result to lookup a value in a table. It translates in only a few CPU instructions and is efficient.
@@ -202,7 +202,7 @@ Though the function is a bit mysterious, its computation mostly involves computi
 
 Given a word, it is sometimes useful to compute the position of the set bits (bits set to 1). For example, given the word <code>0b11000111</code>, we would like to have the indexes 0, 1, 2, 6, 7 corresponding to the 5 bits with value 1. We can determine efficiently how many indexes we need to produce thanks to the <code>bits.OnesCount</code> functions. The <code>bits.TrailingZeros</code> functions can serve to identify the position of a bit. We may also use the fact that <code>x &amp; (x-1)</code> set to zero the least significant 1-bit of <code>x</code>. The following Go function generates an array of indexes:
 ```Go
-<code>func Indexes(x uint64) []int {
+func Indexes(x uint64) []int {
     var ind = make([]int, bits.OnesCount64(x))
     pos := 0
     for x != 0 {
@@ -212,24 +212,24 @@ Given a word, it is sometimes useful to compute the position of the set bits (bi
     }
     return ind
 }
-</code>```
+```
 
 
 Given <code>0b11000111</code>, it produces the array <code>0, 1, 2, 6, 7</code>:
 ```Go
-<code>var x = uint64(0b11000111)
+var x = uint64(0b11000111)
 for _, v := range Indexes(x) {
     fmt.Println(v)
 }
-</code>```
+```
 
 
 If we want to compute the bits in reverse order (<code>7, 6, 2, 1, 0</code>), we can do so with a bit-reversal function, like so:
 ```Go
-<code>for _, v := range Indexes(bits.Reverse64(x)) {
+for _, v := range Indexes(bits.Reverse64(x)) {
     fmt.Println(63 - v)
 }
-</code>```
+```
 
 <h3>Conclusion</h3>
 

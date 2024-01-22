@@ -25,14 +25,16 @@ I used to rely on WP Super Cache, hoping that it made things better, but I have 
 
 I had the following line in the .htaccess file at the root of my blog:
 ```C
-Header set Cache-Control "max-age=600, public"```
+Header set Cache-Control "max-age=600, public"
+```
 
 
 The intention was that it would entice Cloudflare to cache everything. I do not think it worked.
 
 Because my error logs showed that wp-cron.php was failing every few minutes, I added the following in my wp-config.php file:
 ```C
-define('DISABLE_WP_CRON', true);```
+define('DISABLE_WP_CRON', true);
+```
 
 
 I setup a separate cron job to call wp-cron.php every hour.

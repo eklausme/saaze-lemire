@@ -14,7 +14,8 @@ Consider the following example. Sometimes you want to find the location of a max
 argmax function          |time                     |
 -------------------------|-------------------------|
 ```C
-array.index(max(array))```
+array.index(max(array))
+```
 
 &nbsp;                   |2.2 s                    |
 ```C
@@ -27,23 +28,28 @@ def maxarg(arr):
                m = x
                arg = counter
           counter += 1
-    return arg```
+    return arg
+```
 
 &nbsp;                   |4.2 s                    |
 ```C
-max(zip(array, range(len(array))))[1]```
+max(zip(array, range(len(array))))[1]
+```
 
 &nbsp;                   |3.4 s                    |
 ```C
-max([array[i],i] for i in range(len(array)))[1]```
+max([array[i],i] for i in range(len(array)))[1]
+```
 
 &nbsp;                   |8.1 s                    |
 ```C
-max((array[i],i) for i in range(len(array)))[1]```
+max((array[i],i) for i in range(len(array)))[1]
+```
 
 &nbsp;                   |6.2 s                    |
 ```C
-max(range(len(array)), key=array.__getitem__)```
+max(range(len(array)), key=array.__getitem__)
+```
 
 &nbsp;                   |3.4 s                    |
 
