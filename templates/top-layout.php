@@ -6,8 +6,6 @@
 <?php require SAAZE_PATH . "/public/jscss/lemire.css" ?>
 </style>
 
-</head>
-
 <link href="/lemire/pagefind/pagefind-ui.css" rel="stylesheet">
 <script src="/lemire/pagefind/pagefind-ui.js"></script>
 <script>
@@ -15,6 +13,8 @@
 		new PagefindUI({ element: "#search", bundlePath: "/lemire/pagefind/", showSubResults: true, pageSize: 7 });
 	});
 </script>
+
+</head>
 
 <body>
 <?php $rbase ??= '/lemire'; ?>
