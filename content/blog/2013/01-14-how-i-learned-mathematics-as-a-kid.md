@@ -14,6 +14,7 @@ For those who don&rsquo;t know me&hellip; I have a three degrees in mathematics 
 In retrospect, I am quite certain that I have never had a learning disability&hellip; except for the fact that I am an incorrigible contrarian. Still, my parents are not obviously good at mathematics. I see no evidence that I liked numbers. So how did I get good enough to outdo my peers?
 
 Because I did not record my childhood, I can only speculate. Here is what I remember.
+
 As a kid, I learned to read with Tintin. And my favorite character was professor Calculus (known in French as Tournesol). I also loved scifi. At the time, Star Wars was very popular. I remember dreaming of the year 2000 when I would get to fly in a starship.
 
 As a parenthesis, I distinctly remember learning how to read for the purpose of reading Tintin. And Tintin was not part of the curriculum. Rather, my mother got me one album, and it was the most exciting thing I had in my room! I remember painfully deciphering Tintin, page by page.
@@ -29,6 +30,7 @@ Still, where did I learn mathematics? We did get some decent mathematics in the 
 However, I discovered a magazine called [Jeux et Strategie](https://fr.wikipedia.org/wiki/Jeux_et_Strat%C3%A9gie) (Games and strategies) as a kid. It was an amazing magazine. Each month, it had pages and pages of fun mathematical puzzles. An ongoing theme was that of a race of aliens where some of them always told the truth, some of them lied all the time and some of them would just say anything. You could not tell them apart, except by analyzing what they said. This was my introduction to logic. Initially, the puzzles were way too hard for me. By the time the magazine stopped printing, I could do these logic puzzles in my head.
 
 The magazine would discuss games like poker and monopoly. However, it would do so in a sophisticated manner. For example, I remember this article about monopoly from a top-rated player. He showed how the good players used probabilities to win. That is, you are not just supposed to buy any lot! Some are better than others, and you can easily figure out which ones are better.
+
 I don&rsquo;t play games a lot, but I really liked the idea that I could learn mathematics to beat people at games. It turns out that I never did become a better monopoly player, but I learned that if I used the right mathematics, I could!
 
 As an aside, my grand-mother was a gambler. She would hold these poker games at her place every week-end. And they played for real money! She also brought me all the time to horse races (she had racing horses of her own). If you have never been to horse races, you should know that you get lots of statistics about the horses. It tells you exactly how often a given horse has won, and in what conditions. One of my early hobbies, as a kid, was to read these statistics and try to predict the winners. After all, I had nothing better to do (horse races are otherwise quite boring for kids). I even devised some algorithms that were fairly reliable. This taught me that you could actually use mathematics to get money!

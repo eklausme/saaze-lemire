@@ -37,7 +37,7 @@ __m512i highbits = _mm512_maskz_add_epi8(leading, input,
     _mm512_set1_epi8(62));
 highbits = _mm512_slli_epi16(highbits, 6); // shift in position
 input = _mm512_mask_blend_epi8(leading, input, highbits);
-__m512i ascii_continuation = _mm512_maskz_compress_epi8(ascii | 
+__m512i ascii_continuation = _mm512_maskz_compress_epi8(ascii |
     continuation, input);
 __m512i ascii_leading = _mm512_maskz_compress_epi8(ascii | leading,
     input);

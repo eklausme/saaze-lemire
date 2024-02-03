@@ -10,6 +10,7 @@ Since the end of World War II, at least half of all university professors in Nor
 At several schools, a large fraction of the teaching positions do not lead to tenure. There are claims that there is a growing trend to hire more and more people people on temporary positions. One justification for this trend might be that universities need the flexibility to adapt quickly to the market.
 
 The same might be true of research institutions. While I worked at [NRC](http://www.nrc-cnrc.gc.ca/index.html), several projects were staffed by people whose contracts was for the duration of a project.
+
 One argument that I hear to justify tenure is that it saves money. Indeed, people will accept a lower salary if they have job security. Even if the job market is favorable, even if if you could get more money elsewhere, few people like to change job frequently. Stability is nice.
 
 But this argument is limited. What if the job market is difficult? If there is an [oversupply of Ph.D.s](/lemire/blog/2004/07/10/a-must-read-paper-in-the-chronicle/), shouldn&rsquo;t managers do away with tenure then?

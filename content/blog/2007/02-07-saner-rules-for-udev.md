@@ -6,6 +6,7 @@ title: "Saner rules for udev"
 
 
 My favorite Linux brain teaser, udev, has changed its rule language somewhat.
+
 Previously, I had the following rule:
 
 <code><br/>

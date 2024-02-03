@@ -28,6 +28,7 @@ This is not a simple matter of <em>semantics</em>. Saying that things are delusi
 Which one is more important? My so-called virtual identity on the web (represented best by this blog) or my so-called real identity (my physical body)? To many of the readers of this blog, by virtual identity is far more important since they never get to meet me. So, this Web identity is not virtual at all! Not for them! But my physical body might as well be virtual, for them.
 
 We know of Jesus (sorry, I&rsquo;m not religious at all, but this is a good example) through books. How is it different from knowing someone through email? Is Jesus real? Many people think so. Christians and muslims do, at least. Is he <em>virtual</em>? Any more so than me?
+
 What is virtual then? It is is a representation of what is. The software model of a store is virtually the store: it represents the store, but it is not a store. Be careful though. Amazon.com is an actual store, not a virtual store! But my blog is a virtual notebook. It is not a notebook! But it can represent a notebook. If I use an icon to represent my identity, it is a virtual identity. But my identity on the Web is not virtual. In object-oriented programming, the objects and classes represent virtually the component of your system: the software class &ldquo;Student&rdquo; is a virtual representation of a student.
 
 Please send this post to the Israeli army. Anyone?

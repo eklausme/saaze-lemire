@@ -8,6 +8,7 @@ title: "Compression is never worth slowing down your code?"
 Should you ever compress your data to reduce memory usage?
 
 We are in 2050. Nobody uses tapes or disks anymore. The NSA has 1 billion servers. It needs so many to hold all of the data in memory.
+
 A contractor offers a marvellous algorithm that can compress data by a factor of 1,000,000,000. The problem is that it decreases all processing by a factor of two.
 
 Does that sound like a good deal?

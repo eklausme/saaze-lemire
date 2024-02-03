@@ -18,9 +18,11 @@ Irrespective of the programming language you choose, your software will run out 
 There are two distinct strategies to build robust systems:
 
 1. You can reduce the possibility of a fault.
-1. You can reduce the harm when faults do occur.
+1. You can reduce the harm when faults do occur. 
+
 
 We all know what it means to reduce the possibility of a fault&hellip; we can make software safer by adding more checks, we can train better drivers&hellip;
+
 But what does the latter (reducing harm) means concretely? Our bodies are designed so that even if hundreds of our cells break down you barely notice it. Our economy can keep working even if a large fraction of its enterprises fail. Robust software systems are all around us. For example, modern operating systems (Linux, Windows, Android, iOS, macOS) can sustain many faults before failing. Our web servers (e.g., Apache) have often long streams of error logs.
 
 As a programmer, it is simply not possible to account for everything that may go wrong. Systems have limited resources (e.g., memory) and these may run out at any time. Your memory and storage may become corrupted&hellip; there is a small but non-zero probability that a single bit may flip. For example, [cosmic rays are bound to corrupt slightly your memory](https://en.wikipedia.org/wiki/Cosmic_ray#Effect_on_electronics). We can shield memory and storage, and add layers of redundancy&hellip; but, beyond a certain point, reducing the possibility of a fault becomes tremendously complicated and expensive&hellip; and it becomes far more economical to minimize the harm due to expected faults.

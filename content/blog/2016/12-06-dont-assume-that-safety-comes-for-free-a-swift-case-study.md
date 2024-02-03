@@ -26,7 +26,8 @@ array.reduce(0,{$0 + $1})
 ```
 
 
-For extra obfuscation and even better luck during interviews, you can even use an equivalent and even shorter syntax:```C
+For extra obfuscation and even better luck during interviews, you can even use an equivalent and even shorter syntax:
+```C
 array.reduce(0,+)
 ```
 
@@ -34,6 +35,7 @@ array.reduce(0,+)
 Though it is more scientific-sounding, this function is actually 50% slower (clocking at 0.6 ns per element). Why is it slower? We are evidently paying a price for the higher level of abstraction.
 
 Can we do better?
+
 Swift&rsquo;s integers (Int) are 64-bit integers on 64-bit platforms. What happens if the sum of the values cannot be represented using a 64-bit integer (because it is too large)? Swift helpfully checks for an overflow and crashes if it occurs (instead of silently continuing as Java, C or C++ would). You can disable this behavior by prefixing your operators with the ampersand as in this code&hellip;
 ```C
 var s = 0
@@ -50,6 +52,7 @@ array.reduce(0,{$0 &+ $1})
 
 
 These are &ldquo;unsafe&rdquo; functions in the sense that they might silently overflow.
+
 On my Skylake processor, the silent-overflow (&ldquo;unsafe&rdquo;) approach can be twice as fast:
 
 technique                |clock cycles per value   |
@@ -75,6 +78,7 @@ __Further reading__: [We Need Hardware Traps for Integer Overflow](http://blog.r
 __Appendix__: Overflow checks are not unique to Swift. You can compile your C and C++ with runtime overflow checks using LLVM clang (<tt><br/>
 -fsanitize=undefined</tt>) or GNU GCC (<tt><br/>
 -fsanitize=signed-integer-overflow</tt>). The Rust language [checks for overflow in debug mode](http://huonw.github.io/blog/2016/04/myths-and-legends-about-integer-overflow-in-rust/) (but not in release mode).
+
 __Update__: A HackerNews user commented on the performance issues:
 
 > Looking at the generated code, we have a couple issues that prevent full optimization. One of them I already knew about (https://bugs.swift.org/browse/SR-2926) &#8212; as a debugging aid, we guard every trap we emit with the equivalent of an `asm volatile(&ldquo;&rdquo;)` barrier, because LLVM will otherwise happily fold all the traps together into one trap. We really want every trap to have a distinct address so that the debugger can map that trap back to the source code that emitted it, but the asm barrier prevents other optimizations as well. As for `reduce`, it looks like the compiler does inline away the closure and turn the inner loop into what you would expect, but for some reason there&rsquo;s more pre-matter validation of the array than there is with a for loop. That&rsquo;s a bug; by all means, reduce is intended to optimize the same.

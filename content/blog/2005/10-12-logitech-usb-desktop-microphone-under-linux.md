@@ -21,6 +21,7 @@ Do &ldquo;dmesg&rdquo;&lsquo; you should see two lines like those:
 <code>usbcore: registered new driver snd-usb-audio<br/>
 </code><br/>
 If you don&rsquo;t see the second line, you have a problem. In my case, I didn&rsquo;t have the usbaudio driver so I only got the first line. I had to go compile usbaudio. To do so, I did &ldquo;uname -a&rdquo;, it gave me &ldquo;Linux romeo 2.6.10-gentoo-r6&rdquo;. I went under /usr/srclinux-2.6.10-gentoo-r6 and typed
+
 <code>genkernel --no-clean --menuconfig all<br/>
 </code>
 

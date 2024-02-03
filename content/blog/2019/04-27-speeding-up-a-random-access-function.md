@@ -9,7 +9,7 @@ A common problem in software performance is that you are essentially limited by 
 ```C
  for ( i = 0; i < N; i++) {
     // hash is a randomized hash function
-    bigarray[hash(i)] = i; 
+    bigarray[hash(i)] = i;
  }
 ```
 
@@ -24,7 +24,7 @@ It is difficult, but you might be able to accelerate it a bit, or maybe more tha
 
 Here is a strategy which works, if you do it just right. Divide your big array into regions. For each region, create a stack. Instead of writing directly to the big array, when you are given a hash value, locate the corresponding stack, and append the hash value to it. Then, later, go through the stacks and apply them to the big array.
 ```C
- 
+
  for ( i = 0; i < N; i++) {
     loc = hash(i)
     add loc, i to buffer[loc / bucketsize]

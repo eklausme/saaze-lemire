@@ -31,9 +31,7 @@ Instead, data design methodologies should encourage us to design for
 
 
 
-
 What do you think?
-
 
 __Further reading__: I wrote a long-form paper on this topic with Antonio Badia: A Call to Arms: Revisiting Database Design, SIGMOD Record 40 (3), 2011. ACM makes the [PDF](http://www.sigmod.org/publications/sigmod-record/1109/pdfs/10.openforum.badia.pdf) freely available. We back all our observations with  references.
 

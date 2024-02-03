@@ -6,6 +6,7 @@ title: "Variable-length strings can be expensive"
 
 
 Much of our software deals with variable-length strings. For example, my name &ldquo;Daniel&rdquo; uses six characters whereas my neighbor&rsquo;s name (&ldquo;Philippe&rdquo;) uses 8 characters.
+
 &ldquo;Old&rdquo; software often shied away from variable-length strings. The Pascal programming language supported fixed-length strings. Most relational databases support fixed-length strings. Flat files with fixed-length lines and fixed-length records were common in the old days.
 
 It seems that people today never worry about variable-length strings. All the recent programming languages I know ignore the concept of fixed-length strings.
@@ -34,6 +35,7 @@ padded C string          |140                      |
 So for this experiment, replacing variable-length strings by fixed-length strings more than double the performance! And my code isn&rsquo;t even optimized. For example, to keep the comparison &ldquo;fair&rdquo;, I sorted pointers to strings&hellip; but my padded C strings fit in a machine word and do not require a pointer. So, in fact, fixed-length strings could be nearly three times faster with enough work.
 
 To summarize: Variable-length strings are a convenient abstraction. You may hear that string operations are very cheap, unlikely to be a bottleneck and so forth&hellip; That might be so&hellip;
+
 But I submit to you that the omnipresence of variable-length strings as a universal default can make us blind to very sweet optimization opportunities.
 
 [My source code is available](https://github.com/lemire/Code-used-on-Daniel-Lemire-s-blog/blob/master/2016/10/05/pointersort.cpp).

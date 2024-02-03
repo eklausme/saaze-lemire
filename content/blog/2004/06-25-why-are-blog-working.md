@@ -6,6 +6,7 @@ title: "Why are blogs working?"
 
 
 Life is funny, you&rsquo;ll work like a dog on something, and it will just plain won&rsquo;t work. And once in a while, a very simple concept will just work. I think that research and life has more to do with luck, as in &ldquo;try many things and hope that something will work&rdquo;, rather than pure intellect. Which is why I think that centralized, authoritarian systems are doomed to failure. And I think it also explains why the Americans, with their relatively free flowing class structure are eating up the rest of the world. Build all the castles you want, and force people to be your servants&hellip; but you&rsquo;ll never be able to compete with a loosely controlled community. This doesn&rsquo;t mean anarchy works: I said loosely controlled, not out-of-control.
+
 This also means that as a researcher, you shouldn&rsquo;t be too focused. I didn&rsquo;t write that you should be unfocused&hellip; but don&rsquo;t be narrow. You might get lucky and hit gold even if you had a single target, but maybe that will just be luck.
 
 I found this post called A Partially Definitive But Slightly Abstract Guide To Why Blogs Are So Successful through [a post by Seb](http://radio.weblogs.com/0110772/2004/06/25.html#a1622). I really like some of the comments:

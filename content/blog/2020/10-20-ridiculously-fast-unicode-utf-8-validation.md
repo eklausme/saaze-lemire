@@ -37,7 +37,7 @@ simd8 classify(simd8 input, simd8 previous_input) {
   auto prev1 = input.prev<1>(previous_input);
   auto byte_1_high = prev1.shift_right <4>().lookup_16(table1);
   auto byte_1_low = (prev1 & 0x0F).lookup_16(table2);
-  auto byte_2_high = input.shift_right <4>().lookup_16(table3); 
+  auto byte_2_high = input.shift_right <4>().lookup_16(table3);
   return (byte_1_high & byte_1_low & byte_2_high);
 }
 ```

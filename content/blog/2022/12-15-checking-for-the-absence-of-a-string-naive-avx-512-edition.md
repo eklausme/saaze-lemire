@@ -25,12 +25,12 @@ Recent Intel and AMD processors have instructions that operate on 512-bit regist
 
 Using Intel intrinsic functions, the algorithm looks as follows:
 ```C
-  
+
   for (size_t i = 0; ...; i += 64) {
     __m512i comparator = _mm512_set1_epi8(needle[0]);
     __m512i input = _mm512_loadu_si512(in + i);
     __mmask64 matches = _mm512_cmpeq_epi8_mask(comparator, input);
-    for (size_t char_index = 1; matches && char_index < needle_len; 
+    for (size_t char_index = 1; matches && char_index < needle_len;
          char_index++) {
       comparator = _mm512_set1_epi8(needle[char_index]);
       input = _mm512_loadu_si512(in + i + char_index);

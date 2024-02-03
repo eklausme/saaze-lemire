@@ -36,7 +36,7 @@ switch (s[0]) {
   case 'A': case 'a':
     switch (s[2]) {
      case 'A': case 'a':
-       switch (s[3]) { 
+       switch (s[3]) {
          case 'A': case 'a':
           return is_separator(s[4]) ? 2 : -1;
        default:
@@ -78,14 +78,14 @@ The C function written using Intel intrinsic functions is as follows:
 bool sse_type(const char *type_string, uint8_t *type) {
   __m128i input = _mm_loadu_si128((__m128i *)type_string);
   __m128i delimiters =
-    _mm_setr_epi8(0x00, 0x00, 0x22, 0x00, 0x00, 0x00, 
-                  0x00, 0x00, 0x28, 0x09, 0x0a, 0x3b, 
+    _mm_setr_epi8(0x00, 0x00, 0x22, 0x00, 0x00, 0x00,
+                  0x00, 0x00, 0x28, 0x09, 0x0a, 0x3b,
                   0x00, 0x0d, 0x00, 0x00);
-  __m128i mask = _mm_setr_epi8(-33, -1, -1, -1, -1, 
+  __m128i mask = _mm_setr_epi8(-33, -1, -1, -1, -1,
                   -1, -1, -1, -1, -33, -1, -1,
                   -1, -1, -1, -1);
   __m128i pattern = _mm_shuffle_epi8(delimiters, input);
-  __m128i inputc = _mm_and_si128(input, 
+  __m128i inputc = _mm_and_si128(input,
       _mm_shuffle_epi8(mask, input));
   int bitmask = _mm_movemask_epi8(
       _mm_cmpeq_epi8(inputc, pattern));

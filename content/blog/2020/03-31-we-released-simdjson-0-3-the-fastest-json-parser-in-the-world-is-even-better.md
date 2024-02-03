@@ -21,11 +21,11 @@ If we only improved the performance, it would already be amazing. But our new re
 1. Simplified API: The API has been completely revamped for ease of use, including a new JSON navigation API and fluent support for error code and exception styles of error handling with a single API. In the past, using simdjson was a bit of a chore, the new approach is definitively modern, see for yourself:
 ```C
 auto cars_json = R"( [
-  { "make": "Toyota", "model": "Camry",  "year": 2018, 
+  { "make": "Toyota", "model": "Camry",  "year": 2018,
        "tire_pressure": [ 40.1, 39.9 ] },
-  { "make": "Kia",    "model": "Soul",   "year": 2012, 
+  { "make": "Kia",    "model": "Soul",   "year": 2012,
        "tire_pressure": [ 30.1, 31.0 ] },
-  { "make": "Toyota", "model": "Tercel", "year": 1999, 
+  { "make": "Toyota", "model": "Tercel", "year": 1999,
        "tire_pressure": [ 29.8, 30.0 ] }
 ] )"_padded;
 dom::parser parser;
@@ -34,12 +34,12 @@ dom::array cars = parser.parse(cars_json).get<dom::array>();
 // Iterating through an array of objects
 for (dom::object car : cars) {
   // Accessing a field by name
-  cout << "Make/Model: " << car["make"] 
+  cout << "Make/Model: " << car["make"]
            << "/" << car["model"] << endl;
 
   // Casting a JSON element to an integer
   uint64_t year = car["year"];
-  cout << "- This car is " << 2020 - year 
+  cout << "- This car is " << 2020 - year
            << "years old." << endl;
 
   // Iterating through an array of floats
@@ -47,7 +47,7 @@ for (dom::object car : cars) {
   for (double tire_pressure : car["tire_pressure"]) {
     total_tire_pressure += tire_pressure;
   }
-  cout << "- Average tire pressure: " 
+  cout << "- Average tire pressure: "
       << (total_tire_pressure / 2) << endl;
 
   // Writing out all the information about the car

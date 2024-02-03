@@ -36,7 +36,7 @@ To reproduce the results, using [Docker](https://www.docker.com), you can do&hel
 ```C
 git clone https://github.com/lemire/simdjson.git
 cd simdjson
-docker build -t simdjson . 
+docker build -t simdjson .
 docker run --privileged -t simdjson
 ```
 

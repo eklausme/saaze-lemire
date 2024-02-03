@@ -13,6 +13,7 @@ title: "Science and Technology links (February 2nd, 2018)"
 
 > We show that brain volumes undergo age-related changes during the first month of life, with the corresponding patterns of regional asymmetry and sexual dimorphism. Specifically, males have larger total brain volume and volumes differ by sex in regionally specific brain regions, after correcting for total brain volume.
 
-1. [The American National Institutes of Health are launching a major research program in genome editing](https://www.nih.gov/news-events/news-releases/nih-launch-genome-editing-research-program) ($190 million over six years).1. It appears that [many of us are deficient in magnesium, and that&rsquo;s an important driver for cardiovascular diseases](http://openheart.bmj.com/content/5/1/e000668). Most of us will die of a cardiovascular disease (given current medical knowledge).
+1. [The American National Institutes of Health are launching a major research program in genome editing](https://www.nih.gov/news-events/news-releases/nih-launch-genome-editing-research-program) ($190 million over six years). 
+1. It appears that [many of us are deficient in magnesium, and that&rsquo;s an important driver for cardiovascular diseases](http://openheart.bmj.com/content/5/1/e000668). Most of us will die of a cardiovascular disease (given current medical knowledge).
 
 

@@ -11,11 +11,16 @@ With respect to artificial intelligence, some people are squarely in the &ldquo;
 
 
 So Allen does not believe that we will see human-level artificial intelligence in this century. But he nevertheless generously created a foundation aiming to develop such human-level intelligence, the Allen Institute for Artificial Intelligence Science.
+
 The Institute is lead by Oren Etzioni who obviously shares some of Allen&rsquo;s &ldquo;pessimistic&rdquo; views. Etzioni has made it clear that he feels that the recent breakthroughs of Google&rsquo;s DeepMind (i.e., beating the best human beings at Go) should not be exaggerated. Etzioni took for example the fact that their research paper [search engine](https://www.semanticscholar.org/) (Semantic Scholar) [can differentiate between the significant citations and the less significant ones](/lemire/blog/2015/11/05/identifying-influential-citations-it-works-live-today/). The way DeepMind&rsquo;s engine works is that it looks at many, many examples and learn from these examples because they are clearly and objectively classified (we know who wins and who loses a given game of Go). But there is no win/lose label on the content of research papers. In other words, human beings become intelligent in an unsupervised manner, often working from few examples and few objective labels.
 
 To try to assess how far off we are from human-level intelligence, the Allen Institute launched a game where people had to design an artificial intelligence capable of passing 8th-grade science tests. They gave generous prizes to the best three teams. The questions touch various scientific domains:
 
-- How many chromosomes does the human body cell contain?- How could city administrators encourage energy conservation?- What do earthquakes tell scientists about the history of the planet?- Describe a relationship between the distance from Earth and a characteristic of a star.
+- How many chromosomes does the human body cell contain? 
+- How could city administrators encourage energy conservation? 
+- What do earthquakes tell scientists about the history of the planet? 
+- Describe a relationship between the distance from Earth and a characteristic of a star. 
+
 
 So how far are we from human-level intelligence? [The Institute published the results in a short paper](http://arxiv.org/pdf/1604.04315v1.pdf).
 

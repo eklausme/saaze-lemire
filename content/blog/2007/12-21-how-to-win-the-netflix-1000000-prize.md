@@ -12,11 +12,16 @@ Their approach is based on the linear combination of large number of predictors.
 First, some generic observations that are not very surprising, but nice nevertheless:
 
 - All data distributions are very skewed. A single movie can receive 200,000 ratings whereas a large fraction of the movies is rated fewer than 200 times. Some users have rated 10,000 movies or more whereas most users have rated around 100 movies.
-- Ratings on movies with higher variance (you either like it or hate it) are more informative.
+- Ratings on movies with higher variance (you either like it or hate it) are more informative. 
+
 
 Here are some principles I take away from their work:
 
-- Singular Value Decomposition is useful to get overall trends.- Nearest-neighbor methods are better at picking up strong interactions inside small sets of related movies.- Nearest-neighbor methods should discard uninformative neighbors.- If you discard ratings and focus on who rated which movie, you seem to get useful predictors complementing the rating-based predictors.- Regularization is important (they use [ridge regression](https://en.wikipedia.org/wiki/Ridge_regression)) as expected.
+- Singular Value Decomposition is useful to get overall trends. 
+- Nearest-neighbor methods are better at picking up strong interactions inside small sets of related movies. 
+- Nearest-neighbor methods should discard uninformative neighbors. 
+- If you discard ratings and focus on who rated which movie, you seem to get useful predictors complementing the rating-based predictors. 
+- Regularization is important (they use [ridge regression](https://en.wikipedia.org/wiki/Ridge_regression)) as expected.
 
 
 There is, in their work, a very clear trade-off from our ability to explain the recommendations, in favor of the accuracy. This is somehow dictated by the rules of the game, I suppose. They acknowledge this fact: &ldquo;when recommending a movie to a user, we don&rsquo;t really care why the user will like it, only that she will.&rdquo; Presumably, neither the engineer or manager running the system, nor the user should care why the recommendation was made. I have argued the [exact opposite](http://arxiv.org/abs/cs/0702144), and so have [others](http://portal.acm.org/citation.cfm?id=358916.358995). I hope we can agree to disagree on this one. (I have said it before, my goal in life is to make people smarter, not to make smarter machines.)

@@ -14,7 +14,8 @@ Most recently, David Lorge Parnas, one of the most prolific authors in Computer 
 
 Here are the evils of the numbers game according to Parnas:
 
-- It encourages superficial research.- It encourages overly large groups.
+- It encourages superficial research. 
+- It encourages overly large groups.
 - It encourages repetition.
 - It encourages small, insignificant studies.
 - It rewards publication of half-baked ideas.

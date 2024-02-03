@@ -16,5 +16,6 @@ The premise of the article is that there is a new generation (&lt; 30 years old)
 
 I think speed is the critical issue. The tech native understand that things need to go very fast, always.
 
+
 This makes me hopeful: we might see a reversal of the ever increasing bureaucracy one day soon.
 

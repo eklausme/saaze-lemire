@@ -23,4 +23,3 @@ __Note:__ You mileage may vary. I do not claim that file parsing is always CPU b
 __Update.__  Here are the file characteristics: number of columns = 4, size in GB = 2.6.
 
 
-

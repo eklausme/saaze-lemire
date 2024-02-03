@@ -23,6 +23,7 @@ With proper loop unrolling, this is nearly as fast as bit packing.
 __Update__: Preston Bannister correctly points out that you can do much better. Simply compute the logical or between all integers and then compute the integer logarithm of the result. It is much, much faster.
 
 To experiment with this problem, I wrote a [small program](https://github.com/lemire/Code-used-on-Daniel-Lemire-s-blog/tree/master/2012/04/05/bit-packing-is-fast-but-integer-logarithm-is-slow) which finds the maximum integer logarithm of a large array of random integers. It then packs the integers using this logarithm.
+
 - I find that I can pack between 1 billion and 2 billions integers per second.
 - I compute the maximum integer logarithm at a rate of 3 billion integers per second.
 

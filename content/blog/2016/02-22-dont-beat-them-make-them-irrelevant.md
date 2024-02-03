@@ -24,6 +24,7 @@ Yet Microsoft did not lose its dominance because it was particularly foolish and
 Apple simply made Microsoft&rsquo;s monopoly less relevant. Sure, you can still send Word documents, but if they don&rsquo;t open on an iPhone, they are broken.
 
 This is a common pattern. When faced with very difficult challenges, too many people go on desperate offensives.
+
 Yet openly attacking a superior enemy on its own turf is the last thing you want to do. It is irrational.
 
 Don&rsquo;t beat them, make them less relevant.

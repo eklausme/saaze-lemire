@@ -53,7 +53,6 @@ An optimizing compiler will probably unroll the loop and produce code that might
 
 
 
-
 Notice how there are many loads, and a whole lot of operations.
 
 We can substantially shorten the resulting code, down to something that looks like the following:
@@ -78,7 +77,7 @@ How do we do it? We use a technique called SWAR which stands for [SIMD within a 
 
 The first step is to load all eight characters into a 64-bit register. In C, you might do it in this manner:
 ```C
-int64_t val; 
+int64_t val;
 memcpy(&val, chars, 8);
 ```
 
@@ -111,16 +110,14 @@ val = (val * 10) + (val >> 8);
 
 
 
-
 The next two steps are similar:
 ```C
 val1 = (((val & 0x000000FF000000FF) * (100 + (1000000ULL << 32)));
 ```
 
 
-
 ```C
-val2 = (((val >> 16) & 0x000000FF000000FF) 
+val2 = (((val >> 16) & 0x000000FF000000FF)
           * (1 + (10000ULL << 32))) >> 32;
 ```
 
@@ -143,9 +140,9 @@ __Appendix__: You can do much the same in C# starting with a `byte` pointer (<tt
 ```C
 ulong val = Unsafe.ReadUnaligned<ulong>(chars);
 const ulong mask = 0x000000FF000000FF;
-const ulong mul1 = 0x000F424000000064; 
+const ulong mul1 = 0x000F424000000064;
 // 100 + (1000000ULL << 32)
-const ulong mul2 = 0x0000271000000001; 
+const ulong mul2 = 0x0000271000000001;
 // 1 + (10000ULL << 32)
 val -= 0x3030303030303030;
 val = (val * 10) + (val >> 8); // val = (val * 2561) >> 8;

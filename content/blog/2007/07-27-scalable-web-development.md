@@ -22,6 +22,7 @@ Topics covered would include:
 
 
 Am I missing anything? Yes, Java is absent.
+
 Students would conclude the course with a project that would have to be design to take a lot of abuse, or at least, design in such a way that if it did get abused, people could come in and fix it easily. For example, students would have to explain how they would partition it and so on. Maybe they&rsquo;d have to run tests on how it scales (but that&rsquo;s not entirely satisfying). I&rsquo;d certainly allow students to come up with sites that they can turn into a business.
 
 It would probably be a course from hell. But then, I am convinced that challenging courses is not what kills students. Boredom and couldn&rsquo;t-care-less instructors do.

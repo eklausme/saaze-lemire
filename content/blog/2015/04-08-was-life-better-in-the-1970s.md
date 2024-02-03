@@ -10,7 +10,8 @@ People from my generation often complain that their parents were better off. The
 Were they better off?
 
 1. Though it has recently peaked, the number of cars per person is higher than it was in the seventies. Current cars are much safer than there were.
-1. In percentage, home ownership was no higher in the seventies, and lower in the sixties than it is today. Pre-1945, hardly anyone in a city owned his home.1. Average retirement age was higher in the 1970s than it is today. That is despite the fact that we have since made forced retirement illegal, and despite the fact that there are far fewer physically demanding jobs. Of course, pre-1945 few people retired and life expectancy was often lower than 65 years.
+1. In percentage, home ownership was no higher in the seventies, and lower in the sixties than it is today. Pre-1945, hardly anyone in a city owned his home. 
+1. Average retirement age was higher in the 1970s than it is today. That is despite the fact that we have since made forced retirement illegal, and despite the fact that there are far fewer physically demanding jobs. Of course, pre-1945 few people retired and life expectancy was often lower than 65 years.
 1. Air quality has gotten better. Gazoline no longer contains lead.
 1. Far more people attend college, far more people have a college degree than in the 1970s.
 1. Though it has fluctuated quite a bit, unemployment rates in the 1970s and 1980s were not smaller.
@@ -18,9 +19,11 @@ Were they better off?
 
 
 I could go on&hellip; On almost every measure that I can imagine, people are better off.
+
 I have not even gotten started with the developing world&hellip; In the 1970s, all of China was starving. Today, young people in China proudly carry smartphones.
 
 I also disagree strongly that the Internet and modern computer technology is an irrelevance. As a kid, I had access to a handful of science books. Today, kids the same age have an almost embarrassing wealth of choices. As a kid, I watched whatever was on television&hellip; Today, I watch Dr. Who together with my boys, at a time of our choosing.
+
 Would I go back to live in the 1970s? I would not. Why would you?
 
 There is one thing that people are sure to bring up: inequality. Though the poor have gotten richer, the rich have supposedly gotten richer even faster. I say &ldquo;supposedly&rdquo; because people spend little time thinking about wealth is. It is typically left undefined. We use various proxies, but it is hard to grasp what this means in reality. For example, is your health and your education part of your wealth? Are your skills a form of wealth?

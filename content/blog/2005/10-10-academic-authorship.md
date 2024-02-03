@@ -21,3 +21,4 @@ However, there are routes more rewarding or rewarded than others. Some research 
 As long as professors not working on Ben Laden detectors, professors getting small grants, and professors having few students, still keep their jobs and don&rsquo;t get insulted publicly, then we are ok and academic freedom is safe.
 
 __Update:__ I got too many insults by email. Ok, I didn&rsquo;t mean the government should be funding Ben Laden detectors, only that it is ok for some subjects to be funded better than others.
+

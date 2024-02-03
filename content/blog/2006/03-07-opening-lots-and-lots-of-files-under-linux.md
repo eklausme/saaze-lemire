@@ -14,6 +14,7 @@ First of all, check how many files your system allows you to open simulateneousl
 </code>
 
 On my system, as you can see, a process should be able to open 100,000 files simultaneously without a problem. If your number is much lower, you may need to do some [extra work](http://lists.centos.org/pipermail/centos/2005-February/002655.html).
+
 Unfortunately, there are security settings above and beyond this number. To get around them, add the following line to &ldquo;/etc/security/limits.conf&rdquo;:
 
 <code>* - nofile 100000</code>

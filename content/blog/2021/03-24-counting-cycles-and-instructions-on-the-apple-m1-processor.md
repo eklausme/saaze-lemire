@@ -46,7 +46,7 @@ Afterward, it is simply a matter of printing the results. [I decided to benchmar
 # parsing random numbers
 model: generate random numbers uniformly in the interval [0.000000,1.000000]
 volume: 10000 floats
-volume = 0.0762939 MB 
+volume = 0.0762939 MB
 model: generate random numbers uniformly in the interval [0.000000,1.000000]
 volume: 10000 floats
 volume = 0.0762939 MB
@@ -61,7 +61,7 @@ fastfloat    162.01 instructions/float (+/- 0.0 %)
                 7.36 instructions/cycle
                 38.00 branches/float (+/- 0.0 %)
                 0.0001 mis. branches/float
-oat 
+oat
 ```
 
 

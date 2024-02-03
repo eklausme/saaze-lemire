@@ -8,7 +8,9 @@ title: "What is an effective social network?"
 Many democratic systems require vote diversity. You __do not__ get elected prime minister of Canada by rallying the largest number of voters. You also need to have your votes spread out over several regions.
 
 Similarly, Scott Karp argues that completely open social networks fail. He takes two examples: [Digg](https://en.wikipedia.org/wiki/Digg) and [Wikipedia](https://en.wikipedia.org/wiki/Wikipedia).
+
 Digg recommends web sites based on user votes. They recently modified their algorithm:
+
 > The algorithm change effectively holds back from the homepage any story that is Dugg by the same groups of friends, i.e. a group that is not â€œdiverse,â€ (&hellip;)
 
 

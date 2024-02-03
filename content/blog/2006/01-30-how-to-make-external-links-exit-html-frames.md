@@ -29,3 +29,4 @@ window.onload = externalLinks;<br/>
 </code>
 
 Of course, this relies on JavaScript being enabled, you might have cross-browser issues, and it adds an overhead to the processing of the page.
+

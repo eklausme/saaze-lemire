@@ -6,6 +6,7 @@ title: "Coping with overabundance as a scientist"
 
 
 We are in an [era of overabundance](http://www.daniel-lemire.com/blog/archives/2007/07/13/on-overabundance-and-innovation/). Many of the problems we face &mdash; spam, information overload, obesity, pollution &mdash; are actually the result of overabundance.
+
 Scientists need new strategies:
 
 - Create fast, discard faster.

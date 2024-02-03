@@ -31,6 +31,7 @@ Thankfully, your compiler can automatically detect your processor, it calls this
 
 
 This has lead me to believe that &ldquo;-march&rdquo; trumps &ldquo;-mtune&rdquo; meaning that if you set &ldquo;-march=native&rdquo;, then the &ldquo;-mtune&rdquo; is effectively irrelevant.
+
 I was wrong.
 
 Let us check using funny command lines. I use a skylake processor with GNU GCC 5.5. It is important to note that this compiler predates skylake processors.

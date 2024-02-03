@@ -18,6 +18,7 @@ Xuerui Wang, Andrew McCallum
 
 Algorithms for time series knowledge mining<br/>
 Fabian Morchen
+
 Semi-Supervised Time Series Classification<br/>
 Li Wei, Eamonn Keogh
 

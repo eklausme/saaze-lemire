@@ -6,8 +6,11 @@ title: "Montreal researchers &#8220;prove&#8221; that aging is the result of a g
 
 
 Unless you are a tree, a lobster, or some other sea creature, you are probably aging&hellip; which is another way of saying that beyond adulthood, your fitness decreases while your mortality risk increases over time. Though some pretend that aging is a well-understood process&hellip; from a scientific point of view, it largely remains a mystery.
+
 There is plenty of room for debate, but there are generally two different ways to understand aging.
+
 Some believe that aging is simply the result of an evolutionary neglect or compromise. That is, given that animals never get very old in the wild, their genes are simply not geared toward keeping them healthy and fertile for a long time. This is problematic as a theory because slightly older individuals in the wild are affected by aging (a 30-year-old man is less fit than a 25-year-old man) sufficiently to cause their death or prevent them from reproducing. We also know that many of our ancestors did live quite old and chances that many died in part due to the fact that they were weaker due to age. Others believe that aging is the result of some kind of compromise&hellip; the body exhausts all its energy on reproduction, and is incapable, as a consequence, of remaining fit. This is also problematic and [I have written an entire blog post to explain why this appealing theory does not fit the facts](/lemire/blog/2016/08/31/the-rate-of-living-theory-is-wrong/).
+
 There is also another entirely different theory that says that aging serves an evolutionary purpose. It is a population control mechanism. Without aging, the old and strong individuals would dominate, leaving little room from younger people with newer genes&hellip; and this would create a less adaptable population more likely go through extinction events. This theory is also problematic because if, in a given population, some people remain fitter and more fertile, their genes would spread more easily and they would come to dominate the population.
 
 Thus, we are left with multiple theories, all of them with apparent disqualifying faults.

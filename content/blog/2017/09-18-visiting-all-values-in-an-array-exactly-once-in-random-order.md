@@ -6,7 +6,9 @@ title: "Visiting all values in an array exactly once in &#8220;random order&#822
 
 
 Suppose that you want to visit all values in an array exactly once in &ldquo;random order&rdquo;. You could do it by shuffling your array but it requires some extra storage.
+
 You want your code to use just a tiny bit of memory, and you want the code to be super fast. You do not want to assume that your array size is a power of two.
+
 One way to do it is to use the fact that <tt>(a x + b) modulo n</tt> will visit all integer values in <tt>[0,n)</tt> exactly once as `x` iterates through the integers in <tt>[0, n)</tt>, as long as `a` is coprime with <tt>n</tt>. Being coprime just means that the greatest common divisor between `a` and `n` is 1. There are fast functions to compute the [greatest common divisor](/lemire/blog/2013/12/26/fastest-way-to-compute-the-greatest-common-divisor/) between `a` and <tt>n</tt>.
 
 A trivial coprime number would be <tt>a = 1</tt>, but that&rsquo;s bad for obvious reasons. So we pick a coprime number in <tt>[n/2,n)</tt> instead. There is always at least one no matter what `n` is.
@@ -40,7 +42,7 @@ public int next() {
       runningvalue += prime;
       if(runningvalue >= maxrange) runningvalue -= maxrange;
       index ++;
-      // runningvalue == getCurrentValue()) 
+      // runningvalue == getCurrentValue())
       return runningvalue;
 }
 ```

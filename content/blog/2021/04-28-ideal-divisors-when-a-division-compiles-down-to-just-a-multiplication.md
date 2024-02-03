@@ -75,7 +75,7 @@ uint64_t div1(uint64_t n) {
 
 // computes n % 274177
 uint64_t div2(uint64_t n) {
-    return (uint64_t( n * 67280421310721 ) 
+    return (uint64_t( n * 67280421310721 )
               * __uint128_t(274177)) >> 64;
 }
 ```

@@ -19,24 +19,25 @@ public interface Array {
 
 
 Why would you want to do that? Maybe because your data can be in a database, on a network, on disk or in some other data structure. You want to write your code once, and not have to worry about how the array is implemented.
+
  It is not difficult to produce a class that is effectively equivalent to a standard Java array, except that it implements this interface:
 ```C
 
 public final class NaiveArray implements Array {
     protected int[] array;
-    
+
     public NaiveArray(int cap) {
         array = new int[cap];
     }
-    
+
     public int get(int i) {
         return array[i];
     }
-    
+
     public void set(int i, int x) {
-        array[i] = x;  
+        array[i] = x;
     }
-    
+
     public int size() {
         return array.length;
     }
@@ -50,10 +51,10 @@ Unfortunately, on a [simple benchmark](https://github.com/lemire/Code-used-on-Da
 ```C
 
 public int compute() {
-   for(int k = 0; k < array.size(); ++k) 
+   for(int k = 0; k < array.size(); ++k)
       array.set(k,k);
    int sum = 0;
-   for(int k = 0; k < array.size(); ++k) 
+   for(int k = 0; k < array.size(); ++k)
       sum += array.get(k);
    return sum;
 }
@@ -70,10 +71,10 @@ A viable workaround is to inline the functions by hand. You can to use the keywo
 public int compute() {
      if(array instanceof NaiveArray) {
         int[] back = ((NaiveArray) array).array;
-        for(int k = 0; k < back.length; ++k) 
+        for(int k = 0; k < back.length; ++k)
            back[k] = k;
         int sum = 0;
-        for(int k = 0; k < back.length; ++k) 
+        for(int k = 0; k < back.length; ++k)
            sum += back[k];
         return sum;
      }
@@ -83,6 +84,7 @@ public int compute() {
 
 
 Of course, I also introduce a maintenance problem as the same algorithm needs to be implemented more than once&hellip; but when performance matters, this is an acceptable alternative.
+
 As usual, my benchmarking code is [available online](https://github.com/lemire/Code-used-on-Daniel-Lemire-s-blog/tree/master/2014/12/17).
 
 To summarize:

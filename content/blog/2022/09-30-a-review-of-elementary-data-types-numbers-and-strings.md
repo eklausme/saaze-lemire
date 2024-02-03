@@ -56,7 +56,7 @@ When considering unsigned arithmetic, it often helps to think that we keep only 
 
 We have that <code>0-1</code>, as an 8-bit number, is 255 or <code>0b11111111</code>. <code>0-2</code> is 254, <code>0-3</code> is 253 and so forth.￼ Consider the set of integers&hellip;
 ```C
--1024, -1023,..., -513, -512, -511, ..., -1, 0, 1, ..., 255, 256, 257,... 
+-1024, -1023,..., -513, -512, -511, ..., -1, 0, 1, ..., 255, 256, 257,...
 ```
 
 
@@ -74,7 +74,7 @@ We say that two numbers are &lsquo;coprime&rsquo; if their largest common diviso
 When multiplying a non-zero integer by an odd integer using finite-bit arithmetic, we never get zero. Thus, for example, <code>3 * x</code> as an 8-bit integer is zero if and only if <code>x</code> is zero when using fixed-bit unsigned integers. It means that <code>3 * x</code> is equal to <code>3 * y</code> if and only if <code>x</code> and <code>y</code> are equal. Thus we have that the following Go code will print out all values from 0 to 255, without repetition:
 ```C
     for i:=uint8(1); i != 0; i++ {
-        fmt.Println(3*i)       
+        fmt.Println(3*i)
     }
 ```
 

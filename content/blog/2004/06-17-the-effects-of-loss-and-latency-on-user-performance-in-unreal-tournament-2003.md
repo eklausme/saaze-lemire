@@ -14,3 +14,4 @@ I still haven&rsquo;t given up on using porn technology as a research topic thou
 Which is not to say that my research is not on cool topics. I think that [inDiscover](http://www.indiscover.net) is quite cool. I also have other things coming that may appear as sexy to some people (but no porn research as of yet).
 
 Just like art, I think that research should be thought provoking.
+

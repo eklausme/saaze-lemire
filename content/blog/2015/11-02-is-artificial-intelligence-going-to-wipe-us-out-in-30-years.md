@@ -10,10 +10,12 @@ Many famous people have recently grown concerned that artificial intelligence is
 It is obvious that any technology, including artificial intelligence, can be used to cause harm. Information technology can be turned into a weapon.
 
 But I do not think that it is what Hawking and Musk fear. Here is what Hawking said:
+
 > It [artificial intelligence] would take off on its own, and re-design itself at an ever increasing rate, Humans, who are limited by slow biological evolution, couldn&rsquo;t compete, and would be superseded.
 
 
 Here is what Musk said:
+
 > With artificial intelligence we are summoning the demon. In all those stories where there&rsquo;s the guy with the pentagram and the holy water, it&rsquo;s like â€“ yeah, he&rsquo;s sure he can control the demon. Doesn&rsquo;t work out,(&hellip;)
 
 
@@ -21,7 +23,8 @@ Here is what Musk said:
 So far from being merely worried about potential misuse of technology, Hawking and Musk consider a scenario more like this:
 
 - Machines increasingly acquire sophisticated cognitive skills. They learned to play Chess better than human beings. Soon, they will pass as human beings online. It is only a matter of time before someone can produce software that passes the American Scholastic Aptitude Test with scores higher than the average human being&hellip; and soon after, better than any human being.
-- Then, at some point, machines will wake up, become conscious, reach &ldquo;general intelligence&rdquo; and we are facing a new species that might decide to do away with us.
+- Then, at some point, machines will wake up, become conscious, reach &ldquo;general intelligence&rdquo; and we are facing a new species that might decide to do away with us. 
+
 
 The first part of this scenario is coming true. We have cars, trains and airplanes without human pilots today&hellip; in 30 years, no insurer will be willing to cover you if you decide to drive your own car. It is all going to be automated. Factories are similarly going to be automated. Goods delivery will be automated. Medical diagnostic will be automated. In 30 years, we will have computing devices that are far more powerful than the naked brain. It is likely that they will use up a lot more energy and a lot more space than a human brain&hellip; but a computing device can have instant access to all of the Internet in ways that no human brain can.
 

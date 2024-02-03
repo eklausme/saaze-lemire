@@ -55,7 +55,7 @@ The first thing I found is [Björn Höhrmann&rsquo;s finite-state machine](http:
 bool is_ok(uint32_t* state, uint32_t byte) {
   uint32_t type = utf8d[byte];
   *state = utf8d[256 + *state * 16 + type];
-  return (*state != 1); // true on error 
+  return (*state != 1); // true on error
 }
 ```
 

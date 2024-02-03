@@ -59,7 +59,7 @@ The file can be created, at runtime, from with a runtime variable &lsquo;n&rsquo
 Importantly, the variable &lsquo;n&rsquo; can be any integer, including an integer provided by the user, at runtime.<br/>
 We then compile the new file and load the new function as a &ldquo;plugin&rdquo;:
 ```Go
-	exec.Command("go", "build", "-buildmode=plugin", "-o", "fast.so", "fast.go").Output() 
+	exec.Command("go", "build", "-buildmode=plugin", "-o", "fast.so", "fast.go").Output()
         plug, _ := plugin.Open("fast.so")
 	fastSquare, _ := plug.Lookup("FastFunction")
 	loaded, _ := fastSquare.(func(int) int)

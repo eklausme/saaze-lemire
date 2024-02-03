@@ -11,5 +11,6 @@ Through [Jean-Pierre Cloutier&rsquo;s blog](http://cyberie.qc.ca/jpc/2005/10/blo
 
 
 I think he has the right attitude.
+
 __Update__: Annie Patenaude correctly points out she is the one who pointed me to Jean-Pierre Cloutier&rsquo;s blog.
 

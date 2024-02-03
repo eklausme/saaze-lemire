@@ -34,6 +34,7 @@ In fact, the effect is so strong that removing the stereotype threat can be enou
 If you run an experiment and you invite older people over, even the slightest hint that you are attempting to measure a decline in their cognitive functions could ensure that you will indeed measure a strong decline.
 
 But the effect should be present outside a college laboratory as well. Old people convinced that they have rotten brains should not be expected to be sharp&hellip; &ldquo;The aging process is, in part, a social construct.&rdquo; ([Levy, 2009](http://www.ncbi.nlm.nih.gov/pmc/articles/PMC2927354/)). It is not just a vague theory, the effect that I describe has been put to the test repeatedly:
+
 > Those with more negative age stereotypes demonstrated significantly worse memory performance over 38 years than those with less negative age stereotypes, after adjusting for relevant covariates. (Levy et al., 2011)
 
 

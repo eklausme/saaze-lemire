@@ -6,7 +6,9 @@ title: "Why building software is hard"
 
 
 Why is building software difficult? Why do so many projects fail? I recently had an argument with a colleague who thinks that the problem is that the software industry is unable to follow due process&hellip; to take the requirements, make up a plan and follow it.
+
 Well. There is no such thing as &ldquo;a project with system requirements and promised characteristics.&rdquo; The engineers at Google or Microsoft are not given out a sheet of requirements in 2005 and told to deliver a new product meeting these requirements in 2007. The requirements change __every__ week and they poorly define the expectations of whoever is paying you.
+
 There are boring software projects where the requirements are static, for example, making available a MySQL database through a web interface, adding a tool to the intranet where people can submit documents, and so on. Those can be managed pretty well and they are actually. Failure rates are small.
 
 Making analogies with other industries, you should observe that pharmaceutical companies who design new medications typically fail most of the time. What Boeing sells is an already designed and prototyped airplane. They design very few new ones that are not minor variants on existing planes, and when they do have to build a new airplane from scratch, it is tricky and I can assure you that they hire the very best engineers they can for the job.

@@ -6,6 +6,7 @@ title: "Non-commercial licenses and university courseware"
 
 
 Lately I have been toying with the marginal use of content licensed for non-commercial purposes in my courses. Such content includes [flickr images](https://www.flickr.com/), [YouTube videos](https://www.youtube.com/), and so on. The Open University interprets non-commercial to include the use of content as part of a course for which you charge an admission fee.
+
 My own interpretation would be more restrictive. I consider my use of such resources to be non-commercial because:
 
 - my courseware is freely available, and even indexed by Google: while students pay to enter the corresponding course, they clearly do not pay to access the Web site;

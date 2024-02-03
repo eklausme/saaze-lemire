@@ -11,7 +11,8 @@ If you minimize the overhead, by writing straight C/C++ code, it is less obvious
 
 However, these tests (with `memset` and <tt>memcpy</tt>) are maybe not representative of how writing and reading is done most commonly. Thus I designed a second batch of tests. In these tests, I have two arrays:
 
-- A small array (32KB or less) that fits easily in fast L1-L2 CPU cache. It has size <em>M</em>.- A larger array (between 1MB to 512MB) that might not fit in CPU cache. It has size _M_ times _N_ so that the small array fits _N_ times in the larger array.
+- A small array (32KB or less) that fits easily in fast L1-L2 CPU cache. It has size <em>M</em>. 
+- A larger array (between 1MB to 512MB) that might not fit in CPU cache. It has size _M_ times _N_ so that the small array fits _N_ times in the larger array.
 
 
 Then I consider two tests that should run at the same speed if reading and writing are symmetrical:
@@ -53,7 +54,7 @@ Ok. Let us consider another example example. In C/C++, boolean values (<tt>bool<
 void pack(bool * d, char * compressed, size_t N) {
   for(size_t i = 0; i < N/8; ++i) {
     size_t x = i * 8;
-    compressed[i] = d[x] | 
+    compressed[i] = d[x] |
                     d[x+1]<<1 |
                     d[x+2]<<2 |
                     d[x+3]<<3 |
@@ -91,8 +92,10 @@ Can you guess which one is faster? In my tests, unpacking is 30% slower than pac
 Of course, you should only expect to see a relative slowdown if you write much more than you would otherwise read (say by a factor of 8). Also, I expect the results of these tests to vary depending on the compiler and the machine you use. Always run your own tests!
 
 __Source code__: As usual, you can find [my source code online](https://github.com/lemire/Code-used-on-Daniel-Lemire-s-blog/tree/master/2012/10/29).
+
 __Further reading__: [I know why DRAM is slower to write than to read, but why is the L1 &#038; L2 cache RAM slower to write?](http://electronics.stackexchange.com/questions/17549/i-know-why-dram-is-slower-to-write-than-to-read-but-why-is-the-l1-l2-cache-ra) via [Reverend Eric Ha](https://plus.google.com/+ReverendEricHa/posts)
 
 __Update__: [NathanaÃ«l Schaeffer](https://users.isterre.fr/nschaeff/?) points out that the latency of the MOV operation differs depending on whether you are copying data from memory to a register, or from a register to memory. On my test machine, it takes at least 3 cycles to copy data from a register to memory, but possibly only 2 cycles to copy data from memory to a register ([Fog, 2012](http://www.agner.org/optimize/instruction_tables.pdf)).
+
 __Credit__: Thanks to L. Boystov, S. H Corey, R. Corderoy, N. Howard and others for discussions leading up to this blog post.
 

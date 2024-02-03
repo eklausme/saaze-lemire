@@ -79,8 +79,8 @@ Let us review the results.
  (eps1 means a value < 1.0e-15):
        Test                          p-value
  ----------------------------------------------
- 68  MatrixRank, L=1000, r=0          eps  
- 71  MatrixRank, L=5000               eps  
+ 68  MatrixRank, L=1000, r=0          eps
+ 71  MatrixRank, L=5000               eps
  80  LinearComp, r = 0              1 - eps1
  ----------------------------------------------
 ```
@@ -93,8 +93,8 @@ The following tests gave p-values outside [0.001, 0.9990]:
  (eps1 means a value < 1.0e-15):
        Test                          p-value
  ----------------------------------------------
- 68  MatrixRank, L=1000, r=0          eps  
- 71  MatrixRank, L=5000               eps  
+ 68  MatrixRank, L=1000, r=0          eps
+ 71  MatrixRank, L=5000               eps
  80  LinearComp, r = 0              1 - eps1
  -----------------------------------------------
 ```
@@ -107,8 +107,8 @@ The following tests gave p-values outside [0.001, 0.9990]:
  (eps1 means a value < 1.0e-15):
        Test                          p-value
  ----------------------------------------------
- 68  MatrixRank, L=1000, r=0          eps  
- 71  MatrixRank, L=5000               eps  
+ 68  MatrixRank, L=1000, r=0          eps
+ 71  MatrixRank, L=5000               eps
  80  LinearComp, r = 0              1 - eps1
  ----------------------------------------------
 ```
@@ -123,8 +123,8 @@ The following tests gave p-values outside [0.001, 0.9990]:
  ----------------------------------------------
  24  ClosePairs mNP1, t = 9          9.2e-5
  24  ClosePairs NJumps, t = 9        1.0e-4
- 68  MatrixRank, L=1000, r=0          eps  
- 71  MatrixRank, L=5000               eps  
+ 68  MatrixRank, L=1000, r=0          eps
+ 71  MatrixRank, L=5000               eps
  80  LinearComp, r = 0              1 - eps1
  ----------------------------------------------
 ```

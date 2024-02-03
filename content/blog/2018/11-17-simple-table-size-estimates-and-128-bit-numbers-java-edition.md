@@ -20,7 +20,7 @@ double cardenas64(long[] cards, int n) {
     for(int k = 0;  k < cards.length; k++) {
       product *= cards[k];
     }
-    return product 
+    return product
          * (1- Math.pow(1 - 1.0/product,n));
  }
 ```
@@ -31,6 +31,7 @@ So let us put in the numbers&hellip; my column cardinalities are 16,16,15,5,2,94
 Zero.
 
 At least, that&rsquo;s what the Java function returns.
+
 Why is that? The first problem is that 1 &#8211; 1/p is 1 when p is that large. And even if you could compute 1 &#8211; 1/p accurately enough, taking it to the power of 48842 is a problem.
 
 So what do you do?
@@ -64,7 +65,7 @@ __Update__: You can avoid 128-bit numbers by using the log1p(x) and expm1(x) fun
   for(int k = 0;  k < cards.length; k++) {
     product *= cards[k];
   }
-  return product * 
+  return product *
     -Math.expm1(Math.log1p(-1.0/product) * n);
 }
 ```

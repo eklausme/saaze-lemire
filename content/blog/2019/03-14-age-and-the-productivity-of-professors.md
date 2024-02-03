@@ -20,5 +20,6 @@ What does the research says about this? We can look at published papers as a mea
 It is true that professors&rsquo; salaries match their productivity, but that&rsquo;s mostly because a small number of professors do most of the hard research and top-notch teaching, while the compensation plans tend to be much more egalitarians. There are also rather striking gaps between institutions which fail to reflect individual differences.
 
 I don&rsquo;t think we should be concerned with professors who choose to delay or avoid retirement. Retirement is often a bad deal for society. Our pension plans are often underwater.
+
 Of course, we should urge people to contribute and to stay up-to-date. But that applies more broadly. You can be in your 40s and be out-of-touch.
 

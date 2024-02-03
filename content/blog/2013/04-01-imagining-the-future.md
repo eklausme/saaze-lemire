@@ -6,9 +6,11 @@ title: "We need to get a lot better at imagining the future"
 
 
 We live in an era of fast changes. Ten years ago, YouTube was unthinkable, social media did not exist (Facebook was founded in 2004), we got our movies on tapes at video stores, cell phones did not have cameras, and so on.
+
 If you are reasonable, you have to expect ever greater changes in the next ten years. Maybe you think you are open-minded and can think clearly about the future. Then close your eyes and imagine a world&hellip;
 
-- &hellip; where the PC and Windows are all but a memory&hellip;- &hellip; where driving a car yourself is considered reckless&hellip;
+- &hellip; where the PC and Windows are all but a memory&hellip; 
+- &hellip; where driving a car yourself is considered reckless&hellip;
 - &hellip; where paper books are like vinyl records&hellip;
 - &hellip; where the last TV station closed down years ago&hellip;
 - &hellip; where the notion of putting kids in a classroom to learn at fixed hours is considered barbaric&hellip;
@@ -21,7 +23,8 @@ Can you imagine a world where these things are true? I bet you cannot.
 Scifi novels become obsolete very fast because scifi writers have failures of imagination. For example, most novels written before 1990 missed the Web. (It is very annoying to read a novel about year 2150 where the Web has not been invented yet.) If scifi writers fail to imagine our future, regular workers are bound to think that whatever they do now will still be needed in 10 or 20 years. And their reaction is entirely predictable: point out the obvious limitations of whatever new technology could threaten their livelihood.
 
 - When blogs first took hold, journalisms almost unanimously ridiculed them. Many journalists never could adapt, and many more lost their great working conditions. You can still sell good pictures to your local newspapers, but who is going to pay $5000 when any kid can snap a picture on his cell phone and broadcast it on Twitter within seconds? Of course, the quality is not the same. Of course, average bloggers can&rsquo;t replace true journalists.
-- Teachers are quick to point out the limitations of cheap online learning. I sometimes like to brag that I took a class with the [greatest geometer of the 20th century](https://en.wikipedia.org/wiki/Coxeter). Taking an online course with him would not have been the same. Watching him tear apart a student who asked about applications was frightening. You just can&rsquo;t simulate this on YouTube.
+- Teachers are quick to point out the limitations of cheap online learning. I sometimes like to brag that I took a class with the [greatest geometer of the 20th century](https://en.wikipedia.org/wiki/Coxeter). Taking an online course with him would not have been the same. Watching him tear apart a student who asked about applications was frightening. You just can&rsquo;t simulate this on YouTube. 
+
 
 Arguing with people who refuse to see their own doom can be fun, but tiring. They often simply cannot see it. Thankfully, [Simon Law](https://plus.google.com/+SFLLaw/about) pointed out an effective way to fight this cognitive bias. To know whether you will endure, look in the past, not in the future. Ask who you replaced before denying that someone could replace you.
 
@@ -30,6 +33,7 @@ Arguing with people who refuse to see their own doom can be fun, but tiring. The
 
 
 Maybe the greatest challenge we face as a species is that we need to get a lot better at imagining the future. Some people have wondered, for example, why I have been so critical of our response to global warming. But look at how people too often react: the Earth is warming, so let us create new taxes.
+
 How original! Can you imagine the admiral James T. Kirk: &ldquo;Spock, what shall we do, the Earth is warming!&rdquo;&hellip; Spock: &ldquo;Surely, we should try carbon taxes. Let us not do anything crazy involving computers or any technology beyond tax collection&hellip; that would be illogical&hellip;&rdquo;
 
 Given any problem today, if you suggest that we out-innovate it with technology, you are perceived as a dangerous man who think that we are bound by history to [push forward toward an undiscovered country](https://www.youtube.com/watch?v=1wmQeXuDGGU&#038;feature=player_detailpage#t=42s). Crazy talk!

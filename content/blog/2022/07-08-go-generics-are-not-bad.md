@@ -66,7 +66,6 @@ pc11:
 
 
 
-
 As far as Go is concerned, this is as efficient as it gets.
 
 So far, I am giving an A to Go generics.

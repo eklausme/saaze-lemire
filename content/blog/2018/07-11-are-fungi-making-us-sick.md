@@ -10,7 +10,9 @@ Fungi are everywhere. Yeasts, molds, mushrooms. We eat them. They live on our sk
 But are they making us sick?
 
 That&rsquo;s a theory strongly held by [Martin Laurence](https://scholar.google.ca/citations?user=3GlPS-QAAAAJ&#038;hl=en&#038;oi=ao). Martin created his own lab (Shipshaw labs) and even [wrote a book on the topic](http://www.psp94.com/psp94_20180630.pdf). He reports that [psoriasis and inflammatory bowel disease are both strongly associated with fungi](https://www.frontiersin.org/articles/10.3389/fmed.2018.00080/full).
+
 It appears that we all get fungal infections when we become sexually active. For men, this fungal infection could migrate to the prostate. What if you are never sexually active? [Catholic priests, who are maybe less likely to have been sexually active, have an exceptionally low rate of prostate cancer](https://www.ncbi.nlm.nih.gov/pubmed/7242091).
+
 If you fail to see how fungus could cause cancer, consider that cervical cancer in women is strongly related to a viral infection. That is, &ldquo;bugs&rdquo; can give you cancer.
 
 What is well known is that cancer patients suffer from fungal infections. However, the fungal infection is generally viewed as the consequence, not the cause of the cancer.

@@ -58,7 +58,6 @@ Here is the 128-bit code using Intel intrinsics:
 
 
 
-
 The 256-bit code is roughly the same, with one extra instruction to shuffle the bytes to compensate for the fact that 256-bit instructions work &lsquo;per lane&rsquo; (in units of 128-bit words). [My source code is available](https://github.com/lemire/Code-used-on-Daniel-Lemire-s-blog/blob/master/2022/12/23/base16.cpp).
 
 We might therefore expect the 256-bit to be maybe twice as fast? My results on an icelake processor with GCC11:

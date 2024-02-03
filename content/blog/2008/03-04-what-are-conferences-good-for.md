@@ -30,5 +30,6 @@ In short, I do not believe you should try to belong to the community defined by 
 
 
 Finally, some journals have a terrible review process, but I think that PÄƒtraÅŸcu is just misguided to think that &ldquo;journal acceptance is determined by one dude (the editor), who&rsquo;s not even anonymous, based on some inconclusive statement from another dude.&rdquo;
+
 __Note__. I have a cool tenured job. Maybe graduate students should follow PÄƒtraÅŸcu&rsquo;s advice. Myself, I do not plan to apply for another academic job in the near future.
 

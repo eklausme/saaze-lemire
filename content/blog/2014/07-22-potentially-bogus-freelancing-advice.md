@@ -6,6 +6,7 @@ title: "Potentially bogus freelancing advice"
 
 
 For nearly 20 years, I have been freelancing: selling my skills as a free agent. I do very little freelancing these days, but I still regularly give advice to students and colleagues. Is it wise? I let you be the judge: here are my favorite bits of wisdom.
+
 __There are bad and good clients.__
 
 In retail, the more clients you have, the better. The economics of freelancing are different. That is because you are selling finite resources (your time and your energy) and every transaction depletes your resources.
@@ -13,6 +14,7 @@ In retail, the more clients you have, the better. The economics of freelancing a
 A bad client might waste your talents and skills in a dead-end project. A bad client might use 80% of your energy and contribute less than 20% of your income. A bad client might drop you in favour of a cheaper alternative without thinking twice. A bad client might feel abusive, put you in a bad mood. (Being in a bad mood is bad for business on the long run.) A client might take your business in the wrong direction.
 
 As a freelancer, it is entirely reasonable to turn down work. It is often the strategic thing to do, even if you have nothing else lined up. Think about an actor offered the leading role in a major movie that is bound to be a failure.
+
 Ultimately, the great thing about being a freelancer is the freedom to turn down work. It is not only good business, but it is also what sets you apart from employees.
 
 __Everything is negotiable.__

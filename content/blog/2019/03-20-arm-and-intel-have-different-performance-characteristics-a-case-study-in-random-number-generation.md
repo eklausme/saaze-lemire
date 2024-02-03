@@ -9,7 +9,7 @@ title: "ARM and Intel have different performance characteristics: a case study i
 
 Let us review again wyhash:
 ```C
-uint64_t wyhash64_x; 
+uint64_t wyhash64_x;
 
 
 uint64_t wyhash64() {

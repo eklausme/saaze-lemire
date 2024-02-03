@@ -27,6 +27,7 @@ This is not just a theoretical concern. For example, my life is made slightly mi
 This is very common in Machine Learning and Artificial Intelligence. You see the textbook example and you think to yourself <q>wow! this is extraordinary!</q> But then, any long term, real-life exposure with the technique, and you realize how stupid it is. Sometimes it can remain useful (I wouldn&rsquo;t go without spam filters!), but it no longer fools you into thinking it is &ldquo;intelligent.&rdquo;
 
 Similarly, if you use a large collection of text to determine the semantics of a word or a phrase, or to study analogies, you might get decent results for a time, but when the conditions change, things might go to hell. The Semantic Web is similarly plagued: you can never demonstrate that you have an accurate representation, but you can hope to eventually falsify it.
+
 (This reminds me of the [No Free Lunch](https://en.wikipedia.org/wiki/No_free_lunch_theorem) theorems. The best solutions are always local and contextual. )
 
 I&rsquo;m sure that this is a very common objection to the Turing test or to Natural Language processing: there is no possible exhaustive testing. I think that the only remaining option is to limit the scope of these tests. That is, instead of using the somewhat ill-defined Turing test, you describe a very specific experiment, a very narrow one that can be reproduced exactly. The problem with this approach is that machines already pass such narrow tests.
@@ -44,6 +45,7 @@ Another objection might come from relating the problem to the physical sciences.
 All I know is that Newton&rsquo;s laws are useful. All I know is that my spam filters are useful. Going from &ldquo;this is a useful spam filter&rdquo; to &ldquo;this spam filter has human intelligence&rdquo; is a step I am not yet ready to make, even in principle. And why is that even a useful step to take? Even if we create machines that can pass the Turing test, will we know what intelligence is? It does not necessarily follow. People were able to create highly radioactive materials before they understood what it was. Will these machines be more useful that other machines? Would a machine that can pass 100,000 different Turing tests, necessarily be more useful that the machine that can only pass 99,000 Turing tests?
 
 This has very concrete consequences if you accept my ideas. Research in Computer Science should therefore be focused on making machines useful. Whether or not they can pass some specific Turing tests, even a large number, seems totally secondary to me. Bring me a machine that can filter my spam mail with human-like ability, and I will be happy. Don&rsquo;t bother me by trying to prove to me that this machine is actually &ldquo;intelligent.&rdquo; I do not see why this is a useful concept.
+
 Hence, Computer Science should focus on usefulness criteria and reject other criteria.
 
 (Yes, I am fishing for your objections.)
@@ -59,6 +61,7 @@ o.danceWithMe()<br/>
 </code>
 
 In this instance, any object o not having the attribute &ldquo;hasLegs&rdquo; will fail. But any object having the attribute &ldquo;hasLegs&rdquo; with value false whenever it gets passed to this function will also do (whether it has the danceWithMe method or not). You see how it can be complicated to determine if a given object can be used with function f. It is probably equivalent to the [halting problem](https://en.wikipedia.org/wiki/Halting_problem).
+
 It is not the same thing as [polymorphism](https://en.wikipedia.org/wiki/Polymorphism_%28computer_science%29) because it requires that there be no static typing: the interface does not have to be complete, only sufficiently complete to run through the parts of the code that apply.
 
 <a name="duck2">2</a>&#8211; As an aside, languages supporting duck typing are far more powerful than others in my opinion. Languages with static typing are based on the assumption that catching bugs earlier is better. They were largely influenced by the belief that we should prove our code to be correct. That is, that programming is like proving theorems. Except that they got it wrong. Designing algorithms is like proving theorems; programming is like sketching the plans of a building. Architects do not prove that their buildings are pretty and work. Architects design their buildings to be pretty and functional. There is a huge difference in spirit between proving and designing, but both are hard work.

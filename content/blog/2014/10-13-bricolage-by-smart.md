@@ -10,6 +10,7 @@ Scientific research is fundamentally about learning, about trial and error. Luck
 Research is usually greedy, in the sense of a greedy algorithm. At each point in time, you try to take the next best move, without knowing anything about the future. Maybe working on this new cloud computing algorithm will open the door to fame and fortune. Maybe you will meet a brilliant student next week who has great ideas on how to advance the field. Or maybe it is a dead end, maybe the problem has already been solved by a famous California professor last year. Typically, you do not know.
 
 If you work hard and you are extremely clever, you might be able to make better guesses. But very, very few researchers can foresee the future 5 or 10 years ahead. Even Einstein got stuck in dead ends.
+
 [Fernando Pereira](https://research.google.com/pubs/author1092.html) is a leading computer scientist and an ACM Fellow who works at Google. He describes his view of research in similar terms:
 
 > Most successful projects I know, and certainly all that I have been involved in (&hellip;) started bottom-up, with zero to minor management involvement, and grew through repeated successful interactions with their environment. Pretty much like all the successful projects I&rsquo;ve been involved in both in academia and industry.

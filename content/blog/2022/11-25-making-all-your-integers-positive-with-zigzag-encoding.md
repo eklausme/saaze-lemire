@@ -86,7 +86,6 @@ def zigzag_decode(val) :
 
 
 
-
 The same code in C/C++ might work, but it could be more efficient to use optimized code which assumes that the underlying hardware represents signed integers with [two&rsquo;s complement encoding](https://en.wikipedia.org/wiki/Two%27s_complement) (which is a safe assumption in 2022 and a requirement in C++20) and that bytes span 8 bits (another safe assumption)&hellip;
 ```C
 int fast_decode(unsigned int x) {
@@ -97,7 +96,6 @@ unsigned int fast_encode(int x) {
     return (2*x) ^ (x >>(sizeof(int) * 8 - 1));
 }
 ```
-
 
 
 

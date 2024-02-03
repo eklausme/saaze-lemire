@@ -12,6 +12,7 @@ title: "Science and Technology links (April 13th, 2018)"
 
 
 That is, if you receive musical training, you may get better at playing an instrument. However, this will not make you better at programming in Java.
+
 [Time spent in school does not significantly improves students&rsquo; cognitive skills](https://www.sciencedirect.com/science/article/abs/pii/S0927537116302287). However, smarter people spend more time in school.
 
 This failure to increase overall cognitive skills destroys one of the main premise of schooling. It also means that if you have kids, you should not push them into classes in the hope of making them smarter.
@@ -32,9 +33,11 @@ Of course, you can make yourself smarter. Just buy a computer.
 It is unknown whether caloric restriction has the same effect on human beings. For the record, I do not practice caloric restriction. I eat all the time. I am, however, quite thin and small.
 1. Unsurprisingly, [late-life depression is associated with an increased risk for all-cause dementia, vascular dementia and Alzheimer&rsquo;s disease](https://www.cambridge.org/core/journals/the-british-journal-of-psychiatry/article/latelife-depression-and-risk-of-vascular-dementia-and-alzheimers-disease-systematic-review-and-metaanalysis-of-communitybased-cohort-studies/8944E89B957CC6BF6499A5A750614442). This is yet more evidence that we need to take depression seriously. It is not normal to be depressed beyond a certain point.
 1. [Kell and Pretorius have published a speculative article where they suggest that many diseases of old age (Alzheimer&rsquo;s, Parkinson&rsquo;s, atherosclerosis, arthritis) could be due to dormant microbes that &ldquo;wake up&rdquo; later in life](https://onlinelibrary.wiley.com/doi/full/10.1111/brv.12407), in part due to iron dysregulation. This is not a new theory, but this paper is well written and under open access.
+
 If you like this theory, you might like Mangan&rsquo;s book: [Dumping Iron](https://www.amazon.com/Dumping-Iron-Secret-Killer-Reclaim-ebook/dp/B01CIZMFXO). He believes that many of us have too much iron in our bodies. There are two main ways to reduce your iron store: chelation therapy (using drugs) or bleeding out.
 
 It seems probably that iron dysregulation is real. Sadly, there is weak evidence that you can prevent it. [The risk of Parkinson&rsquo;s disease was higher among men who reported recent multiple blood donations](https://onlinelibrary.wiley.com/doi/full/10.1002/mds.20826) and [total iron intake was not associated with an increased risk of Parkinson&rsquo;s disease](https://academic.oup.com/aje/article/168/12/1381/155686).
+
 The trouble is that iron can take many forms and can go to different places in your body.
 
 

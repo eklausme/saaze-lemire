@@ -19,6 +19,7 @@ Ok but organic food is better for the environment, right? Maybe not because [org
 > Furthermore, higher on-farm acidification potential and global warming potential per kilogram organic milk implies that higher ammonia, methane, and nitrous oxide emissions occur on farm per kilogram organic milk than for conventional milk. Total acidification potential and global warming potential per kilogram milk did not differ between the selected conventional and organic farms.
 
 A company called Warby Parker has [a mobile app](https://itunes.apple.com/us/app/prescription-check/id1209102842?mt=8) you can use to sidestep entirely optometrists and opticians in some cases. The main point seem to be that [a lot of what opticians do can be computerized easily](https://ca.warbyparker.com/pd/instructions) and that it is not hard to check your prescription.
+
 [Omega-3 fats rejuvenate the muscles of old people](http://www.aging-us.com/article/101210):
 
 > Omega-3 polyunsaturated fatty acids reduce mitochondrial oxidant emissions, increase postabsorptive muscle protein synthesis, and enhance anabolic responses to exercise in older adults.

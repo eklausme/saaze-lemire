@@ -10,6 +10,7 @@ When programming in C, we allocate memory dynamically using the `malloc` functio
 In general, unless you are keeping track of it yourself, you cannot recover the number of bytes you wanted to allocate. That&rsquo;s because the `malloc` function can allocate more memory than you request. For example, if you call <tt>malloc(1)</tt>, you should not assume that only one byte was allocated.
 
 However, you can ask the system to report the number of allocated bytes. It will always be at least as much as you requested but could be more (possibly a lot more). Under macOS, you call `malloc_size` and under Linux you call <tt>malloc_usable_size</tt>.
+
 I have never seen these functions actually used in the wild. But they could possibly be useful. For example, if you allocate memory for a string buffer, why would you painfully keep track of how much memory you wanted when you can simply request the potentially more useful allocated number of allocated bytes?
 
 At a minimum, these functions could help with debugging: you could easily check dynamically that you have enough memory allocated throughout the life of your problem.

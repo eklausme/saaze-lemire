@@ -21,6 +21,7 @@ Once you adopt this (admittedly simplistic) point of view, a few things about ou
 
 
 This view of the world defines how I view others and my own job:
+
 - We used to spend a great deal of time teaching using a standardized format. What I wish I could ask to young people today is: Can you learn something like Calculus very cheaply and very quickly if you need to? What would you do if you needed to learn calculus, do you know?
 - So, you are are unemployed or underemployed? You aren&rsquo;t very rich? I don&rsquo;t care about any of this. However, have you ever created something new and interesting? There is a counterpart to this: if you are rich and hold a prestigious position, but you are just sitting on top of an industrial machine, then I don&rsquo;t care about you. You are not interesting.
 

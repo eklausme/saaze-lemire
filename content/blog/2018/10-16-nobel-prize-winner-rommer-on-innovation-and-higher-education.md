@@ -25,5 +25,6 @@ I am not exactly sure why all student unions are not pushing his ideas to govern
 I love universities. I have spent almost all my life in them. But, like Romer, I fear that there is a bit too much stagnation. There is insufficient pressure to innovate and too many incentives favouring excess conservatism. Giving back power, not to younger professors, but to actual students, is probably a wise move.
 
 Yet I am somewhat skeptical of Romer&rsquo;s overall view that increasing the supply of engineers is key. Great many students trained in engineering do nothing even vaguely resembling R&#038;D, and when they do, they do not do it for long. Simply put, graduates go where jobs and money is. It is not the case that we live in a Spiderman world where smart engineering students graduate to go work in an industrial lab developing new robotics.
+
 We need to make the spiderman world possible: make it so that young engineers can start a small company building prototypical exoskeletons for the weaker people to walk again. Do that, and you won&rsquo;t have a shortage of young new engineers for long.
 

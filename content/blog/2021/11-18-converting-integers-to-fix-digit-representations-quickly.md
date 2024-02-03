@@ -23,7 +23,6 @@ void to_string_backlinear(uint64_t x, char *out) {
 
 
 
-
 It is somewhat strange to write the characters backward, starting from the less significant digit. You can try to go forward, but it is a bit trickier. Here is one ugly approach that is probably not efficient:
 ```C
 void to_string_linear(uint64_t x, char *out) {
@@ -66,7 +65,7 @@ Instead we could try to do it in a tree-like manner to reduce data dependency du
 ```C
 void to_string_tree(uint64_t x, char *out) {
   uint64_t top = x / 100000000;
-  uint64_t bottom = x % 100000000;      
+  uint64_t bottom = x % 100000000;
   uint64_t toptop = top / 10000;
   uint64_t topbottom = top % 10000;
   uint64_t bottomtop = bottom / 10000;
@@ -171,7 +170,6 @@ void to_string_tree_bigtable(uint64_t x, char *out) {
 
 
 
-
 An intermediate solution with a 3-character table would only require a 3kB table. [I also consider Muła&rsquo;s SIMD-based approach though I refer you to his article for details](http://www.0x80.pl/articles/sse-itoa.html). Effectively Muła use fancy Intel-specific instructions to get the job done.
 
 If you cannot use SIMD instructions, you can use something similar called SWAR. Effectively, you pack several integer values inside a wide integer (64 bits) and you try to somehow save instructions. Luckily, Khuong has a solution for us:
@@ -202,7 +200,6 @@ void to_string_khuong(uint64_t x, char *out) {
   memcpy(out + 8, &second, sizeof(second));
 }
 ```
-
 
 
 

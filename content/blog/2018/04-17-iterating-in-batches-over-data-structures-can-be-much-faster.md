@@ -26,6 +26,7 @@ for blockofvalues datastructure {
 It is not automatically faster: you have to store values to a buffer and then read them again. It involves copying data from registers to memory and back. There is some inherent latency and it is an extra step.
 
 However, if you make your buffer large enough but not too large (e.g., 1kB), the latency will not matter much and you will remain in CPU cache (fast memory). Thus you should, in the worst case, be only slightly slower. What do I mean by &ldquo;slightly&rdquo;? Basically, you are adding the equivalent of a memory copy over a small buffer.
+
 When accessing data over a network, or even across processes on the same machine, it worth it to process the data in batches because the cost of the transaction is high. When working in data structures that are in your own process, the transaction cost might be low. Repeated function calls in a loop are cheap, and they can become free after inlining. To my knowledge, batched iterations is not typically available in standard libraries.
 
 Thus, until recently, I did not pay much attention to the idea of iterating in batches over data structures. I could imagine some gains, but I expected them to be small.
@@ -57,7 +58,7 @@ Then I modified the [cbitset library](https://github.com/lemire/cbitset). I saw,
 ```C
 size_t buffer[256];
 size_t howmany = 0;
-for(size_t startfrom = 0; 
+for(size_t startfrom = 0;
          (howmany = nextSetBits(b1,buffer,256, &startfrom)) > 0 ;
           startfrom++) {
        for(size_t i = 0; i < howmany ; i++) {

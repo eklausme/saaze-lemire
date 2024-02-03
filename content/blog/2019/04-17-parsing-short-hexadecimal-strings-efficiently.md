@@ -8,7 +8,9 @@ title: "Parsing short hexadecimal strings efficiently"
 It is common to represent binary data or numbers using the hexadecimal notation. Effectively, we use a base-16 representation where the first 10 digits are 0, 1, 2, 3, 5, 6, 7, 8, 9 and where the following digits are A, B, C, D, E, F, with the added complexity that we can use either lower or upper case (A or a).
 
 We sometimes want to convert strings of hexadecimal characters into a numerical value. For simplicity, let us assume that we have sequences of four character. This is a common use case due to [unicode escape sequences](https://en.wikipedia.org/wiki/Escape_sequences_in_C#endnote_Note4) in C, JavaScript, C# and so forth.
+
 Each character is represented as a byte value using its corresponding ASCII code point. So &lsquo;0&rsquo; becomes 48, &lsquo;1&rsquo; is 49, &lsquo;A&rsquo; is 65 and so forth.
+
 The most efficient approach I have found is to simply rely on memoization. Build a 256-byte array where 48 (or &lsquo;0&rsquo;) is mapped to 0, 65 (or &lsquo;A&rsquo;) is mapped to 10 and so forth. As an extra feature, map all disallowed values to -1 so we can detect them. Then just lookup the four values and combine them.
 ```C
 uint32_t hex_to_u32_lookup(const uint8_t *src) {

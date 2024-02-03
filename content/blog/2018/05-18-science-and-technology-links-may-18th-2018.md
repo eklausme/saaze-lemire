@@ -26,6 +26,7 @@ That&rsquo;s a problem in my opinion. You might think that by pushing aside data
 
 The Earth is definitively getting warmer, at a rate of about 0.15 degrees per decade. You best bet is to report the facts:<br/>
 <img decoding="async" src="https://data.giss.nasa.gov/gistemp/graphs/graph_data/Monthly_Mean_Global_Surface_Temperature/graph.png" width="70%" />
-1. [Low-carbohydrate, high-fat diets might prevent cancer progression](https://www.ncbi.nlm.nih.gov/pubmed/29443873).1. [Participating in the recommended 150 minutes of moderate to vigorous activity each week, such as brisk walking or biking, in middle age may be enough to reduce your heart failure risk by 31 percent](https://www.hopkinsmedicine.org/news/media/releases/six_years_of_exercise____or_lack_of_it____may_be_enough_to_change_heart_failure_risk). (There is no strong evidence currently that people who exercise live longer. It does seem that they are more fit, however.)
+1. [Low-carbohydrate, high-fat diets might prevent cancer progression](https://www.ncbi.nlm.nih.gov/pubmed/29443873). 
+1. [Participating in the recommended 150 minutes of moderate to vigorous activity each week, such as brisk walking or biking, in middle age may be enough to reduce your heart failure risk by 31 percent](https://www.hopkinsmedicine.org/news/media/releases/six_years_of_exercise____or_lack_of_it____may_be_enough_to_change_heart_failure_risk). (There is no strong evidence currently that people who exercise live longer. It does seem that they are more fit, however.)
 
 

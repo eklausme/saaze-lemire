@@ -13,10 +13,12 @@ So far, it has some benefits:
 
 - It helps me stay focused. Unless a new project fits in my plan, I discard it.
 - It is easier to be ambitious with a roadmap over several years.
-- (To be verified) On the long run, this routine should make grant applications easier and more fruitful.
+- (To be verified) On the long run, this routine should make grant applications easier and more fruitful. 
+
 
 Some Ph.D. students have to submit such research plan, but do they keep them up-to-date? What about more mature researchers?
 
 My guess is that few researchers (outside [Big Science](https://en.wikipedia.org/wiki/Big_Science)) have up-to-date roadmaps. Let us face it: planning is hard, boring, and often useless.
 
 If you are a researcher, do you have a plan?
+

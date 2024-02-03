@@ -77,7 +77,6 @@ std::cout << PI<float> << std::endl;
 
 
 
-
 There is plenty more to explore in [Băncilă&rsquo;s book](https://www.amazon.com/Template-Metaprogramming-everything-templates-metaprogramming-ebook/dp/B09ZHZFTKV).
 
 [I posted some code examples on GitHub](https://github.com/lemire/Code-used-on-Daniel-Lemire-s-blog/tree/master/2022/10/26).

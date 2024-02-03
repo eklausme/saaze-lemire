@@ -16,6 +16,7 @@ uint32_t access(uint32_t * array, size_t n, size_t index) {
 
 
 However, if the compiler cannot inline this call and determine the value of n, then this code is likely to compile to a division instruction. Division instructions are among the slowest instructions on modern-day processors.
+
 To avoid division, many people assume that n is a power of two. Then they use the mask trick: i &amp; (n-1) = i % n.
 ```C
 uint32_t access(uint32_t * array, size_t n, size_t index) {
@@ -53,7 +54,7 @@ In effect, it may not be warranted to force your array lengths to be a power of 
 
 Relying on the compiler to do some vectorization magic is fine in most instances, but what if you want more control? My original code looks like this&hellip;
 ```C
-uint32_t fastsum(uint32_t * z, uint32_t N, uint32_t * accesses, 
+uint32_t fastsum(uint32_t * z, uint32_t N, uint32_t * accesses,
    uint32_t nmbr) {
   uint32_t sum = 0;
   uint64_t N64 = (uint64_t) N;
@@ -67,7 +68,7 @@ uint32_t fastsum(uint32_t * z, uint32_t N, uint32_t * accesses,
 
 Here is a version with Intel intrinsics:
 ```C
-uint32_t vectorsum(uint32_t * z, uint32_t N, uint32_t * accesses, 
+uint32_t vectorsum(uint32_t * z, uint32_t N, uint32_t * accesses,
      uint32_t nmbr) {
   __m256i Nvec = _mm256_set1_epi32(N);
   __m128i sum = _mm_setzero_si128();

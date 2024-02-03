@@ -14,6 +14,7 @@ title: "Science and Technology links (May 5th, 2017)"
 The American government funds medical research through the Share on facebook National Institutes of Health (NIH). Funding agencies tend to fund a few people very well, while most researchers struggle for funding. That&rsquo;s a problem because science benefits when diverse avenues are explored. Meanwhile, throwing more money at an already rich laboratory does not improve outputs. [By introducing a cap whereas no research can receive more than three times the funding of a regular research, they will be able to award 1600 new grants](http://www.sciencemag.org/news/2017/05/nih-impose-grant-cap-free-funds-more-investigators). Though the NIH did not comment on age, it is very likely that this is a generational transfer, the new grants will be handed out to younger researchers and the cap will tend to affect older researchers.
 
 [Google is accurately reading street names and business names from store fronts](https://research.googleblog.com/2017/05/updating-google-maps-with-deep-learning.html).
+
 > Applying these large models across our more than 80 billion Street View images requires a lot of computing power.
 
 

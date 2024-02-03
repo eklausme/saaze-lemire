@@ -24,6 +24,7 @@ McGowan writes:
 
 
 McGowan provided little support for this assertion. I went looking and found nothing in the last 10 years. In fact, I ended up reading several articles warning students against graduate work&hellip;
+
 I am left with something of a mystery&hellip; why are we producing more and more PhD students?
 
 My thoughts:

@@ -17,6 +17,7 @@ However, there are several critical problems with a tool like Excel that need to
 
 
 Unfortunately, spreadsheet programming is far more common in research than we would like to admit. I keep reviewing research manuscripts where the figures were obviously made with Excel. It is also very widespread in business: decisions worth millions (if not billions) of dollars are taken on the basis of a spreadsheet all the time.
+
 Professionals should avoid spreadsheets for activities where mistakes matter. Reinhart and Rogoff should have used a bona fide programming language with proper testing, code review and documentation.
 
 __Further reading__: [Lotus Improv](https://en.wikipedia.org/wiki/Lotus_Improv) was an early attempt to build a spreadsheet tool that did not have some of these problems. It was a market failure. (Credit: Preston L. Bannister)

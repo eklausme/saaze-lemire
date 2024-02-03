@@ -23,6 +23,7 @@ These documents need to be generated and parsed on a large scale. Thankfully, we
 In a recent paper by Microsoft ([Mison: A Fast JSON Parser for Data Analytics](http://www.vldb.org/pvldb/vol10/p1118-li.pdf)), the researchers report parsing JSON document at 0.1 or 0.2 GB/s with common libraries such as RapidJSON. It is hard to tell the exact number as you need to read a tiny plot, but I have the right ballpark. They use a 3.5 GHz processor, so that&rsquo;s 8 to 16 cycles per input byte of data.
 
 Does it make sense?
+
 I don&rsquo;t have much experience processing lots of JSON, but I can use a library. [RapidJSON](http://rapidjson.org) is handy enough. If you have a JSON document in a memory buffer, all you need are a few lines:
 ```C
 rapidjson::Document d;
@@ -33,6 +34,7 @@ if(! d.ParseInsitu(buffer).HasParseError()) {
 
 
 This &ldquo;ParseInsitu&rdquo; approach modifies the input buffer (for faster handling of the strings), but is fastest. If you have a buffer that you do not want to modify, you can call &ldquo;Parse&rdquo; instead.
+
 To run an example, I am parsing one sizeable &ldquo;twitter.json&rdquo; test document. I am using a Linux server with a Skylake processor. I parse the document 10 times and check that the minimum and the average timings are close.
 
 ParseInsitu              |Parse                    |

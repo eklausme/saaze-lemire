@@ -29,12 +29,17 @@ In a wealthy society, envy can quickly become the driving force. It is not about
 What is the alternative? Carse examines at length what he calls infinite games. You know that you are playing an infinite game when&hellip;.
 
 - You are never playing against other people, against other teams. You are playing with others.
-- Rules can be reinvented&hellip;- The game may never end&hellip;- Players have no compelling reason to be envious of each other&hellip;
+- Rules can be reinvented&hellip; 
+- The game may never end&hellip; 
+- Players have no compelling reason to be envious of each other&hellip; 
+
 
 You cannot force others to play your finite games. Matt Welsh decided to drop out of the academic fame game. He had the tenured professorship at Harvard but he decided to play other games, elsewhere.
+
 The same is true of money&hellip; you can buy a BMW and a big house to create envy in others&hellip; but these people can decide at any time that they are not players in this game. They may choose not to pursue the acquisition of luxury goods, and not to be envious of you.
 
 I think that it is time that we pay less attention to people who take finite games seriously. I believe that it is the irony of a book like Piketty&rsquo;s. You are most likely to be upset by financial inequalities if you take finite games seriously. So who is Piketty? He earned his PhD from the London School of Economics when he was 22. He went on to become a professor at MIT, and he ended up creating and leading his own prestigious school in Paris. If anyone takes finite games seriously, it is Piketty. The intellectual leader of Occupy Wall-Street, David Graeber, is similarly a competitive over-achiever&hellip; a professor at Yale University and now a professor at the London School of Economics. These are people who would not have taken &ldquo;regular jobs&rdquo;.
+
 I believe that if there is one thing humanity needs to do to get through the next few centuries, is to reject envy and stop taking finite games seriously. It also happens to be a recipe to be happier on an individual basis. Take the regular jobs. Avoid conspicuous consumption. Be ok with just being a dad to your kids, as opposed to a famous star. Be ok if your kids grow up to be just regular happy folks that never win anything.
 
 Next time you feel envious, please pay attention. And choose your games carefully.

@@ -70,8 +70,9 @@ while (<>) {
 	s/^<blockquote>\s*/\n> /;
 	s/<\/blockquote>$/\n/;
 	s/^<p>/\n/;
-	s/<\/p>$//;
+	s/\s*<\/p>$//;
 
+	s/\x0d//g;
 	s/&#8230;/&hellip;/g;
 	s/&#8216;/&lsquo;/g;
 	s/&#8217;/&rsquo;/g;
@@ -136,6 +137,8 @@ while (<>) {
 		s/&lt;/</g;
 		s/&gt;/>/g;
 		s/&amp;/&/g;
+	} else {
+		s/ +\n$//;	# rtrim space
 	}
 
 	if ($topBlog && /<\/article>/
@@ -204,7 +207,6 @@ while (<>) {
 	next if (/<tbody>/);
 	next if (/<\/(tr|tbody)>/);
 
-	s/ +\n$//;	# rtrim space
 	print F $_;
 }
 

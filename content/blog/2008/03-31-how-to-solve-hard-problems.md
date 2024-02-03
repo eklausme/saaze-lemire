@@ -6,6 +6,7 @@ title: "How to solve hard problems"
 
 
 Some people start out in life able to solve hard problems. Others cannot seem to do it. I believe that [intelligence is not innate](http://www.daniel-lemire.com/blog/archives/2007/12/03/thinking-intelligence-is-innate-makes-you-stupid/), but few people know how to work on hard problems. Some may learn by luck, or by observing smart people.
+
 Here are a few things I was able to learn over the years:
 
 - Use your intuition, but keep it in check. Hard problems often require that you question every single assumption.

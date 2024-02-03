@@ -17,3 +17,4 @@ This is why, a lot of <em>eminent professors</em> have what we called, when I wa
 (And no, becoming a big shot doesn&rsquo;t imply you can&rsquo;t build anything because you are out of time. Tim Berners-Lee still writes code. Paul Graham writes his own essays. Scott Adams draws his own cartoons.)
 
 This is also why, when you see someone you know succeeding, you may think to yourself that such a person is a fraud. &ldquo;I&rsquo;m much smarter than he is, so he must be cheating his way to the top.&rdquo; You might be smarter, but if you aren&rsquo;t as desperate, as dedicated, forget it.
+

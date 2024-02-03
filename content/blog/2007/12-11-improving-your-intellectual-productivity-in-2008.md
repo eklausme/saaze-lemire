@@ -6,6 +6,7 @@ title: "Improving your intellectual productivity by accepting chaos"
 
 
 One thing I did in 2007 was to [ditch my PDA](/lemire/blog/2007/08/19/finally-giving-up-on-pdas/). Instead, I carry a [pocket notebook](/lemire/blog/2007/08/24/where-to-order-cool-pocket-notebooks-in-canada/). Almost daily, the best ideas I have jotted down, get organized in document drafts. You must clearly differentiate data and thought gathering from data and thought organization.
+
 Organization             |Purpose                  |Entry                    |Retrieval                |Type of support          |
 -------------------------|-------------------------|-------------------------|-------------------------|-------------------------|
 None (chaos)             |Gathering                |Fast                     |Recent past              |Paper, email, wiki       |

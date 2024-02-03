@@ -6,7 +6,9 @@ title: "Given up on Eclipse, now with NetBeans"
 
 
 I write most of my code using [vim](https://en.wikipedia.org/wiki/Vim_(text_editor)). This winter, Kamel made me discover [Eclipse](http://www.eclipse.org/ ).
+
 I dislike IDEs in general because they have a tendency to force me to work in certain ways that are suboptimal. For example, if I need to remember to go to menu X and set option Y to build my project correctly, then that is simply not portable. Everytime I will go to a new machine, I will need to remember these precise steps. Moreover, if I cannot build my code without a GUI, then I cannot test my code on a remote machine under low bandwidth conditions. Finally, IDEs tend to do several operations _silently_ and when things go wrong, you have layers and layers of abstraction before you can correct the problem.
+
 However, Eclipse allowed me to import my project using subversion and use my very own Makefile! What a great idea. And it worked too!
 
 Up until two days ago. For some reason, Eclipse stopped building my code. Hitting the &ldquo;build&rdquo; button simply does nothing. I never changed anything in the settings, but playing with the options did not help. I have no way of knowing what went wrong and after hours spent on the Web chasing the problem, I gave up.

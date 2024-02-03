@@ -25,7 +25,7 @@ uint64_t interleave_uint32_with_zeros(uint32_t input)  {
 
 Given this function, you can interleave in the following manner:
 ```C
-interleave_uint32_with_zeros(x) 
+interleave_uint32_with_zeros(x)
   | (interleave_uint32_with_zeros(y) << 1);
 ```
 
@@ -35,13 +35,14 @@ I believe that this is the standard approach. It seems efficient enough.
 Can you go faster? You might. On recent x64 processors, there are bit manipulation instructions ideally suited to the problem (<tt>pdep</tt> and <tt>pext</tt>). The interleaving code looks like this:
 ```C
 uint64_t interleave_pdep(uint32_2 input)  {
-    return _pdep_u64(input.x, 0x5555555555555555) 
+    return _pdep_u64(input.x, 0x5555555555555555)
      | _pdep_u64(input.y,0xaaaaaaaaaaaaaaaa);
 }
 ```
 
 
 The decoding is similar but uses the `pext` instruction instead.
+
 Suppose that you have a bunch of data points, is it worth it to use the fancy x64 instructions?
 
 Let us record how many cycles are needed to interleave a pair of 32-bit values:
@@ -56,6 +57,7 @@ So, roughly speaking, using specialized instructions doubles the speed. In some 
 The `pdep` function is probably optimal in the sense that `pdep` has a throughput of one instruction per cycle, and I need two `pdep` instructions to interleave a pair of values.
 
 Deinterleaving takes about as long when using my implementation and the clang compiler. The GCC compiler seems to hate my deinterleaving code and produces very slow binaries.
+
 [My source code is available](https://github.com/lemire/Code-used-on-Daniel-Lemire-s-blog/tree/master/2018/01/08).
 
 Is this the best we can do? I suspect not. My guess is that with more careful engineering, we can go down to 1 cycle per interleave.

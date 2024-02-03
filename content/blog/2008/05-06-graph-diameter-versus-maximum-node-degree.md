@@ -12,6 +12,7 @@ The diameter of a graph is the longest distance between any two nodes. The degre
 Intuitively, the higher the node degrees, the denser the graph. If you have _n_ nodes and the maximal degree of the nodes is <em>n</em>-1, then the graph diameter is 1. If you have lesser maximal degrees, then you can get an infinite diameter by producing a disconnected graph.
 
 An interesting question (to me) is:
+
 > Given a maximal node degree, and a number of nodes <em>n</em>, what is the smallest possible diameter?
 
 

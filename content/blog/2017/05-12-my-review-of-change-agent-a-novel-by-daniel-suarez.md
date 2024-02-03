@@ -8,6 +8,7 @@ title: "My review of Change Agent: A Novel (by Daniel Suarez)"
 [Change Agent is a sci-fi novel still hot from the presses](https://www.amazon.com/gp/product/B01J2SU2YO/). It set in our near future (2049).
 
 The genre has been captured by writers who love dystopian futures. Suarez can&rsquo;t quite distance himself from this trend. We are in for massive climate changes and millions of climate refugees. We have gene therapies that are owned and operated by organized crime, complete with children being experimented and discarded. It is not a pleasant world.
+
 However, there was enough in this novel to keep me interested. Some interesting bits:
 
 - The novel is clearly inspired by George Church work. In particular, Church&rsquo;s book [Regenesis](https://www.amazon.com/Regenesis-Synthetic-Biology-Reinvent-Ourselves/dp/0465075703/) is cited. The general thesis is that genetic engineering will soon supplant computers and electronics.

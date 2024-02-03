@@ -16,7 +16,9 @@ The article provides no data to back up these &ldquo;declines&rdquo;. So let us 
 So it is not clear what Binstock meant when he wrote that by all measures, C++ declined.
 
 Finally, the article cites the [Tiobe index](http://www.tiobe.com/index.php/content/paperinfo/tpci/index.html). That is the only source that does show a decline. Java went from 24% to 17% in the last 5 years whereas C++ went from 15% to about 7%. But let us put this &ldquo;decline&rdquo; in perspective. Java is still within 1% of being the most popular language according to Tiobe while C++ is still in fourth place. What is more striking is that Objective C went from 0% to over 10% in a few short years (because of its use on Apple iOS).
+
 But Binford points us to 2013. During that year, C++ went from 9.1% to 7.5%. A significant drop, to be sure. However, a much more significant story is that Python went from 4.2% to 2.4%. Maybe these wild variations should lead to us to question the Tiobe index over short periods of time?
+
 If Android were to drop Java as the default language, we might be able to talk about an actual decline in Java use. However, Google did the opposite of dropping Java: [they just upgraded their support for Java](https://en.wikipedia.org/wiki/Dalvik_(software)#Android.27s_ART_virtual_machine). Java is clearly in good shape.
 
 I don&rsquo;t know what the near future hold for C++. We did get a very strong upgrade that was quickly adopted by all vendors (C++11). However, C++ remains a very difficult language to master. It is not for everyone.

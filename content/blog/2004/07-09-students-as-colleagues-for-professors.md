@@ -22,5 +22,6 @@ This has very concrete consequences in universities:
 
 
 I couldn&rsquo;t agree more. Students do not depend on their professors the same way they use to. Professors won&rsquo;t be able to hold their status as gatekeepers for very long now. Not when anyone in the planet can quickly become an expert in almost any field just by reading up on the Internet.
+
 I think university professors will remain marketing tools. First, they will serve to sell training, which they have always done anyhow, and second, they will be used to authentify knowledge which will become an increasingly important task. Students won&rsquo;t look so much for knowledge but for recognition and professors who can bring student some recognition which will be in high demand.
 

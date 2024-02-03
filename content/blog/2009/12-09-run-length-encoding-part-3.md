@@ -42,6 +42,7 @@ Patricia                 |Tucker                   |
 
 
 __Further reading__:
+
 Daniel Lemire and Owen Kaser, [ Reordering Columns for Smaller Indexes](http://arxiv.org/abs/0909.1346), Information Sciences 181 (12), 2011.
 
 Daniel Lemire, Owen Kaser, Eduardo Gutarra, [Reordering Rows for Better Compression: Beyond the Lexicographic Order](http://arxiv.org/abs/1207.2189), ACM Transactions on Database Systems 37 (3), 2012.

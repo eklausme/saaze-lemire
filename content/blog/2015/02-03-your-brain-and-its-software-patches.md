@@ -22,6 +22,7 @@ The great thing about software is that it is portable: once you have designed an
 So, as a computer scientist, I am biased to think that any two individuals with healthy brains facing a new problem differ mostly by how fast they can learn cognitive tasks. If one person can learn something, another should too.
 
 How people differ most in a typical setup is by their software. The smart individuals have a lot of clever software running in their head.
+
 It is easy to say that only a select few can be physicists or song writers. After all, only a few people can do it, isn&rsquo;t it proof that their brain must be somehow fundamentally different?
 
 If we go back in time, few people could read and write. Even kings were illiterate. It would have been insane to expect, back then, that everyone could know how to read and write one day. Most people simply did not have the brains to read and write. Skills that we take for granted today, like reading without speaking out the words, were reserved for prodigies.

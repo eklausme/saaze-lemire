@@ -10,3 +10,4 @@ Many real-life data sets have power laws or Zipfian distributions. An integer-va
 I relate this problem to the sum of exponentials. Any engineer knows that if <em>a</em>><em>b</em>, then <em>e</em><sup><em>a</em><em>t</em></sup>&nbsp;+&nbsp;<em>e</em><sup><em>b</em><em>t</em></sup> will be approximately <em>e</em><sup><em>a</em><em>t</em></sup> for _t_ sufficiently large. Hence, the sum of power law distributions _X_ and _Y_ is a power law distribution with parameter min(<em>a</em>,&nbsp;<em>b</em>) if you are only interested in large values of k in <em>P</em>(<em>X</em>&nbsp;+&nbsp;<em>Y</em>&nbsp;=&nbsp;<em>k</em>).
 
 However, the sum of two power laws is not a power law. Egghe showed in [The distribution of N-grams](https://link.springer.com/article/10.1023/A:1005634925734) that even if the words follow a power law, the n-grams won&rsquo;t!
+

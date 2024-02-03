@@ -12,7 +12,9 @@ Amazon.com, a silly web site, has recently surpassed in value the largest privat
 An accelerating progress means that we have to adapt faster and faster. The pressure felt by individuals and organizations can be tremendous because plans fall apart along with the rushing technological progress.
 
 Scott Gottlieb is a physician and held a prestigious position at the [FDA](https://en.wikipedia.org/wiki/Food_and_Drug_Administration). [He observes](http://www.forbes.com/sites/scottgottlieb/2015/06/17/the-quickening-pace-of-medical-progress-and-its-discontents/) that much of the same is happening in medicine.
+
 For example, one of the big step forward in medicine was the germ theory, finally established by Pasteur (1860). This greatly improved life expectancy and saved countless lives&hellip; but the time from the first theories to the application was enormous&hellip; Eventually, we got penicillin (1928).
+
 You could safely go a lifetime without major progress in medicine.
 
 Back when I was a kid, organ transplants where viewed critically. I remember one family member pointing that we should let these poor folks die instead of creating unnecessary suffering. Today, kidney transplants are common place. Many transplant recipients enjoy normal lifespans.
@@ -43,6 +45,7 @@ Some public health officials debate whether it would even have been ethical to s
 
 
 Here is what Naomi Shavin [wrote even more recently](http://www.newrepublic.com/article/120737/ebola-vaccine-trials-do-less-strengthening-medical-systems):
+
 > The companies and other individual and government investors have poured over $300 million into the race for a vaccine, and the high-stakes competition has elicited ample media coverage. But all of the buzz aroundâ€”and the money being invested inâ€”finding an Ebola vaccine is distracting us from an urgently needed medical innovation that&rsquo;s proven highly effective against a range of diseases, and is much easier to achieve: basic, around-the-clock nursing care.
 
 
@@ -52,9 +55,11 @@ $300 million, and we have a vaccine that will probably contribute greatly to era
 Here is what human beings like to do:
 
 - We have this crippling condition. We have been researching a solution for quite some time and we have made no progress. Surely, this means we will probably never make any worthwhile progress.
-- Let us organize good care and do the best we can using existing technology. Maybe we will lose 10% or 50% or 100% of the patients, but that is all we can do.- Look at these crazy people who hope to find a &ldquo;cure&rdquo;. What a waste. Even if they find a cure, it is going to be tremendously expensive. And they won&rsquo;t find a cure. Not in my lifetime.
+- Let us organize good care and do the best we can using existing technology. Maybe we will lose 10% or 50% or 100% of the patients, but that is all we can do. 
+- Look at these crazy people who hope to find a &ldquo;cure&rdquo;. What a waste. Even if they find a cure, it is going to be tremendously expensive. And they won&rsquo;t find a cure. Not in my lifetime.
 
 
 This heuristic worked very well up till about 30 years ago. It is now obsolete.
+
 Simply put, you should never plan on the specific problem you face to be still around in the same shape five years in the future. You should expect a disruption every 15 years.
 

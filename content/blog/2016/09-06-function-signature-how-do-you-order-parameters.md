@@ -59,8 +59,8 @@ array[index] = value
 
 So I would argue that the proper function signature for the insertion of a key-value in a hash table should be something of the sort:
 ```C
-insert(hashtable_type hashtable, 
-        const key_type key, 
+insert(hashtable_type hashtable,
+        const key_type key,
         const value_type value);
 ```
 

@@ -8,6 +8,7 @@ title: "Avoid lexicographical comparisons when testing for string equality?"
 By default, programmers like to compare their bytes and strings using a lexicographical order. &ldquo;Lexicographical&rdquo; is a fancy word for &ldquo;dictionary order&rdquo;. That is, you compare the first two elements, check if they differ, if they do you report which string is largest, if not you repeat with the next two elements and so forth.
 
 In C and C++, there is a super fast function for this purpose: <tt>memcmp</tt>. Derrick Stolee reported to me [a performance regression in Git](https://public-inbox.org/git/20180821212923.GB24431@sigill.intra.peff.net/T/#u) (a well-known tool among programmers). The problem has to do with <tt>memcmp</tt>.
+
 Let us examine the problematic function in Git:
 ```C
 static inline int hashcmp(const unsigned char *sha1, const unsigned char *sha2)
@@ -31,6 +32,7 @@ if (!hashcmp(sha1, pdata->objects[pos].idx.oid.hash)) {
 Do you see what is happening?
 
 In this particular usage (and in others), we only check whether the two strings of bytes are identical. We do not need a lexicographical comparison.
+
 It can be easier to decide whether two strings of bytes are identical than to compare them lexicographically. Lexicographical sort critically depends on the order of the bytes whereas byte comparisons is order oblivious. Even if you just have 8 bytes to compare lexicographically on an x64 processor, the compiler will need three instructions because it needs to reorder the bytes:
 ```C
 bswap   rcx
@@ -64,6 +66,7 @@ bool memeq20(const char * s1, const char * s2) {
 
 
 That should be safe and portable. I am sure that good hackers can make it faster.
+
 How fast is it already? Quite fast:
 
 memcmp                   |10.5 cycles              |
@@ -74,6 +77,7 @@ check equal only         |5.2 cycles               |
 
 
 My version is twice as fast as <tt>memcmp</tt>. So while I probably couldn&rsquo;t roll my own super fast `memcmp` function in 5 minutes, I certainly can beat `memcmp` with some basic code if I ask a different question instead: are the two strings of bytes identical?
+
 I am using GCC 5.5. Your results will vary quite a bit depending on the compiler. In some settings, it will not be possible to beat `memcmp` at all, if the compiler is sufficiently smart. Also, there might be branching involved, so the results will depend on the statistics of your data.
 
 Nate Lawson points out another reason to shy away from unnecessary lexicographical comparison: security. [He writes](https://rdist.root.org/2014/06/24/timing-safe-memcmp-and-api-parity/):

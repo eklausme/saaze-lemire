@@ -15,3 +15,4 @@ The worse part is that &ldquo;Many other researchers trusted and built upon the 
 Myself, I caugth one huge case of fraud last year: a Ph.D. students has been republishing papers he stole off the Web, by simply rewritting them in his own words. I reported the case and some of the papers have been pulled out.
 
 I think that fraud will always exist, but by putting too much pressure on researchers, we will lose credibility. __We have to be careful at what we reward in research.__
+

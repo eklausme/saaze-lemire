@@ -6,6 +6,7 @@ title: "When accessing hash tables, how much time is spent computing the hash fu
 
 
 Suppose that you create a large set of objects that you store in a hash table. Let us take 10 million<a href="https://lemire.me/blog/2018/03/29/should-you-cache-hash-values-even-for-trivial-classes/"></a> objects. It is large enough that it probably will not fit in the cache memory of your processor. Let us keep the objects simple&hellip; say they are lists of three integers.
+
 In Java, it looks like this&hellip;
 ```C
 int N = 10000000;
@@ -57,4 +58,6 @@ As an aside, it means that precomputing the hash values of your objects, so that
 [My code is available](https://github.com/lemire/Code-used-on-Daniel-Lemire-s-blog/tree/master/2018/03/28).
 
 __Update__: as pointed out by Evan in the comments, the HashSet class will then do extra bit-mixing work on top of what the Java hashCode method returns. It should be considered part of the hash-value computation. Unfortunately, it is not easy to estimate this cost so I have attributed it to the table-access cost. Therefore I underestimate the fraction of the time spent computing the hash value.
+
 __Follow-up__: See [Should you cache hash values even for trivial classes?](/lemire/blog/2018/03/29/should-you-cache-hash-values-even-for-trivial-classes/) and [For greater speed, try batching your out-of-cache data accesses](/lemire/blog/2018/04/12/for-greater-speed-try-batching-your-out-of-cache-data-accesses/)
+

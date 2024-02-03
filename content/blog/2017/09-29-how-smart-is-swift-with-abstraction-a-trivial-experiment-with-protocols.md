@@ -49,14 +49,15 @@ Clearly, there are possible optimizations with the simple implementations I have
 
 Let us put it to the test:
 ```C
-public func sum17(_ g1 : Trivial1, _ g7 : Trivial7) 
+public func sum17(_ g1 : Trivial1, _ g7 : Trivial7)
             -> Int {
   return sum(g1) + sum(g7)
 }
 ```
 
 
-This compiles down to```C
+This compiles down to
+```C
 
   mov eax, 800
 ```

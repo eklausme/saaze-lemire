@@ -10,7 +10,7 @@ Suppose that I give you a set of reference strings (&ldquo;ftp&rdquo;, &ldquo;fi
 You might use a regular expression but it is unlikely to be fast in general:
 ```C
 const std::regex txt_regex("https?|ftp|file|wss?");
-// later... 
+// later...
 bool match = std::regex_match(v.begin(), v.end(), txt_regex);
 ```
 
@@ -27,7 +27,6 @@ bool hash_is_special(std::string_view input) {
 
 
 
-
 You can also use a tool like [gperf](https://www.gnu.org/software/gperf/) which constructs a perfect-hash function for you.
 
 You might also be more direct about it, and just do several comparisons:
@@ -37,7 +36,6 @@ bool direct_is_special(std::string_view input) {
          (input == "file") || (input == "ws") || (input == "wss");
 }
 ```
-
 
 
 
@@ -86,7 +84,6 @@ bool fast_is_special(std::string_view input) {
 
 
 
-
 Though I did not do it, you can extend the comparison so that it is case-insensitive (simply AND the input with the bytes 0xdf instead of the bytes 0xff).
 
 You can use a faster approach if you can assume that the input string has been padded with zeros:
@@ -101,7 +98,7 @@ You can use a faster approach if you can assume that the input string has been p
   if((inputu == https) | (inputu == http)) {
     return true;
   }
-  return ((inputu == file) | (inputu == ftp) 
+  return ((inputu == file) | (inputu == ftp)
           | (inputu == wss) | (inputu == ws));
 ```
 
@@ -140,7 +137,7 @@ bool shiftxor_is_special(std::string_view input) {
 
 If you do not want to assume that the strings are padded (i.e., no cheating), then you can do it the &ldquo;gperf way&rdquo; (it is my own code, but it is based on gpref):
 ```C
-std::string_view table_hashnocheat_is_special[] = {"http", "", "https", 
+std::string_view table_hashnocheat_is_special[] = {"http", "", "https",
   "ws", "ftp", "wss", "file", ""};
 
 bool hashnocheat_is_special(std::string_view input) {

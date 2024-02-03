@@ -39,7 +39,7 @@ bool is_ascii_branchless(const std::string_view v) {
   for(; i < v.size(); i++) {
       running |= v[i];
   }
-  return (running & 0x8080808080808080) == 0;  
+  return (running & 0x8080808080808080) == 0;
 }
 ```
 

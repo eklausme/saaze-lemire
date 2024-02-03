@@ -25,7 +25,8 @@ It also seems no to matter who is doing the research:
 1. [You will do better if you believe that performing cognitive work energizes you to do more](https://onlinelibrary.wiley.com/doi/full/10.1111/spc3.12381).
 1. [It would have been better to invest all your money in gold back in 2000 than in the stock market](https://twitter.com/goldsilver_com/status/979478404985753600). The same is true regarding Bitcoin from its starting point. I don&rsquo;t know what it means.
 1. [Almost all Economics Nobel prizes are closely related through their PhD supervisors](https://ideas.repec.org/p/sus/susewp/0518.html). This is yet more evidence that &ldquo;who you know&rdquo; is really important to your intellectual productivity.
-1. [Canada celebrates its 150th birthday by creating several prestigious research chairs](http://www.insidehighered.com/news/2018/03/30/canada-announces-24-scholars-recruited-worldwide-many-top-american-universities) (via Antonio Badia).1. [Our ancestors had sex with the Neanderthals and the Denisovans](http://www.cell.com/cell/fulltext/S0092-8674(18)30175-2).
+1. [Canada celebrates its 150th birthday by creating several prestigious research chairs](http://www.insidehighered.com/news/2018/03/30/canada-announces-24-scholars-recruited-worldwide-many-top-american-universities) (via Antonio Badia). 
+1. [Our ancestors had sex with the Neanderthals and the Denisovans](http://www.cell.com/cell/fulltext/S0092-8674(18)30175-2).
 1. [Obesity is a recent phenomenon](https://onlinelibrary.wiley.com/doi/abs/10.1002/oby.20395):<br/>
 
 > Between the birth cohorts of 1930 and 1993, the prevalence of obesity rose from 0 to 14% among boys and from 2 to 12% among girls. (&hellip;) Among boys, all these increases began after birth year 1970. Among girls, obesity began to rise after birth year 1980 (&hellip;).

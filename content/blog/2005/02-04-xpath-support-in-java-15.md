@@ -11,7 +11,7 @@ Things are getting somewhat better in Java land. You can no do some XPath work i
     String xpathexpression = "//xdoc[dtd!='']/fname/text()";
     XPath xpath = XPathFactory.newInstance().newXPath();
     InputSource indexname_input = new InputSource(indexname);
-    NodeList nl = (NodeList) xpath.evaluate(xpathexpression, 
+    NodeList nl = (NodeList) xpath.evaluate(xpathexpression,
                               indexname_input, XPathConstants.NODESET);
     for (int i = 0; i < nl.getLength(); ++i) {
       System.out.println("loading document " + (i + 1) + " of " + nl.getLength());

@@ -18,7 +18,7 @@ So instead, you can do it as follows. If there are _N_ students in total, pick a
             for(; z < runninghisto.length; z++) {
                 runningsum += runninghisto[z];
                 if(y < runningsum) { break; }
-            } 
+            }
             // found z
             runninghisto[z] -= 1;
             N -= 1;
@@ -48,8 +48,8 @@ In Java, it might look like this:
 ```C
 int level = 1;
 for(;(1<<level) < runninghisto.length; level++) {
-  for(int z = 0; 
-     z + (1<<level) < runninghisto.length; 
+  for(int z = 0;
+     z + (1<<level) < runninghisto.length;
     z += 2*(1<<level)) {
        runninghisto[z + (1<<level)] += runninghisto[z];
   }

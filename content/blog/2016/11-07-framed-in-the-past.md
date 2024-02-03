@@ -10,6 +10,7 @@ We can&rsquo;t predict the future. However, I still read futurologists like Calu
 The default in our culture works in reverse. Instead of imagining the future and thinking back, we put ourselves in the past. Instead of thinking as futurologists, we think as historians.
 
 People buy phones. In 2016. Of course, they actually mean portable computers with a touch screen. Nobody in the 1970s would recognize an iPhone as a phone. It is actually far superior to the Star Trek communicators that people in the 1970s saw on TV. That should not be surprising given that an iPhone is more powerful than any computer that existed in the 1970s. But we still frame these portable computers as things (phone) from the past.
+
 We talk about shows that appear (sometimes exclusively) on Netflix as &ldquo;TV shows&rdquo;, whereas a &ldquo;TV&rdquo; is entirely optional to watch the shows in question.
 
 By framing radical innovations in the past, we are effectively dismissing the genuine novelty. That is the very purpose of this framing. It is hard to sell something new. So marketers have to relate it to what you know. Everyone knows about phones. They are useful. Companies pay for them. So let us sell phones, even if they are no longer phones.

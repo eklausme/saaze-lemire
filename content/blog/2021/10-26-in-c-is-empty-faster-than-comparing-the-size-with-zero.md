@@ -55,8 +55,8 @@ size_t count_nodes(const node* p) {
     while (p) {
         p = p->next;
         size++;
-        if(size == 1000) { 
-            return 1000; 
+        if(size == 1000) {
+            return 1000;
         }
     }
     return size;

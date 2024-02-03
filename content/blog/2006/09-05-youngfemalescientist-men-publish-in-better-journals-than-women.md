@@ -8,11 +8,9 @@ title: "YoungFemaleScientist: Men publish in better journals than women"
 YoungFemaleScientist is reporting that [men tend to publish in better journals than women.](https://youngfemalescientist.blogspot.com/2006/08/sexism-and-peer-review-impact-factor.html) She goes on to explain this fact:
 
 > We all know why that might be:
-
-1. Nepotism in publishing. It&rsquo;s an old boys network, therefore the boys are more likely to know each other.
-1. Uh, women read more than men. Come on, you know it&rsquo;s generally true. We read faster and we read more. So we&rsquo;re likely to think it doesn&rsquo;t matter so much where our papers go, because people will read them anyway. And the truth is- they will. At least, other women will!
-
-<ol/>
+>
+> 1. Nepotism in publishing. It&rsquo;s an old boys network, therefore the boys are more likely to know each other.
+> 1. Uh, women read more than men. Come on, you know it&rsquo;s generally true. We read faster and we read more. So we&rsquo;re likely to think it doesn&rsquo;t matter so much where our papers go, because people will read them anyway. And the truth is- they will. At least, other women will!
 
 
 (Via [Stiber](https://expert-opinion.blogspot.com/).)

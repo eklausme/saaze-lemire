@@ -29,7 +29,8 @@ Correspondingly, I have some coping strategies:
 - I find that blogging helps me stay sane.
 - I write software as a hobby. Interaction with other programmer, even when they report bugs, is typically a pleasure.
 - I do some work on the house: over the years, I have learned how to repair or improve most things. I probably do not save a penny in the end, but doing the work myself keeps me happy.
-- I focus on research and teaching. They are both more rewarding and emotionally more stable than service or management work. My research involves little politics, but a lot of writing, coding and revising.- It is easier to organize a large conference than it is to chair even a small department. Simply because you are more independent from the results, emotionally. Service work is usually more rewarding and less difficult the further away it is. So, if you must get involved, avoid local committees.
+- I focus on research and teaching. They are both more rewarding and emotionally more stable than service or management work. My research involves little politics, but a lot of writing, coding and revising. 
+- It is easier to organize a large conference than it is to chair even a small department. Simply because you are more independent from the results, emotionally. Service work is usually more rewarding and less difficult the further away it is. So, if you must get involved, avoid local committees.
 
 
 __If you like my advice&hellip;__

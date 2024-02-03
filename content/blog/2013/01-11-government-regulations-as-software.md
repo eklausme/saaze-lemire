@@ -12,6 +12,7 @@ Government regulations are complicated. In Canada, our tax code is so complex th
 Regulators and law makers have often no experience building complex software. Yet what they often do is basically software programming. The difference is that, for now, the software runs on brains.
 
 Laws are often buggy. Law makers can contradict themselves. For example, [Chinese law](http://www.china.org.cn/english/2002/Sep/43485.htm) gives the father the right to decide on whether his wife can have an abortion. Yet Chinese law also ensures that the mother is free to decide whether to have a child or not.
+
 I think we should treat laws and regulations as software:
 
 - Laws and regulations should be considered in constant beta testing, just like Google&rsquo;s software. We should accept up front that there are bugs, possibly major bugs.

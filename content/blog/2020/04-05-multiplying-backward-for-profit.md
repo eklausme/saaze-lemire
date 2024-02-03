@@ -48,10 +48,10 @@ You can also multiply backward, starting from the most significant words. Though
 p = full_multiplication(w, b[n-1]); // 64-bit x 64-bit => 128-bit
 uint64_t r = p.high// least significant 64-bits ;
 output[n - 1] = p.low;// most significant 64-bits
-output[n] = p.high; 
+output[n] = p.high;
 for (i = n-2; i >=0; i--) {
     p = full_multiplication(w, b[i]);
-    output[i] = p.low; // least significant 64-bits 
+    output[i] = p.low; // least significant 64-bits
     // check for overflow
     bool overflow = (output[i + 1] + p.high < output[i + 1]);
     output[i + 1] += p.high;

@@ -8,6 +8,7 @@ title: "Bit hacking versus memoization: a Stream VByte example"
 In compression techniques like [Stream VByte](/lemire/blog/2017/09/27/stream-vbyte-breaking-new-speed-records-for-integer-compression/) or Google&rsquo;s varint-GB, we use control bytes to indicate how blocks of data are compressed. Without getting into the details ([see the paper](https://arxiv.org/abs/1709.08990)), it is important to map these control bytes to the corresponding number of compressed bytes very quickly. The control bytes are made of four 2-bit numbers and we must add these four 2-bit numbers as quickly as possible.
 
 There is [a related Stack Overflow question](https://stackoverflow.com/questions/17880178/how-do-i-sum-the-four-2-bit-bitfields-in-a-single-8-bit-byte) from which I am going to steal an example: given the four 2-bits <tt>11 10 01 00</tt> we want to compute <tt>3 + 2 + 1 + 0 = 6</tt>.
+
 - How do we solve this problem in [our implementation](https://github.com/lemire/streamvbyte)? Using table look-ups. Basically, we precompute each of the 256 possible values and just look them in a table. This is often called [memoization](https://en.wikipedia.org/wiki/Memoization). It works fine and a lot of fast code relies on memoization but I don&rsquo;t find it elegant. It makes me sad that so much of the very fastest code ends up relying on memoization.
 - What is the simplest piece of code that would do it without table lookup? I think it might be
 ```C
@@ -29,6 +30,7 @@ v = ((v >> 4) & 0x0F0F0F0F) + (v & 0x0F0F0F0F);
 
 
 where the variable `v` represents a 32-bit integer. You could generalize to 64-bit integers for even better speed. It might be slightly puzzling at first, but it is not very difficult to work out what the expression is doing.
+
 It has the benefit of being likely to be faster than memoization, but at the expense of some added code complexity since we need to process control bytes in batches. There is also some concern that I could suffer from uneven latency, with the first length in a batch of four being delayed if we are not careful.
 
 We could modify this approach slightly to compute directly the sums of the lengths which could be put to good use in the actual code&hellip; but it is fancy enough as it stands.</tt>.

@@ -6,7 +6,9 @@ title: "The written word took over the world"
 
 
 Whereas most human beings learn to speak in the first two years of their life, written languages are more of an acquired ability. We learn to speak before we learn to write. It is not uncommon for adults to be illiterate, even in rich countries. In this sense, the written language is a high-level ability.
+
 For centuries, only a small elite knew how to write and read. I suspect that it was widespread at first among wealthy merchants.
+
 Learning how to read and write a natural language was probably like learning to program software today. Few could do it well. If you were part of the literate elite, you could expect good jobs.
 
 The written language was a powerful technology when it first arose, akin to the computer today. Instead of having to painful remember who bought what and when, you could write it down. You could hand out receipt. You could create money in the form of IOUs. In time, people could use the written language to tell stories, to seduce remote princesses&hellip; The possibilities were endless.
@@ -23,12 +25,16 @@ When I help my sons to study, I expect them to always write down the answer. It 
 
 We should not underestimate this challenge. Let me contrast these two actions:
 
-- If I come to meet you in person to communicate a message (or if I call you), I do not have to spend much effort preparing. I can figure out what I need to say as you are waiting. Moreover, I can rely on the recipient to give various non-verbal clues to guide me through the process. And even if I ended up failing to communicate any meaningful information, we can still smile.- If I send you an email, I may have to put my emotions aside and think through my problem. What do I really want to say? What is my context? When I write, I have to make an effort to anticipate the reactions of the recipient without any guinea pig. I also can&rsquo;t corner him or her: I must get to the point without undue delay. And if my email ends up being gibberish, I probably won&rsquo;t get a smile back.
+- If I come to meet you in person to communicate a message (or if I call you), I do not have to spend much effort preparing. I can figure out what I need to say as you are waiting. Moreover, I can rely on the recipient to give various non-verbal clues to guide me through the process. And even if I ended up failing to communicate any meaningful information, we can still smile. 
+- If I send you an email, I may have to put my emotions aside and think through my problem. What do I really want to say? What is my context? When I write, I have to make an effort to anticipate the reactions of the recipient without any guinea pig. I also can&rsquo;t corner him or her: I must get to the point without undue delay. And if my email ends up being gibberish, I probably won&rsquo;t get a smile back. 
+
 
 Of course, this analysis extends to meetings. People who love meetings are often the very same people who have trouble writing. In a meeting, you can talk for 15 minutes without any message&hellip; you can fill the time with empty posturing. In written form, you&rsquo;d be ridiculed&hellip; but, after a long diatribe that nobody could quite follow, you are unlikely to hear anyone point out how empty your words were. Once more: the bar is set higher when you use the written language.
 
 I should stress that effective written communication is not necessarily limited by your mastery of the grammar or your spelling abilities. The main issue is effort. Writing well takes time. It is a habit.
+
 When you write&hellip; &ldquo;I can&rsquo;t explain myself by email, let me call you&rdquo;&hellip; you may be letting us know more about your work ethic than you think&hellip; There are good reasons to call people up. For example, if you are the CEO, and you want to stress the importance of a project, you better call up the project manager. It is hard to convey emotions reliably by email. However, if you are the CEO and can&rsquo;t explain your decisions or state your questions by email, then maybe you are all fluff. Both Bill Gates and Steve Jobs are famous for some of their emails. Both of them write well and are to the point. Steve Jobs often wrote back to lay users. His emails were often communication masterpieces. Clear, concise, and powerful. Other powerful writers include Linus Torvalds, Tim Berners-Lee, Tim Bray&hellip;
+
 Not all our leaders can write well. But if the most powerful CEO of his era would take the time to explain himself by email, what does it mean for the rest of us?
 
 Before email, it was enough to be able to read most things, and to write semi-competently when you had to. Today, you shouldn&rsquo;t hire an engineer unless if he can explain a difficult technical issue in ten lines or less.

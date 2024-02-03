@@ -12,7 +12,7 @@ In C/C++, the standard way is the strtod function:
 char * string = "3.1416";
 char * string_end = string;
 double x = strtod(string, &string_end);
-if(string_end == string) { 
+if(string_end == string) {
   //you have an error!
 }
 ```
@@ -27,7 +27,7 @@ You can also use C++ streams but they are typically not geared toward performanc
 In C++17, we got a nicer option: the from_chars function. It works similarly:
 ```C
 std::string st = "3.1416";
-double x; 
+double x;
 auto [p, ec] = std::from_chars(st.data(), st.data() + st.size(), x);
 if (p == st.data()) {
       //you have an errors!
@@ -53,3 +53,4 @@ from_chars (C++17)       |140 MB/s                 |
 You do get a nice 20% performance boost, at no cost whatsoever. Brilliant.
 
 __Further reading__: [Comparing strtod with from_chars (GCC 12)](/lemire/blog/2022/07/27/comparing-strtod-with-from_chars-gcc-12/)
+

@@ -13,6 +13,7 @@ I read this [on slashdot](http://news.slashdot.org/story/08/07/07/153231/how-tec
 Now I know I am not the only one!
 
 In other news,
+
 - I still deduce my age from my birth date (takes me a minute or so each time);
 - I was identified as having a learning disability when I entered school (since I could not recite my phone number nor tie my shoes) and put in a special class;
 - I still don&rsquo;t know my office phone number;

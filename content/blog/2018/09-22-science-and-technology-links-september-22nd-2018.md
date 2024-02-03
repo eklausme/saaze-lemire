@@ -22,7 +22,8 @@ title: "Science and Technology links (September 22nd, 2018)"
 
 (Source: Northcentral University)
 1. [People who consume one diet drink a day &lsquo;three times more likely to suffer stroke or dementia&rsquo;](https://www.independent.co.uk/news/health/dementia-stroke-consuming-diet-drinks-increases-risk-american-heart-association-journal-a7694251.html) (Source: The Independent)
-1. [Wheat gluten intake increases weight gain](https://www.nature.com/articles/ijo2015204) according to an article in Nature. (Source: Nature)1. [Treating fever may lead to a higher mortality rate](https://www.ncbi.nlm.nih.gov/pubmed/16433601/). (Source: Surg. Infect.)
+1. [Wheat gluten intake increases weight gain](https://www.nature.com/articles/ijo2015204) according to an article in Nature. (Source: Nature) 
+1. [Treating fever may lead to a higher mortality rate](https://www.ncbi.nlm.nih.gov/pubmed/16433601/). (Source: Surg. Infect.)
 1. [Physical activity does not influence obesity risk](https://academic.oup.com/ije/article/42/6/1831/737866). (Source: International Journal of Epidemiology)
 1. [Despite claims by the World Health Organization (WHO) that eating processed meat causes colon cancer and red meat probably causes cancer, the observational data used to support the claims are weak, confounded by multiple unmeasured factors, and not supported by other types of research needed for such a conclusion](https://academic.oup.com/af/article/8/3/5/5048762). (Source: Animal Frontiers)
 1. We might be able to [prevent cognitive decline and Alzheimer&rsquo;s by clearing the brain from senescent cells](https://www.nature.com/articles/s41586-018-0543-y), using new drugs called senolytics. (Source: Nature)

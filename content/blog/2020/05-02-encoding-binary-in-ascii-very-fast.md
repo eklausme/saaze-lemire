@@ -15,14 +15,14 @@ I can do it in about five instructions (not counting stores and moves) both ways
 // could pass as ASCII (every 8th bit is zero)
 // can be inverted with convert_from_ascii
 uint64_t convert_to_ascii(uint64_t x) {
-  return ((0x2040810204081 * (x & 0x80808080808080)) 
+  return ((0x2040810204081 * (x & 0x80808080808080))
          & 0xff00000000000000) +
          (x & 0x7f7f7f7f7f7f7f);
 }
 // converts any 8 ASCII chars into an integer in [0, 2**56),
 // this inverts convert_to_ascii
 uint64_t convert_from_ascii(uint64_t x) {
-  return ((0x102040810204080 * (x >> 56)) 
+  return ((0x102040810204080 * (x >> 56))
          & 0x8080808080808080) +
          (x & 0xffffffffffffff);
 }

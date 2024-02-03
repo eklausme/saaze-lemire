@@ -10,6 +10,7 @@ When you edit a document, some software will generate automatically a new versio
 However, beyond keeping traces, software can share and index traces. Each email is a trace of a conversation, and it can be retrieved later, but your emails are not shared. Word processors allow you to send a document with recorded changes, but you cannot easily refer to a specific change in the document.
 
 In any case, I made the following table:
+
 Medium                   |Keep history             |Share history            |Index history            |
 -------------------------|-------------------------|-------------------------|-------------------------|
 Word Processing          |Sometimes                |Manually                 |No                       |

@@ -18,29 +18,29 @@ Anyhow, how is the performance of Roaring bitmaps in Node.js? We can compare the
 
  suite intersection size
   262144 elements
-Set                   33.26 ops/sec 
-FastBitSet        14,364.56 ops/sec 
-RoaringBitmap32  266,718.85 ops/sec 
+Set                   33.26 ops/sec
+FastBitSet        14,364.56 ops/sec
+RoaringBitmap32  266,718.85 ops/sec
   âž” Fastest is RoaringBitmap32
 
  suite intersection (in place)
   65536 elements
-Set                    199.99 ops/sec 
-FastBitSet          93,394.64 ops/sec 
-RoaringBitmap32  4,720,764.58 ops/sec 
+Set                    199.99 ops/sec
+FastBitSet          93,394.64 ops/sec
+RoaringBitmap32  4,720,764.58 ops/sec
   âž” Fastest is RoaringBitmap32
 
  suite intersection (new)
   1048576 elements
-Set                  3.32 ops/sec 
-FastBitSet       1,436.14 ops/sec 
+Set                  3.32 ops/sec
+FastBitSet       1,436.14 ops/sec
 RoaringBitmap32  3,557.16 ops/sec
   âž” Fastest is RoaringBitmap32
 
  suite union (in place)
   65536 elements
-Set                  201.71 ops/sec 
-FastBitSet       147,147.28 ops/sec 
+Set                  201.71 ops/sec
+FastBitSet       147,147.28 ops/sec
 RoaringBitmap32  497,687.77 ops/sec
   âž” Fastest is RoaringBitmap32
 
@@ -55,7 +55,7 @@ RoaringBitmap32  497,687.77 ops/sec
   1048576 elements
 Set                  1.72 ops/sec
 FastBitSet         698.26 ops/sec
-RoaringBitmap32  2,033.11 ops/sec 
+RoaringBitmap32  2,033.11 ops/sec
   âž” Fastest is RoaringBitmap32
 ```
 

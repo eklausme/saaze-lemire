@@ -38,7 +38,6 @@ JavaScript:
 
 
 
-
 Python:
 ```C
 >>> x=["e","a","é","f"]
@@ -56,10 +55,10 @@ Python:
 
 
 
-
 Swift:
 ```C
-  1> var x = ["e","a","é","f"]  2> x.sorted()
+  1> var x = ["e","a","é","f"]
+  2> x.sorted()
 $R0: [String] = 4 values {
   [0] = "a"
   [1] = "e"
@@ -69,14 +68,14 @@ $R0: [String] = 4 values {
 
 ```C
   1>  var x = ["a","b","A","B"]
-  2> x.sorted()$R1: [String] = 4 values {
+  2> x.sorted()
+$R1: [String] = 4 values {
   [0] = "A"
   [1] = "B"
   [2] = "a"
   [3] = "b"
 }
 ```
-
 
 
 

@@ -23,3 +23,4 @@ They seem to predict that this sort of monster will soon be common. I make the o
 Yes, we will all have terabytes of storage and hundreds of CPU cores at our disposal soon, but only if it does not require large electricity bills. Generating that much heat, because electricity does turn into heat, just does not make sense.
 
 Also, I make the prediction that we will build machines with far more storage space in the future.
+

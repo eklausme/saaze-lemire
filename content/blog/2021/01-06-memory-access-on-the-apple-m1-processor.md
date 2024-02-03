@@ -28,7 +28,7 @@ To test it out, I designed the following benchmark where I compare three functio
 We compare against a 3-wise version of this function:
 ```C
   for(size_t i = 0; i < 3*M; i+= 3) {
-    answer += array[random[i]] ^ array[random[i + 1]] 
+    answer += array[random[i]] ^ array[random[i + 1]]
               ^ array[random[i + 2]];
   }
 ```
@@ -41,8 +41,8 @@ To give our naive memory-access model a run for its money, let us throw in a 2-w
   for(size_t i = 0; i < 2*M; i+= 2) {
     int idx1 = random[i];
     int idx2 = random[i + 1];
-    
-    answer += array[idx1] ^ array[idx1 + 1] 
+
+    answer += array[idx1] ^ array[idx1 + 1]
            ^ array[idx2]  ^ array[idx2 + 1];
   }
 ```

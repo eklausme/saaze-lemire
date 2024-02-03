@@ -12,6 +12,7 @@ I am sure that many people do not consider him to be a real author because he se
 There is a common view in computer science research that the only publications that matter are those appearing at selective conferences. Conferences in computer science are characterized by a low acceptance rate (top conferences reject 90% of all papers). The more selective the conference, the better. Ideally you must prove that you belong to the top 1%. A journal article or a workshop paper is &ldquo;wasted effort&rdquo; in this respect.
 
 Does it follow that journal articles are inefficient or even wasteful? According to [DBLP](http://www.informatik.uni-trier.de/~ley/pers/hd/k/Knuth:Donald_E=), Donald Knuth (a living legend) published 120&nbsp;journal articles, and 12&nbsp;conference papers. The Turing Award recipient [Peter Naur](http://www.informatik.uni-trier.de/~ley/pers/hd/n/Naur:Peter) has 25 journal articles and 7&nbsp;conference papers in DBLP. (The Turing Award is the Nobel prize of computer science.) [Robert E. Kahn](https://fr.wikipedia.org/wiki/Robert_E._Kahn), another Turing Award recipient, has 12&nbsp;journal articles and 2&nbsp;conference papers. Even if we assume that they participated in many conferences that are not indexed by DBLP, it is undeniable that some influential computer scientists like to publish in journals.
+
 But maybe all of the important work appears first at conferences? According to Fortnow, leading conferences regularly refuse to accept such work:
 
 > (&hellip;) nearly half of the GÃ¶del Prize winners (given to the best CS theory papers after they&rsquo;ve appeared in journals) were initially rejected or didn&rsquo;t appear at all in the top theoretical computer science conferences. ([Fortnow, 2009](http://cacm.acm.org/magazines/2009/8/34492-viewpoint-time-for-computer-science-to-grow-up/fulltext))
@@ -33,7 +34,9 @@ Franceschet wrote an [interesting survey](http://dl.acm.org/citation.cfm?id=1859
 It means that if you are an extremely successful computer scientist, you are still likely to be left out from someone&rsquo;s top-10 list. Maybe it means that you should not worry about how you are ranked.
 
 There are also significant differences on how the 3&nbsp;types of authors published.
-- To get a Turing Award, your publications may be unimportant. Out of the 16 Turing Award recipients considered by Franceschet, two thirds had fewer than 50 papers on DBLP and five had less than 30 papers. [Alan Kay](http://dblp.uni-trier.de/pers/hd/k/Kay:Alan_C=) published less than 20 papers according to DBLP.- &ldquo;(&hellip;) high impact scholars publish significantly less than prolific ones, and more frequently in journals.&rdquo;
+
+- To get a Turing Award, your publications may be unimportant. Out of the 16 Turing Award recipients considered by Franceschet, two thirds had fewer than 50 papers on DBLP and five had less than 30 papers. [Alan Kay](http://dblp.uni-trier.de/pers/hd/k/Kay:Alan_C=) published less than 20 papers according to DBLP. 
+- &ldquo;(&hellip;) high impact scholars publish significantly less than prolific ones, and more frequently in journals.&rdquo;
 
 
 So while telling the world about what you do matters&hellip; you have a lot of freedom about it.

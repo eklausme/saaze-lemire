@@ -12,6 +12,7 @@ This time I installed [Gentoo](https://www.gentoo.org/) in my office. As it turn
 There is also a special java applet system called explor@ here. But I think I mostly figured out how to get it running &ldquo;ok&rdquo; under linux (in French), though I had to waste another day on it.
 
 I have good reasons to believe I must be the only prof. around using Linux. My addiction to command line interfaces has a thing or two to do with it. You can emulate pretty much the unix environment under Windows, but it is never quite the same in terms of productivity.
+
 I&rsquo;ve been told that MacOS X would be a good choice too. Except that I couldn&rsquo;t have done what I just did here: take the &ldquo;free&rdquo; PC they put in my office and transform it in a Linux box.
 
 Some facts people often don&rsquo;t know:

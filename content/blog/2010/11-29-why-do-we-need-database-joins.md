@@ -16,7 +16,8 @@ Curt Monash has a [reasonable post](http://www.dbms2.com/2010/11/29/document-dat
 However, the case against joins is also strong:
 
 - Normalization makes your schemas complex. I have seen university databases made of hundreds of tables. The average query is well over 256 characters and involves dozens of joins. It is simply impossible to make sense of the content of any one table. Building new applications on top of this mess is expensive and bug prone. Complexity is bad for your health.
-- Database engines can compress the data automagically so normalization to save space is a waste of time.
+- Database engines can compress the data automagically so normalization to save space is a waste of time. 
+
 
 The dogma of normalization too often leads to [over-engineering](https://en.wikipedia.org/wiki/Overengineering). We are so afraid that a programming error could leave the database in a wrongful state that we invest massively in inflexible schemas. In turn, this over-engineering comes back to haunt us when we need to be more agile, or to scale out.
 

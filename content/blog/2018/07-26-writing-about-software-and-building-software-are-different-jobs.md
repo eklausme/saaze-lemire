@@ -10,7 +10,7 @@ Code taken from a blog post is meant to illustrate an idea. Blogging is literatu
 A reader commented that some of my C code from an earlier [blog post](/lemire/blog/2016/06/30/fast-random-shuffling/) is not proper C:
 ```C
 uint32_t random_bounded(uint32_t range) {
-  uint64_t random32bit =  random32(); //32-bit random number 
+  uint64_t random32bit =  random32(); //32-bit random number
   multiresult = random32bit * range;
   return multiresult >> 32;
 }

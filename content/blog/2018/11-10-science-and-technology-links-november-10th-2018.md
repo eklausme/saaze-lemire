@@ -22,7 +22,9 @@ Simply put, it is far easier and profitable to publish positive results so that&
 This means that, by default, you should always downgrade the optimism of the litterature.
 
 Simply put: don&rsquo;t be too quick to believe what you read, even if it is comes in the form of a large set of peer-reviewed research papers.
-1. Richard Jones writes &ldquo;[Motivations for some of the most significant innovations weren&rsquo;t economic](http://www.softmachines.org/wordpress/?p=2275)&ldquo;.1. [Cable and satellite TV is going away](https://www.usatoday.com/story/tech/talkingtech/2018/11/07/cord-cutting-accelerates-1-m-customers-dropped-pay-tv-last-quarter/1919471002/).
-1. [&ldquo;What if what students really want is not to be learners, but alumni?&rdquo;](https://www.insidehighered.com/digital-learning/blogs/technology-and-learning/cannibalizing-masters-programs) People will prefer an academically useless program from Harvard to a complete graduate program from a lowly school because they badly want to say that they went to Harvard.1. [Drinking coffee abundantly protects from neurodegenerative diseases](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6194148/).
+1. Richard Jones writes &ldquo;[Motivations for some of the most significant innovations weren&rsquo;t economic](http://www.softmachines.org/wordpress/?p=2275)&ldquo;. 
+1. [Cable and satellite TV is going away](https://www.usatoday.com/story/tech/talkingtech/2018/11/07/cord-cutting-accelerates-1-m-customers-dropped-pay-tv-last-quarter/1919471002/).
+1. [&ldquo;What if what students really want is not to be learners, but alumni?&rdquo;](https://www.insidehighered.com/digital-learning/blogs/technology-and-learning/cannibalizing-masters-programs) People will prefer an academically useless program from Harvard to a complete graduate program from a lowly school because they badly want to say that they went to Harvard. 
+1. [Drinking coffee abundantly protects from neurodegenerative diseases](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6194148/).
 
 

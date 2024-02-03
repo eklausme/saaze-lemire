@@ -10,5 +10,6 @@ I stumbled upon this nice paper [Social-Organizational Characteristics of Work a
 - Being a man and having lots of male graduate students is highly correlated with productivity.
 - Collaboration is strongly correlated with productivity. However, it is difficult to say whether there is any causality. It could be that when you are productive, more people seek to work with you.
 - Working on several projects is strongly correlated with productivity. However, is there any causal relationship? Maybe when you are more productive, you take on more projects?
-- Work climate and location only matters moderately or not at all.
+- Work climate and location only matters moderately or not at all. 
+
 

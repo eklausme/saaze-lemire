@@ -10,6 +10,7 @@ We often require all students to learn things they may never need like latin, ca
 True? Or false?
 
 I worked on this assumption for the longest time. As an undergraduate, I took 6 courses per term instead of the required 5. I also took an extra year to graduate, doing the equivalent two majors. I probably took more college courses than 99.9% of the college graduates.
+
 Why did I take all these courses? Because I was convinced that learning about all sorts of things would make me smarter. Many people think it works this way. That&rsquo;s why we taught people Latin for a long time. In education, that is called <em>transfer</em>: learning something will help you learn something else, even if it is barely related. Does it work? We have reasons to doubt it:
 
 > Transfer has been studied since the turn of the XXth century. Still, there is very little empirical evidence showing meaningful transfer to occur and much less evidence showing it under experimental control. (&hellip;) significant transfer is probably rare and accounts for very little human behavior. ([Detterman](http://www.citeulike.org/user/rebeccamancy/article/2698279))
@@ -36,5 +37,6 @@ My point is that students might be onto something when they refuse to learn for 
 But this has also a practical consequence for all of us: don&rsquo;t bother learning skills &ldquo;just in case&rdquo; unless you do it for fun. If you want to be a better software programmer, just practice programming. This also means that if you want to acquire practical skills, a school might not be the best place to go: a degree in English might not turn you into a better novelist.
 
 Another consequence is that you should not assume transfer of expertise: if someone succeeded at one thing, you should not assume they will succeed at something else. If a famous baseball player starts a software company, wait before investing.
+
 __Credit__: This blog post was inspired by an online exchange with Seb Paquet.
 

@@ -6,6 +6,7 @@ title: "Transemployment: creating jobs out of thin air"
 
 
 Back in the eighties, [half of the 16-year-old teenagers](http://www.theatlantic.com/business/archive/2012/07/the-dramatic-30-year-decline-of-young-drivers-in-1-chart/260126/) were licensed drivers in the US. Evidently, things have changed. Driving is still important, but other activities have become even more important. I am guessing that it is hard to get a date without a mobile phone today.
+
 My point is that we create needs. These needs feel very real. And, in a sense, they are.
 
 Employers and governments are no different. Once your automotive corporation has a social-media specialist, you cannot imagine not having one. Once you have compelled all colleges to have officers in charge of research grants, you cannot imagine how it could ever be otherwise. I call this <em>transemployment</em>.
@@ -31,3 +32,4 @@ I know, it does not feel like we are massively wealthy, but we are. These days, 
 Some will accuse me of being dismissive of poverty. Yes, there is real poverty in the world. Nothing is perfect. Even in a Star Trek universe, there will be misery. But that only encourages us to sustain transemployment. Trying to put everyone who is not absolutely needed out of a job would be considered very harsh. It is much better to add new jobs.
 
 And that is the future I imagine. In fact, this future is already here. Robots have replaced us. We just choose to ignore that fact.
+

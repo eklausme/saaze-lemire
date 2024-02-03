@@ -49,18 +49,18 @@ So you can load your input into a 32-bit word and process all bytes at once, in 
 
 Jeroen Koekkoek first came up with a valid SWAR approach, but it was only about 40% faster than the naive approach in the case where we had unpredictable inputs, and potentially slower than the naive approach given predictable inputs. Let us examine an approach that might be competitive all around:
 ```C
-int parse_uint8_fastswar(const char *str, size_t len, 
+int parse_uint8_fastswar(const char *str, size_t len,
     uint8_t *num) {
   if(len == 0 || len > 3) { return 0; }
   union { uint8_t as_str[4]; uint32_t as_int; } digits;
   memcpy(&digits.as_int, str, sizeof(digits));
   digits.as_int ^= 0x30303030lu;
   digits.as_int <<= ((4 - len) * 8);
-  uint32_t all_digits = 
-    ((digits.as_int | (0x06060606 + digits.as_int)) & 0xF0F0F0F0) 
+  uint32_t all_digits =
+    ((digits.as_int | (0x06060606 + digits.as_int)) & 0xF0F0F0F0)
        == 0;
   *num = (uint8_t)((0x640a01 * digits.as_int) >> 24);
-  return all_digits 
+  return all_digits
    & ((__builtin_bswap32(digits.as_int) <= 0x020505));
 }
 
@@ -130,8 +130,8 @@ int parse_uint8_fastswar_bob(const char *str, size_t len, uint8_t *num) {
   digits.as_int ^= 0x303030lu;
   digits.as_int <<= (len ^ 3) * 8;
   *num = (uint8_t)((0x640a01 * digits.as_int) >> 16);
-  return ((((digits.as_int + 0x767676) | digits.as_int) & 0x808080) == 0) 
-   && ((len ^ 3) < 3) 
+  return ((((digits.as_int + 0x767676) | digits.as_int) & 0x808080) == 0)
+   && ((len ^ 3) < 3)
    && __builtin_bswap32(digits.as_int) <= 0x020505ff;
 }
 

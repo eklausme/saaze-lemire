@@ -33,6 +33,7 @@ I find however that many graduate students enjoy the fact that I make my papers 
 <em> Did you design your site yourself? What software do you use to maintain it? Any advice for other profs in terms of technical upkeep or updating frequency?</em>
 
 Like many science professors, I have initially designed my Web site using a text editor and raw HTML. I maintain my own blog engine ([wordpress](http://wordpress.org/)).
+
 Universities often do not have the resources to help professors maintain effective Web sites. Fortunately, many inexpensive solutions are available (<a href="https://wordpress.com/" target="_blank">wordpress.com</a>, <a href="https://blogger.com/" target="_blank">blogger.com</a>, and so on). In fact, most academic bloggers do not blog from within the university networks. People have even coined a term for this do-it-yourself strategy: [edupunk]( http://en.wikipedia.org/wiki/Edupunk).
 
 I spend  many hours every week publishing content online. Some may consider it wasteful. However, I believe university professors are in the communication business.

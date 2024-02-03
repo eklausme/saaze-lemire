@@ -6,12 +6,13 @@ title: "Fast integer compression with Stream VByte on ARM Neon processors"
 
 
 Stream VByte is possibly the fastest byte-oriented integer compression scheme. I presented it briefly last month when [our paper came out](https://arxiv.org/abs/1709.08990). Our [C library](https://github.com/lemire/streamvbyte) has been ported to [Rust](https://bitbucket.org/marshallpierce/stream-vbyte-rust) and [Go](https://github.com/nelz9999/stream-vbyte-go). Our code is used by the [Tantivy search engine](https://github.com/tantivy-search/tantivy) as well as by the [Trinity Information Retrieval framework](https://github.com/phaistos-networks/Trinity). Mark Papadakis [reported excellent results with Stream VByte](https://medium.com/@markpapadakis/trinity-updates-and-integer-codes-benchmarks-6a4fa2eb3fd1).
+
 The x64 code had this super simple vectorized decoding pass:
 ```C
-uint8_t C = lengthTable[control]; // C is between 4 and 16 
+uint8_t C = lengthTable[control]; // C is between 4 and 16
  __m128i Data = _mm_loadu_si128((__m128i *) databytes);
  __m128i Shuf = _mm_loadu_si128(shuffleTable[control]);
- Data = _mm_shuffle_epi8(Data, Shuf); // final decoded data  
+ Data = _mm_shuffle_epi8(Data, Shuf); // final decoded data
  datasource += C;
 ```
 

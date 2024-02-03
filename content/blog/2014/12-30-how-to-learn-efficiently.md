@@ -10,6 +10,7 @@ I am convinced that much of the gap between the best college students and the wo
 __Learning is proportional with effort__
 
 Sitting in a classroom listening to a professor feels like learning&hellip; Reading a book on a new topic feels like learning&hellip; but because they are overwhelming passive activities, they are inefficient. It is even worse than inefficient, it is counterproductive because it gives you the false impression that you know the material. You can sit through lecture after lecture on quantum mechanics. At some point, you will become familiar with the topics and the terminology. Alas, you are fooling yourself which is worse than not learning anything.
+
 Instead, you should always seek to challenge yourself. If some learning activity feels easy, it means that it is too easy. You should be constantly reminded of how little you know. Great lectures make it feels like the material is easy: it probably is not. Test yourself constantly: you will find that you know less than you think.
 
 Some students blame the instructors when they feel confused. They are insistent that a course should be structured in such a way that it is always easy so that they rarely make mistakes. The opposite is true: a good course is one where you always feel that you will barely make it. It might not be a pleasant course, but it is one where you are learning. It is by struggling that we learn.

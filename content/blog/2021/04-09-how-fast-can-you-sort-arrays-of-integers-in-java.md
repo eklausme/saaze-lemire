@@ -32,15 +32,15 @@ public static void radixSort(int[] data) {
     copy[level0[(value - Integer.MIN_VALUE) & 0xFF]++] = value;
   }
   for (int value : copy) {
-    data[level1[((value - Integer.MIN_VALUE)>>>8) & 0xFF]++] 
+    data[level1[((value - Integer.MIN_VALUE)>>>8) & 0xFF]++]
        = value;
   }
   for (int value : data) {
-    copy[level2[((value - Integer.MIN_VALUE)>>>16) & 0xFF]++] 
+    copy[level2[((value - Integer.MIN_VALUE)>>>16) & 0xFF]++]
        = value;
   }
   for (int value : copy) {
-    data[level3[((value - Integer.MIN_VALUE)>>>24) & 0xFF]++] 
+    data[level3[((value - Integer.MIN_VALUE)>>>24) & 0xFF]++]
       = value;
   }
 }

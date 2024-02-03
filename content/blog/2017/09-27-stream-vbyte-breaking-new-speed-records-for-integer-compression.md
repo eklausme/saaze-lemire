@@ -71,10 +71,10 @@ I should mention that unlike Amazon, we did not patent our approach. We want you
 
 How complicated is the code? Here is the gist of it using SSE instrinsics:
 ```C
-uint8_t C = lengthTable[control]; // C is between 4 and 16 
+uint8_t C = lengthTable[control]; // C is between 4 and 16
  __m128i Data = _mm_loadu_si128((__m128i *) databytes);
  __m128i Shuf = _mm_loadu_si128(shuffleTable[control]);
- Data = _mm_shuffle_epi8(Data, Shuf); // final decoded data  
+ Data = _mm_shuffle_epi8(Data, Shuf); // final decoded data
  datasource += C;
 ```
 

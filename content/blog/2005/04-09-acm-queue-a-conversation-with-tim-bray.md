@@ -6,6 +6,7 @@ title: "ACM Queue &ndash; A Conversation with Tim Bray"
 
 
 This is brilliant! [ACM Queue is publishing an interview with Tim Bray (of XML fame)](http://queue.acm.org/detail.cfm?id=1046941) done by Jim Gray (of data cube and database transactions fame). Tim now runs Web technologies for Sun Microsystems. Tim Bray basically says that RDF and Semantic Web are a no go but we knew that&rsquo;s what he thought.
+
 However, there are many cool quotes. Try to find the pattern in these:
 
 >My CEO, Tom Jenkins, agreed to turn me loose to work on it myself, and I spent six months basically doing nothing else and built the crawler and the interfaces. (&hellip;) I lost weeks and weeks and weeks of sleep, hacking and patching and kludging to keep this thing on the air under the pressure of the load.

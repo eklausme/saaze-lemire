@@ -12,3 +12,4 @@ Didier reminded me to check Nielsen&rsquo;s last post on Principles of Effective
 
 
 This is a refreshing view.
+

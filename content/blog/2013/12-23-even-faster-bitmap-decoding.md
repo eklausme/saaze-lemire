@@ -10,7 +10,7 @@ Bitmaps are a simple data structure used to represent sets of integers. For exam
 Unfortunately, extracting the bit sets in a bitmap can be expensive. Suppose I give you the integer 27 (written as 0b011011 in binary notation), you would want to recover the integers 0, 1, 3 and 4. Of course, you can check the value of each bit (by computing <tt>v &amp; (1&lt;&lt;bit)</tt>) but this can be atrociously slow. To do it faster, you can use the fact that you can quickly find the least significant bit set:
 ```C
 int pos = 0;
-for(int k = 0; k < bitmaps.length; ++k) {  
+for(int k = 0; k < bitmaps.length; ++k) {
   long data = bitmaps[k];
   while (data != 0) {
     int ntz = Long.numberOfTrailingZeros(data);

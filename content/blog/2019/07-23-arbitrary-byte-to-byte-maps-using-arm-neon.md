@@ -23,11 +23,11 @@ To implement such a function on block of 16 bytes with NEON, we use the `vqtbl4q
 ```C
 uint8x16_t simd_transform16(uint8x16x4_t * table, uint8x16_t input) {
   uint8x16_t  t1 = vqtbl4q_u8(table[0],  input);
-  uint8x16_t  t2 = vqtbl4q_u8(table[1],  
+  uint8x16_t  t2 = vqtbl4q_u8(table[1],
        veorq_u8(input, vdupq_n_u8(0x40)));
-  uint8x16_t  t3 = vqtbl4q_u8(table[2],  
+  uint8x16_t  t3 = vqtbl4q_u8(table[2],
        veorq_u8(input, vdupq_n_u8(0x80)));
-  uint8x16_t  t4 = vqtbl4q_u8(table[3],  
+  uint8x16_t  t4 = vqtbl4q_u8(table[3],
        veorq_u8(input, vdupq_n_u8(0xc0)));
   return vorrq_u8(vorrq_u8(t1,t2), vorrq_u8(t3,t4));
 }
@@ -35,12 +35,13 @@ uint8x16_t simd_transform16(uint8x16x4_t * table, uint8x16_t input) {
 
 
 In terms of loads and stores, assuming that you enough registers, you only have one load and one store per block of 16 bytes.
+
 A more practical scenario might be to assume that all my byte values fit in [0,128), as is the case with a stream of ASCII characters&hellip;
 ```C
-uint8x16_t simd_transform16_ascii(uint8x16x4_t * table, 
+uint8x16_t simd_transform16_ascii(uint8x16x4_t * table,
                uint8x16_t input) {
   uint8x16_t  t1 = vqtbl4q_u8(table[0],  input);
-  uint8x16_t  t2 = vqtbl4q_u8(table[1],  
+  uint8x16_t  t2 = vqtbl4q_u8(table[1],
      veorq_u8(input, vdupq_n_u8(0x40)));
   return vorrq_u8(t1,t2);
 }

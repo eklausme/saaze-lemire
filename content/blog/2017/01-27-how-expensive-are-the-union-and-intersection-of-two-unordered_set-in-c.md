@@ -13,7 +13,9 @@ out.insert(B.begin(), B.end());
 
 
 where `out` is an initially empty set. Because insertion in a set has expected constant-time performance, the computational complexity of this operation is <em>O</em>(size(A) + size(B)) which is optimal.
+
 If you are a computer scientist who does not care about real-world performance, your work is done and you are happy.
+
 But what if you want to build fast software for the real world? How fast are these C++ sets?
 
 I decided to populate two sets with one million integers each, and compute how how many cycles it takes to compute the intersection and the union, and then I divide by 2,000,000 to get the time spent per input element.

@@ -19,3 +19,4 @@ __Further reading:__  [Scholarly Communications must be Syndicated](http://www.a
 
 __Eating my own dog food:__  You can subscribe to my research papers <a href="https://feedburner.google.com/fb/a/mailverify?uri=DanielLemiresArticlesOnA
 rxiv">by email</a> or [through a reader](http://feeds.feedburner.com/DanielLemiresArticlesOnArxiv).
+

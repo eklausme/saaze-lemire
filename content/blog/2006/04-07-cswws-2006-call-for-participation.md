@@ -7,7 +7,8 @@ title: "CSWWS 2006: Call for Participation"
 
  The 2006 Canadian Semantic Web Working Symposium will be held June 6th at Laval University, Quebec, Canada. We invite you to attend. This event which will be held in conjunction with Canadian AI 2006.
 
-- On-line registration is [available](http://www.ift.ulaval.ca/~kone/SWIG06/CSWWS2006-registration.htm). THERE WILL BE NO ON-SITE REGISTRATION.- Industry partner and sponsor: OntoText ([ontotext.com](http://ontotext.com))
+- On-line registration is [available](http://www.ift.ulaval.ca/~kone/SWIG06/CSWWS2006-registration.htm). THERE WILL BE NO ON-SITE REGISTRATION. 
+- Industry partner and sponsor: OntoText ([ontotext.com](http://ontotext.com))
 - One plenary talk by Professor Michael N. Huhns, Director of the Center of Information Technology at the University of South Carolina,<br/>
 USA.
 - Two Tutorials:

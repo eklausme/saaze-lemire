@@ -24,6 +24,7 @@ The real reason the Harvard medical researcher does not fully open his lab to th
 To put it in clear terms, if you are an academic researcher, and you have data or software that could be useful to others&hellip; that could enable them to cure cancer, get trees to absorb CO2 faster, or crack AI&hellip; you&rsquo;d rather that they do not do these things as they would cast a shadow on your own accomplishments.
 
 But, surely, academic researchers are lot more open than people from industry? Not so.
+
 > â€œtrials by industry were 3 times more likely to report results than were trials funded by the NIH [government funding agency]â€ ([Law et al.](http://ncbi.nlm.nih.gov/pubmed/22147862))
 
 

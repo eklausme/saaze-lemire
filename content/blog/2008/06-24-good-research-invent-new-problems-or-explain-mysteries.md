@@ -8,6 +8,7 @@ title: "Good research: invent new problems or explain mysteries"
 It is a lot of work to grind through a research project and get an interesting paper out of it. Mostly, you have to be patient enough and work everyday at it. If you follow a sane process, it is difficult to fail entirely.
 
 Picking the right research question is very important however: it is difficult to recover from a bad choice of topic. There are at least 3 types of good research questions: 1) explain with a theoretical model a (puzzling) experimental observation 2) improve by at least an order of magnitude an existing technique 3) make up a new problem and be the first to propose a solution (I call it Turney&rsquo;s way).
+
 I now believe that options 1 and 3 are far better than option 2. To illustrate my opinion, here is a little scenario:
 
 - read a paper;

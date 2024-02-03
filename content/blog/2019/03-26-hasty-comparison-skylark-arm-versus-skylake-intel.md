@@ -28,6 +28,7 @@ Fasta                    |2.0 s                    |0.8 s                    |
 
 
 [My benchmark is available](https://github.com/lemire/Code-used-on-Daniel-Lemire-s-blog/tree/master/2019/03/26).
+
 What can we conclude from these numbers? Nothing except maybe that the Skylark box struggles with Binarytree. That benchmark is dominated by the cost of memory allocation/deallocation.
 
 Let me try another benchmark, this time from the [cbitset library](https://github.com/lemire/cbitset):

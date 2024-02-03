@@ -16,6 +16,7 @@ title: "Science and Technology links (May 12th, 2017)"
 [Amazon is selling a $230 device (Echo Show) that you can talk to, use as a touchscreen and use to make video calls](https://techcrunch.com/2017/05/09/amazon-unveils-the-230-echo-show-with-a-screen-for-calls-shipping-june-28/). Yes. $230.
 
 Published in Nature: [A chronic low dose of tetrahydrocannabinol (THC) restores cognitive function in old mice](https://www.nature.com/nm/journal/vaop/ncurrent/full/nm.4311.html). In other words, cannabis could rejuvenate your brain. Now that cannabis is being decriminalized in North America, we might get to learn a lot more about it is medical uses.
+
 [Kinsey reflects on the fact that current machine learning techniques require large budgets](https://medium.com/@libbykinsey/iclr2017-deep-thought-vs-exaflops-9f653354737b):
 
 > â€Šmany of the papers deemed most significant relied on massive compute resource that is usually unavailable to academics.

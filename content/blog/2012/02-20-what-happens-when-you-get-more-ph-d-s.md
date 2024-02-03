@@ -14,6 +14,7 @@ Borjas and Doran examined the problem. Their starting point was the realization 
 
 
 What happened? Basically, the number of research jobs, including tenure-track positions, is mostly independent from the supply of Ph.D.s: Harvard will not hire more professors next year even if all of the Ph.D.s in the world move to Boston. The number of new hires depends of factors such as government funding for research and the number of undergraduate students in research universities. So the new researchers just took the jobs that would have gone to other researchers. Young American researchers had to drop out of research for lack of a position.
+
 This study offers an important policy lesson. Training more Ph.D.s in some targeted areas might fail to improve research output in these areas. In this instance, supply-side economics fails. It might be preferable to create new research jobs instead and attract the Ph.D.s with better salaries.
 
 For example, imagine that the government wants to help cancer research. Providing more scholarships to graduate students either directly, or through grants to professors, sounds sensible. However, it might not have the desired effect at all, according to this study. It would be preferable to use the money to create more research jobs pertaining to cancer research.

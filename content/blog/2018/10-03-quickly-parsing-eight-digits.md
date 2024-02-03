@@ -37,7 +37,7 @@ uint32_t parse_eight_digits_ssse3(const char *chars) {
   __m128i t2 = _mm_madd_epi16(t1, mul_1_100);
   __m128i t3 = _mm_packus_epi32(t2, t2);
   __m128i t4 = _mm_madd_epi16(t3, mul_1_10000);
-  return _mm_cvtsi128_si32(t4); 
+  return _mm_cvtsi128_si32(t4);
 }
 ```
 
@@ -70,11 +70,11 @@ uint32_t parse_eight_digits_swar(const char *chars) {
   uint64_t val;
   memcpy(&val, chars, 8);
   val = val - 0x3030303030303030;
-  uint64_t byte10plus   = ((val        
+  uint64_t byte10plus   = ((val
       * (1 + (0xa  <<  8))) >>  8)
       & 0x00FF00FF00FF00FF;
-  uint64_t short100plus = ((byte10plus 
-       * (1 + (0x64 << 16))) >> 16) 
+  uint64_t short100plus = ((byte10plus
+       * (1 + (0x64 << 16))) >> 16)
        & 0x0000FFFF0000FFFF;
   short100plus *= (1 + (10000ULL << 32));
   return short100plus >> 32;

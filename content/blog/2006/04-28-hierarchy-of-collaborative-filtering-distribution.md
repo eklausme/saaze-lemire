@@ -10,6 +10,7 @@ I think that, increasingly, both creators and clients want to regain control. Th
  Increasingly, we are seeing that the creator want to stay in control. Publishers increasingly struggle to stay in charge, but they fight a losing war. The next logical step is that the clients will want more &ldquo;control&rdquo; as well.
 
 This issue lead me to designing this &ldquo;Hierarchy of Collaborative Filtering Distribution&rdquo;<sup>[1](#rec1)</sup>.
+
 __Definition__: <em>In a collaborative filtering recommender system, we have two type of human agents: the creators who want to sell their content, and the clients who are willing to share some of their preferences. By this definition, Google is typically not a collaborative filtering recommender system.</em>
 
 __Level 1__. The data (and goods) are centralized. The creators relinquish total control. The clients need to trust one entity with its preferences. The business value is in controlling the channel, the data and providing good tools. (Think: [Amazon](https://www.amazon.com)) (Think: Standard distribution channels)
@@ -19,6 +20,7 @@ __Level 2__. Only the meta-data is centralized. The creators keep the control, b
 __Level 3__. Both the data __and__ the metadata is distributed and only the aggregation needs to happen at one point of contact. The clients and the creators use interoperable tools and data format and keep tight control of their data. The business value is in the tools and services themselses, not in the data. (Think: Semantic Webish applications.)
 
 Regarding Music, going to the level 3 is not hard. Sites like [inDiscover](http://www.indiscover.net) and webjay already make playlists available in XML. This is where the work of people like [Lucas Gonze on XML formats for MP3 playlists](http://gonze.com/playlists/playlist-format-survey.html) can become interesting.
+
 Imagine a world were artists post on various web sites, not only their MP3s, but also, some standard XML file allowing aggregation. Imagine also that users posts their playlists (indiscover and webjay users do this already). We then have the possibility for a level 3 distributed recommender system &ldquo;Ã  la Semantic Web&rdquo;.
 
 This can then be very interesting research-wise and business-wise.

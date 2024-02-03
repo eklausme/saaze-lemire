@@ -6,6 +6,7 @@ title: "Why I have the best and most beautiful wife in the world!"
 
 
 Today was my birthday. I&rsquo;m old, or at least, getting older.
+
 Why is my wife so great? Well, she is beautiful, a great mom and very smart. Also, she gave me a MP3 player today: that&rsquo;s right, I got a nice Benq Joybee 110. I&rsquo;m very happy.
 
 Back to the serious stuff. When you get such a device, you got to make it work with Linux. So I plug the device&hellip; and it immediately shows up when I type &ldquo;dmesg&rdquo;&hellip; something like this appears&hellip;
@@ -43,7 +44,8 @@ rc-update add hotplug boot
 ```
 
 
-Ok, back to the output of dmesg, it seems the device is at &rdquo; /dev/scsi/host2/bus0/target0/lun0&#8243;, how do I mount this?```C
+Ok, back to the output of dmesg, it seems the device is at &rdquo; /dev/scsi/host2/bus0/target0/lun0&#8243;, how do I mount this?
+```C
 
  > ls /dev/scsi/host2/bus0/target0/lun0
 disc  generic  part1

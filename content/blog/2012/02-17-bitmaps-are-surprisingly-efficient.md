@@ -36,6 +36,7 @@ We need a different implementation however, one where you check the bits of the 
 
 
 This new algorithm looks inefficient. There is a lot of branching inside a tight loop. Yet the bitmap approach can be faster when the density of updates is high enough (>2%), as the next table shows.
+
 density (%)              |&nbsp;&nbsp;&nbsp;time&nbsp;&nbsp;&nbsp; |&nbsp;&nbsp;time with bitmaps&nbsp;&nbsp; |&nbsp;&nbsp;straight copy&nbsp;&nbsp; |
 -------------------------|-------------------------|-------------------------|-------------------------|
 17                       |48                       |__26__                   |__24__                   |

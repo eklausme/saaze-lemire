@@ -27,6 +27,7 @@ In my experience, mathematics suffers from a diminishing return effect. The basi
 John says&hellip; <em>A lot of math involves calculations, but I&rsquo;ve begun to realize that calculating isn&rsquo;t really what math is about. It seems math is a far more abstract topic and calculating is just an &ldquo;unfortunate&rdquo; chore that must be done before having the real fun. Problem is, up to now I&rsquo;ve always thought that the calculations were the math, and that was all there was to it. How do you abstract away from the rote number crunching and gain an intuitive grasp of math concepts? Must one be good at quick mental calculations and basic math to truly understand and enjoy math?</em>
 
 Fast and accurate number crunching might be useful to impress teachers. But computers are about a billion times better than the best human being could ever be.
+
 John says&hellip; <em>How do you learn new math? When you do, have you always found it necessary to work through lengthy sets of problems involving the new concept? If so, how do you learn math outside of textbooks and college courses when problem sets are not present? Have you always just learned from college courses? Do you find math as presented in textbooks dry? Is there, perhaps, another, better way to learn math?</em>
 
 I have gotten rid of my books several years ago. I am a university professor, but if you come to my office, I have no textbook. For some classes I teach, I expect the students to get a textbook, but that&rsquo;s mostly to satisfy students&rsquo; expectations.
@@ -34,10 +35,13 @@ I have gotten rid of my books several years ago. I am a university professor, bu
 Solving problems is definitively the best way to learn mathematics. For most topics, there are thousands of great problems online. There are also great YouTube videos and so forth.
 
 It is not that textbooks are bad&hellip; but learning mathematics from a handful of textbooks is like trying to learn about love by reading a handful of romance novels. You need to get out there, find your own references.
+
 <em>Obviously, you have a Ph.D. in math. If you could do things over again, would you get the Ph.D., or not? Would you major in another field? </em>
 
 Degrees, especially advanced degrees, are overrated. You sometimes need degrees to get through the door. I bet that it is a lot easier to get an interview with Google if you have a computer science degree. If you want to get a research job, the Ph.D. makes things easier. But, the degree itself is a small thing.
+
 Think of it as being clean. It is hard to get a job if you are dirty. But if you clean yourself up, you may still never get the job you want. The fact is that is hard to get good jobs, even with a computer-science degree.
+
 Whether you have a college degree or not, only about [a third of all workers](http://www.medicaldaily.com/college-grads-are-more-unhappy-work-less-educated-according-new-gallup-poll-understanding-why-key) are enthusiastic about their work. A degree gives you access, potentially, to higher paying jobs&hellip; but it won&rsquo;t make your career.
 
 So don&rsquo;t go just do a degree. Do something cool and fun on the side. Build a mobile app. Build a VR mini-game. Design a website. Build a new AI. Find something you like doing and get good at it. It comes down to the same idea: work on examples you care about.

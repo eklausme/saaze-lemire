@@ -6,6 +6,7 @@ title: "Efficient FIFO/Queue data structure in Python"
 
 
 For the types of algorithms I implement these days, I need a fast FIFO-like data structure. Actually, I need a [double-ended queue](https://en.wikipedia.org/wiki/Deque). Python has a list type, but it is somewhat a misnomer because its performance characterics are those of a vector. Recently, I found mxQueue which is a separate (non-free) download. Unfortunately, mxQueue has a non-Pythonic interface and, to make matters worse, I found out that Python comes by default with a really nice Queue of its own, called deque: you can find it in the new collection module.
+
 Thus, as a good scientist, I decided to test these 3 implementations. As it turns out, Queue.deque is a perfectly good FIFO data structure:
 
 Python class             |time (s)                 |

@@ -6,7 +6,9 @@ title: "Are there too many people?"
 
 
 Without immigration, most developed countries would face massive depopulation. In fact, half the population of the Earth [lives in countries with sub-replacement fertility](https://en.wikipedia.org/wiki/Sub-replacement_fertility).
+
 The threshold for a sustained population is a fertility rate of 2.1. [Taiwan South Korean and Singapore are at 1.2](https://en.wikipedia.org/wiki/List_of_sovereign_states_and_dependent_territories_by_fertility_rate), Japan and Germany are at 1.5, the whole European Union and Canada are at 1.6, Australia, the United Kingdom and the USA are at 1.8.
+
 Yet Earth&rsquo;s population is still growing. Where is the population growth? Niger, Sudan, Somalia, Mozambique, Uganda, Congo, Afghanistan&hellip; Or, to put it another way, in the poor countries.
 
 If the current trends are maintained, by 2050, Japan will count about 100 million inhabitants or over 25 million fewer than the current count. By then, there will be [many more Japanese in their seventies](https://populationpyramid.net/japan/2050/) than in any other 10-year age group.
@@ -24,3 +26,4 @@ You&rsquo;d think that being few in a rich country is not a major problem. But d
 It is true that a child is a mouth to feed. But a child might grow up to build new technology, to care for the sick, and so forth.
 
 At least as far as the richest third of humanity is concerned, there are not too many people, and there might be too few.
+

@@ -16,3 +16,4 @@ I propose that people list their two biggest accomplishments. It could be an exp
 Students can get started quickly. Senior researchers will have a harder time making progress. I submit to you that industry already works this way. Senior engineers are only as reputed as their two biggest most-difficult projects. It does not matter if you completed 120 small projects.
 
 C.V.s would now fit in a single page. Tell us where you work, where you got your Ph.D. and what the two big things you did are. That is it.
+

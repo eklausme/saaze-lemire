@@ -12,7 +12,6 @@ byte[] array = new byte[4];
 
 
 
-
 How much memory does this array take? If you have answered &ldquo;4 bytes&rdquo;, you are wrong. A more likely answer is 24 bytes.
 
 [I wrote a little Java program that relies on the jamm library](https://github.com/lemire/Code-used-on-Daniel-Lemire-s-blog/tree/master/2022/11/22) to print out some answers, for various array sizes:

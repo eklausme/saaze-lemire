@@ -22,6 +22,7 @@ When not attributed to a lack of sufficient exercise, many of these effects seem
 So it looks like despite short stays, and very attentive medical care, astronauts age at a drastically accelerated pace&hellip; not just in one or two ways but across a broad spectrum of symptoms.
 
 I looked as hard as I could and I could not find any trace of medical scientists worrying about such a phenomenon a priori.
+
 What is going on? Why does life in space accelerate aging so much?
 
 Gravity seems to play a key role:

@@ -9,7 +9,8 @@ Scott Adams has a series of posts on intelligence (1, 2, 3). He is arguing that 
 
 His logic is fascinating.
 
-1. Anything that creates (is the cause of) literature is intelligent. That&rsquo;s just a specific version of the Turing test.1. The Big Bang predates us and, had it not existed, there would be no literature. Indirectly, it created our literature.
+1. Anything that creates (is the cause of) literature is intelligent. That&rsquo;s just a specific version of the Turing test. 
+1. The Big Bang predates us and, had it not existed, there would be no literature. Indirectly, it created our literature.
 
 
 Naturally, you can have fun and replace Big Bang by any other concept human beings depended on.

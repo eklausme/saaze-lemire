@@ -11,7 +11,8 @@ title: "Science and Technology links (May 26th, 2018)"
 
 1. Contrary to earlier research, a [new article](http://journals.sagepub.com/doi/abs/10.1177/0956797618761661?journalCode=pssa) finds that teaching kids to delay gratification is likely a waste of time. The whole concept of &ldquo;emotional intelligence&rdquo; is probably much less solid than was believed.
 1. [As more Chinese have left farms in the countryside to work in factory cities, the suicide rate has plummeted](https://humanprogress.org/article.php?p=1291).
-1. Excess of inflammation is the key ingredient in many nasty diseases. [A recent paper suggests that eating baking soda could anti-inflammatory](http://www.jimmunol.org/content/200/10/3568). Drinking water filled with baking soda is not pleasant.1. Many people take statins, a wide family of drugs that are supposed to reduce your risk of having a cardiovascular incident. [It seems that part of their beneficial effect could be that they neutralize your stem cells&hellip; which helps reduce the production of undesirable cells, but also leads to what can be described as accelerated aging&hellip;](https://www.physiology.org/doi/abs/10.1152/ajpcell.00406.2014)<br/>
+1. Excess of inflammation is the key ingredient in many nasty diseases. [A recent paper suggests that eating baking soda could anti-inflammatory](http://www.jimmunol.org/content/200/10/3568). Drinking water filled with baking soda is not pleasant. 
+1. Many people take statins, a wide family of drugs that are supposed to reduce your risk of having a cardiovascular incident. [It seems that part of their beneficial effect could be that they neutralize your stem cells&hellip; which helps reduce the production of undesirable cells, but also leads to what can be described as accelerated aging&hellip;](https://www.physiology.org/doi/abs/10.1152/ajpcell.00406.2014)<br/>
 
 > statins impaired the osteogenic and chondrogenic differentiation potential of stem cells and increased cell senescence and apoptosis (&hellip;) Statins also impaired the expression of DNA repair genes
 
@@ -36,6 +37,7 @@ Their theory is that Earth is bombarded by genetic material, viruses and bacteri
 1. [Sarah Constantin writes on cancer research](https://reason.com/archives/2018/05/12/when-cancer-was-conquerable):<br/>
 
 > The whole cycle, from no chemotherapies at all to development, trial, and FDA approval for multiple chemotherapy drugs, took just six years. Modern developments, by contrast, can take decades to get to market. The type of research that gave us chemotherapy could never receive fundingâ€”and would likely get its practitioners thrown in jailâ€”if it were attempted today.
+
 The problem is clear: Despite tens of billions of dollars every year spent on research, progress in combating cancer has slowed to a snail&rsquo;s pace. So how can we start to reverse this frustrating trend? We know from history that cancer research doesn&rsquo;t need to cost billions to be effective. Instead of open-ended grants, donors could pay for results via contracts or prizes.
 
 We used to think cancer was conquerable. Today, that idea is often laughed off as utopian. But there are countless reasons to believe that progress has slowed because of organizational and governmental problems, not because the disease is inherently incurable.

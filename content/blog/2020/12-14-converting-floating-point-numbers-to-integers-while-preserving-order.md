@@ -52,7 +52,7 @@ uint64_t sign_flip(uint64_t x) {
    // in all case, we need to flip the most significant bit
    mask |= 0x8000000000000000;
    return x ^ mask;
-}  
+}
 ```
 
 

@@ -8,6 +8,7 @@ title: "How much are the ideas of your competition worth to you?"
 Scientists are typically rather secretive about whatever they are working on right now. While in most universities, you can at least see where the researchers work, in some government laboratories, such as [NRC](http://www.nrc-cnrc.gc.ca/index.html), you would think that Russian spies are on every corner: how else can you explain the armed guards you find at the entrance of some buildings? I bet that some private laboratories are even better protected.
 
 Initially, when I started this blog, I wanted to tell the world about what I was working on. Somehow, on paper, it sounded like a nice approach. By sharing my ideas, I could get some early feedbacks, some extra references, I could maybe even get some collaboration going.
+
 While it may work for some, opening up my research ideas simply does not work for me. Explaining, clearly, what I work on is __hard__. I could sketch my ideas, but only a handful of people would grasp even half of what I would write. Moreover, many ideas never make it outside my office. I abandon most of my ideas, eventually. Thus, taking the time to explain my current set of ideas would be very wasteful.
 
 So, you simply cannot tell what I am working on. I just won&rsquo;t tell you. I will tell you to go read my papers.

@@ -8,11 +8,15 @@ title: "Expert performance and training: what we really know"
 Movies such as [Good Will Hunting](https://www.imdb.com/title/tt0119217/) tell beautiful stories about young people able to instantly master difficult topics, without any effort on their part.
 
 That performance is unrelated to effort is an appealing belief. Whether you perform well or poorly is not your fault. Some go further and conclude that success and skill levels are primarily about genetics. That is an even more convenient observation: the quality of your parenting or education becomes irrelevant. If kids raised in the ghetto do poorly, it is because they inherited the genes of their parents! I personally believe that poor kids tend to do poorly in school primarily because they work less at it (e.g., kids from the ghetto will tend to pass on their homework assignments for various reasons).
+
 A recent study by [Macnamara et al.](https://login.proxy.hil.unb.ca/login?url=http://pss.sagepub.com/content/25/8/1608.short) suggests that practice explained less than 1% of the variance in performance within professions, and generally less than 25% of the variance in other activities.
+
 It is one of several similar studies attempting to debunk the claim popularized by [Gladwell](https://en.wikipedia.org/wiki/Outliers_(book)) that expert performance requires 10,000 hours of deliberate training.
 
 Let us get one source of objection out of the way: merely practicing is insufficient to reach world-expert levels of performance. You have to practice the right way, you have to put in the mental effort, and you have to have the basic dispositions. (I can never be a star basketball player.) You also need to live in the right context. Meeting the right people at the right time can have a determining effect on your performance.
+
 But it is easy to underestimate the value of hard work and motivation. We all know that Kenyan and Ethiopian make superb long-distance runners. Right? This is all about genetics, right? Actually, though their body type predispose them to good performance, factors like [high motivation and much training in the right conditions are likely much more important than any one specific gene](http://www.ncbi.nlm.nih.gov/pubmed/22634972).
+
 Time and time again, I have heard people claim that mathematics and abstract thinking was just beyond them. I also believe these people when they point out that they have put many hours of effort&hellip; However, in my experience, most students do not know how to study properly. You should never, ever, cram the night before an exam. You should not do your homework in one pass: you should do it once, set it aside, and then revise it. You absolutely need to work hard at learning the material, forget it for a time, and then work at it again. That is how you retain the material on the long run. You also need to have multiple references, repeatedly train on many problems and so on.
 
 I believe that poor study habits probably explain much of the cultural differences in school results. Some cultures seem to do a lot more to show their kids how to be intellectually efficient.

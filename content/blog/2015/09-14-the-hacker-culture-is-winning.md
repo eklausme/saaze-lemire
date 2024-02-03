@@ -8,6 +8,7 @@ title: "The hacker culture is winning"
 Driven by companies like Google, the hacker spirit is winning. Though we fail to see it, our culture is being hacked.
 
 One annoying element of this culture has become ubiquitous: constant updates. The old-school software industry minimized updates. Then companies like Google or Facebook came about with software that was constantly updated. For a hacker, this is quite natural&hellip; But it breaks rather fundamentally classical organizational and engineering principles. You are supposed to document what needs to be built, build it, verify it and ship it.
+
 Only ten years ago, most people were unaware of software updates. That was something that the IT guys did. When that happened, you occasionally were retrained, but you never had to handle it yourself.
 
 Today everybody knows about software updates. Little boys can tell you exactly which version of Minecraft they are running, down to the last digit.
@@ -21,6 +22,7 @@ Though people are often careful to relabel their work as &ldquo;engineering&rdqu
 The typical organizational argument against frequent updates is &ldquo;risk&rdquo;. But hackers know that this cut both ways&hellip; Yes, an update can bring about trouble&hellip; but rigid projects often collapse while delivering nothing and costing a lot.
 
 Last time I embarked in a plane, the little monitors set in each chair were showing a Linux update being installed. I was amazed by two things&hellip; one, that a plane is running Linux (a &ldquo;hacker&rdquo; system) and, two, that they were doing a live update with passengers onboard.
+
 So where does that leave us? I think that once you accept frequent software updates, other things become easier to consider&hellip; and that&rsquo;s the big culture hack I refer to&hellip;
 
 - Maybe your budget could be revised on a weekly basis instead of a yearly one? The counterargument is that it would create chaos&hellip; the counter-counter-argument is that by being rigid, you risk missing the boat entirely.

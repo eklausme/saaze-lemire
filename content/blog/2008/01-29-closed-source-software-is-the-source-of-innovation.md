@@ -13,6 +13,7 @@ Geoff cites an article by [Jaron Lanier](https://en.wikipedia.org/wiki/Jaron_Lan
 First of all, Page Rank was not designed in a proprietary-software environment. It was designed at Stanford. And Google is not exactly a proprietary-software shop. They use Linux, Python and plenty of open source software. They also [give back a lot to the open source communities](https://developers.google.com/open-source/?csw=1).
 
 Apple is hot with innovations? Maybe, but before they took a sharp turn back toward BSD and built on open source software, they were going to hell with their proprietary operating system. Several key Apple components are open source software, including their [Web browser engine](https://en.wikipedia.org/wiki/Webkit).
+
 Wikipedia? Built on MediaWiki, MySQL, PHP, MemCached. YouTube? Built on MySQL, Python, and MemCached.
 
 There is plenty of innovation going on in the open source world. It just does not come in a box with a CD-ROM. Open source software is the greatest innovation enabler in our history.

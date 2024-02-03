@@ -166,14 +166,14 @@ func TestAverage(t *testing.T) {
       if x < y {
         if m < x || m > y {
           t.Error("error ", x, " ", y)
-        }           
+        }
       } else {
         if m < y || m > x {
           t.Error("error ", x, " ", y)
-        }  
+        }
       }
     }
-  } 
+  }
 }
 ```
 
@@ -183,7 +183,7 @@ In practice, it is rare that we can do exhaustive tests. We can instead use pseu
 package main
 
 import (
-    "testing"   
+    "testing"
         "math/rand"
 )
 
@@ -205,13 +205,13 @@ func TestAverage(t *testing.T) {
     if x < y {
       if m < x || m > y {
         t.Error("error ", x, " ", y)
-      }           
+      }
     } else {
       if m < y || m > x {
         t.Error("error ", x, " ", y)
-      }  
+      }
     }
-  } 
+  }
 }
 ```
 
@@ -259,10 +259,10 @@ func Average(x, y uint16) uint16 {
 func TestAverage(t *testing.T) {
    if Average(2,4) != 3 {
      t.Error("error 1")
-   } 
+   }
    if Average(40000,40000) != 40000 {
      t.Error("error 2")
-   }           
+   }
 }
 ```
 

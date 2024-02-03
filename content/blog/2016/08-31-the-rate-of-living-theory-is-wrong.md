@@ -16,6 +16,7 @@ The famous science-fiction writer David Brin penned an essay entitled [Want to L
 Brin&rsquo;s essay basically says that evolution tried to maximize our lifespan, but that we are hitting the limits set by the rate-of-living theory.
 
 This sounds good and intuitive.
+
 But is it true? Notice how Brin refers only to mammals. What about birds? Well, parrots live to be 75 yet their hearts can beat up to 600 times per minute. And some animals (like the jellyfish and the hydra) are considered â€œimmortalâ€.
 
 So maybe there is something special about mammals that makes us burn like candles with each heart beat.

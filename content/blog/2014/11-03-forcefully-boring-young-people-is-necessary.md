@@ -36,6 +36,7 @@ As a kid, I was diagnosed with a learning disability. I failed kindergarten and 
 If my life depended on it, I could listen to a teacher for 50 minutes without losing a word. I could memorize long tables of numbers. But as a kid, I refused to do it because it is boring and unnecessary.
 
 As a middle-age tenured professor with dozens of published research papers I can say with confidence that rote memorization of the multiplication tables would have been useless to me. I think it is, at best, of a very limited use to a very limited number of people&hellip;
+
 Now, there are kids that simply cannot learn to read or to multiply because they have a disability. It seems that drugs can help them. They should certainly take them. But if your little boy cannot be bothered to do rote memorization or other boring school-related tasks, is having him take pills the real solution? Is it fair to force generations of kids to do boring unpaid work because we say so?
 
 There were things that I really disliked as a student. Rote memorization was one of them. Another was the lecture. Even to this day, I cannot listen to most lectures without getting bored in the first 5 minutes. I think I might even be an extremist in this respect: in college, I skipped most of my lectures, or just attended them to know when the assignments and exams were. I then worked on my own at the library, or with close friends.

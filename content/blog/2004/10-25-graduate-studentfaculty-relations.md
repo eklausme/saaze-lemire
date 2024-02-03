@@ -26,3 +26,4 @@ That&rsquo;s how the real world works. Evil employers will have trouble finding 
 The day when the employees stop leaving, because they are scared or tired, the market stops working and the trouble starts.
 
 Generally speaking, academia doesn&rsquo;t have so much a culture problem as it has a market problem: too many potential candidates for some positions leading to a general degradation of the working conditions for everyone involved.
+

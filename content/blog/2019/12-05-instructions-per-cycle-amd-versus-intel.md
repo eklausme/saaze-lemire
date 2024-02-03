@@ -30,7 +30,7 @@ processor                |IPC (stage 1)            |IPC (stage 2)            |
 
 Another problem that I like is bitset decoding. That is given an array of bits (0s and 1s), I want to find the location of the ones. See my blog post [Really fast bitset decoding for “average” densities](/lemire/blog/2019/05/03/really-fast-bitset-decoding-for-average-densities/). I benchmark just the &ldquo;basic&rdquo; decoder.
 ```C
-void basic_decoder(uint32_t *base_ptr, uint32_t &base, 
+void basic_decoder(uint32_t *base_ptr, uint32_t &base,
   uint32_t idx, uint64_t bits) {
   while (bits != 0) {
     base_ptr[base] = idx + _tzcnt_u64(bits);
@@ -54,6 +54,5 @@ So AMD runs at 2/3 the IPC of an old Intel processor. That is quite poor!
 Of course, your results will vary. And I am quite willing to believe that in many, maybe even most, real-world cases, AMD Zen 2 can do more work per unit of work than the best Intel processors. However I feel that we should qualify these claims. I do not think it is entirely reasonable for AMD customers to expect better numbers of instructions per cycle on the tasks that they care about, and they may even find lower numbers. AMD Zen 2 does not dominate Intel Skylake, it is more reasonable to expect rough parity.
 
 __Further reading__: [AMD Zen 2 and branch mispredictions](/lemire/blog/2019/12/06/amd-zen-2-and-branch-mispredictions/)
-
 
 

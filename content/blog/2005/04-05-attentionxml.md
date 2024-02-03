@@ -10,7 +10,8 @@ I just became aware of the Attention.XML specification. The goal of Attention.XM
 > 
 - How many sources of information must you keep up with?
 - Tired of clicking the same link from a dozen different blogs?
-- RSS readers collect updates, but with so many unread items, how do you know which to read first?- 
+- RSS readers collect updates, but with so many unread items, how do you know which to read first? 
+- 
 Attention.XML is designed to to solve these problems and enable a whole new class of blog and feed related applications.
 
 

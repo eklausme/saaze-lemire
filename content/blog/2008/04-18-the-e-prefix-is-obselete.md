@@ -18,3 +18,4 @@ Do you know any student who fail to use the Web to help them in their classes?
 Do you know any business that is not also an e-Business? Even the shops at my local market have computers on their stands so that you can pay with a debit card.
 
 __Source__: This idea came in an e-discussion with [Daniel Tunkelang](https://thenoisychannel.blogspot.com/).
+

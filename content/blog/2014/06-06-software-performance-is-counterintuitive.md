@@ -43,6 +43,7 @@ array size (one of 3 arrays) |&nbsp;bitwise-or&nbsp;   |&nbsp;bitwise-or and car
 
 
 You read this right: the two loops have identical cost for moderately big arrays!
+
 What happens is that the `__builtin_popcountl` function is compiled down to a single instruction: <tt>popcnt</tt>, available on PC processors produced after 2008. This instruction is very efficient: it has a throughput of one instruction per CPU clock cycle. Moreover, recall that modern processors are superscalar: they can execute more than one operation at a time. To make things more complicated, the processor is also often starved for data as it needs to load data from RAM. In this case, the processor is able to compute of the cardinality __for free__ on megabytes of data. But even when all the data mostly fits in cache, the penalty for doing extra work can be small. The computation of the bitwise OR is so cheap that it leaves much of the silicon on your processor free to do other work __at the same time__ if needed.
 
 Note that even for short arrays, we probably exaggerate the benefit of the short loop: in these particular tests, we loop many times over the same memory sections so that it remains in CPU cache whereas in an actual application we would suffer cache misses.

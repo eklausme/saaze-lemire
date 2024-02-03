@@ -21,7 +21,7 @@ unsafe static bool is_made_of_sixteen_digits(byte* chars) {
   Vector128<sbyte> raw = Sse41.LoadDquVector128((sbyte*)chars);
   var a = Sse2.CompareGreaterThan(raw, ascii0);
   var b = Sse2.CompareLessThan(raw, after_ascii9);
-  var c = Sse2.Subtract(a, b); // this is not optimal   
+  var c = Sse2.Subtract(a, b); // this is not optimal
   return (Sse41.TestZ(c,c));
 }
 ```
@@ -98,7 +98,7 @@ There might be a clever way to get C# to stop being inefficient, but you can als
 unsafe static int ParseNumberStringInline(byte* p, byte* pend) {
   if (p + 16 <= pend) {
     Vector128<sbyte> ascii0 = Vector128.Create((sbyte)47);
-    Vector128<sbyte> after_ascii9 = Vector128.Create((sbyte)58);    
+    Vector128<sbyte> after_ascii9 = Vector128.Create((sbyte)58);
     Vector128<sbyte> raw = Sse41.LoadDquVector128((sbyte*)p);
     var a = Sse2.CompareGreaterThan(raw, ascii0);
     var b = Sse2.CompareLessThan(raw, after_ascii9);

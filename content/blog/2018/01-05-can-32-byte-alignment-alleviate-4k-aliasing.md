@@ -20,6 +20,7 @@ In my previous blog post, I conjectured that the problem is harder to generate i
 Aleksey Shipilev disagreed and [stated on Twitter](https://twitter.com/shipilev/status/949202328489426944) that the problem was easily reproducible even when arrays are 32-byte aligned.
 
 [Aleksey refers to work done on OpenJDK to prevent this problem](https://bugs.openjdk.java.net/browse/JDK-8150730) with respect to array copies.
+
 Aleksey used an older Haswell processor, instead of the more recent Skylake processor that I am using. So I am going to go back to a Haswell processor.
 
 What I am going to do this time is align the destination array (a) on 32-byte boundaries, always. Then I am going to set the other array 4096 bytes ahead, minus some offset in bytes. I then report the number of cycles used per array element.

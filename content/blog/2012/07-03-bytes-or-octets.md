@@ -16,6 +16,7 @@ Correct answer (according to [IEEE 1541](https://en.wikipedia.org/wiki/IEEE_1541
 
 
 Hence, if I refer to 1024 times 8 bits, I should avoid &ldquo;1&thinsp;kB&rdquo; as this can be interpreted as 1000&thinsp;bytes where byte is a platform-specific term. I should write 1&thinsp;Kio or <em>one kibioctet</em>.
+
 __Note__: Yes, I am being pedantic.
 
 __Note 2__: I initially wrote &ldquo;1&thinsp;KB&rdquo; instead of &ldquo;1&thinsp;kB&rdquo;.

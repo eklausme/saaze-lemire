@@ -56,6 +56,7 @@ sudo installer -pkg X11SDK.pkg -target /<br/>
 </code>
 
 Ok, so far so good. I repeat this about ten times, just to be sure given the, apparently well known, randomized behavior in Apple&rsquo;s installers. Now, I&rsquo;m told that &ldquo;fink list -i system-xfree86&rdquo; should output some pseudo-packages. It outputs nothing except &ldquo;Information about 4816 packages read in 1 seconds.&rdquo; Given that I have two processors in this machine, I&rsquo;m not impressed that it takes 1 second to parse 4816 packages, but I presume that Fink is not written in assembly. Fine.
+
 Not all is lost! Fink tells me that if nothing works, I can try to &ldquo;flush out my X11 installation and remove any old placeholders and partially/fully installed X11-related packages&rdquo;. Oh! Ok. The command line is long and it remove my precious X11 application (this is scary! what else does it remove?), plus it tries to update Fink using what appears to be a very slow pipe (I have selected the rsync update method after the CVS method just hung there for over two hours doing nothing). What gets to me here is that clearly, Fink is in error, why do I need to remove Apple&rsquo;s X11 to fix Fink? Can we say &ldquo;bad engineering&rdquo;?
 
 Ok, now I try to rebuild from the ground up:

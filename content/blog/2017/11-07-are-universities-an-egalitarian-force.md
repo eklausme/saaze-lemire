@@ -10,7 +10,9 @@ Many people are concerned about economic inequality. Many of these people work o
 I have reviewed this issue earlier this year in [College and inequality](/lemire/blog/2017/03/07/college-and-inequality/). I believe that the case for colleges as agents of equality is much weaker than people expect, and the reverse case can be made with equal confidence. The tax breaks that Princeton and Harvard receives (tens of thousands of dollars per student per year) are not egalitarian.
 
 This time, I want to examine more closely what the scholarship has to teach us.
+
 In her book, [Mettler (2014) argues that](https://www.amazon.com/Degrees-Inequality-Politics-Education-Sabotaged-ebook/dp/B00G1SD55C/)
+
 > our system of higher education not only fails to mitigate inequality but it exacerbates it.
 
 
@@ -22,6 +24,7 @@ Her book makes a comprehensive case. One of her argument is that well-off kids a
 To this, one must add an important fact: if you are a kid from the top 1%, you are almost certain to graduate from college with a degree, even if you party all the time&hellip; kids of lesser families are much, much more likely to never graduate, and end up with leftover debts. See also the 2015 book by Armstrong and Hamilton, [Paying for the Party: How College Maintains Inequality](https://www.amazon.com/Paying-Party-College-Maintains-Inequality/dp/0674088026/) which [I already covered](/lemire/blog/2017/03/07/college-and-inequality/).
 
 [Hershbein et al. (2015)](http://www.hamiltonproject.org/assets/legacy/files/downloads_and_links/impact_of_edu_earnings_inequality_hershbein_kearney_summers.pdf) say that you should not expect too much from education regarding inequality:
+
 > Increasing educational attainment will not significantly change overall earnings inequality. The reason is that a large share of earnings inequality is at the top of the earnings distribution, and changing college shares will not shrink those differences.
 
 

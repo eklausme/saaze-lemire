@@ -18,9 +18,11 @@ You play as an android that has two modes of attack that can be used simultaneou
 Because you are an android, you can reprogram yourself by acquiring new programs. For example, you can make it so that whenever your health levels fall under a threshold, you automatically heal yourself using one of your &ldquo;healing potions&rdquo;. You can also make it so that after receiving some damage, you become invincible for a second or two. Combining these two programs is sufficient that, for most purposes, you are invincible&hellip; as long as you have enough &ldquo;healing potions&rdquo;&hellip; but these are cheap and widely available in stores.
 
 When I first starting playing, I paid little to no attention to these programs, nor did I pay much attention to my choice of weapon. However, it ends up making a critical difference, at least on the default difficulty level.
+
 There is no automatic save points, so you can die and have to restart the game from the beginning. You have to think about saving. If you die, your body will remain where you die along with some of your gear. You can retrieve it by playing again and getting back to your body.
 
 Playing the game requires some skill, but on the default difficulty level, I only ever had trouble with one part of the game&hellip; there is a crazy boss at some point, &ldquo;the Opera boss&rdquo;, it is a giant lady with an armored dress. And I suspect that I had so much trouble because I did not understand the game very well.
+
 Not everything is absolutely smooth. Several times I was left wondering about where I was supposed to go, what I was supposed to do, but I never got stuck long enough to be annoyed.
 
 I have done an entire first playthrough but the game has this weird mechanic whereas you are supposed to beat the game several times, and each time you do so, you get to see a different side of the story. Looking at the Wikipedia entry for the game, it seems that I will need to play at least two more times through the game to really see the bulk of the story.

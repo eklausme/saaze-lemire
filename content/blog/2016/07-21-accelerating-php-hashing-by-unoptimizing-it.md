@@ -28,10 +28,10 @@ A polynomial hash function with an odd multiplier is found everywhere and has a 
 As I have pointed out in [another post](/lemire/blog/2015/10/22/faster-hashing-without-effort/), for better performance, you want to unroll this function like so&hellip;
 ```C
 for (; i + 3 < len; i += 4) {
-   h = 33 * 33 * 33 * 33 * h 
-       + 33 * 33 * 33 * str[i] 
-       + 33 * 33 * str[i + 1] 
-       + 33 * str[i + 2] 
+   h = 33 * 33 * 33 * 33 * h
+       + 33 * 33 * 33 * str[i]
+       + 33 * 33 * str[i + 1]
+       + 33 * str[i + 2]
        + str[i + 3];
 }
 for (; i < len; i++) {

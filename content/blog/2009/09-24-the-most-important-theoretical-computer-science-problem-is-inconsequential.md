@@ -12,6 +12,7 @@ The catch is that _quickly_ is defined as in <em>polynomial time</em>. Thus, if 
 This is an annoyingly silly definition. [Bubble sort](https://en.wikipedia.org/wiki/Bubblesort) is in O(<em>n</em><sup>2</sup>). Yet, try replacing all sorting within Google&rsquo;s infrastructure by this _quick_ algorithm. Google would die.
 
 Lance Fortnow asks us to [take for granted](http://mags.acm.org/communications/200909/?folio=78&amp;CFID=54572392&amp;CFTOKEN=14190217) that proving P = NP implies we have fast algorithms for all NP problems. William Gasarch just [predicted](http://blog.computationalcomplexity.org/2009/09/my-two-cents-on-p-vs-np.html) that proving P â‰  NP would also help real world of algorithms.
+
 Unknowingly to them, [Zeilberger proved that P=NP](http://www.math.rutgers.edu/~zeilberg/mamarim/mamarimPDF/pnp.pdf) on April 1, 2009. Yet, nothing happened. (He was kidding. Or was he?) Anyhow, enough with the dogma! While intermediate steps in the solution of the problem might be critically important to our understanding of computation, knowing that P = NP is inconsequential technologically.
 
 This is as silly as claiming that sending men to Mars will cure cancer. It might very well that the research necessary to send men to Mars might lead to major breakthroughs, but whether we go to Mars or not has nothing to do with cancer.

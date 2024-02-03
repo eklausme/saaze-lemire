@@ -20,6 +20,7 @@ Base64 is commonly used in cryptography to exchange keys. A form of base64 is al
 Thankfully, encoding and decoding base64 is fast. Yet there are cases where it can become a problem. [Matt Crane and Jimmy Lin found that decoding binary attributes from base64 in Amazon DynamoDB is slow](https://cs.uwaterloo.ca/~jimmylin/publications/Crane_Lin_ICTIR2017.pdf).
 
 How fast can you decode base64 data? On a recent Intel processor, it takes roughly 2 cycles per byte (from cache) when using a fast decoder like the one from the Chrome browser. This fast decoder is basically doing table lookups. That&rsquo;s much slower than copying data within the cache (which takes less 0.05 cycles per byte).
+
 Is this the best you can do?
 
 [Alfred Klomp showed a few years ago that you could do much better using vector instructions](http://www.alfredklomp.com/programming/sse-base64/). Wojciech MuÅ‚a, myself and a few others (i.e., Howard and Kurz) decided the seriously revisit the problem. [MuÅ‚a has a web page on the topic](http://0x80.pl/notesen/2016-01-12-sse-base64-encoding.html).
@@ -27,9 +28,11 @@ Is this the best you can do?
 We found that, in the end, you could speed up the problem by a factor of ten and use about 0.2 cycles per byte on recent Intel processors using vector instructions. That&rsquo;s still more than a copy, but much less likely to ever be a bottleneck. I should point out that this 0.2 cycles per byte includes error handling: the decoder must decode and validate the input (e.g., if illegal characters are found, the decoding should be aborted).
 
 [Our research code is available](https://github.com/lemire/fastbase64) so you can reproduce our results. Our paper is available from arXiv and has been accepted for publication by ACM Transactions on the Web.
+
 My understanding is that our good results have been integrated in [Klomp&rsquo;s base64 library](https://github.com/aklomp/base64).
 
 __Further reading__:
+
 - Wojciech MuÅ‚a, Daniel Lemire, [Faster Base64 Encoding and Decoding Using AVX2 Instructions](https://arxiv.org/abs/1704.00605), ACM Transactions on the Web (to appear)
 
 

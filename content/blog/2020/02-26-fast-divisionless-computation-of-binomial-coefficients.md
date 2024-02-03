@@ -41,7 +41,7 @@ uint64_t fastbinomial(int n, int k) {
   uint64_t np = n - k;
   uint64_t answer = np + 1;
   for (uint64_t z = 2; z <= (uint64_t)k; z++) {
-    answer = answer * (np + z); 
+    answer = answer * (np + z);
     fastdiv_t f = precomputed[z];
     answer >>= f.shift;
     answer *= f.inverse;

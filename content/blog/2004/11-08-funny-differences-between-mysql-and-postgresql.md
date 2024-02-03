@@ -29,7 +29,8 @@ On both counts, Mysql gives me an unexpected answer.
 
 (The color scheme above for SQL statements shows I learned to program with Turbo Pascal.)
 
-<b>Update:</b> Scott gave me the answer regarding Mysql rounding rule. It will alternate rounding up with rounding down, so```C
+<b>Update:</b> Scott gave me the answer regarding Mysql rounding rule. It will alternate rounding up with rounding down, so
+```C
 
 select round(1.5);
 ```

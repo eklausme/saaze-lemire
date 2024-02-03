@@ -6,11 +6,13 @@ title: "Faster dictionary decoding with SIMD instructions"
 
 
 A particularly fast and effective compression technique is <em>dictionary coding</em>. Intuitively, it works as follow. Suppose you are given a long document made of millions of words, but containing only 65536 distinct words. You can create a map from words to short integers or indexes (in [0,65536)). So the word &ldquo;the&rdquo; might be replaced by 0, the word &ldquo;friend&rdquo; by 1, and so forth. You then replace your document with an array of 16-bit integers. So you use only 16 bits per word.
+
 In general, given a dictionary of size <tt>N</tt>, you only need <span style="color:#603000; ">ceil</span><span style="color:#808030; ">(</span>log2<span style="color:#808030; ">(</span>N<span style="color:#808030; ">+</span><span style="color:#008c00; ">1</span><span style="color:#808030; ">)</span><span style="color:#808030; ">)</span> bits to represent each word. Your dictionary can be implemented, simply, as an array pointers (using 64 bits per pointer).
 
 It may help reduce memory usage if words are often repeated. But it can also speed up processing. It much faster for a processor to seek out a given integer in a flat array than it is to seek a given word.
 
 You can also use nice tricks to pack and unpack integers very fast. That is, given arrays of 32-bit integers that fit in `b` bits, you can quickly pack and unpack them. You can easily [process billions of such integers per second](https://github.com/lemire/simdcomp) on a commodity processor.
+
 In my example, I have used the notions of document and word, but dictionary coding is more often found in database systems to code columns or tuples. Systems like Oracle, Apache Kylin, and Apache Parquet use dictionary coding.
 
 What if you want to reconstruct the data by looking it up in the dictionary?
@@ -49,11 +51,13 @@ While the benefits are going to be even larger in the future, I should stress th
 What is optimally fast on today&rsquo;s hardware might be slow on tomorrow&rsquo;s hardware.
 
 __Some relevant software__:
+
 - [A simple C library for compressing lists of integers using binary packing](https://github.com/lemire/simdcomp)
 - [High-performance dictionary coding](https://github.com/lemire/dictionary)
 
 
 __Further reading__:
+
 - Lemire, Daniel and Boytsov, Leonid, &#038; Kurz, Nathan (2016). [SIMD Compression and the Intersection of Sorted Integers](https://arxiv.org/abs/1401.6399). Software: Practice and Experience, 46 (6).
 - Lemire, Daniel, and Leonid Boytsov (2015). [Decoding billions of integers per second through vectorization](https://arxiv.org/abs/1209.2137). Software: Practice and Experience 45 (1).
 - Lemire, Daniel, Owen Kaser, and Eduardo Gutarra (2012). [Reordering rows for better compression: Beyond the lexicographic order](http://arxiv.org/abs/1207.2189). ACM Transactions on Database Systems (TODS) 37 (3).

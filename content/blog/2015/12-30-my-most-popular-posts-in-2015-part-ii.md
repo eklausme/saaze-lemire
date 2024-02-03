@@ -10,6 +10,7 @@ __Techno-optimism__
 For several years now, I have grown more optimistic about the power of human innovation. Despite the barrage of bad news, the fact is that we are richer and healthier than we have ever been. Yes, __I__ might not be rich or healthy compared to the luckiest among us&hellip; but on the whole, humanity has been doing well.
 
 In [Going beyond our limitations](/lemire/blog/2015/07/17/going-beyond-our-limitations/), I reflected on the &ldquo;coming&rdquo; end of Moore&rsquo;s law. Our computers are using less power and they have chips that are ever smaller&hellip; but it is seemingly more and more difficult to improve matters. I argue that some of the pessimism is unwarranted: on the whole, we are still making nice progress&hellip; But it is true that, at the margin, we are facing challenges. I think we need to take them head on because I want robots in my blood hunting down diseases and chips in my brain helping me think more clearly.
+
 In [Could big data and wearables help the fight against diseases?](/lemire/blog/2015/09/28/could-big-data-and-wearables-help-the-fight-against-diseases/), I argue that information technology could massively accelerate medical research.
 
 In [What a technology geek sees when traveling abroad](/lemire/blog/2015/08/31/what-a-technology-geek-sees-when-traveling-abroad/), I reflect on how technology has evolved, by using a recent trip I made as a vantage point. In [Amazing technologies from the year 2015â€¦](/lemire/blog/2015/12/15/amazing-technologies-from-the-year-2015/), I reflect on the technological progress we made in 2015.
@@ -31,6 +32,7 @@ It is all nice but what does it matter to us, human beings? Ten years ago at Sta
 Harvard geneticist George Church has other angles of attack and he claims that &ldquo;in just five or six years he will be able to reverse the aging process in human beings.&rdquo; Church has been studying the genes of centenarians and he wants to identify protective alleles that we could then all receive through genetic engineering. Moreover, he has plans to up-regulate (and possibly down-regulate) certain genes. Indeed, as we age, many genes that were silent, are activated, and a few that were active are down-regulated. This gene regulation is part of what we call &ldquo;perigenetic&rdquo;: though your genes might be set for life, which genes are expressed at any given time is a dynamic and reversible process. So cells know how to be old or young and this seems to depend a lot of which genes are expressed. The process is also fully reversible as far as we can tell. Will George Church cure aging by 2020?
 
 As it turns out, there are many other rejuvenation therapies in the works.
+
 As you get older, your immune system starts to fail and even turn against you. Part of this process is that you effectively lose your thymus (around age 40): it becomes atrophied. The thymus is the organ in charge of &ldquo;training&rdquo; your immune cells. With it gone, your immune system gradually becomes incompetent. There are many ways to restore the thymus. There is an ongoing clinical trial to make controlled used of hormones to regrow it. Gene therapies could also work, as well as various transplantation approaches. Setting the thymus aside, it is more and more common that we create immune cells in a laboratory and inject them. This could be used to boost the immune system of the very old.
 
 Stem cells therapies are fast growing. We are able, in principle, to take some of your skin cells, turn them into stem cells and then inject them back into your body so that they go on to act as new stem cells to help repair your joints or your brain. There is an endless stream of therapies in clinical trials right now. Not everything works as expected&hellip; one particular problem is that stem cells signal and respond to signalling&hellip; this means that how a given stem cell will behave in a given environment is complicated. Just randomly dumping stem cells in your body is likely ineffective&hellip; but scientists are getting more sophisticated.
@@ -38,12 +40,15 @@ Stem cells therapies are fast growing. We are able, in principle, to take some o
 Your body produces a lot of garbage as you grow old. The garbage accumulates. In particular, amyloids clog your brain and your heart and eventually kill you. Also some of your cells reach the end of their life but instead of just self-destroying (apoptosis), they just sit around and emit toxic signals. We already had clinical trials to clear some of this garbage&hellip; the results have not been overly positive. But what is more encouraging is that we have developed the technology&hellip; should we ever need it.
 
 In any case, for me, 2015 was the year I realized that we are aging because we lack the technology to stay young. I have qualified aging as a [software bug](/lemire/blog/2015/06/09/aging-software-bug/). We have the software of life, we can tweak it, and we think we can &ldquo;upgrade&rdquo; the software so that aging is no longer a feature. We don&rsquo;t know how long this might take&hellip; could be centuries, could be decades&hellip; but I think we will get there as a species.
+
 In 2015, the [first clinical trial for an &ldquo;anti-aging&rdquo; pill was approved](/lemire/blog/2015/12/07/are-we-really-testing-an-anti-aging-pill-and-what-does-it-mean/) (metformin). This pill would, at best, slow down a little bit aging&hellip; but the trial is important as a matter of principle: the American government has agreed that we could test an anti-aging therapy.
+
 I have written about how [astronauts mysteriously age in space](/lemire/blog/2015/12/01/the-mysterious-aging-of-astronauts/). As far as I can tell, this remains mostly unexplained. Radiations, gravity, aliens?
 
 __Scholarship__
 
 In [Identifying influential citations](/lemire/blog/2015/11/05/identifying-influential-citations-it-works-live-today/), I reported on the launch of [Semantic Scholar](https://www.semanticscholar.org/), an online tool to search for academic references that innovates by distinguishing meaningful citations from de rigueur ones.
+
 I also reacted to the proposal by some ill-advised researchers to [ban LaTeX in favor of Microsoft Word for the production of research articles](/lemire/blog/2015/01/14/knauff-and-nejasmic-recommend-banning-latex/).
 
 __Math education__

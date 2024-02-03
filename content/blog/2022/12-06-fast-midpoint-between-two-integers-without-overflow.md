@@ -19,16 +19,15 @@ If the integers use a 64-bit two&rsquo;s complement representation, we could pic
 
 Efficient solutions are provided by Warren in Hacker&rsquo;s Delight (section 2.5):
 ```C
-int f(int x, int y) { 
-  return (x|y) - ((x^y)>>1); 
+int f(int x, int y) {
+  return (x|y) - ((x^y)>>1);
 }
 ```
 
 
-
 ```C
-int f(int x, int y) { 
-  return ((x^y)>>1) + (x&y); 
+int f(int x, int y) {
+  return ((x^y)>>1) + (x&y);
 }
 ```
 

@@ -13,7 +13,10 @@ This argument is fallacious since it ignores one of the pillars of science: repr
 
 Times and times again, I come across falsehoods in science. Typically, they occur when reporting experimental results that are either badly interpreted or badly implemented. Here is a typical scenario:
 
-- Researcher A publishes some paper where he makes some false statement.- The statement is compelling. It matches people&rsquo;s intuition.- The work becomes well known and is repeatedly cited.- Other researchers build upon the falsehood. They either do not verify the statement (where is the profit in that?) or if they do, they avoid denouncing the falsehood.
+- Researcher A publishes some paper where he makes some false statement. 
+- The statement is compelling. It matches people&rsquo;s intuition. 
+- The work becomes well known and is repeatedly cited. 
+- Other researchers build upon the falsehood. They either do not verify the statement (where is the profit in that?) or if they do, they avoid denouncing the falsehood.
 
 
 Eventually, the statement because an accepted fact. Anyone who wants to challenge it has the burden of proof, and it is easy to cast doubts on any experimental procedure. I claim that this happens often. As someone who crafts my own experiments, I see it all the time. I am repeatedly unable to reproduce &ldquo;accepted facts&rdquo;. Yet, I never (or almost never) report these problems because trying to do so would ensure that whatever paper I produce is frowned upon. Moreover, I believe few people ever attempt to verify published results. What makes matters worse is that trying to reproduce experiments is never considered serious work in Computer Science. Often, it is quite a difficult task too: either the data or the code is missing or barely available.

@@ -33,7 +33,7 @@ uint64_t interleave_uint32_with_zeros(uint32_t input)  {
 
 And then we put the result back together, shifting one of the by one bit&hellip;
 ```C
-interleave_uint32_with_zeros(x) 
+interleave_uint32_with_zeros(x)
   | (interleave_uint32_with_zeros(y) << 1);
 ```
 
@@ -60,12 +60,12 @@ void interleave_avx2(uint32_2 *input, uint64_t *out) {
             -1, 3, -1, 2, -1, 1, -1, 0, -1, 11, -1, 10,
             -1, 9, -1, 8, -1, 3, -1, 2, -1, 1,-1, 0));
   __m256i justy = _mm256_shuffle_epi8(
-      xy, _mm256_set_epi8(-1 15, -1, 14, -1, 13, -1, 12, 
-             -1, 7, -1, 6, -1, 5, -1, 4, -1, 15, -1, 14, -1, 
+      xy, _mm256_set_epi8(-1 15, -1, 14, -1, 13, -1, 12,
+             -1, 7, -1, 6, -1, 5, -1, 4, -1, 15, -1, 14, -1,
              -1, 13, -1, 12, -1, 7, -1, 6, -1, 5, -1, 4));
   justx = interleave_uint8_with_zeros_avx(justx);
   justy = interleave_uint8_with_zeros_avx(justy);
-  __m256i answer = _mm256_or_si256(justx, 
+  __m256i answer = _mm256_or_si256(justx,
             _mm256_slli_epi16(justy, 1));
   _mm256_storeu_si256((__m256i *)out, answer);
 }
@@ -76,13 +76,13 @@ Is this the best you can do? Kendall Willets commented that you can use a look-u
 ```C
 __m256i interleave_uint8_with_zeros_avx_lut(__m256i word) {
   const __m256i m = _mm256_set_epi8(85, 84, 81, 80, 69, 68,
-               65, 64, 21, 20, 17, 16, 5, 4, 1, 0, 85, 84, 
-               81, 80, 69, 68, 65, 64, 21, 20, 17, 16, 5, 
+               65, 64, 21, 20, 17, 16, 5, 4, 1, 0, 85, 84,
+               81, 80, 69, 68, 65, 64, 21, 20, 17, 16, 5,
                4, 1, 0);
   __m256i lownibbles =
       _mm256_shuffle_epi8(m, _mm256_and_si256(word,
             _mm256_set1_epi8(0xf)));
-  __m256i highnibbles = _mm256_and_si256(word, 
+  __m256i highnibbles = _mm256_and_si256(word,
           _mm256_set1_epi8(0xf0));
    highnibbles = _mm256_srli_epi16(highnibbles,4);
    highnibbles = _mm256_shuffle_epi8(m, highnibbles);

@@ -10,6 +10,7 @@ Economists make a grave mistake when they fail to mention open-source software a
 The Internet runs largely on open-source software from its servers (Apache) to its operating-system (Linux). The current smartphone war is being won by Android, an open-source system that uses the open-source Linux kernel. Cloud computing is largely a matter of open-source software, again based on Linux.
 
 In our current legal system, we can _own_ information through the concept of copyright. You would think that who owns this software would be a critical issue.
+
 So who does? In many instances, it is one company, such as Oracle and Google. Or sometimes it might be a particular university. But in a lot of important cases, the copyright is simply owned by whoever wrote it (which might include companies):
 
 - Linux is copyrighted by &ldquo;Linus Torvalds and others who actually wrote it&rdquo;.

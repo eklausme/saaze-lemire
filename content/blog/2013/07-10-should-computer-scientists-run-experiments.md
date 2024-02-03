@@ -28,6 +28,7 @@ Of course, [Quicksort](https://en.wikipedia.org/wiki/Quicksort) is an O(n<sup>2<
 It is a scientific fact that the sorting algorithm used in Java, [Timsort](https://en.wikipedia.org/wiki/Timsort), is often preferable to the classical algorithms like merge sort or quick sort. We can run extensive experiments to check that fact. There is also a theoretical analysis that explains why Timsort can often be better. That&rsquo;s a scientific approach.
 
 Working with models without experiments is akin to mathematics. If you model is right, you ought to be able to demonstrate it with experiments.
+
 Not everything needs to be science. For example, [Codd](https://en.wikipedia.org/wiki/Edgar_F._Codd)&lsquo;s work on relational algebra (the foundation for SQL) has been impactful. I am really happy we have SQL and everything that was built on it. But notice that it was built by people who didn&rsquo;t merely come up with models&hellip; they implemented their ideas and had them face the real world.
 
 The problem is that if we don&rsquo;t require people to test out their ideas in the real world, we are going to get thousands of rambling researchers for every Codd. Sometimes, that is the impression that academic research in computer science gives.

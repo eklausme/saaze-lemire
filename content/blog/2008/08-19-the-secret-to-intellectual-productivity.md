@@ -11,7 +11,8 @@ I should really charge you for this secret, but I am not good at capitalism. The
 
 Of course, there is more to it:
 
-- Sometimes you do not know how to break down the task. Do not worry so much about it. Break it down in some way and get working.- Tasks can range from drawing pictures to going to sending an email to someone who has worked on the problem. As long as you work seriously and systematically, you cannot go wrong.
+- Sometimes you do not know how to break down the task. Do not worry so much about it. Break it down in some way and get working. 
+- Tasks can range from drawing pictures to going to sending an email to someone who has worked on the problem. As long as you work seriously and systematically, you cannot go wrong.
 - Periodically reevaluate your strategy. Always assume that your plans are quite possibly wrong. Just constantly refresh them.
 
 

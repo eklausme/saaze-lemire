@@ -7,6 +7,7 @@ title: "A short review of Collective Intelligence in Action"
 
 <img decoding="async" src="https://images.manning.com/150/190/resize/book/4/6999740-a424-4da8-8116-1251e7130e38/alag.png" style="float:right; margin:3px;" /><br/>
 I was recently asked by the publisher to review [Collective Intelligence in Action](https://www.manning.com/books/collective-intelligence-in-action). The author is [Satnam Alag](https://www.linkedin.com/start/join?trk=login_reg_redirect&amp;session_redirect=https%3A%2F%2Fwww.linkedin.com%2Fprofile%2Fview%3Fid%3DAAEAAAAdb6cB90hh2WaEb96ohUzSkiF5K440-HU), a Bay area engineer with a Ph.D. from the University of California, Berkeley. Dr. Alag is VP of [NextBio](http://www.nextbio.com/b/nextbioCorp.nb), a specialized search engine.
+
 The [first chapter is free](https://www.manning.com/) and so is the [source code used in the book](https://www.manning.com/).
 
 The book is for Java developers who want to implement &ldquo;Collective Intelligence&rdquo; applications in Java. It tells us about extracting and applying data from blogs, wikis and social network applications. People who read this blog know that I am not one to praise, but this book succeeds brilliantly. __If you are a Java engineer and work with Web technologies, you must get this book.__ It covers topics such as computing similarity measures using vector models, NaiÌˆve Bayes Classifiers, inverse document frequency (idf), Machine Learning (using the Weka API), building a crawler with regular expressions, collaborative filtering (with links to open source tools), and so on.

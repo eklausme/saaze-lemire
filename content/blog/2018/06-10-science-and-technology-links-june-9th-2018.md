@@ -10,9 +10,12 @@ title: "Science and Technology links (June 9th, 2018)"
 
 > (&hellip;) when images are scaled to half their original size and randomly translated, the accuracy of deep learning is less than 50%. For comparison, the previous methods achieved over 70% accuracy, and this was considered poor performance.
 
-1. [People with high IQ (a measure of intelligence) as well as people with fast reaction times are less likely to die](https://www.sciencedirect.com/science/article/pii/S0160289618300230).1. Looking young is a sign of good health: [Perceived ageâ€”which is widely used by clinicians as a general indication of a patient&rsquo;s healthâ€”is a robust biomarker of ageing that predicts survival](https://www.bmj.com/content/339/bmj.b5262.full.pdf+html).
-1. [While treating various neurodegenerative disorders with stem cells, we accidentally observed a transition of hair colorations from mostly grey to black in 4 elderly patients](http://www.hoajonline.com/stemcells/2054-717X/2/3).1. [Ibuprofen (a common analgesic) depress testicular function, including testosterone production](http://www.pnas.org/content/early/2018/01/03/1715035115).
-1. [Analogue non-volatile memory can accelerate the neural-network training by two orders of magnitude](https://www.nature.com/articles/s41586-018-0180-5).1. [Some antibodies blocks inflammation, protecting mice from hardened arteries and liver disease](http://ucsdnews.ucsd.edu/pressrelease/antibody_blocks_inflammation_protects_mice_from_hardened_arteries_and_liver):<br/>
+1. [People with high IQ (a measure of intelligence) as well as people with fast reaction times are less likely to die](https://www.sciencedirect.com/science/article/pii/S0160289618300230). 
+1. Looking young is a sign of good health: [Perceived ageâ€”which is widely used by clinicians as a general indication of a patient&rsquo;s healthâ€”is a robust biomarker of ageing that predicts survival](https://www.bmj.com/content/339/bmj.b5262.full.pdf+html).
+1. [While treating various neurodegenerative disorders with stem cells, we accidentally observed a transition of hair colorations from mostly grey to black in 4 elderly patients](http://www.hoajonline.com/stemcells/2054-717X/2/3). 
+1. [Ibuprofen (a common analgesic) depress testicular function, including testosterone production](http://www.pnas.org/content/early/2018/01/03/1715035115).
+1. [Analogue non-volatile memory can accelerate the neural-network training by two orders of magnitude](https://www.nature.com/articles/s41586-018-0180-5). 
+1. [Some antibodies blocks inflammation, protecting mice from hardened arteries and liver disease](http://ucsdnews.ucsd.edu/pressrelease/antibody_blocks_inflammation_protects_mice_from_hardened_arteries_and_liver):<br/>
 
 > The antibody also prolonged the life of the mice. After 15 months, all of the antibody-producing mice were alive, compared to 54 percent of the control mice.
 

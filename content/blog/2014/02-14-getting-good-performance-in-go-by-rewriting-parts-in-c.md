@@ -6,6 +6,7 @@ title: "Getting good performance in Go by rewriting parts in C?"
 
 
 [Go](https://golang.org/) is a new programming language invented by Google engineers. Apparently, it came about because they were tired to wait for their [C++](https://en.wikipedia.org/wiki/C%2B%2B) code to compile.
+
 To run Go programs, you need to compile them. However, compilation is so amazingly fast that Go may as well be an interpreted language like Python or JavaScript.
 
 Compared to C++ or Java, Go is a very simple language. I am no expert, but I learned [the basics](https://golang.org/doc/) in a few hours. This means that, even though I have only been programming in Go for a few days, I can read most Go programs and instantly understand them. In contrast, even though I have 15 years of experience in C++, I often cannot understand C++ code without effort.
@@ -13,6 +14,7 @@ Compared to C++ or Java, Go is a very simple language. I am no expert, but I lea
 In theory, Go can offer the performance of C++. In practice, Go has performance superior to Python and JavaScript, but sometimes inferior to C++ and Java.
 
 My friend [Will Fitzgerald](http://www.willfitzgerald.org/) wrote what has become a reference implementation of the [bitset data structure in Go](https://github.com/willf/bitset). I felt that it could be faster. Will was nice enough to let me contribute some enhancements to his [bitset library](https://github.com/willf/bitset).
+
 Go makes it easy, or even trivial, to call C functions. So I thought optimizing the code was a simple matter of rewriting the performance sensitive parts in C. Let us see how it worked out.
 
 Will&rsquo;s bitset implementation is an array of 64-bit integers were some of the bits are set to 1 and others to 0. An expensive operation is to count the number of bits set to 1. It is implemented as a tight loop which repeatedly calls a [Hamming weight](https://en.wikipedia.org/wiki/Hamming_weight) function written in Go (<tt>popcount_2</tt>):
@@ -26,12 +28,12 @@ for _, word := range b.set {
 The `popcount_2` isn&rsquo;t exactly free:
 ```Go
 func popcount_2(x uint64) uint64 {
-	x -= (x >> 1) & m1             
-	x = (x & m2) + ((x >> 2) & m2) 
-	x = (x + (x >> 4)) & m4        
-	x += x >> 8                    
-	x += x >> 16                   
-	x += x >> 32                   
+	x -= (x >> 1) & m1
+	x = (x & m2) + ((x >> 2) & m2)
+	x = (x + (x >> 4)) & m4
+	x += x >> 8
+	x += x >> 16
+	x += x >> 32
 	return x & 0x7f
 }
 ```
@@ -49,7 +51,7 @@ unsigned int totalpop(void * v, int n) {
     unsigned long * x = (unsigned long *) v;
     unsigned int a = 0;
     int k = 0;
-    for(; k < n ; ++k) 
+    for(; k < n ; ++k)
         a+= __builtin_popcountl(x[k]);
     return a;
 }

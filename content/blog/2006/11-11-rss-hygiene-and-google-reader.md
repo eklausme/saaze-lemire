@@ -6,6 +6,7 @@ title: "RSS hygiene and Google Reader"
 
 
 It used to be that Google&rsquo;s RSS reader was a catastrophe, but it is now pretty good and pretty smart. Google has turned things around. I&rsquo;ve switched to it two days ago. The UI is still trying a bit too hard for my taste, but I guess you have to account for the fact that it is still slightly experimental.
+
 Oh! And can we, please, get over the round corners? I actually like rectangular shapes. The Web 2.0 look where everything is round and smooth is really a fad and we will look back on these Web designs, in five years, with a fair amount of disgust.
 
 The really nice thing about Google Reader is that when you scroll down past an item, it marks it automatically as read. At least, this is the default behavior. I found that one annoying thing with most readers is how they either required me to manually marked items as read, or they used a &ldquo;delay then mark read&rdquo; approach. I much prefer the Google Reader approach.

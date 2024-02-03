@@ -9,7 +9,7 @@ Amazon has some neat ARM-based systems based on Amazon&rsquo;s own chips (Gravit
 
 Thankfully, you can still write a program to find out. The svcntb intrinsic tells you how many 8-bit integers fits in a full register. Thus the following C++ line should tell you the vector register size in bytes:
 ```C
-std::cout << "detected vector register size (SVE): " 
+std::cout << "detected vector register size (SVE): "
   << svcntb() << " bytes" << std::endl;
 ```
 

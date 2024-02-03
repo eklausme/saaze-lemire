@@ -39,9 +39,9 @@ Not so in Go. [It will construct the array and then call the &lsquo;sum&rsquo; f
 
 In practice, it means that if you want good performance in Go, you often have to manually inline your functions. And I mean: fully inline. You have to write a really explicit function if you want the Go compiler to optimize the computation away, like so:
 ```Go
-func fun3() uint64 { 
+func fun3() uint64 {
     x := [3]uint64{10001, 21, 31}
-    return x[0] + x[1] + x[2] 
+    return x[0] + x[1] + x[2]
 }
 ```
 
@@ -55,7 +55,7 @@ import "math/bits"
 func silly() int {
     return  bits.OnesCount64(1) + bits.OnesCount64(2)
 }
-    
+
 ```
 
 

@@ -6,6 +6,7 @@ title: "The lonely researcher: a loser?"
 
 
 [Michael Nielsen posted a link](http://michaelnielsen.org/blog/biweekly-links-for-03142008/) to a paper in Science stating that the lone scientist is outgunned by teams and collaboration. [Keith Sawyer supports this claim](https://keithsawyer.wordpress.com/2007/10/15/the-lone-genius-loses-to-the-team/) and gives more details.
+
 In Computer Science, there are so few single-author papers &mdash; how can you do a sane analysis? I propose the following comparison.
 
 Single-author papers are riskier, but can be more original:

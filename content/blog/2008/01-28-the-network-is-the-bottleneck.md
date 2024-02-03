@@ -12,5 +12,6 @@ This new level of abstraction is probably a significant step forward in the way 
 In any case, StorageMojo points out that memory and CPU cycles are becoming ridiculously cheap. Meanwhile, bandwidth is becoming a serious limitation. Therefore, he says, companies are not about to outsource their computing needs to cloud computing. It is too inexpensive to create &mdash; and maintain &mdash; your own computing infrastructure.
 
 The first problem with his argument is that bandwidth increases with storage, automagically. Indeed, I can just drop a large hard drive in the trunk of my car and drive to destination! Our real curse is latency. However, if the organization you work for is like mine, latency-resilience is already built in the system. In a university, nobody expects the data entered yesterday to come up in the report next week.
+
 The second problem with his argument is that paying experts to maintain your own server is almost certainly more expensive than whatever bandwidth costs cloud computing can occur. Maintaining databases and number-crunching computers is a boring task and it will get unavoidably outsourced.
 

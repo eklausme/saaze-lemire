@@ -24,12 +24,12 @@ void vbmi2_decoder_cvtepu8(uint32_t *base_ptr, uint32_t &base,
   __m512i t2 = _mm512_cvtepu8_epi32(_mm512_extracti32x4_epi32(indexes, 2));
   __m512i t3 = _mm512_cvtepu8_epi32(_mm512_extracti32x4_epi32(indexes, 3));
   __m512i start_index = _mm512_set1_epi32(idx);
-  
+
   _mm512_storeu_si512(base_ptr + base, _mm512_add_epi32(t0, start_index));
   _mm512_storeu_si512(base_ptr + base + 16, _mm512_add_epi32(t1, start_index));
   _mm512_storeu_si512(base_ptr + base + 32, _mm512_add_epi32(t2, start_index));
   _mm512_storeu_si512(base_ptr + base + 48, _mm512_add_epi32(t3, start_index));
-  
+
   base += _popcnt64(bits);
 }
 ```
@@ -50,18 +50,18 @@ void vbmi2_decoder_cvtepu8_branchy(uint32_t *base_ptr, uint32_t &base,
     0x0f0e0d0c, 0x0b0a0908, 0x07060504, 0x03020100
   ));
   __m512i start_index = _mm512_set1_epi32(idx);
-  
+
   int count = _popcnt64(bits);
   __m512i t0 = _mm512_cvtepu8_epi32(_mm512_castsi512_si128(indexes));
   _mm512_storeu_si512(base_ptr + base, _mm512_add_epi32(t0, start_index));
-  
-  if(count > 16) {   
+
+  if(count > 16) {
     __m512i t1 = _mm512_cvtepu8_epi32(_mm512_extracti32x4_epi32(indexes, 1));
     _mm512_storeu_si512(base_ptr + base + 16, _mm512_add_epi32(t1, start_index));
-    if(count > 32) {   
+    if(count > 32) {
       __m512i t2 = _mm512_cvtepu8_epi32(_mm512_extracti32x4_epi32(indexes, 2));
       _mm512_storeu_si512(base_ptr + base + 32, _mm512_add_epi32(t2, start_index));
-      if(count > 48) {   
+      if(count > 48) {
         __m512i t3 = _mm512_cvtepu8_epi32(_mm512_extracti32x4_epi32(indexes, 3));
         _mm512_storeu_si512(base_ptr + base + 48, _mm512_add_epi32(t3, start_index));
       }

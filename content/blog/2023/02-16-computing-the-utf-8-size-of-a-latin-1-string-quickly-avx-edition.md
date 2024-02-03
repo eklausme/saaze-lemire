@@ -61,7 +61,7 @@ size_t avx2_utf8_length_mkl(const uint8_t *str, size_t len) {
       runner = _mm256_sub_epi8(
         runner, _mm256_cmpgt_epi8(_mm256_setzero_si256(), input));
     }
-    four_64bits = _mm256_add_epi64(four_64bits, 
+    four_64bits = _mm256_add_epi64(four_64bits,
       _mm256_sad_epu8(runner, _mm256_setzero_si256()));
   }
   answer += _mm256_extract_epi64(four_64bits, 0) +

@@ -28,7 +28,7 @@ Lehmer&rsquo;s generator passes Big Crush. There are many other fast generators 
 
 Recently, a new fast contender has been brought to my attention: wyhash. [It is closely related to a family of random number generators and hash functions called MUM](https://github.com/vnmakarov/mum-hash) and designed by Vladimir Makarov (there is a nearly identical generator by Makarov called mum-prng). The new contender works as follow:
 ```C
-uint64_t wyhash64_x; 
+uint64_t wyhash64_x;
 
 
 uint64_t wyhash64() {

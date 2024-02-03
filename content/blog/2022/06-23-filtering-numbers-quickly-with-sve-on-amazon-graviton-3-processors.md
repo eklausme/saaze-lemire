@@ -15,7 +15,7 @@ It is a daring proposal. It is possible to write code that would work on one pro
 
 But is SVE on graviton 3 processors fast? To test it out, I wrote a [small benchmark](https://github.com/lemire/Code-used-on-Daniel-Lemire-s-blog/tree/master/2022/06/23). Suppose you want to prune out all of the negative integers out of an array. A textbook implementation might look as follows:
 ```C
-void remove_negatives_scalar(const int32_t *input, 
+void remove_negatives_scalar(const int32_t *input,
         int64_t count, int32_t *output) {
   int64_t i = 0;
   int64_t j = 0;

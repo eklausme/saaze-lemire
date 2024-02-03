@@ -38,7 +38,7 @@ So a good initial guess is <tt>y = <tt>( 3 * x ) XOR 2</tt></tt>, and that alrea
 Here is the code to compute the inverse of a 64-bit integer:
 ```C
 uint64_t f64(uint64_t x, uint64_t y) {
-  return y * (2 - y * x); 
+  return y * (2 - y * x);
 }
 
 uint64_t findInverse64(uint64_t x) {

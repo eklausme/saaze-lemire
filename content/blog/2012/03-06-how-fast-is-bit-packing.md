@@ -6,13 +6,17 @@ title: "How fast is bit packing?"
 
 
 Integer values are typically stored using 32 bits. Yet if you are given an array of integers between 0 and 131&nbsp;072, you could store these numbers using as little as 17 bits each&mdash;a net saving of almost 50%.
+
 Programmers nearly never store integers in this manner despite the obvious compression benefits. Indeed, bit packing and unpacking is expensive. How expensive? Intuitively, you might think that recovering 32-bit integers from a stream of packed integers must be at least as expensive as copying the 32-bit integers, and possibly much more expensive. If that is your intuition, then you might be wrong. It can be cheaper to recover 32-bit integers from packed 4-bit integers because you only need to load one 32-bit word to unpack 8 integers.
+
 Clearly, packing integers in units of 17 bits is not especially convenient. Indeed, 17 and 32 are [coprime](https://en.wikipedia.org/wiki/Coprime). We expect that it would be much faster to pack and unpack integers in units of 4, 8 or 16 bits, than in units of 17 bits. Indeed it is but the difference is maybe not as large as you might think.
 
 I have implemented [efficient packing and unpacking routines](http://pastebin.com/ugGnk00p) in C++. To simplify the implementation, we pack and unpack integers in sets of 32 numbers. I have optimized the code using the GNU GCC 4.6.2 compiler.
+
 On my macbook air (Intel core i7), I get that the _unpacking_ speed is not very sensitive to the specific number of bits: generally, the smaller the bit width, the faster the unpacking. The _packing_ speed is much faster when the bit width is 8 or 16. Even so, the difference is only by a factor of two or so. The results are presented in the next figure. On the y axis, you have the time (smaller is better). On the the x axis, we have the number of bits we packed to. For example, when bit is 1, we pack 32 integers into a single 32-bit word. When the number of bits is set to 32 bits, we have a regular copy.
 
 I also provide the raw numbers behind the figure in the next table.
+
 bits                     |pack (ms)                |unpack (ms)              |
 -------------------------|-------------------------|-------------------------|
 1                        |219                      |211                      |

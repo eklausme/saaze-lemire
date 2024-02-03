@@ -41,6 +41,7 @@ Why? Because the standard Java API provides you with a concurrent random number 
 It is unclear to me why it is needed. You can easily get concurrency in a multithreaded context by using one seed per thread.
 
 Evidently, language designers feel that random-number generators should be particularly idiot-proof. Why have the random-number generators received this particular type of attention?
+
 For users who want less overhead, the Java API provides a class in the concurrent package called `ThreadLocalRandom` that is nearly as far as my naive function, as the next table shows.
 
 Function                 |Timing (ns) on Skylake processor |
@@ -49,8 +50,10 @@ Function                 |Timing (ns) on Skylake processor |
 
 
 It turns out that the ThreadLocalRandom uses many optimization tricks, covering all of its functions, that the Random class does not have.
+
 In any case, if you need to write fast software that depends on random numbers (such as a simulation), you probably want to pick your own random-number generator.
 
 __Reference__: As usual, my benchmarking software is [available online](https://github.com/lemire/microbenchmarks).
 
 __Credit__: I am grateful to Viktor Szathmary for pointing out the `ThreadLocalRandom` class.
+

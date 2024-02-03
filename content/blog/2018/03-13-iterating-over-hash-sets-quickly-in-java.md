@@ -54,9 +54,11 @@ Set { -3, -2, -1, 3, 2, 1 }
 
 
 This can be implemented as a [linked list](https://en.wikipedia.org/wiki/Linked_list) working on top of the hash table.
+
 Java supports both approaches through HashSet and LinkedHashSet.
 
 The LinkedHashSet will use more memory, but it gives back the elements in insertion order. The HashSet gives back the element in an order determined in large part by the hash function. The LinkedHashSet may allow you to iterate over the elements faster because you are essentially bypassing the hash table entirely and just following the linked list. Linked lists are not great in the sense that each node being visited can incur a cache miss. However, Java&rsquo;s HashSet is implemented using a [fancy chaining approach](https://zgrepcode.com/java/openjdk/10.0.2/java.base/java/util/hashmap.java), so you will be chasing pointers in memory and possibly also having cache misses.
+
 So it would seem like LinkedHashSet is a good choice in Java if you are not memory bound.
 
 To explore this problem, I took a set made of 1 million integers generated randomly. I insert them into both a HashTable and a LinkedHashTable. Then I sum the values. [I run my benchmark on a Skylake processor with Java 8](https://github.com/lemire/Code-used-on-Daniel-Lemire-s-blog/tree/master/2018/03/13):

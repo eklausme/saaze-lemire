@@ -25,5 +25,6 @@ With no trapping, the clang compiler beats GCC (0.11 vs. 0.17) by a 50% margin b
 What is a lot more significant is that enabling overflow trapping in GCC incurs an order of magnitude slowdown. Though it is only one microbenchmark, the size of the result suggests that we should be concerned. Looking at the assembly, I find that the clang compiler generates sensible code on x64 processor, with simple jumps added when the overflow is detected. Meanwhile, GCC seems to call poorly optimized runtime library functions.
 
 Overall this one test does establish that checking for overflows can be expensive.
+
 __Credit__: This blog post was motivated by an email by Stefan Kanthak.
 

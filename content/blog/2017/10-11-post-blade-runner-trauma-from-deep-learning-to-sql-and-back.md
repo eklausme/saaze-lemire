@@ -83,6 +83,7 @@ My whole system is somewhat fragile. Securing a blog and doing backups ought to 
 So I go meet up my friend for drinks, relaxed. I snap a picture or two of the Montreal landscape while I am at it. Did I mention that I grabbed the pictures on my phone and I immediately shared them with my wife, who is an hour away? It is all instantaneous, you know.
 
 He suggests that I could use artificial intelligence in my own work, you know, to optimize software performance.
+
 I answer with some skepticism. The problems we face with data engineering are often architectural problems. That is, it is not the case that we have millions of labeled instances from which to learn from. And, often, the challenge is to come up with a whole new category, a whole new concept, a whole new architecture.
 
 As I walk back home, I listen to a podcast where people discuss the manner in which artificial intelligence can exhibit creativity. The case is clear that there is nothing magical in human creativity. Computers can write poems, songs. One day, maybe next week, they will do data engineering better than us. By then, I will be attending research talks prepared by software agents.

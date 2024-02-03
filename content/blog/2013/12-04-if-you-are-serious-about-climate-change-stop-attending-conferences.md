@@ -14,6 +14,7 @@ However academics themselves contribute to climate change. In fact, given that a
 [Achtena et al.](http://www.sciencedirect.com/science/article/pii/S1470160X13002306) have measured the carbon footprint of academics. They find that transportation accounts for 75% of the carbon footprint of a PhD student. Achtena et al. find that conference attendance alone accounts for 35% of said carbon footprint.
 
 I have yet to meet a single researcher urging his colleagues to stop attending academic conferences. It appears that climate researchers attend as many conferences as their colleagues.
+
 I do ask researchers who travel a lot about their carbon footprint. Invariably they dismiss my question. Sometimes, they are argue that their footprint isn&rsquo;t so large. Or they point out that it is justified by the importance of their work (compared with, say, business executives).
 
 I expect that some type of travel has been reduced. For example, when I sit on a national grant committee, I no longer expect to have to travel to the capital. But I also observe that the number of &ldquo;international&rdquo; academic conferences has been booming. There are more of them and some have gotten larger.

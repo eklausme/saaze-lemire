@@ -9,7 +9,10 @@ The Web, and the principles behind it, is mostly asemantic from a Computer Scien
 
 First, observe that cross-document semantics is almost absent.
 
-- The only semantics in hyperlinks is &ldquo;this resource points to this other resource which may or may not exist, which may or may not change over time&rdquo;.- Resource Identifiers or URLs or URIs are a way to name each resource. No particular semantics there.- The HTTP protocol (and related protocols) has some explicit semantics, but it is very simple (GET, POST, &hellip;).
+- The only semantics in hyperlinks is &ldquo;this resource points to this other resource which may or may not exist, which may or may not change over time&rdquo;. 
+- Resource Identifiers or URLs or URIs are a way to name each resource. No particular semantics there. 
+- The HTTP protocol (and related protocols) has some explicit semantics, but it is very simple (GET, POST, &hellip;). 
+
 
 However, HTML and related markup languages are where most of the semantics lie. You can get the title of the page, for example, from any well formed HTML page. It is still fairly primitive, and in practice, there might be hardly any semantics present at all, but if there is any on the Web, that&rsquo;s where it is.
 

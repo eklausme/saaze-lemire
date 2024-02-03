@@ -20,6 +20,7 @@ When I started teaching shortly after graduating, I thought that whenever I got 
 If I solved a problem in front of them, they could take notes and reproduce my solution. But they often wouldn&rsquo;t even try coming up with an original solution of their own. They certainly would never look critically at the solution I provided.
 
 I realized that we were &ldquo;over-schooling&rdquo; the students. Given today&rsquo;s technology, we need to give fewer answers to the students, not more. Though this may sound ironic, I think that students should spend less time in a classroom today than they did in the industrial era.
+
 It is maybe no wonder that employers are not eager to hire college graduates. Beside the bad economy, there might be the very real concern that graduates are ill-prepared to deal with the real world as it is in 2013.
 
 Whenever my kids ask me a question, I almost always ask them back &ldquo;what do you think?&rdquo; And then I listen carefully. Often I will ask more questions. Similarly, to teach them something, I often simply ask a question. For example, last week-end, I asked my two boys whether automated teller machines were robots. They agreed that they were robots. Then one of them added &ldquo;but they lack wheels to move around&rdquo;. And then I asked &ldquo;but they are still robots?&rdquo; And they both said &ldquo;yes, sure&rdquo;. We then launched into a short debate about what a robot is.

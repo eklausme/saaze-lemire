@@ -6,6 +6,7 @@ title: "What ten years teaching a technical topic in college taught me&#8230;"
 
 
 Over ten years ago, XML was all the rage in information technology. XML was what the cool kids used to store, exchange and process data. By 2005, all the major computer science conferences featured papers on XML technology. Today, XML might safely be considered a legacy technology&hellip;
+
 In any case, back in 2005, I decided to offer a course on XML that I still offer today. I got criticized a lot for this choice of topic by other professors. Some felt that the subject was too technical. Other felt that it was too easy.
 
 Though the course is technical at times, I think it is fair to say that very few students felt that it is an &ldquo;easy&rdquo; course. And here I come to my first realization:
@@ -45,6 +46,7 @@ __4. With technical topics, depth is better than breadth.__
 One objection to this strategy is that companies like Google openly favour &ldquo;generalists&rdquo; ([1](http://www.forbes.com/sites/georgeanders/2014/10/21/googles-people-chief-laszlo-bock-explains-how-to-hire-right/), [2](http://whenihavetime.com/2014/10/22/how-google-manages-talent-generalists-vs-specialists/)), but I do not think it contradicts my view: I hope to encourage my students to learn the basics really well rather than to get bogged down with many specific technologies. But even if my view does contradict Google&rsquo;s recruiting standards, there is still a practical aspect: you can collect lots of expertise in many things, but chances that most of this expertise will be obsolete in a few years.
 
 In my case, I was lucky: XML remains an important piece of technology in 2015. But that is not entirely a matter of luck: by the time I decided to make a course out of it, XML was already deeply integrated in databases, web applications and so on. Moreover, it was supported by its similarity with HTML. So I felt confident it would still be around in ten years. Now, in 2015, I can confidently say that XML is there for the long haul: all your ebooks are in XML, all your Office documents are in XML&hellip;
+
 However, how we view XML has changed a lot. Back in 2005, XML was a standard data interchange format. There was also a huge industry around it. Much of it has collapsed. In many ways, support for XML is stagnating. We still have pesky configuration files in XML, but that is no longer considered automatically to be a good thing. We prefer to exchange data using JSON, a much simpler format.
 
 When I started out, some students blamed me for not covering specific XML technologies&hellip; like particular libraries offered by XML. Professors wanted me to cover exoteric web services. Most of what I was asked to cover years ago has become obsolete.

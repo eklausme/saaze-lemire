@@ -23,10 +23,10 @@ A f(std::optional<A> z) {
     return z.value_or(A());
 }
 
-A g() { 
-    A a("message"); 
-    auto z = std::optional<A>(a); 
-    return f(z); 
+A g() {
+    A a("message");
+    auto z = std::optional<A>(a);
+    return f(z);
 }
 ```
 

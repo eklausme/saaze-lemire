@@ -17,7 +17,7 @@ Amazon&rsquo;s Graviton 3 appears to have 32-byte registers, since it is based o
 
 To investigate SVE, I looked at a simple problem where you want to remove all negative integers from an array. That is, you read and array containing signed random integers and you want to write out to an output array only the positive integers. Normal C code might look as follows:
 ```C
-void remove_negatives_scalar(const int32_t *input, 
+void remove_negatives_scalar(const int32_t *input,
         int64_t count, int32_t *output) {
   int64_t i = 0;
   int64_t j = 0;

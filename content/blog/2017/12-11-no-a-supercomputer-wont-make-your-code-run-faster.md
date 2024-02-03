@@ -14,12 +14,14 @@ These poor folks are often sent my way. In an ideal world, they would have a bud
 Too often they hope that I have a powerful machine that can run their code much faster. I do have a few fast machines, but it is often not as helpful as they expect.
 
 - Powerful computers tend to be really good at parallelism. Maybe counter-intuitively, these same computers can run non-parallel code slower than your ordinary PC. So dumping your code on a supercomputer can even make things slower!
-- In theory, you would think that software could be &ldquo;automatically&rdquo; parallelized so that it can run fast on supercomputers. Sadly, I cannot think of many examples where the software automatically tries to run using all available silicon on your CPU. Programmers still need to tell the code to run in parallel (though, often, it is quite simple). Some software libraries are clever and do this work for you&hellip; but if you wrote your code without care for performance, it is likely you did not select these clever libraries.- If you just grabbed code off the Internet, and you do not fully understand what is going on&hellip; or you don&rsquo;t know anything about software performance&hellip; it is quite possible that a little bit of engineering can make the code run 10, 100 or 1000 times faster. So messing with a supercomputer could be entirely optional. It probably is.
+- In theory, you would think that software could be &ldquo;automatically&rdquo; parallelized so that it can run fast on supercomputers. Sadly, I cannot think of many examples where the software automatically tries to run using all available silicon on your CPU. Programmers still need to tell the code to run in parallel (though, often, it is quite simple). Some software libraries are clever and do this work for you&hellip; but if you wrote your code without care for performance, it is likely you did not select these clever libraries. 
+- If you just grabbed code off the Internet, and you do not fully understand what is going on&hellip; or you don&rsquo;t know anything about software performance&hellip; it is quite possible that a little bit of engineering can make the code run 10, 100 or 1000 times faster. So messing with a supercomputer could be entirely optional. It probably is.
 
 More than a few times, by changing just a single dependency, or just a single function, I have been able to switch someone&rsquo;s code from &ldquo;too slow&rdquo; to &ldquo;really fast&rdquo;.
 
 
 How should you proceed?
+
 - I recommend making back-of-the-envelope computations. A processor can do billions of operations a second. How many operations are you doing, roughly? If you are doing a billion simple operations (like a billion multiplications) and it takes minutes, days or weeks, something is wrong and you can do much better.
 
 If you genuinely require millions of billions of operations, then you might need a supercomputer.

@@ -22,7 +22,7 @@ int f() {
     int z = data[2];
     delete[] data;
     return x + y;
-} 
+}
 ```
 
 
@@ -106,7 +106,6 @@ A sensible question is whether these masked loads and stores are really safe wit
   }
 
 ```
-
 
 
 

@@ -27,10 +27,10 @@ A reasonable choice might be to pick a false-positive rate of 1%. To achieve suc
 
 It turns out that I can achieve roughly the same false-positive rate while using 2 extra bits per entry for a total of 12 bits per entry. Assume that you take your input values and hash them to a random-looking 64-bit outputs. From such 64-bit ouputs, you can select a location and generate a 64-bit word with 5 bits set. To do so, I can just select 5 bits locations in [0,64), using 6 of the input bits per location. I can create the word using a function such as this one&hellip;
 ```C
-std::function<uint64_t(uint64_t)> fingerprint5 = [](uint64_t x) { 
-       return (uint64_t(1) << (x&63)) 
-            | (uint64_t(1) << ((x>>6)&63)) 
-            | (uint64_t(1) << ((x>>12)&63)) 
+std::function<uint64_t(uint64_t)> fingerprint5 = [](uint64_t x) {
+       return (uint64_t(1) << (x&63))
+            | (uint64_t(1) << ((x>>6)&63))
+            | (uint64_t(1) << ((x>>12)&63))
             | (uint64_t(1) << ((x>>18)&63))
             | (uint64_t(1) << ((x>>24)&63));
     };

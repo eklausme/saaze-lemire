@@ -8,7 +8,8 @@ title: "My favorite posts from 2011"
 January:
 
 - [Innovating without permission](/lemire/blog/2011/01/17/innovating-without-permission/)
-- [Not even eventually consistent](/lemire/blog/2011/01/31/not-even-eventually-consistent/)
+- [Not even eventually consistent](/lemire/blog/2011/01/31/not-even-eventually-consistent/) 
+
 
 February:
 

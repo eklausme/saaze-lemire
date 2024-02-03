@@ -16,3 +16,4 @@ Paul Graham tells us [Why There Aren&rsquo;t More Googles](http://www.paulgraham
 I challenge program committees: the __list of accepted paper should be diverse__. If you see strong clusters of similar ideas, and most prestigious conferences have them, then you have failed to foster the next scientific breakthrough.
 
 You may object: surely, if an idea is any good, it will survive rejection by a program committee or two? Of course it will, but if you did not encourage crazy research, it may come much later.
+

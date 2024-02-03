@@ -11,6 +11,7 @@ Steve Jobs just introduced the [MacBook Air](https://en.wikipedia.org/wiki/MacBo
 
 
 This follows recent announcements by storage vendors such as IBM and EMC who have started offering solid-state drives for enterprise needs.
+
 Solid-state drives are compelling:
 
 - Solid-state drives have access speeds about 250 times faster.
@@ -21,6 +22,7 @@ Solid-state drives are compelling:
 
 
 I estimate that typical RAM is now only 10 or 20 times faster to access than a solid-state drive. These new drives lower the gap between internal and external memory.
+
 So, external memory becomes internal memory? Maybe not. For example, solid-state drives tend to have poor random write performance. You better write the data sequentially.
 
 __Disclaimer__. I wish I was an expert on solid-state drives, but I am not. Please correct me if I am wrong.

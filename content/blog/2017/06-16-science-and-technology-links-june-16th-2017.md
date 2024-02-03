@@ -36,6 +36,7 @@ You can find melatonin at your local drug store or you can order it from Amazon.
 [WordPress (the company) is shutting down its San Francisco office](https://stackoverflow.blog/2017/02/20/stack-overflow-podcast-101-matt-mullenweg-on-open-source-blogs-and-beyonce/) because employees never show up, preferring to work from home. I tend to work mostly from home myself, and I might never leave my home, except that I have graduate students and postdoctoral fellows to meet, and I am also department chair, so I have to show up for meetings from time to time. This being said, for programming or writing, I am far more productive at home. If I were a full-time programmer, I would certainly expect my employer to let me work from home. Somewhat ironically, it is part of my job to try to entice graduate students to show up to our lab.
 
 When your skin gets red and your body aches, you are probably suffering from inflammation. It is a crude response from our immune system that helps us fight viruses and bacterias. We can suppress inflammation using something as simple as aspirin. However, inflammation is also involved in tissue repair. A [recent paper](http://www.pnas.org/content/early/2017/06/09/1705420114) shows that a protein that drives inflammation is critical for muscle regeneration.
+
 [Perutz wrote in Nature](http://www.nature.com/nature/journal/v399/n6734/full/399299a0.html):
 
 > The number of scientists in the biomedical field is growing exponentially (&hellip;)

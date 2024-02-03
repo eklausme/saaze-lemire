@@ -14,3 +14,4 @@ Privacy is an illusion. Even if governments and businesses did not spy on us alr
 How can we fight back? Sadly, I believe we will need to change our expectations. Lots of people will know about your secrets, get used to it. If you have cancer, people will learn about it. If you cheated on your wife, people will know. We are moving toward Brin&rsquo;s [transparent society](https://en.wikipedia.org/wiki/The_Transparent_Society) whether we like it or not.
 
 As for Google&hellip; unlike the Chinese government and the NSA, Google has given me powerful tools to offset my loss of privacy.
+

@@ -32,7 +32,7 @@ uint64_t c = UINT64_C(0xFFFFFFFFFFFFFFFF) / d + 1;
 // fastmod computes (n mod d) given precomputed c
 uint32_t fastmod(uint32_t n ) {
   uint64_t lowbits = c * n;
-  return ((__uint128_t)lowbits * d) >> 64; 
+  return ((__uint128_t)lowbits * d) >> 64;
 }
 ```
 
@@ -44,7 +44,7 @@ uint64_t c = 1 + UINT64_C(0xffffffffffffffff) / d;
 
 // given precomputed c, checks whether n % d == 0
 bool is_divisible(uint32_t n) {
-  return n * c <= c - 1; 
+  return n * c <= c - 1;
 }
 ```
 

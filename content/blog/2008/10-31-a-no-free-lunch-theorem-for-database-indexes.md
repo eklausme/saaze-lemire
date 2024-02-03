@@ -6,6 +6,7 @@ title: "A no free lunch theorem for database indexes?"
 
 
 As a trained mathematician, I like to pull back and ask what are the fundamental limitations I face.
+
 A common misconception in our Google-era is that database performance is a technical matter easily fixed by throwing enough hardware at the problem. We apparently face no fundamental limitation. To a large extend, this statement is correct. Thanks to the [B-tree](https://en.wikipedia.org/wiki/B-tree) and related data structures, we can search for most things very quickly. Roughly, the database problems are solved, as long as you consider only a specific type of queries: queries targeting only a small subset of your data.
 
 What if you want to consider more general queries? Can you hope to find a magical database index that solves all your problems?
@@ -20,5 +21,6 @@ I draw your attention to how limited your interaction with tools that produce ag
 What if you want to consider general queries, and still get fast results? Then you have to assume something about your data. I suggest you assume that your data is highly compressible. [Run-length encoding](http://arxiv.org/abs/0808.2083) has been shown to help database queries tremendously.
 
 Short of these two types of assumptions (specific queries or specific data sets), the only way you can improve the current indexes is by constant factors&#8212;you can double the performance of existing B-tree indexes, maybe. Or else, you can throw in more CPUs, more disks, and more memory.
+
 For now, I will stick with my puny computers, and I will assume that the data is highly compressible. It seems to work well in real life.
 

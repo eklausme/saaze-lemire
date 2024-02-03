@@ -8,10 +8,13 @@ title: "On human intelligence&#8230; a perspective from computer science"
 Whenever I read social scientists, there is often, implicit in the background, the concept of &ldquo;intelligence&rdquo; as a well defined quantity. I have some amount of intelligence. Maybe you have a bit more.
 
 But what does computer science have to say about any of this? That is, what is this &ldquo;intelligence&rdquo; we are talking about?
-- Except for storage capabilities (memory) and speed, all hardware is equivalent. Though I don&rsquo;t know much about biology, I doubt that any brain runs at twice the speed of another brain. We are left with memory as a constraint. However, what computer science tells us is that you can always extend your memory with external support (in this case, use a pen and paper, or just Google) and all it might do is slow you down. Thus, it would seem that the main difference between individuals ought to be speed: some people may learn faster than others, or execute some tasks faster.- There can be huge differences in software, but software can be upgraded.
+
+- Except for storage capabilities (memory) and speed, all hardware is equivalent. Though I don&rsquo;t know much about biology, I doubt that any brain runs at twice the speed of another brain. We are left with memory as a constraint. However, what computer science tells us is that you can always extend your memory with external support (in this case, use a pen and paper, or just Google) and all it might do is slow you down. Thus, it would seem that the main difference between individuals ought to be speed: some people may learn faster than others, or execute some tasks faster. 
+- There can be huge differences in software, but software can be upgraded.
 
 
 If one human being can do something intellectually, then most other human beings can also do it, albeit more slowly. They may need more tools, and they may require more time&hellip; but that is all. Yet, given that we have more sophisticated tools with each year that passes, I would expect that the difference in &ldquo;human intelligence&rdquo;, whatever it is, ought to diminish in important with time.
+
 I expect that what sets people apart is not this ill-defined intelligence, but rather pure grit. If you want to do something, but you apparently lack the &ldquo;intelligence&rdquo; to do it, then it may simply be a matter of finding or building the right tools.
 
 In some sense, this is what software is all about: extending our intelligence.

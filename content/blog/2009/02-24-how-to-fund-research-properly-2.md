@@ -13,5 +13,6 @@ I think that the government is misguided:
 
 - In most fields, too many successful graduate students fall out of the system after graduation. We have to create more research jobs. Reliance on slave labour (such as students) may suit the tenured professors on the short term, but it hurts us all on the long term by making the job market unbalanced. Also, unlike professors, government researchers do not train new Ph.D. students. Hence, __g____overnment research jobs are essential in keeping the job market healthy on the long run.__ __We should massively invest in government research laboratories!__
 - Grant money should not be locked down for equipment when salaries are needed. Currently, some Canadian professors can afford to buy 200 desktops, but pay only for 10 researchers. By preventing professors from converting grants to salaries, it makes the job market worse! Often, we need more post-doctoral fellowships, not more desktops! __The government should encourage professors to create more post-doctoral positions.__
-- Schools are already rejecting MBA students for lack of space. __Diverting science funding to offer MBA students scholarships is almost certainly wasteful.__
+- Schools are already rejecting MBA students for lack of space. __Diverting science funding to offer MBA students scholarships is almost certainly wasteful.__ 
+
 

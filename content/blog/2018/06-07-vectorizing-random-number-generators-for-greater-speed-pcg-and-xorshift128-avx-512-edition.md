@@ -6,6 +6,7 @@ title: "Vectorizing random number generators for greater speed: PCG and xorshift
 
 
 Most people designing random number generators program using regular code. If they are aiming for speed, they probably write functions in C. However, our processors have fast &ldquo;vectorized&rdquo; (or SIMD) instructions that can allow you to go faster. These instructions do several operations at once. For example, recent Skylake-X processors from Intel can do eight 64-bit multiplications with a single instruction.
+
 [There is a vectorized version of the Mersenne Twister generator](https://link.springer.com/chapter/10.1007/978-3-540-74496-2_36) used in some C++ standard libraries, but the Mersenne Twister is not particularly fast to begin with.
 
 What happens if we vectorize really fast generators?
@@ -25,6 +26,7 @@ SIMD PCG                 |1.0 cycles per 32-bit word |
 
 
 In these tests, I simply write out the random number to a small array in cache. I only measure raw throughput. To get these good results, I &ldquo;cheat&rdquo; a bit by interleaving several generators in the vectorized versions. Indeed, without this interleave trick, I find that the processor is almost running idle due to data dependencies.
+
 My C code is available:
 
 - [simdpcg: a vectorized version of the PCG random number generator](https://github.com/lemire/simdpcg)

@@ -13,9 +13,11 @@ title: "IT Curriculum Committee Seeks Input on Guidelines"
 The report is very long (over a 100 pages) and the stupid &ldquo;draft&rdquo; image on each page makes it harder to browse.
 
 This makes me hopeful that IT will grow to become a respectable discipline.
+
 > In the report, IT is defined as an academic discipline that encompasses all aspects of computing technology. As a discipline, IT focuses on &ldquo;meeting the needs of users within an organizational and societal context through the selection, creation, application, integration and administration of computing technologies.&rdquo;
 
 
 To me, this is one half of Computer Science jobs, the other half being Software Engineering-related. However, IT is hard to outsource, is needed by almost all companies and can be a key component of a smart company.
 
 Reading the report, it looks like programs following this guideline will be both fun and challenging.
+

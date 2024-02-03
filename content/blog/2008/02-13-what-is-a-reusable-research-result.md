@@ -19,3 +19,4 @@ When reviewing a paper, it might difficult to determine if the research result i
 Because most scientists work on a small set of problems at any given time, and have often some experience in one or two fields, at most, I do not think they are very good at judging the reusability of a result.
 
 Back when Object-Oriented Programming (OOP) was the next big thing, it was believed that building reusable objects would be a relatively easy thing. Inheritance was touted as a way to build up on existing objects that you could keep on reusing. In practice, what people reuse are libraries and APIs, but few people reuse their own objects again and again. __We have learned that building reusable objects is hard__ and it is very often the result of collaborative work.
+

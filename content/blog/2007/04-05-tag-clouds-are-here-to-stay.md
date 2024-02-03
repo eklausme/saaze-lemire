@@ -6,9 +6,11 @@ title: "Tag clouds are here to stay"
 
 
 I was chatting with a friend from NRC-CISTI this morning. He said he was not very keen on [tag clouds](https://en.wikipedia.org/wiki/Tag_clouds). (If you do not know what a tag cloud is, follow the [link](https://en.wikipedia.org/wiki/Tag_clouds)!)
+
 I must admit that I rarely use tag clouds. This is usually a bad sign in IT: if you are not using a new gadget, maybe nobody is. A good example are PDAs. I once belonged to a lab. where everyone owned an expensive PDA. Nobody used them. PDAs have since gone out of fashion. I must be the only PDA user left in Montreal. Ontologies are another such example: some labs are producing ontologies, but I do not know anyone actually using ontologies for real work.
 
 But I think that several people are, indeed, using tag clouds and that they will stick around. And yes, I have an argument coming later.
+
 Let us review what tag clouds can do for you:
 
 - provide an intuitive, easy-to-use, bird eye&rsquo;s view;

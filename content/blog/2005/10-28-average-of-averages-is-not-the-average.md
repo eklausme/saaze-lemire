@@ -33,3 +33,4 @@ The average of the second list is approximately 5.2:
 However, the average of the two average is (5.2 +3.5)/2 which is less than 4.5!
 
 This only works if the two sets have a different number of elements.
+

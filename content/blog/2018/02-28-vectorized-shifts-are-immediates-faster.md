@@ -22,6 +22,7 @@ void scalarshift(uint32_t *array, size_t N,  int shift) {
 Thankfully, there is also a version of this instruction that takes a non-immediate value, but it must be passed as a vector register: you store the shift count in the first few bits of the vector register.
 
 More recent processors can do variable shifts. Thus given the vectors [1,2,3,4] and [7,8,9,10], one could compute [1&lt;&lt;7, 2&lt;&lt;8, 3&lt;&lt;9, 4&lt;&lt;10] in one instruction. And the vector [7,8,9,10] does not need to be known at compile time.
+
 For some reason, Intel has preserved the older form of the instructions. If you have an immediate integer, you can shift with it. This saves you from having to populate a shift vector and explicitly occupying a register.
 
 But is using immediate integers when possible worth it from a performance point of view? Agner Fog&rsquo;s instruction table shows little difference between the two forms of the instruction, but I wanted to check for myself. Thus I wrote two versions of the same code, shifting a whole array.

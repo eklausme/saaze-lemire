@@ -8,6 +8,7 @@ title: "For greater speed, try batching your out-of-cache data accesses"
 In software, we use hash tables to implement sets and maps. A hash table works by first mapping a key to a random-looking address in an array.
 
 In a recent series of blog posts ([1](/lemire/blog/2018/03/28/when-accessing-hash-tables-how-much-time-is-spent-computing-the-hash-functions/), [2](/lemire/blog/2018/03/29/should-you-cache-hash-values-even-for-trivial-classes/), [3](/lemire/blog/2018/04/04/caching-hash-values-for-speed-swift-language-edition/)), I have documented the fact that precomputing the hash values often accelerates hash tables.
+
 Some people thought that I was merely making the trivial point that precomputing the hash values saved you the time to compute the hash values. That is true, but there is more to it.
 
 On recent Intel processors, batching your load requests can be very helpful. Let me illustrate with some code.
@@ -28,6 +29,7 @@ uint32_t murmur32(uint32_t h) {
 This function is not very expensive, but it is efficient at generating random-looking outputs.
 
 In a complete loop, it takes between 7 and 8 cycles to compute and store a bunch of these hash values (modulo the array size) using a recent Intel processor.
+
 Let us put this function to good use to randomly go pick up values in a large array and sum them up:
 ```C
 uint64_t sumrandom(uint64_t *values, size_t size) {

@@ -19,13 +19,13 @@ A possible intuition is that wrapping an array with an high-level interface shou
 
 Because I am making an empirical statement, let us test it out empirically with the simplest test I can imagine. I am going to add one to every element in the array/IntBuffer.
 ```C
-for(int k = 0; k  < s.array.length; k++) { 
+for(int k = 0; k  < s.array.length; k++) {
     s.array[k] += 1;
 }
 ```
 
 ```C
-for(int k = 0; k  < s.buffer.limit(); k++) { 
+for(int k = 0; k  < s.buffer.limit(); k++) {
     s.buffer.put(k, s.buffer.get(k) + 1);
 }
 ```

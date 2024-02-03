@@ -13,11 +13,11 @@ The simdutf library is able to benefit from the latest and most powerful instruc
 
 I do not yet have a Zen 4 processor, but Velu Erwan was kind of enough to benchmark it for me. A reasonable task is to transcode an Arabic file from UTF-8 to UTF-16: it is typically a non-trivial task because Arabic UTF-8 is a mix of one-byte and two-byte characters that we must convert to two-byte UTF-16 characters (with validation). The steps required (under Linux) are as follows:
 ```C
-git clone https://github.com/simdutf/simdutf && 
-cd simdutf && 
-cmake -B build && cmake --build build && 
-wget –content-disposition https://cutt.ly/d2cIxRx && 
-./build/benchmarks/benchmark -F Arabic-Lipsum.utf8.txt -P convert_utf8 
+git clone https://github.com/simdutf/simdutf &&
+cd simdutf &&
+cmake -B build && cmake --build build &&
+wget –content-disposition https://cutt.ly/d2cIxRx &&
+./build/benchmarks/benchmark -F Arabic-Lipsum.utf8.txt -P convert_utf8
 ```
 
 

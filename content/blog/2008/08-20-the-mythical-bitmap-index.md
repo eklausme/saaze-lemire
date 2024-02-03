@@ -28,7 +28,9 @@ I am not saying that bitmap indexes are always the best solution. Of course not!
 Then why does the bitmap index article on wikipedia suggests otherwise? Because it is all over the blogosphere and posting boards&hellip; because when I tried to fix the wikipedia article, my changes got reverted. So, I post my rebuttal here. If you have practical evidence that bitmap indexes mostly work well when you have 2-3 attribute values, let us see it. Otherwise, help me kill this myth!
 
 __Further reading__:
-- Daniel Lemire, Owen Kaser, Kamel Aouiche, [Sorting improves word-aligned bitmap indexes](http://arxiv.org/abs/0901.3751). Data &#038; Knowledge Engineering 69 (1), pages 3-28, 2010.- [When is a bitmap faster than an integer list?](/lemire/blog/2012/10/23/when-is-a-bitmap-faster-than-an-integer-list/)
+
+- Daniel Lemire, Owen Kaser, Kamel Aouiche, [Sorting improves word-aligned bitmap indexes](http://arxiv.org/abs/0901.3751). Data &#038; Knowledge Engineering 69 (1), pages 3-28, 2010. 
+- [When is a bitmap faster than an integer list?](/lemire/blog/2012/10/23/when-is-a-bitmap-faster-than-an-integer-list/)
 - [JavaEWAH](https://code.google.com/p/javaewah/): a compressed bitmap library in Java
 
 

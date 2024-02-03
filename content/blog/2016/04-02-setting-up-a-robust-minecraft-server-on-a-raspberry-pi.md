@@ -130,7 +130,7 @@ It will take forever again. Go drink more coffee. Once the server return the com
 ```C
 if ! screen -list | grep -q "minecraft"; then
   cd /home/pi/minecraft
-  screen -S minecraft -d -m java -jar  -Xms512M -Xmx1008M spigot-1.16.5.jar nogui 
+  screen -S minecraft -d -m java -jar  -Xms512M -Xmx1008M spigot-1.16.5.jar nogui
 fi
 ```
 

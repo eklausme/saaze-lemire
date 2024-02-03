@@ -10,7 +10,9 @@ I can&rsquo;t find these on my blog anymore, so I&rsquo;m reposting them. I comp
 >If you need DOM documentation for XML (XHTML in Gecko<br/>
 is treated as pure XML), you will find it here:
 
-- [http://www.mozilla.org/docs/dom/](https://developer.mozilla.org/en-US/docs/Web/API/Document_Object_Model)- [ http://www.mozilla.org/docs/dom/domref/](https://developer.mozilla.org/en-US/docs/Web/API/Document_Object_Model)
+- [http://www.mozilla.org/docs/dom/](https://developer.mozilla.org/en-US/docs/Web/API/Document_Object_Model) 
+- [ http://www.mozilla.org/docs/dom/domref/](https://developer.mozilla.org/en-US/docs/Web/API/Document_Object_Model) 
+
 
 A few other useful links are here:
 

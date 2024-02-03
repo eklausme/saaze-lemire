@@ -6,6 +6,7 @@ title: "Research questions about&#8230; tag clouds?"
 
 
 [Tag clouds](https://en.wikipedia.org/wiki/Tag_clouds) are graphical representations of attributes and their relative importance. In a [recent paper](http://arxiv.org/abs/0710.2156), we have argued that tag clouds might help bridge the gap between collaboration and [Business Intelligence](https://en.wikipedia.org/wiki/Business_Intelligence).
+
 Here are some fun things to do with tag clouds:
 
 - In [our paper,](http://arxiv.org/abs/0710.2156) a tag cloud computation is the equivalent of an approximate orthogonal top-k range query. There has been little work in this area. We propose error measures for this problem. Our own approach is based on the pre-computation of icebergs.

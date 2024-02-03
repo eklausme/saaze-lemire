@@ -10,7 +10,7 @@ A reader (Richard Ebeling) invited me to revisit an older blog post: [Parsing fl
 char * string = "3.1416";
 char * string_end = string;
 double x = strtod(string, &string_end);
-if(string_end == string) { 
+if(string_end == string) {
   //you have an error!
 }
 ```
@@ -19,7 +19,7 @@ if(string_end == string) {
 &hellip; to something more modern in C++17&hellip;
 ```C
 std::string st = "3.1416";
-double x; 
+double x;
 auto [p, ec] = std::from_chars(st.data(), st.data() + st.size(), x);
 if (p == st.data()) {
       //you have errors!

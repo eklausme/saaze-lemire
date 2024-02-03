@@ -63,8 +63,10 @@ Triple                   |BufferedTriple           |
 [My code is available](https://github.com/lemire/Code-used-on-Daniel-Lemire-s-blog/tree/master/2018/03/29).
 
 I should add that Java&rsquo;s hash tables re-hash the hash values that we provide, so the benefits of the cached hash value are less than they could be.
+
 Moreover, Strings have cached hash values by default in Java. I&rsquo;m definitively not the first to notice that caching hash values can be valuable.
 
 I should add that this was not the point that I wanted to make in my original blog post. I do not particularly care whether you cache your hash values. The point I wanted to make is that even something as cheap as the computation of a hash value can be a limiting factor, even when you have lots of data in RAM.
 
 __Further reading__: [For greater speed, try batching your out-of-cache data accesses](/lemire/blog/2018/04/12/for-greater-speed-try-batching-your-out-of-cache-data-accesses/)
+

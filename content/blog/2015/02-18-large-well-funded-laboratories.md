@@ -6,6 +6,7 @@ title: "Large well-funded laboratories&#8230;"
 
 
 Your intuition is probably that large well-funded research laboratories produce more research&hellip;
+
 One part of this intuition is flat out wrong. Small teams are consistently more productive:
 
 > (&hellip;) small sized laboratories are more productive. This result is consistent with the results previously obtained in the literature (&hellip;) ([Carayol and Matt, 2004](http://www.sciencedirect.com/science/article/pii/S004873330400071X))

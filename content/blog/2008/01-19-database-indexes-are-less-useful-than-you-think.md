@@ -9,7 +9,8 @@ An [index](https://en.wikipedia.org/wiki/Index_%28information_technology%29) hel
 
 But David DeWitt and and Michael Stonebraker failed to tell us about [schemas falling apart as you scale up](http://www.intertwingly.net/blog/2007/09/12/Dare-Takes-a-Look-at-CouchDB). To them, database theory took us out of the dark ages and these new kids are taking up back in caves. I have a different take:
 
-- Initially, you have a messy start-up. You do the accounting, Joe takes care of hiring the new staff and your wife answers the phone. This is an analogy to the early database days before schemas and relational models.- The company grows and you organize it clearly. You now have an IT department, an accounting department, and so on. This is analogous the classical database technology David and Michael say we should respect.
+- Initially, you have a messy start-up. You do the accounting, Joe takes care of hiring the new staff and your wife answers the phone. This is an analogy to the early database days before schemas and relational models. 
+- The company grows and you organize it clearly. You now have an IT department, an accounting department, and so on. This is analogous the classical database technology David and Michael say we should respect.
 - Eventually, you have 1500 employees, half of them working from home in India. Nobody knows how many IT departments you have or whether you have one at all. By analogy, as you scale up, the classical database schemas and indexes become much less useful.
 
 

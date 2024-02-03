@@ -23,7 +23,7 @@ Thanks to contributions from talented Intel engineers (Fangzheng Zhang and Weiqi
 
 Let us consider an interesting test where you seek to scan a whole file (spanning kilobytes) to find a value corresponding to some identifier. In simdjson, the code is as follows:
 ```C
-   auto doc = parser.iterate(json);    
+   auto doc = parser.iterate(json);
    for (auto tweet : doc.find_field("statuses")) {
       if (uint64_t(tweet.find_field("id")) == find_id) {
         result = tweet.find_field("text");

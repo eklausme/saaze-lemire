@@ -18,7 +18,8 @@ Not very difficult, is it? The C++ programming language, like many others, have 
 
 How does it fare against a very basic Fisher-Yates shuffle without any optimization whatsoever? To make sure that the comparison is fair, let us work with the same data (an array of strings) and use the same random number generator (I chose [PCG](http://www.pcg-random.org/)). To avoid caching issues, let us use a small array that fits in cache.
 
-Here is my unoptimized C++ code:```C
+Here is my unoptimized C++ code:
+```C
 template <class T>
 void  shuffle(T *storage, uint32_t size) {
     for (uint32_t i=size; i>1; i--) {
@@ -44,6 +45,7 @@ technique                |clock cycles per value   |
 So the textbook code is twice as fast as the standard C++ function.
 
 Why is that?
+
 It is often the case that [default random number generators are slow](/lemire/blog/2016/02/01/default-random-number-generators-are-slow/) due to concurrency issues. But we provide our own random number generators, so it should not be an issue.
 
 A cursory analysis reveals that the most likely reason for the slowdown is that the standard C++ library tends to use 64-bit arithmetic throughout (on 64-bit systems). I implicitly assume, in my textbook implementation, that you are not going to randomly shuffle arrays containing more than 4 billion elements. I don&rsquo;t think I am being unreasonable: an array of 4 billion <tt>std::string</tt> values would use at least 128 GB of RAM. If you need to shuffle that much data, you probably want to parallelize the problem. But, from the point of view of the engineers working on the standard library, they have to work with the requirements set forth by the specification. So 64-bit arithmetic it is! And that&rsquo;s how I can beat them without any effort.

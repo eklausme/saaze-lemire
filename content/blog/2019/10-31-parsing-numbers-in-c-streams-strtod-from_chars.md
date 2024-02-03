@@ -13,7 +13,7 @@ do {
     number = strtod(s, &end);
     if(end == s) break;
     sum += number;
-    s = end; 
+    s = end;
 } while (s < theend);
 ```
 

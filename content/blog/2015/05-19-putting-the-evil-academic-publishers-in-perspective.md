@@ -6,6 +6,7 @@ title: "Putting the evil academic publishers in perspective"
 
 
 Academic publishing is a bit of a perverted business. Let us recap what should be well known: professors write papers for free while publishers take the papers and resell them to universities for a large profit.
+
 I do hope to live one day in a world where everyone can have free access to all the research in the world. There is irony in the fact that the Internet gives us free access to junk and informercials, but asks us to pay for high-quality government-sponsored sources. Sadly, that is what we have right now.
 
 A common narrative is that universities are victims of this arrangement. They have to pay exorbitant prices to publishers, money that they would rather spend on their students.
@@ -33,3 +34,4 @@ Universities do not want to do away with their libraries and library budgets. No
 Many researchers are also very fond of publishers and librarians. They make researchers look good. I have yet to see one reputable academic calling for a library-free college. Most academics do not really want academic publishing to falter&hellip;
 
 It may be that Elsevier is an evil company run by a Satanist cult. But keep in mind that Microsoft has been called the evil empire. Speaking for myself, I do not really worry about either Elsevier or Microsoft being evil.
+

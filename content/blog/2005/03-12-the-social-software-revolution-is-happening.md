@@ -6,9 +6,11 @@ title: "The Social Software Revolution is happening!"
 
 
 What&rsquo;s the social software revolution? Well, I&rsquo;m not expert in social software, go see [Seb Paquet](http://radio-weblogs.com/0110772/) or [Stephen Downes](http://www.downes.ca). But my understanding is as follows.
+
 Software has long been seen as a way to support business processes or automate number crunching. Software has also been tool for providing services, such as entertainment (think video games) or telecommunication (think email or voice over IP), but also learning (see the Wavelet forum I host).
 
 So, a dating service can be seen as a service. I met my wife through an Internet dating service. Actually, more like a free posting board. This was back in 1998 and shortly after meeting we adopted a cat called Yahoo.
+
 But back then, my wife and I were a bit strange. It was still slightly shameful to use software to meet someone. Now, it is taken for granted.
 
 Using software to support one&rsquo;s social life, to support a community, is what I call using social software. It includes posting boards, blogs, wikis, chat rooms, and anything where people can meet and organize themselves. But just like a market is not a &ldquo;service&rdquo; per se, but rather a part of the community, social software finally becomes part of the community is no longer a service either. The provider/client paradigm doesn&rsquo;t really apply. If whoever owns the posting board closes it down or start charging money, the community will move to another posting board. The service provider is just not very important. Nobody cares who pays for my blog hosting or who actually hosts it, these things are invisible in the social software sense.

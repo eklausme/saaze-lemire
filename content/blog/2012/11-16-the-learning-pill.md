@@ -6,6 +6,7 @@ title: "The learning pill"
 
 
 [Shirky predicts](http://www.shirky.com/weblog/2012/11/napster-udacity-and-the-academy/) that the bulk of higher education is being disrupted the same way the music industry was disrupted by MP3 files.
+
 Should we believe him?
 
 Let us run a thought experiment. Instead of online lectures disrupting higher education, imagine that someone has invented a learning pill. That is, someone can extract the knowledge of experts and embed it in a pill: you take the pill, you are an expert. Your knowledge is perfect in every way right away. Essentially, you could acquire the knowledge of several advanced degrees in seconds by taking a single pill. Let us assume, to make the case even more compelling, that these pills cost nothing to produce and that they are without side-effect (except for the learning, of course).

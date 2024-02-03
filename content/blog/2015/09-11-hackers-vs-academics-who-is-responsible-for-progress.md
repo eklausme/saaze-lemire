@@ -6,6 +6,7 @@ title: "Hackers vs. Academics: who is responsible for progress?"
 
 
 Many years ago, I interviewed for a job at a nearby college. One of the professors started talking about how they were working to take the &ldquo;hacker spirit&rdquo; out of the students.
+
 At the time, I had not yet realized that most professors never build anything themselves. I had not realized that they are too busy managing others, filling out grant applications and so forth. I can be a very naive person.
 
 So I objected rather strongly. I think that the hacker spirit is what drives our progress. Much of our schooling is indeed designed to take the &ldquo;hacker spirit&rdquo; out of students, and that&rsquo;s a problem. We try to make students look more like academics, when we should encourage their hacker spirit.
@@ -29,6 +30,7 @@ Often, pessimists point out to the large sums that have been invested in a cure 
 Meanwhile, people narrow down our progress to information technology. Information technology is somehow special&hellip; progress is easier there somehow. Why is that? So you give a little bit of freedom to people who have the hacker spirit and you get giant leaps forward&hellip; Why might that be?
 
 Could it be that the hacker spirit is really want is responsible for our progress?
+
 My theory is that if you want to cure cancer or Alzheimer&rsquo;s, or if you want nuclear fusion, or bases on Mars&hellip; you need the hackers. You need people who are not primarily focused on looking good by self-promotion&hellip; you need people who thrive when they solve hard practical problems&hellip; you need people who only want to be recognized for what they have accomplished, not for what they say&hellip;
 
 And what makes me optimistic about the future is that the hackers are mostly winning. They are never on the news. They do not run for office. They do not have great YouTube channels. They do not run government laboratories. But they are slowing winning the cultural war.

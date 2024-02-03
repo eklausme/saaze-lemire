@@ -6,6 +6,7 @@ title: "Using a USB Palm Pilot with udev"
 
 
 Up until recently, udev, was a mystery to me, but I&rsquo;m starting to learn. Udev is a service you probably want running with recent kernels. What it does is to create a node in the /dev directory whenever a new device is recognized. So, if you plug your m500 Palm Pilot and press the sync button, hotplug will recognize the device and udev should create the node in /dev for you with whatever naming convention you prefer.
+
 First, before we name it, we want to figure out how the device looks to Linux, to do so press the sync button and do<br/>
 <code> lsusb -v | more </code>
 
@@ -30,6 +31,7 @@ and enter the following line:
 OWNER="lemire",GROUP="tty",MODE="0660"</code>
 
 This tells udev to create a node called m500 in /dev whenever this serial number is encountered. For extra points, I specify the ownership and permissions on the device. The device will appear as &ldquo;/dev/m500&rdquo;. You might have to type &ldquo;udevstart&rdquo; for the new rule to take effect, though I&rsquo;m unclear about this. Anyhow, press the sync button and check that /dev/m500 is created.
+
 Because /dev/m500 is created only when I press on the sync button and not before, software such as jpilot has a hard time because it doesn&rsquo;t want to wait on a non-existing device. To fix this problem, we simply create a symbolic link:
 
 <code>ln /dev/m500 /dev/pilot</code>

@@ -11,6 +11,7 @@ Tim Bray suggests that [Atom might be the new XML](http://www.tbray.org/ongoing/
 
 
 Ok. I&rsquo;ve written software using RSS and Atom before. To me, Atom appears like a rewrite of RSS. They annoyingly changed the name of some elements that have the same function, but for the most part, I see no progress here.
+
 Can anyone tell me why Atom is such a substantial step forward given that we already had RSS?
 
 A search on &ldquo;why is atom better&rdquo; in google gives me [one result](http://weblogtoolscollection.com/archives/2004/06/02/comparing-rss-20-and-atom-for-the-rest-of-us/). The author basically claims that Atom is better because RSS is tag soup.

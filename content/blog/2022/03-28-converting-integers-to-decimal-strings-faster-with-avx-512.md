@@ -77,7 +77,7 @@ void to_string_avx512ifma(uint64_t n, char *out) {
   __m512i zmmTen    = _mm512_set1_epi64(10);
   __m512i asciiZero = _mm512_set1_epi64('0');
 
-  __m512i ifma_const	= _mm512_setr_epi64(0x00000000002af31dc, 0x0000000001ad7f29b, 
+  __m512i ifma_const	= _mm512_setr_epi64(0x00000000002af31dc, 0x0000000001ad7f29b,
     0x0000000010c6f7a0c, 0x00000000a7c5ac472, 0x000000068db8bac72, 0x0000004189374bc6b,
     0x0000028f5c28f5c29, 0x0000199999999999a);
   __m512i permb_const	= _mm512_castsi128_si512(_mm_set_epi8(0x78, 0x70, 0x68, 0x60, 0x58,

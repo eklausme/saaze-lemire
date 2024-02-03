@@ -15,11 +15,13 @@ What defines our current era, more than anything else, is that it is obviously a
 
 I think that there are a few sane ways to deal with cognitive stretching:
 
-- Perfectionism is the first casualty of cognitive stretching: let go of the idea that you could perfectly master anything.- Cognitive stretching is fun, if you let it be: you should never have to feel bored anymore.
+- Perfectionism is the first casualty of cognitive stretching: let go of the idea that you could perfectly master anything. 
+- Cognitive stretching is fun, if you let it be: you should never have to feel bored anymore.
 - If you are a coach, a leader, a teacher or a manager: stop trying to give the illusion that you know it all.
 - If you are a student, assume that you know little and will always know little. Take pleasure in what you learn and stop worrying about everything you haven&rsquo;t learned.
 
 
 Cognitive stretching is not without controverse however. For example, many dedicated teachers have a somewhat difficult relationship with it. Introducing students to ideas that are likely to remain beyond them for years is often considered a bug. It is as if we were happy to let you make erotic movies, as long these movies ended up showing full frontal nudity. As the volume of porn on the web indicates, keeping nothing mysterious can be profitable. In this sense, these teachers have a point: it does please the crowds to reveal everything. People think they like straight-forward answers. People want to learn everything there is about software programming in 10 days. They want to learn the 7 secrets of the great managers.
+
 But the tension between full knowledge, and partial knowledge, is what keeps us going. I cannot remember a more dangerous intellectual experience than finishing my first course on classical mechanics and concluding that classical mechanics was simple. A few years later, I took another classical mechanics course where I failed the first test. I did end up with a good grade, but only after radically changing my appreciation of Newton&rsquo;s work. In a very real sense, my first course failed me. It gave me no appreciation for everything I did not know.
 

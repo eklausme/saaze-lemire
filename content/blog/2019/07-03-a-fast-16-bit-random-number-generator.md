@@ -9,7 +9,7 @@ In software, we often need to generate random numbers. Commonly, we use pseudo-r
 
 A simple generator is wyhash. It is a multiplication followed by an XOR:
 ```C
-uint64_t wyhash64_x; 
+uint64_t wyhash64_x;
 
 
 uint64_t wyhash64() {
@@ -28,7 +28,7 @@ It generates 64-bit numbers. I was recently asked whether we could build the equ
 
 What if you only wanted 16-bit integers and you wanted to follow the model of the `wyhash64` function? This might be useful if you are working with a limited processor and you only had modest needs. Here is my proposal:
 ```C
-uint16_t wyhash16_x; 
+uint16_t wyhash16_x;
 
 uint32_t hash16(uint32_t input, uint32_t key) {
   uint32_t hash = input * key;

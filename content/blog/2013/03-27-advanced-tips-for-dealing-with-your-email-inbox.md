@@ -11,6 +11,7 @@ One of the most important talk you can watch about managing your email is [Inbox
 
 __Even with spam filters, most email is junk.__
 I skip most emails. When emails are long, I will often read only the first few lines.
+
 __Email has become time sensitive.__
 It is silly but if you don&rsquo;t reply within the 24 hours, people get nervous. They assume that you have not gotten their email. They feel ignored or rejected. Yet I sometimes need to work undisturbed for many hours. Maybe I am in meetings, maybe I am working with a student, maybe I need to crank out code. Hence, if the email requires more time that I have, I write back that I will get back to it later. I never use automated responders as I think that they are spam. I actually write a personalized (but short) answer.
 

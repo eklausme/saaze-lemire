@@ -6,6 +6,7 @@ title: "Imagining the future trumps intelligence&#8230;"
 
 
 Whenever I meet young people, I alway stress how their future will be very different from the present.
+
 To anyone who lived through the first Great War (1914-1918), they would have thought that the Second World War, if it were to happen, would be quite similar in nature. But, in fact, nothing of the sort happened. The first Great War saw the soldiers stuck in place in dirty holes for years&hellip; the Second World War saw soldiers literally running forward (or away) on the battlefield.
 
 Importantly, the strategies that worked well in 1916 were totally obsolete by 1940. The difference between 1916 and 1940 is obvious to anyone who studies history. It should be equally obvious that the difference between 2016 and 2040 is going to much larger.

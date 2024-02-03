@@ -12,6 +12,7 @@ I pay taxes to Quebec and Canada. I carry a Canadian passport. I have to live by
 However, my Web persona is very different. My server (daniel-lemire.com) is hosted somewhere in the USA. I rarely think about the local laws. They are pretty much irrelevant. If Amazon.com were to cheat me, the first thing I would do, is to search the Web for similar cases using Google, not call the cops.
 
 The economy on the Web is very different from the economy off-the-grid.
+
 In a brick-and-mortar shops, a great deal of time is spent on having to deal with rules and obligations. If you want to improve your neighborhood, you probably should chat with a local politician. Starting a shop or a factory requires months of work and lots of paperwork.
 
 The Web (or the Internet at large) is very different. If you want to stop SPAM, the last thing you want to do is go to your local politician. There are rules, but the most important ones are not enforced by governments. There are no prisons, but people can setup filters to ignore you. Starting a shop or a web service can only take days. You can also tear down a service or an online shop in seconds.

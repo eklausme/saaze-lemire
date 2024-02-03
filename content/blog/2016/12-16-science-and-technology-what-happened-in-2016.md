@@ -29,6 +29,7 @@ __March:__
 [Google defeated the world champion at the board game of Go](http://www.cbc.ca/news/technology/alphago-ai-lee-sedol-1-of-5-1.3483020). With the defeat of Kasparov at the hands of IBM&rsquo;s Deep Blue 20 years ago, there is no longer any board game where human beings are superior to computers.
 
 [Google supplemented its Google Photo service with advanced artificial intelligence](http://www.csmonitor.com/Technology/2016/0324/How-Google-Photos-uses-machine-learning-to-create-customized-albums). If you are looking for pictures of your dog, Google can find them for you, without anyone ever entering metadata.
+
 __April:__
 [Europe has authorized a gene therapy to help cure children](http://www.medicaldaily.com/glaxosmithkline-gene-therapy-children-europe-380510). Soon enough, we will routinely use genetic engineering to cure diseases.
 
@@ -42,6 +43,7 @@ Foxconn, the company that makes the iPhone for Apple, has [replaced 60,000 emplo
 __July:__
 
 [Pokemon Go is the first massively popular augmented-reality game](/lemire/blog/2016/07/18/augmented-reality-becomes-mainstream/).
+
 China holds the first clinical trials of [CRISPR-based anti-cancer therapies](http://www.theverge.com/2016/7/21/12253302/first-human-crispr-trials-china-cancer).
 
 __August:__
@@ -63,6 +65,7 @@ Japan had 153 centenarians in 1963. [There are now over 60,000 centenarians in J
 [The iPhone 7 is just as fast as a 2013 MacBook Pro](http://daringfireball.net/linked/2016/09/14/geekbench-android-a10). That is, our best smartphones from 2016 can run some software just as fast as the best laptop from three years ago.
 
 [Software can now read mammograms more accurately than any doctor](http://www.houstonchronicle.com/local/prognosis/article/Houston-researchers-develop-artificial-9226237.php). Software is also faster and cheaper.
+
 [Google upgraded its &ldquo;Google Translate&rdquo; service using a new engine leveraging recent progress in &ldquo;deep learning&rdquo; algorithms](https://www.wired.com/2016/09/google-claims-ai-breakthrough-machine-translation/). The quality of the translations has been much improved. What is really impressive is that it works at &ldquo;Google scale&rdquo; meaning that all of us can use it at the same time.
 
 __October:__
@@ -91,5 +94,6 @@ It was generally believed that women eventually ran out of eggs and became irrev
 [Bones grown in a lab were successfully transplanted in human beings](http://www.reuters.com/video/2016/12/05/lab-grown-bones-successfully-transplante?videoId=370635787&#038;feedType=nl&#038;feedName=Technology&#038;videoChannel=6&#038;utm_term=US+Technology+Report&#038;utm_content=buffere4639&#038;utm_medium=social&#038;utm_source=twitter.com&#038;utm_campaign=buffer).
 
 We don&rsquo;t know exactly how long seabirds could live. It is hard work to study long-lived animals and it takes a long time (obviously). Biologists have encountered unexpected problems such as the fact that the rings that they use to tag the birds wear out faster than the birds do. In 1956, Chandler Robbins tagged an albatross. [The 66-year-old albatross laid an egg this year](https://www.theguardian.com/environment/2016/dec/10/worlds-oldest-known-seabird-lays-an-egg-at-age-of-66).
+
 Old people (in their 30s and 40s) can have young babies. Evidently, biological cells have a way to reset their age. Ten years ago (in 2006), [Shinya Yamanaka](https://en.wikipedia.org/wiki/Shinya_Yamanaka) showed how to do just that in the lab by activating only four genes. So no matter how old you are, I can take some of your cells and &ldquo;reset them&rdquo; so that they are &ldquo;young again&rdquo;. So far, however, nobody has known how to apply this to multicellular organism. [The New York Times reports](http://mobile.nytimes.com/2016/12/15/science/scientists-say-they-can-reset-clock-of-aging-for-mice-at-least.html) that researchers from the Salk Institute did just that. ([They have a video on YouTube](https://www.youtube.com/watch?v=2od1KdSBBuA&#038;feature=youtu.be).) By activating the four genes, they showed that they could rejuvenate human skin tissue in vitro, then they showed that they could extend the lifespan of mice.
 

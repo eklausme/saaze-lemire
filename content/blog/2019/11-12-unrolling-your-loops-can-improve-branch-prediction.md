@@ -35,7 +35,7 @@ We can unroll this loop: instead of generating one random number per loop iterat
     if ((randomval & 1) == 1)
       *out++ = randomval;
     howmany-=2;
-  }  
+  }
   while (howmany != 0) {
     uint64_t randomval = rng(howmany + seed);
     if ((randomval & 1) == 1)
@@ -43,7 +43,6 @@ We can unroll this loop: instead of generating one random number per loop iterat
     howmany--;
   }
 ```
-
 
 
 

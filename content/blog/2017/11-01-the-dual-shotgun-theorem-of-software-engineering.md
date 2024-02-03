@@ -25,6 +25,7 @@ You can pretty much recognize bad code without ever looking at it by asking the 
 We see companies collapsing under the weight of their software all the time. You have this company and it has not updated its software in the longest time&hellip; why is that? It might be that software updates are not a priority, but it could also very well be that they have 10 software engineers hard at work and achieving very little results because they are stuck in a pit of bad software.
 
 As a practical matter, it is simply not convenient to ask for small changes constantly to measure the quality of your code. In any case, how do you recognize in the abstract a &ldquo;small&rdquo; change? Is getting your corporate website to work on mobile a small or large change?
+
 The problem, also, is that really bad code grows out of sequences of small changes. Many small changes are bad ideas that should not get implemented.
 
 It is like a Heisenberg effect: to measure the code quality through many small changes, you have to change it in a way that might lead to poor code. What you would need to do it is to ask for small changes, have experts verify that they are small changes, and then immediately retract the request and undo the small change. That would work beautifully, I think, to ensure that you always have great code but your programmers would quickly resign. Psychologically, it is untenable.
@@ -37,6 +38,7 @@ As an alternative, I have the following conjecture which I call the dual-shotgun
 The proof? Code is not correct and fast on its own, you have to change it to make it correct and fast. If it is hard to change the code, it is hard to make it correct and fast.
 
 Let me define my terms.
+
 - Code is correct if it does what we say it does. If you are not a programmer, or if you are a beginner, you might think that it is a trivial requirement&hellip; but it is actually very hard. Code is never perfectly correct. It is impossibly hard to do anything non-trivial without having some surprises from time to time. We call them bugs.
 - Code is fast if another engineer doing a rewrite can&rsquo;t expect to produce equivalent software that is much faster without massive efforts. If you are programming alone or only starting out, you might think that your code is plenty fast&hellip; but if you work with great programmers, you might be surprised by how quickly they can delete whole pages of code to make it run 10x faster.
 

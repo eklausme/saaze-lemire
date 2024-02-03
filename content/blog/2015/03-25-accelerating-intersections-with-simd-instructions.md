@@ -14,6 +14,7 @@ Programmers should care about superscalarity because it impacts performance sign
 Superscalar execution is truly a wonderful piece of technology. It is amazing that our processors can reorder and regroup instructions without causing any bugs. And though you should be aware of it, it is mostly transparent: there is no need to rewrite your code to benefit from it.
 
 There is another great modern feature that programmers need to be aware of: most modern processors support [SIMD instructions](https://en.wikipedia.org/wiki/SIMD). Instead of, say, adding two numbers, they can add two _vectors_ of integers together. Recent Intel processors can add eight 32-bit integers using one instruction (<tt>vpaddd</tt>).
+
 It is even better than it sounds: SIMD instructions are superscalar too&hellip; so that your processor could possibly add, say, sixteen 32-bit integers in one CPU cycle by executing two instructions at once. And it might yet squeeze a couple of other instructions, in the same CPU cycle!
 
 Vectorization is handy to process images, graphics, arrays of data, and so on. However, unlike superscalar execution, vectorization does not come for free. The processor will not vectorize the computation for you. Thankfully, compilers and interpreters do their best to leverage SIMD instructions.
@@ -36,7 +37,8 @@ With this simple idea, we can accelerate a range of intersection algorithms with
 
 To learn more, you can [grab our paper](http://arxiv.org/abs/1401.6399) and [check out our C++ code](https://github.com/lemire/SIMDCompressionAndIntersection).
 
-__Reference__:<li>Daniel Lemire, Nathan Kurz, Leonid Boytsov, SIMD Compression and the Intersection of Sorted Integers, Software: Practice and Experience, 2015. ([arXiv:1401.6399](http://arxiv.org/abs/1401.6399))
+__Reference__:
+<li>Daniel Lemire, Nathan Kurz, Leonid Boytsov, SIMD Compression and the Intersection of Sorted Integers, Software: Practice and Experience, 2015. ([arXiv:1401.6399](http://arxiv.org/abs/1401.6399))
 
 __Further reading__: [Efficient Intersections of compressed posting lists thanks to SIMD instructions](http://searchivarius.org/blog/efficient-intersections-compressed-posting-lists-thanks-simd-instructions) by Leonid Boytsov.
 

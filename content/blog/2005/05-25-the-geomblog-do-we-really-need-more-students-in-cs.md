@@ -12,6 +12,7 @@ Suresh jumps into the [Do we really need more students in CS ?](http://blog.geom
 
 
 Actually, Suresh, I think that this already happened: the CS programs might not become more marketable, but new programs are created.
+
 Solution 1: Offer engineering degrees
 
 The engineering side of computer science has been growing stronger. At least in Canada, there is now a large number of software engineering degrees. Even tiny schools now offer both the CS and software engineering degree. [UQÃ€M](http://www.uqam.ca) has a dual degree (CS and software engineering).

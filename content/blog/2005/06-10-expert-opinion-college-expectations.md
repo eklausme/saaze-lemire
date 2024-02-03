@@ -11,6 +11,7 @@ title: "Expert Opinion: College expectations"
 
 
 What are you going to cede to the University of Phoenix or the Trump University? What exactly?
+
 To realize the dream of a university without job training, it seems to me you have to take away from universities medical schools (that&rsquo;s training), engineering schools (training again), architecture schools, nursing schools, business schools, communication schools, library science schools, software engineering schools, IT courses, environment sciences, forestry, meteorology&hellip;
 
 Ok, then you are left with Physics, Mathematics, Chemistry, History, Philosophy. Even Computer Science, once you&rsquo;ve taken out all the IT and software engineering will only remain as a shadow of its current self.

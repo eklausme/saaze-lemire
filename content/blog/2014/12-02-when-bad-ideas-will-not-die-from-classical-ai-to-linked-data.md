@@ -14,8 +14,11 @@ Collecting, curating and interpreting billions of predicates is a fundamentally 
 But bad ideas will not die so easily. The AI researchers who started out in the 70s have trained PhD students with their generous funding. These PhD students have grown up to become professors themselves, and the wheel keeps on turning. As long as there are academics finding these ideas appealing, there will be grants and professorships. The ivory tower will not let the reality intrude.
 
 Berners-Lee, inspired by these misguided researchers, proposed the Web as a way to revive the AI dream. For reasons having nothing to do with the original intent, the Web takes root and becomes ubiquitous.
+
 Using his newfound fame, Berners-Lee goes back to his original dream and promotes the Semantic Web. The web should embrace the original vision from the 70s: collect and maintain lots of facts and use a query engine to create intelligence.
+
 Ten years go by and hardly anything (outside academic conferences) comes out of this Semantic Web. Tens of thousands of research papers get written. Hardly anyone ever uses any of the technology produced and those who do achieve few useful results. Not to worry, Berners-Lee rebrand whatever remains as Linked Data.
+
 And the wheel keeps on turning&hellip;
 
 So when I am asked about the possibilities offered by Linked Data, I feel a great sorrow.

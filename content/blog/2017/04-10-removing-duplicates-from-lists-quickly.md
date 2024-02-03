@@ -18,12 +18,12 @@ You might assume that this result cannot be improved much. Let us see how fast w
 You can gain a little bit of efficiency over STL by writing your own function:
 ```C
 size_t unique(uint32_t *out, size_t len) {
-    if(len ==  0) return 0; 
+    if(len ==  0) return 0;
     size_t pos = 1;
     uint32_t oldv = out[0];
     for (size_t i = 1; i < len; ++i) {
         uint32_t newv = out[i];
-        if (newv != oldv) { 
+        if (newv != oldv) {
             out[pos++] = newv;
         }
         oldv = newv;
@@ -64,7 +64,7 @@ int _avx_unique_store(__m256i ov, __m256i nv, __m256i *o) {
     // next two lines rotate the value, so that last is first
     const __m256i mbom = _mm256_set_epi32(6,5,4,3,2,1,0,7);
     __m256i vT = _mm256_permutevar8x32_epi32(recon,mbom);
-    // we compare the newly generated vector with the original 
+    // we compare the newly generated vector with the original
     // comparing values with their preceeding values
     int M = _mm256_movemask_ps(_mm256_cmpeq_epi32(vT, nv));
     // N records how many values need to be kept
@@ -80,6 +80,7 @@ int _avx_unique_store(__m256i ov, __m256i nv, __m256i *o) {
 
 
 I realize that the vectorized code looks like gibberish but my goal is to assess the benefits over vectorization.
+
 With vectorization, we are fully one order of magnitude faster than STL&rsquo;s <tt>std::unique</tt> function.
 
 As usual, [my code is freely available on GitHub](https://github.com/lemire/Code-used-on-Daniel-Lemire-s-blog/tree/master/2017/04/10).

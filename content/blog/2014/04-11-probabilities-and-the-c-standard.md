@@ -6,6 +6,7 @@ title: "Probabilities and the C++ standard"
 
 
 The [new C++ standard](http://www.open-std.org/jtc1/sc22/wg21/docs/papers/2013/n3690.pdfâ€Ž) introduced hash functions and hash tables in the language (as &ldquo;unordered maps&rdquo;).
+
 As every good programmer should know, hash tables only work well if collisions between keys are rare. That is, if you have two distinct keys <em>k</em>1 and <em>k</em>2, you want their hash values <em>h</em>(<em>k</em>1) and <em>h</em>(<em>k</em>2) to differ most of the time.
 
 The C++ standard does not tell us how the keys are hashed but it gives us two rules:

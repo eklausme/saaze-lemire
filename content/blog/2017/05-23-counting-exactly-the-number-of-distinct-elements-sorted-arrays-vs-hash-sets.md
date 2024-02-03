@@ -31,11 +31,13 @@ size_t distinct_count_sort(const uint64_t * values, size_t howmany) {
 
 
 Which is best? Sorting has complexity <em>O</em>(<em>n</em> log <em>n</em>) whereas insertion in a hash set has expected constant time <em>O</em>(1). That would seem to predict that the hash set approach would always be best.
+
 However, there are many hidden assumptions behind textbook naive big-O analysis, as is typical. So we should be careful.
 
 Simple engineering considerations do ensure that as long as the number of distinct elements is small (say no larger than some fixed constant), then the hash set approach has to be best. Indeed, sorting and copying a large array with lots of repeated elements is clearly wasteful. There is no need for fancy mathematics to understand that scenario.
 
 But that&rsquo;s not the difficult problem that will give you engineering nightmares. The nasty problem is the one where the number of distinct elements can grow large. In that case, both the array and the hash set can become large.
+
 Which is best in that difficult case? [I wrote a small C++ benchmark which you can run yourself](https://github.com/lemire/Code-used-on-Daniel-Lemire-s-blog/blob/master/2017/05/23/uniquevalues.cpp).
 
 <em>N</em>               |hash set (cycles/value)  |array sort (cycles/value) |
@@ -52,5 +54,6 @@ So when there are many distinct values to be counted, sorting an array is an eff
 How can we understand this problem? One issue is that as the hash table becomes large, it comes to reside in RAM (as it no longer fits in CPU cache). Because of how hash sets work, each operation risks incurring an expensive cache miss. A single retrieval from RAM can take dozens of CPU cycles. Meanwhile, sorting and scanning an array can be done while avoiding most cache misses. It may involve many more operations, but avoiding cache misses can be worth it.
 
 What if I kept cranking up the data size (<em>N</em>)? Would the hash set ever catch up? It might not.
+
 The problem is the underlying assumption that you can access all memory using a constant time. That&rsquo;s not even close to true.
 

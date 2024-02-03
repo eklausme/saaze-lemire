@@ -18,6 +18,7 @@ Let us put aside the fact that there is clearly hype involved. It is a publicity
 But is there any meat?
 
 To put things in perspective, let us recall what the New York Times was telling us in 1997:
+
 > When or if a computer defeats a human Go champion, it will be a sign that artificial intelligence is truly beginning to become as good as the real thing. ([NYT 1997](http://www.nytimes.com/1997/07/29/science/to-test-a-powerful-computer-play-an-ancient-game.html))
 
 
@@ -35,13 +36,16 @@ Miles Brundage wrote a [critical analysis of the more recent incarnation of Alph
 Deep Blue, the system that defeated Kasparov, had 11 GFLOPS whereas a modern iPhone has close to 200 GFLOPS. A single GPU today can deliver about 7000 GFLOPS. So AlphaGo has computing capabilities that are maybe hundreds of thousands of times what Deep Blue had.
 
 This is aside from all the hardware used to train the software. Don&rsquo;t expect a JavaScript version of AlphaGo to run in your browser and to do well any time soon. AlphaGo runs on powerful hardware and makes full use of it.
+
 Simply put, we should not be surprised if we get qualitatively different results when we throw hundreds of time more power behind it.
 
 If &ldquo;all&rdquo; it takes to build superhuman intelligences is more hardware&hellip; and the ability to use it&hellip; then it is good news. Though hundreds of GPUs and thousands of CPUs is a lot, Google, Amazon, Microsoft, the NSA, Apple&hellip; could all throw a lot more power at the problem.
 
 Does it make sense that more computation power, coupled with relatively simple algorithms, could be the path to superhuman intelligence? Naively, I&rsquo;d ask why not?
+
 It looks like all we need is the right hardware, a regular team of great scientists and engineers, and a few short years. No need for great unpredictable conceptual breakthroughs. No need for thousands of people.
 
 I predict that if researchers today could look at the software of our personal assistants in the future, they would be disappointed. &ldquo;That&rsquo;s all it does? We knew about most of these techniques in 2016&hellip;&rdquo;
+
 __Update__: At its annual conference in May 2016, Google announced that AlphaGo has been running on custom hardware, the Tensor Processing Unit, which is reportedly [10 times faster](https://cloudplatform.googleblog.com/2016/05/Google-supercharges-machine-learning-tasks-with-custom-chip.html) than anything else on a per-Watt basis.
 

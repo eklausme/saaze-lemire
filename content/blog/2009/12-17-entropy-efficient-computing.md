@@ -17,5 +17,8 @@ Suppose I give you a problem, and I ask you to __solve it using as little entrop
 
 __Further reading__:
 
-- M. P. Frank, [Physical Limits of Computing](http://www.cise.ufl.edu/research/revcomp/physlim/plpaper.html), Computing in Science and Engineering, vol. 4 (3), May/June 2002, p. 16-25.- R. Landauer, [Irreversibility and Heat Generation in the Computing Process](http://domino.research.ibm.com/tchjr/journalindex.nsf/c469af92ea9eceac85256bd50048567c/8a9d4b4e96887b8385256bfa0067fba2?OpenDocument), IBM. Journal of Research and Development, vol. 5, no 3, 1961.- __(Updated)__ C. H. Bennett, [Logical reversibility of computation](http://www.dna.caltech.edu/courses/cs191/paperscs191/bennett1973.pdf), IBM journal of Research and Development, 1973.
+- M. P. Frank, [Physical Limits of Computing](http://www.cise.ufl.edu/research/revcomp/physlim/plpaper.html), Computing in Science and Engineering, vol. 4 (3), May/June 2002, p. 16-25. 
+- R. Landauer, [Irreversibility and Heat Generation in the Computing Process](http://domino.research.ibm.com/tchjr/journalindex.nsf/c469af92ea9eceac85256bd50048567c/8a9d4b4e96887b8385256bfa0067fba2?OpenDocument), IBM. Journal of Research and Development, vol. 5, no 3, 1961. 
+- __(Updated)__ C. H. Bennett, [Logical reversibility of computation](http://www.dna.caltech.edu/courses/cs191/paperscs191/bennett1973.pdf), IBM journal of Research and Development, 1973. 
+
 

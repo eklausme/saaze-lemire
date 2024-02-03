@@ -23,7 +23,7 @@ You can get pretty close to a division by log2(10) if you multiply by 9 and then
 
 Unfortunately, that is not quite good enough because we do not actually have the logarithm in base 2, but rather a truncated version of it. Thus you may need to do a off-by-one correction. The following code works:
 ```C
-    static uint32_t table[] = {9, 99, 999, 9999, 99999, 
+    static uint32_t table[] = {9, 99, 999, 9999, 99999,
     999999, 9999999, 99999999, 999999999};
     int y = (9 * int_log2(x)) >> 5;
     y += x > table[y];

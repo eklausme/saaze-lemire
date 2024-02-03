@@ -22,6 +22,7 @@ parser                   |canada                   |mesh                     |
 Importantly, the new approach should give the same exact results. That is, we are accurate.
 
 Can this help in the real world? I believe that the most popular CSV (comma-separate-values) parsing library in C# is probably CSVHelper. We patched CSVHelper so that it would use csFastFloat instead of the standard library. Out of a set of five float-intensive benchmarks, we found gains ranging from 2x to 8%. Your mileage will vary depending on your data and your application, but you should see some benefits.
+
 Why would you see only an 8% gain some of the time? Because, in that particular case, only about 15% of the total running time has to do with number parsing. The more you optimize the parsing in general, the more benefit you should get out of fast float parsing.
 
 [The package is available on nuget](https://www.nuget.org/packages/csFastFloat/).

@@ -15,6 +15,7 @@ Princeton University Dean of Engineering and Applied Science, Maria Klawe, [said
 Of course, some will want to distinguish Computer __Science__ and IT. I won&rsquo;t go there because a large number of Computer Science graduates (as well as other fields such as Physics for that matter) go into IT. It stands to reason that if you have no interest for IT, you might _consider_ a law or medicine major.
 
 Ok. But I still don&rsquo;t buy the TV show explanation. What about relatively modest salaries, long hours, and the macho caffeine-induced buzz? I&rsquo;m sure several women don&rsquo;t mind working 90 hours a week, but if you are to attract women to the IT profession, you better come up with better working conditions: higher salaries, lesser outsourcing threats, more flexible hours and so on.
+
 Maybe having fewer graduates might help the working conditions. Of course, we could always object that outsourcing will quickly compensate and keep wages low. Maybe. It is hard to predict where Information Technology will take us.
 
 However, it is true that Information Technology and Computer Science is really the current driver, or as Bill Gates said it:

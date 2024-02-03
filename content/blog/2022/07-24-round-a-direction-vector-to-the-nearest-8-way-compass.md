@@ -76,9 +76,9 @@ You can rewrite everything with the ternary operator to entice the compiler to p
   x = xneg ? -x : x;
   bool yneg = y < 0;
   y = yneg ? -y : y;
-  double outx = (x >= 0.923879532511286) ? 1 
+  double outx = (x >= 0.923879532511286) ? 1
     : 0.7071067811865475;
-  double outy = (y >= 0.923879532511286) ? 1 
+  double outy = (y >= 0.923879532511286) ? 1
     : 0.7071067811865475;
   outx = (y >= 0.923879532511286) ? 0 : outx;
   outy = (x >= 0.923879532511286) ? 0 : outy;
@@ -88,16 +88,15 @@ You can rewrite everything with the ternary operator to entice the compiler to p
 
 
 
-
 The clang compiler may produce an entirely branchless assembly given this code.
 
 But as pointed out by Samuel Lee in the comments, you can do even better&hellip; Instead of capturing the sign with a separate variable, you can just copy the pre-existing sign using a function like copysign (available in C, C#, Java and so forth):
 ```C
  double outx = fabs(x);
  double outy = fabs(y);
- outx = (outx >= 0.923879532511286) ? 1 
+ outx = (outx >= 0.923879532511286) ? 1
    : 0.7071067811865475;
- outy = (outy >= 0.923879532511286) ? 1 
+ outy = (outy >= 0.923879532511286) ? 1
    : 0.7071067811865475;
  outx = (posy >= 0.923879532511286) ? 0 : outx;
  outy = (posx >= 0.923879532511286) ? 0 : outy;
