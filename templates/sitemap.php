@@ -8,7 +8,7 @@ foreach ($collections as $collection) {
 		$modurl = $entry->data['url'];	// if data['url'] already has html suffix, then drop it
 		if (strlen($modurl) >= 6 && substr($modurl,-5) === '.html') $modurl = substr($modurl,0,-5);
 		$href = isset($collection->data['uglyURL']) ? $modurl . '.html' : $modurl;
-		printf("\t<url><loc>https://eklausmeier.goip.de%s</loc></url>\n", $href);
+		printf("\t<url><loc>https://eklausmeier.goip.de/lemire%s</loc></url>\n", $href);
 	}
 }
 ?>
